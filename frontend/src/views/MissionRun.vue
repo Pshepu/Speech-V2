@@ -7,6 +7,7 @@ import { speak } from '../composables/audio'
 import RecordButton from '../components/RecordButton.vue'
 import PlayButton from '../components/PlayButton.vue'
 import ScoreRing from '../components/ScoreRing.vue'
+import ClickableText from '../components/ClickableText.vue'
 
 const app = useApp()
 const route = useRoute()
@@ -32,6 +33,32 @@ const audioOnly = ref(false)
 const result = ref<any>(null)
 const finishing = ref(false)
 const chatEl = ref<HTMLElement | null>(null)
+const recBtn = ref<any>(null)
+const handsFree = ref(false)
+
+function maybeListen() {
+  // Manos libres: cuando el personaje termina de hablar, empezamos a escucharte.
+  if (handsFree.value && !complete.value && !failed.value && !outOfTurns.value && !result.value) {
+    setTimeout(() => recBtn.value?.start(), 250)
+  }
+}
+function toggleHandsFree() {
+  handsFree.value = !handsFree.value
+  if (handsFree.value) maybeListen()
+}
+
+// Autocorrección guiada: primero una pista, luego tú lo intentas (más eficaz que dar la respuesta).
+async function checkRetry(m: any) {
+  if (!m.retry?.trim()) return
+  m.checking = true
+  try {
+    const r = await api.post('/grammar/check-open', { lang: app.lang, type: 'fix', prompt: m.correction.original, answer: m.retry, expected: m.correction.corrected })
+    m.retryResult = r
+    m.revealed = true
+    if (r.correct) speak(m.retry, { voice: undefined })
+  } catch (e: any) { app.notify(e.message, 'error') }
+  m.checking = false
+}
 
 const training = computed(() => mode.value === 'entrenamiento')
 const EMO: Record<string, string> = { neutral: '😐', happy: '😄', friendly: '🙂', confused: '😕', suspicious: '🤨', annoyed: '😒', impatient: '😤', impressed: '🤩' }
@@ -55,12 +82,12 @@ onMounted(async () => {
   scroll()
 })
 
-function say(t: string) { speak(t, { voice: mission.value?.character?.voice }) }
+function say(t: string) { return speak(t, { voice: mission.value?.character?.voice }) }
 function scroll() { nextTick(() => chatEl.value?.scrollTo({ top: chatEl.value.scrollHeight, behavior: 'smooth' })) }
 
-async function send(content?: string) {
+async function send(content?: string): Promise<any> {
   const msg = (content ?? text.value).trim()
-  if (!msg || sending.value) return
+  if (!msg || sending.value) return null
   text.value = ''
   hint.value = null
   const userMsg: any = { role: 'user', content: msg }
@@ -79,14 +106,17 @@ async function send(content?: string) {
     complete.value = r.mission_complete
     failed.value = r.mission_failed
     outOfTurns.value = r.out_of_turns
-    say(r.reply)
+    sending.value = false
     scroll()
+    say(r.reply).then(maybeListen)
+    return userMsg
   } catch (e: any) {
     app.notify(e.message, 'error')
     messages.value.pop()
     text.value = msg
   }
   sending.value = false
+  return null
 }
 
 async function onRecorded(blob: Blob) {
@@ -94,8 +124,17 @@ async function onRecorded(blob: Blob) {
   try {
     const last = [...messages.value].reverse().find((m) => m.role === 'assistant')?.content || ''
     const r = await api.form('/stt', { audio: blob, lang: app.lang, prompt: last })
-    if (!r.text || r.no_speech > 0.7) app.notify('No te entendí. Intenta de nuevo, más cerca del micrófono.', 'error')
-    else await send(r.text)
+    transcribing.value = false
+    if (!r.text || r.no_speech > 0.7) {
+      app.notify('No te entendí. Intenta de nuevo, más cerca del micrófono.', 'error')
+      maybeListen()
+    } else {
+      // La pronunciación de tu frase se evalúa en paralelo (sin frenar la conversación).
+      const pron = api.form('/practice/assess', { audio: blob, text: r.text, lang: app.lang, mode: 'conversation', transcribe: '0' }).catch(() => null)
+      const um = await send(r.text)
+      const a = await pron
+      if (um && a) { um.pron = Math.round(a.score); um.pronTips = (a.tips || []).slice(0, 2) }
+    }
   } catch (e: any) { app.notify(e.message, 'error') }
   transcribing.value = false
 }
@@ -152,6 +191,8 @@ async function addVocab(v: any) {
         </div>
       </div>
       <div class="card stack">
+        <button class="btn" :class="{ primary: handsFree }" @click="toggleHandsFree">{{ handsFree ? '🎙️ Manos libres: ON' : '🎙️ Manos libres' }}</button>
+        <small class="muted">Habla y espera: se envía solo al detectar silencio, y vuelve a escucharte tras la respuesta.</small>
         <label class="row"><input type="checkbox" v-model="audioOnly" /> 🎧 Solo audio (ocultar texto)</label>
         <button class="btn" :disabled="finishing" @click="finish"><span v-if="finishing" class="spin"></span> 🏁 Terminar e ir al informe</button>
       </div>
@@ -165,6 +206,7 @@ async function addVocab(v: any) {
             <template v-if="m.role === 'assistant' && audioOnly && !m.reveal">
               <button class="btn sm" @click="m.reveal = true">👁️ Mostrar texto</button>
             </template>
+            <template v-else-if="m.role === 'assistant'"><ClickableText :text="m.content" /></template>
             <template v-else>{{ m.content }}</template>
             <div v-if="m.role === 'assistant'" class="tools">
               <button class="btn sm ghost" @click="say(m.content)">🔊</button>
@@ -173,9 +215,26 @@ async function addVocab(v: any) {
             </div>
             <div v-if="translations[i]" class="tr">{{ translations[i] }}</div>
           </div>
+          <div v-if="m.pron != null" class="pron" :class="m.pron >= 80 ? 'score-good' : m.pron >= 60 ? 'score-mid' : 'score-bad'"
+               :title="(m.pronTips || []).map((t: any) => `/${t.phone}/ en ${t.word}`).join(', ')">
+            🎙️ pronunciación {{ m.pron }}<span v-if="m.pronTips?.length"> · revisa {{ m.pronTips.map((t: any) => '/' + t.phone + '/').join(' ') }}</span>
+          </div>
           <div v-if="m.correction" class="correction">
-            💡 <s>{{ m.correction.original }}</s> → <b>{{ m.correction.corrected }}</b>
-            <div><small>{{ m.correction.explanation }}</small></div>
+            <template v-if="!m.revealed && m.correction.hint">
+              🤔 <b>Hay algo que corregir.</b> {{ m.correction.hint }}
+              <div class="row retry">
+                <input type="text" v-model="m.retry" placeholder="Escribe tu frase corregida…" @keydown.enter="checkRetry(m)" />
+                <button class="btn sm primary" :disabled="m.checking" @click="checkRetry(m)"><span v-if="m.checking" class="spin"></span> Comprobar</button>
+                <button class="btn sm ghost" @click="m.revealed = true">Ver solución</button>
+              </div>
+            </template>
+            <template v-else>
+              <div v-if="m.retryResult" :class="m.retryResult.correct ? 'score-good' : 'score-bad'">
+                <b>{{ m.retryResult.correct ? '✅ ¡Bien corregido!' : '❌ Casi.' }}</b> {{ m.retryResult.feedback }}
+              </div>
+              💡 <s>{{ m.correction.original }}</s> → <b>{{ m.correction.corrected }}</b> <PlayButton :text="m.correction.corrected" />
+              <div><small>{{ m.correction.explanation }}</small></div>
+            </template>
           </div>
           <div v-else-if="m.flag" class="correction subtle"><small>📝 Hay algo que mejorar aquí (lo verás en el informe)</small></div>
           <div v-if="m.newObjectives?.length" class="obj-done">🎯 ¡Objetivo cumplido!</div>
@@ -196,7 +255,7 @@ async function addVocab(v: any) {
       </div>
 
       <div class="composer">
-        <RecordButton label="Hablar" :busy="transcribing" :disabled="sending" :max-seconds="40" @recorded="onRecorded" />
+        <RecordButton ref="recBtn" label="Hablar" :busy="transcribing" :disabled="sending" :max-seconds="60" :auto-stop="handsFree" @recorded="onRecorded" />
         <input type="text" v-model="text" placeholder="…o escribe tu respuesta" :disabled="sending" @keydown.enter="send()" />
         <button class="btn primary" :disabled="!text.trim() || sending" @click="send()">Enviar</button>
         <button v-if="training" class="btn" :disabled="hintLoading" title="Pista" @click="getHint"><span v-if="hintLoading" class="spin"></span><span v-else>🆘</span></button>
@@ -277,6 +336,9 @@ async function addVocab(v: any) {
 .tr { margin-top: 6px; font-size: .9rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 6px; }
 .correction { margin-top: 6px; background: var(--warn-2); color: var(--text); padding: 8px 12px; border-radius: 10px; font-size: .92rem; max-width: 100%; }
 .correction.subtle { background: transparent; padding: 2px; }
+.retry { margin-top: 8px; flex-wrap: nowrap; }
+.retry input { flex: 1; min-width: 120px; padding: 6px 10px; }
+.pron { font-size: .78rem; margin-top: 3px; font-weight: 600; }
 .obj-done { margin-top: 6px; font-size: .85rem; color: var(--good); font-weight: 600; }
 .banner { display: flex; justify-content: space-between; align-items: center; padding: 12px 18px; gap: 10px; }
 .hint { padding: 10px 18px; border-top: 1px solid var(--border); background: var(--accent-2); }

@@ -41,6 +41,31 @@
     </div>
 
     <div class="card">
+      <h2>8. Corrección que te hace pensar (autocorrección guiada)</h2>
+      <p>Un metaanálisis de estudios en aula (Lyster y Saito, 2010) encontró que las correcciones que <b>te piden reformular</b> (una pista, una pregunta) funcionan mejor que darte directamente la frase correcta, sobre todo cuando luego tienes que hablar libremente. Por eso, en modo Entrenamiento, cuando te equivocas primero ves una <b>pista</b> e intentas corregirte tú, y después la solución.</p>
+    </div>
+
+    <div class="card">
+      <h2>9. Hablar en bloques: colocaciones, phrasal verbs y modismos</h2>
+      <p>Incluso los alumnos avanzados fallan con las combinaciones naturales de palabras (<i>make a decision</i>, no <i>do a decision</i>), y esto es lo que más delata a un no nativo. Los ejercicios explícitos con colocaciones ya seleccionadas ayudan. Los <b>paquetes avanzados</b> de Vocabulario y las tarjetas de expresiones (que repasas en dirección español → idioma) trabajan esto.</p>
+    </div>
+
+    <div class="card">
+      <h2>10. Escuchar para producir: resumen y dictogloss</h2>
+      <p>La lectura extensa aumenta el vocabulario, y más aún si se combina con actividades de producción. Por eso, tras cada audio o lectura, <b>resumes con tus palabras</b> y recibes corrección. El <b>dictogloss</b> (escuchar un texto corto dos veces y reconstruirlo) ha mostrado beneficios para la comprensión auditiva y la gramática, sobre todo desde nivel intermedio.</p>
+    </div>
+
+    <div class="card">
+      <h2>11. Medir para mejorar</h2>
+      <p>El nivel por destrezas suele ser desigual (por ejemplo, B2 leyendo y B1 hablando). “Mi nivel” mide cada destreza: un test de tamaño de vocabulario con pseudopalabras (según Milton, un C1 conoce aproximadamente 3.750-4.500 de las 5.000 palabras más frecuentes), pruebas de expresión oral y escrita con criterios de examen, y la comprensión estimada a partir de tus ejercicios. Así sabes qué te está frenando.</p>
+    </div>
+
+    <div class="card">
+      <h2>12. Volumen de práctica oral: modo manos libres</h2>
+      <p>Para hablar con fluidez hacen falta muchas horas hablando. El modo manos libres convierte la conversación en un diálogo continuo: hablas, se envía solo al detectar silencio, el tutor responde en voz alta y vuelve a escucharte. Además, cada frase que dices recibe una nota de pronunciación.</p>
+    </div>
+
+    <div class="card">
       <h3>Fuentes</h3>
       <ul class="muted">
         <li><a href="https://www.dliflc.edu/lang_day_globe_06" target="_blank">DLIFLC: inmersión y enseñanza basada en tareas</a></li>
@@ -50,6 +75,10 @@
         <li><a href="https://www.cambridge.org/core/product/E38D8F5CE65DC708137B0E95F97C6BC7" target="_blank">Metaanálisis: de la percepción a la producción, 2024</a></li>
         <li><a href="https://journal.uia.no/index.php/NJLTL/article/view/1139" target="_blank">Shadowing: teoría e investigación</a></li>
         <li><a href="https://www.lextutor.ca/cover/papers/schmitt_etal_2011.pdf" target="_blank">Schmitt et al. (2011): cobertura léxica y comprensión</a></li>
+        <li><a href="https://resolve.cambridge.org/core/journals/studies-in-second-language-acquisition/article/oral-feedback-in-classroom-sla/4999EE1C8379B2BF026B148EAF373CA1" target="_blank">Lyster y Saito (2010): corrección oral en el aula (metaanálisis)</a></li>
+        <li><a href="https://riunet.upv.es/handle/10251/107225" target="_blank">Colocaciones y alumnos avanzados</a></li>
+        <li><a href="https://scholar.kyobobook.co.kr/article/detail/4010022729890" target="_blank">Dictogloss: escucha y gramática</a></li>
+        <li><a href="https://www.open.edu/openlearncreate/mod/page/view.php?id=246463" target="_blank">Lectura extensa: resumen de la investigación</a></li>
       </ul>
     </div>
   </div>

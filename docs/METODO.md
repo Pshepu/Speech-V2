@@ -45,3 +45,35 @@ Resumen de la investigación revisada para diseñar la app, y en qué módulo se
 - Mejor sesiones cortas y diarias (racha, objetivo de minutos) que maratones.
 - **Intercalado**: alternar tipos de práctica en cada sesión.
 - **Feedback inmediato y concreto**: corrección en vivo en las misiones, por fonema en pronunciación y explicada en gramática y escritura.
+
+## 8. Corrección que te hace pensar → **autocorrección guiada en misiones y conversación**
+
+- El metaanálisis de Lyster y Saito (2010), con 15 estudios en aula y 827 alumnos, encontró que las correcciones que piden al alumno reformular (*prompts*) tienen más efecto que darle la forma correcta (*recasts*), sobre todo en la producción libre. ([Cambridge](https://resolve.cambridge.org/core/journals/studies-in-second-language-acquisition/article/oral-feedback-in-classroom-sla/4999EE1C8379B2BF026B148EAF373CA1))
+- **Aplicación**: en modo Entrenamiento, cuando cometes un error primero ves una **pista** sin la respuesta y escribes tu corrección. Después ves la solución.
+
+## 9. Bloques léxicos → **paquetes avanzados (C1)**
+
+- Incluso los alumnos avanzados fallan con las colocaciones y las expresiones hechas, y los ejercicios explícitos con colocaciones seleccionadas ayudan. ([Jensen](https://riunet.upv.es/handle/10251/107225))
+- **Aplicación**: paquetes de phrasal verbs, modismos, colocaciones, conectores, vocabulario académico y registro formal/informal (en francés: expresiones, conectores, colocaciones, francés coloquial y vocabulario formal). Se repasan en dirección **español → idioma** (producción) y con su ejemplo.
+
+## 10. Producir después del input → **resumen y dictogloss**
+
+- La lectura extensa mejora el vocabulario, con más efecto cuando se combina con actividades de producción ([resumen](https://www.open.edu/openlearncreate/mod/page/view.php?id=246463)). El dictogloss ha mostrado beneficios para la escucha y la gramática, más claros desde nivel intermedio ([estudio coreano](https://scholar.kyobobook.co.kr/article/detail/4010022729890)).
+- **Aplicación**:
+  - Diálogos, pódcasts, noticias y entrevistas generados a tu nivel, con 2 hablantes de acentos distintos y velocidad ajustable.
+  - Primero escuchas sin texto, luego respondes preguntas (incluida una de sentido implícito) y después **resumes** (escrito o hablado) con corrección.
+  - Dictogloss.
+  - Puedes importar tus propios textos auténticos.
+
+## 11. Medir cada destreza → **Mi nivel**
+
+- Test de tamaño de vocabulario tipo sí/no con pseudopalabras, por franjas de frecuencia. Para pasar del tamaño estimado al nivel se usa la estimación de Milton (2010) sobre las 5.000 palabras más frecuentes: C1 ≈ 3.750-4.500.
+- Pruebas de expresión oral (palabras por minuto, pausas y pronunciación medidas automáticamente, más una evaluación con descriptores del MCER) y escrita (criterios tipo Cambridge: variedad, corrección, coherencia y tarea).
+- Comprensión auditiva y lectora estimadas con tus resultados según el nivel del material.
+
+## 12. Más horas hablando → **modo manos libres**
+
+- Hablas, se envía solo al detectar silencio, el tutor responde en voz y vuelve a escucharte.
+- Cada frase hablada recibe una nota de pronunciación por fonema.
+- Modos de conversación según la destreza: debate (argumentar), entrevista de trabajo, "explícamelo" (técnica Feynman), contar historias (tiempos del pasado), actualidad (matizar opiniones) y small talk.
+- El tutor recuerda lo que le contaste de ti para personalizar las charlas.

@@ -11,7 +11,7 @@ from fastapi.concurrency import run_in_threadpool
 from fastapi.responses import Response
 from pydantic import BaseModel
 
-from . import audio, config, content, db, g2p, llm, missions, planner, pronunciation, srs, stt, tts
+from . import assessment, audio, config, content, db, g2p, listening, llm, missions, planner, pronunciation, srs, stt, tts
 
 router = APIRouter(prefix="/api")
 TARGET = {"en": "English", "fr": "French"}
@@ -173,7 +173,7 @@ def _sentence_with_phoneme(lang: str, level: str, phoneme: str) -> dict | None:
 
 @router.post("/practice/assess")
 async def practice_assess(audio_file: UploadFile = File(..., alias="audio"), text: str = Form(...),
-                          lang: str = Form("en"), mode: str = Form("practice")):
+                          lang: str = Form("en"), mode: str = Form("practice"), transcribe: str = Form("1")):
     lang = L(lang)
     data = await audio_file.read()
     try:
@@ -194,7 +194,7 @@ async def practice_assess(audio_file: UploadFile = File(..., alias="audio"), tex
         result = await _assess_fallback(data, text, lang)
 
     # Transcripción con Whisper (opcional) para mostrar qué se entendió.
-    if llm.available() and result["engine"] == "phoneme":
+    if transcribe != "0" and llm.available() and result["engine"] == "phoneme":
         try:
             tr = await stt.transcribe(data, lang)
             result["transcript"] = tr["text"]
@@ -240,8 +240,10 @@ def _record_pron(lang: str, text: str, result: dict, mode: str):
             "ON CONFLICT(lang, phoneme) DO UPDATE SET attempts=attempts+1, total=total+?, recent=?",
             (lang, ph, sc, json.dumps(recent), sc, json.dumps(recent)),
         )
-    db.log_activity(lang, "pronunciation", xp=max(1, round(result["score"] / 20)), minutes=0.6,
-                    detail={"score": result["score"], "mode": mode})
+    # En conversación la pronunciación suma estadística de fonemas, pero no cuenta como ejercicio aparte.
+    if mode != "conversation":
+        db.log_activity(lang, "pronunciation", xp=max(1, round(result["score"] / 20)), minutes=0.6,
+                        detail={"score": result["score"], "mode": mode})
 
 
 @router.get("/practice/weak")
@@ -345,6 +347,76 @@ def add_bulk(b: BulkIn):
         srs.add_card(lang, "word", w["word"], w["translation"],
                      {"example": w.get("example"), "example_es": w.get("example_es"),
                       "pos": w.get("pos"), "level": w.get("level")}, "frequency")
+        added += 1
+    return {"added": added}
+
+
+@router.post("/cards/{card_id}/mnemonic")
+async def card_mnemonic(card_id: int):
+    """Truco para recordar una palabra difícil (palabra clave en español, cognado, imagen mental)."""
+    row = db.one("SELECT * FROM cards WHERE id=?", (card_id,))
+    if not row:
+        raise HTTPException(404, "tarjeta no encontrada")
+    extra = json.loads(row["extra"] or "{}")
+    if extra.get("mnemonic"):
+        return {"mnemonic": extra["mnemonic"]}
+    try:
+        res = await llm.json_call(
+            f"You help a Spanish speaker memorise {TARGET[row['lang']]} vocabulary. Create ONE short, vivid memory trick IN SPANISH: "
+            "use the keyword method (a Spanish word that sounds similar + a funny mental image linking it to the meaning), "
+            "or a cognate/etymology link if there is a good one. Max 2 sentences. Return ONLY JSON {\"mnemonic\": \"...\"}",
+            f"Word/expression: {row['front']}\nMeaning: {row['back']}",
+            model=config.LLM_FAST_MODEL, temperature=0.8, max_tokens=500,
+        )
+    except llm.LLMError as e:
+        _llm_error(e)
+    extra["mnemonic"] = res.get("mnemonic", "")
+    db.execute("UPDATE cards SET extra=? WHERE id=?", (json.dumps(extra, ensure_ascii=False), card_id))
+    return {"mnemonic": extra["mnemonic"]}
+
+
+@router.get("/packs")
+def packs_list(lang: str | None = None):
+    lang = L(lang)
+    have = {r["front"].lower() for r in db.query("SELECT front FROM cards WHERE lang=? AND kind='phrase'", (lang,))}
+    out = []
+    for p in content.packs(lang):
+        n_in = sum(1 for it in p["items"] if it["t"].lower() in have)
+        out.append({k: p[k] for k in ("id", "level", "title", "description")} | {"total": len(p["items"]), "in_deck": n_in})
+    return out
+
+
+@router.get("/packs/{pack_id}")
+def pack_get(pack_id: str, lang: str | None = None):
+    lang = L(lang)
+    p = next((p for p in content.packs(lang) if p["id"] == pack_id), None)
+    if not p:
+        raise HTTPException(404, "paquete no encontrado")
+    have = {r["front"].lower() for r in db.query("SELECT front FROM cards WHERE lang=? AND kind='phrase'", (lang,))}
+    return {**p, "items": [{**it, "in_deck": it["t"].lower() in have} for it in p["items"]]}
+
+
+class PackAdd(BaseModel):
+    lang: str = "en"
+    count: int = 15
+
+
+@router.post("/packs/{pack_id}/add")
+def pack_add(pack_id: str, a: PackAdd):
+    lang = L(a.lang)
+    p = next((p for p in content.packs(lang) if p["id"] == pack_id), None)
+    if not p:
+        raise HTTPException(404, "paquete no encontrado")
+    have = {r["front"].lower() for r in db.query("SELECT front FROM cards WHERE lang=? AND kind='phrase'", (lang,))}
+    added = 0
+    for it in p["items"]:
+        if added >= a.count:
+            break
+        if it["t"].lower() in have:
+            continue
+        srs.add_card(lang, "phrase", it["t"], it["es"],
+                     {"example": it.get("example"), "example_es": it.get("example_es"), "note": it.get("note"), "pack": pack_id},
+                     "pack")
         added += 1
     return {"added": added}
 
@@ -565,6 +637,32 @@ async def reading_generate(r: ReadingIn):
     return {"id": rid, "level": level, **res}
 
 
+class ImportIn(BaseModel):
+    lang: str = "en"
+    title: str = ""
+    text: str
+
+
+@router.post("/reading/import")
+def reading_import(i: ImportIn):
+    """Importa un texto propio (artículo, noticia, capítulo) para leerlo con traducción por toque y audio."""
+    lang = L(i.lang)
+    text = i.text.strip()[:20000]
+    if len(text) < 40:
+        raise HTTPException(400, "El texto es demasiado corto")
+    paras = [p.strip() for p in re.split(r"\n\s*\n|\r\n\r\n", text) if p.strip()]
+    if len(paras) == 1:  # sin párrafos: lo partimos cada ~4 frases
+        sents = re.split(r"(?<=[.!?])\s+", paras[0])
+        paras = [" ".join(sents[k:k + 4]) for k in range(0, len(sents), 4)]
+    title = i.title.strip() or (paras[0][:60] + "…")
+    data = {"title": title, "title_es": "", "paragraphs": [{"t": p, "es": ""} for p in paras],
+            "questions": [], "vocab": [], "imported": True}
+    level = db.get_setting(f"level_{lang}", "A1")
+    rid = db.execute("INSERT INTO readings(lang, level, title, data, ts) VALUES (?,?,?,?,?)",
+                     (lang, level, title, json.dumps(data, ensure_ascii=False), db.now_iso()))
+    return {"id": rid, "level": level, **data}
+
+
 @router.get("/reading/list")
 def reading_list(lang: str | None = None):
     return db.query("SELECT id, level, title, read_done, ts FROM readings WHERE lang=? ORDER BY id DESC LIMIT 50", (L(lang),))
@@ -590,6 +688,170 @@ def reading_done(rid: int, d: ReadingDone):
     db.execute("UPDATE readings SET read_done=1 WHERE id=?", (rid,))
     db.log_activity(row["lang"], "reading", xp=int(8 + d.score / 20), minutes=5, detail={"reading": rid, "score": d.score})
     return {"ok": True}
+
+
+# =====================================================================
+# Evaluación de nivel (MCER) por destreza
+# =====================================================================
+
+@router.get("/assessment/summary")
+def assessment_summary(lang: str | None = None):
+    return assessment.summary(L(lang))
+
+
+@router.get("/assessment/vocab-test")
+def assessment_vocab_test(lang: str | None = None):
+    return assessment.vocab_test(L(lang))
+
+
+class VocabTestIn(BaseModel):
+    lang: str = "en"
+    shown: list[str]
+    known: list[str]
+
+
+@router.post("/assessment/vocab-test")
+def assessment_vocab_score(v: VocabTestIn):
+    return assessment.score_vocab_test(L(v.lang), v.shown, v.known)
+
+
+@router.get("/assessment/prompt")
+def assessment_prompt(skill: str, lang: str | None = None, level: str | None = None):
+    lang = L(lang)
+    lvl = level or db.get_setting(f"level_{lang}", "A1")
+    p = assessment.PROMPTS.get(skill, {})
+    return {"skill": skill, "level": lvl, "prompt": p.get(lvl, p.get("B1", "")), "all": p}
+
+
+@router.post("/assessment/speaking")
+async def assessment_speaking(audio_file: UploadFile = File(..., alias="audio"), lang: str = Form("en"), prompt: str = Form(...)):
+    lang = L(lang)
+    data = await audio_file.read()
+    try:
+        tr = await stt.transcribe(data, lang)
+    except llm.LLMError as e:
+        _llm_error(e)
+    if len(tr["text"].split()) < 8:
+        raise HTTPException(422, "La grabación es demasiado corta o no se entendió. Habla al menos 30-60 segundos.")
+    words = tr["words"]
+    span = (words[-1]["end"] - words[0]["start"]) if len(words) > 1 else (tr.get("duration") or 1)
+    metrics = {
+        "words": len(words), "seconds": round(span),
+        "wpm": round(len(words) / (span / 60)) if span > 1 else 0,
+        "long_pauses": sum(1 for i in range(1, len(words)) if words[i]["start"] - words[i - 1]["end"] > 1.0),
+    }
+    # Pronunciación medida por el motor de fonemas sobre lo transcrito (si está disponible).
+    try:
+        if pronunciation.load():
+            x, _ = audio.wav_to_float(data)
+            pr = await run_in_threadpool(pronunciation.assess, audio.trim_silence(x), tr["text"][:600], lang)
+            metrics["pronunciation"] = pr["score"]
+    except Exception:
+        pass
+    try:
+        res = await assessment.evaluate_speaking(lang, prompt, tr["text"], metrics)
+    except llm.LLMError as e:
+        _llm_error(e)
+    return {**res, "metrics": metrics, "transcript": tr["text"]}
+
+
+class WritingTestIn(BaseModel):
+    lang: str = "en"
+    prompt: str
+    text: str
+
+
+@router.post("/assessment/writing")
+async def assessment_writing(w: WritingTestIn):
+    try:
+        return await assessment.evaluate_writing(L(w.lang), w.prompt, w.text)
+    except llm.LLMError as e:
+        _llm_error(e)
+
+
+class CompIn(BaseModel):
+    lang: str = "en"
+    skill: str
+    level: str
+    score: float
+
+
+@router.post("/assessment/record")
+def assessment_record(c: CompIn):
+    assessment.record_comprehension(L(c.lang), c.skill, c.level, c.score)
+    return {"ok": True}
+
+
+# =====================================================================
+# Escucha activa (diálogos, pódcasts, dictogloss, resumen)
+# =====================================================================
+
+class ListenGen(BaseModel):
+    lang: str = "en"
+    level: str | None = None
+    kind: str = "dialogue"
+    topic: str | None = None
+
+
+@router.post("/listening/generate")
+async def listening_generate(g: ListenGen):
+    lang = L(g.lang)
+    try:
+        return await listening.generate(lang, g.level or db.get_setting(f"level_{lang}", "A1"), g.kind, g.topic)
+    except llm.LLMError as e:
+        _llm_error(e)
+
+
+@router.get("/listening/list")
+def listening_list(lang: str | None = None):
+    return db.query("SELECT id, level, kind, title, done, ts FROM listenings WHERE lang=? ORDER BY id DESC LIMIT 50", (L(lang),))
+
+
+@router.get("/listening/{lid}")
+def listening_get(lid: int):
+    x = listening.get(lid)
+    if not x:
+        raise HTTPException(404, "no encontrado")
+    return x
+
+
+class RetellIn(BaseModel):
+    lang: str = "en"
+    original: str | None = None
+    text: str
+    source: str = "retell"   # retell | dictogloss
+    listening_id: int | None = None
+    score: float | None = None  # puntaje de comprensión (preguntas), si lo hubo
+
+
+@router.post("/listening/retell")
+async def listening_retell(r: RetellIn):
+    lang = L(r.lang)
+    original = r.original
+    if r.listening_id:
+        x = listening.get(r.listening_id)
+        if x:
+            original = "\n".join(l["t"] for l in x["lines"])
+            db.execute("UPDATE listenings SET done=1 WHERE id=?", (r.listening_id,))
+    if not original:
+        raise HTTPException(400, "falta el texto original")
+    level = db.get_setting(f"level_{lang}", "A1")
+    try:
+        res = await listening.evaluate_retell(lang, original, r.text, level, r.source)
+    except llm.LLMError as e:
+        _llm_error(e)
+    kind = "dictation" if r.source == "dictogloss" else "listening"
+    db.log_activity(lang, kind, xp=15, minutes=6, detail={"source": r.source, "content": res.get("content_score")})
+    return res
+
+
+@router.post("/listening/dictogloss")
+async def listening_dictogloss(g: ListenGen):
+    lang = L(g.lang)
+    try:
+        return await listening.dictogloss_text(lang, g.level or db.get_setting(f"level_{lang}", "A1"), g.topic)
+    except llm.LLMError as e:
+        _llm_error(e)
 
 
 # =====================================================================
@@ -630,12 +892,33 @@ class FreeIn(BaseModel):
     lang: str = "en"
     topic: str = "anything"
     mode: str = "entrenamiento"
+    kind: str = "libre"
+
+
+@router.get("/conversation/modes")
+def conversation_modes():
+    return [{"id": k, **{x: v[x] for x in ("title", "icon", "desc")}} for k, v in missions.CONVERSATION_MODES.items()]
+
+
+@router.get("/profile")
+def profile_get():
+    return {"facts": db.get_setting("learner_profile", [])}
+
+
+class ProfileIn(BaseModel):
+    facts: list[str]
+
+
+@router.put("/profile")
+def profile_put(p: ProfileIn):
+    db.set_setting("learner_profile", [f.strip() for f in p.facts if f.strip()][:30])
+    return {"facts": db.get_setting("learner_profile", [])}
 
 
 @router.post("/conversation/start")
 async def conversation_start(f: FreeIn):
     lang = L(f.lang)
-    m = missions.free_talk_mission(lang, f.topic, db.get_setting(f"level_{lang}", "A1"))
+    m = missions.free_talk_mission(lang, f.topic, db.get_setting(f"level_{lang}", "A1"), f.kind)
     try:
         return await missions.start_run(lang, m, f.mode)
     except llm.LLMError as e:

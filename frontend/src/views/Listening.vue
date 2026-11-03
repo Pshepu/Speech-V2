@@ -4,9 +4,11 @@ import { api } from '../api'
 import { useApp } from '../store'
 import { speak } from '../composables/audio'
 import PlayButton from '../components/PlayButton.vue'
+import ListeningPlayer from '../components/ListeningPlayer.vue'
+import Dictogloss from '../components/Dictogloss.vue'
 
 const app = useApp()
-const tab = ref<'pairs' | 'dictation'>('pairs')
+const tab = ref<'audio' | 'pairs' | 'dictation' | 'gloss'>('audio')
 
 // ---------- Pares mínimos (entrenamiento fonético de alta variabilidad) ----------
 const contrasts = ref<any[]>([])
@@ -74,12 +76,16 @@ function checkDictation() {
 <template>
   <div>
     <div class="page-head">
-      <div><h1>👂 Entrena el oído</h1><p>Si no distingues un sonido al escucharlo, no podrás pronunciarlo. Aquí lo oyes con muchas voces y acentos distintos.</p></div>
+      <div><h1>👂 Escucha</h1><p>Entender a nativos hablando rápido es lo que más cuesta para llegar a C1. Aquí escuchas diálogos reales, entrenas sonidos con muchas voces y reconstruyes lo que oyes.</p></div>
     </div>
     <div class="tabs">
+      <button :class="{ on: tab === 'audio' }" @click="tab = 'audio'">Diálogos y pódcasts</button>
       <button :class="{ on: tab === 'pairs' }" @click="tab = 'pairs'">Pares mínimos</button>
       <button :class="{ on: tab === 'dictation' }" @click="tab = 'dictation'; if (!dict) newDictation()">Dictado</button>
+      <button :class="{ on: tab === 'gloss' }" @click="tab = 'gloss'">Dictogloss</button>
     </div>
+    <ListeningPlayer v-if="tab === 'audio'" />
+    <Dictogloss v-if="tab === 'gloss'" />
 
     <template v-if="tab === 'pairs'">
       <div v-if="!contrast" class="grid three">
@@ -123,7 +129,7 @@ function checkDictation() {
       </div>
     </template>
 
-    <template v-else>
+    <template v-if="tab === 'dictation'">
       <div class="card" v-if="dict">
         <p class="muted">Escucha (voz aleatoria) y escribe exactamente lo que oyes.</p>
         <div class="row">

@@ -42,6 +42,10 @@ def lesson(lang: str, lesson_id: str) -> dict | None:
     return next((l for l in grammar(lang) if l["id"] == lesson_id), None)
 
 
+def packs(lang: str) -> list[dict]:
+    return _load(lang, "packs", [])
+
+
 def minimal_pairs(lang: str) -> list[dict]:
     return _load(lang, "minimal_pairs", [])
 

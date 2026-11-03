@@ -9,13 +9,14 @@ Aplicación local para aprender **inglés** y **francés** (la interfaz está en
 | Módulo | Qué hace |
 |---|---|
 | 🏠 **Hoy** | Plan diario automático (repaso, pronunciación, oído, gramática, misión, lectura, fluidez), adaptado a tus puntos débiles. Racha, XP y objetivo de minutos. |
-| 🎯 **Misiones** | Campañas *Operación Londres* (13 misiones, A1→B2) y *Opération Paris* (10). Cada una trae un informe previo, un personaje con información que debes conseguir, giros inesperados y un informe final (AAR) con tus errores. Modo **Entrenamiento** (pistas, traducciones, correcciones en vivo) o **Inmersión total**. También hay conversación libre y misiones generadas por IA a tu medida. |
+| 🎯 **Misiones** | Campañas *Operación Londres* (13 misiones, A1→B2) y *Opération Paris* (10). Cada una trae un informe previo, un personaje con información que debes conseguir, giros inesperados y un informe final (AAR) con tus errores. Modo **Entrenamiento** (pistas, traducciones, correcciones en vivo) o **Inmersión total**. También hay **modos de conversación** (debate, entrevista, explícamelo, historias, actualidad, small talk), **modo manos libres**, **autocorrección guiada** (primero una pista, luego la solución), nota de pronunciación en cada frase que dices, memoria de tu perfil y misiones generadas por IA a tu medida. |
 | 🎙️ **Pronunciación** | Evaluación **por fonema** con un modelo wav2vec2 de fonemas y alineación forzada: te dice qué sonido produjiste en lugar del correcto (por ejemplo, oyó /d/ en vez de /ð/). Consejos para hispanohablantes, pares mínimos, shadowing, audio lento y otros acentos. Registra tus sonidos débiles. |
-| 👂 **Oído** | Pares mínimos con voces y acentos aleatorios (entrenamiento fonético de alta variabilidad) y dictado. |
-| 🧠 **Repaso** | Repetición espaciada con **FSRS** (el algoritmo actual de Anki). Tarjetas de palabras, frases (en dirección de producción) y **tus propios errores**, que se crean solos a partir de misiones, escritura y ejercicios. |
+| 👂 **Escucha** | Diálogos, pódcasts, noticias y entrevistas generados a tu nivel, con 2 voces de acentos distintos y velocidad ajustable. Incluye preguntas de comprensión, **resumen corregido**, dictogloss, pares mínimos con voces aleatorias y dictado. |
+| 🧠 **Repaso** | Repetición espaciada con **FSRS** (el algoritmo actual de Anki). Las palabras pasan de reconocimiento a **frases con hueco**. Las expresiones se repasan en dirección de producción. Puedes responder escribiendo o **hablando**, pedir un **truco mnemotécnico** con IA y repasar **tus propios errores**, que se convierten solos en tarjetas. |
 | 📐 **Gramática** | 30 lecciones de inglés y 21 de francés (A1→B2), con explicación en español, errores típicos de hispanohablantes y 10 ejercicios cada una (elegir, completar, ordenar, corregir, traducir). Ejercicios extra ilimitados con IA, cuaderno de errores y escritura libre corregida. |
-| 📖 **Lectura** | Historias generadas a tu nivel (input comprensible) con audio. Tocas una palabra para traducirla y guardarla, y luego respondes preguntas de comprensión. |
-| 📚 **Vocabulario** | Las ~2.400 palabras más frecuentes de cada idioma, con traducción, ejemplo y audio. |
+| 📖 **Lectura** | Historias generadas a tu nivel o **textos propios importados** (artículos, noticias), con audio. Tocas una palabra para traducirla y guardarla, respondes preguntas de comprensión y escribes un **resumen corregido**. |
+| 📚 **Vocabulario** | Las ~5.000 palabras más frecuentes en inglés y ~4.000 en francés, ordenadas por frecuencia, más **paquetes C1**: phrasal verbs, modismos, colocaciones, conectores, vocabulario académico y registro formal/informal. |
+| 🎯 **Mi nivel** | Nivel MCER por destreza: test de tamaño de vocabulario (con pseudopalabras), prueba oral (palabras por minuto, pausas, pronunciación y evaluación MCER) y prueba escrita (criterios tipo Cambridge). La comprensión se estima automáticamente. |
 | ⚡ **Fluidez** | Lectura repetida con palabras por minuto, técnica 4/3/2 y repaso rápido. |
 | 📈 **Progreso** | XP por día, sonidos débiles, tipos de error, retención, tiempo por actividad. |
 
@@ -43,6 +44,8 @@ Speech-V2/
 │       ├── phoneme_tips.py consejos por sonido para hispanohablantes
 │       ├── missions.py     motor de misiones / conversación / informe AAR
 │       ├── srs.py          FSRS
+│       ├── listening.py    diálogos/pódcasts, resumen y dictogloss
+│       ├── assessment.py   evaluación de nivel MCER por destreza
 │       ├── planner.py      plan diario, racha, estadísticas
 │       ├── llm.py · stt.py · tts.py   Groq (texto y Whisper) y voces de Edge
 │       └── db.py           SQLite (data/speech.db)
@@ -74,7 +77,7 @@ backend/.venv/Scripts/python scripts/build_content.py            # todo (reanuda
 backend/.venv/Scripts/python scripts/build_content.py fr grammar # solo una parte
 ```
 
-El temario de gramática está en `scripts/syllabus.py`. Las misiones y los pares mínimos se escriben a mano en `content/<idioma>/missions.json` y `minimal_pairs.json`. Para añadir un idioma: agrégalo en `backend/app/config.py` (`LANGUAGES`), en `scripts/build_content.py` y en el temario, y escribe su campaña.
+El temario de gramática está en `scripts/syllabus.py`. Los paquetes C1 están en `PACKS` (mismo archivo). Las misiones y los pares mínimos se escriben a mano en `content/<idioma>/missions.json` y `minimal_pairs.json`. Para añadir un idioma: agrégalo en `backend/app/config.py` (`LANGUAGES`), en `scripts/build_content.py` y en el temario, y escribe su campaña.
 
 ## Datos: qué se versiona y qué no
 

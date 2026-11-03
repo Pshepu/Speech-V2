@@ -77,3 +77,13 @@ LANGUAGES: dict[str, dict] = {
 }
 
 LEVELS = ["A1", "A2", "B1", "B2", "C1"]
+
+# Género de cada voz (para que un personaje femenino no hable con voz masculina).
+VOICE_GENDER = {
+    "en-US-AriaNeural": "f", "en-US-GuyNeural": "m", "en-US-JennyNeural": "f", "en-US-ChristopherNeural": "m",
+    "en-GB-SoniaNeural": "f", "en-GB-RyanNeural": "m", "en-AU-NatashaNeural": "f", "en-AU-WilliamNeural": "m",
+    "en-CA-ClaraNeural": "f", "en-IE-ConnorNeural": "m", "en-IN-NeerjaNeural": "f", "en-NZ-MitchellNeural": "m",
+    "fr-FR-DeniseNeural": "f", "fr-FR-HenriNeural": "m", "fr-FR-EloiseNeural": "f", "fr-CA-SylvieNeural": "f",
+    "fr-CA-JeanNeural": "m", "fr-BE-CharlineNeural": "f", "fr-BE-GerardNeural": "m", "fr-CH-ArianeNeural": "f",
+    "fr-CH-FabriceNeural": "m",
+}

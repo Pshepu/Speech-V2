@@ -1,11 +1,18 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 import { useApp } from '../store'
+import { api } from '../api'
 
 const app = useApp()
 const s = ref({ ...app.meta.settings })
 const theme = ref((() => { try { return localStorage.getItem('theme') || 'auto' } catch { return 'auto' } })())
 const saved = ref(false)
+const facts = ref('')
+onMounted(async () => { facts.value = ((await api.get('/profile')).facts || []).join('\n') })
+async function saveFacts() {
+  await api.put('/profile', { facts: facts.value.split('\n') })
+  app.notify('Perfil guardado', 'good')
+}
 
 async function save() {
   const langChanged = s.value.lang !== app.lang
@@ -40,6 +47,12 @@ const engine: Record<string, string> = { ready: '✅ Listo', loading: '⏳ Carga
       <label>Tema visual</label>
       <select v-model="theme"><option value="auto">Automático</option><option value="light">Claro</option><option value="dark">Oscuro</option></select>
       <div class="row" style="margin-top:8px"><button class="btn primary" @click="save">Guardar</button><span v-if="saved" class="chip good">✓ Guardado</span></div>
+    </div>
+    <div class="card">
+      <h3>🧠 Lo que tu tutor sabe de ti</h3>
+      <p class="muted">En las conversaciones el tutor recuerda datos que le contaste (trabajo, aficiones, metas) para personalizar la charla. Se escriben en el idioma que aprendes, uno por línea. Puedes editarlos o borrarlos.</p>
+      <textarea v-model="facts" rows="5" placeholder="works as a nurse&#10;loves hiking&#10;wants to move to Canada"></textarea>
+      <button class="btn" style="margin-top:8px" @click="saveFacts">Guardar perfil</button>
     </div>
     <div class="card">
       <h3>Estado del sistema</h3>

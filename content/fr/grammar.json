@@ -3043,5 +3043,901 @@
   "id": "fr-plus-que-parfait",
   "level": "B2",
   "title": "Pluscuamperfecto y condicional pasado"
+ },
+ {
+  "summary": "Aprenderás a usar el estilo indirecto en francés y a concordar los tiempos verbales según la regla del discurso indirecto.",
+  "explanation": "En francés, al pasar una frase directa a **estilo indirecto** se cambia el tiempo verbal según la **concordancia de tiempos**. \n\n- **Presente → imparfait**\n  - Directo: *Il dit : « Je viens demain. »*\n  - Indirecto: *Il a dit qu'il venait le lendemain.*\n- **Passé composé → plus‑que‑parfait**\n- **Futur simple → conditionnel présent**\n- **Futur antérieur → conditionnel passé**\n\nLos marcadores temporales también se adaptan:\n| Directo | Indirecto |\n|---|---|\n| *demain* | *le lendemain* |\n| *hier* | *la veille* |\n| *aujourd'hui* | *ce jour‑là* |\n\n**Regla principal**: si el verbo introductorio está en pasado (a dit, a déclaré, a affirmé…), el verbo de la oración subordinada retrocede un tiempo. Si el verbo introductorio está en presente, los tiempos se mantienen.\n\n**Comparación con el español**: en español también se retrocede el tiempo (\"dice que vendrá\" → \"dijo que vendría\"), pero en francés el cambio es más rígido y los marcadores temporales deben modificarse explícitamente.",
+  "examples": [
+   {
+    "t": "Il a dit qu'il viendrait le lendemain.",
+    "es": "Él dijo que vendría al día siguiente."
+   },
+   {
+    "t": "Elle a affirmé qu'elle avait fini le travail la veille.",
+    "es": "Ella afirmó que había terminado el trabajo el día anterior."
+   },
+   {
+    "t": "Nous avons entendu qu'ils partiraient demain.",
+    "es": "Escuchamos que se irían mañana."
+   },
+   {
+    "t": "Le professeur a expliqué que le test aurait eu lieu la semaine passée.",
+    "es": "El profesor explicó que el examen habría tenido lugar la semana pasada."
+   },
+   {
+    "t": "Ils ont annoncé qu'ils seraient arrivés avant midi.",
+    "es": "Anunciaron que habrían llegado antes del mediodía."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Il a dit qu'il vient demain.",
+    "right": "Il a dit qu'il venait le lendemain.",
+    "why": "Con el verbo introductorio en pasado, el verbo debe retroceder al imperfecto."
+   },
+   {
+    "wrong": "Elle a déclaré qu'elle a fini hier.",
+    "right": "Elle a déclaré qu'elle avait fini la veille.",
+    "why": "Se necesita plus‑que‑parfait y el marcador temporal cambia a 'la veille'."
+   },
+   {
+    "wrong": "Nous avons entendu qu'ils partent demain.",
+    "right": "Nous avons entendu qu'ils partiraient le lendemain.",
+    "why": "El futuro simple pasa a condicional presente y el marcador temporal se adapta."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Il a dit que ___ (venir) le lendemain.",
+    "options": [
+     "il vient",
+     "il venait",
+     "il viendra"
+    ],
+    "answer": 1,
+    "explanation": "Con verbo introductorio en pasado, el verbo retrocede al imperfecto."
+   },
+   {
+    "type": "choice",
+    "prompt": "Elle a affirmé que ___ (finir) la veille.",
+    "options": [
+     "elle finit",
+     "elle finissait",
+     "elle avait fini"
+    ],
+    "answer": 2,
+    "explanation": "Pasado compuesto → plus‑que‑parfait."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous avons entendu qu'ils ___ (partir) le lendemain.",
+    "options": [
+     "partent",
+     "partaient",
+     "partiraient"
+    ],
+    "answer": 2,
+    "explanation": "Futuro simple → condicional presente."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il a déclaré que ___ (être) déjà parti hier.",
+    "answer": "il était",
+    "accept": [
+     "il était"
+    ],
+    "explanation": "Imparfait después de verbo en pasado."
+   },
+   {
+    "type": "fill",
+    "prompt": "Elle a dit que ___ (avoir) fini le travail la veille.",
+    "answer": "elle avait",
+    "accept": [
+     "elle avait"
+    ],
+    "explanation": "Plus‑que‑parfait requerido."
+   },
+   {
+    "type": "fill",
+    "prompt": "Le professeur a expliqué que le test ___ (avoir) eu lieu la semaine passée.",
+    "answer": "aurait",
+    "accept": [
+     "aurait"
+    ],
+    "explanation": "Condicional pasado tras verbo en pasado."
+   },
+   {
+    "type": "order",
+    "words": [
+     "J'irai",
+     "au",
+     "cinéma",
+     "demain",
+     "."
+    ],
+    "answer": "J'irai au cinéma demain.",
+    "explanation": "Ordena la frase en estilo directo; luego conviértela a indirecto si el verbo introductorio está en pasado."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Elle",
+     "avait",
+     "terminé",
+     "le",
+     "rapport",
+     "."
+    ],
+    "answer": "Elle avait terminé le rapport.",
+    "explanation": "Orden correcto del plus‑que‑parfait."
+   },
+   {
+    "type": "fix",
+    "prompt": "Il a dit qu'il viendra le lendemain.",
+    "answer": "Il a dit qu'il viendrait le lendemain.",
+    "explanation": "El verbo debe pasar a condicional presente."
+   },
+   {
+    "type": "translate",
+    "prompt": "Ella dijo que había llegado antes del mediodía.",
+    "answer": "Elle a dit qu'elle était arrivée avant midi.",
+    "explanation": "Uso de plus‑que‑parfait y adaptación del marcador temporal."
+   }
+  ],
+  "id": "fr-discours-indirect",
+  "level": "B2",
+  "title": "Estilo indirecto y concordancia de tiempos"
+ },
+ {
+  "summary": "Aprenderás a usar el participio presente y el gerundio en francés (en + -ant) para expresar simultaneidad, modo y condición.",
+  "explanation": "## Participio presente y gerundio\n- En francés, la forma **‑ant** se llama *participe présent* y, cuando va precedida por **en**, funciona como *gerundio*.\n- **en + -ant** indica:\n  - **Simultaneidad**: acción que ocurre al mismo tiempo que otra. *Il lit **en mangeant**.* (Lee mientras come.)\n  - **Manera**: describe cómo se realiza la acción principal. *Elle travaille **en chantant**.* (Trabaja cantando.)\n  - **Condición**: una condición implícita. *En étant prudent, on évite les accidents.* (Siendo cuidadoso, se evitan los accidentes.)\n- El **participio presente** sin *en* funciona como adjetivo verbal y suele aparecer en registro escrito o formal: *un homme **chantant**.* (un hombre cantando). En español equivale a “cantando” o “el que canta”.\n- Diferencias con el español:\n  - En español el gerundio siempre termina en **‑ando/‑iendo** y no lleva preposición. En francés necesita **en**.\n  - El participio presente francés puede funcionar como adjetivo, mientras que el gerundio español no.\n- **Uso típico**: se evita en el habla coloquial cuando la simultaneidad se expresa con *pendant que* o con una oración subordinada.\n\n| Forma | Función | Ejemplo | Traducción |\n|-------|---------|---------|------------|\n| en + -ant | Gerundio (simultaneidad, modo, condición) | Il écoute **en travaillant**. | Él escucha mientras trabaja. |\n| -ant (solo) | Participio presente (adjetivo) | Une femme **souriant**. | Una mujer sonriendo. |\n\n**Consejo:** no confundir con el *participe passé* (termina en ‑é, ‑i, ‑u).",
+  "examples": [
+   {
+    "t": "Il lit en mangeant.",
+    "es": "Él lee mientras come."
+   },
+   {
+    "t": "En étant patient, vous réussirez.",
+    "es": "Siendo paciente, lograrás."
+   },
+   {
+    "t": "Elle a répondu en souriant.",
+    "es": "Ella respondió sonriendo."
+   },
+   {
+    "t": "Un enfant jouant dans le parc.",
+    "es": "Un niño jugando en el parque."
+   },
+   {
+    "t": "En marchant, il a trouvé une pièce.",
+    "es": "Al caminar, encontró una moneda."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Il lit mangeant.",
+    "right": "Il lit **en mangeant**.",
+    "why": "El gerundio necesita la preposición *en*."
+   },
+   {
+    "wrong": "En être patient, vous réussirez.",
+    "right": "En **étant** patient, vous réussirez.",
+    "why": "El participio presente de *être* es *étant*, no *être*."
+   },
+   {
+    "wrong": "Une femme souriant.",
+    "right": "Une femme **souriant**.",
+    "why": "El participio presente funciona como adjetivo y se escribe sin *e* final."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Elle travaille ___ (en chantant / chantant / en chanté).",
+    "options": [
+     "en chantant",
+     "chantant",
+     "en chanté"
+    ],
+    "answer": 0,
+    "explanation": "Se necesita la preposición *en* y la forma -ant."
+   },
+   {
+    "type": "choice",
+    "prompt": "En ___ (être / étant / été) prudent, on évite les accidents.",
+    "options": [
+     "être",
+     "étant",
+     "été"
+    ],
+    "answer": 1,
+    "explanation": "El participio presente de *être* es *étant*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Un garçon ___ (courant / courir / courrant) dans le couloir.",
+    "options": [
+     "courant",
+     "courir",
+     "courrant"
+    ],
+    "answer": 0,
+    "explanation": "El participio presente se forma con -ant sin doble r."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il a compris ___ (en + écouter) le professeur.",
+    "answer": "en écoutant",
+    "accept": [
+     "en écoutant"
+    ],
+    "explanation": "Gerundio con *en* + participe présent."
+   },
+   {
+    "type": "fill",
+    "prompt": "En ___ (travailler) trop, il se fatigue.",
+    "answer": "travaillant",
+    "accept": [
+     "travaillant"
+    ],
+    "explanation": "Participio presente de *travailler*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Elle est partie ___ (en + pleurer).",
+    "answer": "en pleurant",
+    "accept": [
+     "en pleurant"
+    ],
+    "explanation": "Gerundio con *en* + pleurer → pleurant."
+   },
+   {
+    "type": "order",
+    "words": [
+     "En",
+     "marchant",
+     ",",
+     "il",
+     "a",
+     "vu",
+     "un",
+     "oiseau",
+     "."
+    ],
+    "answer": "En marchant, il a vu un oiseau.",
+    "explanation": "Orden correcto: *En marchant, il a vu un oiseau.*"
+   },
+   {
+    "type": "order",
+    "words": [
+     "Un",
+     "chien",
+     "jouant",
+     "dans",
+     "le",
+     "jardin",
+     "."
+    ],
+    "answer": "Un chien jouant dans le jardin.",
+    "explanation": "El participio presente actúa como adjetivo antes del sustantivo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Il a répondu en souri.",
+    "answer": "Il a répondu **en souriant**.",
+    "explanation": "Falta la forma -ant del verbo *sourire*."
+   },
+   {
+    "type": "translate",
+    "prompt": "Mientras caminaba, escuchó una canción.",
+    "answer": "En marchant, il a entendu une chanson.",
+    "explanation": "Uso de *en + -ant* para simultaneidad."
+   }
+  ],
+  "id": "fr-gerondif",
+  "level": "B2",
+  "title": "Participio presente y gerundio"
+ },
+ {
+  "summary": "Aprenderás a formar la voz pasiva y las construcciones impersonales en francés.",
+  "explanation": "## Voz pasiva\n- Se forma con **être** + participio pasado del verbo principal.\n- El participio concuerda en género y número con el sujeto paciente.\n- Ejemplo: *Le livre **est lu** par les élèves.*\n\n## Se faire + infinitivo\n- Se usa para expresar una acción que alguien hace sobre sí mismo o que ocurre de forma inesperada.\n- Estructura: **se faire** + infinitivo.\n- Ejemplo: *Il s'est fait **voler** son sac.*\n\n## Construcciones impersonales\n- **On** + verbo: equivalente a “uno/se” en español.\n- **Il est + adjetivo + de** + infinitivo: expresa obligación o posibilidad.\n- Ejemplo: *Il est difficile **de comprendre** cette règle.*\n\n### Comparación con el español\n| Español | Francés (pasiva) | Francés (impersonal) |\n|---|---|---|\n| Se escribió la carta. | La lettre **a été écrite**. | **On** a écrit la lettre. |\n| Es difícil entender. | Il est difficile **de comprendre**. | **Il est** difficile **de comprendre**. |\n\nEn español usamos “se” para pasiva refleja; en francés la pasiva real requiere *être* + participio. Las construcciones impersonales con *on* son muy frecuentes y sustituyen al “se” español.",
+  "examples": [
+   {
+    "t": "Le gâteau a été préparé par ma mère.",
+    "es": "El pastel fue preparado por mi madre."
+   },
+   {
+    "t": "Il s'est fait couper les cheveux.",
+    "es": "Se le cortó el pelo."
+   },
+   {
+    "t": "On doit respecter les règles.",
+    "es": "Se deben respetar las reglas."
+   },
+   {
+    "t": "Il est important de réviser chaque jour.",
+    "es": "Es importante repasar cada día."
+   },
+   {
+    "t": "Les documents seront envoyés demain.",
+    "es": "Los documentos serán enviados mañana."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Le livre est lire par les élèves.",
+    "right": "Le livre est **lu** par les élèves.",
+    "why": "El participio debe concordar y usar la forma correcta 'lu'."
+   },
+   {
+    "wrong": "Il se fait volé son sac.",
+    "right": "Il s'est **fait voler** son sac.",
+    "why": "Se necesita la forma pronominal reflexiva correcta y el infinitivo sin 'é'."
+   },
+   {
+    "wrong": "On est nécessaire de travailler.",
+    "right": "Il est **nécessaire** de travailler.",
+    "why": "La construcción impersonal correcta es 'Il est + adjetivo + de'."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "La lettre ___ écrite par Marie.",
+    "options": [
+     "est",
+     "a été",
+     "sera"
+    ],
+    "answer": 1,
+    "explanation": "Se usa la pasiva con 'a été' + participio."
+   },
+   {
+    "type": "choice",
+    "prompt": "Il ___ difficile de comprendre.",
+    "options": [
+     "est",
+     "a",
+     "sera"
+    ],
+    "answer": 0,
+    "explanation": "Construcción impersonal: 'Il est difficile de...'."
+   },
+   {
+    "type": "choice",
+    "prompt": "On ___ arriver à l'heure.",
+    "options": [
+     "peut",
+     "pouvons",
+     "pouvez"
+    ],
+    "answer": 0,
+    "explanation": "El sujeto impersonal 'on' lleva verbo en 3ª persona singular."
+   },
+   {
+    "type": "fill",
+    "prompt": "Les résultats ___ (être) publiés hier.",
+    "answer": "ont été",
+    "accept": [
+     "ont été"
+    ],
+    "explanation": "Pasiva compuesta con 'ont été' + participio."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il s'est ___ (faire) surprendre par la nouvelle.",
+    "answer": "fait",
+    "accept": [
+     "fait"
+    ],
+    "explanation": "Se hace 'se faire' + infinitivo; aquí solo el participio."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il est ___ (important) de dormir suffisamment.",
+    "answer": "important",
+    "accept": [
+     "important"
+    ],
+    "explanation": "Adjetivo permanece sin cambio."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Le",
+     "rapport",
+     "est",
+     "déposé",
+     "aujourd'hui",
+     "."
+    ],
+    "answer": "Le rapport est déposé aujourd'hui.",
+    "explanation": "Orden correcto sujeto‑verbo‑participio‑complemento."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Il",
+     "est",
+     "nécessaire",
+     "de",
+     "pratiquer",
+     "régulièrement",
+     "."
+    ],
+    "answer": "Il est nécessaire de pratiquer régulièrement.",
+    "explanation": "Estructura impersonal típica."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Il",
+     "se",
+     "fait",
+     "voir",
+     "par",
+     "tout",
+     "le",
+     "monde",
+     "."
+    ],
+    "answer": "Il se fait voir par tout le monde.",
+    "explanation": "Pasiva con 'se faire' + infinitivo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Le projet sera être terminé demain.",
+    "answer": "Le projet **sera** terminé demain.",
+    "explanation": "En pasiva, solo 'sera' + participio, no 'être'."
+   },
+   {
+    "type": "translate",
+    "prompt": "Es necesario que estudies todos los días.",
+    "answer": "Il est nécessaire que tu étudies tous les jours.",
+    "explanation": "Uso de la construcción impersonal con 'Il est nécessaire que...'."
+   }
+  ],
+  "id": "fr-passif",
+  "level": "B2",
+  "title": "Voz pasiva y construcciones impersonales"
+ },
+ {
+  "summary": "Aprenderás a usar el subjuntivo avanzado en francés: subjuntivo pasado, conjunciones como bien que, quoique, pourvu que, à moins que, superlativos y verbos de opinión en negativa.",
+  "explanation": "## Subjuntivo avanzado\n\n- **Subjuntivo pasado** (`que + ait/ait été`): se usa para expresar duda o emoción sobre una acción ya concluida. Ej.: *Je doute qu'il **ait fini*** (Dudo que haya terminado). En español corresponde al pretérito perfecto de subjuntivo.\n- **Conjunciones restrictivas**:\n  - **bien que** = aunque. No lleva *ne* explétif. *Bien qu'il pleuve, nous sortirons.*\n  - **quoique** = por más que. Tampoco lleva *ne*. *Quoique tu sois fatigué, continue.*\n  - **pourvu que** = siempre que, con la condición de que. *Pourvu qu'il **vienne**, tout ira bien.*\n  - **à moins que** = a menos que, siempre con *ne* explétif. *À moins qu'il **ne** parte, nous resterons.*\n- **Superlativo + subjuntivo**: después de un superlativo que implica subjetividad, se usa el subjuntivo. *C'est le meilleur film que j'**aie vu**.*\n- **Verb. de opinión en negativa**: cuando *croire* o *penser* están en forma negativa, el verbo subordinado va en subjuntivo. *Je ne crois pas qu'il **soit** coupable.*\n\n### Comparación con el español\n| Español | Francés | Comentario |\n|---|---|---|\n| aunque | bien que / quoique | sin *ne* explétif |\n| a menos que | à moins que | lleva *ne* explétif |\n| el mejor que he visto | le meilleur film que j'aie vu | superlativo + subjuntivo |\n| no creo que sea culpable | je ne crois pas qu'il soit coupable | verbo de opinión negativo → subjuntivo |\n\nUsa estos patrones para expresar matices de duda, condición y superlación con precisión.",
+  "examples": [
+   {
+    "t": "Je doute qu'elle **ait compris** la leçon.",
+    "es": "Dudo que ella haya comprendido la lección."
+   },
+   {
+    "t": "Bien qu'il **soit** tard, je continue à travailler.",
+    "es": "Aunque sea tarde, sigo trabajando."
+   },
+   {
+    "t": "Pourvu que tu **arrives** à l'heure, tout ira bien.",
+    "es": "Siempre que llegues a tiempo, todo irá bien."
+   },
+   {
+    "t": "C'est le plus intéressant livre que j'**aie lu**.",
+    "es": "Es el libro más interesante que he leído."
+   },
+   {
+    "t": "Je ne pense pas qu'ils **puissent** venir demain.",
+    "es": "No creo que puedan venir mañana."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je ne crois pas que il soit parti.",
+    "right": "Je ne crois pas qu'il soit parti.",
+    "why": "Después de *ne...pas*, el verbo subordinado va en subjuntivo y se usa la elisión del *e*."
+   },
+   {
+    "wrong": "À moins que il **ne** parte, nous resterons.",
+    "right": "À moins qu'il **ne** parte, nous resterons.",
+    "why": "La conjunción requiere *ne* explétif y la contracción *qu'*."
+   },
+   {
+    "wrong": "Bien que il **ait** fini, il reste du travail.",
+    "right": "Bien qu'il **ait** fini, il reste du travail.",
+    "why": "Se omite el *e* de *que* antes de vocal y se usa subjuntivo pasado."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Je doute que ___ (venir) demain.",
+    "options": [
+     "vienne",
+     "viendra",
+     "vient"
+    ],
+    "answer": 0,
+    "explanation": "Después de duda, se usa subjuntivo presente: *vienne*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Bien ___ (être) fatigué, il travaille.",
+    "options": [
+     "que",
+     "si",
+     "quand"
+    ],
+    "answer": 0,
+    "explanation": "Conjunción correcta es *que* (bien que)."
+   },
+   {
+    "type": "choice",
+    "prompt": "À moins ___ (ne) partir, il restera.",
+    "options": [
+     "qu'il",
+     "que il",
+     "qu'il ne"
+    ],
+    "answer": 2,
+    "explanation": "Se necesita *à moins que* + *ne* explétif."
+   },
+   {
+    "type": "fill",
+    "prompt": "C'est le film ___ (meilleur) que nous ayons vu.",
+    "answer": "le meilleur",
+    "accept": [],
+    "explanation": "Superlativo requiere subjuntivo: *que nous ayons vu*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je ne pense pas ___ (pouvoir) venir.",
+    "answer": "pouvoir",
+    "accept": [],
+    "explanation": "Después de negación de *penser*, el infinitivo sigue, pero la cláusula subordinada iría en subjuntivo."
+   },
+   {
+    "type": "fill",
+    "prompt": "Pourvu ___ (être) calme, la réunion se passera bien.",
+    "answer": "que ce soit",
+    "accept": [],
+    "explanation": "Con *pourvu que* se usa subjuntivo presente."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Je",
+     "saurai",
+     "quand",
+     "il",
+     "viendra",
+     "."
+    ],
+    "answer": "Je saurai quand il viendra.",
+    "explanation": "Orden correcto de la oración interrogativa indirecta."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Nous",
+     "avions",
+     "terminé",
+     "le",
+     "travail",
+     "."
+    ],
+    "answer": "Nous avions terminé le travail.",
+    "explanation": "Reordena la frase en forma afirmativa."
+   },
+   {
+    "type": "fix",
+    "prompt": "Je ne crois pas que il **soit** coupable.",
+    "answer": "Je ne crois pas qu'il soit coupable.",
+    "explanation": "Se corrige la contracción y se mantiene el subjuntivo."
+   },
+   {
+    "type": "translate",
+    "prompt": "Aunque haya llovido, iremos al parque.",
+    "answer": "Bien qu'il ait plu, nous irons au parc.",
+    "explanation": "Uso de *bien que* + subjuntivo pasado para expresar 'aunque'."
+   }
+  ],
+  "id": "fr-subjonctif-avance",
+  "level": "C1",
+  "title": "Subjuntivo avanzado"
+ },
+ {
+  "summary": "Aprenderás a usar las estructuras de énfasis en francés: c’est…qui/que, ce qui/ce que…c’est y la dislocación oral",
+  "explanation": "## Énfasis con *c’est…qui/que*\n- Se emplea para resaltar **el sujeto** o **el complemento** de una oración.\n- *C’est* introduce la parte resaltada y *qui/que* introduce la cláusula relativa.\n- **Ejemplo:** *C’est Marie qui a gagné* (Es Marie quien ha ganado).\n\n## Énfasis con *ce qui/ce que…c’est*\n- Inversión que pone énfasis en la **acción** o **el objeto**.\n- *Ce qui* = *lo que* (sujeto); *ce que* = *lo que* (objeto).\n- **Ejemplo:** *Ce qui m’étonne, c’est son courage* (Lo que me sorprende es su coraje).\n\n## Dislocación (dislocation) oral\n- Consiste en colocar un pronombre o un sintagma al inicio (*Moi, je…*, *Lui, il…*) para dar **énfasis** o **contraste**.\n- En francés hablado es muy frecuente y se traduce al español con *Yo, yo…*, *Él, él…*.\n- **Ejemplo:** *Moi, je préfère le thé* (Yo, yo prefiero el té).\n\n## Comparación con el español\n- En español usamos *es…quien/que* o *lo que…es* de forma similar, pero la dislocación no es tan frecuente; suele expresarse con *Yo, yo…* o *Él, él…* en contextos enfáticos.\n- En francés, la concordancia de género y número es obligatoria en *c’est…qui/que* y en *ce qui/ce que…c’est*.\n\n## Tabla resumida\n| Estructura | Función | Ejemplo francés | Traducción española |\n|------------|---------|------------------|---------------------|\n| c’est … qui | énfasis sujeto | C’est Paul qui parle | Es Paul quien habla |\n| c’est … que | énfasis objeto | C’est le livre que j’ai lu | Es el libro que leí |\n| ce qui … c’est | énfasis acción | Ce qui m’intéresse, c’est la musique | Lo que me interesa es la música |\n| ce que … c’est | énfasis objeto | Ce que je veux, c’est du repos | Lo que quiero es descanso |\n| Dislocación | énfasis oral | Moi, je viens de Paris | Yo, yo vengo de París |\n",
+  "examples": [
+   {
+    "t": "C’est Marie qui a trouvé la clé.",
+    "es": "Es Marie quien ha encontrado la llave."
+   },
+   {
+    "t": "Ce qui me plaît, c’est le silence.",
+    "es": "Lo que me gusta es el silencio."
+   },
+   {
+    "t": "Moi, je préfère le chocolat noir.",
+    "es": "Yo, yo prefiero el chocolate negro."
+   },
+   {
+    "t": "Ce que tu dis, c’est intéressant.",
+    "es": "Lo que dices es interesante."
+   },
+   {
+    "t": "C’est le film que nous avons vu hier.",
+    "es": "Es la película que vimos ayer."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "C’est Marie qui elle a trouvé la clé.",
+    "right": "C’est Marie qui a trouvé la clé.",
+    "why": "En francés no se duplica el pronombre después de *qui*."
+   },
+   {
+    "wrong": "Ce qui me plaît, c’est les fleurs.",
+    "right": "Ce qui me plaît, ce sont les fleurs.",
+    "why": "El verbo *être* concuerda con el sustantivo plural."
+   },
+   {
+    "wrong": "Moi, je viens de Paris, je suis français.",
+    "right": "Moi, je viens de Paris, je suis français.",
+    "why": "En la dislocación solo se usa una coma o pausa, no dos cláusulas sin conjunción."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ qui a cassé le vase?",
+    "options": [
+     "C’est Marie",
+     "Ce qui",
+     "Ce que"
+    ],
+    "answer": 0,
+    "explanation": "La forma correcta es *C’est Marie qui…* para enfatizar el sujeto."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ m’étonne, c’est son courage.",
+    "options": [
+     "Ce qui",
+     "Ce que",
+     "C’est"
+    ],
+    "answer": 0,
+    "explanation": "*Ce qui* introduce lo que sorprende (sujeto)."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ je veux, c’est du repos.",
+    "options": [
+     "Ce que",
+     "Ce qui",
+     "C’est"
+    ],
+    "answer": 0,
+    "explanation": "*Ce que* se usa cuando el elemento resaltado es objeto."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (moi) je ne comprends pas la question.",
+    "answer": "Moi",
+    "accept": [
+     "Moi"
+    ],
+    "explanation": "En la dislocación se coloca el pronombre antes del verbo para énfasis."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (ce) que tu dis, c’est vrai.",
+    "answer": "Ce",
+    "accept": [
+     "Ce"
+    ],
+    "explanation": "*Ce que* introduce la cláusula relativa del objeto."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (ce) qui nous importe, c’est la vérité.",
+    "answer": "Ce",
+    "accept": [
+     "Ce"
+    ],
+    "explanation": "*Ce qui* introduce el sujeto de la oración."
+   },
+   {
+    "type": "order",
+    "words": [
+     "C’est",
+     "la",
+     "vérité",
+     "qui",
+     "est",
+     "importante",
+     "."
+    ],
+    "answer": "C’est la vérité qui est importante.",
+    "explanation": "Orden correcto: sujeto resaltado + *qui* + verbo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ce",
+     "qui",
+     "me",
+     "intéresse",
+     ",",
+     "c’est",
+     "la",
+     "musique",
+     "."
+    ],
+    "answer": "Ce qui me intéresse, c’est la musique.",
+    "explanation": "Colocar la coma después de la cláusula relativa."
+   },
+   {
+    "type": "fix",
+    "prompt": "C’est le livre que j’ai lu, c’est intéressant.",
+    "answer": "Ce que j’ai lu, c’est intéressant.",
+    "explanation": "Se necesita *Ce que* para enfatizar el objeto, no *C’est le livre*."
+   },
+   {
+    "type": "translate",
+    "prompt": "Yo, yo prefiero la pizza a la pasta.",
+    "answer": "Moi, je préfère la pizza à la pâte.",
+    "explanation": "Uso de la dislocación *Moi, je…* para énfasis."
+   }
+  ],
+  "id": "fr-mise-en-relief",
+  "level": "C1",
+  "title": "Poner de relieve (mise en relief)"
+ },
+ {
+  "summary": "Dominarás conectores avanzados en francés para matizar argumentos y mejorar la cohesión en textos escritos de nivel C1.",
+  "explanation": "En el registro escrito formal, la simple conjunción *mais* es insuficiente para expresar matices complejos. El francés ofrece un repertorio rico de conectores que permiten graduar la oposición, la consecuencia o la justificación.\n\n**Oposición y Contraste:**\n*   *Cependant* y *néanmoins*: Equivalentes a \"sin embargo\" o \"no obstante\". Son más formales que *mais*. Se suelen usar al inicio de una oración, seguidos de una coma.\n*   *En revanche*: Significa \"por el contrario\" o \"en cambio\". Implica una oposición total entre dos elementos, no solo una matización.\n\n**Causa y Consecuencia:**\n*   *Étant donné que*: Introduce una causa o condición previa (\"dado que\"). Es muy común en informes y ensayos.\n*   *Si bien que*: Indica una consecuencia lógica o un resultado (\"de modo que\", \"por lo que\").\n\n**Matices Específicos:**\n*   *Or*: Conector adversativo antiguo pero elegante (\"pero\", \"sin embargo\"). A diferencia de *mais*, a menudo introduce un argumento que refuerza o matiza lo anterior de forma sutil.\n*   *D'ailleurs*: Significa \"además\" o \"por lo demás\". Se usa para añadir información complementaria o reforzar una idea.\n*   *Quitte à* y *Faute de*: Expresan concesión extrema o falta de algo. *Quitte à* (\"aun a riesgo de\") introduce una consecuencia aceptada; *faute de* (\"por falta de\") indica una causa negativa.\n\n| Conector | Función | Equivalente en Español |\n| :--- | :--- | :--- |\n| *Cependant* | Oposición suave | Sin embargo |\n| *En revanche* | Contraste total | Por el contrario |\n| *Étant donné que* | Causa/Condición | Dado que |\n| *Si bien que* | Consecuencia | De modo que |\n\nUsar estos conectores demuestra dominio del registro formal y mejora la fluidez argumentativa.",
+  "examples": [
+   {
+    "t": "Cependant, les résultats restent mitigés.",
+    "es": "Sin embargo, los resultados siguen siendo mixtos."
+   },
+   {
+    "t": "En revanche, le coût est prohibitif.",
+    "es": "Por el contrario, el costo es prohibitivo."
+   },
+   {
+    "t": "Étant donné que le budget est limité, nous devons prioriser.",
+    "es": "Dado que el presupuesto es limitado, debemos priorizar."
+   },
+   {
+    "t": "Il a refusé l'offre, si bien que le projet est annulé.",
+    "es": "Rechazó la oferta, de modo que el proyecto está anulado."
+   },
+   {
+    "t": "Or, cette hypothèse est discutable.",
+    "es": "Pero (sin embargo), esta hipótesis es discutible."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Mais, il est important de noter...",
+    "right": "Cependant, il est important de noter...",
+    "why": "En escritura formal, 'mais' es demasiado coloquial; 'cependant' es más adecuado para iniciar una oración de oposición."
+   },
+   {
+    "wrong": "Étant donné que il pleut, nous restons.",
+    "right": "Étant donné qu'il pleut, nous restons.",
+    "why": "Ante una vocal o h muda, 'que' se elide a 'qu'."
+   },
+   {
+    "wrong": "En revanche, il est intelligent, mais il est paresseux.",
+    "right": "Il est intelligent, mais il est paresseux. En revanche, il est créatif.",
+    "why": "'En revanche' introduce un contraste total, no una simple enumeración opuesta; su uso requiere una estructura clara de contraste."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Le projet est ambitieux. ___, il manque de ressources.",
+    "options": [
+     "D'ailleurs",
+     "Cependant",
+     "Si bien que"
+    ],
+    "answer": 1,
+    "explanation": "Se necesita un conector de oposición o matización ('sin embargo'). 'Cependant' encaja perfectamente."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ les délais sont courts, nous devons travailler vite.",
+    "options": [
+     "En revanche",
+     "Étant donné que",
+     "Quitte à"
+    ],
+    "answer": 1,
+    "explanation": "Se indica una causa o condición ('dado que'). 'Étant donné que' es la opción correcta."
+   },
+   {
+    "type": "choice",
+    "prompt": "Il est riche. ___, il est malheureux.",
+    "options": [
+     "En revanche",
+     "Or",
+     "Faute de"
+    ],
+    "answer": 0,
+    "explanation": "Se expresa un contraste total entre riqueza y felicidad. 'En revanche' ('por el contrario') es el conector adecuado."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (néanmoins / d'ailleurs) l'argument est solide, la conclusion manque de preuves.",
+    "answer": "Néanmoins",
+    "accept": [
+     "Néanmoins"
+    ],
+    "explanation": "Se necesita un conector de oposición ('sin embargo'). 'D'ailleurs' añadiría información, no la opondría."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il a réussi l'examen, ___ (si bien que / faute de) il n'a pas obtenu la mention.",
+    "answer": "si bien que",
+    "accept": [
+     "si bien que"
+    ],
+    "explanation": "Se indica una consecuencia ('de modo que'). 'Si bien que' conecta la acción con su resultado."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (or / en revanche) cette théorie est ancienne, elle reste pertinente.",
+    "answer": "Or",
+    "accept": [
+     "Or"
+    ],
+    "explanation": "'Or' introduce un matiz adversativo elegante ('pero/sin embargo') que matiza la afirmación anterior."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Cependant",
+     "les",
+     "données",
+     "sont",
+     "incomplètes"
+    ],
+    "answer": "Cependant les données sont incomplètes",
+    "explanation": "El conector 'Cependant' va al inicio, seguido del sujeto y el verbo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Étant",
+     "donné",
+     "que",
+     "le",
+     "coût",
+     "est",
+     "élevé",
+     "nous",
+     "renonçons"
+    ],
+    "answer": "Étant donné que le coût est élevé nous renonçons",
+    "explanation": "La estructura 'Étant donné que' introduce la causa, seguida de la consecuencia principal."
+   },
+   {
+    "type": "fix",
+    "prompt": "Il est compétent. En revanche, il est collaboratif.",
+    "answer": "Il est compétent. D'ailleurs, il est collaboratif.",
+    "explanation": "No hay oposición entre ser competente y colaborativo; son cualidades positivas que se suman. 'D'ailleurs' ('además') es correcto."
+   },
+   {
+    "type": "translate",
+    "prompt": "Dado que el clima es inestable, cancelamos la excursión.",
+    "answer": "Étant donné que le climat est instable, nous annulons l'excursion.",
+    "explanation": "Usamos 'Étant donné que' para traducir 'dado que' y mantenemos la estructura de causa-consecuencia."
+   }
+  ],
+  "id": "fr-connecteurs",
+  "level": "C1",
+  "title": "Conectores y matices de la argumentación"
  }
 ]

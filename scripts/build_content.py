@@ -19,14 +19,15 @@ sys.path.insert(0, str(ROOT / "backend"))
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from app import llm  # noqa: E402
-from syllabus import SYLLABUS  # noqa: E402
+from syllabus import PACKS, SYLLABUS  # noqa: E402
 
 CONTENT = ROOT / "content"
 BUILD = CONTENT / "_build"
 BUILD.mkdir(parents=True, exist_ok=True)
 
 LANG_NAMES = {"en": "English", "fr": "French"}
-VOCAB_SIZE = {"en": 2500, "fr": 2000}
+VOCAB_SIZE = {"en": 5000, "fr": 4000}
+PACK_BATCH = 25
 VOCAB_BATCH = 40
 SENT_PER_LEVEL = 80
 SENT_BATCH = 20
@@ -55,8 +56,9 @@ SENT_TOPICS = [
     "work, study, health, doctor, emergencies, feelings, hobbies, technology",
 ]
 
-WORKER_MODELS = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"]
-GRAMMAR_MODELS = {"openai/gpt-oss-120b", "qwen/qwen3.8-27b"}
+# Qwen no sirve para generar en lote: en el plan gratuito solo da ~1.000 tokens de salida por minuto.
+WORKER_MODELS = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
+GRAMMAR_MODELS = {"openai/gpt-oss-120b"}
 
 
 def load_part(name: str) -> dict:
@@ -77,7 +79,7 @@ def frequency_words(lang: str) -> list[str]:
         re.compile(r"[a-zàâæçéèêëîïôœùûüÿ]+(?:-[a-zàâæçéèêëîïôœùûüÿ]+)?")
     keep1 = {"a", "i"} if lang == "en" else {"a", "à", "y"}
     out, seen = [], set()
-    for w in top_n_list(lang, 8000):
+    for w in top_n_list(lang, 15000):
         if not pat.fullmatch(w) or (len(w) == 1 and w not in keep1) or w in seen:
             continue
         seen.add(w)
@@ -133,6 +135,31 @@ def validate_sentences(res: dict, n: int) -> list[list[str]]:
     return [[str(a).strip(), str(b).strip()] for a, b, *_ in items]
 
 
+# ---------------------------------------------------------------- paquetes
+
+def pack_prompt(lang: str, item_desc: str, subtheme: str, title: str) -> tuple[str, str]:
+    system = (
+        f"You build advanced {LANG_NAMES[lang]} vocabulary packs for Spanish speakers aiming at C1. "
+        "Return ONLY JSON: {\"items\": [[expression, spanish_meaning, example, example_es, note], ...]}. "
+        "expression: the item in its base/dictionary form. spanish_meaning: short natural Spanish equivalent. "
+        f"example: a natural, modern {LANG_NAMES[lang]} sentence (max 16 words) as a native would say it. "
+        "example_es: its Spanish translation. note: very short usage note in Spanish (register, grammar, typical mistake) or empty string. "
+        "Only include items that real native speakers actually use today. No duplicates."
+    )
+    return system, f"Pack: {title}. Give {PACK_BATCH} items, each being {item_desc}. Subgroup: {subtheme}."
+
+
+def validate_pack(res: dict) -> list[dict]:
+    out = []
+    for it in res.get("items") or []:
+        if isinstance(it, list) and len(it) >= 4 and isinstance(it[0], str) and it[0].strip():
+            out.append({"t": it[0].strip(), "es": str(it[1]).strip(), "example": str(it[2]).strip(),
+                        "example_es": str(it[3]).strip(), "note": str(it[4]).strip() if len(it) > 4 else ""})
+    if len(out) < PACK_BATCH * 0.6:
+        raise ValueError("paquete incompleto")
+    return out
+
+
 # ---------------------------------------------------------------- gramática
 
 GRAMMAR_SYSTEM = """You are an expert {lang} teacher for Spanish speakers. Write one grammar lesson.
@@ -183,7 +210,7 @@ async def call(model: str, system: str, user: str, max_tokens: int) -> dict:
             )
         except llm.LLMError as e:
             msg = str(e)
-            if "401" in msg:
+            if "401" in msg or "DIARIO" in msg:
                 raise
             wait = 20 if "límite" in msg else 5
             print(f"   [{model}] reintento {attempt + 1}: {msg[:120]} (espera {wait}s)", flush=True)
@@ -196,6 +223,15 @@ async def run(langs: list[str], parts: list[str]):
     grammar: asyncio.Queue = asyncio.Queue()
     stores: dict[str, dict] = {}
 
+    for lang in langs:
+        if "packs" in parts:
+            name = f"{lang}_packs"
+            stores[name] = load_part(name)
+            for pid, level, title, desc, item_desc, subs in PACKS[lang]:
+                for k, sub in enumerate(subs):
+                    key = f"{pid}#{k}"
+                    if key not in stores[name]:
+                        general.put_nowait(("pack", lang, name, key, (item_desc, sub, title)))
     for lang in langs:
         if "vocab" in parts:
             name = f"{lang}_vocab"
@@ -240,7 +276,11 @@ async def run(langs: list[str], parts: list[str]):
             try:
                 if kind == "vocab":
                     s, u = vocab_prompt(lang, payload)
-                    res = validate_vocab(await call(model, s, u, 6000), payload)
+                    res = validate_vocab(await call(model, s, u, 4000), payload)
+                elif kind == "pack":
+                    item_desc, sub, title = payload
+                    s, u = pack_prompt(lang, item_desc, sub, title)
+                    res = validate_pack(await call(model, s, u, 3500))
                 elif kind == "sent":
                     level, topic = payload
                     s, u = sentence_prompt(lang, level, topic, SENT_BATCH)
@@ -257,6 +297,10 @@ async def run(langs: list[str], parts: list[str]):
                 print(f"[{done}/{total}] {name} {key} ✓ ({model})", flush=True)
             except Exception as e:  # la tarea vuelve a la cola (máx. 3 veces)
                 print(f"   ✗ {name} {key}: {e}", flush=True)
+                if "DIARIO" in str(e):
+                    (grammar if kind == "grammar" else general).put_nowait(task)
+                    print(f"   ⏸️  {model}: límite diario de Groq agotado. Vuelve a ejecutar este script mañana (sigue donde se quedó).", flush=True)
+                    return
                 failures[(name, key)] = failures.get((name, key), 0) + 1
                 if "401" in str(e):
                     raise SystemExit("Clave de API inválida: revisa GROQ_API_KEY en .env")
@@ -309,7 +353,8 @@ def assemble(langs: list[str]):
                     seen.add(w)
                     rank = len(words) + 1
                     it["rank"] = rank
-                    it["level"] = "A1" if rank <= 500 else "A2" if rank <= 1200 else "B1" if rank <= 2000 else "B2"
+                    it["level"] = ("A1" if rank <= 500 else "A2" if rank <= 1200 else "B1" if rank <= 2000
+                                   else "B2" if rank <= 3200 else "C1")
                     it["zipf"] = round(zipf_frequency(w, lang), 2)
                     words.append(it)
             (d / "vocab.json").write_text(json.dumps(words, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -325,6 +370,20 @@ def assemble(langs: list[str]):
                     sents.append({"text": text, "translation": es, "level": level})
             (d / "sentences.json").write_text(json.dumps(sents, ensure_ascii=False, indent=1), encoding="utf-8")
             print(f"{lang}: frases {len(sents)}")
+        pk = load_part(f"{lang}_packs")
+        if pk:
+            packs = []
+            for pid, level, title, desc, _item, subs in PACKS[lang]:
+                items, seen = [], set()
+                for k in range(len(subs)):
+                    for it in pk.get(f"{pid}#{k}", []):
+                        if it["t"].lower() not in seen:
+                            seen.add(it["t"].lower())
+                            items.append(it)
+                if items:
+                    packs.append({"id": pid, "level": level, "title": title, "description": desc, "items": items})
+            (d / "packs.json").write_text(json.dumps(packs, ensure_ascii=False, indent=1), encoding="utf-8")
+            print(f"{lang}: paquetes {len(packs)} ({sum(len(p['items']) for p in packs)} expresiones)")
         g = load_part(f"{lang}_grammar")
         if g:
             order = [lid for lid, *_ in SYLLABUS[lang]]
@@ -336,7 +395,7 @@ def assemble(langs: list[str]):
 if __name__ == "__main__":
     args = sys.argv[1:]
     langs = [a for a in args if a in ("en", "fr")] or ["en", "fr"]
-    parts = [a for a in args if a in ("vocab", "sentences", "grammar")] or ["vocab", "sentences", "grammar"]
+    parts = [a for a in args if a in ("vocab", "sentences", "grammar", "packs")] or ["vocab", "sentences", "grammar", "packs"]
     if "assemble" in args:
         assemble(langs)
     else:

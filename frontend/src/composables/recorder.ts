@@ -59,10 +59,15 @@ export function useRecorder() {
   let resolveStop: ((b: Blob | null) => void) | null = null
   let maxTimer: any = null
 
-  async function start(maxSeconds = 30): Promise<boolean> {
+  // autoStop: para solo cuando, después de hablar, hay ~1,3 s de silencio (modo manos libres).
+  async function start(maxSeconds = 30, autoStop?: () => void): Promise<boolean> {
     if (recording.value) return false
     error.value = ''
     chunks = []
+    let spoke = false
+    let lastVoice = 0
+    let noiseFloor = 0.01
+    const startedAt = Date.now()
     try {
       stream = await navigator.mediaDevices.getUserMedia({
         audio: { channelCount: 1, echoCancellation: true, noiseSuppression: true, autoGainControl: true },
@@ -82,6 +87,13 @@ export function useRecorder() {
       let peak = 0
       for (let i = 0; i < d.length; i += 8) peak = Math.max(peak, Math.abs(d[i]))
       level.value = level.value * 0.7 + peak * 0.3
+      if (autoStop) {
+        const now = Date.now()
+        if (now - startedAt < 400) noiseFloor = Math.max(noiseFloor, peak) // ruido de fondo inicial
+        const thr = Math.max(0.035, noiseFloor * 2.5)
+        if (peak > thr) { spoke = true; lastVoice = now }
+        else if (spoke && now - lastVoice > 1300 && recording.value) autoStop()
+      }
     }
     try {
       const url = URL.createObjectURL(new Blob([WORKLET], { type: 'application/javascript' }))

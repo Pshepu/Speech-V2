@@ -145,6 +145,28 @@ CREATE TABLE IF NOT EXISTS readings (
     ts TEXT NOT NULL
 );
 
+CREATE TABLE IF NOT EXISTS listenings (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    lang TEXT NOT NULL,
+    level TEXT NOT NULL,
+    kind TEXT NOT NULL,
+    title TEXT NOT NULL,
+    data TEXT NOT NULL,
+    done INTEGER NOT NULL DEFAULT 0,
+    ts TEXT NOT NULL
+);
+
+-- Evaluaciones de nivel por destreza (vocabulario, habla, escritura, comprensión)
+CREATE TABLE IF NOT EXISTS assessments (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    lang TEXT NOT NULL,
+    skill TEXT NOT NULL,
+    level TEXT NOT NULL,
+    score REAL NOT NULL DEFAULT 0,
+    data TEXT NOT NULL DEFAULT '{}',
+    ts TEXT NOT NULL
+);
+
 -- Caché de traducciones rápidas (tocar una palabra/frase para traducir).
 CREATE TABLE IF NOT EXISTS translations (
     lang TEXT NOT NULL,

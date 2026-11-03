@@ -1,0 +1,1040 @@
+[
+ {
+  "id": "en-phrasal",
+  "level": "B2",
+  "title": "Phrasal verbs esenciales",
+  "description": "Los phrasal verbs más usados por nativos, agrupados por partícula.",
+  "items": [
+   {
+    "t": "put up with",
+    "es": "tolerar, aguantar",
+    "example": "I can't put up with his constant complaining anymore.",
+    "example_es": "Ya no puedo tolerar sus quejas constantes.",
+    "note": "Registro informal. No confundir con 'put up' (alojar)."
+   },
+   {
+    "t": "come up with",
+    "es": "idear, proponer",
+    "example": "She finally came up with a brilliant solution to the problem.",
+    "example_es": "Por fin ideó una solución brillante al problema.",
+    "note": "Se refiere a crear ideas o planes, no a aparecer físicamente."
+   },
+   {
+    "t": "end up",
+    "es": "terminar (haciendo algo), acabar",
+    "example": "We ended up staying home instead of going to the party.",
+    "example_es": "Acabamos quedándonos en casa en lugar de ir a la fiesta.",
+    "note": "Suele ir seguido de un gerundio o un lugar."
+   },
+   {
+    "t": "look up to",
+    "es": "admirar, respetar",
+    "example": "I really look up to my mentor for her dedication.",
+    "example_es": "Admiro mucho a mi mentor por su dedicación.",
+    "note": "Indica respeto o admiración hacia una persona."
+   },
+   {
+    "t": "grow up",
+    "es": "crecer, madurar",
+    "example": "He needs to grow up and take responsibility for his actions.",
+    "example_es": "Necesita madurar y asumir la responsabilidad de sus acciones.",
+    "note": "Se usa tanto para la edad biológica como la emocional."
+   },
+   {
+    "t": "break up",
+    "es": "romper (relación), separarse",
+    "example": "They decided to break up after five years of marriage.",
+    "example_es": "Decidieron romper después de cinco años de matrimonio.",
+    "note": "También significa 'disolver' una reunión o grupo."
+   },
+   {
+    "t": "show up",
+    "es": "aparecer, presentarse",
+    "example": "He didn't show up to the meeting on time.",
+    "example_es": "No se presentó a la reunión a tiempo.",
+    "note": "Implica llegar a un lugar, a menudo de forma casual o inesperada."
+   },
+   {
+    "t": "fill up",
+    "es": "llenar, completar",
+    "example": "Please fill up the form before submitting it.",
+    "example_es": "Por favor, completa el formulario antes de enviarlo.",
+    "note": "También se usa para llenar el depósito de gasolina."
+   },
+   {
+    "t": "turn up",
+    "es": "aparecer, surgir",
+    "example": "The missing dog finally turned up in the neighbor's yard.",
+    "example_es": "El perro perdido por fin apareció en el patio del vecino.",
+    "note": "Sinónimo de 'show up' pero más enfocado en aparecer tras estar ausente."
+   },
+   {
+    "t": "figure out",
+    "es": "entender, resolver, averiguar",
+    "example": "I still can't figure out how to install this software.",
+    "example_es": "Aún no logro entender cómo instalar este software.",
+    "note": "Muy común en contextos técnicos o de resolución de problemas."
+   },
+   {
+    "t": "bring up",
+    "es": "mencionar, sacar a colación",
+    "example": "Don't bring up the salary issue in the first interview.",
+    "example_es": "No saques a colación el tema del salario en la primera entrevista.",
+    "note": "También significa 'criar' hijos."
+   },
+   {
+    "t": "keep up with",
+    "es": "seguir el ritmo de, estar al día con",
+    "example": "It's hard to keep up with all the new technology trends.",
+    "example_es": "Es difícil estar al día con todas las nuevas tendencias tecnológicas.",
+    "note": "Indica mantener el mismo nivel o velocidad que algo o alguien."
+   },
+   {
+    "t": "wake up",
+    "es": "despertarse",
+    "example": "I usually wake up at seven in the morning.",
+    "example_es": "Normalmente me despierto a las siete de la mañana.",
+    "note": "Verbo separable: 'wake me up'."
+   },
+   {
+    "t": "give up",
+    "es": "rendirse, abandonar",
+    "example": "Never give up on your dreams, no matter how hard it gets.",
+    "example_es": "Nunca te rindas con tus sueños, por difícil que se ponga.",
+    "note": "Implica dejar de intentar algo por completo."
+   },
+   {
+    "t": "run out of",
+    "es": "quedarse sin, agotar",
+    "example": "We ran out of coffee, so I'll go buy some more.",
+    "example_es": "Nos quedamos sin café, así que iré a comprar más.",
+    "note": "Indica que algo ha llegado a cero o se ha consumido totalmente."
+   },
+   {
+    "t": "pick up",
+    "es": "recoger, levantar",
+    "example": "Can you pick me up from the airport at 8 PM?",
+    "example_es": "¿Puedes recogerme en el aeropuerto a las 8 PM?",
+    "note": "Muy versátil: también significa 'aprender' o 'recoger' objetos."
+   },
+   {
+    "t": "calm down",
+    "es": "calmarse, tranquilizarse",
+    "example": "Try to calm down and think about the next step.",
+    "example_es": "Intenta calmarte y pensar en el siguiente paso.",
+    "note": "Se usa para pedir a alguien que controle sus emociones."
+   },
+   {
+    "t": "work out",
+    "es": "funcionar, resolverse",
+    "example": "I hope everything works out well for you in the new job.",
+    "example_es": "Espero que todo funcione bien para ti en el nuevo trabajo.",
+    "note": "También significa 'hacer ejercicio'."
+   },
+   {
+    "t": "think up",
+    "es": "inventar, idear",
+    "example": "He thought up a clever way to save money on taxes.",
+    "example_es": "Inventó una forma ingeniosa de ahorrar dinero en impuestos.",
+    "note": "Similar a 'come up with' pero más enfocado en la invención mental."
+   },
+   {
+    "t": "muck up",
+    "es": "arruinar, estropear",
+    "example": "He completely mucked up the presentation with his jokes.",
+    "example_es": "Arruinó por completo la presentación con sus chistes.",
+    "note": "Registro informal. Sinónimo de 'screw up'."
+   },
+   {
+    "t": "cheer up",
+    "es": "animarse, alegrarse",
+    "example": "Cheer up! It's going to be a beautiful day.",
+    "example_es": "¡Anímate! Va a ser un día precioso.",
+    "note": "Se usa para consolar o animar a alguien triste."
+   },
+   {
+    "t": "mess up",
+    "es": "meter la pata, estropear",
+    "example": "I messed up the exam because I didn't study enough.",
+    "example_es": "Metí la pata en el examen porque no estudié lo suficiente.",
+    "note": "Muy común en lenguaje coloquial para errores."
+   },
+   {
+    "t": "put up",
+    "es": "alojar, hospedar",
+    "example": "They put us up in a nice hotel for the weekend.",
+    "example_es": "Nos alojaron en un hotel bonito durante el fin de semana.",
+    "note": "También significa 'colgar' (un cartel) o 'soportar' (en 'put up with')."
+   },
+   {
+    "t": "look up",
+    "es": "buscar (información), consultar",
+    "example": "Let me look up the flight times on the website.",
+    "example_es": "Déjame buscar los horarios de vuelo en la web.",
+    "note": "Se refiere a buscar información en una fuente, no a mirar hacia arriba."
+   },
+   {
+    "t": "drop out",
+    "es": "abandonar (estudios), abandonar",
+    "example": "He dropped out of college to pursue his music career.",
+    "example_es": "Abandonó la universidad para perseguir su carrera musical.",
+    "note": "Se usa principalmente para dejar los estudios o una actividad formal."
+   },
+   {
+    "t": "find out",
+    "es": "enterarse, descubrir",
+    "example": "Did you find out what happened?",
+    "example_es": "¿Te enteraste de lo que pasó?",
+    "note": ""
+   },
+   {
+    "t": "turn out",
+    "es": "resultar",
+    "example": "It turned out she was right.",
+    "example_es": "Resultó que ella tenía razón.",
+    "note": ""
+   },
+   {
+    "t": "call out",
+    "es": "llamar la atención",
+    "example": "The coach called out the player for tardiness.",
+    "example_es": "El entrenador llamó la atención al jugador por llegar tarde.",
+    "note": ""
+   },
+   {
+    "t": "bring out",
+    "es": "sacar, destacar",
+    "example": "The director brought out the best in the cast.",
+    "example_es": "El director sacó lo mejor del elenco.",
+    "note": ""
+   },
+   {
+    "t": "carry out",
+    "es": "llevar a cabo",
+    "example": "Scientists will carry out the experiment tomorrow.",
+    "example_es": "Los científicos llevarán a cabo el experimento mañana.",
+    "note": "formal"
+   },
+   {
+    "t": "set out",
+    "es": "emprender, iniciar",
+    "example": "She set out to learn French this year.",
+    "example_es": "Ella se propuso aprender francés este año.",
+    "note": ""
+   },
+   {
+    "t": "run out",
+    "es": "quedarse sin",
+    "example": "We ran out of milk this morning.",
+    "example_es": "Nos quedamos sin leche esta mañana.",
+    "note": ""
+   },
+   {
+    "t": "sell out",
+    "es": "agotarse, traicionar",
+    "example": "Tickets sold out within minutes.",
+    "example_es": "Las entradas se agotaron en minutos.",
+    "note": ""
+   },
+   {
+    "t": "point out",
+    "es": "señalar",
+    "example": "She pointed out the error in the report.",
+    "example_es": "Ella señaló el error en el informe.",
+    "note": ""
+   },
+   {
+    "t": "look out",
+    "es": "tener cuidado",
+    "example": "Look out! The bike is coming.",
+    "example_es": "¡Cuidado! Viene la bicicleta.",
+    "note": ""
+   },
+   {
+    "t": "opt out",
+    "es": "excluirse",
+    "example": "You can opt out of the mailing list.",
+    "example_es": "Puedes excluirte de la lista de correos.",
+    "note": ""
+   },
+   {
+    "t": "phase out",
+    "es": "eliminar gradualmente",
+    "example": "The company will phase out old models.",
+    "example_es": "La empresa eliminará gradualmente los modelos antiguos.",
+    "note": ""
+   },
+   {
+    "t": "stand out",
+    "es": "destacarse",
+    "example": "His bright shirt makes him stand out.",
+    "example_es": "Su camisa brillante lo hace destacar.",
+    "note": ""
+   },
+   {
+    "t": "take out",
+    "es": "sacar, invitar",
+    "example": "I'll take you out for dinner.",
+    "example_es": "Te invitaré a cenar.",
+    "note": ""
+   },
+   {
+    "t": "hand out",
+    "es": "repartir",
+    "example": "The teacher handed out the worksheets.",
+    "example_es": "El profesor repartió las hojas de trabajo.",
+    "note": ""
+   },
+   {
+    "t": "pull out",
+    "es": "retirarse",
+    "example": "The car pulled out of the driveway.",
+    "example_es": "El coche salió del camino de entrada.",
+    "note": ""
+   },
+   {
+    "t": "shut out",
+    "es": "excluir",
+    "example": "They felt shut out of the decision.",
+    "example_es": "Se sintieron excluidos de la decisión.",
+    "note": ""
+   },
+   {
+    "t": "blow out",
+    "es": "apagar (velas)",
+    "example": "She blew out the candles quickly.",
+    "example_es": "Sopló las velas rápidamente.",
+    "note": ""
+   },
+   {
+    "t": "cut out",
+    "es": "eliminar, recortar",
+    "example": "The editor cut out the unnecessary paragraph.",
+    "example_es": "El editor eliminó el párrafo innecesario.",
+    "note": ""
+   },
+   {
+    "t": "lay out",
+    "es": "exponer, planear",
+    "example": "He laid out the plan on the table.",
+    "example_es": "Expuso el plan sobre la mesa.",
+    "note": ""
+   },
+   {
+    "t": "speak out",
+    "es": "hablar sin miedo",
+    "example": "She spoke out against the policy.",
+    "example_es": "Ella habló en contra de la política.",
+    "note": ""
+   },
+   {
+    "t": "bring down",
+    "es": "bajar",
+    "example": "The new law will bring down the cost of healthcare.",
+    "example_es": "La nueva ley bajará el costo de la atención médica.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "break down",
+    "es": "fallar",
+    "example": "My car broke down on the highway.",
+    "example_es": "Mi coche falló en la autopista.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "burn down",
+    "es": "arrasar",
+    "example": "The fire burned down the old warehouse.",
+    "example_es": "El fuego arrasó el viejo almacén.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "call down",
+    "es": "despedir",
+    "example": "The manager called down the employee for misconduct.",
+    "example_es": "El gerente despediu al empleado por mala conducta.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "carry down",
+    "es": "bajar",
+    "example": "She carried down the groceries from the top floor.",
+    "example_es": "Ella bajó las compras del último piso.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "chew down",
+    "es": "masticar",
+    "example": "He chews down the pills quickly.",
+    "example_es": "Él mastica las pastillas rápido.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "clamp down",
+    "es": "reprimir",
+    "example": "The police clamped down on the illegal trade.",
+    "example_es": "La policía reprimió el comercio ilegal.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "come down",
+    "es": "caer",
+    "example": "The storm is coming down on us.",
+    "example_es": "La tormenta nos va a caer.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "cut down",
+    "es": "recortar",
+    "example": "They cut down the trees for the new road.",
+    "example_es": "Cortaron los árboles para la nueva carretera.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "deal down",
+    "es": "bajar",
+    "example": "The dealer dealt down the cards.",
+    "example_es": "El repartidor bajó las cartas.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "dig down",
+    "es": "excavar",
+    "example": "They dug down to find the old foundation.",
+    "example_es": "Excavaron para encontrar la antigua fundación.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "drop down",
+    "es": "caer",
+    "example": "The curtain dropped down at the end of the show.",
+    "example_es": "La cortina cayó al final del espectáculo.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "fall down",
+    "es": "caer",
+    "example": "He fell down the stairs.",
+    "example_es": "Cayó las escaleras.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "give down",
+    "es": "bajar",
+    "example": "The teacher gave down the exam results.",
+    "example_es": "El profesor bajó los resultados del examen.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "go down",
+    "es": "bajar",
+    "example": "The stock prices went down today.",
+    "example_es": "Los precios de las acciones bajaron hoy.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "hand down",
+    "es": "heredar",
+    "example": "The tradition is handed down through generations.",
+    "example_es": "La tradición se hereda a través de generaciones.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "hold down",
+    "es": "mantener",
+    "example": "He holds down his job while studying.",
+    "example_es": "Mantiene su trabajo mientras estudia.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "knock down",
+    "es": "derribar",
+    "example": "The army knocked down the enemy's fort.",
+    "example_es": "El ejército derribó la fortaleza enemiga.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "lay down",
+    "es": "dejar",
+    "example": "She laid down the rules for the game.",
+    "example_es": "Ella dejó las reglas del juego.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "let down",
+    "es": "decepcionar",
+    "example": "He let down his teammates with his performance.",
+    "example_es": "Le decepcionó a sus compañeros con su actuación.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "pick down",
+    "es": "recoger",
+    "example": "They pick down the fallen leaves.",
+    "example_es": "Recogieron las hojas caídas.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "put down",
+    "es": "bajar",
+    "example": "Put down the book on the table.",
+    "example_es": "Baja el libro sobre la mesa.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "set down",
+    "es": "bajar",
+    "example": "Set down the luggage before the flight.",
+    "example_es": "Baja el equipaje antes del vuelo.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "take down",
+    "es": "bajar",
+    "example": "Take down the poster before the meeting.",
+    "example_es": "Baja el cartel antes de la reunión.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "break away",
+    "es": "romperse, separarse",
+    "example": "The rebels broke away from the main group.",
+    "example_es": "Los rebeldes se rompieron del grupo principal.",
+    "note": ""
+   },
+   {
+    "t": "carry away",
+    "es": "llevarse, emocionar",
+    "example": "She was carried away by the music.",
+    "example_es": "Se dejó llevar por la música.",
+    "note": ""
+   },
+   {
+    "t": "come around",
+    "es": "cambiar de opinión",
+    "example": "He finally came around to the idea.",
+    "example_es": "Finalmente aceptó la idea.",
+    "note": ""
+   },
+   {
+    "t": "cut across",
+    "es": "cruzar rápidamente",
+    "example": "The road cuts across the forest.",
+    "example_es": "La carretera corta a través del bosque.",
+    "note": ""
+   },
+   {
+    "t": "drag away",
+    "es": "arrastrar fuera",
+    "example": "They dragged the protester away.",
+    "example_es": "Arrastraron al manifestante fuera.",
+    "note": ""
+   },
+   {
+    "t": "fall away",
+    "es": "desvanecerse",
+    "example": "His interest fell away after the first week.",
+    "example_es": "Su interés se desvaneció después de la primera semana.",
+    "note": ""
+   },
+   {
+    "t": "get around",
+    "es": "desplazarse",
+    "example": "We get around the city by bike.",
+    "example_es": "Nos desplazamos por la ciudad en bicicleta.",
+    "note": ""
+   },
+   {
+    "t": "go away",
+    "es": "irse, desaparecer",
+    "example": "The pain finally went away.",
+    "example_es": "El dolor finalmente se fue.",
+    "note": ""
+   },
+   {
+    "t": "hold across",
+    "es": "mantener a través de",
+    "example": "She held the rope across the gap.",
+    "example_es": "Ella sostuvo la cuerda a través del hueco.",
+    "note": ""
+   },
+   {
+    "t": "keep away",
+    "es": "mantener alejado",
+    "example": "Keep the dog away from the trash.",
+    "example_es": "Mantén al perro alejado de la basura.",
+    "note": ""
+   },
+   {
+    "t": "look around",
+    "es": "mirar alrededor",
+    "example": "We looked around for a new restaurant.",
+    "example_es": "Buscamos alrededor un nuevo restaurante.",
+    "note": ""
+   },
+   {
+    "t": "move across",
+    "es": "moverse a través de",
+    "example": "The cat moved across the room silently.",
+    "example_es": "El gato se movió a través de la habitación silenciosamente.",
+    "note": ""
+   },
+   {
+    "t": "pass away",
+    "es": "fallecer",
+    "example": "His grandfather passed away last night.",
+    "example_es": "Su abuelo falleció anoche.",
+    "note": ""
+   },
+   {
+    "t": "run away",
+    "es": "huir",
+    "example": "The child ran away from home.",
+    "example_es": "El niño huyó de casa.",
+    "note": ""
+   },
+   {
+    "t": "see around",
+    "es": "ver alrededor",
+    "example": "She saw around the corner and smiled.",
+    "example_es": "Miró alrededor de la esquina y sonrió.",
+    "note": ""
+   },
+   {
+    "t": "stand away",
+    "es": "mantenerse alejado",
+    "example": "Please stand away from the edge.",
+    "example_es": "Por favor, mantente alejado del borde.",
+    "note": ""
+   },
+   {
+    "t": "take away",
+    "es": "llevar, quitar",
+    "example": "The teacher took away his phone.",
+    "example_es": "El profesor le quitó el teléfono.",
+    "note": ""
+   },
+   {
+    "t": "turn around",
+    "es": "dar la vuelta",
+    "example": "Turn around and face me.",
+    "example_es": "Da la vuelta y mírame.",
+    "note": ""
+   },
+   {
+    "t": "walk away",
+    "es": "alejarse caminando",
+    "example": "He walked away without saying a word.",
+    "example_es": "Se alejó caminando sin decir una palabra.",
+    "note": ""
+   },
+   {
+    "t": "work around",
+    "es": "resolver alrededor",
+    "example": "We need to work around the deadline.",
+    "example_es": "Tenemos que resolver alrededor del plazo.",
+    "note": ""
+   },
+   {
+    "t": "write across",
+    "es": "escribir a través",
+    "example": "She wrote across the page quickly.",
+    "example_es": "Escribió a través de la página rápidamente.",
+    "note": ""
+   },
+   {
+    "t": "zoom away",
+    "es": "alejarse rápidamente",
+    "example": "The car zoomed away down the highway.",
+    "example_es": "El coche se alejó rápidamente por la autopista.",
+    "note": ""
+   },
+   {
+    "t": "sail across",
+    "es": "navegar a través",
+    "example": "They sailed across the lake at dawn.",
+    "example_es": "Navegaron a través del lago al amanecer.",
+    "note": ""
+   },
+   {
+    "t": "pull away",
+    "es": "alejarse, separar",
+    "example": "The train pulled away from the station.",
+    "example_es": "El tren se alejó de la estación.",
+    "note": ""
+   },
+   {
+    "t": "spread across",
+    "es": "extenderse",
+    "example": "The fire spread across the forest.",
+    "example_es": "El fuego se extendió por el bosque.",
+    "note": ""
+   },
+   {
+    "t": "lean around",
+    "es": "apoyarse alrededor",
+    "example": "He leaned around the table to listen.",
+    "example_es": "Se apoyó alrededor de la mesa para escuchar.",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "en-idioms",
+  "level": "C1",
+  "title": "Modismos (idioms)",
+  "description": "Expresiones idiomáticas frecuentes en conversación, series y prensa.",
+  "items": [
+   {
+    "t": "burn the midnight oil",
+    "es": "trabajar hasta muy tarde",
+    "example": "I'm burning the midnight oil to finish this report before the deadline.",
+    "example_es": "Estoy trabajando hasta muy tarde para terminar este informe antes del plazo.",
+    "note": "Neutral. Muy común en contextos de oficina."
+   },
+   {
+    "t": "cost an arm and a leg",
+    "es": "costar una fortuna",
+    "example": "That new laptop cost an arm and a leg, so I'm saving up.",
+    "example_es": "Ese portátil nuevo costó una fortuna, así que estoy ahorrando.",
+    "note": "Informal. Enfatiza el alto precio."
+   },
+   {
+    "t": "cut corners",
+    "es": "hacer las cosas a medias",
+    "example": "They cut corners on safety to save money, which was a huge risk.",
+    "example_es": "Hicieron las cosas a medias en seguridad para ahorrar dinero, lo cual fue un gran riesgo.",
+    "note": "Negativo. Implica falta de calidad o seguridad."
+   },
+   {
+    "t": "make ends meet",
+    "es": "llegar a fin de mes",
+    "example": "With rent going up, it's hard for us to make ends meet.",
+    "example_es": "Con el alquiler subiendo, nos cuesta llegar a fin de mes.",
+    "note": "Neutral. Se refiere a cubrir gastos básicos."
+   },
+   {
+    "t": "get the ball rolling",
+    "es": "ponerse en marcha",
+    "example": "Let's get the ball rolling on this project with a quick brainstorm.",
+    "example_es": "Pongámonos en marcha con este proyecto con una lluvia de ideas rápida.",
+    "note": "Neutral. Iniciar una actividad o proceso."
+   },
+   {
+    "t": "on the same page",
+    "es": "estar en la misma sintonía",
+    "example": "Before the meeting, let's make sure everyone is on the same page.",
+    "example_es": "Antes de la reunión, asegúrense de que todos estén en la misma sintonía.",
+    "note": "Neutral. Asegurar consenso o entendimiento común."
+   },
+   {
+    "t": "think outside the box",
+    "es": "pensar de forma diferente",
+    "example": "We need to think outside the box to solve this technical issue.",
+    "example_es": "Necesitamos pensar de forma diferente para resolver este problema técnico.",
+    "note": "Neutral. Fomentar creatividad."
+   },
+   {
+    "t": "follow the money",
+    "es": "seguir el rastro del dinero",
+    "example": "Investigadores often follow the money to uncover corruption in large corporations.",
+    "example_es": "Los investigadores a menudo siguen el rastro del dinero para descubrir la corrupción en grandes corporaciones.",
+    "note": "Neutral. Usado en contextos de investigación o auditoría."
+   },
+   {
+    "t": "a blessing in disguise",
+    "es": "una bendición disfrazada",
+    "example": "Losing that job was a blessing in disguise; I found a better career path.",
+    "example_es": "Perder ese trabajo fue una bendición disfrazada; encontré una mejor carrera.",
+    "note": "Neutral. Algo malo que resultó ser bueno."
+   },
+   {
+    "t": "break even",
+    "es": "quedar en tablas",
+    "example": "It took us two years to break even with our startup investment.",
+    "example_es": "Tardamos dos años en quedar en tablas con nuestra inversión inicial.",
+    "note": "Neutral. Punto de equilibrio financiero."
+   },
+   {
+    "t": "a drop in the bucket",
+    "es": "una gota en el océano",
+    "example": "The bonus was just a drop in the bucket compared to our debts.",
+    "example_es": "El bono fue solo una gota en el océano comparado con nuestras deudas.",
+    "note": "Neutral. Cantidad insignificante en relación al total."
+   },
+   {
+    "t": "hit the ground running",
+    "es": "empezar con buen pie",
+    "example": "The new team hit the ground running and finished the task early.",
+    "example_es": "El nuevo equipo empezó con buen pie y terminó la tarea antes de tiempo.",
+    "note": "Neutral. Comenzar con energía y eficacia inmediata."
+   },
+   {
+    "t": "let the cat out of the bag",
+    "es": "revelar un secreto",
+    "example": "He let the cat out of the bag about the merger before the announcement.",
+    "example_es": "Reveló el secreto sobre la fusión antes del anuncio oficial.",
+    "note": "Informal. Desvelar información confidencial sin querer."
+   },
+   {
+    "t": "a shot in the dark",
+    "es": "un disparo a ciegas",
+    "example": "Applying for that job was a shot in the dark, but I got it.",
+    "example_es": "Postular a ese trabajo fue un disparo a ciegas, pero lo conseguí.",
+    "note": "Informal. Intento sin mucha probabilidad de éxito."
+   },
+   {
+    "t": "the ball is in your court",
+    "es": "la pelota está en tu tejado",
+    "example": "I've sent the proposal; now the ball is in your court to decide.",
+    "example_es": "He enviado la propuesta; ahora la pelota está en tu tejado para decidir.",
+    "note": "Neutral. Transferir la responsabilidad de actuar a otro."
+   },
+   {
+    "t": "a hard pill to swallow",
+    "es": "una píldora difícil de tragar",
+    "example": "Laying off staff is a hard pill to swallow for the management.",
+    "example_es": "Despedir a empleados es una píldora difícil de tragar para la dirección.",
+    "note": "Neutral. Aceptación difícil de una realidad desagradable."
+   },
+   {
+    "t": "keep your eye on the ball",
+    "es": "mantener el foco",
+    "example": "Keep your eye on the ball and don't get distracted by office politics.",
+    "example_es": "Mantén el foco y no te dejes distraer por la política de oficina.",
+    "note": "Neutral. Mantener la concentración en el objetivo principal."
+   },
+   {
+    "t": "a fish out of water",
+    "es": "un pez fuera del agua",
+    "example": "He felt like a fish out of water in the tech startup environment.",
+    "example_es": "Se sintió como un pez fuera del agua en el entorno de la startup tecnológica.",
+    "note": "Neutral. Incomodidad por no encajar en un entorno."
+   },
+   {
+    "t": "cut to the chase",
+    "es": "ir al grano",
+    "example": "Let's cut to the chase: do we have the budget for this or not?",
+    "example_es": "Vamos al grano: ¿tenemos presupuesto para esto o no?",
+    "note": "Informal. Ser directo y omitir detalles innecesarios."
+   },
+   {
+    "t": "a silver lining",
+    "es": "un lado positivo",
+    "example": "Every setback has a silver lining, especially in competitive markets.",
+    "example_es": "Cada contratiempo tiene un lado positivo, especialmente en mercados competitivos.",
+    "note": "Neutral. Buscar lo positivo en situaciones negativas."
+   },
+   {
+    "t": "the bottom line",
+    "es": "el resultado final",
+    "example": "The bottom line is that we need to reduce costs by 10%.",
+    "example_es": "El resultado final es que necesitamos reducir los costos en un 10%.",
+    "note": "Neutral. Conclusión o aspecto más importante."
+   },
+   {
+    "t": "a no-brainer",
+    "es": "una decisión obvia",
+    "example": "Hiring her was a no-brainer; she has exactly the skills we need.",
+    "example_es": "Contratarla fue una decisión obvia; tiene exactamente las habilidades que necesitamos.",
+    "note": "Informal. Decisión fácil y lógica."
+   },
+   {
+    "t": "a red herring",
+    "es": "un distractor",
+    "example": "The minor bug was a red herring; the real issue was the server crash.",
+    "example_es": "El error menor fue un distractor; el problema real fue el colapso del servidor.",
+    "note": "Neutral. Información falsa o irrelevante que desvía la atención."
+   },
+   {
+    "t": "the elephant in the room",
+    "es": "el elefante en la habitación",
+    "example": "We ignored the elephant in the room: the company's massive debt.",
+    "example_es": "Ignoramos el elefante en la habitación: la enorme deuda de la empresa.",
+    "note": "Neutral. Problema obvio que nadie quiere discutir."
+   },
+   {
+    "t": "hit it off",
+    "es": "encajar bien",
+    "example": "We hit it off on the first date.",
+    "example_es": "Nos llevamos bien desde la primera cita.",
+    "note": "informal, casual"
+   },
+   {
+    "t": "break the ice",
+    "es": "romper el hielo",
+    "example": "She told a joke to break the ice.",
+    "example_es": "Ella contó un chiste para romper el hielo.",
+    "note": "informal, social"
+   },
+   {
+    "t": "go out on a limb",
+    "es": "arriesgarse",
+    "example": "He went out on a limb to support her.",
+    "example_es": "Se arriesgó a apoyarla.",
+    "note": "informal, figurative"
+   },
+   {
+    "t": "be on the same page",
+    "es": "estar en la misma página",
+    "example": "We’re on the same page about the project.",
+    "example_es": "Estamos en la misma página sobre el proyecto.",
+    "note": "formal, business"
+   },
+   {
+    "t": "spill the beans",
+    "es": "revelar un secreto",
+    "example": "He spilled the beans about the surprise party.",
+    "example_es": "Reveló el secreto de la fiesta sorpresa.",
+    "note": "informal, colloquial"
+   },
+   {
+    "t": "keep someone at arm’s length",
+    "es": "mantener a distancia",
+    "example": "She keeps her ex at arm’s length.",
+    "example_es": "Mantiene a su ex a distancia.",
+    "note": "formal, relationship"
+   },
+   {
+    "t": "have a heart-to-heart",
+    "es": "tener una charla sincera",
+    "example": "They had a heart‑to‑heart after the argument.",
+    "example_es": "Tuvieron una charla sincera después del argumento.",
+    "note": "informal, personal"
+   },
+   {
+    "t": "take a backseat",
+    "es": "tomar un papel secundario",
+    "example": "He’s taking a backseat this semester.",
+    "example_es": "Está tomando un papel secundario este semestre.",
+    "note": "informal, academic"
+   },
+   {
+    "t": "be in a pickle",
+    "es": "estar en un aprieto",
+    "example": "I’m in a pickle about which dress to wear.",
+    "example_es": "Estoy en un aprieto sobre qué vestido usar.",
+    "note": "informal, idiomatic"
+   },
+   {
+    "t": "play it by ear",
+    "es": "actuar improvisando",
+    "example": "We’ll play it by ear for the weekend trip.",
+    "example_es": "Actuaremos improvisando para el viaje del fin de semana.",
+    "note": "informal, casual"
+   },
+   {
+    "t": "fall head over heels",
+    "es": "enamorarse profundamente",
+    "example": "She fell head over heels for the new guy.",
+    "example_es": "Se enamoró profundamente del nuevo chico.",
+    "note": "informal, romantic"
+   },
+   {
+    "t": "have a crush on",
+    "es": "tener un flechazo por",
+    "example": "I’ve had a crush on him since college.",
+    "example_es": "He tenido un flechazo por él desde la universidad.",
+    "note": "informal, teenage"
+   },
+   {
+    "t": "be a shoulder to cry on",
+    "es": "ser un hombro para llorar",
+    "example": "He’s always a shoulder to cry on.",
+    "example_es": "Siempre es un hombro para llorar.",
+    "note": "informal, supportive"
+   },
+   {
+    "t": "keep your cool",
+    "es": "mantener la calma",
+    "example": "She kept her cool during the crisis.",
+    "example_es": "Mantuvo la calma durante la crisis.",
+    "note": "informal, stressful"
+   },
+   {
+    "t": "be on pins and needles",
+    "es": "estar nervioso",
+    "example": "I’m on pins and needles waiting for the test results.",
+    "example_es": "Estoy nervioso esperando los resultados del examen.",
+    "note": "informal, anxious"
+   },
+   {
+    "t": "have a heart attack",
+    "es": "sorprenderse mucho",
+    "example": "She had a heart attack when she saw the bill.",
+    "example_es": "Se sorprendió mucho al ver la factura.",
+    "note": "informal, figurative"
+   },
+   {
+    "t": "be in love with someone’s heart",
+    "es": "enamorarse de alguien",
+    "example": "He’s in love with her heart and soul.",
+    "example_es": "Se enamoró de su corazón y alma.",
+    "note": "informal, romantic"
+   },
+   {
+    "t": "be a match made in heaven",
+    "es": "ser una pareja perfecta",
+    "example": "They’re a match made in heaven.",
+    "example_es": "Son una pareja perfecta.",
+    "note": "informal, romantic"
+   },
+   {
+    "t": "have a love-hate relationship",
+    "es": "tener una relación de amor y odio",
+    "example": "They have a love‑hate relationship with deadlines.",
+    "example_es": "Tienen una relación de amor y odio con los plazos.",
+    "note": "informal, work"
+   },
+   {
+    "t": "be on the fence",
+    "es": "estar indeciso",
+    "example": "I’m on the fence about the new job offer.",
+    "example_es": "Estoy indeciso sobre la nueva oferta de trabajo.",
+    "note": "informal, decision"
+   },
+   {
+    "t": "keep someone in the loop",
+    "es": "mantener a alguien informado",
+    "example": "Keep me in the loop about the changes.",
+    "example_es": "Mantenme informado sobre los cambios.",
+    "note": "formal, business"
+   },
+   {
+    "t": "have a soft spot for",
+    "es": "tener cariño por",
+    "example": "I have a soft spot for vintage cars.",
+    "example_es": "Tengo cariño por los coches vintage.",
+    "note": "informal, affectionate"
+   },
+   {
+    "t": "be a breath of fresh air",
+    "es": "ser un respiro refrescante",
+    "example": "She’s a breath of fresh air in the office.",
+    "example_es": "Es un respiro refrescante en la oficina.",
+    "note": "informal, workplace"
+   },
+   {
+    "t": "have a chip on one’s shoulder",
+    "es": "tener resentimiento",
+    "example": "He has a chip on his shoulder after the rejection.",
+    "example_es": "Tiene resentimiento después del rechazo.",
+    "note": "informal, conflict"
+   },
+   {
+    "t": "be on a roll",
+    "es": "tener racha",
+    "example": "She’s on a roll with her sales this quarter.",
+    "example_es": "Tiene racha con sus ventas este trimestre.",
+    "note": "informal, business"
+   },
+   {
+    "t": "be a blessing in disguise",
+    "es": "ser una bendición inesperada",
+    "example": "Losing the job was a blessing in disguise.",
+    "example_es": "Perder el trabajo fue una bendición inesperada.",
+    "note": "informal, positive"
+   }
+  ]
+ }
+]

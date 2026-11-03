@@ -36,6 +36,13 @@ SYLLABUS = {
         ("en-phrasal", "B2", "Phrasal verbs esenciales", "get up, look for, find out, give up, run out of, come across, put off, turn down; separables vs inseparables"),
         ("en-wish", "B2", "Wish e If only", "wish + pasado (presente), wish + past perfect (pasado), wish + would (quejas)"),
         ("en-future-advanced", "B2", "Futuro continuo y futuro perfecto", "will be -ing, will have + participio, by + tiempo"),
+        ("en-causative", "B2", "Causativo: have/get something done", "have/get + objeto + participio, need + -ing, get someone to do"),
+        ("en-inversion", "C1", "Inversión para dar énfasis", "never/rarely/seldom/not only/no sooner/hardly + auxiliar + sujeto; inversión en condicionales (Had I known, Should you need, Were I)"),
+        ("en-cleft", "C1", "Oraciones escindidas (cleft sentences)", "It is/was ... that/who; What I need is...; All I want is...; The reason why...; para enfatizar"),
+        ("en-participle-clauses", "C1", "Oraciones de participio", "Having finished..., Built in 1900..., Walking home, I...; reducir relativas; sujeto colgante (error típico)"),
+        ("en-formal-structures", "C1", "Estructuras formales y subjuntivo", "suggest/insist/recommend that + base; It's (high) time + pasado; I'd rather + pasado; as if/as though; lest"),
+        ("en-hedging", "C1", "Matizar y suavizar (hedging)", "tend to, appear to, it seems that, arguably, to some extent, would suggest; registro académico y diplomático"),
+        ("en-ellipsis", "C1", "Elipsis y sustitución", "so/not (I think so, I hope not), do so, one/ones, omitir palabras repetidas, respuestas cortas naturales"),
     ],
     "fr": [
         ("fr-etre-avoir", "A1", "Être y avoir", "conjugación, usos; error típico: 'je suis 20 ans' → 'j'ai 20 ans', 'j'ai faim/froid'"),
@@ -59,5 +66,42 @@ SYLLABUS = {
         ("fr-relatifs", "B1", "Pronombres relativos", "qui, que, où, dont"),
         ("fr-faux-amis", "B1", "Falsos amigos español-francés", "constipé, embarrasser, large, quitter, ranger, sortir, rester, salir, la mer/el mar (género)"),
         ("fr-plus-que-parfait", "B2", "Pluscuamperfecto y condicional pasado", "si + plus-que-parfait, conditionnel passé, arrepentimientos"),
+        ("fr-discours-indirect", "B2", "Estilo indirecto y concordancia de tiempos", "il a dit que + imparfait/plus-que-parfait/conditionnel, cambios de marcadores temporales (la veille, le lendemain)"),
+        ("fr-gerondif", "B2", "Participio presente y gerundio", "en + -ant (simultaneidad, manera, condición), participe présent en registro escrito, adjetivo verbal"),
+        ("fr-passif", "B2", "Voz pasiva y construcciones impersonales", "être + participio, se faire + infinitivo, on, il est + adjetivo + de, tournures impersonnelles"),
+        ("fr-subjonctif-avance", "C1", "Subjuntivo avanzado", "subjonctif passé, bien que/quoique/pourvu que/à moins que (ne explétif), superlativo + subjuntivo, croire/penser en negativa"),
+        ("fr-mise-en-relief", "C1", "Poner de relieve (mise en relief)", "c'est...qui/que, ce qui/ce que...c'est, dislocación (Moi, je...), énfasis oral"),
+        ("fr-connecteurs", "C1", "Conectores y matices de la argumentación", "cependant, néanmoins, or, d'ailleurs, en revanche, quitte à, faute de, étant donné que, si bien que; registro escrito"),
+    ],
+}
+
+# Paquetes de vocabulario avanzado (expresiones hechas, colocaciones, registro).
+# Cada paquete: (id, nivel, título, descripción, qué es cada elemento, [subtemas: un lote de 25 por subtema])
+PACKS = {
+    "en": [
+        ("en-phrasal", "B2", "Phrasal verbs esenciales", "Los phrasal verbs más usados por nativos, agrupados por partícula.",
+         "a common phrasal verb", ["with UP", "with OUT", "with OFF", "with DOWN", "with ON and IN/INTO", "with OVER, THROUGH and BACK", "with AWAY, AROUND, ACROSS and ALONG", "three-word phrasal verbs (put up with, run out of...)"]),
+        ("en-idioms", "C1", "Modismos (idioms)", "Expresiones idiomáticas frecuentes en conversación, series y prensa.",
+         "a common, current English idiom (not old-fashioned)", ["work and money", "time and success/failure", "emotions and relationships", "communication and opinions", "body parts", "animals, food and colours"]),
+        ("en-collocations", "C1", "Colocaciones", "Combinaciones naturales de palabras (make a decision, heavy rain...). Son lo que más delata a un no nativo.",
+         "a strong English collocation", ["MAKE / DO / TAKE / HAVE / GET + noun", "adjective + noun (heavy rain, strong coffee...)", "verb + noun at work and business", "adverb + adjective (highly unlikely, deeply concerned...)", "collocations for opinions, arguments and discussions", "collocations about society, environment and news", "collocations about emotions, health and relationships", "verb + preposition and noun + preposition"]),
+        ("en-linkers", "B2", "Conectores del discurso", "Para estructurar ideas al hablar y escribir con coherencia (clave en C1).",
+         "a discourse marker or linking expression", ["addition and contrast (furthermore, nevertheless...)", "cause, result and purpose", "sequencing, examples and summarising", "giving opinions, hedging and conceding (admittedly, to be fair...)"]),
+        ("en-academic", "C1", "Vocabulario académico y formal", "Palabras de la Academic Word List: noticias, trabajo, estudios, exámenes C1.",
+         "a word from the Academic Word List (Coxhead), with its most useful collocation in the example", ["AWL sublist 1-2", "AWL sublist 3-4", "AWL sublist 5-6", "AWL sublist 7-8", "AWL sublist 9-10"]),
+        ("en-register", "C1", "Registro: informal ↔ formal", "La misma idea dicha de forma coloquial y formal (escribe 'informal → formal').",
+         "a pair 'informal expression → formal equivalent' written as 'informal → formal'", ["everyday verbs (get → obtain, ask for → request...)", "emails and work communication", "spoken slang and fillers vs neutral English"]),
+    ],
+    "fr": [
+        ("fr-expressions", "C1", "Expressions idiomatiques", "Expresiones que usan los francófonos a diario.",
+         "a common, current French idiomatic expression", ["travail et argent", "émotions et relations", "temps et réussite", "le corps humain", "nourriture et animaux"]),
+        ("fr-connecteurs", "B2", "Connecteurs logiques", "Para argumentar y estructurar el discurso.",
+         "a French discourse connector", ["addition et opposition", "cause, conséquence et but", "concession, hypothèse et conclusion"]),
+        ("fr-collocations", "C1", "Collocations et verbes à préposition", "Combinaciones naturales (prendre une décision, tenir compte de...).",
+         "a strong French collocation or verb + preposition", ["prendre / faire / mettre / donner + nom", "verbes + à / de (penser à, se souvenir de...)", "adjectif + nom et adverbe + adjectif", "le monde du travail et de l'actualité", "opinions et débats"]),
+        ("fr-familier", "B2", "Français familier", "Lo que vas a oír en la calle y en series (y su equivalente neutro).",
+         "a very common informal/colloquial French word or expression (with its neutral equivalent in the note)", ["mots du quotidien (bouffer, bosser, fric...)", "expressions et tics de langage", "verlan et argot courant"]),
+        ("fr-soutenu", "C1", "Vocabulaire soutenu", "Vocabulario formal para escribir y hablar en contextos profesionales.",
+         "a formal/academic French word useful for C1 essays, with a useful collocation in the example", ["verbes soutenus", "noms abstraits", "adjectifs et adverbes de nuance"]),
     ],
 }

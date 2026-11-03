@@ -37,8 +37,14 @@ def _character_system(m: dict, lang: str, mode: str, objectives_state: dict) -> 
         f'- {o["id"]}: {o["text"]} -> {"DONE" if objectives_state.get(o["id"]) else "pending"}'
         for o in m["objectives"]
     )
+    profile = ""
+    if m.get("free"):
+        facts = db.get_setting("learner_profile", [])
+        if facts:
+            profile = "\n## What you remember about the learner from earlier chats (use it naturally, don't list it)\n- " + "\n- ".join(facts[-20:]) + "\n"
+    extra = f"\n## Conversation format\n{m['format']}\n" if m.get("format") else ""
     return f"""You are role-playing in a language-immersion training game for a Spanish speaker learning {target}.
-
+{profile}{extra}
 ## Your character
 Name: {ch["name"]}. Role: {ch["role"]}. Personality: {ch["personality"]}.
 Location: {m["location"]}.
@@ -61,7 +67,7 @@ Mark an objective done only when the learner has clearly achieved it in {target}
  "reply": "your in-character line in {target}",
  "emotion": one of {EMOTIONS},
  "objectives_done": ["ids of objectives completed so far, including earlier ones"],
- "correction": null OR {{"original": "the learner's exact wrong phrase", "corrected": "natural correct version", "explanation": "very short reason IN SPANISH", "category": "one of: tiempo verbal, preposición, artículo, orden de palabras, vocabulario, concordancia, pronombre, ortografía, expresión natural, otro"}},
+ "correction": null OR {{"original": "the learner's exact wrong phrase", "corrected": "natural correct version", "hint": "a clue IN SPANISH that helps the learner find the error WITHOUT giving the answer (e.g. 'Revisa el tiempo verbal: es algo que ya pasó')", "explanation": "very short reason IN SPANISH", "category": "one of: tiempo verbal, preposición, artículo, orden de palabras, vocabulario, concordancia, pronombre, ortografía, expresión natural, otro"}},
  "mission_complete": true if ALL objectives are done and the scene reached a natural end,
  "mission_failed": true only if the learner clearly made it impossible (e.g. insulted you, left)
 }}
@@ -123,26 +129,89 @@ def get_mission(lang: str, mission_id: str) -> dict | None:
     return json.loads(row["data"]) if row else None
 
 
-def free_talk_mission(lang: str, topic: str, level: str) -> dict:
+# Modos de conversación: cada uno entrena una destreza distinta (clave para llegar a C1).
+CONVERSATION_MODES = {
+    "libre": {
+        "title": "Conversación libre", "icon": "💬", "desc": "Charla natural con un nativo curioso.",
+        "role": "friendly native speaker and conversation partner",
+        "personality": "curious, warm, asks follow-up questions, shares personal opinions and stories",
+        "format": "Casual conversation. Always end with a question. Share your own opinions and experiences too.",
+        "objectives": ["Mantén la conversación al menos 8 turnos", "Haz tú al menos 2 preguntas", "Cuenta algo personal con detalle"],
+    },
+    "debate": {
+        "title": "Debate", "icon": "⚖️", "desc": "Defiende una postura con argumentos (destreza C1).",
+        "role": "sharp but friendly debate partner",
+        "personality": "logical, challenges every argument politely, asks for evidence and examples, plays devil's advocate",
+        "format": "A debate. First state the motion and ask the learner which side they take. Then ALWAYS take the opposite side, counter their arguments and ask them to justify. Push for linkers (however, on the other hand) and concrete examples.",
+        "objectives": ["Expón tu postura con claridad", "Da al menos 3 argumentos con ejemplos", "Rebate un argumento contrario", "Concluye resumiendo tu postura"],
+    },
+    "entrevista": {
+        "title": "Entrevista de trabajo", "icon": "💼", "desc": "Prepárate para una entrevista real en el idioma.",
+        "role": "experienced HR interviewer",
+        "personality": "professional, friendly, asks behavioural questions and follow-ups (STAR method)",
+        "format": "A realistic job interview for the job/topic given. Ask one question at a time: background, motivation, strengths, weakness, a difficult situation (STAR), salary expectations, questions for you. Ask follow-ups when answers are vague.",
+        "objectives": ["Preséntate y resume tu experiencia", "Responde una pregunta de comportamiento con un ejemplo concreto", "Habla de una debilidad de forma profesional", "Haz tú una pregunta al entrevistador"],
+    },
+    "explicar": {
+        "title": "Explícamelo (técnica Feynman)", "icon": "🧑‍🏫", "desc": "Explica un tema que conoces a alguien curioso.",
+        "role": "curious friend who knows nothing about the topic",
+        "personality": "curious, asks 'why?' and 'what do you mean by...?', asks for examples and simpler words",
+        "format": "The learner explains the given topic to you. You know nothing about it. Ask clarifying questions, ask for examples, summarise what you understood and let them correct you.",
+        "objectives": ["Explica qué es el tema", "Da un ejemplo concreto", "Aclara algo que no se entendió", "Responde a una pregunta de '¿por qué?'"],
+    },
+    "historia": {
+        "title": "Cuéntame una historia", "icon": "📖", "desc": "Narra en pasado con detalle (tiempos verbales).",
+        "role": "attentive listener who loves stories",
+        "personality": "reacts with emotion, asks what happened next, how they felt, asks about details",
+        "format": "The learner tells a real or invented story about the given topic. React naturally, ask what happened next, about feelings and details. Encourage past tenses and storytelling linkers (then, suddenly, eventually).",
+        "objectives": ["Sitúa la historia (cuándo, dónde, quién)", "Cuenta lo que pasó usando tiempos del pasado", "Describe cómo te sentiste", "Cuenta cómo terminó"],
+    },
+    "actualidad": {
+        "title": "Actualidad y opinión", "icon": "📰", "desc": "Opina sobre temas sociales con matices.",
+        "role": "well-informed friend who follows the news",
+        "personality": "thoughtful, nuanced, asks for opinions and reasons, brings up pros and cons",
+        "format": "Discuss the given social topic (technology, environment, work, education, cities...). Ask for opinions, reasons, personal impact, and possible solutions. Use and encourage nuanced language (to some extent, it depends).",
+        "objectives": ["Da tu opinión con razones", "Matiza tu opinión (depende, en parte...)", "Propón una solución o predicción", "Pregunta la opinión del otro"],
+    },
+    "smalltalk": {
+        "title": "Small talk", "icon": "☕", "desc": "Charla ligera como en una fiesta o una oficina.",
+        "role": "friendly stranger at a social event",
+        "personality": "relaxed, polite, light topics: weather, weekend, travel, food, work in general",
+        "format": "Light small talk between people who just met. Keep it short and natural, with typical small-talk phrases. Change topic naturally a couple of times.",
+        "objectives": ["Preséntate de forma natural", "Encuentra algo en común", "Cambia de tema con naturalidad", "Despídete de forma natural"],
+    },
+}
+
+
+def free_talk_mission(lang: str, topic: str, level: str, kind: str = "libre") -> dict:
     target = {"en": "English", "fr": "French"}[lang]
-    voice = LANGUAGES[lang]["tts_default"]
+    voices = LANGUAGES[lang]["voices"]
+    mode = CONVERSATION_MODES.get(kind, CONVERSATION_MODES["libre"])
+    import random as _r
+    from .config import VOICE_GENDER
+    voice = _r.choice(voices)
+    names = {
+        ("en", "f"): ["Emma", "Olivia", "Sophie", "Grace"], ("en", "m"): ["James", "Tom", "Daniel", "Ben"],
+        ("fr", "f"): ["Manon", "Léa", "Chloé", "Camille"], ("fr", "m"): ["Lucas", "Hugo", "Julien", "Antoine"],
+    }[(lang, VOICE_GENDER.get(voice, "f"))]
+    n_turns = 8
     return {
-        "id": f"free-{uuid.uuid4().hex[:6]}",
+        "id": f"free-{kind}-{uuid.uuid4().hex[:6]}",
         "level": level,
-        "title": "Conversación libre",
-        "location": "Una cafetería tranquila",
-        "briefing": f"Conversa libremente sobre: {topic}. Tu compañero es un nativo amable que te corregirá con suavidad.",
-        "character": {"name": "Alex" if lang == "en" else "Camille", "role": f"friendly native {target} speaker and conversation partner",
-                      "personality": "curious, warm, asks follow-up questions, shares personal opinions and stories", "voice": voice},
-        "objectives": [{"id": "o1", "text": "Mantén la conversación al menos 8 turnos"},
-                       {"id": "o2", "text": "Haz tú al menos 2 preguntas"},
-                       {"id": "o3", "text": "Cuenta algo personal con detalle"}],
-        "secret": f"Talk about: {topic}. Always end with a question to keep the conversation going. o1 is done after the learner's 8th message.",
-        "complication": "Share a surprising opinion to provoke the learner to agree or disagree.",
+        "title": mode["title"],
+        "location": "Conversación",
+        "briefing": f"{mode['desc']} Tema: {topic}.",
+        "character": {"name": _r.choice(names), "role": f"{mode['role']} (native {target} speaker)",
+                      "personality": mode["personality"], "voice": voice},
+        "objectives": [{"id": f"o{i+1}", "text": t} for i, t in enumerate(mode["objectives"])],
+        "secret": f"Topic: {topic}. Objective 'o1' in the free mode is done after the learner's {n_turns}th message.",
+        "format": mode["format"],
+        "complication": "Bring a surprising opinion or question to make the learner react.",
         "opening": "",
         "useful_phrases": [],
         "max_turns": 30,
         "free": True,
+        "kind": kind,
     }
 
 
@@ -265,11 +334,19 @@ async def finish(run_id: int) -> dict:
                 "\"improvements\": [\"concrete advice in Spanish\"], "
                 f"\"better_versions\": [{{\"original\": \"exact line said by the Learner (never the character)\", \"better\": \"more natural {target}\", \"why\": \"Spanish\"}}] (max 4, only Learner lines worth improving), "
                 f"\"new_vocab\": [{{\"t\": \"useful {target} word or phrase from this situation\", \"es\": \"Spanish\"}}] (5 items), "
-                "\"fluency\": 0-100, \"accuracy\": 0-100}",
+                "\"fluency\": 0-100, \"accuracy\": 0-100, "
+                "\"profile_facts\": [\"short facts the Learner revealed about their REAL life (job, hobbies, family, goals, city), in English; empty list if none or if it was a role-play cover story\"]}",
                 convo, temperature=0.4, max_tokens=2500,
             )
         except llm.LLMError:
             pass
+    # Memoria: lo que el alumno contó de sí mismo en conversaciones libres (personaliza futuras charlas).
+    if m.get("free"):
+        facts = [f for f in (review.get("profile_facts") or []) if isinstance(f, str) and 3 < len(f) < 120]
+        if facts:
+            known = db.get_setting("learner_profile", [])
+            known += [f for f in facts if f.lower() not in {k.lower() for k in known}]
+            db.set_setting("learner_profile", known[-30:])
     # Solo se "mejoran" frases que dijo el alumno (a veces la IA incluye líneas del personaje).
     low = [l.lower().strip() for l in learner_lines]
     review["better_versions"] = [

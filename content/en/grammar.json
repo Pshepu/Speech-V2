@@ -4425,5 +4425,1045 @@
   "id": "en-future-advanced",
   "level": "B2",
   "title": "Futuro continuo y futuro perfecto"
+ },
+ {
+  "summary": "Aprenderás a usar el causativo have/get en inglés para expresar que alguien hace algo por ti",
+  "explanation": "## Causativo **have / get** + objeto + participio pasado\n- Se usa cuando **nosotros** no realizamos la acción, sino que **otra persona** la lleva a cabo.\n- Estructura: **subject + have/get + object + past participle**.\n- *Have* suena más formal; *get* es más coloquial.\n\n### Comparación con el español\n- En español usamos construcciones como **\"hacer que\"** o **\"mandar a\"**: *I had my car washed* → *Hice que lavaran mi coche*.\n- Con *get* a veces se traduce como **\"lograr que\"**: *She got her hair cut* → *Logró que le cortaran el pelo*.\n\n### Variantes\n1. **need + -ing** (cuando la acción es necesaria): *I need my car repaired* → *Necesito que reparen mi coche*.\n2. **get someone to do** (cuando especificamos quién actúa): *I got the mechanic to fix it* → *Le pedí al mecánico que lo arreglara*.\n\n### Tabla rápida\n| Estructura | Ejemplo | Español |\n|------------|---------|---------|\n| have + obj + Vpp | I had my windows cleaned. | Hice que limpiaran mis ventanas. |\n| get + obj + Vpp | She got her hair dyed. | Logró que le tiñeran el pelo. |\n| get + person + to + Vinf | We got the plumber to repair the leak. | Le pedimos al fontanero que reparara la fuga. |\n\n**Nota:** El objeto siempre es el que recibe la acción, no el agente.\n",
+  "examples": [
+   {
+    "t": "I had my watch repaired yesterday.",
+    "es": "Ayer reparé mi reloj (hice que lo repararan)."
+   },
+   {
+    "t": "She got her house painted last summer.",
+    "es": "El verano pasado, ella hizo que pintaran su casa."
+   },
+   {
+    "t": "We need the documents signed before Friday.",
+    "es": "Necesitamos que los documentos estén firmados antes del viernes."
+   },
+   {
+    "t": "He got the chef to prepare a special menu.",
+    "es": "Le pidió al chef que preparara un menú especial."
+   },
+   {
+    "t": "They had the road cleared after the storm.",
+    "es": "Hicieron que despejaran la carretera después de la tormenta."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "I have my car to wash.",
+    "right": "I have my car washed.",
+    "why": "Falta el participio pasado del verbo principal."
+   },
+   {
+    "wrong": "She get her hair cut.",
+    "right": "She gets her hair cut.",
+    "why": "El verbo debe concordar con el sujeto en tercera persona singular."
+   },
+   {
+    "wrong": "We need to get the documents sign.",
+    "right": "We need to get the documents signed.",
+    "why": "Después de *get* se usa el participio pasado, no el infinitivo."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "She ___ her car serviced last month.",
+    "options": [
+     "had",
+     "gets",
+     "have"
+    ],
+    "answer": 0,
+    "explanation": "Se necesita el pasado simple *had* porque la acción ya ocurrió."
+   },
+   {
+    "type": "choice",
+    "prompt": "We ___ the plumber to fix the leak.",
+    "options": [
+     "got",
+     "have",
+     "needs"
+    ],
+    "answer": 0,
+    "explanation": "Con *get* + persona + to + infinitivo se indica que pedimos al plomero que lo arregle."
+   },
+   {
+    "type": "choice",
+    "prompt": "They ___ their garden trimmed every spring.",
+    "options": [
+     "need",
+     "have",
+     "gets"
+    ],
+    "answer": 1,
+    "explanation": "Uso de *have* + objeto + participio para expresar una acción habitual."
+   },
+   {
+    "type": "fill",
+    "prompt": "I ___ (have) my laptop ___ (repair) yesterday.",
+    "answer": "had repaired",
+    "accept": [
+     "had my laptop repaired"
+    ],
+    "explanation": "Se combina *had* (pasado) con el participio *repaired*."
+   },
+   {
+    "type": "fill",
+    "prompt": "She ___ (get) her hair ___ (cut) for the party.",
+    "answer": "got cut",
+    "accept": [
+     "got her hair cut"
+    ],
+    "explanation": "Estructura *get + objeto + participio*."
+   },
+   {
+    "type": "fill",
+    "prompt": "We ___ (need) the report ___ (finish) by Monday.",
+    "answer": "need finished",
+    "accept": [
+     "need the report finished"
+    ],
+    "explanation": "Después de *need* se usa el participio pasado."
+   },
+   {
+    "type": "order",
+    "words": [
+     "I",
+     "had",
+     "my",
+     "car",
+     "washed"
+    ],
+    "answer": "I had my car washed",
+    "explanation": "Orden correcto: sujeto + have + objeto + participio."
+   },
+   {
+    "type": "order",
+    "words": [
+     "We",
+     "got",
+     "the",
+     "chef",
+     "to",
+     "prepare",
+     "the",
+     "meal"
+    ],
+    "answer": "We got the chef to prepare the meal",
+    "explanation": "Orden: sujeto + get + persona + to + verbo infinitivo + complemento."
+   },
+   {
+    "type": "fix",
+    "prompt": "He have his bike fixed.",
+    "answer": "He had his bike fixed.",
+    "explanation": "El verbo debe ir en pasado *had* para el causativo."
+   },
+   {
+    "type": "translate",
+    "prompt": "Necesito que me revisen el contrato antes de firmarlo.",
+    "answer": "I need my contract reviewed before I sign it.",
+    "explanation": "Se usa *need* + objeto + participio pasado para expresar la necesidad."
+   }
+  ],
+  "id": "en-causative",
+  "level": "B2",
+  "title": "Causativo: have/get something done"
+ },
+ {
+  "summary": "Aprenderás a usar la inversión del sujeto y el verbo en inglés para dar énfasis y sonar más formal o literario.",
+  "explanation": "En inglés, al igual que en español, podemos invertir el orden normal Sujeto-Verbo para dar énfasis o crear un registro más formal. Esto ocurre principalmente en dos situaciones:\n\n1. **Adverbios negativos o limitantes**: Cuando una oración comienza con palabras como *never, rarely, seldom, hardly, no sooner*, *not only* o *little*, se requiere inversión. El auxiliar (o verbo *be*) se coloca antes del sujeto.\n   - *Normal*: I have never seen such a thing.\n   - *Inversión*: **Never have I seen** such a thing.\n\n2. **Condicionales formales**: En condicionales de segundo y tercer tipo, podemos omitir la palabra *if* (si) y usar inversión. Esto es muy común en escritura académica o legal.\n   - *If I were you...* → **Were I** you...\n   - *If you need help...* → **Should you** need help...\n   - *If I had known...* → **Had I** known...\n\n| Tipo de inversión | Ejemplo Normal | Ejemplo Invertido |\n| :--- | :--- | :--- |\n| Adverbio negativo | She rarely travels. | Rarely **does she** travel. |\n| Condicional (2) | If I were rich... | **Were I** rich... |\n| Condicional (3) | If he had called... | **Had he** called... |\n\n**Nota importante**: No se usa inversión con adverbios positivos como *always* o *often* al inicio de la oración, aunque gramaticalmente sea posible en contextos muy literarios, suena incorrecto en el uso estándar moderno. Además, recuerda que la inversión no cambia el significado, solo el énfasis y el estilo.",
+  "examples": [
+   {
+    "t": "Never have I felt so alive.",
+    "es": "Nunca me he sentido tan vivo."
+   },
+   {
+    "t": "Rarely does he complain about his job.",
+    "es": "Rara vez se queja de su trabajo."
+   },
+   {
+    "t": "Had I known about the meeting, I would have attended.",
+    "es": "Si hubiera sabido de la reunión, habría asistido."
+   },
+   {
+    "t": "Should you require any assistance, please contact us.",
+    "es": "Si necesitas cualquier asistencia, por favor contáctanos."
+   },
+   {
+    "t": "Not only did she win the prize, but she also gave a speech.",
+    "es": "No solo ganó el premio, sino que también dio un discurso."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Never I have seen that.",
+    "right": "Never have I seen that.",
+    "why": "Falta la inversión del auxiliar 'have' antes del sujeto 'I'."
+   },
+   {
+    "wrong": "If I would have known, I would have told you.",
+    "right": "Had I known, I would have told you.",
+    "why": "En condicionales tipo 3, no se usa 'would' en la cláusula de 'if' ni en la inversión."
+   },
+   {
+    "wrong": "Rarely he goes to the gym.",
+    "right": "Rarely does he go to the gym.",
+    "why": "Con adverbios negativos al inicio, se necesita el auxiliar 'does' para invertir."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ have I ever seen such a beautiful sunset.",
+    "options": [
+     "Never",
+     "Rarely",
+     "Hardly"
+    ],
+    "answer": 0,
+    "explanation": "'Never' es la opción más común para enfatizar la ausencia total de algo en el pasado."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ you need any help, let me know.",
+    "options": [
+     "Should",
+     "Would",
+     "Could"
+    ],
+    "answer": 0,
+    "explanation": "'Should' se usa en la inversión para condicionales tipo 1 (presente/futuro) equivalentes a 'If you need'."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ had I arrived when the phone rang.",
+    "options": [
+     "No sooner",
+     "Hardly",
+     "Rarely"
+    ],
+    "answer": 0,
+    "explanation": "'No sooner... than' (o cuando) es la estructura fija para expresar que algo ocurrió inmediatamente después de otro."
+   },
+   {
+    "type": "fill",
+    "prompt": "Never ___ (see) such a thing in my life.",
+    "answer": "have I seen",
+    "accept": [
+     "have I ever seen"
+    ],
+    "explanation": "Se requiere el auxiliar 'have' antes del sujeto 'I' y el participio 'seen'."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ I you, I would accept the offer.",
+    "answer": "Were",
+    "accept": [
+     "If I were"
+    ],
+    "explanation": "Inversión del condicional tipo 2: 'If I were' se convierte en 'Were I'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Rarely ___ (they) complain about the weather.",
+    "answer": "do they",
+    "accept": [
+     "do they ever"
+    ],
+    "explanation": "El auxiliar 'do' debe ir antes del sujeto 'they' para la inversión."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Had",
+     "I",
+     "known",
+     "the",
+     "truth",
+     ",",
+     "I",
+     "would",
+     "have",
+     "acted",
+     "differently",
+     "."
+    ],
+    "answer": "Had I known the truth, I would have acted differently.",
+    "explanation": "Orden correcto: Auxiliar (Had) + Sujeto (I) + Participio (known)."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Seldom",
+     "does",
+     "she",
+     "wear",
+     "jewels",
+     "."
+    ],
+    "answer": "Seldom does she wear jewels.",
+    "explanation": "Orden: Adverbio + Auxiliar (does) + Sujeto (she) + Verbo base (wear)."
+   },
+   {
+    "type": "fix",
+    "prompt": "Never I have heard such a good idea.",
+    "answer": "Never have I heard such a good idea.",
+    "explanation": "El auxiliar 'have' debe anteceder al sujeto 'I' tras el adverbio negativo."
+   },
+   {
+    "type": "translate",
+    "prompt": "Si yo fuera tú, no aceptaría el trabajo.",
+    "answer": "Were I you, I would not accept the job.",
+    "explanation": "Uso de la inversión 'Were I' para el condicional tipo 2."
+   }
+  ],
+  "id": "en-inversion",
+  "level": "C1",
+  "title": "Inversión para dar énfasis"
+ },
+ {
+  "summary": "Aprenderás a usar oraciones escindidas en inglés para enfatizar información.",
+  "explanation": "## Oraciones escindidas (cleft sentences)\n\nLas **oraciones escindidas** son estructuras que ponen énfasis en una parte de la frase al dividirla en dos cláusulas. Se forman con:\n\n- **It is/was … that/who …**\n- **What … is/was …**\n- **All … is/was …**\n- **The reason why … is/was …**\n\n### 1. It is/was … that/who …\nSe usa para destacar el sujeto, objeto o complemento.\n| Español | Inglés |\n|---|---|\n| Fue Juan quien lo hizo. | **It was Juan who did it.** |\n| Lo que quiero es descansar. | **What I want is to rest.** |\n\n### 2. What … is/was …\nEn lugar de *It is*, el pronombre relativo *what* introduce la información importante.\n- *What she needs is a good night’s sleep.* → **Lo que ella necesita es dormir bien.**\n\n### 3. All … is/was …\nEnfatiza la totalidad de algo.\n- *All I want is peace.* → **Todo lo que quiero es paz.**\n\n### 4. The reason why … is/was …\nIntroduce la causa o explicación.\n- *The reason why we left early was the rain.* → **La razón por la que nos fuimos temprano fue la lluvia.**\n\n#### Comparación con el español\nEn español solemos usar *es* + sustantivo o *lo que* + verbo, pero en inglés la partícula *it* es obligatoria en la forma **it is/was**. Además, el verbo de la cláusula enfatizada suele ir en **simple past** o **present simple**, según el tiempo de la oración principal.\n\n### Uso avanzado (C1)\n- Puedes combinar varias escindidas en una misma oración para mayor precisión.\n- En contextos formales, la versión *that* es preferida a *who* cuando el antecedente es una cosa.\n- Evita redundancias; la escisión debe aportar **énfasis real**, no solo estilo.",
+  "examples": [
+   {
+    "t": "It was the teacher who explained the rule.",
+    "es": "Fue el profesor quien explicó la regla."
+   },
+   {
+    "t": "What I love is traveling around the world.",
+    "es": "Lo que amo es viajar por el mundo."
+   },
+   {
+    "t": "All we need is a clear plan.",
+    "es": "Todo lo que necesitamos es un plan claro."
+   },
+   {
+    "t": "The reason why she quit was the workload.",
+    "es": "La razón por la que ella renunció fue la carga de trabajo."
+   },
+   {
+    "t": "It is his dedication that makes the project succeed.",
+    "es": "Es su dedicación lo que hace que el proyecto tenga éxito."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "It is the teacher that explained the rule.",
+    "right": "It was the teacher who explained the rule.",
+    "why": "El verbo debe concordar en tiempo pasado con la acción."
+   },
+   {
+    "wrong": "What I love is to travel.",
+    "right": "What I love is traveling.",
+    "why": "Después de *what … is* se usa gerundio, no infinitivo."
+   },
+   {
+    "wrong": "All I want is peace and happiness.",
+    "right": "All I want is peace and happiness.",
+    "why": "En este caso no hay error; el error típico es usar *All I want are…* que no concuerda con el verbo singular."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ the reason why we were late ___ the traffic jam.",
+    "options": [
+     "It is",
+     "It was",
+     "What is"
+    ],
+    "answer": 1,
+    "explanation": "Se refiere a una situación pasada, por eso se usa *It was*."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ I need ___ a break after the exam.",
+    "options": [
+     "All that",
+     "All I",
+     "All of"
+    ],
+    "answer": 1,
+    "explanation": "La forma correcta es *All I need*."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ the manager ___ the one who approved the budget.",
+    "options": [
+     "It is",
+     "It was",
+     "What is"
+    ],
+    "answer": 0,
+    "explanation": "La acción es presente, por lo que se usa *It is*."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (to be) the main problem ___ the lack of communication.",
+    "answer": "What is",
+    "accept": [
+     "What is"
+    ],
+    "explanation": "En oraciones escindidas con *what*, el verbo sigue a *what*."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (to be) the only thing ___ I wanted was a quiet night.",
+    "answer": "It was",
+    "accept": [
+     "It was"
+    ],
+    "explanation": "Se refiere a una situación pasada."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (to be) the reason ___ we postponed the meeting.",
+    "answer": "The reason why is",
+    "accept": [
+     "The reason why is"
+    ],
+    "explanation": "Se usa *The reason why* + *is* para explicar."
+   },
+   {
+    "type": "order",
+    "words": [
+     "What",
+     "is",
+     "the",
+     "solution",
+     "to",
+     "the",
+     "problem"
+    ],
+    "answer": "What is the solution to the problem",
+    "explanation": "Orden correcto: *What is the solution to the problem*."
+   },
+   {
+    "type": "order",
+    "words": [
+     "It",
+     "was",
+     "the",
+     "team",
+     "that",
+     "won",
+     "the",
+     "championship"
+    ],
+    "answer": "It was the team that won the championship",
+    "explanation": "Coloca *it* al inicio y respeta el orden *that* + sujeto."
+   },
+   {
+    "type": "fix",
+    "prompt": "It is the reason why we left early was the rain.",
+    "answer": "It was the reason why we left early was the rain.",
+    "explanation": "El verbo debe concordar con la cláusula principal: *It was*."
+   },
+   {
+    "type": "translate",
+    "prompt": "Todo lo que quiero es aprender a tocar la guitarra.",
+    "answer": "All I want is to learn how to play the guitar.",
+    "explanation": "Se usa la estructura *All I want is* + infinitivo."
+   }
+  ],
+  "id": "en-cleft",
+  "level": "C1",
+  "title": "Oraciones escindidas (cleft sentences)"
+ },
+ {
+  "summary": "Aprenderás a usar oraciones de participio para condensa ideas, evitar el sujeto colgante y mejorar la fluidez en inglés avanzado.",
+  "explanation": "Las oraciones de participio (participial phrases) permiten conectar dos ideas donde una depende de la otra, haciendo el texto más fluido y menos repetitivo. En español, solemos usar subordinadas completas (\"Cuando terminé...\", \"El edificio, construido en...\"), pero en inglés podemos usar el gerundio o el participio pasado directamente.\n\nHay tres formas principales:\n*   **Gerundio (-ing):** Indica acción activa o simultánea. *Walking home, I saw a dog.* (Al caminar a casa...)\n*   **Participio pasado (-ed/irregular):** Indica estado o acción pasiva. *Built in 1900, the house is historic.* (Construido en 1900...)\n*   **Perfecto de gerundio (Having + past participle):** Indica que una acción terminó antes que la otra. *Having finished his work, he went out.* (Habiendo terminado...)\n\n**El error crítico: El sujeto colgante (Dangling Participle)**\nEl sujeto de la oración principal DEBE ser el mismo que realiza la acción del participio. Si no lo es, el participio \"colga\" sin sujeto lógico.\n\n| Correcto | Incorrecto |\n| :--- | :--- |\n| *Walking to school, **I** saw a bird.* | *Walking to school, **the bird** was red.* |\n\nEn el ejemplo incorrecto, el pájaro no caminaba a la escuela; yo caminaba. Esto es un error muy común para hispanohablantes porque en español la estructura es más flexible, pero en inglés la conexión gramatical es estricta.",
+  "examples": [
+   {
+    "t": "Having finished the report, she left the office.",
+    "es": "Habiendo terminado el informe, ella dejó la oficina."
+   },
+   {
+    "t": "Built in the 18th century, the castle is a major tourist attraction.",
+    "es": "Construido en el siglo XVIII, el castillo es una atracción turística importante."
+   },
+   {
+    "t": "Walking down the street, I noticed a new café.",
+    "es": "Caminando por la calle, noté un café nuevo."
+   },
+   {
+    "t": "Exhausted by the long journey, we slept for ten hours.",
+    "es": "Exhaustos por el largo viaje, dormimos diez horas."
+   },
+   {
+    "t": "Having been warned about the storm, they stayed indoors.",
+    "es": "Habiendo sido advertidos sobre la tormenta, se quedaron en casa."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Walking to the bus stop, the rain started.",
+    "right": "While I was walking to the bus stop, the rain started.",
+    "why": "Sujeto colgante: la lluvia no camina. El sujeto de la oración principal debe ser quien camina."
+   },
+   {
+    "wrong": "Built by the Romans, I visited the ruins.",
+    "right": "Built by the Romans, the ruins were impressive.",
+    "why": "Sujeto colgante: 'yo' no fui construido por los romanos; las ruinas sí."
+   },
+   {
+    "wrong": "Having eating dinner, we went to the cinema.",
+    "right": "Having eaten dinner, we went to the cinema.",
+    "why": "Después de 'having', se usa el participio pasado, no el infinitivo ni el gerundio simple."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ from the hill, the city looked beautiful.",
+    "options": [
+     "Viewing",
+     "Viewed",
+     "To view",
+     "Having view"
+    ],
+    "answer": 1,
+    "explanation": "La ciudad es vista (pasiva), por lo que se usa el participio pasado 'Viewed'."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ his homework, Tom went out to play.",
+    "options": [
+     "Finish",
+     "Finishing",
+     "Finished",
+     "Having finished"
+    ],
+    "answer": 3,
+    "explanation": "La acción de terminar ocurrió antes de salir, por lo que se usa el perfecto de gerundio 'Having finished'."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ in the rain, she caught a cold.",
+    "options": [
+     "Walk",
+     "Walking",
+     "Walked",
+     "To walk"
+    ],
+    "answer": 1,
+    "explanation": "Ella caminó (activo), por lo que se usa el gerundio 'Walking'."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (build) in 1920, the bridge is still in use.",
+    "answer": "Built",
+    "accept": [
+     "Built"
+    ],
+    "explanation": "Se necesita el participio pasado para indicar que el puente fue construido (pasiva)."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (finish) the meeting, the manager left the room.",
+    "answer": "Having finished",
+    "accept": [
+     "Having finished"
+    ],
+    "explanation": "Se usa 'Having finished' para mostrar que la reunión terminó antes de que él saliera."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (walk) home, I saw a stray cat.",
+    "answer": "Walking",
+    "accept": [
+     "Walking"
+    ],
+    "explanation": "Acción activa y simultánea a lo que vio, por lo que se usa el gerundio."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Having",
+     "finished",
+     "the",
+     "book",
+     ",",
+     "she",
+     "returned",
+     "it",
+     "."
+    ],
+    "answer": "Having finished the book, she returned it.",
+    "explanation": "Estructura: Participle phrase (Having finished the book) + comma + main clause (she returned it)."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Painted",
+     "in",
+     "blue",
+     ",",
+     "the",
+     "walls",
+     "looked",
+     "fresh",
+     "."
+    ],
+    "answer": "Painted in blue, the walls looked fresh.",
+    "explanation": "El participio pasado 'Painted' modifica a 'the walls', que es el sujeto de la oración principal."
+   },
+   {
+    "type": "fix",
+    "prompt": "Running to the station, the train left without us.",
+    "answer": "While we were running to the station, the train left without us.",
+    "explanation": "El tren no corría a la estación. Se debe reescribir para aclarar quién corría o usar una subordinada temporal."
+   },
+   {
+    "type": "translate",
+    "prompt": "Habiendo perdido el autobús, tuvimos que caminar.",
+    "answer": "Having missed the bus, we had to walk.",
+    "explanation": "Usa 'Having missed' para indicar que perder el autobús ocurrió antes de tener que caminar."
+   }
+  ],
+  "id": "en-participle-clauses",
+  "level": "C1",
+  "title": "Oraciones de participio"
+ },
+ {
+  "summary": "Aprenderás a usar estructuras formales con el subjuntivo: suggest/insist/recommend that…, It’s (high) time…, I’d rather…, as if/as though y lest.",
+  "explanation": "## Uso del subjuntivo en estructuras formales\n\n- **suggest / insist / recommend that + subjuntivo**: se emplea para dar consejos o expresar una fuerte opinión. En español suele ir con *que* + subjuntivo.\n  - *I suggest that he study more* → *Sugiero que él estudie más.*\n- **It’s (high) time + pasado simple**: indica que ya es momento de que algo suceda; el verbo va en pasado simple (pero con sentido de presente). En español se traduce con *ya es hora de que* + subjuntivo.\n  - *It’s high time you left* → *Ya es hora de que te vayas.*\n- **I’d rather + pasado simple**: expresa preferencia por una acción que no ocurrió. En español se usa *preferiría que* + subjuntivo.\n  - *I’d rather you didn’t smoke here* → *Preferiría que no fumaras aquí.*\n- **as if / as though + pasado simple**: se usa para comparar una situación irreal. En español: *como si* + subjuntivo.\n  - *She talks as if she knew everything* → *Ella habla como si supiera todo.*\n- **lest + subjuntivo** (más formal, menos usado): significa “para que no”. En español se traduce con *para que no* + subjuntivo.\n  - *He whispered lest anyone hear him* → *Susurró para que nadie lo escuchara.*\n\n**Comparación con el español**: en todas estas construcciones el verbo que sigue al conector va en subjuntivo, a diferencia del inglés donde se mantiene el infinitivo o el pasado simple. Esto suele ser confuso para hispanohablantes que esperan *that* + indicativo.\n\n| Inglés | Español | Comentario |\n|--------|----------|------------|\n| suggest that … | sugiero que … | subjuntivo obligatorio |\n| It’s high time … | Ya es hora de que … | pasado simple → subjuntivo |\n| I’d rather … | Preferiría que … | subjuntivo después de ‘que’ |\n| as if … | como si … | subjuntivo para irrealidad |\n| lest … | para que no … | subjuntivo de prevención |\n",
+  "examples": [
+   {
+    "t": "I suggest that she arrive early.",
+    "es": "Sugiero que ella llegue temprano."
+   },
+   {
+    "t": "It’s high time we started the meeting.",
+    "es": "Ya es hora de que empezemos la reunión."
+   },
+   {
+    "t": "I’d rather you didn’t tell anyone.",
+    "es": "Preferiría que no le contaras a nadie."
+   },
+   {
+    "t": "He acted as if he owned the place.",
+    "es": "Actuó como si él fuera el dueño del lugar."
+   },
+   {
+    "t": "She whispered lest the baby wake up.",
+    "es": "Ella susurró para que el bebé no se despertara."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "I suggest that he **goes** to the doctor.",
+    "right": "I suggest that he **go** to the doctor.",
+    "why": "Después de *suggest that* se usa el infinitivo sin ‘s’, no el indicativo."
+   },
+   {
+    "wrong": "It’s high time you **are** ready.",
+    "right": "It’s high time you **were** ready.",
+    "why": "La estructura requiere pasado simple (subjuntivo) para expresar urgencia."
+   },
+   {
+    "wrong": "I’d rather you **don’t** smoke.",
+    "right": "I’d rather you **didn’t** smoke.",
+    "why": "Se usa la forma negativa del pasado simple, no el presente."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "I suggest that ___ (to take) a break now",
+    "options": [
+     "takes",
+     "took",
+     "take"
+    ],
+    "answer": 2,
+    "explanation": "Después de *suggest that* se usa el infinitivo sin ‘s’."
+   },
+   {
+    "type": "choice",
+    "prompt": "It’s high time ___ (we/you) left the party",
+    "options": [
+     "we leave",
+     "we left",
+     "we are leaving"
+    ],
+    "answer": 1,
+    "explanation": "Se necesita el pasado simple (subjuntivo)."
+   },
+   {
+    "type": "choice",
+    "prompt": "I’d rather ___ (you/not go) with them",
+    "options": [
+     "you don’t go",
+     "you didn’t go",
+     "you not go"
+    ],
+    "answer": 1,
+    "explanation": "Se usa la forma negativa del pasado simple."
+   },
+   {
+    "type": "fill",
+    "prompt": "She acted ___ (as if / as though) ___ (to know) the answer",
+    "answer": "as if she knew",
+    "accept": [
+     "as though she knew"
+    ],
+    "explanation": "Después de *as if/as though* se usa el pasado subjuntivo."
+   },
+   {
+    "type": "fill",
+    "prompt": "He whispered ___ (lest) ___ (someone/hear) him",
+    "answer": "lest someone heard",
+    "accept": [
+     "lest someone hear"
+    ],
+    "explanation": "*Lest* introduce una cláusula de prevención con subjuntivo."
+   },
+   {
+    "type": "fill",
+    "prompt": "It’s high time ___ (they/finish) the report",
+    "answer": "they finished",
+    "accept": [],
+    "explanation": "Se requiere pasado simple/subjuntivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "I",
+     "recommend",
+     "that",
+     "you",
+     "be",
+     "careful"
+    ],
+    "answer": "I recommend that you be careful",
+    "explanation": "Orden correcta de la oración."
+   },
+   {
+    "type": "order",
+    "words": [
+     "He",
+     "acted",
+     "as",
+     "though",
+     "he",
+     "were",
+     "tired"
+    ],
+    "answer": "He acted as though he were tired",
+    "explanation": "Coloca *as though* antes del sujeto y verbo en pasado subjuntivo."
+   },
+   {
+    "type": "fix",
+    "prompt": "I suggest that he **goes** to the doctor",
+    "answer": "I suggest that he go to the doctor",
+    "explanation": "Después de *suggest that* se usa el infinitivo sin ‘s’."
+   },
+   {
+    "type": "translate",
+    "prompt": "Preferiría que no lo dijeras en público",
+    "answer": "I’d rather you didn’t say it in public",
+    "explanation": "Uso de *I’d rather* + pasado simple negativo."
+   }
+  ],
+  "id": "en-formal-structures",
+  "level": "C1",
+  "title": "Estructuras formales y subjuntivo"
+ },
+ {
+  "summary": "Aprenderás a usar expresiones de matiz y suavizado (hedging) en inglés académico y diplomático.",
+  "explanation": "## Expresiones de hedging\n\nEn textos formales se usan palabras y frases que indican **incertidumbre**, **probabilidad** o **opinión parcial**. Esto evita afirmaciones absolutas y muestra cortesía.\n\n| Expresión | Traducción | Uso típico |\n|-----------|------------|------------|\n| tend to   | tender a   | hábito o probabilidad |\n| appear to | parece que  | observación indirecta |\n| it seems that | parece que | valoración subjetiva |\n| arguably  | discutiblemente | se reconoce que hay debate |\n| to some extent | hasta cierto punto | limitación de la afirmación |\n| would suggest | sugeriría | propuesta educada |\n\n### Comparación con el español\n- En español usamos *parece que*, *según parece*, *se podría decir que*. En inglés, **appear to** y **it seems that** cumplen la misma función.\n- *Tend to* equivale a *tender a*; en español a veces se traduce como *suele*.\n- *Arguably* no tiene un equivalente exacto; se traduce como *discutiblemente* o *se podría argumentar que*.\n- *Would suggest* suaviza una recomendación, similar a *sugeriría*.\n\n### Cuándo usarlo\n- Al presentar resultados de investigación.\n- En discursos diplomáticos para no ofender.\n- Cuando la evidencia no es concluyente.\n\nRecuerda que el exceso de hedging puede debilitar tu argumento; úsalo con medida.",
+  "examples": [
+   {
+    "t": "The results tend to indicate a correlation between X and Y.",
+    "es": "Los resultados tienden a indicar una correlación entre X e Y."
+   },
+   {
+    "t": "It appears to be the case that the policy has improved outcomes.",
+    "es": "Parece ser el caso de que la política ha mejorado los resultados."
+   },
+   {
+    "t": "It seems that the negotiations are progressing slowly.",
+    "es": "Parece que las negociaciones están avanzando lentamente."
+   },
+   {
+    "t": "Arguably, this is the most efficient method currently available.",
+    "es": "Discutiblemente, este es el método más eficiente disponible actualmente."
+   },
+   {
+    "t": "To some extent, the data support the hypothesis.",
+    "es": "Hasta cierto punto, los datos apoyan la hipótesis."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "The results tend indicate a correlation.",
+    "right": "The results tend to indicate a correlation.",
+    "why": "Falta la preposición *to* después de *tend*."
+   },
+   {
+    "wrong": "It seem that the policy works.",
+    "right": "It seems that the policy works.",
+    "why": "El verbo debe concordar con *it*: *seems*."
+   },
+   {
+    "wrong": "Arguably, this is the most efficient method.",
+    "right": "Arguably, this is the most efficient method.",
+    "why": "En inglés no se usa coma después de *arguably* cuando está al inicio; la coma es opcional pero suele omitirse en estilo académico."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "The evidence ___ suggest a causal link.",
+    "options": [
+     "tends",
+     "tend to",
+     "tended"
+    ],
+    "answer": 1,
+    "explanation": "Se necesita la forma *tend to* para expresar probabilidad."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ to some extent, the findings are inconclusive.",
+    "options": [
+     "In",
+     "To",
+     "At"
+    ],
+    "answer": 1,
+    "explanation": "La expresión correcta es *to some extent*."
+   },
+   {
+    "type": "choice",
+    "prompt": "It ___ seem that the treaty will be ratified soon.",
+    "options": [
+     "seems",
+     "seem",
+     "seemed"
+    ],
+    "answer": 0,
+    "explanation": "Con *it* se usa la tercera persona singular: *seems*."
+   },
+   {
+    "type": "fill",
+    "prompt": "The data ___ (appear) to support the model.",
+    "answer": "appear",
+    "accept": [
+     "appears"
+    ],
+    "explanation": "Después de *data* (plural) se usa *appear* sin *s*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Researchers ___ (argue) that the results are significant.",
+    "answer": "argue",
+    "accept": [
+     "argues"
+    ],
+    "explanation": "En forma impersonal se usa la base del verbo."
+   },
+   {
+    "type": "fill",
+    "prompt": "The committee ___ (would suggest) a revision of the policy.",
+    "answer": "would suggest",
+    "accept": [],
+    "explanation": "Se mantiene la forma completa del condicional."
+   },
+   {
+    "type": "order",
+    "words": [
+     "The",
+     "effects",
+     "are",
+     "limited",
+     "to",
+     "some",
+     "extent"
+    ],
+    "answer": "The effects are limited to some extent",
+    "explanation": "Orden correcto de la frase en inglés."
+   },
+   {
+    "type": "order",
+    "words": [
+     "It",
+     "seems",
+     "that",
+     "the",
+     "proposal",
+     "has",
+     "merits"
+    ],
+    "answer": "It seems that the proposal has merits",
+    "explanation": "Coloca el sujeto y verbo antes de la cláusula subordinada."
+   },
+   {
+    "type": "fix",
+    "prompt": "It seem that the data are reliable.",
+    "answer": "It seems that the data are reliable.",
+    "explanation": "El verbo debe concordar con *it*: *seems*."
+   },
+   {
+    "type": "translate",
+    "prompt": "Hasta cierto punto, los resultados confirman la hipótesis.",
+    "answer": "To some extent, the results confirm the hypothesis.",
+    "explanation": "Traducción literal manteniendo el hedging *to some extent*."
+   }
+  ],
+  "id": "en-hedging",
+  "level": "C1",
+  "title": "Matizar y suavizar (hedging)"
+ },
+ {
+  "summary": "Aprenderás a usar la elipsis y la sustitución en inglés para respuestas breves y naturales",
+  "explanation": "## Elipsis y sustitución\n\nEn inglés, al responder o continuar una conversación, a menudo **omitimos** palabras que ya se sobreentienden. Esta práctica se llama *ellipsis* y permite respuestas cortas y fluidas.\n\n- **so / not**: Se usan para evitar repetir la cláusula completa.\n  - *I think **so**.* → *Creo que sí.*\n  - *I hope **not**.* → *Espero que no.*\n- **do so**: Reemplaza un verbo y su complemento.\n  - *She sings beautifully; I **do so** too.* → *Ella canta hermosamente; yo también lo hago.*\n- **one / ones**: Sustituyen sustantivos ya mencionados.\n  - *I bought a red shirt and a blue **one**.* → *Compré una camisa roja y una azul.*\n  - *These are my old shoes; the **ones** on the shelf are new.*\n- **Omitir palabras repetidas**: En preguntas‑respuesta, se suprime lo redundante.\n  - *Do you like coffee? – **Yes,** (I) do.*\n  - *Are they coming? – **No,** (they) aren't.*\n\n### Comparación con el español\nEn español a veces usamos *también* o *lo mismo*, pero en inglés la elipsis suele ser más frecuente y se apoya en **so**, **do so**, **one/ones**. La clave es identificar qué parte de la oración ya está clara por el contexto y eliminarla sin perder sentido.\n",
+  "examples": [
+   {
+    "t": "I think so.",
+    "es": "Yo creo que sí."
+   },
+   {
+    "t": "She didn't go, and I didn't either.",
+    "es": "Ella no fue, y yo tampoco."
+   },
+   {
+    "t": "I prefer the red one.",
+    "es": "Prefiero el rojo."
+   },
+   {
+    "t": "He sings well, and she does so too.",
+    "es": "Él canta bien, y ella también lo hace."
+   },
+   {
+    "t": "Do you want tea? – No, thanks.",
+    "es": "¿Quieres té? – No, gracias."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "I think not.",
+    "right": "I don't think so.",
+    "why": "En inglés la negación de *think* se hace con *don't think* y *so*."
+   },
+   {
+    "wrong": "I like the blue one too, I also like the red one.",
+    "right": "I like the blue one too, and the red one as well.",
+    "why": "Se evita repetir *like* usando *and* o *as well*."
+   },
+   {
+    "wrong": "She sings, I do also.",
+    "right": "She sings, and I do too.",
+    "why": "La forma correcta es *do too* o *do so*; *also* no se usa así."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "She enjoys reading, and I ___ .",
+    "options": [
+     "do",
+     "does",
+     "did"
+    ],
+    "answer": 0,
+    "explanation": "Se usa *do* para concordar con el sujeto *I*."
+   },
+   {
+    "type": "choice",
+    "prompt": "He didn't call, and his brother ___ .",
+    "options": [
+     "didn't either",
+     "doesn't either",
+     "didn't also"
+    ],
+    "answer": 0,
+    "explanation": "*Either* se usa en respuestas negativas."
+   },
+   {
+    "type": "choice",
+    "prompt": "Do you need a pen? – ___ .",
+    "options": [
+     "Yes, I do",
+     "Yes, I does",
+     "Yes, I am"
+    ],
+    "answer": 0,
+    "explanation": "Respuesta afirmativa corta con *do*."
+   },
+   {
+    "type": "fill",
+    "prompt": "I haven't seen that movie, and my friends ___ (not) .",
+    "answer": "haven't either",
+    "accept": [
+     "haven't either",
+     "haven't either either"
+    ],
+    "explanation": "En negativas se usa *haven't either*."
+   },
+   {
+    "type": "fill",
+    "prompt": "She likes coffee; I ___ (like) tea .",
+    "answer": "don't",
+    "accept": [
+     "don't",
+     "do not"
+    ],
+    "explanation": "Se niega el verbo con *don't*."
+   },
+   {
+    "type": "fill",
+    "prompt": "They will arrive tomorrow, and we ___ (arrive) the day after .",
+    "answer": "will",
+    "accept": [
+     "will"
+    ],
+    "explanation": "Se repite el auxiliar *will* para la elipsis."
+   },
+   {
+    "type": "order",
+    "words": [
+     "I",
+     "also",
+     "do",
+     "like",
+     "pizza"
+    ],
+    "answer": "I also do like pizza",
+    "explanation": "Orden correcta del sujeto, adverbio y verbo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "I",
+     "prefer",
+     "the",
+     "blue",
+     "one"
+    ],
+    "answer": "I prefer the blue one",
+    "explanation": "Colocación natural del adjetivo y sustantivo."
+   },
+   {
+    "type": "fix",
+    "prompt": "She sings well, and I do also.",
+    "answer": "She sings well, and I do too.",
+    "explanation": "*Do too* es la forma correcta para la elipsis."
+   },
+   {
+    "type": "translate",
+    "prompt": "¿Te gusta el helado? – Sí, me gusta mucho.",
+    "answer": "Do you like ice cream? – Yes, I love it.",
+    "explanation": "Respuesta corta con *yes* y sustitución de *love it*."
+   }
+  ],
+  "id": "en-ellipsis",
+  "level": "C1",
+  "title": "Elipsis y sustitución"
  }
 ]

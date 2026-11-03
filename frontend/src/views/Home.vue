@@ -13,7 +13,7 @@ const greeting = computed(() => {
   return h < 12 ? 'Buenos días' : h < 20 ? 'Buenas tardes' : 'Buenas noches'
 })
 const pct = computed(() => plan.value ? Math.min(100, (100 * plan.value.minutes_today) / plan.value.goal_minutes) : 0)
-const icons: Record<string, string> = { srs: '🧠', pronunciation: '🎙️', listening: '👂', grammar: '📐', mission: '🎯', input: '📖', fluency: '⚡' }
+const icons: Record<string, string> = { srs: '🧠', pronunciation: '🎙️', listening: '👂', grammar: '📐', mission: '🕹️', input: '📖', fluency: '⚡', assessment: '🎯' }
 </script>
 
 <template>

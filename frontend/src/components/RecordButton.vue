@@ -1,28 +1,39 @@
 <script setup lang="ts">
 // Botón de grabar: clic para empezar, clic para parar. Muestra volumen y tiempo.
+// Con autoStop, la grabación termina sola al detectar silencio después de hablar.
 import { useRecorder } from '../composables/recorder'
 import { useApp } from '../store'
 import { stopSpeaking } from '../composables/audio'
 
-const props = withDefaults(defineProps<{ disabled?: boolean; maxSeconds?: number; label?: string; busy?: boolean }>(), {
+const props = withDefaults(defineProps<{ disabled?: boolean; maxSeconds?: number; label?: string; busy?: boolean; autoStop?: boolean }>(), {
   maxSeconds: 30, label: 'Grabar',
 })
 const emit = defineEmits<{ (e: 'recorded', blob: Blob): void; (e: 'started'): void }>()
 const rec = useRecorder()
 const app = useApp()
+let stopping = false
+
+async function finish() {
+  if (stopping) return
+  stopping = true
+  const blob = await rec.stop()
+  stopping = false
+  if (blob) emit('recorded', blob)
+}
+
+async function start() {
+  if (rec.recording.value || props.disabled || props.busy) return
+  stopSpeaking()
+  const ok = await rec.start(props.maxSeconds, props.autoStop ? () => finish() : undefined)
+  if (!ok) app.notify(rec.error.value, 'error')
+  else emit('started')
+}
 
 async function toggle() {
-  if (rec.recording.value) {
-    const blob = await rec.stop()
-    if (blob) emit('recorded', blob)
-  } else {
-    stopSpeaking()
-    const ok = await rec.start(props.maxSeconds)
-    if (!ok) app.notify(rec.error.value, 'error')
-    else emit('started')
-  }
+  if (rec.recording.value) await finish()
+  else await start()
 }
-defineExpose({ toggle, recording: rec.recording, stop: async () => { const b = await rec.stop(); if (b) emit('recorded', b) } })
+defineExpose({ toggle, start, stop: finish, recording: rec.recording })
 </script>
 
 <template>
@@ -30,7 +41,7 @@ defineExpose({ toggle, recording: rec.recording, stop: async () => { const b = a
           :style="{ '--lvl': Math.min(1, rec.level.value * 3) }">
     <span v-if="busy" class="spin"></span>
     <span v-else class="dot"></span>
-    <span>{{ busy ? 'Analizando…' : rec.recording.value ? `Detener · ${rec.seconds.value.toFixed(1)}s` : label }}</span>
+    <span>{{ busy ? 'Analizando…' : rec.recording.value ? (autoStop ? `Escuchando… ${rec.seconds.value.toFixed(0)}s` : `Detener · ${rec.seconds.value.toFixed(1)}s`) : label }}</span>
   </button>
 </template>
 

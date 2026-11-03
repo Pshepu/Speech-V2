@@ -92,11 +92,13 @@ def daily_plan(lang: str) -> dict:
         "done": pron_today_n >= 5,
         "progress": f"{min(pron_today_n, 5)}/5",
     })
+    level = db.get_setting(f"level_{lang}", "A1")
+    advanced = level in ("B1", "B2", "C1")
     tasks.append({
-        "id": "listening", "title": "Entrena el oído",
-        "detail": "Pares mínimos con voces y acentos distintos, o un dictado",
-        "why": "Si no distingues un sonido al oírlo, no podrás producirlo. Varias voces generalizan mejor.",
-        "minutes": 4, "route": "/oido",
+        "id": "listening", "title": "Escucha activa",
+        "detail": "Un diálogo o pódcast a tu nivel + resumen" if advanced else "Pares mínimos con varias voces, o un dictado",
+        "why": "Entender a nativos a velocidad real es lo que más cuesta para llegar a C1; resumir después fija lo escuchado.",
+        "minutes": 7 if advanced else 4, "route": "/oido",
         "done": "listening" in kinds or "dictation" in kinds,
     })
     if next_lesson:
@@ -108,8 +110,9 @@ def daily_plan(lang: str) -> dict:
             "done": "grammar" in kinds,
         })
     tasks.append({
-        "id": "mission", "title": "Misión de inmersión",
-        "detail": f"{next_mission['level']} · {next_mission['title']}" if next_mission else "Genera una misión nueva o conversa libremente",
+        "id": "mission", "title": "Misión de inmersión" if next_mission or not advanced else "Conversación con tutor",
+        "detail": f"{next_mission['level']} · {next_mission['title']}" if next_mission else
+                  ("Debate, entrevista o 'explícamelo' (en modo manos libres)" if advanced else "Genera una misión nueva o conversa libremente"),
         "why": "Usar el idioma para lograr algo real (tareas) es como lo entrenan las escuelas militares.",
         "minutes": 8,
         "route": f"/misiones?start={next_mission['id']}" if next_mission else "/misiones",
@@ -129,6 +132,17 @@ def daily_plan(lang: str) -> dict:
             "why": "Repetir con presión de tiempo sobre material conocido automatiza el habla.",
             "minutes": 9, "route": "/fluidez",
             "done": "fluency" in kinds,
+        })
+
+    # Medir el nivel cada ~3 semanas (o la primera vez) para ver el progreso real hacia C1.
+    last = db.one("SELECT ts FROM assessments WHERE lang=? AND skill IN ('vocabulary','speaking','writing') ORDER BY id DESC LIMIT 1", (lang,))
+    stale = (not last) or (date.today() - date.fromisoformat(last["ts"][:10])).days >= 21
+    if stale:
+        tasks.append({
+            "id": "assessment", "title": "Mide tu nivel",
+            "detail": "Test de vocabulario y prueba oral/escrita" if not last else "Han pasado 3 semanas: vuelve a medir tu nivel",
+            "why": "Medir cada destreza por separado muestra qué te frena para llegar a C1.",
+            "minutes": 6, "route": "/nivel", "done": "assessment" in kinds,
         })
 
     xp_today = sum((k["xp"] or 0) for k in kinds.values())

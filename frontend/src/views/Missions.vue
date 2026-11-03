@@ -15,8 +15,20 @@ const genTheme = ref('')
 const generating = ref(false)
 const freeTopic = ref('')
 const runs = ref<any[]>([])
+const modes = ref<any[]>([])
+const kind = ref('libre')
+const TOPIC_HINT: Record<string, string> = {
+  libre: 'Tema (opcional): fútbol, mi trabajo, viajes…',
+  debate: 'Tema del debate: ¿teletrabajo sí o no?, redes sociales…',
+  entrevista: 'Puesto: desarrollador, enfermera, camarero…',
+  explicar: '¿Qué vas a explicar? Tu trabajo, un deporte, una receta…',
+  historia: 'Tema: un viaje, un susto, la mejor fiesta…',
+  actualidad: 'Tema: inteligencia artificial, cambio climático…',
+  smalltalk: 'Contexto: fiesta, oficina, avión…',
+}
 
 async function load() {
+  if (!modes.value.length) modes.value = await api.get('/conversation/modes')
   campaigns.value = await api.get(`/missions?lang=${app.lang}`)
   runs.value = await api.get(`/runs?lang=${app.lang}`)
 }
@@ -44,7 +56,7 @@ async function start() {
 async function startFree() {
   starting.value = true
   try {
-    const r = await api.post('/conversation/start', { lang: app.lang, topic: freeTopic.value || 'anything the learner wants: daily life, hobbies, travel, work', mode: mode.value })
+    const r = await api.post('/conversation/start', { lang: app.lang, kind: kind.value, topic: freeTopic.value || 'anything interesting: daily life, hobbies, travel, work', mode: mode.value })
     sessionStorage.setItem(`run-${r.run_id}`, JSON.stringify(r))
     router.push(`/mision/${r.run_id}`)
   } catch (e: any) { app.notify(e.message, 'error') }
@@ -74,10 +86,13 @@ const titleOf = (id: string) => campaigns.value.flatMap((c) => c.missions).find(
 
     <div class="grid two" style="margin-bottom:20px">
       <div class="card">
-        <h3>💬 Conversación libre</h3>
-        <p class="muted">Charla con un nativo amable sobre lo que quieras. Te corrige con suavidad.</p>
-        <div class="row"><input type="text" v-model="freeTopic" placeholder="Tema (opcional): fútbol, mi trabajo, viajes…" style="flex:1" />
-          <button class="btn primary" :disabled="starting" @click="startFree">Empezar</button></div>
+        <h3>💬 Conversación con tutor</h3>
+        <div class="row" style="margin-bottom:10px">
+          <button v-for="m in modes" :key="m.id" class="chip" :class="{ on: kind === m.id }" :title="m.desc" @click="kind = m.id">{{ m.icon }} {{ m.title }}</button>
+        </div>
+        <p class="muted" style="margin-bottom:8px">{{ modes.find((m) => m.id === kind)?.desc }}</p>
+        <div class="row"><input type="text" v-model="freeTopic" :placeholder="TOPIC_HINT[kind]" style="flex:1" @keydown.enter="startFree" />
+          <button class="btn primary" :disabled="starting" @click="startFree"><span v-if="starting" class="spin"></span> Empezar</button></div>
       </div>
       <div class="card mission">
         <h3>🎲 Misión generada por IA</h3>

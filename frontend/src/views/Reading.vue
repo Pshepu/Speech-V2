@@ -14,6 +14,31 @@ const generating = ref(false)
 const showTr = ref<Record<number, boolean>>({})
 const answers = ref<Record<number, number>>({})
 const finished = ref(false)
+const impTitle = ref('')
+const impText = ref('')
+const retell = ref('')
+const retellRes = ref<any>(null)
+const evaluating = ref(false)
+
+async function importText() {
+  try { story.value = await api.post('/reading/import', { lang: app.lang, title: impTitle.value, text: impText.value }); reset(); impText.value = ''; impTitle.value = '' }
+  catch (e: any) { app.notify(e.message, 'error') }
+}
+async function toggleTr(i: number) {
+  const p = story.value.paragraphs[i]
+  if (!p.es && !showTr.value[i]) {
+    try { p.es = (await api.post('/translate', { text: p.t, lang: app.lang })).translation } catch (e: any) { app.notify(e.message, 'error'); return }
+  }
+  showTr.value[i] = !showTr.value[i]
+}
+async function evaluateRetell() {
+  evaluating.value = true
+  try {
+    retellRes.value = await api.post('/listening/retell', { lang: app.lang, original: fullText().slice(0, 6000), text: retell.value, source: 'retell' })
+    if (!story.value.questions?.length && !finished.value) { finished.value = true; api.post(`/reading/${story.value.id}/done`, { score: retellRes.value.content_score || 50 }) }
+  } catch (e: any) { app.notify(e.message, 'error') }
+  evaluating.value = false
+}
 
 onMounted(async () => { list.value = await api.get(`/reading/list?lang=${app.lang}`) })
 
@@ -26,12 +51,13 @@ async function generate() {
   generating.value = false
 }
 async function open(id: number) { story.value = await api.get(`/reading/${id}`); reset() }
-function reset() { showTr.value = {}; answers.value = {}; finished.value = false }
+function reset() { showTr.value = {}; answers.value = {}; finished.value = false; retell.value = ''; retellRes.value = null }
 
 async function finish() {
   const qs = story.value.questions || []
   const ok = qs.filter((q: any, i: number) => answers.value[i] === q.answer).length
   finished.value = true
+  if (qs.length) api.post('/assessment/record', { lang: app.lang, skill: 'reading', level: story.value.level, score: (100 * ok) / qs.length }).catch(() => {})
   await api.post(`/reading/${story.value.id}/done`, { score: qs.length ? (100 * ok) / qs.length : 100 })
   app.notify(`Comprensión: ${ok}/${qs.length}`, 'good')
 }
@@ -57,6 +83,13 @@ const fullText = () => story.value.paragraphs.map((p: any) => p.t).join(' ')
           <button class="btn primary" :disabled="generating" @click="generate"><span v-if="generating" class="spin"></span> Generar</button>
         </div>
       </div>
+      <div class="card">
+        <h3>📥 Importar tu propio texto</h3>
+        <p class="muted">Pega un artículo, una noticia o un capítulo que te interese (lectura extensa con material auténtico: el paso clave hacia C1).</p>
+        <input type="text" v-model="impTitle" placeholder="Título (opcional)" style="margin-bottom:8px" />
+        <textarea v-model="impText" rows="5" placeholder="Pega aquí el texto en el idioma que aprendes…"></textarea>
+        <button class="btn" style="margin-top:8px" :disabled="impText.trim().length < 40" @click="importText">Importar y leer</button>
+      </div>
       <div class="card" v-if="list.length">
         <h3>Tus lecturas</h3>
         <button v-for="r in list" :key="r.id" class="item" @click="open(r.id)">
@@ -69,16 +102,29 @@ const fullText = () => story.value.paragraphs.map((p: any) => p.t).join(' ')
       <button class="btn sm ghost" @click="story = null">← Lecturas</button>
       <div class="card reader" style="margin-top:8px">
         <div class="row between">
-          <div><h2 style="margin:0">{{ story.title }}</h2><small class="muted">{{ story.title_es }} · {{ story.level }}</small></div>
+          <div><h2 style="margin:0">{{ story.title }}</h2><small class="muted">{{ story.imported ? 'Texto importado' : story.title_es + ' · ' + story.level }}</small></div>
           <div class="row"><PlayButton :text="fullText()" label="Escuchar todo" size="" /><PlayButton :text="fullText()" :rate="-25" label="Lento" size="" /></div>
         </div>
         <div v-for="(p, i) in story.paragraphs" :key="i" class="para">
           <p class="text"><ClickableText :text="p.t" /></p>
           <div class="row">
             <PlayButton :text="p.t" />
-            <button class="btn sm ghost" @click="showTr[i] = !showTr[i]">🇪🇸 {{ showTr[i] ? 'Ocultar' : 'Traducir' }}</button>
+            <button class="btn sm ghost" @click="toggleTr(i)">🇪🇸 {{ showTr[i] ? 'Ocultar' : 'Traducir' }}</button>
           </div>
           <p v-if="showTr[i]" class="muted">{{ p.es }}</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>✍️ Resume lo que leíste</h3>
+        <p class="muted">Con tus palabras, 3-5 frases. Resumir obliga a procesar el significado y reutilizar el vocabulario nuevo.</p>
+        <textarea v-model="retell" rows="4" placeholder="This text is about…"></textarea>
+        <button class="btn primary" style="margin-top:8px" :disabled="retell.trim().length < 20 || evaluating" @click="evaluateRetell"><span v-if="evaluating" class="spin"></span> Evaluar resumen</button>
+        <div v-if="retellRes" style="margin-top:12px">
+          <div class="row"><span class="chip">🎯 Ideas {{ retellRes.content_score }}</span><span class="chip">✍️ Lengua {{ retellRes.language_score }}</span></div>
+          <p>{{ retellRes.feedback }}</p>
+          <div v-for="(c, k) in retellRes.corrections" :key="k" class="vrow"><s class="muted">{{ c.original }}</s> → <b>{{ c.corrected }}</b> <small>{{ c.explanation }}</small></div>
+          <p v-if="retellRes.better"><b>Versión mejorada:</b> {{ retellRes.better }}</p>
         </div>
       </div>
 
