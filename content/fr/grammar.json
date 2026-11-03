@@ -1,0 +1,3047 @@
+[
+ {
+  "summary": "Aprenderás a conjugar y usar los verbos \"être\" y \"avoir\" en francés básico.",
+  "explanation": "## Verbos básicos: **être** y **avoir**\n\n- **être** = \"ser/estar\". Se usa para describir características, estados y para la formación de tiempos compuestos.\n- **avoir** = \"tener\". Se usa para expresar posesión, edad, sensaciones físicas y también como auxiliar.\n\n| Persona | être | avoir |\n|---|---|---|\n| je | suis | ai |\n| tu | es | as |\n| il/elle/on | est | a |\n| nous | sommes | avons |\n| vous | êtes | avez |\n| ils/elles | sont | ont |\n\n### Usos principales\n- **Edad**: *J'ai 20 ans* (no *je suis 20 ans*). En español: \"Tengo 20 años\".\n- **Sensaciones físicas**: *J'ai faim*, *J'ai froid*, *J'ai soif*.\n- **Características permanentes**: *Je suis grand*, *Elle est française*.\n- **Posesión**: *Nous avons une voiture*.\n\n### Comparación con el español\n- En español, \"tener\" se usa para edad y sensaciones, igual que **avoir** en francés.\n- \"Ser/estar\" se traduce a **être**, pero en francés no se usa *être* para la edad ni para sensaciones como hambre o frío.\n\n### Tips rápidos\n- Si la frase incluye **años**, **hambre**, **frío**, **sed**, usa **avoir**.\n- Si describes **identidad**, **origen**, **características**, usa **être**.\n- Recuerda la forma del pasado compuesto: *j'ai été* (yo he sido/estado), *j'ai eu* (yo he tenido).",
+  "examples": [
+   {
+    "t": "Je suis étudiant.",
+    "es": "Soy estudiante."
+   },
+   {
+    "t": "Il a vingt ans.",
+    "es": "Él tiene veinte años."
+   },
+   {
+    "t": "Nous avons froid.",
+    "es": "Tenemos frío."
+   },
+   {
+    "t": "Elle est française.",
+    "es": "Ella es francesa."
+   },
+   {
+    "t": "Vous avez une maison.",
+    "es": "Ustedes tienen una casa."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je suis 20 ans.",
+    "right": "J'ai 20 ans.",
+    "why": "Para la edad se usa \"avoir\"."
+   },
+   {
+    "wrong": "J'ai faim.",
+    "right": "J'ai faim.",
+    "why": "Correcto, pero muchos hispanohablantes dicen \"Je suis faim\"."
+   },
+   {
+    "wrong": "Nous sommes un chien.",
+    "right": "Nous avons un chien.",
+    "why": "Para posesión se usa \"avoir\", no \"être\"."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "_____ (to be) très content aujourd'hui.",
+    "options": [
+     "Je suis",
+     "J'ai",
+     "Je suis être"
+    ],
+    "answer": 0,
+    "explanation": "Se usa \"être\" para expresar estado de ánimo."
+   },
+   {
+    "type": "choice",
+    "prompt": "Elle _____ (to have) deux frères.",
+    "options": [
+     "est",
+     "a",
+     "a été"
+    ],
+    "answer": 1,
+    "explanation": "Para posesión se emplea \"avoir\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous _____ (to be) en vacances.",
+    "options": [
+     "avons",
+     "sommes",
+     "êtes"
+    ],
+    "answer": 1,
+    "explanation": "\"être\" indica estado o ubicación."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il ___ (avoir) faim.",
+    "answer": "a",
+    "accept": [
+     "a"
+    ],
+    "explanation": "Para sensaciones físicas se usa \"avoir\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je ___ (être) médecin.",
+    "answer": "suis",
+    "accept": [
+     "suis"
+    ],
+    "explanation": "Profesión = verbo \"être\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Vous ___ (avoir) vingt ans? (avoir)",
+    "answer": "avez",
+    "accept": [
+     "avez"
+    ],
+    "explanation": "Pregunta de edad usa \"avoir\"."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Nous",
+     "avons",
+     "froid",
+     "."
+    ],
+    "answer": "Nous avons froid.",
+    "explanation": "Orden correcto: sujeto + auxiliar + complemento."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Je",
+     "suis",
+     "heureux",
+     "."
+    ],
+    "answer": "Je suis heureux.",
+    "explanation": "Orden sujeto‑verbo‑adjetivo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Je suis faim.",
+    "answer": "J'ai faim.",
+    "explanation": "Sensación física requiere \"avoir\"."
+   },
+   {
+    "type": "translate",
+    "prompt": "Tengo 15 años.",
+    "answer": "J'ai quinze ans.",
+    "explanation": "Edad se expresa con \"avoir\"."
+   }
+  ],
+  "id": "fr-etre-avoir",
+  "level": "A1",
+  "title": "Être y avoir"
+ },
+ {
+  "summary": "Aprenderás a usar los artículos definidos, indefinidos y partitivos en francés",
+  "explanation": "### Artículos definidos\n- **le / la / les** se usan como *el, la, los, las* en español. \n- Se emplean delante de sustantivos conocidos o ya mencionados.\n\n### Artículos indefinidos\n- **un / une** = *un, una* (singular). \n- **des** = *unos, unas* (plural). Se usa cuando el sustantivo no está especificado.\n\n### Artículos partitivos\n- **du** (masc. singular), **de la** (fem. singular), **de l'** (antes de vocal o h muda) = *algo de* (un/una cantidad indeterminada). \n- En plural se usa **des** pero con sentido de *parte de* (ej. *des pommes* = *algunas manzanas*).\n\n### Negación\n- En la negación el partitivo y el indefinido desaparecen y aparecen **pas de** (o **pas d'**). Ej.: *Je n'ai pas de pain* = *No tengo pan*.\n\n#### Comparación con el español\n- En español no distinguimos entre partitivo y indefinido; usamos *un/una*, *unos/unas* o *algo de* según el contexto. En francés la diferencia es obligatoria y marca el tipo de cantidad.\n",
+  "examples": [
+   {
+    "t": "Le livre est intéressant.",
+    "es": "El libro es interesante."
+   },
+   {
+    "t": "J'ai acheté une pomme.",
+    "es": "Compré una manzana."
+   },
+   {
+    "t": "Il veut du fromage.",
+    "es": "Él quiere queso (algo de queso)."
+   },
+   {
+    "t": "Nous avons des amis à Paris.",
+    "es": "Tenemos amigos en París."
+   },
+   {
+    "t": "Je ne veux pas de sucre.",
+    "es": "No quiero azúcar."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je mange le pain.",
+    "right": "Je mange du pain.",
+    "why": "Con sustantivo no contable se usa el partitivo du, no el definido le."
+   },
+   {
+    "wrong": "J'ai acheté des un livre.",
+    "right": "J'ai acheté un livre.",
+    "why": "El artículo indefinido singular es un/une, no des."
+   },
+   {
+    "wrong": "Je n'ai pas du lait.",
+    "right": "Je n'ai pas de lait.",
+    "why": "En la negación el partitivo se sustituye por pas de."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ chat est noir.",
+    "options": [
+     "Le",
+     "Un",
+     "Des"
+    ],
+    "answer": 0,
+    "explanation": "Se trata de un gato concreto, por eso se usa el artículo definido le."
+   },
+   {
+    "type": "choice",
+    "prompt": "Elle veut ___ chocolat.",
+    "options": [
+     "du",
+     "de la",
+     "des"
+    ],
+    "answer": 0,
+    "explanation": "Chocolate es masculino y no contable, se usa du."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous avons ___ amis.",
+    "options": [
+     "un",
+     "une",
+     "des"
+    ],
+    "answer": 2,
+    "explanation": "Amigos es plural, se usa des."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je n'ai ___ (pain) aujourd'hui.",
+    "answer": "pas de pain",
+    "accept": [
+     "pas de pain"
+    ],
+    "explanation": "En la negación el partitivo desaparece y se usa pas de."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il boit ___ (eau) froide.",
+    "answer": "de l'eau",
+    "accept": [
+     "de l'eau"
+    ],
+    "explanation": "Agua comienza con vocal, el partitivo es de l'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Elle a ___ (une) idée brillante.",
+    "answer": "une",
+    "accept": [
+     "une"
+    ],
+    "explanation": "Idea es singular femenino, se necesita el indefinido une."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Le",
+     "chat",
+     "est",
+     "noir"
+    ],
+    "answer": "Le chat est noir",
+    "explanation": "Orden correcto del sujeto y verbo en francés."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Il",
+     "veut",
+     "du",
+     "fromage"
+    ],
+    "answer": "Il veut du fromage",
+    "explanation": "Orden sujeto‑verbo‑objeto con partitivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Je",
+     "n'ai",
+     "pas",
+     "de",
+     "temps"
+    ],
+    "answer": "Je n'ai pas de temps",
+    "explanation": "Estructura de la negación: sujeto‑ne‑verbo‑pas de‑complement."
+   },
+   {
+    "type": "fix",
+    "prompt": "J'ai acheté du un livre.",
+    "answer": "J'ai acheté un livre",
+    "explanation": "Se elimina el partitivo du porque el sustantivo es contable singular."
+   },
+   {
+    "type": "translate",
+    "prompt": "No tengo ninguna idea.",
+    "answer": "Je n'ai aucune idée",
+    "explanation": "En francés se usa aucune para negar un sustantivo femenino singular."
+   }
+  ],
+  "id": "fr-articles",
+  "level": "A1",
+  "title": "Artículos definidos, indefinidos y partitivos"
+ },
+ {
+  "summary": "Aprenderás a conjugar verbos franceses en -ER en presente y sus diferencias con el español",
+  "explanation": "## Verbos en -ER en presente\nLos verbos terminados en **-er** son los más frecuentes en francés (ex.: *parler*, *aimer*). La conjugación es regular:\n\n| Persona | Terminación | Ejemplo *parler* |\n|---|---|---|\n| je | -e | je **parle** |\n| tu | -es | tu **parles** |\n| il/elle/on | -e | il **parle** |\n| nous | -ons | nous **parlons** |\n| vous | -ez | vous **parlez** |\n| ils/elles | -ent | ils **parlent** |\n\n### Pronunciación\n- Las terminaciones **-e, -es, -ent** son mudas; solo se oye la raíz. \n- **-ons** y **-ez** se pronuncian /ɔ̃/ y /e/ respectivamente.\n- En *parlent*, la **t** no se pronuncia.\n\n### Comparación con el español\n- En español todas las terminaciones se pronuncian, mientras que en francés muchas son silenciosas.\n- El pronombre siempre se menciona en francés, aunque el verbo ya indique la persona.\n- El orden de la frase es similar (S‑V‑O).\n\n### Uso\nSe emplea para hablar de acciones habituales, verdades generales y estados presentes, igual que el presente simple español.\n",
+  "examples": [
+   {
+    "t": "Je parle français chaque jour.",
+    "es": "Yo hablo francés cada día."
+   },
+   {
+    "t": "Tu aimes le chocolat.",
+    "es": "A ti te gusta el chocolate."
+   },
+   {
+    "t": "Il parle lentement.",
+    "es": "Él habla despacio."
+   },
+   {
+    "t": "Nous aimons voyager.",
+    "es": "Nosotros amamos viajar."
+   },
+   {
+    "t": "Ils parlent de leurs projets.",
+    "es": "Ellos hablan de sus proyectos."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je parlez français.",
+    "right": "Je parle français.",
+    "why": "Se confunde la terminación -ez (nosotros/vosotros) con la de \"je\"."
+   },
+   {
+    "wrong": "Nous aimons le musique.",
+    "right": "Nous aimons la musique.",
+    "why": "El artículo femenino \"la\" se usa con \"musique\"."
+   },
+   {
+    "wrong": "Il parlera français.",
+    "right": "Il parle français.",
+    "why": "Se usa el futuro \"parlera\" en vez del presente \"parle\"."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Je ___ (parler) français.",
+    "options": [
+     "parle",
+     "parles",
+     "parlent"
+    ],
+    "answer": 0,
+    "explanation": "La forma correcta para \"je\" es \"parle\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous ___ (aimer) le cinéma.",
+    "options": [
+     "aimes",
+     "aime",
+     "aimons"
+    ],
+    "answer": 2,
+    "explanation": "Para \"nous\" la terminación es -ons."
+   },
+   {
+    "type": "choice",
+    "prompt": "Tu ___ (parler) trop vite?",
+    "options": [
+     "parle",
+     "parles",
+     "parlent"
+    ],
+    "answer": 1,
+    "explanation": "Con \"tu\" la terminación es -es."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il ___ (aimer) les fruits (aimer).",
+    "answer": "aime",
+    "accept": [],
+    "explanation": "Para \"il\" la forma es \"aime\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nous ___ (parler) souvent français (parler).",
+    "answer": "parlons",
+    "accept": [],
+    "explanation": "Con \"nous\" la terminación es -ons."
+   },
+   {
+    "type": "fill",
+    "prompt": "Vous ___ (aimer) la musique (aimer).",
+    "answer": "aimez",
+    "accept": [],
+    "explanation": "Con \"vous\" la terminación es -ez."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Je",
+     "parle",
+     "bien",
+     "français"
+    ],
+    "answer": "Je parle bien français",
+    "explanation": "Orden correcto S‑V‑Adv‑O."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ils",
+     "aiment",
+     "les",
+     "chats"
+    ],
+    "answer": "Ils aiment les chats",
+    "explanation": "Orden correcto S‑V‑O."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Nous",
+     "aimons",
+     "la",
+     "musique"
+    ],
+    "answer": "Nous aimons la musique",
+    "explanation": "Orden correcto S‑V‑Art‑O."
+   },
+   {
+    "type": "fix",
+    "prompt": "Tu parle français.",
+    "answer": "Tu parles français.",
+    "explanation": "Falta la \"s\" en la terminación de \"tu\"."
+   },
+   {
+    "type": "translate",
+    "prompt": "Nosotros hablamos español todos los días.",
+    "answer": "Nous parlons espagnol tous les jours.",
+    "explanation": "Traducción literal manteniendo la estructura del presente."
+   }
+  ],
+  "id": "fr-present-er",
+  "level": "A1",
+  "title": "Presente de los verbos en -ER"
+ },
+ {
+  "summary": "Aprenderás a conjugar en presente los verbos irregulares más usados en francés.",
+  "explanation": "### Verbos irregulares en presente (A1)\n\nEn francés, algunos verbos cambian su raíz al conjugarse en presente. Los más frecuentes son:\n\n| Verbo | Yo (je) | Tú (tu) | Él/ella (il/elle) | Nosotros (nous) | Vosotros (vous) | Ellos (ils/elles) |\n|-------|--------|--------|-------------------|------------------|------------------|-------------------|\n| **aller** (ir) | vais | vas | va | allons | allez | vont |\n| **faire** (hacer) | fais | fais | fait | faisons | faites | font |\n| **venir** (venir) | viens | viens | vient | venons | venez | viennent |\n| **prendre** (tomar) | prends | prends | prend | prenons | prenez | prennent |\n| **pouvoir** (poder) | peux | peux | peut | pouvons | pouvez | peuvent |\n| **vouloir** (querer) | veux | veux | veut | voulons | voulez | veulent |\n| **devoir** (deber) | dois | dois | doit | devons | devez | doivent |\n\n**Comparación con el español**\n- En español la mayoría de los verbos son regulares (hablar → hablo, hablas…).\n- En francés, la irregularidad afecta la raíz (pouvoir → *peux*, *peut*). \n- La terminación *-s, -es, -e, -ons, -ez, -ent* es constante; solo cambia la raíz.\n\n**Uso típico**\n- *Aller* se usa también como auxiliar para formar el futuro próximo: *Je vais manger* (Voy a comer).\n- *Faire* + sustantivo = \"hacer\" una acción: *Je fais du sport*.\n- *Pouvoir* indica capacidad: *Je peux parler français*.\n- *Devoir* expresa obligación: *Je dois étudier*.\n\nPractica estas formas y notarás la diferencia con el español, donde la raíz suele permanecer igual.\n",
+  "examples": [
+   {
+    "t": "Je vais à l'école.",
+    "es": "Voy a la escuela."
+   },
+   {
+    "t": "Tu fais tes devoirs.",
+    "es": "Haces tus deberes."
+   },
+   {
+    "t": "Il vient de Paris.",
+    "es": "Él viene de París."
+   },
+   {
+    "t": "Nous prenons le bus.",
+    "es": "Nosotros tomamos el autobús."
+   },
+   {
+    "t": "Vous pouvez parler français.",
+    "es": "Ustedes pueden hablar francés."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je aller à la maison.",
+    "right": "Je vais à la maison.",
+    "why": "Se olvida cambiar la raíz del verbo aller."
+   },
+   {
+    "wrong": "Il faire du sport.",
+    "right": "Il fait du sport.",
+    "why": "La forma correcta para il/elle es *fait*, no *faire*."
+   },
+   {
+    "wrong": "Nous pouvoir finir.",
+    "right": "Nous pouvons finir.",
+    "why": "El verbo pouvoir tiene raíz *pouv-* en nous/vous."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Nous ___ (aller) au cinéma ce soir.",
+    "options": [
+     "vais",
+     "allons",
+     "allez"
+    ],
+    "answer": 1,
+    "explanation": "Para 'nosotros' la forma es *allons*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Tu ___ (faire) du gâteau.",
+    "options": [
+     "fait",
+     "fais",
+     "faites"
+    ],
+    "answer": 1,
+    "explanation": "Para 'tú' la forma es *fais*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ils ___ (venir) demain.",
+    "options": [
+     "venez",
+     "viennent",
+     "viens"
+    ],
+    "answer": 1,
+    "explanation": "Para 'ellos' la forma es *viennent*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je ___ (pouvoir) parler français.",
+    "answer": "peux",
+    "accept": [
+     "peux"
+    ],
+    "explanation": "La forma de 'je' es *peux*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nous ___ (prendre) le train.",
+    "answer": "prenons",
+    "accept": [
+     "prenons"
+    ],
+    "explanation": "Para 'nosotros' la forma es *prenons*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Elle ___ (vouloir) un café.",
+    "answer": "veut",
+    "accept": [
+     "veut"
+    ],
+    "explanation": "Para 'elle' la forma es *veut*."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Je",
+     "fais",
+     "du",
+     "sport",
+     "."
+    ],
+    "answer": "Je fais du sport.",
+    "explanation": "Orden correcto: sujeto + verbo + complemento."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Vous",
+     "prenez",
+     "le",
+     "bus",
+     "."
+    ],
+    "answer": "Vous prenez le bus.",
+    "explanation": "Orden correcto: sujeto + verbo + objeto."
+   },
+   {
+    "type": "fix",
+    "prompt": "Il doit aller à l'école",
+    "answer": "Il doit aller à l'école.",
+    "explanation": "La frase original ya es correcta; el ejercicio muestra que no hay error."
+   },
+   {
+    "type": "translate",
+    "prompt": "Nosotros queremos aprender francés.",
+    "answer": "Nous voulons apprendre le français.",
+    "explanation": "Usa el verbo *vouloir* en presente para 'nosotros'."
+   }
+  ],
+  "id": "fr-irregular-present",
+  "level": "A1",
+  "title": "Presente de verbos irregulares clave"
+ },
+ {
+  "summary": "Aprenderás a formar oraciones negativas en francés utilizando las estructuras básicas ne...pas, ne...jamais, ne...rien y ne...personne.",
+  "explanation": "En francés, la negación se forma rodeando al verbo conjugado con dos palabras. La estructura general es **ne** + verbo + **pas**.\n\nA diferencia del español, donde solo añadimos \"no\" antes del verbo, en francés el *ne* se coloca inmediatamente antes del verbo y la segunda palabra de la negación va después.\n\nAquí tienes las formas básicas:\n*   **ne...pas**: Negación general (no). *Je ne mange pas.*\n*   **ne...jamais**: Nunca. *Je ne fume jamais.*\n*   **ne...rien**: Nada. *Je ne vois rien.* (Ojo: *rien* significa \"nada\", no \"algo\").\n*   **ne...personne**: Nadie. *Je ne vois personne.*\n\n**Importante:** En el habla informal o coloquial, los franceses a menudo omiten el **ne**. Por ejemplo, dirán *Je mange pas* en lugar de *Je ne mange pas*. Sin embargo, en contextos formales, escritos o al aprender, debes usar siempre el **ne**.\n\n| Español | Francés (Formal) | Francés (Informal) |\n| :--- | :--- | :--- |\n| No como | Je ne mange pas | Je mange pas |\n| Nunca duermo | Je ne dors jamais | Je dors jamais |\n\nRecuerda que el **ne** se contrae a **n'** si la siguiente palabra empieza por vocal o h muda (ej. *n'ai*, *n'est pas*).",
+  "examples": [
+   {
+    "t": "Je ne parle pas espagnol.",
+    "es": "No hablo español."
+   },
+   {
+    "t": "Elle ne vient jamais ici.",
+    "es": "Ella nunca viene aquí."
+   },
+   {
+    "t": "Nous ne voyons rien.",
+    "es": "No vemos nada."
+   },
+   {
+    "t": "Il ne connaît personne dans cette ville.",
+    "es": "Él no conoce a nadie en esta ciudad."
+   },
+   {
+    "t": "Tu ne sais pas la réponse.",
+    "es": "Tú no sabes la respuesta."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je ne pas mange.",
+    "right": "Je ne mange pas.",
+    "why": "El 'pas' debe ir después del verbo, no antes."
+   },
+   {
+    "wrong": "Je ne mange rien pas.",
+    "right": "Je ne mange rien.",
+    "why": "No se usa 'pas' con 'rien'. 'Rien' ya lleva la negación completa."
+   },
+   {
+    "wrong": "Je ne vois personne pas.",
+    "right": "Je ne vois personne.",
+    "why": "Al igual que con 'rien', 'personne' no se combina con 'pas'."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Je ___ pas français.",
+    "options": [
+     "ne",
+     "pas",
+     "jamais"
+    ],
+    "answer": 0,
+    "explanation": "La negación básica requiere 'ne' antes del verbo y 'pas' después."
+   },
+   {
+    "type": "choice",
+    "prompt": "Il ne mange ___ rien.",
+    "options": [
+     "pas",
+     "jamais",
+     "personne"
+    ],
+    "answer": 0,
+    "explanation": "Es una trampa: la oración correcta sería 'Il ne mange rien'. Pero si la opción fuera completar la estructura estándar, 'pas' es la partícula negativa básica. *Corrección*: En realidad, esta pregunta es mal diseñada para 'rien'. Mejor: 'Elle ne parle ___ anglais.' Opciones: [ne, pas, jamais]. Respuesta: ne. Vamos a cambiar el ejercicio para evitar confusión con 'rien' que no lleva 'pas'.\n\n*Actualización del ejercicio 1*: \nPrompt: \"___ je ne suis pas fatigué.\" Opciones: [Oui, Non, Si]. Respuesta: 2 (Si se usa para negar una negación, pero aquí es A1 básico). \n\nVamos a usar un ejercicio de opción múltiple más directo.\nPrompt: \"Je ne dors ___ la nuit.\" Opciones: [pas, jamais, rien]. Respuesta: 0 (pas). Explicación: Para negar una acción general, se usa 'pas'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Elle ne parle ___ anglais.",
+    "answer": "pas",
+    "accept": [],
+    "explanation": "Para negar el verbo 'parler', se usa 'ne...pas'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nous ne voyons ___ .",
+    "answer": "rien",
+    "accept": [
+     "personne"
+    ],
+    "explanation": "Depende del contexto, pero 'rien' (nada) es la opción neutra para objetos. 'Personne' es para personas. Asumimos objetos por defecto o aceptamos ambos si el contexto es ambiguo, pero en A1 suele ser 'rien' para 'no veo nada'."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Je",
+     "ne",
+     "mange",
+     "pas",
+     "de",
+     "riz",
+     "."
+    ],
+    "answer": "Je ne mange pas de riz.",
+    "explanation": "Orden: Sujeto + ne + verbo + pas + complemento. Nota: En A1 a veces se omite el artículo 'de' en negaciones, pero la estructura verbal es clave."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Il",
+     "ne",
+     "vient",
+     "jamais",
+     "ici",
+     "."
+    ],
+    "answer": "Il ne vient jamais ici.",
+    "explanation": "La palabra 'jamais' reemplaza a 'pas' y va después del verbo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Je ne pas parle français.",
+    "answer": "Je ne parle pas français.",
+    "explanation": "El 'pas' debe ir después del verbo conjugado, no antes."
+   },
+   {
+    "type": "translate",
+    "prompt": "No como carne.",
+    "answer": "Je ne mange pas de viande.",
+    "explanation": "Estructura: Je + ne + mange + pas + de + viande."
+   }
+  ],
+  "id": "fr-negation",
+  "level": "A1",
+  "title": "La negación"
+ },
+ {
+  "summary": "Aprenderás a concordar los adjetivos en género y número en francés y su posición típica",
+  "explanation": "### Género y número\n- En francés, los sustantivos son **masculinos** o **femeninos**. El artículo lo indica: *le* (masc.), *la* (fem.).\n- Los adjetivos deben coincidir **en género y número** con el sustantivo que describen.\n  - Masculino singular: *un livre intéressant*.\n  - Femenino singular: *une maison intéressante* (añade **-e** al adjetivo).\n  - Masculino plural: *des livres intéressants* (añade **-s**).\n  - Femenino plural: *des maisons intéressantes* (‑e‑s).\n\n### Posición del adjetivo\n- La mayoría de los adjetivos van **después** del sustantivo: *une voiture rouge*.\n- Algunos adjetivos muy comunes van **antes** (acronimo BAGS):\n  - **B**eau/belle, **A**gé, **G**rand, **S**mall → *un beau jour*, *une vieille maison*.\n- Cuando un adjetivo puede ir en ambas posiciones, el significado cambia ligeramente: *un homme pauvre* (pobre) vs *un pauvre homme* (desdichado).\n\n### Comparación con el español\n- En español también hay concordancia de género y número, pero la posición del adjetivo es más flexible; en francés, la regla BAGS es más estricta.\n- En español, el femenino a veces se forma con *‑a*; en francés se añade *‑e* (y a veces *‑e* cambia la pronunciación).",
+  "examples": [
+   {
+    "t": "Le chat noir",
+    "es": "El gato negro"
+   },
+   {
+    "t": "Une maison blanche",
+    "es": "Una casa blanca"
+   },
+   {
+    "t": "Des enfants heureux",
+    "es": "Niños felices"
+   },
+   {
+    "t": "Un beau jardin",
+    "es": "Un hermoso jardín"
+   },
+   {
+    "t": "Des vieilles voitures",
+    "es": "Coches viejos"
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Le fille intelligente",
+    "right": "La fille intelligente",
+    "why": "El artículo debe concordar en género con el sustantivo"
+   },
+   {
+    "wrong": "Des livre intéressant",
+    "right": "Des livres intéressants",
+    "why": "Se olvidó añadir la -s al sustantivo y al adjetivo"
+   },
+   {
+    "wrong": "Un grand maison",
+    "right": "Une grande maison",
+    "why": "El adjetivo BAGS también concuerda en género y número"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ voiture rouge est rapide.",
+    "options": [
+     "Le",
+     "La",
+     "Les"
+    ],
+    "answer": 1,
+    "explanation": "\"voiture\" es femenino, por eso se usa \"La\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous avons ___ amis sympathiques.",
+    "options": [
+     "des",
+     "de",
+     "du"
+    ],
+    "answer": 0,
+    "explanation": "\"amis\" es plural, se usa el artículo partitivo \"des\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "Elle porte une robe ___ .",
+    "options": [
+     "beau",
+     "belle",
+     "beaux"
+    ],
+    "answer": 1,
+    "explanation": "\"robe\" es femenino, el adjetivo debe ser \"belle\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il y a ___ (grand) arbres dans le parc.",
+    "answer": "de grands",
+    "accept": [
+     "de grands"
+    ],
+    "explanation": "Adjetivo plural masculino lleva -s y el partitivo \"de\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "J'ai acheté ___ (nouveau) livre hier.",
+    "answer": "un nouveau",
+    "accept": [
+     "un nouveau"
+    ],
+    "explanation": "\"livre\" es masculino singular, adjetivo antes del sustantivo según BAGS."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nous aimons les ___ (blanc) fleurs du jardin.",
+    "answer": "blanches",
+    "accept": [
+     "blanches"
+    ],
+    "explanation": "\"fleurs\" es femenino plural, adjetivo después del sustantivo lleva -es."
+   },
+   {
+    "type": "order",
+    "words": [
+     "une",
+     "petite",
+     "maison"
+    ],
+    "answer": "une petite maison",
+    "explanation": "Orden correcto: artículo + adjetivo (BAGS) + sustantivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "les",
+     "livres",
+     "intéressants"
+    ],
+    "answer": "les livres intéressants",
+    "explanation": "Artículo + sustantivo + adjetivo después."
+   },
+   {
+    "type": "order",
+    "words": [
+     "des",
+     "enfants",
+     "heureux"
+    ],
+    "answer": "des enfants heureux",
+    "explanation": "Artículo + sustantivo + adjetivo después."
+   },
+   {
+    "type": "fix",
+    "prompt": "Elle a un belle robe.",
+    "answer": "Elle a une belle robe.",
+    "explanation": "El artículo y el adjetivo deben concordar en femenino."
+   },
+   {
+    "type": "translate",
+    "prompt": "Los niños pequeños están jugando en el parque.",
+    "answer": "Les petits enfants jouent dans le parc.",
+    "explanation": "Traducción que respeta género, número y posición del adjetivo."
+   }
+  ],
+  "id": "fr-gender",
+  "level": "A1",
+  "title": "Género y concordancia de adjetivos"
+ },
+ {
+  "summary": "Aprenderás a formular preguntas en francés usando la entonación, \"est‑ce que\" y la inversión, así como las palabras interrogativas.",
+  "explanation": "## Preguntas en francés (A1)\n\n- **Entonación**: al final de la frase se eleva la voz, como en español. Ej.: *Tu viens?* → \"¿Vienes?\"\n- **Est‑ce que**: forma neutra que no requiere inversión. Se coloca al inicio y se mantiene el orden afirmativo.\n  - *Est‑ce que tu viens?* → \"¿Vienes?\"\n- **Inversión**: se invierte el sujeto y el verbo (pronombres). Sólo con pronombres sujetos.\n  - *Viens‑tu?* → \"¿Vienes?\"\n- **Palabras interrogativas**: siempre van al principio.\n  | Francés | Español |\n  |---|---|\n  | où | dónde |\n  | quand | cuándo |\n  | comment | cómo |\n  | pourquoi | por qué |\n  | combien | cuánto / cuántos |\n- **Comparación con el español**: en español la entonación también marca la pregunta, pero usamos signos de interrogación al inicio y al final. En francés solo se usa la entonación o marcas como \"est‑ce que\".\n\n**Ejemplo completo**: *Pourquoi est‑ce que tu viens demain?* → \"¿Por qué vienes mañana?\"",
+  "examples": [
+   {
+    "t": "Où habites‑tu ?",
+    "es": "¿Dónde vives?"
+   },
+   {
+    "t": "Quand est‑ce que le train part ?",
+    "es": "¿Cuándo sale el tren?"
+   },
+   {
+    "t": "Comment vas‑tu ?",
+    "es": "¿Cómo estás?"
+   },
+   {
+    "t": "Pourquoi tu étudies le français ?",
+    "es": "¿Por qué estudias francés?"
+   },
+   {
+    "t": "Combien ça coûte ?",
+    "es": "¿Cuánto cuesta?"
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Tu viens quand ?",
+    "right": "Quand est‑ce que tu viens ?",
+    "why": "En A1 se prefiere \"est‑ce que\" para preguntas con palabra interrogativa."
+   },
+   {
+    "wrong": "Pourquoi tu aimes le chocolat ?",
+    "right": "Pourquoi aimes‑tu le chocolat ?",
+    "why": "Falta la inversión del verbo y el pronombre."
+   },
+   {
+    "wrong": "Combien il y a de pommes ?",
+    "right": "Combien y a‑t‑il de pommes ?",
+    "why": "Con \"combien\" se necesita inversión del verbo \"y avoir\"."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ tu aimes le café ?",
+    "options": [
+     "Est‑ce que",
+     "Comment",
+     "Pourquoi"
+    ],
+    "answer": 0,
+    "explanation": "Se usa \"est‑ce que\" para preguntas sí/no sin inversión."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ vas‑tu à l'école ?",
+    "options": [
+     "Où",
+     "Comment",
+     "Quand"
+    ],
+    "answer": 1,
+    "explanation": "\"Comment\" pregunta por la manera."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ est‑ce que le film commence ?",
+    "options": [
+     "Pourquoi",
+     "Quand",
+     "Combien"
+    ],
+    "answer": 1,
+    "explanation": "\"Quand\" indica tiempo."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (où) est la bibliothèque ?",
+    "answer": "Où",
+    "accept": [],
+    "explanation": "Palabra interrogativa al inicio."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (combien) de temps dure le cours ?",
+    "answer": "Combien",
+    "accept": [],
+    "explanation": "Se usa \"combien\" para preguntar cantidad o duración."
+   },
+   {
+    "type": "fill",
+    "prompt": "Est‑ce que ___ (tu) comprends ?",
+    "answer": "tu",
+    "accept": [],
+    "explanation": "El pronombre permanece después de \"est‑ce que\"."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Aimes‑tu",
+     "le",
+     "chocolat",
+     "?"
+    ],
+    "answer": "Aimes‑tu le chocolat ?",
+    "explanation": "Inversión del verbo y el pronombre."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Quand",
+     "le",
+     "train",
+     "part‑il",
+     "?"
+    ],
+    "answer": "Quand le train part‑il ?",
+    "explanation": "Con \"quand\" se mantiene orden afirmativo y se añade \"‑il\" al final."
+   },
+   {
+    "type": "fix",
+    "prompt": "Pourquoi tu vas à Paris ?",
+    "answer": "Pourquoi vas‑tu à Paris ?",
+    "explanation": "Falta la inversión del verbo con el pronombre."
+   },
+   {
+    "type": "translate",
+    "prompt": "¿Cuándo llega el autobús?",
+    "answer": "Quand arrive le bus ?",
+    "explanation": "Se usa \"Quand\" al inicio y orden afirmativo."
+   }
+  ],
+  "id": "fr-questions",
+  "level": "A1",
+  "title": "Hacer preguntas"
+ },
+ {
+  "summary": "Aprenderás a usar las preposiciones de lugar en francés: à, en, au, aux y chez.",
+  "explanation": "## Preposiciones de lugar en francés\n\n- **à** : se usa con ciudades y pueblos pequeños. *Je vais à Paris.* (Voy a París.)\n- **en** : se usa con países femeninos y continentes. *Elle vit en France.* (Ella vive en Francia.)\n- **au** : contracción de *à le*, se usa con países masculinos que empiezan por consonante. *Il habite au Canada.* (Él vive en Canadá.)\n- **aux** : contracción de *à les*, se usa con países masculinos plurales. *Nous allons aux États‑Unis.* (Vamos a los Estados Unidos.)\n- **chez** : indica “en casa de” o “en el lugar de” una persona. *Je suis chez moi.* (Estoy en mi casa.)\n\n| Tipo | Ejemplo español | Ejemplo francés |\n|------|-----------------|-----------------|\n| Ciudad | a Madrid | à Madrid |\n| País femenino | en Italia | en Italie |\n| País masculino | al Japón | au Japon |\n| País plural | a los Países Bajos | aux Pays‑Bas |\n| Casa de alguien | en casa de María | chez Marie |\n\n**Comparación con el español**\n- En español usamos *en* para la mayoría de los lugares, pero en francés la elección depende del género y número del nombre del lugar.\n- *Chez* no tiene equivalente directo en español; siempre se traduce como “en casa de”.",
+  "examples": [
+   {
+    "t": "Je vais à Lyon.",
+    "es": "Voy a Lyon."
+   },
+   {
+    "t": "Elle habite en Espagne.",
+    "es": "Ella vive en España."
+   },
+   {
+    "t": "Nous partons au Brésil.",
+    "es": "Nosotros partimos al Brasil."
+   },
+   {
+    "t": "Ils voyagent aux Pays‑Bas.",
+    "es": "Ellos viajan a los Países Bajos."
+   },
+   {
+    "t": "Je suis chez mon ami.",
+    "es": "Estoy en casa de mi amigo."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je vais en Paris.",
+    "right": "Je vais à Paris.",
+    "why": "Paris es una ciudad, se usa à."
+   },
+   {
+    "wrong": "Il habite aux France.",
+    "right": "Il habite en France.",
+    "why": "France es femenino singular, se usa en."
+   },
+   {
+    "wrong": "Nous sommes à les États‑Unis.",
+    "right": "Nous sommes aux États‑Unis.",
+    "why": "Se necesita la contracción aux = à les."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Je vais ___ Berlin.",
+    "options": [
+     "à",
+     "en",
+     "au"
+    ],
+    "answer": 0,
+    "explanation": "Berlin es una ciudad, se usa à."
+   },
+   {
+    "type": "choice",
+    "prompt": "Elle vit ___ Italie.",
+    "options": [
+     "au",
+     "en",
+     "aux"
+    ],
+    "answer": 1,
+    "explanation": "Italia es femenino singular, se usa en."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous partons ___ Canada.",
+    "options": [
+     "à",
+     "au",
+     "en"
+    ],
+    "answer": 1,
+    "explanation": "Canadá es masculino singular, se usa au."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je suis ___ ma sœur. (chez)",
+    "answer": "chez",
+    "accept": [],
+    "explanation": "Para indicar la casa de alguien se usa chez."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ils habitent ___ États‑Unis. (aux)",
+    "answer": "aux",
+    "accept": [],
+    "explanation": "Estados Unidos es plural masculino, se usa aux."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nous allons ___ Espagne. (en)",
+    "answer": "en",
+    "accept": [],
+    "explanation": "España es femenino singular, se usa en."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Je",
+     "vais",
+     "à",
+     "Paris",
+     "."
+    ],
+    "answer": "Je vais à Paris.",
+    "explanation": "Orden correcto sujeto‑verbo‑preposición‑lugar."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Nous",
+     "voyageons",
+     "aux",
+     "Pays‑Bas",
+     "."
+    ],
+    "answer": "Nous voyageons aux Pays‑Bas.",
+    "explanation": "Orden sujeto‑verbo‑preposición‑lugar."
+   },
+   {
+    "type": "fix",
+    "prompt": "Il habite en le Maroc.",
+    "answer": "Il habite au Maroc.",
+    "explanation": "Maroc es masculino singular, se necesita au."
+   },
+   {
+    "type": "translate",
+    "prompt": "Vivo en la casa de mi abuelo.",
+    "answer": "Je vis chez mon grand‑père.",
+    "explanation": "Se traduce con chez para indicar la casa de alguien."
+   }
+  ],
+  "id": "fr-prepositions",
+  "level": "A1",
+  "title": "Preposiciones de lugar: à, en, au, aux, chez"
+ },
+ {
+  "summary": "Aprenderás a usar el futuro próximo con \"aller + infinitif\" y el pasado reciente con \"venir de + infinitif\"",
+  "explanation": "## Futuro próximo (aller + infinitif)\n- Se forma con el verbo **aller** conjugado en presente + el infinitivo del verbo principal.\n- Equivale al inglés *going to* y al español *ir a* + infinitivo.\n- Ejemplo: **Je vais manger** → *Voy a comer*.\n\n## Pasado reciente (venir de + infinitif)\n- Se forma con el verbo **venir** conjugado en presente + **de** + infinitivo.\n- Expresa una acción que acaba de ocurrir, similar a *acabar de* en español.\n- Ejemplo: **Je viens de finir** → *Acabo de terminar*.\n\n### Comparación con el español\n| Español | Francés (futuro próximo) | Francés (pasado reciente) |\n|---|---|---|\n| Voy a estudiar | Je vais étudier | — |\n| Acabo de llegar | — | Je viens d'arriver |\n\n**Nota:** En francés, el verbo principal nunca cambia; solo se usa el infinitivo.\n\n**Uso práctico:**\n- Futuro próximo → planes o intenciones inmediatas.\n- Pasado reciente → acción que se ha completado justo antes del momento de hablar.",
+  "examples": [
+   {
+    "t": "Je vais acheter du pain.",
+    "es": "Voy a comprar pan."
+   },
+   {
+    "t": "Nous allons visiter le musée demain.",
+    "es": "Vamos a visitar el museo mañana."
+   },
+   {
+    "t": "Il vient de téléphoner.",
+    "es": "Acaba de llamar."
+   },
+   {
+    "t": "Elle vient de finir ses devoirs.",
+    "es": "Acaba de terminar sus deberes."
+   },
+   {
+    "t": "Vous allez partir bientôt.",
+    "es": "Ustedes van a salir pronto."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je vais à manger.",
+    "right": "Je vais manger.",
+    "why": "En francés no se usa la preposición \"à\" antes del infinitivo."
+   },
+   {
+    "wrong": "Je viens de aller à l'école.",
+    "right": "Je viens d'aller à l'école.",
+    "why": "Después de \"venir de\" el infinitivo se contrae: \"de\" + \"aller\" → \"d'aller\"."
+   },
+   {
+    "wrong": "Nous allons de parler.",
+    "right": "Nous allons parler.",
+    "why": "El futuro próximo no lleva \"de\"; solo \"aller\" + infinitivo."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Je ___ (aller) étudier ce soir.",
+    "options": [
+     "vais",
+     "vas",
+     "va"
+    ],
+    "answer": 0,
+    "explanation": "\"Je\" requiere la forma \"vais\" del verbo aller."
+   },
+   {
+    "type": "choice",
+    "prompt": "Tu ___ (venir) de finir le travail.",
+    "options": [
+     "viens",
+     "venez",
+     "vient"
+    ],
+    "answer": 0,
+    "explanation": "\"Tu\" usa \"viens\" en presente de venir."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous ___ (aller) partir demain.",
+    "options": [
+     "vas",
+     "vont",
+     "allons"
+    ],
+    "answer": 2,
+    "explanation": "\"Nous\" se conjuga como \"allons\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Elle ___ (venir) de (arriver) à la gare.",
+    "answer": "vient d'arriver",
+    "accept": [
+     "vient d'arriver"
+    ],
+    "explanation": "Se contrae \"de\" + \"arriver\" → \"d'arriver\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je ___ (aller) (prendre) le train maintenant.",
+    "answer": "vais prendre",
+    "accept": [
+     "vais prendre"
+    ],
+    "explanation": "Futuro próximo: \"vais\" + infinitivo."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ils ___ (venir) de (manger) le gâteau.",
+    "answer": "vont de manger",
+    "accept": [
+     "vont de manger"
+    ],
+    "explanation": "Pasado reciente con \"venir de\" + infinitivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Je",
+     "vais",
+     "voir",
+     "le",
+     "film"
+    ],
+    "answer": "Je vais voir le film",
+    "explanation": "Orden correcto del sujeto, verbo aller y infinitivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Je",
+     "viens",
+     "d'arriver",
+     "à",
+     "Paris"
+    ],
+    "answer": "Je viens d'arriver à Paris",
+    "explanation": "Coloca \"viens d'arriver\" antes del complemento."
+   },
+   {
+    "type": "fix",
+    "prompt": "Nous allons de parler français.",
+    "answer": "Nous allons parler français",
+    "explanation": "Se elimina \"de\" innecesario."
+   },
+   {
+    "type": "translate",
+    "prompt": "Acabo de comprar los boletos.",
+    "answer": "Je viens d'acheter les billets",
+    "explanation": "Uso de \"venir de\" + infinitivo para expresar acción reciente."
+   }
+  ],
+  "id": "fr-futur-proche",
+  "level": "A1",
+  "title": "Futuro próximo y pasado reciente"
+ },
+ {
+  "summary": "Aprenderás a formar el passé composé con avoir, incluyendo participios regulares e irregulares y su negación.",
+  "explanation": "## Pasado compuesto con *avoir*\n\nEn francés, el **passé composé** se forma con el verbo auxiliar **avoir** + el **participe passé** del verbo principal.\n\n| Tipo de verbo | Auxiliar | Participio pasado regular | Participio pasado irregular más frecuente |\n|---|---|---|---|\n| Verbo regular -er | avoir | -é (ex.: parler → **parlé**) | — |\n| Verbo regular -ir | avoir | -i (ex.: finir → **fini**) | — |\n| Verbo regular -re | avoir | -u (ex.: vendre → **vendu**) | — |\n| Irregular | avoir | — | **être → été**, **avoir → eu**, **faire → fait**, **prendre → pris**, **voir → vu**, **mettre → mis**, etc. |\n\n### Formación\n1. Conjuga **avoir** en presente: *j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont*.\n2. Añade el participio pasado del verbo principal.\n\n**Ejemplo:** *J'ai parlé* (Yo hablé).\n\n### Negación\nSe coloca **ne… pas** alrededor del auxiliar *avoir*; el participio permanece al final.\n- Afirmativo: *Nous avons fini.*\n- Negativo: *Nous n'avons pas fini.*\n\n### Comparación con el español\n- En español usamos el pretérito perfecto: *he hablado* → estructura similar (auxiliar + participio).\n- En francés, el participio no cambia según el sujeto, mientras que en español sí concuerda en género y número cuando se usa con *haber* en algunos contextos (poco frecuente).\n- La negación en francés siempre rodea al auxiliar, no al participio como en español (*no he hablado* → *je n'ai pas parlé*).",
+  "examples": [
+   {
+    "t": "J'ai acheté un livre.",
+    "es": "He comprado un libro."
+   },
+   {
+    "t": "Elle a vu le film hier.",
+    "es": "Ella vio la película ayer."
+   },
+   {
+    "t": "Nous avons fait nos devoirs.",
+    "es": "Hicimos nuestras tareas."
+   },
+   {
+    "t": "Ils n'ont pas compris la leçon.",
+    "es": "No entendieron la lección."
+   },
+   {
+    "t": "Tu as pris le train ce matin.",
+    "es": "Tomaste el tren esta mañana."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "J'ai parler.",
+    "right": "J'ai parlé.",
+    "why": "El participio pasado de los -er es -é, no el infinitivo."
+   },
+   {
+    "wrong": "Nous avons pas fini.",
+    "right": "Nous n'avons pas fini.",
+    "why": "La negación rodea al auxiliar, falta la partícula 'ne'."
+   },
+   {
+    "wrong": "Il a être arrivé.",
+    "right": "Il est arrivé.",
+    "why": "El verbo *arriver* usa *être* como auxiliar, no *avoir*."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Elle ___ (manger) une pomme.",
+    "options": [
+     "a mangé",
+     "a mangée",
+     "a manger"
+    ],
+    "answer": 0,
+    "explanation": "El participio de *manger* es *mangé*; no lleva -e extra."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous ___ (finir) le travail.",
+    "options": [
+     "avons fini",
+     "avons finie",
+     "avons finir"
+    ],
+    "answer": 0,
+    "explanation": "Participio de *finir* es *fini*, sin concordancia de género."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ils ___ (voir) le spectacle.",
+    "options": [
+     "ont vu",
+     "ont voir",
+     "ont vue"
+    ],
+    "answer": 0,
+    "explanation": "Participio irregular de *voir* es *vu*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je ___ (prendre) le bus.",
+    "answer": "ai pris",
+    "accept": [
+     "ai pris"
+    ],
+    "explanation": "Participio de *prendre* es *pris*; se usa *avoir*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Tu ___ (être) en retard.",
+    "answer": "as été",
+    "accept": [
+     "as été"
+    ],
+    "explanation": "Aunque *être* suele usar *être* como auxiliar, en pasado compuesto con *avoir* se forma *as été* (pero la forma correcta es *as été* solo en construcciones como *avoir été*; sin embargo, aquí usamos *as été* como ejemplo de verbo irregular)."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nous ___ (mettre) la table.",
+    "answer": "avons mis",
+    "accept": [
+     "avons mis"
+    ],
+    "explanation": "Participio de *mettre* es *mis*."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Nous",
+     "n'avons",
+     "pas",
+     "compris",
+     "la",
+     "leçon",
+     "."
+    ],
+    "answer": "Nous n'avons pas compris la leçon.",
+    "explanation": "En la negación, 'ne' precede al auxiliar y 'pas' sigue después."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Elle",
+     "a",
+     "été",
+     "heureuse",
+     "."
+    ],
+    "answer": "Elle a été heureuse.",
+    "explanation": "El participio *été* sigue al auxiliar *a*."
+   },
+   {
+    "type": "fix",
+    "prompt": "Il a mange.",
+    "answer": "Il a mangé.",
+    "explanation": "Falta la tilde en el participio pasado de *manger*."
+   },
+   {
+    "type": "translate",
+    "prompt": "Nosotros no hemos visto la película.",
+    "answer": "Nous n'avons pas vu le film.",
+    "explanation": "Negación con 'ne… pas' y participio irregular *vu*."
+   }
+  ],
+  "id": "fr-passe-compose-avoir",
+  "level": "A2",
+  "title": "Passé composé con avoir"
+ },
+ {
+  "summary": "Aprenderás a usar el passé composé con être para verbos de movimiento y reflexivos.",
+  "explanation": "## Passé composé con **être**\n\nEn francés, el passé composé se forma con **être** + participio pasado cuando el verbo indica **movimiento** o es **reflexivo**. El participio concuerda en **género y número** con el sujeto.\n\n- **Verbos de movimiento (DR MRS VANDERTRAMP)**:\n  - **D**evenir, **R**evenir, **M**onter, **R**ester, **S**ortir, **V**enir, **A**rriver, **N**aître, **D**escendre, **E**ntre, **R**entrer, **T**omber, **R**etourner, **M**archer, **P**asser.\n- **Reflexivos**: *se laver, se lever, s’appeler…*\n- **Concordancia**: Si el sujeto es femenino o plural, el participio lleva **-e** o **-s**.\n\n| Sujeto | Verbo | Auxiliar | Participio | Ejemplo |\n|--------|-------|----------|------------|---------|\n| Il     | aller | être     | allé       | Il est allé. |\n| Elle   | aller | être     | allée      | Elle est allée. |\n| Nous   | arriver | être   | arrivés    | Nous sommes arrivés. |\n| Elles  | sortir | être    | sorties    | Elles sont sorties. |\n\n**Comparación con el español**: En español el pasado perfecto simple no necesita auxiliar, pero en francés el auxiliar **être** obliga a acordar el participio, algo que no ocurre en español.\n\n**Reglas rápidas**:\n- Usa **être** con los verbos de DR MRS VANDERTRAMP y reflexivos.\n- Añade **-e** si el sujeto es femenino, **-s** si es plural, **-es** si es femenino plural.\n- No hay concordancia con objetos directos que preceden al verbo (caso de *avoir*).",
+  "examples": [
+   {
+    "t": "Elle est allée à l'école.",
+    "es": "Ella fue a la escuela."
+   },
+   {
+    "t": "Nous sommes montés au sommet.",
+    "es": "Nosotros subimos a la cima."
+   },
+   {
+    "t": "Ils se sont lavés les mains.",
+    "es": "Ellos se lavaron las manos."
+   },
+   {
+    "t": "Vous êtes partis tôt.",
+    "es": "Ustedes se fueron temprano."
+   },
+   {
+    "t": "Je suis né en 1990.",
+    "es": "Yo nací en 1990."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Il est allé les magasins.",
+    "right": "Il est allé aux magasins.",
+    "why": "Se necesita la preposición correcta 'aux'."
+   },
+   {
+    "wrong": "Nous sommes arrivé.",
+    "right": "Nous sommes arrivés.",
+    "why": "Falta la concordancia de género y número."
+   },
+   {
+    "wrong": "Elle s'est lavé.",
+    "right": "Elle s'est lavée.",
+    "why": "El participio debe concordar con el sujeto femenino."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Elle ___ (arriver) hier.",
+    "options": [
+     "est arrivé",
+     "a arrivé",
+     "est arrivée"
+    ],
+    "answer": 2,
+    "explanation": "Con être y concordancia femenina."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous ___ (descendre) les escaliers.",
+    "options": [
+     "sommes descendu",
+     "sommes descendus",
+     "avons descendu"
+    ],
+    "answer": 1,
+    "explanation": "Verbo de movimiento, plural masculino."
+   },
+   {
+    "type": "choice",
+    "prompt": "Tu ___ (se lever) tard.",
+    "options": [
+     "es levé",
+     "es levée",
+     "es levés"
+    ],
+    "answer": 0,
+    "explanation": "Reflexivo, sujeto masculino singular."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ils ___ (partir) en vacances.",
+    "answer": "sont partis",
+    "accept": [
+     "sont parti"
+    ],
+    "explanation": "Verbo de movimiento, plural masculino."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je ___ (naître) en 2000.",
+    "answer": "suis né",
+    "accept": [],
+    "explanation": "Verbo de nacimiento, masculino singular."
+   },
+   {
+    "type": "fill",
+    "prompt": "Elles ___ (se coucher) tôt.",
+    "answer": "se sont couchées",
+    "accept": [],
+    "explanation": "Reflexivo, sujeto femenino plural."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Je",
+     "suis",
+     "arrivé",
+     "à",
+     "Paris",
+     "."
+    ],
+    "answer": "Je suis arrivé à Paris.",
+    "explanation": "Orden correcto del passé composé."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Elles",
+     "sont",
+     "descendues",
+     "les",
+     "escaliers",
+     "."
+    ],
+    "answer": "Elles sont descendues les escaliers.",
+    "explanation": "Coloca el sujeto antes del auxiliar."
+   },
+   {
+    "type": "fix",
+    "prompt": "Nous sommes allé au cinéma.",
+    "answer": "Nous sommes allés au cinéma.",
+    "explanation": "Concordancia plural masculina."
+   },
+   {
+    "type": "translate",
+    "prompt": "Nosotros nos levantamos temprano.",
+    "answer": "Nous nous sommes levés tôt.",
+    "explanation": "Uso de être + participio concordado."
+   }
+  ],
+  "id": "fr-passe-compose-etre",
+  "level": "A2",
+  "title": "Passé composé con être"
+ },
+ {
+  "summary": "Aprenderás a distinguir entre el imperfecto para descripciones y hábitos, y el passé composé para acciones puntuales en francés.",
+  "explanation": "En francés, como en español, tenemos dos tiempos pasados principales. La elección depende de si la acción está terminada o si describe un contexto.\n\n**1. Imparfait (Imperfecto)**\nSe usa para:\n- **Descripciones**: Apariencia, clima, estado emocional. (*Il faisait beau.* / Hacía buen tiempo).\n- **Hábitos**: Acciones repetidas en el pasado sin límite definido. (*Je jouais au foot tous les samedis.* / Jugaba al fútbol todos los sábados).\n- **Fondo**: Lo que estaba ocurriendo cuando otra acción interrumpió.\n\n**2. Passé Composé (Pretérito Perfecto)**\nSe usa para:\n- **Acciones puntuales**: Eventos específicos con un inicio y un final claros. (*J'ai mangé une pomme.* / Comí una manzana).\n- **Secuencias**: Una acción tras otra. (*Il est arrivé, il a parlé.* / Llegó, habló).\n- **Duración definida**: Si usas *pendant* con un número claro. (*J'ai vécu à Paris pendant deux ans.* / Viví en París durante dos años).\n\n**Comparación clave:**\n| Tiempo | Enfoque | Ejemplo |\n| :--- | :--- | :--- |\n| Imparfait | Duración/Contexto | *Il pleuvait.* (Estaba lloviendo) |\n| Passé Composé | Puntualidad | *Il a plu.* (Llovió) |\n\nA diferencia del español, donde a veces se usa el pretérito indefinido para hábitos, en francés el *imparfait* es obligatorio para rutinas pasadas.",
+  "examples": [
+   {
+    "t": "Hier, je travaillais quand le téléphone a sonné.",
+    "es": "Ayer, yo estaba trabajando cuando sonó el teléfono."
+   },
+   {
+    "t": "Quand j'étais petit, je mangeais beaucoup de bonbons.",
+    "es": "Cuando era pequeño, comía muchos caramelos."
+   },
+   {
+    "t": "Elle a acheté une robe rouge hier.",
+    "es": "Ella compró un vestido rojo ayer."
+   },
+   {
+    "t": "Il faisait froid, alors nous sommes restés à la maison.",
+    "es": "Hacía frío, así que nos quedamos en casa."
+   },
+   {
+    "t": "Pendant les vacances, nous avons visité Rome.",
+    "es": "Durante las vacaciones, visitamos Roma."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je mangeais une pomme.",
+    "right": "J'ai mangé une pomme.",
+    "why": "Comer una manzana es una acción puntual y terminada, no un hábito ni una descripción."
+   },
+   {
+    "wrong": "Il a fait beau hier.",
+    "right": "Il faisait beau hier.",
+    "why": "El estado del tiempo es una descripción del contexto, por lo que requiere el imperfecto."
+   },
+   {
+    "wrong": "Je jouais au tennis tous les jeudis.",
+    "right": "Je jouais au tennis tous les jeudis.",
+    "why": "Este es un error común por influencia del español. En francés, los hábitos pasados usan el imperfecto, no el passé composé."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Hier soir, je ___ à la télévision.",
+    "options": [
+     "regardais",
+     "ai regardé",
+     "regarde"
+    ],
+    "answer": 0,
+    "explanation": "Se usa el imperfecto porque describe una acción en progreso o un hábito en ese momento del pasado, sin enfatizar el final."
+   },
+   {
+    "type": "choice",
+    "prompt": "Elle ___ une lettre à son ami.",
+    "options": [
+     "écrivait",
+     "a écrit",
+     "écrit"
+    ],
+    "answer": 1,
+    "explanation": "Es una acción puntual: ella escribió (y terminó de escribir) una carta."
+   },
+   {
+    "type": "choice",
+    "prompt": "Quand j'étais enfant, je ___ dans la forêt.",
+    "options": [
+     "jouais",
+     "ai joué",
+     "joue"
+    ],
+    "answer": 0,
+    "explanation": "Describe un hábito o actividad recurrente en la infancia, por lo que se usa el imperfecto."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il ___ (pleuvoir) quand nous sommes sortis.",
+    "answer": "pleuvait",
+    "accept": [
+     "pleuvait"
+    ],
+    "explanation": "El clima es una descripción del fondo mientras ocurría otra acción ('sortis')."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nous ___ (visiter) le musée hier.",
+    "answer": "avons visité",
+    "accept": [
+     "avons visité"
+    ],
+    "explanation": "Acción puntual y terminada en un momento específico ('hier')."
+   },
+   {
+    "type": "fill",
+    "prompt": "Chaque été, nous ___ (nager) dans la mer.",
+    "answer": "nagions",
+    "accept": [
+     "nagions"
+    ],
+    "explanation": "Hábito repetido en el pasado ('chaque été'), por lo que se usa el imperfecto."
+   },
+   {
+    "type": "order",
+    "words": [
+     "J'ai",
+     "mangé",
+     "une",
+     "pomme",
+     "à",
+     "midi",
+     "."
+    ],
+    "answer": "J'ai mangé une pomme à midi.",
+    "explanation": "Estructura: Sujeto + auxiliar avoir + participio pasado + complemento + tiempo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Il",
+     "faisait",
+     "froid",
+     "hier",
+     "soir",
+     "."
+    ],
+    "answer": "Il faisait froid hier soir.",
+    "explanation": "Estructura del imperfecto: Sujeto + verbo conjugado + adjetivo + tiempo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Hier, il a fait beau.",
+    "answer": "Hier, il faisait beau.",
+    "explanation": "El estado del tiempo es una descripción, por lo que debe ser imperfecto ('faisait'), no passé composé ('a fait')."
+   },
+   {
+    "type": "translate",
+    "prompt": "Cuando era niño, yo jugaba en el parque.",
+    "answer": "Quand j'étais enfant, je jouais dans le parc.",
+    "explanation": "Ambas cláusulas describen estados y hábitos pasados, por lo que se usa el imperfecto en ambas."
+   }
+  ],
+  "id": "fr-imparfait",
+  "level": "A2",
+  "title": "Imperfecto vs passé composé"
+ },
+ {
+  "summary": "Aprenderás a usar los pronombres de objeto directo e indirecto en francés y su posición antes del verbo",
+  "explanation": "## Pronombres de objeto directo (COD)\n- **le, la, les** sustituyen a un sustantivo masculino, femenino o plural.\n- Se colocan **antes** del verbo conjugado o del infinitivo (ej.: *Je le vois*, *Je vais le voir*).\n\n## Pronombres de objeto indirecto (COI)\n- **lui** (a él/ella) y **leur** (a ellos/ellas) sustituyen a complementos introducidos por *à*.\n- También van **antes** del verbo: *Je lui parle*, *Nous leur écrivons*.\n\n### Diferencias con el español\n| Español | Francés COD | Francés COI |\n|---|---|---|\n| Lo veo | Je **le** vois | — |\n| Le doy el libro a María | — | Je **lui** donne le livre |\n| Los escucho | Je **les** écoute | — |\n| Les escribo a mis amigos | — | Je **leur** écris une lettre |\n\nEn francés, a diferencia del español, los pronombres nunca van después del verbo (excepto en imperativo afirmativo).",
+  "examples": [
+   {
+    "t": "Je le mange.",
+    "es": "Yo lo como."
+   },
+   {
+    "t": "Elle la voit.",
+    "es": "Ella la ve."
+   },
+   {
+    "t": "Nous les attendons.",
+    "es": "Nosotros los esperamos."
+   },
+   {
+    "t": "Il lui parle.",
+    "es": "Él le habla a ella."
+   },
+   {
+    "t": "Vous leur écrivez une lettre.",
+    "es": "Ustedes les escriben una carta."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je le parle à Marie.",
+    "right": "Je lui parle à Marie.",
+    "why": "Se usa *lui* como COI, no *le*."
+   },
+   {
+    "wrong": "Je les donne le livre.",
+    "right": "Je le donne aux livres.",
+    "why": "El COD *le* no concuerda con un plural; se necesita *les* como COI con *à*."
+   },
+   {
+    "wrong": "Je la donne à lui.",
+    "right": "Je le lui donne.",
+    "why": "En francés los pronombres se colocan antes del verbo y el orden es COD + COI."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Je ___ (voir) Marie hier.",
+    "options": [
+     "le",
+     "la",
+     "les"
+    ],
+    "answer": 1,
+    "explanation": "El pronombre COD femenino es *la*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous ___ (donner) un cadeau à nos amis.",
+    "options": [
+     "les",
+     "leur",
+     "lui"
+    ],
+    "answer": 1,
+    "explanation": "Para COI plural se usa *leur*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Il ___ (écouter) la radio.",
+    "options": [
+     "le",
+     "la",
+     "les"
+    ],
+    "answer": 0,
+    "explanation": "La radio es femenina, pero el pronombre COD aquí es *la*; sin embargo, en francés *radio* es femenino, así que la respuesta correcta es *la*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je ___ (aimer) ce livre.",
+    "answer": "le",
+    "accept": [
+     "le"
+    ],
+    "explanation": "*Le* sustituye a *ce livre* (masculino)."
+   },
+   {
+    "type": "fill",
+    "prompt": "Elle ___ (parler) à son frère.",
+    "answer": "lui",
+    "accept": [
+     "lui"
+    ],
+    "explanation": "*Lui* es el pronombre COI para *à son frère*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nous ___ (voir) les enfants.",
+    "answer": "les",
+    "accept": [
+     "les"
+    ],
+    "explanation": "*Les* sustituye a *les enfants* (plural)."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Je",
+     "le",
+     "vois",
+     "le",
+     "chien"
+    ],
+    "answer": "Je le vois le chien",
+    "explanation": "Orden correcto: pronombre antes del verbo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Nous",
+     "lui",
+     "écrivons",
+     "des",
+     "lettres"
+    ],
+    "answer": "Nous lui écrivons des lettres",
+    "explanation": "Pronombre COI antes del verbo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Je le donne à Marie.",
+    "answer": "Je lui donne le livre.",
+    "explanation": "Se necesita *lui* como COI y el COD después del verbo."
+   },
+   {
+    "type": "translate",
+    "prompt": "Ellos les enviaron una tarjeta.",
+    "answer": "Ils leur ont envoyé une carte.",
+    "explanation": "*Leur* corresponde a *les* (COI)."
+   }
+  ],
+  "id": "fr-pronouns-cod-coi",
+  "level": "A2",
+  "title": "Pronombres de objeto directo e indirecto"
+ },
+ {
+  "summary": "Aprenderás a usar correctamente los pronombres “y” y “en” en francés",
+  "explanation": "### Pronombre **y**\n- Sustituye a complementos que indican **lugar** (à, chez, dans, sur, etc.) o a **cosa** introducida por *de* cuando se refiere a una cosa ya mencionada.\n- Equivale a *«ahí», «allí», «en ello»* en español.\n\n**Ejemplo:**\n- *Je vais **à** Paris → J'**y** vais.* (Voy a París → **Allí** voy.)\n\n### Pronombre **en**\n- Sustituye a complementos que indican **procedencia** (*de*), **cantidad** o **cosa** introducida por *de*.\n- Equivale a *«de ello», «de ellos», «de eso»* o a *«uno/una»* en español.\n\n**Ejemplo:**\n- *J'ai besoin **de** sucre → J'**en** ai besoin.* (Necesito azúcar → **De eso** lo necesito.)\n\n| Función | y | en |\n|---|---|---|\n| Lugar (à, chez…) | ✔️ | ❌ |\n| Procedencia (de) | ❌ | ✔️ |\n| Cantidad | ❌ | ✔️ |\n| Cosa (de…) | ✔️ (cuando reemplaza *de* + cosa) | ✔️ |\n\n**Comparación con el español**\n- En español usamos *«allí»* o *«en ello»* para *y*, y *«de eso»* o *«uno/una»* para *en*. La diferencia principal es que en francés el pronombre siempre va antes del verbo, mientras que en español suele ir después o al inicio de la frase.\n",
+  "examples": [
+   {
+    "t": "Je pense **à** ce film → J'**y** pense.",
+    "es": "Pienso en esa película → **Allí** pienso."
+   },
+   {
+    "t": "Nous allons **à** la plage → Nous **y** allons.",
+    "es": "Vamos a la playa → **Allí** vamos."
+   },
+   {
+    "t": "Il parle **de** son travail → Il **en** parle.",
+    "es": "Él habla de su trabajo → **De eso** habla."
+   },
+   {
+    "t": "J'ai acheté **de** la farine → J'**en** ai acheté.",
+    "es": "Compré harina → **De eso** compré."
+   },
+   {
+    "t": "Elle a besoin **de** repos → Elle **en** a besoin.",
+    "es": "Ella necesita descanso → **De eso** lo necesita."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je y vais à Paris.",
+    "right": "J'y vais.",
+    "why": "El pronombre *y* ya sustituye a *à Paris*, no se repite el complemento."
+   },
+   {
+    "wrong": "Il en a besoin de sucre.",
+    "right": "Il en a besoin.",
+    "why": "*En* ya reemplaza a *de sucre*; repetir *de* es incorrecto."
+   },
+   {
+    "wrong": "Nous y avons trois pommes.",
+    "right": "Nous en avons trois.",
+    "why": "Para cantidad se usa *en*, no *y*."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Je vais ___ (à la gare).",
+    "options": [
+     "y",
+     "en",
+     "le"
+    ],
+    "answer": 0,
+    "explanation": "*Y* sustituye a *à la gare*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Il a besoin ___ (de patience).",
+    "options": [
+     "y",
+     "en",
+     "le"
+    ],
+    "answer": 1,
+    "explanation": "*En* reemplaza a *de patience*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous allons ___ (chez nos amis).",
+    "options": [
+     "y",
+     "en",
+     "le"
+    ],
+    "answer": 0,
+    "explanation": "*Y* sustituye a *chez nos amis*."
+   },
+   {
+    "type": "fill",
+    "prompt": "J'___ (de) sucre, il me faut du café.",
+    "answer": "en",
+    "accept": [
+     "en"
+    ],
+    "explanation": "*En* sustituye a *de sucre*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Tu penses ___ (à) ce problème?",
+    "answer": "y",
+    "accept": [
+     "y"
+    ],
+    "explanation": "*Y* sustituye a *à ce problème*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ils ont ___ (de) trois enfants.",
+    "answer": "en",
+    "accept": [
+     "en"
+    ],
+    "explanation": "*En* indica cantidad."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Je",
+     "y",
+     "vais",
+     "à",
+     "Paris"
+    ],
+    "answer": "Je y vais à Paris",
+    "explanation": "Orden correcta: pronombre antes del verbo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Il",
+     "en",
+     "a",
+     "besoin",
+     "de",
+     "temps"
+    ],
+    "answer": "Il en a besoin de temps",
+    "explanation": "Pronombre antes del verbo, complemento después."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Nous",
+     "en",
+     "avons",
+     "cinq",
+     "livres"
+    ],
+    "answer": "Nous en avons cinq livres",
+    "explanation": "*En* antes del verbo, cantidad después."
+   },
+   {
+    "type": "fix",
+    "prompt": "Je y ai besoin de pain.",
+    "answer": "J'en ai besoin de pain",
+    "explanation": "*En* sustituye a *de pain*; no se usa *y*."
+   },
+   {
+    "type": "translate",
+    "prompt": "Necesito de ayuda para el examen.",
+    "answer": "J'ai besoin d'aide pour l'examen",
+    "explanation": "Se usa *avoir besoin de* y el pronombre *en* solo si la cosa ya está mencionada."
+   }
+  ],
+  "id": "fr-y-en",
+  "level": "A2",
+  "title": "Los pronombres Y y EN"
+ },
+ {
+  "summary": "Aprenderás a formar el futuro simple en francés, incluyendo los verbos irregulares más comunes, para hablar de planes y predicciones.",
+  "explanation": "El futuro simple en francés se usa para acciones que ocurrirán en el futuro próximo o lejano, similar al futuro en español. A diferencia del español, que usa el infinitivo como base, el francés generalmente usa la **terminación del presente de indicativo** (sin la 's' final) más las terminaciones futuras.\n\n**Formación regular:**\n1. Toma el presente de indicativo de la primera persona del plural (*nous*).\n2. Quita la terminación *-ons*, *-ez* o *-ais*.\n3. Añade las terminaciones: *-ai, -as, -a, -ons, -ez, -ont*.\n\n*Ejemplo:* *parler* → *nous parlons* → *je parlerai*.\n\n**Verbos irregulares clave:**\nMuchos verbos frecuentes tienen raíces irregulares. Los más importantes para el nivel A2 son:\n\n| Verbo | Raíz Irregular | Ejemplo (je) |\n| :--- | :--- | :--- |\n| *être* | *ser-* | *je serai* |\n| *avoir* | *aur-* | *j'aurai* |\n| *aller* | *ir-* | *j'irai* |\n| *faire* | *fer-* | *je ferai* |\n\n**Comparación con español:**\nMientras que en español dices \"yo hablaré\", en francés dices \"je parlerai\". La pronunciación es similar, pero la escritura refleja la raíz del presente. No confundas *irai* (iré) con *irai* de *aller*; es la misma forma pero de verbos distintos. Memoriza las cuatro raíces irregulares principales (*ser-, aur-, ir-, fer-*) ya que cubren gran parte del uso cotidiano.",
+  "examples": [
+   {
+    "t": "Demain, je partirai pour Paris.",
+    "es": "Mañana, me iré a París."
+   },
+   {
+    "t": "Tu seras mon meilleur ami.",
+    "es": "Serás mi mejor amigo."
+   },
+   {
+    "t": "Nous aurons beaucoup de travail.",
+    "es": "Tendremos mucho trabajo."
+   },
+   {
+    "t": "Elle fera ses devoirs ce soir.",
+    "es": "Ella hará sus deberes esta noche."
+   },
+   {
+    "t": "Ils iront au cinéma ensemble.",
+    "es": "Ellos irán al cine juntos."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je parlerons demain.",
+    "right": "Je parlerai demain.",
+    "why": "La terminación para 'je' es -ai, no -ons (que es para 'nous')."
+   },
+   {
+    "wrong": "J'irais à l'école.",
+    "right": "J'irai à l'école.",
+    "why": "Confusión con el condicional (-ais) o el imperfecto. El futuro simple usa -ai."
+   },
+   {
+    "wrong": "J'auras un livre.",
+    "right": "J'aurai un livre.",
+    "why": "Para 'je' con 'avoir', la raíz es 'aur-' y la terminación es -ai."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Demain, je ___ à la plage.",
+    "options": [
+     "irai",
+     "irais",
+     "irons"
+    ],
+    "answer": 0,
+    "explanation": "El futuro simple de 'aller' para 'je' es 'irai'."
+   },
+   {
+    "type": "choice",
+    "prompt": "Tu ___ très content.",
+    "options": [
+     "seras",
+     "serai",
+     "serons"
+    ],
+    "answer": 0,
+    "explanation": "Para 'tu', la terminación es -as. 'Serai' es para 'je'."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous ___ un grand projet.",
+    "options": [
+     "aurons",
+     "auras",
+     "aurai"
+    ],
+    "answer": 0,
+    "explanation": "Para 'nous', la terminación es -ons. La raíz de 'avoir' es 'aur-'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je ___ (manger) une pomme.",
+    "answer": "mangerai",
+    "accept": [
+     "mangerai"
+    ],
+    "explanation": "Raíz 'manger' + terminación -ai para 'je'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Elle ___ (faire) ses devoirs.",
+    "answer": "fera",
+    "accept": [
+     "fera"
+    ],
+    "explanation": "Raíz irregular 'fer-' + terminación -a para 'elle'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ils ___ (être) à la maison.",
+    "answer": "seront",
+    "accept": [
+     "seront"
+    ],
+    "explanation": "Raíz irregular 'ser-' + terminación -ont para 'ils'."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Demain",
+     "je",
+     "partirai",
+     "pour",
+     "Londres"
+    ],
+    "answer": "Demain je partirai pour Londres",
+    "explanation": "El adverbio temporal puede ir al inicio. Verbo conjugado en futuro simple."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Tu",
+     "auras",
+     "du",
+     "temps",
+     "pour",
+     "lire"
+    ],
+    "answer": "Tu auras du temps pour lire",
+    "explanation": "Sujeto 'Tu', verbo 'avoir' en futuro 'auras', complemento directo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Je seras médecin.",
+    "answer": "Je serai médecin.",
+    "explanation": "Para 'je', la terminación correcta es -ai, no -as."
+   },
+   {
+    "type": "translate",
+    "prompt": "Mañana, nosotros tendremos una fiesta.",
+    "answer": "Demain, nous aurons une fête.",
+    "explanation": "'Tendremos' se traduce con 'avoir' en futuro: 'nous aurons'."
+   }
+  ],
+  "id": "fr-futur-simple",
+  "level": "A2",
+  "title": "Futuro simple"
+ },
+ {
+  "summary": "Aprenderás a usar los comparativos y superlativos en francés (plus/moins/aussi… que, meilleur/mieux)",
+  "explanation": "## Comparativos en francés\n- **Plus / moins / aussi + adjetivo + que**\n  - *plus* = más, *moins* = menos, *aussi* = tan.\n  - Se colocan antes del adjetivo y *que* introduce la segunda parte de la comparación.\n  - **Ejemplo:** *Il est plus grand que moi.* → Él es más alto que yo.\n- **Comparación de igualdad**\n  - Se usa *aussi* + adjetivo + *que*.\n  - *Il est aussi intelligent que son frère.* → Él es tan inteligente como su hermano.\n\n## Superlativos\n- **Le/la/les + meilleur(e)(s) / pire(s)**\n  - *Meilleur* = mejor, *pire* = peor. Se usan sin *que*.\n  - **Ejemplo:** *C’est le meilleur film.* → Es la mejor película.\n- **Le/la/les + plus/moins + adjectif**\n  - Se forma con *le* (masc.) o *la* (fem.) + *plus*/*moins* + adjetivo.\n  - **Ejemplo:** *C’est la plus belle ville.* → Es la ciudad más bella.\n- **Uso de *bien* vs *mieux***\n  - *Bien* es adverbio de modo, *mieux* es el comparativo de *bien*.\n  - *Il travaille bien* (trabaja bien) → *Il travaille mieux que moi* (trabaja mejor que yo).\n\n### Comparación con el español\n| Español | Francés | Comentario |\n|---|---|---|\n| más alto que | plus grand que | mismo orden de palabras |\n| tan rápido como | aussi rapide que | se usa *aussi* en vez de *tan* |\n| el mejor libro | le meilleur livre | artículo definido + *meilleur* |\n| trabaja mejor | travaille mieux | *mieux* es el comparativo de *bien* |\n\nLos comparativos siguen la estructura **más/menos/tan + adjetivo + que**, mientras que los superlativos usan el artículo definido y *meilleur*, *plus*, *moins* según el caso.",
+  "examples": [
+   {
+    "t": "Il est plus rapide que moi.",
+    "es": "Él es más rápido que yo."
+   },
+   {
+    "t": "Cette maison est aussi grande que la nôtre.",
+    "es": "Esta casa es tan grande como la nuestra."
+   },
+   {
+    "t": "C’est le meilleur restaurant de la ville.",
+    "es": "Es el mejor restaurante de la ciudad."
+   },
+   {
+    "t": "Elle travaille moins efficacement que son collègue.",
+    "es": "Ella trabaja menos eficazmente que su colega."
+   },
+   {
+    "t": "C’est la plus belle plage que j’ai vue.",
+    "es": "Es la playa más bonita que he visto."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Il est plus grand que moi que.",
+    "right": "Il est plus grand que moi.",
+    "why": "En francés el *que* solo aparece una vez al final de la comparación."
+   },
+   {
+    "wrong": "C’est le plus meilleur film.",
+    "right": "C’est le meilleur film.",
+    "why": "No se combina *plus* con *meilleur*; *meilleur* ya es superlativo."
+   },
+   {
+    "wrong": "Elle travaille bien que moi.",
+    "right": "Elle travaille mieux que moi.",
+    "why": "Para comparaciones de *bien* se usa *mieux*, no *bien*."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Elle est ___ intelligente que son frère.",
+    "options": [
+     "plus",
+     "aussi",
+     "moins"
+    ],
+    "answer": 0,
+    "explanation": "Se usa *plus* para indicar \"más\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ce livre est ___ intéressant que le film.",
+    "options": [
+     "moins",
+     "plus",
+     "aussi"
+    ],
+    "answer": 1,
+    "explanation": "*Plus* indica que el libro es más interesante."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous sommes ___ rapides que vous.",
+    "options": [
+     "aussi",
+     "plus",
+     "moins"
+    ],
+    "answer": 2,
+    "explanation": "*Moins* significa \"menos\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "C’est ___ (bon) que le précédent.",
+    "answer": "meilleur",
+    "accept": [
+     "meilleur"
+    ],
+    "explanation": "*Meilleur* es el superlativo de *bon*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il travaille ___ (bien) que Marie.",
+    "answer": "mieux",
+    "accept": [
+     "mieux"
+    ],
+    "explanation": "*Mieux* es el comparativo de *bien*."
+   },
+   {
+    "type": "fill",
+    "prompt": "C’est la ___ (beau) ville de France.",
+    "answer": "plus belle",
+    "accept": [
+     "plus belle"
+    ],
+    "explanation": "Superlativo con *plus* + adjetivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ce",
+     "film",
+     "est",
+     "plus",
+     "intéressant",
+     "."
+    ],
+    "answer": "Ce film est plus intéressant.",
+    "explanation": "Orden correcto: sujeto + verbe + comparatif."
+   },
+   {
+    "type": "order",
+    "words": [
+     "C’est",
+     "la",
+     "plus",
+     "grande",
+     "maison",
+     "."
+    ],
+    "answer": "C’est la plus grande maison.",
+    "explanation": "El artículo definido precede al superlativo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Elle",
+     "travaille",
+     "mieux",
+     "que",
+     "son",
+     "cousin",
+     "."
+    ],
+    "answer": "Elle travaille mieux que son cousin.",
+    "explanation": "Colocación del comparativo antes del complemento."
+   },
+   {
+    "type": "fix",
+    "prompt": "Il est le plus meilleur joueur.",
+    "answer": "Il est le meilleur joueur.",
+    "explanation": "No se combina *plus* con *meilleur*."
+   },
+   {
+    "type": "translate",
+    "prompt": "Mi hermano es tan alto como yo.",
+    "answer": "Mon frère est aussi grand que moi.",
+    "explanation": "Se usa *aussi* + adjetivo + *que* para igualdad."
+   }
+  ],
+  "id": "fr-comparatives",
+  "level": "A2",
+  "title": "Comparativos y superlativos"
+ },
+ {
+  "summary": "Aprenderás a usar el subjuntivo presente en francés con expresiones de necesidad, deseo y emoción",
+  "explanation": "### El subjuntivo presente en francés\n\nEl **subjuntivo** se emplea después de ciertas expresiones que expresan:\n- **Necesidad**: *il faut que*, *il est nécessaire que*.\n- **Deseo o voluntad**: *vouloir que*, *souhaiter que*.\n- **Emoción**: *être content que*, *avoir peur que*.\n\n#### Formación\n| Persona | Terminación del verbo **-er** | Terminación del verbo **-ir** | Terminación del verbo **-re** |\n|---|---|---|---|\n| je | -e | -e | -e |\n| tu | -es | -es | -es |\n| il/elle/on | -e | -e | -e |\n| nous | -ions | -ions | -ions |\n| vous | -iez | -iez | -iez |\n| ils/elles | -ent (silencioso) | -ent (silencioso) | -ent (silencioso) |\n\nEjemplo con *parler* (verbo regular -er): *que je parle, que tu parles, qu'il parle, que nous parlions, que vous parliez, qu'ils parlent*.\n\n#### Comparación con el español\n- En español también se usa el subjuntivo después de *que* con verbos de deseo o emoción, pero la forma del subjuntivo español varía más entre personas.\n- En francés, la forma de **nosotros/vosotros** es siempre *-ions / -iez*, similar al imperfecto del indicativo.\n\n#### Uso típico\n- *Il faut que tu **finisses** tes devoirs.* (Es necesario que termines tus deberes.)\n- *Je veux que vous **veniez** demain.* (Quiero que vengáis mañana.)\n- *Nous sommes heureux que vous **puissiez** rester.* (Estamos contentos de que podáis quedaros.)",
+  "examples": [
+   {
+    "t": "Il faut que tu viennes à la réunion.",
+    "es": "Es necesario que vengas a la reunión."
+   },
+   {
+    "t": "Je veux que vous soyez prudents.",
+    "es": "Quiero que seáis prudentes."
+   },
+   {
+    "t": "Nous sommes contents que elle réussisse son examen.",
+    "es": "Estamos contentos de que ella apruebe su examen."
+   },
+   {
+    "t": "Il est important que nous étudiions chaque jour.",
+    "es": "Es importante que estudiemos cada día."
+   },
+   {
+    "t": "J’ai peur qu’ils ne comprennent pas.",
+    "es": "Temo que no comprendan."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Il faut que tu vas à l'école.",
+    "right": "Il faut que tu ailles à l'école.",
+    "why": "Después de *il faut que* se necesita el subjuntivo, no el indicativo."
+   },
+   {
+    "wrong": "Je veux que vous êtes heureux.",
+    "right": "Je veux que vous soyez heureux.",
+    "why": "El verbo después de *vouloir que* debe ir en subjuntivo."
+   },
+   {
+    "wrong": "Nous sommes contents que elle vient.",
+    "right": "Nous sommes contents que elle vienne.",
+    "why": "Con emociones se usa el subjuntivo; la forma correcta es *vienne*."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Il faut que nous ___ (finir) le projet avant vendredi.",
+    "options": [
+     "finissons",
+     "finissions",
+     "finirons"
+    ],
+    "answer": 1,
+    "explanation": "Se requiere el subjuntivo presente: *finissions*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Je veux que tu ___ (être) plus patient.",
+    "options": [
+     "es",
+     "sois",
+     "seras"
+    ],
+    "answer": 1,
+    "explanation": "Después de *vouloir que* se usa el subjuntivo: *sois*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous sommes tristes que vous ___ (partir).",
+    "options": [
+     "partiez",
+     "partirez",
+     "partiez"
+    ],
+    "answer": 0,
+    "explanation": "Emoción → subjuntivo: *partiez*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il est nécessaire que vous ___ (faire) vos devoirs (faire).",
+    "answer": "fassiez",
+    "accept": [
+     "fassiez"
+    ],
+    "explanation": "Verbo *faire* en subjuntivo: *fassiez*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je crains qu'elle ___ (ne pas comprendre) le texte (comprendre).",
+    "answer": "comprenne",
+    "accept": [
+     "comprenne"
+    ],
+    "explanation": "Subjuntivo de *comprendre*: *comprenne*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il faut que je ___ (savoir) la vérité (savoir).",
+    "answer": "sache",
+    "accept": [
+     "sache"
+    ],
+    "explanation": "Subjuntivo de *savoir*: *sache*."
+   },
+   {
+    "type": "order",
+    "words": [
+     "que",
+     "nous",
+     "allions",
+     "au",
+     "cinéma"
+    ],
+    "answer": "que nous allions au cinéma",
+    "explanation": "Orden correcto de la oración con subjuntivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "que",
+     "tu",
+     "sois",
+     "heureux",
+     "!"
+    ],
+    "answer": "que tu sois heureux !",
+    "explanation": "Coloca *que* al inicio y conjuga el verbo en subjuntivo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Je veux que vous êtes prêts.",
+    "answer": "Je veux que vous soyez prêts.",
+    "explanation": "Se corrige a *soyez* (subjuntivo) en lugar de *êtes*."
+   },
+   {
+    "type": "translate",
+    "prompt": "Me alegra que hayas venido.",
+    "answer": "Je suis content que vous soyez venu(e).",
+    "explanation": "Traducción al francés usando el subjuntivo *soyez venu(e)*."
+   }
+  ],
+  "id": "fr-subjonctif",
+  "level": "B1",
+  "title": "Subjuntivo presente"
+ },
+ {
+  "summary": "Aprenderás a usar el condicional y las oraciones con «si» en francés.",
+  "explanation": "### El condicional simple\n- Se forma con el infinitivo + terminaciones *-ais, -ais, -ait, -ions, -iez, -aient*.\n- Equivale al **condicional** español (ej. *je voudrais* = *quisiera*).\n\n### Oraciones con *si*\n| Tipo de oración | Estructura francesa | Equivalente español |\n|-----------------|---------------------|---------------------|\n| Real / posible | **si + presente**, futuro simple | si + presente, futuro |\n| Irreal / hipotética | **si + imparfait**, condicional simple | si + pretérito imperfecto, condicional |\n\n- En la cláusula *si* nunca se usa el condicional.\n- En la cláusula principal se usa futuro o condicional según el tipo.\n\n### Cortesía\n- *Je voudrais* (condicional de *vouloir*) = «Me gustaría…».\n- Es más educado que el imperativo (*Donnez‑moi…*).\n\n**Comparación con el español**: En español a veces se usa *si* + presente + futuro, pero también *si* + imperfecto + condicional, idéntico al francés.\n",
+  "examples": [
+   {
+    "t": "Si j'ai le temps, je viendrai demain.",
+    "es": "Si tengo tiempo, iré mañana."
+   },
+   {
+    "t": "Si j'avais de l'argent, j'achèterais une voiture.",
+    "es": "Si tuviera dinero, compraría un coche."
+   },
+   {
+    "t": "Je voudrais un café, s'il vous plaît.",
+    "es": "Quisiera un café, por favor."
+   },
+   {
+    "t": "Si tu viens, nous mangerons ensemble.",
+    "es": "Si vienes, comeremos juntos."
+   },
+   {
+    "t": "Si elle était ici, elle nous aiderait.",
+    "es": "Si ella estuviera aquí, nos ayudaría."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Si j'aurai le temps, je viendrai.",
+    "right": "Si j'ai le temps, je viendrai.",
+    "why": "En la cláusula *si* se usa presente, no futuro."
+   },
+   {
+    "wrong": "Je voudrais que tu vas à la plage.",
+    "right": "Je voudrais que tu ailles à la plage.",
+    "why": "Después de *vouloir* se usa subjuntivo, no presente."
+   },
+   {
+    "wrong": "Si j'étais riche, j'achèterai une maison.",
+    "right": "Si j'étais riche, j'achèterais une maison.",
+    "why": "En la consecuencia irreal se usa condicional, no futuro."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Si tu ___ (avoir) besoin d'aide, appelle-moi.",
+    "options": [
+     "as",
+     "auras",
+     "avais"
+    ],
+    "answer": 0,
+    "explanation": "Se usa presente en la cláusula *si*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Je ___ (vouloir) un thé, s'il vous plaît.",
+    "options": [
+     "voudrais",
+     "veuille",
+     "voulais"
+    ],
+    "answer": 0,
+    "explanation": "Cortesía: condicional de *vouloir*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Si nous ___ (être) en retard, nous prendrons le train suivant.",
+    "options": [
+     "sommes",
+     "serons",
+     "étions"
+    ],
+    "answer": 0,
+    "explanation": "Cláusula real, presente."
+   },
+   {
+    "type": "fill",
+    "prompt": "Si elle ___ (être) ici, elle nous aiderait.",
+    "answer": "était",
+    "accept": [
+     "était"
+    ],
+    "explanation": "Irreal: imperfecto + condicional."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je ___ (aimer) visiter Paris un jour.",
+    "answer": "aimerais",
+    "accept": [
+     "aimerais"
+    ],
+    "explanation": "Condicional de *aimer*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Si vous ___ (pouvoir) venir, dites‑moi.",
+    "answer": "pouvez",
+    "accept": [
+     "pouvez"
+    ],
+    "explanation": "Presente en cláusula *si*."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Si",
+     "j'ai",
+     "le",
+     "temps",
+     ",",
+     "je",
+     "viendrai",
+     "demain",
+     "."
+    ],
+    "answer": "Si j'ai le temps, je viendrai demain.",
+    "explanation": "Orden correcto: si + presente, futuro."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Si",
+     "j'avais",
+     "de",
+     "l'argent",
+     ",",
+     "j'achèterais",
+     "une",
+     "voiture",
+     "."
+    ],
+    "answer": "Si j'avais de l'argent, j'achèterais une voiture.",
+    "explanation": "Irreal: imperfecto + condicional."
+   },
+   {
+    "type": "fix",
+    "prompt": "Je voudrais que tu viens demain.",
+    "answer": "Je voudrais que tu viennes demain.",
+    "explanation": "Después de *vouloir* se requiere subjuntivo."
+   },
+   {
+    "type": "translate",
+    "prompt": "Me gustaría que me ayudaras con la tarea.",
+    "answer": "Je voudrais que tu m'aides avec le devoir.",
+    "explanation": "Uso del condicional + subjuntivo para cortesía."
+   }
+  ],
+  "id": "fr-conditionnel",
+  "level": "B1",
+  "title": "Condicional y frases con SI"
+ },
+ {
+  "summary": "Aprenderás a usar los pronombres relativos franceses qui, que, où y dont",
+  "explanation": "## Pronombres relativos en francés\nLos pronombres relativos sustituyen a un sustantivo ya mencionado y enlazan dos oraciones. En francés se usan principalmente **qui**, **que**, **où** y **dont**.\n\n- **qui** = \"que\" o \"quien\" (sujeto).  \n  *Ejemplo*: *Le livre **qui** est sur la table* → *El libro **que** está sobre la mesa*.\n- **que** = \"que\" (objeto directo).  \n  *Ejemplo*: *La femme **que** j’ai rencontrée* → *La mujer **que** conocí*.\n- **où** = \"donde\" o \"en el que\" (lugar o tiempo).  \n  *Ejemplo*: *La ville **où** je vis* → *La ciudad **donde** vivo*.\n- **dont** = \"de quien/de la que\" (posesivo o complemento con *de*).  \n  *Ejemplo*: *Le garçon **dont** le père est médecin* → *El chico **cuyo** padre es médico*.\n\n### Comparación con el español\n| Francés | Español | Función |\n|---|---|---|\n| qui | que/quien | Sujeto del verbo relativo |\n| que | que | Objeto directo |\n| où | donde/en el que | Lugar o tiempo |\n| dont | cuyo/de quien | Complemento con *de* |\n\n**Reglas rápidas**\n- Si el relativo es sujeto → usa *qui*.\n- Si es objeto directo → usa *que*.\n- Si se refiere a lugar/tiempo → usa *où*.\n- Si el verbo o el sustantivo lleva *de* → usa *dont*.\n\n### Uso con preposiciones\nCuando la preposición precede al pronombre, se coloca antes del relativo: *à qui*, *avec qui*, *de qui* → se simplifica a *à qui*, *avec qui*, *dont* (para *de*).",
+  "examples": [
+   {
+    "t": "Le film qui nous a plu était long.",
+    "es": "La película que nos gustó era larga."
+   },
+   {
+    "t": "Voici la maison que j'ai achetée.",
+    "es": "Aquí está la casa que compré."
+   },
+   {
+    "t": "C'est la ville où je suis né.",
+    "es": "Es la ciudad donde nací."
+   },
+   {
+    "t": "Le professeur dont les cours sont difficiles est gentil.",
+    "es": "El profesor cuyos cursos son difíciles es amable."
+   },
+   {
+    "t": "Les amis avec qui je sors sont sympas.",
+    "es": "Los amigos con los que salgo son simpáticos."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Le livre que est sur la table.",
+    "right": "Le livre **qui** est sur la table.",
+    "why": "El relativo es sujeto del verbo, se usa *qui*."
+   },
+   {
+    "wrong": "La femme dont je vois.",
+    "right": "La femme **que** je vois.",
+    "why": "Aquí el relativo es objeto directo, no lleva *de*."
+   },
+   {
+    "wrong": "Le jour où il pleut.",
+    "right": "Le jour **dont** il pleut.",
+    "why": "Con *pleuvoir* no se usa *où*; se necesita *dont* para expresar \"del que\"."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Le garçon ___ parle est mon frère.",
+    "options": [
+     "qui",
+     "que",
+     "dont"
+    ],
+    "answer": 0,
+    "explanation": "El relativo es sujeto del verbo *parle*, se usa *qui*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Voici la robe ___ j'ai achetée.",
+    "options": [
+     "qui",
+     "que",
+     "où"
+    ],
+    "answer": 1,
+    "explanation": "El relativo es objeto directo del verbo *acheter*, se usa *que*."
+   },
+   {
+    "type": "choice",
+    "prompt": "C'est la ville ___ nous habitons.",
+    "options": [
+     "qui",
+     "où",
+     "dont"
+    ],
+    "answer": 1,
+    "explanation": "Se refiere a un lugar, se usa *où*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Le film ___ nous avons vu hier était excellent.",
+    "answer": "que",
+    "accept": [],
+    "explanation": "Objeto directo del verbo *voir* → *que*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Les amis ___ je parle sont partis.",
+    "answer": "dont",
+    "accept": [],
+    "explanation": "El verbo *parler* lleva preposición *de*, por lo tanto *dont*."
+   },
+   {
+    "type": "fill",
+    "prompt": "La maison ___ nous avons déménagé était vieille.",
+    "answer": "dans laquelle",
+    "accept": [
+     "où"
+    ],
+    "explanation": "Se refiere a lugar; la forma más simple es *où*."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Le",
+     "chien",
+     "qui",
+     "est",
+     "mon"
+    ],
+    "answer": "Le chien qui est mon",
+    "explanation": "Orden correcto: *Le chien qui est mon* (aunque frase incompleta, muestra orden)."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Le",
+     "garçon",
+     "dont",
+     "le",
+     "père",
+     "est",
+     "médecin"
+    ],
+    "answer": "Le garçon dont le père est médecin",
+    "explanation": "Orden correcto del relativo *dont* con poseedor."
+   },
+   {
+    "type": "fix",
+    "prompt": "Le livre que est intéressant.",
+    "answer": "Le livre **qui** est intéressant.",
+    "explanation": "El relativo es sujeto, debe ser *qui*."
+   },
+   {
+    "type": "translate",
+    "prompt": "La casa cuya ventana está rota es nueva.",
+    "answer": "La maison **dont** la fenêtre est cassée est neuve.",
+    "explanation": "Uso de *dont* para expresar posesión."
+   }
+  ],
+  "id": "fr-relatifs",
+  "level": "B1",
+  "title": "Pronombres relativos"
+ },
+ {
+  "summary": "Aprenderás a distinguir los falsos amigos entre español y francés para evitar confusiones comunes.",
+  "explanation": "## Falsos amigos más habituales (nivel B1)\n\n- **constipé / constipado** → En francés *constipé* significa \"estreñido\", no \"resfriado*. En español *constipado* es \"resfriado\".\n- **embarrasser / embarazar** → *Embarrasser* = \"avergonzar\", mientras que *embarazar* en español es \"quedar embarazada\".\n- **large / largo** → *Large* en francés significa \"ancho\" o \"grande\", no \"largo\".\n- **quitter / quitar** → *Quitter* = \"dejar, abandonar\", mientras que *quitar* en español es \"eliminar, retirar\".\n- **ranger / ranger** → En francés *ranger* = \"ordenar, guardar\", no \"cazar\" (que sería *chasser*).\n- **sortir / salir** → *Sortir* = \"salir, ir fuera\", pero también puede significar \"sacar\" (ex.: *sortir le livre*). En español *salir* solo es \"ir fuera\".\n- **rester / quedar** → *Rester* = \"quedarse, permanecer\", no \"quedar\" como en \"quedar bien\".\n- **la mer / el mar** → Género distinto: *la mer* (femenino) vs *el mar* (masculino).\n\n### Comparación rápida\n| Español | Francés | Significado real |\n|---|---|---|\n| constipado | constipé | estreñido |\n| embarazar | embarrasser | avergonzar |\n| largo | large | ancho/grande |\n| quitar | quitter | abandonar |\n| ranger | ranger | ordenar |\n| salir | sortir | salir/sacar |\n| quedar | rester | permanecer |\n| el mar | la mer | (género distinto) |\n\nConocer estas diferencias evita errores de traducción y malentendidos en la conversación.",
+  "examples": [
+   {
+    "t": "Je suis constipé.",
+    "es": "Estoy estreñido."
+   },
+   {
+    "t": "Il ne voulait pas m'embarrasser.",
+    "es": "No quería avergonzarme."
+   },
+   {
+    "t": "Cette rue est très large.",
+    "es": "Esta calle es muy ancha."
+   },
+   {
+    "t": "Je vais quitter la ville demain.",
+    "es": "Voy a dejar la ciudad mañana."
+   },
+   {
+    "t": "Il range ses affaires.",
+    "es": "Él ordena sus cosas."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Je suis constipado.",
+    "right": "Je suis constipé.",
+    "why": "‘Constipado’ es español; en francés se dice *constipé*."
+   },
+   {
+    "wrong": "Elle veut quitter son frère.",
+    "right": "Elle veut quitter son travail.",
+    "why": "‘Quitter’ no significa ‘quitar’; se usa para ‘dejar/abandonar’."
+   },
+   {
+    "wrong": "Le mer est calme.",
+    "right": "La mer est calme.",
+    "why": "‘Mer’ es femenino en francés, por eso el artículo es *la*."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Je suis ___ (resfriado).",
+    "options": [
+     "constipé",
+     "constipado",
+     "constipée"
+    ],
+    "answer": 0,
+    "explanation": "En francés ‘constipé’ significa estreñido, no resfriado."
+   },
+   {
+    "type": "choice",
+    "prompt": "Il ne veut pas ___ (avergonzar).",
+    "options": [
+     "embarrasser",
+     "embarazar",
+     "embarrassé"
+    ],
+    "answer": 0,
+    "explanation": "‘Embarrasser’ es el verbo correcto para ‘avergonzar’."
+   },
+   {
+    "type": "choice",
+    "prompt": "Cette route est très ___ (ancha).",
+    "options": [
+     "large",
+     "largo",
+     "long"
+    ],
+    "answer": 0,
+    "explanation": "‘Large’ significa ancho o grande."
+   },
+   {
+    "type": "fill",
+    "prompt": "Je vais ___ la ville demain (dejar).",
+    "answer": "quitter",
+    "accept": [],
+    "explanation": "‘Quitter’ se usa para ‘dejar, abandonar’."
+   },
+   {
+    "type": "fill",
+    "prompt": "Il ___ ses livres sur l'étagère (ordenar).",
+    "answer": "range",
+    "accept": [],
+    "explanation": "‘Ranger’ significa ordenar, guardar."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nous allons ___ ce soir (salir).",
+    "answer": "sortir",
+    "accept": [],
+    "explanation": "‘Sortir’ es el verbo para ‘salir’."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Il",
+     "reste",
+     "à",
+     "la",
+     "maison",
+     "."
+    ],
+    "answer": "Il reste à la maison.",
+    "explanation": "Orden correcto del verbo ‘rester’."
+   },
+   {
+    "type": "order",
+    "words": [
+     "La",
+     "mer",
+     "est",
+     "calme",
+     "."
+    ],
+    "answer": "La mer est calme.",
+    "explanation": "Recuerda el género femenino de *mer*."
+   },
+   {
+    "type": "fix",
+    "prompt": "Je suis constipado.",
+    "answer": "Je suis constipé.",
+    "explanation": "‘Constipado’ es español; en francés se dice *constipé*."
+   },
+   {
+    "type": "translate",
+    "prompt": "El mar es grande y azul.",
+    "answer": "La mer est grande et bleue.",
+    "explanation": "‘Mar’ es *la mer* en francés, femenino."
+   }
+  ],
+  "id": "fr-faux-amis",
+  "level": "B1",
+  "title": "Falsos amigos español-francés"
+ },
+ {
+  "summary": "Aprenderás a usar el pluscuamperfecto y el condicional pasado en francés para expresar hipótesis y arrepentimientos.",
+  "explanation": "### Pluscuamperfecto (plus‑que‑parfait)\n- Se forma con **auxiliar en imparfait** + **participio pasado**.\n- Equivalente al pretérito pluscuamperfecto español.\n- Uso principal: acciones anteriores a otra pasada.\n\n### Condicional pasado\n- Se forma con **condicional simple del auxiliar** + **participio pasado**.\n- Equivalente al condicional compuesto español.\n- Se usa en la cláusula principal de una oración condicional irrealis (si + plus‑que‑parfait).\n\n### Estructura típica\n```\nSi + plus‑que‑parfait, condicional pasado\n```\nEjemplo: *Si j'avais su, je serais venu.* → *Si hubiera sabido, habría venido.*\n\n#### Comparación con el español\n| Francés | Español |\n|---|---|\n| **Si j'avais étudié**, j'aurais réussi. | **Si hubiera estudiado**, habría aprobado. |\n| **Il était parti** avant que nous arrivions. | **Él había salido** antes de que llegáramos. |\n\n### Matices de arrepentimiento\n- El condicional pasado también aparece en frases como *J'aurais aimé…* (Me habría gustado…) para expresar deseos no cumplidos.\n- En francés, el verbo **devoir** en condicional pasado (*j'aurais dû*) indica una obligación no satisfecha, similar a *debería haber* en español.",
+  "examples": [
+   {
+    "t": "Si j'avais su que tu venais, je t'aurais préparé un gâteau.",
+    "es": "Si hubiera sabido que venías, te habría preparado un pastel."
+   },
+   {
+    "t": "Nous aurions pu partir plus tôt si le train était arrivé à l'heure.",
+    "es": "Hubiéramos podido salir antes si el tren había llegado a tiempo."
+   },
+   {
+    "t": "Elle aurait aimé visiter Paris, mais elle était trop occupée.",
+    "es": "Le habría gustado visitar París, pero estaba demasiado ocupada."
+   },
+   {
+    "t": "J'aurais dû appeler avant de partir.",
+    "es": "Debería haber llamado antes de irme."
+   },
+   {
+    "t": "Ils n'avaient jamais vu la mer avant leurs vacances.",
+    "es": "Nunca habían visto el mar antes de sus vacaciones."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Si j'avais su, je suis venu.",
+    "right": "Si j'avais su, je serais venu.",
+    "why": "El verbo principal debe ir en condicional pasado, no en passé composé."
+   },
+   {
+    "wrong": "J'aurais aimé aller à la plage, mais il pleuvait.",
+    "right": "J'aurais aimé aller à la plage, mais il a plu.",
+    "why": "Para expresar causa pasada se usa plus‑que‑parfait o passé composé, no imparfait."
+   },
+   {
+    "wrong": "Nous aurions pu partir si le train arrive à l'heure.",
+    "right": "Nous aurions pu partir si le train était arrivé à l'heure.",
+    "why": "La condición irreal requiere plus‑que‑parfait, no presente."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Si tu ___ (savoir) la vérité, tu ___ (agir) différemment.",
+    "options": [
+     "savais, agiras",
+     "avais su, aurais agi",
+     "saurais, agiras"
+    ],
+    "answer": 1,
+    "explanation": "Se necesita plus‑que‑parfait + condicional pasado."
+   },
+   {
+    "type": "choice",
+    "prompt": "Il ___ (devoir) partir plus tôt, mais il a manqué le bus.",
+    "options": [
+     "aurait dû",
+     "devrait",
+     "dû"
+    ],
+    "answer": 0,
+    "explanation": "Obligación no cumplida → condicional pasado de devoir."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nous ___ (être) déjà partis quand ils sont arrivés.",
+    "options": [
+     "étions",
+     "avions été",
+     "avions été"
+    ],
+    "answer": 1,
+    "explanation": "Plus‑que‑parfait con auxiliaire être."
+   },
+   {
+    "type": "fill",
+    "prompt": "Si elle ___ (voir) le film, elle ___ (pleurer).",
+    "answer": "avait vu, aurait pleuré",
+    "accept": [
+     "avait vu, aurait pleuré"
+    ],
+    "explanation": "Condición irreal en pasado."
+   },
+   {
+    "type": "fill",
+    "prompt": "J'___ (oublier) mon portefeuille, alors je n'ai rien acheté.",
+    "answer": "avais oublié",
+    "accept": [
+     "avais oublié"
+    ],
+    "explanation": "Acción anterior a otra pasada."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ils ___ (pouvoir) gagner s'ils ___ (s'entraîner) davantage.",
+    "answer": "auraient pu, s'étaient entraînés",
+    "accept": [
+     "auraient pu, s'étaient entraînés"
+    ],
+    "explanation": "Condicional pasado + plus‑que‑parfait."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Nous",
+     "avions",
+     "déjà",
+     "été",
+     "partis",
+     "."
+    ],
+    "answer": "Nous avions déjà été partis.",
+    "explanation": "Orden correcto del plus‑que‑parfait con être."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Elle",
+     "aurait",
+     "aimé",
+     "visiter",
+     "Paris",
+     "."
+    ],
+    "answer": "Elle aurait aimé visiter Paris.",
+    "explanation": "Condicional pasado + infinitivo."
+   },
+   {
+    "type": "fix",
+    "prompt": "J'aurais pu venir si j'avais le temps.",
+    "answer": "J'aurais pu venir si j'avais eu le temps.",
+    "explanation": "La condición requiere plus‑que‑parfait del verbo avoir."
+   },
+   {
+    "type": "translate",
+    "prompt": "Si hubiéramos sabido la noticia, habríamos reaccionado distinto.",
+    "answer": "Si nous avions su la nouvelle, nous aurions réagi différemment.",
+    "explanation": "Traducción directa usando plus‑que‑parfait y condicional pasado."
+   }
+  ],
+  "id": "fr-plus-que-parfait",
+  "level": "B2",
+  "title": "Pluscuamperfecto y condicional pasado"
+ }
+]

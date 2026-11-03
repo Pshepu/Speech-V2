@@ -1,0 +1,20 @@
+# Secretos
+.env
+
+# Progreso personal y cachés (se crean al usar la app)
+data/
+
+# Modelos descargados
+models/
+
+# Entornos y compilados
+backend/.venv/
+__pycache__/
+*.pyc
+frontend/node_modules/
+frontend/dist/
+
+# Avance intermedio del generador de contenido
+content/_build/
+
+.claude/

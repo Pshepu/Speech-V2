@@ -1,0 +1,358 @@
+[
+ {
+  "id": "y-u",
+  "a": "y",
+  "b": "u",
+  "name": "U francesa vs OU",
+  "pairs": [
+   [
+    "tu",
+    "tout"
+   ],
+   [
+    "vu",
+    "vous"
+   ],
+   [
+    "rue",
+    "roue"
+   ],
+   [
+    "dessus",
+    "dessous"
+   ],
+   [
+    "lu",
+    "loup"
+   ],
+   [
+    "pur",
+    "pour"
+   ],
+   [
+    "bu",
+    "bout"
+   ],
+   [
+    "su",
+    "sous"
+   ],
+   [
+    "russe",
+    "rousse"
+   ],
+   [
+    "jus",
+    "joue"
+   ]
+  ]
+ },
+ {
+  "id": "an-on",
+  "a": "ɑ̃",
+  "b": "ɔ̃",
+  "name": "Nasal AN vs ON",
+  "pairs": [
+   [
+    "temps",
+    "ton"
+   ],
+   [
+    "sans",
+    "son"
+   ],
+   [
+    "lent",
+    "long"
+   ],
+   [
+    "banc",
+    "bon"
+   ],
+   [
+    "vent",
+    "vont"
+   ],
+   [
+    "pend",
+    "pont"
+   ],
+   [
+    "blanc",
+    "blond"
+   ],
+   [
+    "dans",
+    "dont"
+   ],
+   [
+    "rang",
+    "rond"
+   ],
+   [
+    "menton",
+    "manteau"
+   ]
+  ]
+ },
+ {
+  "id": "in-an",
+  "a": "ɛ̃",
+  "b": "ɑ̃",
+  "name": "Nasal IN vs AN",
+  "pairs": [
+   [
+    "vin",
+    "vent"
+   ],
+   [
+    "pain",
+    "pan"
+   ],
+   [
+    "main",
+    "ment"
+   ],
+   [
+    "fin",
+    "faon"
+   ],
+   [
+    "teint",
+    "temps"
+   ],
+   [
+    "saint",
+    "sans"
+   ],
+   [
+    "brin",
+    "bran"
+   ],
+   [
+    "lin",
+    "lent"
+   ],
+   [
+    "sein",
+    "sang"
+   ]
+  ]
+ },
+ {
+  "id": "e-eu",
+  "a": "e",
+  "b": "ø",
+  "name": "É vs EU",
+  "pairs": [
+   [
+    "fée",
+    "feu"
+   ],
+   [
+    "des",
+    "deux"
+   ],
+   [
+    "pré",
+    "preux"
+   ],
+   [
+    "clé",
+    "queue"
+   ],
+   [
+    "nez",
+    "noeud"
+   ],
+   [
+    "ces",
+    "ceux"
+   ],
+   [
+    "mes",
+    "meut"
+   ]
+  ]
+ },
+ {
+  "id": "s-z",
+  "a": "s",
+  "b": "z",
+  "name": "S vs Z",
+  "pairs": [
+   [
+    "poisson",
+    "poison"
+   ],
+   [
+    "dessert",
+    "désert"
+   ],
+   [
+    "base",
+    "basse"
+   ],
+   [
+    "cousin",
+    "coussin"
+   ],
+   [
+    "ils sont",
+    "ils ont"
+   ],
+   [
+    "douce",
+    "douze"
+   ],
+   [
+    "russe",
+    "ruse"
+   ],
+   [
+    "casser",
+    "caser"
+   ],
+   [
+    "baisser",
+    "baiser"
+   ],
+   [
+    "assis",
+    "Asie"
+   ]
+  ]
+ },
+ {
+  "id": "v-b",
+  "a": "v",
+  "b": "b",
+  "name": "V vs B",
+  "pairs": [
+   [
+    "vin",
+    "bain"
+   ],
+   [
+    "vous",
+    "bout"
+   ],
+   [
+    "vol",
+    "bol"
+   ],
+   [
+    "vent",
+    "banc"
+   ],
+   [
+    "veau",
+    "beau"
+   ],
+   [
+    "vague",
+    "bague"
+   ],
+   [
+    "vise",
+    "bise"
+   ]
+  ]
+ },
+ {
+  "id": "sh-zh",
+  "a": "ʃ",
+  "b": "ʒ",
+  "name": "CH vs J",
+  "pairs": [
+   [
+    "chou",
+    "joue"
+   ],
+   [
+    "chant",
+    "gens"
+   ],
+   [
+    "cheveux",
+    "jeu"
+   ],
+   [
+    "bouche",
+    "bouge"
+   ],
+   [
+    "hache",
+    "âge"
+   ],
+   [
+    "cache",
+    "cage"
+   ],
+   [
+    "chêne",
+    "gêne"
+   ],
+   [
+    "chaud",
+    "jaune"
+   ],
+   [
+    "marché",
+    "manger"
+   ],
+   [
+    "roche",
+    "rouge"
+   ]
+  ]
+ },
+ {
+  "id": "e-eh",
+  "a": "e",
+  "b": "ɛ",
+  "name": "É cerrada vs È abierta",
+  "pairs": [
+   [
+    "les",
+    "lait"
+   ],
+   [
+    "été",
+    "était"
+   ],
+   [
+    "fée",
+    "fait"
+   ],
+   [
+    "mes",
+    "mais"
+   ],
+   [
+    "ces",
+    "sait"
+   ],
+   [
+    "pré",
+    "près"
+   ],
+   [
+    "dé",
+    "dais"
+   ],
+   [
+    "parlé",
+    "parlait"
+   ],
+   [
+    "gué",
+    "guet"
+   ],
+   [
+    "né",
+    "naît"
+   ]
+  ]
+ }
+]

@@ -1,0 +1,2002 @@
+[
+ {
+  "text": "Hello, how are you?",
+  "translation": "Hola, ¿cómo estás?",
+  "level": "A1"
+ },
+ {
+  "text": "I am fine, thanks",
+  "translation": "Estoy bien, gracias",
+  "level": "A1"
+ },
+ {
+  "text": "What is your name?",
+  "translation": "¿Cuál es tu nombre?",
+  "level": "A1"
+ },
+ {
+  "text": "My name is Ana",
+  "translation": "Me llamo Ana",
+  "level": "A1"
+ },
+ {
+  "text": "Nice to meet you",
+  "translation": "Mucho gusto",
+  "level": "A1"
+ },
+ {
+  "text": "Where do you live?",
+  "translation": "¿Dónde vives?",
+  "level": "A1"
+ },
+ {
+  "text": "I live in a house",
+  "translation": "Vivo en una casa",
+  "level": "A1"
+ },
+ {
+  "text": "Do you have a brother?",
+  "translation": "¿Tienes un hermano?",
+  "level": "A1"
+ },
+ {
+  "text": "I have one sister",
+  "translation": "Tengo una hermana",
+  "level": "A1"
+ },
+ {
+  "text": "My parents are teachers",
+  "translation": "Mis padres son profesores",
+  "level": "A1"
+ },
+ {
+  "text": "The kitchen is clean",
+  "translation": "La cocina está limpia",
+  "level": "A1"
+ },
+ {
+  "text": "I cook dinner at six",
+  "translation": "Cocino la cena a las seis",
+  "level": "A1"
+ },
+ {
+  "text": "I go to work daily",
+  "translation": "Voy al trabajo todos los días",
+  "level": "A1"
+ },
+ {
+  "text": "She reads the newspaper",
+  "translation": "Ella lee el periódico",
+  "level": "A1"
+ },
+ {
+  "text": "We watch TV together",
+  "translation": "Vemos la tele juntos",
+  "level": "A1"
+ },
+ {
+  "text": "Can you open the window?",
+  "translation": "¿Puedes abrir la ventana?",
+  "level": "A1"
+ },
+ {
+  "text": "I brush my teeth",
+  "translation": "Me cepillo los dientes",
+  "level": "A1"
+ },
+ {
+  "text": "He sleeps early",
+  "translation": "Él duerme temprano",
+  "level": "A1"
+ },
+ {
+  "text": "The garden needs water",
+  "translation": "El jardín necesita agua",
+  "level": "A1"
+ },
+ {
+  "text": "Thank you, goodbye",
+  "translation": "Gracias, adiós",
+  "level": "A1"
+ },
+ {
+  "text": "I want a sandwich",
+  "translation": "Quiero un sándwich",
+  "level": "A1"
+ },
+ {
+  "text": "Do you have soup?",
+  "translation": "¿Tiene sopa?",
+  "level": "A1"
+ },
+ {
+  "text": "The coffee is hot",
+  "translation": "El café está caliente",
+  "level": "A1"
+ },
+ {
+  "text": "Can I see the menu?",
+  "translation": "¿Puedo ver el menú?",
+  "level": "A1"
+ },
+ {
+  "text": "We eat at six",
+  "translation": "Comemos a las seis",
+  "level": "A1"
+ },
+ {
+  "text": "The bill is ready",
+  "translation": "La cuenta está lista",
+  "level": "A1"
+ },
+ {
+  "text": "I need change",
+  "translation": "Necesito cambio",
+  "level": "A1"
+ },
+ {
+  "text": "How much is this?",
+  "translation": "¿Cuánto cuesta esto?",
+  "level": "A1"
+ },
+ {
+  "text": "I buy a shirt",
+  "translation": "Compro una camisa",
+  "level": "A1"
+ },
+ {
+  "text": "Do you accept cards?",
+  "translation": "¿Aceptan tarjetas?",
+  "level": "A1"
+ },
+ {
+  "text": "The dress is blue",
+  "translation": "El vestido es azul",
+  "level": "A1"
+ },
+ {
+  "text": "I try the shoes",
+  "translation": "Me pruebo los zapatos",
+  "level": "A1"
+ },
+ {
+  "text": "She likes the salad",
+  "translation": "A ella le gusta la ensalada",
+  "level": "A1"
+ },
+ {
+  "text": "We order pizza",
+  "translation": "Pedimos pizza",
+  "level": "A1"
+ },
+ {
+  "text": "The soup is cold",
+  "translation": "La sopa está fría",
+  "level": "A1"
+ },
+ {
+  "text": "Can you recommend a dish?",
+  "translation": "¿Puedes recomendar un plato?",
+  "level": "A1"
+ },
+ {
+  "text": "I pay with cash",
+  "translation": "Pago en efectivo",
+  "level": "A1"
+ },
+ {
+  "text": "The market is busy",
+  "translation": "El mercado está lleno",
+  "level": "A1"
+ },
+ {
+  "text": "He wears a hat",
+  "translation": "Él lleva un sombrero",
+  "level": "A1"
+ },
+ {
+  "text": "We need more water",
+  "translation": "Necesitamos más agua",
+  "level": "A1"
+ },
+ {
+  "text": "I need a taxi now",
+  "translation": "Necesito un taxi ahora",
+  "level": "A1"
+ },
+ {
+  "text": "Where is the bus stop?",
+  "translation": "¿Dónde está la parada de bus?",
+  "level": "A1"
+ },
+ {
+  "text": "The train leaves at nine",
+  "translation": "El tren sale a las nueve",
+  "level": "A1"
+ },
+ {
+  "text": "Can you show me the map?",
+  "translation": "¿Puedes mostrarme el mapa?",
+  "level": "A1"
+ },
+ {
+  "text": "I want a window seat",
+  "translation": "Quiero un asiento de ventana",
+  "level": "A1"
+ },
+ {
+  "text": "The flight is on time",
+  "translation": "El vuelo está a tiempo",
+  "level": "A1"
+ },
+ {
+  "text": "Is there free Wi‑Fi here?",
+  "translation": "¿Hay Wi‑Fi gratis aquí?",
+  "level": "A1"
+ },
+ {
+  "text": "My luggage is heavy",
+  "translation": "Mi equipaje es pesado",
+  "level": "A1"
+ },
+ {
+  "text": "The hotel has a pool",
+  "translation": "El hotel tiene piscina",
+  "level": "A1"
+ },
+ {
+  "text": "I need a quiet room",
+  "translation": "Necesito una habitación tranquila",
+  "level": "A1"
+ },
+ {
+  "text": "How far is the airport?",
+  "translation": "¿Qué tan lejos está el aeropuerto?",
+  "level": "A1"
+ },
+ {
+  "text": "The weather is very hot",
+  "translation": "El clima está muy caliente",
+  "level": "A1"
+ },
+ {
+  "text": "It will rain tomorrow",
+  "translation": "Lloverá mañana",
+  "level": "A1"
+ },
+ {
+  "text": "Do you have an umbrella?",
+  "translation": "¿Tienes un paraguas?",
+  "level": "A1"
+ },
+ {
+  "text": "The road is closed",
+  "translation": "La carretera está cerrada",
+  "level": "A1"
+ },
+ {
+  "text": "Can I get a ticket?",
+  "translation": "¿Puedo conseguir un boleto?",
+  "level": "A1"
+ },
+ {
+  "text": "The bus is full",
+  "translation": "El bus está lleno",
+  "level": "A1"
+ },
+ {
+  "text": "I like the city view",
+  "translation": "Me gusta la vista de la ciudad",
+  "level": "A1"
+ },
+ {
+  "text": "Where can I eat?",
+  "translation": "¿Dónde puedo comer?",
+  "level": "A1"
+ },
+ {
+  "text": "The taxi is cheap",
+  "translation": "El taxi es barato",
+  "level": "A1"
+ },
+ {
+  "text": "I work at a bank",
+  "translation": "Yo trabajo en un banco",
+  "level": "A1"
+ },
+ {
+  "text": "She studies English daily",
+  "translation": "Ella estudia inglés todos los días",
+  "level": "A1"
+ },
+ {
+  "text": "He feels tired today",
+  "translation": "Él se siente cansado hoy",
+  "level": "A1"
+ },
+ {
+  "text": "We need a doctor now",
+  "translation": "Necesitamos un doctor ahora",
+  "level": "A1"
+ },
+ {
+  "text": "Call emergency services quickly",
+  "translation": "Llama a los servicios de emergencia rápido",
+  "level": "A1"
+ },
+ {
+  "text": "I like reading books",
+  "translation": "Me gusta leer libros",
+  "level": "A1"
+ },
+ {
+  "text": "Do you use a computer?",
+  "translation": "¿Usas una computadora?",
+  "level": "A1"
+ },
+ {
+  "text": "I check my email often",
+  "translation": "Reviso mi correo a menudo",
+  "level": "A1"
+ },
+ {
+  "text": "She rides a bike daily",
+  "translation": "Ella monta bicicleta todos los días",
+  "level": "A1"
+ },
+ {
+  "text": "He fixes phones for work",
+  "translation": "Él repara teléfonos para trabajar",
+  "level": "A1"
+ },
+ {
+  "text": "Do you feel sick?",
+  "translation": "¿Te sientes enfermo?",
+  "level": "A1"
+ },
+ {
+  "text": "I need medicine now",
+  "translation": "Necesito medicina ahora",
+  "level": "A1"
+ },
+ {
+  "text": "We watch movies together",
+  "translation": "Vemos películas juntos",
+  "level": "A1"
+ },
+ {
+  "text": "Can you help me?",
+  "translation": "¿Puedes ayudarme?",
+  "level": "A1"
+ },
+ {
+  "text": "I write notes in class",
+  "translation": "Escribo notas en clase",
+  "level": "A1"
+ },
+ {
+  "text": "She cooks lunch quickly",
+  "translation": "Ella cocina el almuerzo rápido",
+  "level": "A1"
+ },
+ {
+  "text": "He runs to the office",
+  "translation": "Él corre a la oficina",
+  "level": "A1"
+ },
+ {
+  "text": "I download apps daily",
+  "translation": "Descargo aplicaciones todos los días",
+  "level": "A1"
+ },
+ {
+  "text": "Do you like music?",
+  "translation": "¿Te gusta la música?",
+  "level": "A1"
+ },
+ {
+  "text": "We talk on the phone",
+  "translation": "Hablamos por teléfono",
+  "level": "A1"
+ },
+ {
+  "text": "Good morning, everyone!",
+  "translation": "¡Buenos días, a todos!",
+  "level": "A2"
+ },
+ {
+  "text": "Nice to meet you.",
+  "translation": "Mucho gusto.",
+  "level": "A2"
+ },
+ {
+  "text": "My name is Maria.",
+  "translation": "Me llamo María.",
+  "level": "A2"
+ },
+ {
+  "text": "I am from Spain.",
+  "translation": "Soy de España.",
+  "level": "A2"
+ },
+ {
+  "text": "Do you have siblings?",
+  "translation": "¿Tienes hermanos?",
+  "level": "A2"
+ },
+ {
+  "text": "I have one brother.",
+  "translation": "Tengo un hermano.",
+  "level": "A2"
+ },
+ {
+  "text": "She has two sisters.",
+  "translation": "Ella tiene dos hermanas.",
+  "level": "A2"
+ },
+ {
+  "text": "I live in Madrid.",
+  "translation": "Vivo en Madrid.",
+  "level": "A2"
+ },
+ {
+  "text": "This is my house.",
+  "translation": "Esta es mi casa.",
+  "level": "A2"
+ },
+ {
+  "text": "We have a small garden.",
+  "translation": "Tenemos un pequeño jardín.",
+  "level": "A2"
+ },
+ {
+  "text": "What time do you wake up?",
+  "translation": "¿A qué hora te levantas?",
+  "level": "A2"
+ },
+ {
+  "text": "I wake up at six.",
+  "translation": "Me levanto a las seis.",
+  "level": "A2"
+ },
+ {
+  "text": "I eat breakfast at seven.",
+  "translation": "Desayuno a las siete.",
+  "level": "A2"
+ },
+ {
+  "text": "I go to work by bus.",
+  "translation": "Voy al trabajo en autobús.",
+  "level": "A2"
+ },
+ {
+  "text": "I finish work at five.",
+  "translation": "Termino el trabajo a las cinco.",
+  "level": "A2"
+ },
+ {
+  "text": "Do you want tea?",
+  "translation": "¿Quieres té?",
+  "level": "A2"
+ },
+ {
+  "text": "I would like a coffee, please.",
+  "translation": "Me gustaría un café, por favor.",
+  "level": "A2"
+ },
+ {
+  "text": "I ordered pizza yesterday.",
+  "translation": "Yo pedí pizza ayer.",
+  "level": "A2"
+ },
+ {
+  "text": "She will buy a new dress tomorrow.",
+  "translation": "Ella comprará un vestido nuevo mañana.",
+  "level": "A2"
+ },
+ {
+  "text": "We ate at a local restaurant.",
+  "translation": "Nosotros comimos en un restaurante local.",
+  "level": "A2"
+ },
+ {
+  "text": "He spent money on groceries.",
+  "translation": "Él gastó dinero en comestibles.",
+  "level": "A2"
+ },
+ {
+  "text": "They sold their old clothes.",
+  "translation": "Ellos vendieron su ropa vieja.",
+  "level": "A2"
+ },
+ {
+  "text": "Do you want coffee or tea?",
+  "translation": "¿Quieres café o té?",
+  "level": "A2"
+ },
+ {
+  "text": "I found a great sale today.",
+  "translation": "Encontré una gran oferta hoy.",
+  "level": "A2"
+ },
+ {
+  "text": "She will try the new dish.",
+  "translation": "Ella probará el nuevo plato.",
+  "level": "A2"
+ },
+ {
+  "text": "We paid with a credit card.",
+  "translation": "Pagamos con tarjeta de crédito.",
+  "level": "A2"
+ },
+ {
+  "text": "They bought fresh bread.",
+  "translation": "Compraron pan fresco.",
+  "level": "A2"
+ },
+ {
+  "text": "He left his wallet at home.",
+  "translation": "Él dejó su cartera en casa.",
+  "level": "A2"
+ },
+ {
+  "text": "I need to buy a jacket.",
+  "translation": "Necesito comprar una chaqueta.",
+  "level": "A2"
+ },
+ {
+  "text": "She ordered a salad for lunch.",
+  "translation": "Ella pidió una ensalada para el almuerzo.",
+  "level": "A2"
+ },
+ {
+  "text": "We will eat at the café.",
+  "translation": "Comeremos en el café.",
+  "level": "A2"
+ },
+ {
+  "text": "They saved money for vacation.",
+  "translation": "Ahorro para vacaciones.",
+  "level": "A2"
+ },
+ {
+  "text": "Do you like spicy food?",
+  "translation": "¿Te gusta la comida picante?",
+  "level": "A2"
+ },
+ {
+  "text": "I bought a new pair of shoes.",
+  "translation": "Compré un par de zapatos nuevo.",
+  "level": "A2"
+ },
+ {
+  "text": "She will pay in cash.",
+  "translation": "Ella pagará en efectivo.",
+  "level": "A2"
+ },
+ {
+  "text": "We found a cheap restaurant.",
+  "translation": "Encontramos un restaurante barato.",
+  "level": "A2"
+ },
+ {
+  "text": "He sold his old bike.",
+  "translation": "Él vendió su bicicleta vieja.",
+  "level": "A2"
+ },
+ {
+  "text": "I booked a flight to Madrid.",
+  "translation": "Reservé un vuelo a Madrid.",
+  "level": "A2"
+ },
+ {
+  "text": "The train arrives at nine o’clock.",
+  "translation": "El tren llega a las nueve.",
+  "level": "A2"
+ },
+ {
+  "text": "Can you show me the way to the station?",
+  "translation": "¿Puedes indicarme el camino a la estación?",
+  "level": "A2"
+ },
+ {
+  "text": "I need a taxi to the hotel.",
+  "translation": "Necesito un taxi al hotel.",
+  "level": "A2"
+ },
+ {
+  "text": "The hotel is near the beach.",
+  "translation": "El hotel está cerca de la playa.",
+  "level": "A2"
+ },
+ {
+  "text": "We will check in at 3 p.m.",
+  "translation": "Haremos el check-in a las 3 p.m.",
+  "level": "A2"
+ },
+ {
+  "text": "The airport is far from the city.",
+  "translation": "El aeropuerto está lejos de la ciudad.",
+  "level": "A2"
+ },
+ {
+  "text": "It will rain tomorrow in Barcelona.",
+  "translation": "Lloverá mañana en Barcelona.",
+  "level": "A2"
+ },
+ {
+  "text": "I saw a beautiful sunrise yesterday.",
+  "translation": "Vi un hermoso amanecer ayer.",
+  "level": "A2"
+ },
+ {
+  "text": "The bus stops at the next corner.",
+  "translation": "El autobús para en la próxima esquina.",
+  "level": "A2"
+ },
+ {
+  "text": "Do you have a map of the city?",
+  "translation": "¿Tienes un mapa de la ciudad?",
+  "level": "A2"
+ },
+ {
+  "text": "I lost my luggage at the airport.",
+  "translation": "Perdí mi equipaje en el aeropuerto.",
+  "level": "A2"
+ },
+ {
+  "text": "The hotel room was very clean.",
+  "translation": "La habitación del hotel estaba muy limpia.",
+  "level": "A2"
+ },
+ {
+  "text": "I will take a taxi to the museum.",
+  "translation": "Tomaré un taxi al museo.",
+  "level": "A2"
+ },
+ {
+  "text": "The flight was delayed by two hours.",
+  "translation": "El vuelo se retrasó dos horas.",
+  "level": "A2"
+ },
+ {
+  "text": "Can you recommend a good restaurant nearby?",
+  "translation": "¿Puedes recomendarme un buen restaurante cercano?",
+  "level": "A2"
+ },
+ {
+  "text": "The weather is sunny today.",
+  "translation": "El clima está soleado hoy.",
+  "level": "A2"
+ },
+ {
+  "text": "I will book a hotel for next week.",
+  "translation": "Reservaré un hotel para la próxima semana.",
+  "level": "A2"
+ },
+ {
+  "text": "The bus ticket costs ten euros.",
+  "translation": "El billete de autobús cuesta diez euros.",
+  "level": "A2"
+ },
+ {
+  "text": "Where is the nearest bus stop?",
+  "translation": "¿Dónde está la parada de autobús más cercana?",
+  "level": "A2"
+ },
+ {
+  "text": "I will fly to Paris next month.",
+  "translation": "Volaré a París el próximo mes.",
+  "level": "A2"
+ },
+ {
+  "text": "I finished my report yesterday.",
+  "translation": "Terminé mi informe ayer.",
+  "level": "A2"
+ },
+ {
+  "text": "She will study medicine next year.",
+  "translation": "Ella estudiará medicina el próximo año.",
+  "level": "A2"
+ },
+ {
+  "text": "He went to the doctor last week.",
+  "translation": "Él fue al médico la semana pasada.",
+  "level": "A2"
+ },
+ {
+  "text": "We need to call an ambulance.",
+  "translation": "Necesitamos llamar a una ambulancia.",
+  "level": "A2"
+ },
+ {
+  "text": "I feel happy today.",
+  "translation": "Me siento feliz hoy.",
+  "level": "A2"
+ },
+ {
+  "text": "She likes painting in her free time.",
+  "translation": "A ella le gusta pintar en su tiempo libre.",
+  "level": "A2"
+ },
+ {
+  "text": "They bought a new smartphone.",
+  "translation": "Compraron un nuevo teléfono inteligente.",
+  "level": "A2"
+ },
+ {
+  "text": "I will exercise tomorrow morning.",
+  "translation": "Ejercitaré mañana por la mañana.",
+  "level": "A2"
+ },
+ {
+  "text": "He took medicine for his headache.",
+  "translation": "Tomó medicina por su dolor de cabeza.",
+  "level": "A2"
+ },
+ {
+  "text": "We visited the doctor yesterday.",
+  "translation": "Visitamos al médico ayer.",
+  "level": "A2"
+ },
+ {
+  "text": "She is feeling tired after work.",
+  "translation": "Ella se siente cansada después del trabajo.",
+  "level": "A2"
+ },
+ {
+  "text": "I will read a book tonight.",
+  "translation": "Leeré un libro esta noche.",
+  "level": "A2"
+ },
+ {
+  "text": "They repaired the broken chair.",
+  "translation": "Repararon la silla rota.",
+  "level": "A2"
+ },
+ {
+  "text": "I need to schedule a checkup.",
+  "translation": "Necesito programar un chequeo.",
+  "level": "A2"
+ },
+ {
+  "text": "She will attend a meeting at 3.",
+  "translation": "Ella asistirá a una reunión a las 3.",
+  "level": "A2"
+ },
+ {
+  "text": "We celebrated his promotion.",
+  "translation": "Celebramos su ascenso.",
+  "level": "A2"
+ },
+ {
+  "text": "He lost his keys at the office.",
+  "translation": "Perdió sus llaves en la oficina.",
+  "level": "A2"
+ },
+ {
+  "text": "I will call a doctor if it worsens.",
+  "translation": "Llamaré a un médico si empeora.",
+  "level": "A2"
+ },
+ {
+  "text": "She enjoys hiking on weekends.",
+  "translation": "A ella le gusta hacer senderismo los fines de semana.",
+  "level": "A2"
+ },
+ {
+  "text": "They updated their software last night.",
+  "translation": "Actualizaron su software anoche.",
+  "level": "A2"
+ },
+ {
+  "text": "Good morning, how are you feeling today?",
+  "translation": "Buenos días, ¿cómo te sientes hoy?",
+  "level": "B1"
+ },
+ {
+  "text": "I’m Alex, nice to meet you all.",
+  "translation": "Soy Alex, mucho gusto conocerles a todos.",
+  "level": "B1"
+ },
+ {
+  "text": "My sister lives in Madrid and works as a teacher.",
+  "translation": "Mi hermana vive en Madrid y trabaja como profesora.",
+  "level": "B1"
+ },
+ {
+  "text": "We usually have coffee together after breakfast.",
+  "translation": "Normalmente tomamos café juntos después del desayuno.",
+  "level": "B1"
+ },
+ {
+  "text": "Could you tell me a bit about your family?",
+  "translation": "¿Podrías contarme un poco sobre tu familia?",
+  "level": "B1"
+ },
+ {
+  "text": "My parents are retired and they love gardening.",
+  "translation": "Mis padres están jubilados y les encanta la jardinería.",
+  "level": "B1"
+ },
+ {
+  "text": "I’m planning to visit my grandparents this weekend.",
+  "translation": "Estoy planeando visitar a mis abuelos este fin de semana.",
+  "level": "B1"
+ },
+ {
+  "text": "Do you prefer a house or an apartment?",
+  "translation": "¿Prefieres una casa o un apartamento?",
+  "level": "B1"
+ },
+ {
+  "text": "Our new flat has a balcony with a great view.",
+  "translation": "Nuestro nuevo piso tiene un balcón con una vista estupenda.",
+  "level": "B1"
+ },
+ {
+  "text": "I always lock the doors before I go to bed.",
+  "translation": "Siempre cierro con llave las puertas antes de acostarme.",
+  "level": "B1"
+ },
+ {
+  "text": "She’s studying architecture at the university now.",
+  "translation": "Ella está estudiando arquitectura en la universidad ahora.",
+  "level": "B1"
+ },
+ {
+  "text": "We’ll have dinner at eight o’clock tomorrow.",
+  "translation": "Cenaremos a las ocho en punto mañana.",
+  "level": "B1"
+ },
+ {
+  "text": "Can you help me set the table, please?",
+  "translation": "¿Puedes ayudarme a poner la mesa, por favor?",
+  "level": "B1"
+ },
+ {
+  "text": "My brother travels for work a lot these days.",
+  "translation": "Mi hermano viaja mucho por trabajo en estos días.",
+  "level": "B1"
+ },
+ {
+  "text": "I usually jog in the park before work.",
+  "translation": "Normalmente corro en el parque antes del trabajo.",
+  "level": "B1"
+ },
+ {
+  "text": "Did you enjoy the movie we watched last night?",
+  "translation": "¿Disfrutaste la película que vimos anoche?",
+  "level": "B1"
+ },
+ {
+  "text": "I’ve just finished cleaning the living room.",
+  "translation": "Acabo de terminar de limpiar la sala.",
+  "level": "B1"
+ },
+ {
+  "text": "We often watch TV together after dinner.",
+  "translation": "A menudo vemos televisión juntos después de cenar.",
+  "level": "B1"
+ },
+ {
+  "text": "What time does your train leave in the morning?",
+  "translation": "¿A qué hora sale tu tren por la mañana?",
+  "level": "B1"
+ },
+ {
+  "text": "I’m looking forward to meeting your friends soon.",
+  "translation": "Tengo muchas ganas de conocer a tus amigos pronto.",
+  "level": "B1"
+ },
+ {
+  "text": "I tried a new sushi place last weekend and loved it.",
+  "translation": "Probé un nuevo restaurante de sushi el fin de semana pasado y me encantó.",
+  "level": "B1"
+ },
+ {
+  "text": "Do you prefer buying clothes online or in stores?",
+  "translation": "¿Prefieres comprar ropa en línea o en tiendas?",
+  "level": "B1"
+ },
+ {
+  "text": "She will spend her savings on a trip to Italy next summer.",
+  "translation": "Ella gastará sus ahorros en un viaje a Italia el próximo verano.",
+  "level": "B1"
+ },
+ {
+  "text": "The chef recommended the seasonal soup, which was delicious.",
+  "translation": "El chef recomendó la sopa de temporada, que estaba deliciosa.",
+  "level": "B1"
+ },
+ {
+  "text": "Can you tell me where the nearest farmer’s market is?",
+  "translation": "¿Puedes decirme dónde está el mercado de agricultores más cercano?",
+  "level": "B1"
+ },
+ {
+  "text": "We have to exchange some euros before we fly tomorrow.",
+  "translation": "Tenemos que cambiar algunos euros antes de volar mañana.",
+  "level": "B1"
+ },
+ {
+  "text": "He always orders the same steak at that restaurant.",
+  "translation": "Él siempre pide el mismo bistec en ese restaurante.",
+  "level": "B1"
+ },
+ {
+  "text": "I’m looking for a jacket that’s both warm and stylish.",
+  "translation": "Estoy buscando una chaqueta que sea cálida y elegante.",
+  "level": "B1"
+ },
+ {
+  "text": "Did you remember to bring your loyalty card for discounts?",
+  "translation": "¿Recordaste traer tu tarjeta de fidelidad para los descuentos?",
+  "level": "B1"
+ },
+ {
+  "text": "They will open a new boutique downtown next month.",
+  "translation": "Abrirán una nueva boutique en el centro la próxima mes.",
+  "level": "B1"
+ },
+ {
+  "text": "My favorite dish is the spicy ramen from that alley shop.",
+  "translation": "Mi plato favorito es el ramen picante de esa tienda del callejón.",
+  "level": "B1"
+ },
+ {
+  "text": "Could you recommend a good place for brunch on Sundays?",
+  "translation": "¿Podrías recomendarme un buen sitio para brunch los domingos?",
+  "level": "B1"
+ },
+ {
+  "text": "She saved enough money to buy a pair of designer shoes.",
+  "translation": "Ella ahorró suficiente dinero para comprar un par de zapatos de diseñador.",
+  "level": "B1"
+ },
+ {
+  "text": "We need to check the menu before deciding what to order.",
+  "translation": "Necesitamos revisar el menú antes de decidir qué pedir.",
+  "level": "B1"
+ },
+ {
+  "text": "I usually shop for groceries after work on Fridays.",
+  "translation": "Normalmente hago la compra después del trabajo los viernes.",
+  "level": "B1"
+ },
+ {
+  "text": "Will you join me for a coffee after the meeting?",
+  "translation": "¿Te unirás a mí para un café después de la reunión?",
+  "level": "B1"
+ },
+ {
+  "text": "The restaurant offers a vegetarian tasting menu every Thursday.",
+  "translation": "El restaurante ofrece un menú degustación vegetariano cada jueves.",
+  "level": "B1"
+ },
+ {
+  "text": "He forgot his wallet, so he paid with his phone.",
+  "translation": "Él olvidó su cartera, así que pagó con su teléfono.",
+  "level": "B1"
+ },
+ {
+  "text": "I’m planning to buy a new coat when the sale starts.",
+  "translation": "Planeo comprar un nuevo abrigo cuando empiece la rebaja.",
+  "level": "B1"
+ },
+ {
+  "text": "Do you think the price of organic food is justified?",
+  "translation": "¿Crees que el precio de la comida orgánica está justificado?",
+  "level": "B1"
+ },
+ {
+  "text": "I missed my train because the station was crowded today.",
+  "translation": "Perdí mi tren porque la estación estaba llena hoy.",
+  "level": "B1"
+ },
+ {
+  "text": "Could you tell me how to get to the nearest bus stop?",
+  "translation": "¿Podrías decirme cómo llegar a la parada de autobús más cercana?",
+  "level": "B1"
+ },
+ {
+  "text": "The weather forecast predicts rain for the whole weekend.",
+  "translation": "El pronóstico del tiempo predice lluvia para todo el fin de semana.",
+  "level": "B1"
+ },
+ {
+  "text": "We booked a room with a sea view for our honeymoon.",
+  "translation": "Reservamos una habitación con vista al mar para nuestra luna de miel.",
+  "level": "B1"
+ },
+ {
+  "text": "Do you prefer flying early in the morning or late at night?",
+  "translation": "¿Prefieres volar temprano por la mañana o tarde por la noche?",
+  "level": "B1"
+ },
+ {
+  "text": "My luggage was delayed, so I had to buy new clothes.",
+  "translation": "Mi equipaje se retrasó, así que tuve que comprar ropa nueva.",
+  "level": "B1"
+ },
+ {
+  "text": "The taxi driver suggested a scenic route through the hills.",
+  "translation": "El taxista sugirió una ruta escénica por las colinas.",
+  "level": "B1"
+ },
+ {
+  "text": "She always checks the flight status before leaving home.",
+  "translation": "Ella siempre revisa el estado del vuelo antes de salir de casa.",
+  "level": "B1"
+ },
+ {
+  "text": "Can you recommend a good restaurant near the hotel lobby?",
+  "translation": "¿Puedes recomendar un buen restaurante cerca del vestíbulo del hotel?",
+  "level": "B1"
+ },
+ {
+  "text": "We arrived at the airport two hours early to avoid stress.",
+  "translation": "Llegamos al aeropuerto dos horas antes para evitar el estrés.",
+  "level": "B1"
+ },
+ {
+  "text": "The train to the city center runs every fifteen minutes.",
+  "translation": "El tren al centro de la ciudad sale cada quince minutos.",
+  "level": "B1"
+ },
+ {
+  "text": "I love watching the sunrise from the rooftop terrace.",
+  "translation": "Me encanta ver el amanecer desde la terraza del techo.",
+  "level": "B1"
+ },
+ {
+  "text": "Do you need a passport to travel within the Schengen area?",
+  "translation": "¿Necesitas pasaporte para viajar dentro del área Schengen?",
+  "level": "B1"
+ },
+ {
+  "text": "The hotel offered a free shuttle service to the conference venue.",
+  "translation": "El hotel ofreció un servicio de traslado gratuito al lugar de la conferencia.",
+  "level": "B1"
+ },
+ {
+  "text": "Our flight was delayed because of a sudden thunderstorm.",
+  "translation": "Nuestro vuelo se retrasó por una tormenta repentina.",
+  "level": "B1"
+ },
+ {
+  "text": "She asked for directions to the nearest pharmacy after the rain.",
+  "translation": "Ella pidió indicaciones para la farmacia más cercana después de la lluvia.",
+  "level": "B1"
+ },
+ {
+  "text": "I prefer taking the subway because it's faster than the bus.",
+  "translation": "Prefiero tomar el metro porque es más rápido que el autobús.",
+  "level": "B1"
+ },
+ {
+  "text": "The weather was perfect for a bike ride along the river.",
+  "translation": "El clima fue perfecto para un paseo en bicicleta a lo largo del río.",
+  "level": "B1"
+ },
+ {
+  "text": "Could you reserve a quiet room for a business trip next week?",
+  "translation": "¿Podrías reservar una habitación tranquila para un viaje de negocios la próxima semana?",
+  "level": "B1"
+ },
+ {
+  "text": "We explored the old town after checking into our hotel.",
+  "translation": "Exploramos el casco antiguo después de registrarnos en nuestro hotel.",
+  "level": "B1"
+ },
+ {
+  "text": "I usually start work at nine and finish around six.",
+  "translation": "Normalmente empiezo a trabajar a las nueve y termino alrededor de las seis.",
+  "level": "B1"
+ },
+ {
+  "text": "Did you finish the report before the deadline yesterday?",
+  "translation": "¿Terminaste el informe antes de la fecha límite ayer?",
+  "level": "B1"
+ },
+ {
+  "text": "She has been studying French for three years now.",
+  "translation": "Ella ha estado estudiando francés durante tres años ahora.",
+  "level": "B1"
+ },
+ {
+  "text": "We will attend the conference next Monday in Berlin.",
+  "translation": "Asistiremos a la conferencia el próximo lunes en Berlín.",
+  "level": "B1"
+ },
+ {
+  "text": "My doctor recommended more walking to improve my health.",
+  "translation": "Mi doctor recomendó caminar más para mejorar mi salud.",
+  "level": "B1"
+ },
+ {
+  "text": "If you feel chest pain, call an ambulance immediately.",
+  "translation": "Si sientes dolor en el pecho, llama a una ambulancia de inmediato.",
+  "level": "B1"
+ },
+ {
+  "text": "He feels nervous before every job interview.",
+  "translation": "Él se siente nervioso antes de cada entrevista de trabajo.",
+  "level": "B1"
+ },
+ {
+  "text": "Can you help me fix the printer in the office?",
+  "translation": "¿Puedes ayudarme a arreglar la impresora en la oficina?",
+  "level": "B1"
+ },
+ {
+  "text": "I enjoy painting landscapes during my free evenings.",
+  "translation": "Disfruto pintar paisajes durante mis tardes libres.",
+  "level": "B1"
+ },
+ {
+  "text": "They have launched a new app that tracks daily habits.",
+  "translation": "Han lanzado una nueva aplicación que rastrea los hábitos diarios.",
+  "level": "B1"
+ },
+ {
+  "text": "She will join the yoga class to reduce stress.",
+  "translation": "Ella se unirá a la clase de yoga para reducir el estrés.",
+  "level": "B1"
+ },
+ {
+  "text": "Did you remember to schedule your dentist appointment?",
+  "translation": "¿Recordaste programar tu cita con el dentista?",
+  "level": "B1"
+ },
+ {
+  "text": "We are planning a weekend trip to the mountains next month.",
+  "translation": "Estamos planeando un viaje de fin de semana a las montañas el próximo mes.",
+  "level": "B1"
+ },
+ {
+  "text": "The emergency exit is located at the end of the hallway.",
+  "translation": "La salida de emergencia está ubicada al final del pasillo.",
+  "level": "B1"
+ },
+ {
+  "text": "I felt relieved after finishing the final exam.",
+  "translation": "Me sentí aliviado después de terminar el examen final.",
+  "level": "B1"
+ },
+ {
+  "text": "Could you send me the latest project files by Friday?",
+  "translation": "¿Podrías enviarme los archivos del proyecto más recientes para el viernes?",
+  "level": "B1"
+ },
+ {
+  "text": "My brother works as a software engineer for a startup.",
+  "translation": "Mi hermano trabaja como ingeniero de software para una startup.",
+  "level": "B1"
+ },
+ {
+  "text": "She has been feeling better since she started the new medication.",
+  "translation": "Ella se ha sentido mejor desde que empezó la nueva medicación.",
+  "level": "B1"
+ },
+ {
+  "text": "We need to update the security system before the audit.",
+  "translation": "Necesitamos actualizar el sistema de seguridad antes de la auditoría.",
+  "level": "B1"
+ },
+ {
+  "text": "Do you prefer reading books or listening to podcasts?",
+  "translation": "¿Prefieres leer libros o escuchar podcasts?",
+  "level": "B1"
+ },
+ {
+  "text": "Good morning, could you tell me where the nearest pharmacy is, please?",
+  "translation": "Buenos días, ¿podría decirme dónde está la farmacia más cercana, por favor?",
+  "level": "B2"
+ },
+ {
+  "text": "If you arrive early, we can discuss the project over coffee before the meeting starts",
+  "translation": "Si llegas temprano, podemos hablar del proyecto con un café antes de que empiece la reunión",
+  "level": "B2"
+ },
+ {
+  "text": "My sister, who lives in Madrid, often sends us homemade paella for family gatherings",
+  "translation": "Mi hermana, que vive en Madrid, suele enviarnos paella casera para las reuniones familiares",
+  "level": "B2"
+ },
+ {
+  "text": "The house was built in the 1970s, but it has been renovated with modern energy‑saving windows",
+  "translation": "La casa fue construida en los años setenta, pero ha sido renovada con ventanas modernas que ahorran energía",
+  "level": "B2"
+ },
+ {
+  "text": "I usually wake up at six, jog for half an hour, and then prepare breakfast for my kids",
+  "translation": "Normalmente me despierto a las seis, corro media hora y después preparo el desayuno para mis hijos",
+  "level": "B2"
+ },
+ {
+  "text": "Could you introduce yourself briefly, mentioning your role and one hobby you enjoy?",
+  "translation": "¿Podrías presentarte brevemente, indicando tu puesto y un pasatiempo que disfrutes?",
+  "level": "B2"
+ },
+ {
+  "text": "When the weather is nice, we often have dinner on the terrace while the children play nearby",
+  "translation": "Cuando hace buen tiempo, solemos cenar en la terraza mientras los niños juegan cerca",
+  "level": "B2"
+ },
+ {
+  "text": "If you need any help moving the sofa, just let me know and I'll lend a hand later today",
+  "translation": "Si necesitas ayuda para mover el sofá, avísame y te echaré una mano más tarde",
+  "level": "B2"
+ },
+ {
+  "text": "My grandparents, who are both retired teachers, love to share stories about their youth in the countryside",
+  "translation": "Mis abuelos, que son ambos profesores jubilados, les encanta compartir historias de su juventud en el campo",
+  "level": "B2"
+ },
+ {
+  "text": "The living room feels spacious because the large windows let in plenty of natural light",
+  "translation": "La sala se siente espaciosa porque las grandes ventanas dejan entrar mucha luz natural",
+  "level": "B2"
+ },
+ {
+  "text": "Do you think it's better to start the day with meditation or a quick workout?",
+  "translation": "¿Crees que es mejor comenzar el día con meditación o con un entrenamiento rápido?",
+  "level": "B2"
+ },
+ {
+  "text": "Our neighbor's dog barked loudly last night, which kept me awake until three a.m.",
+  "translation": "El perro del vecino ladró fuerte anoche, lo que me mantuvo despierto hasta las tres de la madrugada",
+  "level": "B2"
+ },
+ {
+  "text": "If I had more time, I would learn to play the guitar and join a weekend jam session",
+  "translation": "Si tuviera más tiempo, aprendería a tocar la guitarra y me uniría a una sesión de improvisación los fines de semana",
+  "level": "B2"
+ },
+ {
+  "text": "The invitation was sent out last week, but the RSVP deadline has already passed",
+  "translation": "La invitación se envió la semana pasada, pero la fecha límite para confirmar ya ha pasado",
+  "level": "B2"
+ },
+ {
+  "text": "Every Sunday, we clean the house together while listening to classic rock from the 80s",
+  "translation": "Cada domingo limpiamos la casa juntos mientras escuchamos rock clásico de los 80",
+  "level": "B2"
+ },
+ {
+  "text": "Would you mind opening the window? The air feels a bit stale in here",
+  "translation": "¿Te importaría abrir la ventana? El aire se siente un poco cargado aquí",
+  "level": "B2"
+ },
+ {
+  "text": "My cousin, who works abroad, will be visiting us next month and staying for two weeks",
+  "translation": "Mi primo, que trabaja en el extranjero, nos visitará el próximo mes y se quedará dos semanas",
+  "level": "B2"
+ },
+ {
+  "text": "When the kids finish their homework, they usually help set the table for dinner",
+  "translation": "Cuando los niños terminan sus deberes, normalmente ayudan a poner la mesa para la cena",
+  "level": "B2"
+ },
+ {
+  "text": "If you prefer a quieter environment, we could meet at the library instead of the café",
+  "translation": "Si prefieres un ambiente más tranquilo, podríamos encontrarnos en la biblioteca en lugar del café",
+  "level": "B2"
+ },
+ {
+  "text": "The garden was planted with herbs last spring, and now it supplies most of our cooking needs",
+  "translation": "El jardín se plantó con hierbas la primavera pasada, y ahora cubre la mayor parte de nuestras necesidades culinarias",
+  "level": "B2"
+ },
+ {
+  "text": "I would love to try the new sushi place downtown, but I'm on a tight budget.",
+  "translation": "Me encantaría probar el nuevo restaurante de sushi del centro, pero estoy con un presupuesto ajustado.",
+  "level": "B2"
+ },
+ {
+  "text": "If you ever visit Barcelona, you must eat paella at the seaside restaurant on La Rambla.",
+  "translation": "Si alguna vez visitas Barcelona, debes comer paella en el restaurante junto al mar en La Rambla.",
+  "level": "B2"
+ },
+ {
+  "text": "The chef claims that the secret ingredient is a pinch of saffron, but I doubt it.",
+  "translation": "El chef afirma que el ingrediente secreto es una pizca de azafrán, pero dudo de ello.",
+  "level": "B2"
+ },
+ {
+  "text": "I heard the new vegan bakery uses oat milk instead of dairy, which is a smart move for sustainability.",
+  "translation": "Escuché que la nueva panadería vegana usa leche de avena en lugar de lácteos, lo cual es una decisión inteligente para la sostenibilidad.",
+  "level": "B2"
+ },
+ {
+  "text": "Would you mind if I split the bill with you after dinner? I can cover the dessert.",
+  "translation": "¿Te importaría si dividimos la cuenta después de la cena? Yo puedo cubrir el postre.",
+  "level": "B2"
+ },
+ {
+  "text": "The restaurant's interior is designed to create a cozy atmosphere, yet the service is surprisingly slow.",
+  "translation": "El interior del restaurante está diseñado para crear una atmósfera acogedora, sin embargo, el servicio es sorprendentemente lento.",
+  "level": "B2"
+ },
+ {
+  "text": "I read that the new grocery store offers a loyalty program that rewards you with discounts on organic produce.",
+  "translation": "Leí que la nueva tienda de comestibles ofrece un programa de lealtad que te recompensa con descuentos en productos orgánicos.",
+  "level": "B2"
+ },
+ {
+  "text": "If you want to save money, buy canned beans in bulk instead of fresh ones.",
+  "translation": "Si quieres ahorrar dinero, compra frijoles enlatados al por mayor en lugar de frescos.",
+  "level": "B2"
+ },
+ {
+  "text": "The boutique claims that all its clothing is ethically sourced, but I would like to see proof.",
+  "translation": "La boutique afirma que toda su ropa es de origen ético, pero me gustaría ver pruebas.",
+  "level": "B2"
+ },
+ {
+  "text": "Could you recommend a good place for a quick lunch near the office? I need something healthy.",
+  "translation": "¿Podrías recomendarme un buen lugar para un almuerzo rápido cerca de la oficina? Necesito algo saludable.",
+  "level": "B2"
+ },
+ {
+  "text": "The waiter suggested a wine pairing that would complement the steak, but I was unsure about the cost.",
+  "translation": "El camarero sugirió una combinación de vino que complementaría el filete, pero no estaba seguro del costo.",
+  "level": "B2"
+ },
+ {
+  "text": "I think the price of designer shoes is inflated; you can find similar styles for half the price online.",
+  "translation": "Creo que el precio de los zapatos de diseñador está inflado; puedes encontrar estilos similares por la mitad del precio en línea.",
+  "level": "B2"
+ },
+ {
+  "text": "If you shop during the weekend sale, you might get a 30% discount on winter coats.",
+  "translation": "Si compras durante la venta del fin de semana, podrías obtener un descuento del 30% en abrigos de invierno.",
+  "level": "B2"
+ },
+ {
+  "text": "The new café offers a loyalty card that gives you a free pastry after ten purchases.",
+  "translation": "El nuevo café ofrece una tarjeta de fidelidad que te da un pastel gratis después de diez compras.",
+  "level": "B2"
+ },
+ {
+  "text": "Would you like to join me for a tapas tasting event this Friday? It’s a great way to try different dishes.",
+  "translation": "¿Te gustaría unirte a mí para un evento de degustación de tapas este viernes? Es una excelente manera de probar diferentes platos.",
+  "level": "B2"
+ },
+ {
+  "text": "I’m not sure if the restaurant’s menu is suitable for vegetarians; I’ll ask the staff for clarification.",
+  "translation": "No estoy seguro si el menú del restaurante es adecuado para vegetarianos; preguntaré al personal para aclararlo.",
+  "level": "B2"
+ },
+ {
+  "text": "The shop’s new collection uses recycled fabrics, which is a positive step toward eco-friendly fashion.",
+  "translation": "La nueva colección de la tienda utiliza telas recicladas, lo cual es un paso positivo hacia la moda ecológica.",
+  "level": "B2"
+ },
+ {
+  "text": "If you want to avoid the line, order online for pickup and skip the waiting area.",
+  "translation": "Si quieres evitar la fila, pide en línea para recoger y omite el área de espera.",
+  "level": "B2"
+ },
+ {
+  "text": "The chef’s signature dish is a truffle risotto, but it’s only available on Wednesdays.",
+  "translation": "El plato insignia del chef es un risotto de trufa, pero solo está disponible los miércoles.",
+  "level": "B2"
+ },
+ {
+  "text": "Could you tell me how much the lunch special costs? I’m trying to stay within my weekly budget.",
+  "translation": "¿Podrías decirme cuánto cuesta el especial de almuerzo? Estoy tratando de mantenerme dentro de mi presupuesto semanal.",
+  "level": "B2"
+ },
+ {
+  "text": "I think the store’s return policy is generous, which makes me feel more comfortable buying online.",
+  "translation": "Creo que la política de devoluciones de la tienda es generosa, lo que me hace sentir más cómodo comprando en línea.",
+  "level": "B2"
+ },
+ {
+  "text": "I would love to visit the Amalfi Coast next summer, but I need to save up more money.",
+  "translation": "Me encantaría visitar la Costa Amalfitana el próximo verano, pero necesito ahorrar más dinero.",
+  "level": "B2"
+ },
+ {
+  "text": "If you take the train from Madrid, you’ll arrive in Barcelona in just under three hours.",
+  "translation": "Si tomas el tren desde Madrid, llegarás a Barcelona en menos de tres horas.",
+  "level": "B2"
+ },
+ {
+  "text": "Could you tell me how to get to the nearest metro station?",
+  "translation": "¿Podrías decirme cómo llegar a la estación de metro más cercana?",
+  "level": "B2"
+ },
+ {
+  "text": "The hotel’s Wi‑Fi is free, but the breakfast is only available for a small fee.",
+  "translation": "El Wi‑Fi del hotel es gratuito, pero el desayuno solo está disponible por una pequeña tarifa.",
+  "level": "B2"
+ },
+ {
+  "text": "When the flight was delayed, the airline offered us vouchers for dinner.",
+  "translation": "Cuando el vuelo se retrasó, la aerolínea nos ofreció vales para cenar.",
+  "level": "B2"
+ },
+ {
+  "text": "I would prefer a room with a view of the sea, if one is available.",
+  "translation": "Preferiría una habitación con vista al mar, si hay alguna disponible.",
+  "level": "B2"
+ },
+ {
+  "text": "If you follow the signs, you’ll find the airport’s departure hall right next to the parking lot.",
+  "translation": "Si sigues las señales, encontrarás el hall de salidas del aeropuerto justo al lado del estacionamiento.",
+  "level": "B2"
+ },
+ {
+  "text": "Do you know whether the bus service runs on Sundays?",
+  "translation": "¿Sabes si el servicio de autobús funciona los domingos?",
+  "level": "B2"
+ },
+ {
+  "text": "The weather forecast predicts a chance of rain, so bring an umbrella.",
+  "translation": "El pronóstico del tiempo indica posibilidad de lluvia, así que lleva un paraguas.",
+  "level": "B2"
+ },
+ {
+  "text": "I would like to book a room with a king‑size bed and a balcony.",
+  "translation": "Me gustaría reservar una habitación con cama king-size y balcón.",
+  "level": "B2"
+ },
+ {
+  "text": "If you take the first exit, you’ll reach the city center in about ten minutes.",
+  "translation": "Si tomas la primera salida, llegarás al centro de la ciudad en unos diez minutos.",
+  "level": "B2"
+ },
+ {
+  "text": "Could you recommend a reliable taxi service that operates 24 hours?",
+  "translation": "¿Podrías recomendarme un servicio de taxi confiable que opere las 24 horas?",
+  "level": "B2"
+ },
+ {
+  "text": "The hotel’s shuttle bus will drop you off at the train station.",
+  "translation": "El servicio de autobús del hotel te dejará en la estación de tren.",
+  "level": "B2"
+ },
+ {
+  "text": "When the plane landed, the crew announced that the flight had been delayed due to a technical issue.",
+  "translation": "Cuando el avión aterrizó, la tripulación anunció que el vuelo había sido retrasado debido a un problema técnico.",
+  "level": "B2"
+ },
+ {
+  "text": "I would appreciate it if you could send me the itinerary by email.",
+  "translation": "Agradecería si pudieras enviarme el itinerario por correo electrónico.",
+  "level": "B2"
+ },
+ {
+  "text": "If the weather stays clear, we can go hiking in the mountains tomorrow.",
+  "translation": "Si el clima permanece despejado, podemos ir de excursión a las montañas mañana.",
+  "level": "B2"
+ },
+ {
+  "text": "Could you explain how the airport’s baggage claim works?",
+  "translation": "¿Podrías explicarme cómo funciona la recogida de equipaje del aeropuerto?",
+  "level": "B2"
+ },
+ {
+  "text": "The hotel offers a free city tour for guests staying over three nights.",
+  "translation": "El hotel ofrece un recorrido gratuito por la ciudad para los huéspedes que se queden más de tres noches.",
+  "level": "B2"
+ },
+ {
+  "text": "When you arrive at the bus terminal, look for the sign that says “International Buses”.",
+  "translation": "Cuando llegues a la terminal de autobuses, busca el letrero que dice \"Autobuses Internacionales\".",
+  "level": "B2"
+ },
+ {
+  "text": "I would like to know if the train schedule includes a night service to Madrid.",
+  "translation": "Me gustaría saber si el horario del tren incluye un servicio nocturno a Madrid.",
+  "level": "B2"
+ },
+ {
+  "text": "I need to finish this report before the meeting tomorrow.",
+  "translation": "Necesito terminar este informe antes de la reunión de mañana.",
+  "level": "B2"
+ },
+ {
+  "text": "Could you explain the new software update in more detail?",
+  "translation": "¿Podrías explicar la nueva actualización de software con más detalle?",
+  "level": "B2"
+ },
+ {
+  "text": "She said she would call me back after the doctor’s appointment.",
+  "translation": "Ella dijo que me llamaría de vuelta después de la cita con el médico.",
+  "level": "B2"
+ },
+ {
+  "text": "If I had more time, I would learn a new language.",
+  "translation": "Si tuviera más tiempo, aprendería un nuevo idioma.",
+  "level": "B2"
+ },
+ {
+  "text": "The company is planning to relocate its headquarters next year.",
+  "translation": "La compañía está planeando trasladar su sede al próximo año.",
+  "level": "B2"
+ },
+ {
+  "text": "I feel a sharp pain in my lower back after the workout.",
+  "translation": "Siento un dolor agudo en la parte baja de la espalda después del entrenamiento.",
+  "level": "B2"
+ },
+ {
+  "text": "He has been working on the project for three months now.",
+  "translation": "Ha estado trabajando en el proyecto durante tres meses ya.",
+  "level": "B2"
+ },
+ {
+  "text": "In case of an emergency, call 911 immediately.",
+  "translation": "En caso de emergencia, llama al 911 inmediatamente.",
+  "level": "B2"
+ },
+ {
+  "text": "She enjoys painting as a way to relax after a long day.",
+  "translation": "Ella disfruta pintar como una forma de relajarse después de un día largo.",
+  "level": "B2"
+ },
+ {
+  "text": "The doctor recommended a strict diet to manage his cholesterol.",
+  "translation": "El médico recomendó una dieta estricta para controlar su colesterol.",
+  "level": "B2"
+ },
+ {
+  "text": "If you study consistently, you will pass the exam with ease.",
+  "translation": "Si estudias de manera constante, aprobarás el examen con facilidad.",
+  "level": "B2"
+ },
+ {
+  "text": "The new policy will affect all employees across the department.",
+  "translation": "La nueva política afectará a todos los empleados del departamento.",
+  "level": "B2"
+ },
+ {
+  "text": "I feel nervous about the presentation tomorrow.",
+  "translation": "Me siento nervioso por la presentación de mañana.",
+  "level": "B2"
+ },
+ {
+  "text": "Could you help me with the technical issue on my laptop?",
+  "translation": "¿Podrías ayudarme con el problema técnico de mi portátil?",
+  "level": "B2"
+ },
+ {
+  "text": "She said she would join the meeting only if the agenda was clear.",
+  "translation": "Ella dijo que se uniría a la reunión solo si la agenda fuera clara.",
+  "level": "B2"
+ },
+ {
+  "text": "If I were you, I would consider a second opinion from another specialist.",
+  "translation": "Si fuera tú, consideraría una segunda opinión de otro especialista.",
+  "level": "B2"
+ },
+ {
+  "text": "The hospital is currently understaffed during the flu season.",
+  "translation": "El hospital está actualmente con personal insuficiente durante la temporada de gripe.",
+  "level": "B2"
+ },
+ {
+  "text": "I enjoy hiking and photography as my weekend hobbies.",
+  "translation": "Me gusta hacer senderismo y fotografía como mis pasatiempos de fin de semana.",
+  "level": "B2"
+ },
+ {
+  "text": "The new smartphone has a battery life that lasts all day.",
+  "translation": "El nuevo smartphone tiene una batería que dura todo el día.",
+  "level": "B2"
+ },
+ {
+  "text": "If the situation worsens, we should evacuate the building immediately.",
+  "translation": "Si la situación empeora, deberíamos evacuar el edificio inmediatamente.",
+  "level": "B2"
+ },
+ {
+  "text": "Good morning, it's a pleasure to finally meet you after all these emails.",
+  "translation": "Buenos días, es un placer conocerte finalmente después de todos estos correos.",
+  "level": "C1"
+ },
+ {
+  "text": "I hope you’re doing well; how’s the new project going?",
+  "translation": "Espero que estés bien; ¿cómo va el nuevo proyecto?",
+  "level": "C1"
+ },
+ {
+  "text": "Could you tell me a bit about yourself before we dive into the details?",
+  "translation": "¿Podrías contarme un poco sobre ti antes de sumergirnos en los detalles?",
+  "level": "C1"
+ },
+ {
+  "text": "I’ve heard great things about your team’s work; congratulations on the recent success.",
+  "translation": "He oído cosas estupendas sobre el trabajo de tu equipo; felicidades por el reciente éxito.",
+  "level": "C1"
+ },
+ {
+  "text": "It’s always refreshing to meet someone who shares the same passion for sustainable design.",
+  "translation": "Siempre es refrescante conocer a alguien que comparte la misma pasión por el diseño sostenible.",
+  "level": "C1"
+ },
+ {
+  "text": "Do you have any siblings, or are you an only child like me?",
+  "translation": "¿Tienes hermanos, o eres hijo único como yo?",
+  "level": "C1"
+ },
+ {
+  "text": "My sister is a graphic designer, and my brother works in finance; we’re a bit of a mixed bag.",
+  "translation": "Mi hermana es diseñadora gráfica y mi hermano trabaja en finanzas; somos un poco un conjunto ecléctico.",
+  "level": "C1"
+ },
+ {
+  "text": "I grew up in a small coastal town, so I’ve always loved the sound of waves.",
+  "translation": "Crecí en un pequeño pueblo costero, así que siempre me ha encantado el sonido de las olas.",
+  "level": "C1"
+ },
+ {
+  "text": "We’re currently renovating the kitchen; the new cabinets are almost finished.",
+  "translation": "Actualmente estamos renovando la cocina; los nuevos armarios están casi terminados.",
+  "level": "C1"
+ },
+ {
+  "text": "I prefer a minimalist style—clean lines and neutral colors keep the space calm.",
+  "translation": "Prefiero un estilo minimalista: líneas limpias y colores neutros mantienen el espacio tranquilo.",
+  "level": "C1"
+ },
+ {
+  "text": "What’s your daily routine like on a typical weekday?",
+  "translation": "¿Cómo es tu rutina diaria en un día típico de semana?",
+  "level": "C1"
+ },
+ {
+  "text": "I usually start the day with a brisk walk and a cup of strong coffee.",
+  "translation": "Normalmente comienzo el día con una caminata rápida y una taza de café fuerte.",
+  "level": "C1"
+ },
+ {
+  "text": "After work, I like to unwind by reading a novel or practicing yoga.",
+  "translation": "Después del trabajo, me gusta relajarme leyendo una novela o practicando yoga.",
+  "level": "C1"
+ },
+ {
+  "text": "On weekends, I often host dinner parties for friends and family.",
+  "translation": "Los fines de semana, a menudo organizo cenas para amigos y familia.",
+  "level": "C1"
+ },
+ {
+  "text": "Do you have any hobbies that help you de-stress after a hectic day?",
+  "translation": "¿Tienes algún pasatiempo que te ayude a desestresarte después de un día agitado?",
+  "level": "C1"
+ },
+ {
+  "text": "I enjoy cooking experimental dishes; it’s like a laboratory for flavors.",
+  "translation": "Disfruto cocinar platos experimentales; es como un laboratorio de sabores.",
+  "level": "C1"
+ },
+ {
+  "text": "My mother still lives in the house where I was born, and it feels like a time capsule.",
+  "translation": "Mi madre todavía vive en la casa donde nací, y se siente como una cápsula del tiempo.",
+  "level": "C1"
+ },
+ {
+  "text": "I often visit her on Sundays to catch up over a pot of tea and homemade bread.",
+  "translation": "A menudo la visito los domingos para ponernos al día con una olla de té y pan casero.",
+  "level": "C1"
+ },
+ {
+  "text": "When I’m at home, I like to keep a small herb garden on the balcony for fresh ingredients.",
+  "translation": "Cuando estoy en casa, me gusta mantener un pequeño huerto de hierbas en el balcón para ingredientes frescos.",
+  "level": "C1"
+ },
+ {
+  "text": "Do you prefer a quiet evening at home or going out for a night on the town?",
+  "translation": "¿Prefieres una noche tranquila en casa o salir de noche a la ciudad?",
+  "level": "C1"
+ },
+ {
+  "text": "I think a balanced mix of both keeps life interesting and prevents burnout.",
+  "translation": "Creo que un equilibrio de ambos mantiene la vida interesante y previene el agotamiento.",
+  "level": "C1"
+ },
+ {
+  "text": "The chef's signature dish combines unexpected spices, making every bite a delightful surprise for even the most seasoned palate.",
+  "translation": "El plato estrella del chef combina especias inesperadas, convirtiendo cada bocado en una agradable sorpresa incluso para el paladar más experimentado.",
+  "level": "C1"
+ },
+ {
+  "text": "When the restaurant ran out of the special sauce, the manager offered us complimentary desserts as an apology.",
+  "translation": "Cuando el restaurante se quedó sin la salsa especial, el gerente nos ofreció postres de cortesía como disculpa.",
+  "level": "C1"
+ },
+ {
+  "text": "Could you recommend a quiet table by the window where we can enjoy the sunset while dining?",
+  "translation": "¿Podrías recomendar una mesa tranquila junto a la ventana donde podamos disfrutar del atardecer mientras cenamos?",
+  "level": "C1"
+ },
+ {
+  "text": "I prefer to shop at boutique stores that prioritize sustainable fabrics over mass‑produced fast fashion.",
+  "translation": "Prefiero comprar en boutiques que priorizan telas sostenibles en lugar de la moda rápida producida en masa.",
+  "level": "C1"
+ },
+ {
+  "text": "After comparing prices, I realized the market stalls offered fresher produce for half the cost of the supermarket.",
+  "translation": "Después de comparar precios, me di cuenta de que los puestos del mercado ofrecían productos más frescos por la mitad del costo del supermercado.",
+  "level": "C1"
+ },
+ {
+  "text": "The waiter whispered that today's soup of the day contains a secret herb, enhancing its aroma dramatically.",
+  "translation": "El camarero susurró que la sopa del día contiene una hierba secreta, lo que realza su aroma de forma dramática.",
+  "level": "C1"
+ },
+ {
+  "text": "If you exchange your loyalty points now, you could snag a free entrée during the weekend brunch rush.",
+  "translation": "Si canjeas tus puntos de fidelidad ahora, podrías conseguir una entrada gratuita durante el ajetreo del brunch del fin de semana.",
+  "level": "C1"
+ },
+ {
+  "text": "She tried on the silk scarf, noting how its vibrant pattern complemented the deep navy suit perfectly.",
+  "translation": "Se probó la bufanda de seda, notando cómo su patrón vibrante complementaba perfectamente al traje azul marino.",
+  "level": "C1"
+ },
+ {
+  "text": "Do you think the price hike on organic avocados is justified, given their limited seasonal availability?",
+  "translation": "¿Crees que el aumento de precio de los aguacates orgánicos está justificado, dada su limitada disponibilidad estacional?",
+  "level": "C1"
+ },
+ {
+  "text": "The street vendor's taco stand always draws a crowd, thanks to its legendary homemade salsa verde.",
+  "translation": "El puesto de tacos del vendedor ambulante siempre atrae a una multitud, gracias a su legendaria salsa verde casera.",
+  "level": "C1"
+ },
+ {
+  "text": "When I paid with cash, the cashier offered a small discount, a practice common in many local markets.",
+  "translation": "Al pagar en efectivo, el cajero ofreció un pequeño descuento, una práctica común en muchos mercados locales.",
+  "level": "C1"
+ },
+ {
+  "text": "She asked the tailor to adjust the hem of her coat so it would fall just above the knee, ensuring elegance.",
+  "translation": "Pidió al sastre que ajustara el dobladillo de su abrigo para que quedara justo por encima de la rodilla, asegurando elegancia.",
+  "level": "C1"
+ },
+ {
+  "text": "Would you mind splitting the bill evenly, or should we calculate each person's order individually?",
+  "translation": "¿Te importaría dividir la cuenta por igual, o deberíamos calcular individualmente el pedido de cada persona?",
+  "level": "C1"
+ },
+ {
+  "text": "The new pop‑up restaurant downtown features a rotating menu that changes weekly, keeping diners intrigued.",
+  "translation": "El nuevo restaurante pop‑up del centro presenta un menú rotativo que cambia semanalmente, manteniendo intrigados a los comensales.",
+  "level": "C1"
+ },
+ {
+  "text": "I saved enough money to splurge on a designer handbag, but I settled for a high‑quality leather tote instead.",
+  "translation": "Ahorré suficiente dinero para darme el gusto de una bolsa de diseñador, pero me decidí por un bolso de cuero de alta calidad.",
+  "level": "C1"
+ },
+ {
+  "text": "Can you suggest a dish that balances sweet and savory flavors without being overly heavy?",
+  "translation": "¿Puedes sugerir un plato que equilibre sabores dulces y salados sin ser demasiado pesado?",
+  "level": "C1"
+ },
+ {
+  "text": "The cashier mistakenly gave me too much change, and I returned it, appreciating the honesty of the staff.",
+  "translation": "El cajero me dio por error demasiado cambio, y lo devolví, apreciando la honestidad del personal.",
+  "level": "C1"
+ },
+ {
+  "text": "She paired her crisp white shirt with a bold, patterned tie, creating a striking contrast for the interview.",
+  "translation": "Combinó su camisa blanca impecable con una corbata audaz y estampada, creando un contraste llamativo para la entrevista.",
+  "level": "C1"
+ },
+ {
+  "text": "Despite the long wait, the restaurant's live jazz band made the dining experience unforgettable.",
+  "translation": "A pesar de la larga espera, la banda de jazz en vivo del restaurante hizo que la experiencia gastronómica fuera inolvidable.",
+  "level": "C1"
+ },
+ {
+  "text": "I always check the exchange rate before buying souvenirs abroad to avoid overpaying for trinkets.",
+  "translation": "Siempre reviso el tipo de cambio antes de comprar recuerdos en el extranjero para evitar pagar de más por baratijas.",
+  "level": "C1"
+ },
+ {
+  "text": "The flight was delayed due to unexpected thunderstorms, so we had to rearrange our hotel reservations at the last minute.",
+  "translation": "El vuelo se retrasó por tormentas inesperadas, así que tuvimos que reorganizar nuestras reservas de hotel en el último momento.",
+  "level": "C1"
+ },
+ {
+  "text": "Could you point me to the nearest subway station that connects directly to the airport terminal?",
+  "translation": "¿Podrías indicarme la estación de metro más cercana que conecta directamente con la terminal del aeropuerto?",
+  "level": "C1"
+ },
+ {
+  "text": "I prefer staying in boutique hotels because they usually offer a more personalized service than large chains.",
+  "translation": "Prefiero alojarme en hoteles boutique porque suelen ofrecer un servicio más personalizado que las grandes cadenas.",
+  "level": "C1"
+ },
+ {
+  "text": "After a long road trip, we finally found a charming inn tucked away in the mountains, perfect for a restful night.",
+  "translation": "Después de un largo viaje por carretera, finalmente encontramos una encantadora posada escondida en las montañas, perfecta para una noche de descanso.",
+  "level": "C1"
+ },
+ {
+  "text": "The weather forecast predicts a sudden drop in temperature tonight, so bring a warm jacket for the evening stroll.",
+  "translation": "El pronóstico del tiempo indica una caída repentina de la temperatura esta noche, así que lleva una chaqueta abrigada para el paseo vespertino.",
+  "level": "C1"
+ },
+ {
+  "text": "Do you know if the city’s tram system accepts contactless payment, or do we need to buy tickets in advance?",
+  "translation": "¿Sabes si el tranvía de la ciudad acepta pagos sin contacto, o necesitamos comprar los billetes con antelación?",
+  "level": "C1"
+ },
+ {
+  "text": "We missed the early train, but the staff at the station kindly helped us book a later departure without extra charge.",
+  "translation": "Perdimos el tren temprano, pero el personal de la estación amablemente nos ayudó a reservar una salida más tarde sin cargo adicional.",
+  "level": "C1"
+ },
+ {
+  "text": "When navigating the old town, watch out for narrow alleys that suddenly open onto bustling plazas.",
+  "translation": "Al recorrer el casco antiguo, ten cuidado con los callejones estrechos que de repente se abren a plazas animadas.",
+  "level": "C1"
+ },
+ {
+  "text": "The airline offered complimentary lounge access as compensation for the overbooked flight, which was a pleasant surprise.",
+  "translation": "La aerolínea ofreció acceso gratuito a la sala VIP como compensación por el vuelo sobrevendido, lo cual fue una grata sorpresa.",
+  "level": "C1"
+ },
+ {
+  "text": "Could you recommend a reliable car‑rental agency that provides GPS units with multilingual voice prompts?",
+  "translation": "¿Podrías recomendar una agencia de alquiler de coches fiable que proporcione unidades GPS con indicaciones de voz multilingüe?",
+  "level": "C1"
+ },
+ {
+  "text": "Despite the heavy rain, the city’s bus network ran on schedule, making it easy to reach the museum on time.",
+  "translation": "A pesar de la fuerte lluvia, la red de autobuses de la ciudad funcionó a tiempo, facilitando llegar al museo puntualmente.",
+  "level": "C1"
+ },
+ {
+  "text": "The hotel’s rooftop terrace offers a panoramic view of the skyline, especially stunning at sunset.",
+  "translation": "La terraza del hotel ofrece una vista panorámica del horizonte, especialmente impresionante al atardecer.",
+  "level": "C1"
+ },
+ {
+  "text": "If you’re traveling during peak season, it’s wise to book your train tickets weeks ahead to avoid sold‑out carriages.",
+  "translation": "Si viajas en temporada alta, es prudente reservar los billetes de tren con semanas de antelación para evitar vagones agotados.",
+  "level": "C1"
+ },
+ {
+  "text": "The airport’s information desk provided a detailed map showing the quickest route to the baggage claim area.",
+  "translation": "El mostrador de información del aeropuerto entregó un mapa detallado que muestra la ruta más rápida a la zona de recogida de equipaje.",
+  "level": "C1"
+ },
+ {
+  "text": "We took a scenic ferry across the bay, which allowed us to admire the coastline while avoiding traffic jams.",
+  "translation": "Tomamos un ferry escénico a través de la bahía, lo que nos permitió admirar la costa mientras evitábamos los atascos.",
+  "level": "C1"
+ },
+ {
+  "text": "Do you think it’s better to travel light with just a carry‑on, or should we pack a checked bag for souvenirs?",
+  "translation": "¿Crees que es mejor viajar ligero con solo equipaje de mano, o deberíamos facturar una maleta para los recuerdos?",
+  "level": "C1"
+ },
+ {
+  "text": "The sudden snowstorm forced the highway to close, so we diverted through a smaller, winding road that offered breathtaking views.",
+  "translation": "La repentina tormenta de nieve obligó al cierre de la autopista, así que nos desviamos por una carretera más pequeña y sinuosa que ofrecía vistas impresionantes.",
+  "level": "C1"
+ },
+ {
+  "text": "At the hotel, the concierge arranged a private tour of the historic district, complete with a local guide fluent in English.",
+  "translation": "En el hotel, el conserje organizó un tour privado del distrito histórico, con un guía local que habla inglés fluidamente.",
+  "level": "C1"
+ },
+ {
+  "text": "Can you tell me whether the airport shuttle runs 24 hours, or does it operate only during daylight?",
+  "translation": "¿Puedes decirme si el shuttle del aeropuerto funciona las 24 horas, o solo opera durante el día?",
+  "level": "C1"
+ },
+ {
+  "text": "The forecast calls for clear skies tomorrow, making it an ideal day for a bike ride along the coastal promenade.",
+  "translation": "El pronóstico indica cielos despejados mañana, lo que lo convierte en un día ideal para un paseo en bicicleta por el paseo costero.",
+  "level": "C1"
+ },
+ {
+  "text": "Despite the looming deadline, she managed to finish the report without compromising the quality of her analysis.",
+  "translation": "A pesar de la fecha límite inminente, ella logró terminar el informe sin comprometer la calidad de su análisis.",
+  "level": "C1"
+ },
+ {
+  "text": "He’s been juggling a part‑time job and a master's program, which leaves him exhausted but motivated.",
+  "translation": "Él ha estado combinando un trabajo a tiempo parcial y un programa de maestría, lo que lo deja exhausto pero motivado.",
+  "level": "C1"
+ },
+ {
+  "text": "When the server crashed during the presentation, the IT team improvised a backup plan within minutes.",
+  "translation": "Cuando el servidor se cayó durante la presentación, el equipo de TI improvisó un plan de respaldo en cuestión de minutos.",
+  "level": "C1"
+ },
+ {
+  "text": "She felt a sudden wave of anxiety before the interview, yet she answered every question with poise.",
+  "translation": "Sintió una oleada repentina de ansiedad antes de la entrevista, pero respondió a cada pregunta con aplomo.",
+  "level": "C1"
+ },
+ {
+  "text": "The doctor recommended a balanced diet and regular cardio to lower his cholesterol levels effectively.",
+  "translation": "El médico recomendó una dieta equilibrada y cardio regular para reducir sus niveles de colesterol de manera eficaz.",
+  "level": "C1"
+ },
+ {
+  "text": "In case of a fire, evacuate the building calmly and meet at the designated assembly point.",
+  "translation": "En caso de incendio, evacúe el edificio con calma y reúnase en el punto de reunión designado.",
+  "level": "C1"
+ },
+ {
+  "text": "She’s taken up woodworking as a hobby, finding the tactile process therapeutic after long workdays.",
+  "translation": "Ha empezado la carpintería como pasatiempo, encontrando el proceso táctil terapéutico después de largas jornadas laborales.",
+  "level": "C1"
+ },
+ {
+  "text": "If you’re feeling unwell, it’s wiser to consult a physician rather than self‑diagnosing online.",
+  "translation": "Si te sientes mal, es más prudente consultar a un médico en lugar de autodiagnosticarte en línea.",
+  "level": "C1"
+ },
+ {
+  "text": "The conference highlighted how artificial intelligence is reshaping traditional marketing strategies worldwide.",
+  "translation": "La conferencia destacó cómo la inteligencia artificial está reformulando las estrategias de marketing tradicionales a nivel mundial.",
+  "level": "C1"
+ },
+ {
+  "text": "During the emergency drill, participants practiced administering CPR and using an automated defibrillator.",
+  "translation": "Durante el simulacro de emergencia, los participantes practicaron la administración de RCP y el uso de un desfibrilador automático.",
+  "level": "C1"
+ },
+ {
+  "text": "He confessed that the pressure at work sometimes makes him question his career choices.",
+  "translation": "Confesó que la presión en el trabajo a veces le hace cuestionar sus elecciones profesionales.",
+  "level": "C1"
+ },
+ {
+  "text": "She asked her professor for clarification on the thesis guidelines, ensuring she met all the requirements.",
+  "translation": "Le pidió a su profesor una aclaración sobre las directrices de la tesis, asegurándose de cumplir todos los requisitos.",
+  "level": "C1"
+ },
+ {
+  "text": "The new software update promises faster load times, but some users report unexpected glitches.",
+  "translation": "La nueva actualización del software promete tiempos de carga más rápidos, pero algunos usuarios informan fallos inesperados.",
+  "level": "C1"
+ },
+ {
+  "text": "After the marathon, his doctor advised a week of rest to prevent overuse injuries.",
+  "translation": "Después del maratón, su médico aconsejó una semana de descanso para prevenir lesiones por sobreuso.",
+  "level": "C1"
+ },
+ {
+  "text": "When the power outage hit, the team switched to manual calculations to keep the project on track.",
+  "translation": "Cuando se produjo el corte de energía, el equipo pasó a cálculos manuales para mantener el proyecto en marcha.",
+  "level": "C1"
+ },
+ {
+  "text": "She expressed genuine gratitude to her mentors, acknowledging how they shaped her professional growth.",
+  "translation": "Expresó una gratitud sincera a sus mentores, reconociendo cómo moldearon su crecimiento profesional.",
+  "level": "C1"
+ },
+ {
+  "text": "If you encounter a data breach, report it immediately to the security department and change all passwords.",
+  "translation": "Si encuentras una brecha de datos, repórtala inmediatamente al departamento de seguridad y cambia todas las contraseñas.",
+  "level": "C1"
+ },
+ {
+  "text": "He feels a lingering sense of relief after the crisis was averted, though the stress lingers.",
+  "translation": "Siente una sensación persistente de alivio después de que se evitó la crisis, aunque el estrés persiste.",
+  "level": "C1"
+ },
+ {
+  "text": "She’s learning to code in Python, hoping it will open doors to more flexible freelance projects.",
+  "translation": "Está aprendiendo a programar en Python, esperando que le abra puertas a proyectos freelance más flexibles.",
+  "level": "C1"
+ },
+ {
+  "text": "During the health check‑up, the doctor emphasized the importance of regular sleep patterns for mental well‑being.",
+  "translation": "Durante el chequeo de salud, el médico enfatizó la importancia de patrones de sueño regulares para el bienestar mental.",
+  "level": "C1"
+ }
+]

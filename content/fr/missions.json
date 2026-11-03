@@ -1,0 +1,251 @@
+{
+  "campaigns": [
+    {
+      "id": "fr-paris",
+      "title": "Opération Paris",
+      "description": "Nueva asignación: París. Nadie te hablará en español. Sobrevive a la vida diaria, muévete por la ciudad y cumple tu objetivo final.",
+      "missions": [
+        {
+          "id": "fr-01-boulangerie",
+          "level": "A1",
+          "title": "La panadería",
+          "location": "Boulangerie en Montmartre",
+          "briefing": "Tu primera mañana en París. Compra una baguette y dos croissants, pregunta el precio y paga. Saluda siempre al entrar: en Francia es obligatorio.",
+          "character": {"name": "Madame Dubois", "role": "boulangère", "personality": "amable pero exige cortesía (bonjour, s'il vous plaît)", "voice": "fr-FR-DeniseNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Saluda (bonjour)"},
+            {"id": "o2", "text": "Pide una baguette y dos croissants"},
+            {"id": "o3", "text": "Pregunta cuánto es"},
+            {"id": "o4", "text": "Paga y despídete"}
+          ],
+          "secret": "Baguette 1,30 €, croissant 1,40 € each, total 4,10 €. If the learner does not say 'bonjour' first, reply coldly 'Bonjour...?' and wait. Ask if they want anything else ('Avec ceci?').",
+          "complication": "Say there are no more croissants nature, only croissants aux amandes or pains au chocolat.",
+          "opening": "Bonjour ! Qu'est-ce que je vous sers ?",
+          "useful_phrases": [
+            {"t": "Bonjour madame !", "es": "¡Buenos días, señora!"},
+            {"t": "Je voudrais une baguette, s'il vous plaît.", "es": "Quisiera una baguette, por favor."},
+            {"t": "Ça fait combien ?", "es": "¿Cuánto es?"},
+            {"t": "Merci, bonne journée !", "es": "¡Gracias, buen día!"}
+          ],
+          "max_turns": 12
+        },
+        {
+          "id": "fr-02-metro",
+          "level": "A1",
+          "title": "El metro",
+          "location": "Estación de metro Gare du Nord — taquilla",
+          "briefing": "Necesitas ir a la Torre Eiffel. Compra billetes y averigua qué línea tomar y dónde bajar.",
+          "character": {"name": "Karim", "role": "agent RATP at the ticket desk", "personality": "rápido, algo cansado, habla claro", "voice": "fr-FR-HenriNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Pide billetes de metro"},
+            {"id": "o2", "text": "Pregunta el precio"},
+            {"id": "o3", "text": "Pregunta cómo ir a la Torre Eiffel"},
+            {"id": "o4", "text": "Averigua en qué estación bajar"}
+          ],
+          "secret": "One ticket 2,50 €, a carnet of 10 for 19 €. Take RER B to Saint-Michel, then RER C to 'Champ de Mars – Tour Eiffel'. About 30 minutes. Only reveal the route if asked.",
+          "complication": "Suggest the carnet of 10 tickets because it's cheaper.",
+          "opening": "Bonjour. Je vous écoute.",
+          "useful_phrases": [
+            {"t": "Un ticket, s'il vous plaît.", "es": "Un billete, por favor."},
+            {"t": "Comment je vais à la tour Eiffel ?", "es": "¿Cómo voy a la Torre Eiffel?"},
+            {"t": "Je descends à quelle station ?", "es": "¿En qué estación me bajo?"},
+            {"t": "Vous pouvez répéter, s'il vous plaît ?", "es": "¿Puede repetir, por favor?"}
+          ],
+          "max_turns": 12
+        },
+        {
+          "id": "fr-03-hotel",
+          "level": "A1",
+          "title": "El hotel",
+          "location": "Hôtel des Arts — réception",
+          "briefing": "Haz el check-in (reserva de 5 noches a tu nombre). Consigue el código del wifi y averigua hasta qué hora se sirve el desayuno.",
+          "character": {"name": "Julien", "role": "réceptionniste", "personality": "educado, formal, usa 'vous'", "voice": "fr-BE-GerardNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Di que tienes una reserva"},
+            {"id": "o2", "text": "Deletrea tu apellido"},
+            {"id": "o3", "text": "Pide el código del wifi"},
+            {"id": "o4", "text": "Pregunta por el desayuno"}
+          ],
+          "secret": "Ask them to spell their name. Room 12, second floor. Wifi code: MONTMARTRE75. Breakfast 7h-10h30, 12 € (not included). Only give wifi/breakfast if asked.",
+          "complication": "Say breakfast is not included and costs 12 €.",
+          "opening": "Bonsoir et bienvenue à l'Hôtel des Arts. Vous avez une réservation ?",
+          "useful_phrases": [
+            {"t": "J'ai une réservation au nom de...", "es": "Tengo una reserva a nombre de..."},
+            {"t": "Ça s'écrit...", "es": "Se escribe..."},
+            {"t": "Quel est le code wifi ?", "es": "¿Cuál es el código del wifi?"},
+            {"t": "Le petit-déjeuner est à quelle heure ?", "es": "¿A qué hora es el desayuno?"}
+          ],
+          "max_turns": 12
+        },
+        {
+          "id": "fr-04-cafe",
+          "level": "A2",
+          "title": "En el café",
+          "location": "Terraza de un café en el Marais",
+          "briefing": "Espera a tu contacto. Pide algo de beber y de comer, pregunta dónde está el baño y pide la cuenta al final.",
+          "character": {"name": "Antoine", "role": "serveur parisien", "personality": "un poco brusco y con prisa, típico camarero parisino, pero se suaviza si eres educado", "voice": "fr-FR-HenriNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Pide una bebida"},
+            {"id": "o2", "text": "Pide algo de comer"},
+            {"id": "o3", "text": "Pregunta dónde está el baño"},
+            {"id": "o4", "text": "Pide la cuenta"}
+          ],
+          "secret": "Menu: café 2,50 €, café crème 4 €, thé 4 €, croque-monsieur 9 €, salade niçoise 14 €, quiche lorraine 10 €. Toilets downstairs (au sous-sol), on the left. Today the quiche is finished.",
+          "complication": "Say the quiche is finished ('Il n'y en a plus').",
+          "opening": "Bonjour. Vous avez choisi ?",
+          "useful_phrases": [
+            {"t": "Je vais prendre un café crème.", "es": "Voy a tomar un café con leche."},
+            {"t": "Où sont les toilettes ?", "es": "¿Dónde está el baño?"},
+            {"t": "L'addition, s'il vous plaît.", "es": "La cuenta, por favor."},
+            {"t": "Qu'est-ce que vous me conseillez ?", "es": "¿Qué me recomienda?"}
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "fr-05-directions",
+          "level": "A2",
+          "title": "Pedir indicaciones",
+          "location": "Calle cerca de la Place de la République",
+          "briefing": "Tienes que enviar un paquete urgente. Encuentra la oficina de correos (La Poste) preguntando a alguien, y confirma la ruta repitiéndola.",
+          "character": {"name": "Chloé", "role": "étudiante qui passe dans la rue", "personality": "simpática, habla rápido y con expresiones jóvenes", "voice": "fr-FR-EloiseNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Pide ayuda con educación (excusez-moi)"},
+            {"id": "o2", "text": "Pregunta dónde está La Poste"},
+            {"id": "o3", "text": "Repite las indicaciones"},
+            {"id": "o4", "text": "Pregunta si está lejos"}
+          ],
+          "secret": "La Poste: tout droit jusqu'au feu, puis à droite, c'est à côté de la pharmacie, en face du cinéma. Environ 5 minutes à pied. Correct the learner if they repeat wrongly.",
+          "complication": "Mention that La Poste closes at 19h, in 20 minutes.",
+          "opening": "Oui ? Je peux vous aider ?",
+          "useful_phrases": [
+            {"t": "Excusez-moi, où est la poste ?", "es": "Disculpe, ¿dónde está correos?"},
+            {"t": "C'est loin ?", "es": "¿Está lejos?"},
+            {"t": "Donc, je vais tout droit et je tourne à droite ?", "es": "Entonces voy recto y giro a la derecha?"},
+            {"t": "Merci beaucoup !", "es": "¡Muchas gracias!"}
+          ],
+          "max_turns": 12
+        },
+        {
+          "id": "fr-06-pharmacie",
+          "level": "A2",
+          "title": "La farmacia",
+          "location": "Pharmacie de la croix verte",
+          "briefing": "Tienes dolor de garganta y tos. Explica los síntomas, consigue un medicamento y entiende cómo tomarlo.",
+          "character": {"name": "Docteur Martin", "role": "pharmacienne", "personality": "profesional, hace preguntas precisas", "voice": "fr-CH-ArianeNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Describe tus síntomas"},
+            {"id": "o2", "text": "Di desde cuándo"},
+            {"id": "o3", "text": "Averigua cómo tomar el medicamento"},
+            {"id": "o4", "text": "Pregunta el precio"}
+          ],
+          "secret": "Ask about fever and allergies. Recommend pastilles for the throat (one every 2 hours, max 8 per day) and a syrup for cough (one spoon three times a day). Total 11,50 €. If fever > 3 days, see a doctor.",
+          "complication": "Ask if they have fever or allergies.",
+          "opening": "Bonjour, qu'est-ce qui vous amène ?",
+          "useful_phrases": [
+            {"t": "J'ai mal à la gorge et je tousse.", "es": "Me duele la garganta y tengo tos."},
+            {"t": "Depuis deux jours.", "es": "Desde hace dos días."},
+            {"t": "Combien de fois par jour ?", "es": "¿Cuántas veces al día?"},
+            {"t": "Je suis allergique à...", "es": "Soy alérgico a..."}
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "fr-07-marche",
+          "level": "A2",
+          "title": "En el mercado",
+          "location": "Marché d'Aligre",
+          "briefing": "Compra fruta y verdura para la semana con 10 €: un kilo de tomates, manzanas y algo de queso. Pregunta precios y de dónde vienen los productos.",
+          "character": {"name": "Marcel", "role": "marchand de fruits et légumes", "personality": "bromista, ruidoso, te intenta vender más de lo que pides", "voice": "fr-CA-JeanNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Pide un kilo de tomates"},
+            {"id": "o2", "text": "Pregunta el precio de las manzanas"},
+            {"id": "o3", "text": "Pregunta de dónde vienen los productos"},
+            {"id": "o4", "text": "Ajusta la compra para no pasar de 10 €"}
+          ],
+          "secret": "Tomates 3,50 €/kg, pommes 2,80 €/kg, fromage (comté) 4 € les 100 g. Tomatoes from Provence, apples from Normandy. Try to sell strawberries (5 €). Total must stay under 10 €.",
+          "complication": "Insist on selling strawberries 'super bonnes aujourd'hui'.",
+          "opening": "Allez allez, elles sont belles mes tomates ! Qu'est-ce qu'il vous faut ?",
+          "useful_phrases": [
+            {"t": "Un kilo de tomates, s'il vous plaît.", "es": "Un kilo de tomates, por favor."},
+            {"t": "Elles viennent d'où ?", "es": "¿De dónde vienen?"},
+            {"t": "C'est tout, merci.", "es": "Es todo, gracias."},
+            {"t": "Non merci, ça ira.", "es": "No gracias, así está bien."}
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "fr-08-gare",
+          "level": "B1",
+          "title": "Huelga de trenes",
+          "location": "Gare de Lyon — guichet SNCF",
+          "briefing": "Tenías un tren a Lyon a las 14h pero hay huelga (grève) y está cancelado. Consigue otro billete para hoy, sin pagar más, y averigua el andén.",
+          "character": {"name": "Nathalie", "role": "agent SNCF au guichet", "personality": "estresada por la huelga, cansada, pero quiere ayudar", "voice": "fr-FR-DeniseNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Explica que tu tren fue cancelado"},
+            {"id": "o2", "text": "Pide otro tren para hoy"},
+            {"id": "o3", "text": "Asegúrate de no pagar suplemento"},
+            {"id": "o4", "text": "Averigua el andén y la hora"}
+          ],
+          "secret": "Next trains: 16h12 (full), 17h46 (seats available, voie 11), 19h04. The exchange is free because of the strike, but you will first say there is a 15 € supplement for the 17h46 until the learner mentions the strike/cancellation clearly.",
+          "complication": "Claim there is a 15 € supplement.",
+          "opening": "Bonjour. C'est pour un échange ? Avec la grève, il y a beaucoup de monde...",
+          "useful_phrases": [
+            {"t": "Mon train a été annulé à cause de la grève.", "es": "Mi tren fue cancelado por la huelga."},
+            {"t": "Est-ce qu'il y a un autre train aujourd'hui ?", "es": "¿Hay otro tren hoy?"},
+            {"t": "Je ne devrais pas payer de supplément.", "es": "No debería pagar suplemento."},
+            {"t": "Le train part de quelle voie ?", "es": "¿De qué andén sale el tren?"}
+          ],
+          "max_turns": 16
+        },
+        {
+          "id": "fr-09-medecin",
+          "level": "B1",
+          "title": "Cita con el médico",
+          "location": "Llamada telefónica a una consulta médica",
+          "briefing": "Necesitas una cita con el médico esta semana. Llama, explica el motivo, encuentra un horario compatible (estás ocupado mañana por la mañana) y apunta la dirección.",
+          "character": {"name": "Sophie", "role": "secrétaire médicale au téléphone", "personality": "organizada, rápida, pide datos personales", "voice": "fr-CA-SylvieNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Explica que quieres una cita y por qué"},
+            {"id": "o2", "text": "Rechaza un horario que no te va"},
+            {"id": "o3", "text": "Acepta una cita esta semana"},
+            {"id": "o4", "text": "Consigue la dirección de la consulta"}
+          ],
+          "secret": "Available: tomorrow 9h, Thursday 15h30, Friday 11h. Ask for name and phone. Address: 24 rue de Rivoli, 3ème étage, code de la porte 4512B. Only give the address/code if asked.",
+          "complication": "First offer only tomorrow 9h.",
+          "opening": "Cabinet du docteur Lambert, bonjour.",
+          "useful_phrases": [
+            {"t": "Je voudrais prendre rendez-vous.", "es": "Quisiera pedir una cita."},
+            {"t": "Demain matin, ce n'est pas possible pour moi.", "es": "Mañana por la mañana no me va."},
+            {"t": "Jeudi, ça me va très bien.", "es": "El jueves me viene muy bien."},
+            {"t": "Quelle est l'adresse exacte ?", "es": "¿Cuál es la dirección exacta?"}
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "fr-10-appart",
+          "level": "B2",
+          "title": "Misión final: el apartamento",
+          "location": "Visita a un apartamento en el 11ème",
+          "briefing": "Misión final: instalarte en París por un año. Presupuesto máximo: 1.100 € al mes con gastos incluidos. Pregunta alquiler, gastos, depósito, documentos necesarios, y negocia.",
+          "character": {"name": "Monsieur Girard", "role": "agent immobilier", "personality": "comercial, vende el piso con entusiasmo, evita hablar de los gastos", "voice": "fr-FR-HenriNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Pregunta el alquiler y si los gastos (charges) están incluidos"},
+            {"id": "o2", "text": "Pregunta por el depósito (caution)"},
+            {"id": "o3", "text": "Averigua qué documentos necesitas"},
+            {"id": "o4", "text": "Negocia hasta entrar en tu presupuesto"}
+          ],
+          "secret": "Loyer 980 € hors charges, charges 120 €/month, caution = 1 month, agency fees 800 €. Documents: passport, last 3 payslips, a guarantor (garant) or Visale. You accept 1,050 € charges comprises if the learner negotiates well (e.g., signing for 2 years or paying 2 months in advance).",
+          "complication": "Mention that many people want the apartment and you need an answer today.",
+          "opening": "Bonjour ! Entrez, je vous en prie. Alors, voilà le salon, très lumineux, n'est-ce pas ?",
+          "useful_phrases": [
+            {"t": "Le loyer est charges comprises ?", "es": "¿El alquiler incluye gastos?"},
+            {"t": "Quel est le montant de la caution ?", "es": "¿Cuánto es el depósito?"},
+            {"t": "Quels documents faut-il fournir ?", "es": "¿Qué documentos hay que aportar?"},
+            {"t": "Est-ce que vous pourriez baisser un peu le prix ?", "es": "¿Podría bajar un poco el precio?"}
+          ],
+          "max_turns": 18
+        }
+      ]
+    }
+  ]
+}

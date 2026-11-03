@@ -1,0 +1,323 @@
+{
+  "campaigns": [
+    {
+      "id": "en-london",
+      "title": "Operación Londres",
+      "description": "Te infiltran en Londres sin nadie que hable español. Para completar la operación tendrás que sobrevivir, moverte, conseguir información y, al final, conseguir trabajo. Cada misión desbloquea la siguiente.",
+      "missions": [
+        {
+          "id": "en-01-border",
+          "level": "A1",
+          "title": "Control fronterizo",
+          "location": "Aeropuerto de Heathrow — control de pasaportes",
+          "briefing": "Acabas de aterrizar. El oficial de fronteras decidirá si entras al país. Responde con calma y claridad. Tu cobertura: vienes de vacaciones por 10 días y te alojas en el Hotel Riverside.",
+          "character": {"name": "Officer Hughes", "role": "UK border control officer", "personality": "formal, efficient, a bit serious, speaks clearly", "voice": "en-GB-RyanNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Saluda y entrega tu pasaporte"},
+            {"id": "o2", "text": "Explica el motivo de tu viaje"},
+            {"id": "o3", "text": "Di cuántos días te quedarás"},
+            {"id": "o4", "text": "Di dónde te alojarás"}
+          ],
+          "secret": "You will ask: purpose of the visit, how long, where they are staying, and if they have a return ticket. If the answers are clear you stamp the passport and say 'Welcome to the UK'. If the learner says something confusing, ask again more slowly.",
+          "complication": "After the third answer, ask to see the return ticket or ask what they do for work.",
+          "opening": "Good morning. Passport, please.",
+          "useful_phrases": [
+            {"t": "Here is my passport.", "es": "Aquí tiene mi pasaporte."},
+            {"t": "I'm here on holiday.", "es": "Estoy aquí de vacaciones."},
+            {"t": "I'm staying for ten days.", "es": "Me quedo diez días."},
+            {"t": "I'm staying at the Riverside Hotel.", "es": "Me alojo en el Hotel Riverside."}
+          ],
+          "max_turns": 12
+        },
+        {
+          "id": "en-02-underground",
+          "level": "A1",
+          "title": "El metro",
+          "location": "Estación de metro de Heathrow — taquilla",
+          "briefing": "Necesitas llegar al centro. Compra un billete o tarjeta para ir a King's Cross. Averigua el precio, en qué línea ir y si debes cambiar de tren.",
+          "character": {"name": "Sam", "role": "London Underground ticket office worker", "personality": "friendly, quick, uses casual British English", "voice": "en-GB-SoniaNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Pide un billete a King's Cross"},
+            {"id": "o2", "text": "Pregunta el precio"},
+            {"id": "o3", "text": "Pregunta qué línea tomar"},
+            {"id": "o4", "text": "Averigua si tienes que cambiar de tren"}
+          ],
+          "secret": "A single ticket costs £5.60, an Oyster card needs a £7 deposit. Take the Piccadilly line (dark blue) directly to King's Cross St Pancras — NO change needed, about 50 minutes. Only reveal the line and the change info if asked.",
+          "complication": "Mention that contactless bank cards also work and ask if they want to pay by card or cash.",
+          "opening": "Hiya, how can I help?",
+          "useful_phrases": [
+            {"t": "A single ticket to King's Cross, please.", "es": "Un billete de ida a King's Cross, por favor."},
+            {"t": "How much is it?", "es": "¿Cuánto cuesta?"},
+            {"t": "Which line do I take?", "es": "¿Qué línea tomo?"},
+            {"t": "Do I need to change trains?", "es": "¿Tengo que cambiar de tren?"}
+          ],
+          "max_turns": 12
+        },
+        {
+          "id": "en-03-hotel",
+          "level": "A1",
+          "title": "Check-in en el hotel",
+          "location": "Hotel Riverside — recepción",
+          "briefing": "Haz el check-in. Tu reserva está a tu nombre por 10 noches. Consigue la contraseña del wifi y la hora del desayuno.",
+          "character": {"name": "Priya", "role": "hotel receptionist", "personality": "polite, professional, warm", "voice": "en-IN-NeerjaNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Di que tienes una reserva y da tu nombre"},
+            {"id": "o2", "text": "Resuelve el problema con la reserva"},
+            {"id": "o3", "text": "Consigue la contraseña del wifi"},
+            {"id": "o4", "text": "Averigua a qué hora es el desayuno"}
+          ],
+          "secret": "At first you cannot find the reservation. The learner must spell their surname letter by letter, then you find it (it was misspelled). Room 304, third floor. Wifi password: THAMES2024. Breakfast 7 to 10 am in the garden room. Only give wifi and breakfast info if asked.",
+          "complication": "You cannot find the booking under that name — ask them to spell it.",
+          "opening": "Good evening, welcome to the Riverside Hotel. How can I help you?",
+          "useful_phrases": [
+            {"t": "I have a reservation under the name...", "es": "Tengo una reserva a nombre de..."},
+            {"t": "Let me spell it: ...", "es": "Se lo deletreo: ..."},
+            {"t": "What's the wifi password?", "es": "¿Cuál es la contraseña del wifi?"},
+            {"t": "What time is breakfast?", "es": "¿A qué hora es el desayuno?"}
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "en-04-coffee",
+          "level": "A2",
+          "title": "Pedido en la cafetería",
+          "location": "Cafetería en Camden",
+          "briefing": "Pide un café y algo de comer adaptado a tus gustos. Eres alérgico a los frutos secos: asegúrate de que lo que pides no los tiene. Paga y pide la cuenta.",
+          "character": {"name": "Jake", "role": "barista at a busy coffee shop", "personality": "chatty, energetic, talks a bit fast, uses 'mate'", "voice": "en-AU-WilliamNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Pide una bebida con algún cambio (tamaño, leche...)"},
+            {"id": "o2", "text": "Pide algo de comer"},
+            {"id": "o3", "text": "Pregunta si tiene frutos secos (nuts)"},
+            {"id": "o4", "text": "Paga y despídete"}
+          ],
+          "secret": "Today there is NO oat milk (only soy, almond, whole and skimmed). The banana bread contains walnuts; the cheese toastie and the croissant have no nuts. A medium latte is £3.80, croissant £2.50, toastie £5.",
+          "complication": "Say oat milk is sold out if they ask for it, or ask 'to have here or take away?'.",
+          "opening": "Hey mate, what can I get you?",
+          "useful_phrases": [
+            {"t": "Can I have a medium latte with soy milk?", "es": "¿Me pone un latte mediano con leche de soja?"},
+            {"t": "Does it have nuts in it?", "es": "¿Lleva frutos secos?"},
+            {"t": "I'm allergic to nuts.", "es": "Soy alérgico a los frutos secos."},
+            {"t": "To take away, please.", "es": "Para llevar, por favor."}
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "en-05-directions",
+          "level": "A2",
+          "title": "Pedir indicaciones",
+          "location": "Una calle cerca de Covent Garden",
+          "briefing": "Tu móvil no tiene batería. Tienes que encontrar la farmacia más cercana. Pregúntale a alguien por la calle, entiende las indicaciones y repítelas para confirmar.",
+          "character": {"name": "Margaret", "role": "elderly local woman walking her dog", "personality": "kind, chatty, a bit slow, gives detailed directions with landmarks", "voice": "en-GB-SoniaNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Pide ayuda con educación"},
+            {"id": "o2", "text": "Pregunta dónde está la farmacia"},
+            {"id": "o3", "text": "Repite las indicaciones para confirmar"},
+            {"id": "o4", "text": "Pregunta cuánto tiempo se tarda"}
+          ],
+          "secret": "The pharmacy (Boots) is: go straight on for two blocks, turn left at the red post box, it is opposite the Italian restaurant, next to a bank. About five minutes walking. If the learner repeats the route correctly, confirm. If wrong, correct them kindly.",
+          "complication": "Mention that the closer pharmacy closed early today, so they must go to the Boots.",
+          "opening": "Oh hello dear, you look a bit lost. Can I help you?",
+          "useful_phrases": [
+            {"t": "Excuse me, is there a pharmacy near here?", "es": "Disculpe, ¿hay una farmacia cerca?"},
+            {"t": "So I go straight on and then turn left?", "es": "Entonces sigo recto y luego giro a la izquierda?"},
+            {"t": "How long does it take to walk there?", "es": "¿Cuánto se tarda andando?"},
+            {"t": "Could you say that again, please?", "es": "¿Podría repetirlo, por favor?"}
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "en-06-pharmacy",
+          "level": "A2",
+          "title": "En la farmacia",
+          "location": "Farmacia Boots",
+          "briefing": "Tienes dolor de cabeza y algo de fiebre desde ayer. Describe tus síntomas, consigue un medicamento y averigua cada cuánto tomarlo y si tiene efectos secundarios.",
+          "character": {"name": "Mr. Okafor", "role": "pharmacist", "personality": "calm, careful, asks medical questions", "voice": "en-GB-RyanNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Describe tus síntomas"},
+            {"id": "o2", "text": "Di desde cuándo los tienes"},
+            {"id": "o3", "text": "Averigua cada cuánto tomar el medicamento"},
+            {"id": "o4", "text": "Pregunta por los efectos secundarios"}
+          ],
+          "secret": "You ask about allergies and other medicines. Recommend paracetamol 500mg: two tablets every 4 to 6 hours, maximum 8 tablets in 24 hours, take with water. Side effects are rare. If the fever lasts more than 3 days they should see a doctor. Price £2.",
+          "complication": "Ask if they are allergic to any medicine or taking anything else.",
+          "opening": "Hello there. What can I do for you today?",
+          "useful_phrases": [
+            {"t": "I have a headache and a fever.", "es": "Tengo dolor de cabeza y fiebre."},
+            {"t": "Since yesterday.", "es": "Desde ayer."},
+            {"t": "How often should I take it?", "es": "¿Cada cuánto debo tomarlo?"},
+            {"t": "Are there any side effects?", "es": "¿Tiene efectos secundarios?"}
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "en-07-sim",
+          "level": "A2",
+          "title": "Tarjeta SIM",
+          "location": "Tienda de móviles en Oxford Street",
+          "briefing": "Necesitas una SIM prepago para comunicarte con la central. Consigue la más barata con al menos 20 GB de datos. Averigua el precio y si necesitas documentación.",
+          "character": {"name": "Danny", "role": "phone shop salesperson", "personality": "pushy salesman, always tries to sell the expensive plan first", "voice": "en-US-GuyNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Pide una SIM prepago"},
+            {"id": "o2", "text": "Rechaza la oferta cara con educación"},
+            {"id": "o3", "text": "Consigue un plan con al menos 20 GB"},
+            {"id": "o4", "text": "Pregunta si necesitas pasaporte o documentación"}
+          ],
+          "secret": "Plans: 'Unlimited Max' £35/month (you push this first), '30GB' £15/month, '10GB' £8. The 30GB plan is the best answer. No contract needed for prepaid. Passport is NOT needed for prepaid SIM. Only reveal cheaper plans if the learner says it's too expensive or asks for cheaper options.",
+          "complication": "Insist once more on the unlimited plan with a 'special offer' before accepting.",
+          "opening": "Hey! Welcome in. Looking for a new phone today?",
+          "useful_phrases": [
+            {"t": "I just need a prepaid SIM card.", "es": "Solo necesito una SIM prepago."},
+            {"t": "That's too expensive for me.", "es": "Es demasiado caro para mí."},
+            {"t": "Do you have anything cheaper?", "es": "¿Tiene algo más barato?"},
+            {"t": "Do I need my passport?", "es": "¿Necesito mi pasaporte?"}
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "en-08-lost",
+          "level": "B1",
+          "title": "Objetos perdidos",
+          "location": "Oficina de objetos perdidos — estación de Paddington",
+          "briefing": "Dejaste tu mochila en un tren esta mañana. Dentro hay documentos importantes de la misión. Descríbela con detalle (color, tamaño, contenido), di qué tren tomaste y consigue un número de referencia.",
+          "character": {"name": "Gary", "role": "lost property office clerk", "personality": "bored, bureaucratic, needs every detail before helping", "voice": "en-GB-RyanNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Explica qué perdiste y dónde"},
+            {"id": "o2", "text": "Describe la mochila y su contenido"},
+            {"id": "o3", "text": "Di a qué hora y en qué tren viajaste"},
+            {"id": "o4", "text": "Da tu teléfono y consigue el número de referencia"}
+          ],
+          "secret": "They have three backpacks found today: a red one, a black one with a laptop, and a grey one with a blue notebook. Ask detailed questions: colour, brand, what is inside, which train and what time. After you have the description, time and phone number, give reference number LP-4471 and say you will call within 48 hours.",
+          "complication": "Say you need the exact time of the train before you can check.",
+          "opening": "Next. Yeah, what have you lost?",
+          "useful_phrases": [
+            {"t": "I left my backpack on the train this morning.", "es": "Dejé mi mochila en el tren esta mañana."},
+            {"t": "It's a small grey backpack with a blue notebook inside.", "es": "Es una mochila gris pequeña con un cuaderno azul dentro."},
+            {"t": "I took the 9:15 train from Oxford.", "es": "Tomé el tren de las 9:15 desde Oxford."},
+            {"t": "Could I have a reference number?", "es": "¿Me puede dar un número de referencia?"}
+          ],
+          "max_turns": 16
+        },
+        {
+          "id": "en-09-restaurant",
+          "level": "B1",
+          "title": "Queja en el restaurante",
+          "location": "Restaurante en Soho",
+          "briefing": "Cenas con un contacto. Pide tu comida. Cuando llegue el plato equivocado, quéjate con educación pero con firmeza y consigue una solución (cambio de plato y algún descuento).",
+          "character": {"name": "Luca", "role": "waiter at a busy restaurant", "personality": "apologetic but defensive at first, Italian-born, speaks good English", "voice": "en-US-ChristopherNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Pide un entrante y un plato principal"},
+            {"id": "o2", "text": "Explica que el plato que llegó no es el que pediste"},
+            {"id": "o3", "text": "Consigue que lo cambien"},
+            {"id": "o4", "text": "Consigue un descuento o algo gratis con educación"}
+          ],
+          "secret": "Menu: tomato soup, garlic bread, mushroom risotto, grilled salmon, steak and chips, vegetable curry. Whatever main course they order, after they order you bring the WRONG dish (say: 'Here is your steak' if they ordered something else). At first insist they ordered it, then apologise. Offer a free dessert only if they politely ask for compensation; offer 20% off if they insist.",
+          "complication": "Bring the wrong dish and initially claim it is what they ordered.",
+          "opening": "Good evening! Are you ready to order, or do you need a few more minutes?",
+          "useful_phrases": [
+            {"t": "I'd like the soup to start, and then the salmon.", "es": "De primero la sopa y luego el salmón."},
+            {"t": "Excuse me, I think there's been a mistake.", "es": "Disculpe, creo que ha habido un error."},
+            {"t": "This isn't what I ordered.", "es": "Esto no es lo que pedí."},
+            {"t": "Could you do something about the bill?", "es": "¿Podría hacer algo con la cuenta?"}
+          ],
+          "max_turns": 16
+        },
+        {
+          "id": "en-10-flat",
+          "level": "B1",
+          "title": "Alquilar un piso",
+          "location": "Visita a un piso en Brixton",
+          "briefing": "La operación se alarga: necesitas un piso por 6 meses. Tu presupuesto máximo es £1.200 al mes con todo incluido. Averigua precio, facturas, depósito y duración del contrato, y negocia.",
+          "character": {"name": "Mrs. Clarke", "role": "landlady showing a flat", "personality": "businesslike, a little vague about costs unless asked directly", "voice": "en-GB-SoniaNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Pregunta el precio del alquiler"},
+            {"id": "o2", "text": "Averigua si las facturas están incluidas"},
+            {"id": "o3", "text": "Pregunta por el depósito y la duración del contrato"},
+            {"id": "o4", "text": "Negocia un precio dentro de tu presupuesto"}
+          ],
+          "secret": "Rent is £1,100 per month, bills NOT included (about £150 extra). Deposit: 5 weeks' rent. Minimum contract 12 months. You would accept 6 months only if rent goes up to £1,150, OR keep 12 months and include bills for £1,200 total. Reveal bills/deposit/contract only if asked.",
+          "complication": "Mention another person is interested and coming to see it tomorrow.",
+          "opening": "Come in, come in. So, this is the living room. Lovely and bright, isn't it?",
+          "useful_phrases": [
+            {"t": "How much is the rent per month?", "es": "¿Cuánto es el alquiler al mes?"},
+            {"t": "Are the bills included?", "es": "¿Las facturas están incluidas?"},
+            {"t": "How long is the contract?", "es": "¿Cuánto dura el contrato?"},
+            {"t": "Would you consider...?", "es": "¿Consideraría...?"}
+          ],
+          "max_turns": 16
+        },
+        {
+          "id": "en-11-police",
+          "level": "B2",
+          "title": "Denuncia en comisaría",
+          "location": "Comisaría de policía de Westminster",
+          "briefing": "Te han robado el móvil en el autobús. Denuncia el robo: cuenta qué pasó en pasado con detalle, describe al sospechoso y consigue el número de denuncia (crime reference number) para el seguro.",
+          "character": {"name": "Constable Reid", "role": "police officer taking a report", "personality": "professional, methodical, asks follow-up questions about times and descriptions", "voice": "en-IE-ConnorNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Explica qué pasó, dónde y cuándo"},
+            {"id": "o2", "text": "Describe al sospechoso"},
+            {"id": "o3", "text": "Describe el móvil robado"},
+            {"id": "o4", "text": "Consigue el número de denuncia"}
+          ],
+          "secret": "Ask: time, bus number, what happened exactly, description of the suspect (height, clothes, hair), phone model and colour, whether the phone has tracking. When you have enough details give crime reference number CR-2291-WM and explain they should call their phone company to block the SIM.",
+          "complication": "Ask whether they are sure it was stolen and not lost.",
+          "opening": "Good afternoon. I understand you'd like to report something?",
+          "useful_phrases": [
+            {"t": "My phone was stolen on the bus.", "es": "Me robaron el móvil en el autobús."},
+            {"t": "It happened at about half past three.", "es": "Pasó hacia las tres y media."},
+            {"t": "He was tall, wearing a black hoodie.", "es": "Era alto, llevaba una sudadera negra."},
+            {"t": "I need a crime reference number for my insurance.", "es": "Necesito un número de denuncia para el seguro."}
+          ],
+          "max_turns": 18
+        },
+        {
+          "id": "en-12-interview",
+          "level": "B2",
+          "title": "Entrevista de trabajo",
+          "location": "Startup tecnológica en Shoreditch",
+          "briefing": "Tu cobertura definitiva: conseguir un puesto de asistente de proyectos. Preséntate, habla de tu experiencia, responde a preguntas difíciles y haz tú también preguntas inteligentes.",
+          "character": {"name": "Emma Watson-Lee", "role": "HR manager interviewing for a project assistant job", "personality": "friendly but sharp, asks behavioural questions", "voice": "en-US-JennyNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Preséntate y habla de tu experiencia"},
+            {"id": "o2", "text": "Responde: '¿Cuál es tu mayor debilidad?'"},
+            {"id": "o3", "text": "Da un ejemplo de un problema que resolviste"},
+            {"id": "o4", "text": "Haz al menos una pregunta sobre el puesto o la empresa"}
+          ],
+          "secret": "Ask in order: tell me about yourself; why do you want this job; what is your greatest weakness; tell me about a time you solved a difficult problem; do you have any questions for me. The job: hybrid, 3 days in office, salary £32,000, start next month. Only reveal job details if asked.",
+          "complication": "Ask a follow-up challenging one of their answers ('Can you give me a specific example?').",
+          "opening": "Hi, thanks for coming in! Please, have a seat. So, tell me a little about yourself.",
+          "useful_phrases": [
+            {"t": "I have three years of experience in...", "es": "Tengo tres años de experiencia en..."},
+            {"t": "My greatest weakness is that I..., but I'm working on it by...", "es": "Mi mayor debilidad es que..., pero lo estoy mejorando..."},
+            {"t": "For example, in my last job...", "es": "Por ejemplo, en mi último trabajo..."},
+            {"t": "What does a typical day look like?", "es": "¿Cómo es un día típico?"}
+          ],
+          "max_turns": 20
+        },
+        {
+          "id": "en-13-intel",
+          "level": "B2",
+          "title": "Misión final: la fiesta",
+          "location": "Evento de networking en una azotea de la City",
+          "briefing": "Misión final. En la fiesta está Olivia, empleada de una empresa que la central investiga. Mediante una charla natural (sin parecer un interrogatorio) debes averiguar: 1) en qué empresa trabaja, 2) cómo se llama su jefe, 3) cuándo lanzan su nuevo producto. Si haces preguntas demasiado directas, sospechará.",
+          "character": {"name": "Olivia", "role": "talkative marketing manager at a party", "personality": "sociable, loves talking about travel and food, gets suspicious and cold if asked too many direct work questions in a row", "voice": "en-GB-SoniaNeural"},
+          "objectives": [
+            {"id": "o1", "text": "Inicia una charla casual (small talk)"},
+            {"id": "o2", "text": "Averigua en qué empresa trabaja"},
+            {"id": "o3", "text": "Averigua el nombre de su jefe"},
+            {"id": "o4", "text": "Averigua la fecha de lanzamiento del producto"}
+          ],
+          "secret": "You work at Northwind Labs. Your boss is Daniel Price. The new product, a smart watch called Pulse, launches on the 14th of March. You share each fact ONLY after some friendly small talk (travel, food, London), and only one work fact every couple of turns. If the learner asks two direct work questions in a row without small talk, become suspicious: 'Why are you so interested?' and share nothing for two turns.",
+          "complication": "If they are too direct, ask 'Sorry, who did you say you work for?'.",
+          "opening": "Oh, hi! I don't think we've met. Great view up here, isn't it?",
+          "useful_phrases": [
+            {"t": "So, how do you know the host?", "es": "¿Y de qué conoces al anfitrión?"},
+            {"t": "What do you do, by the way?", "es": "Por cierto, ¿a qué te dedicas?"},
+            {"t": "That sounds exciting! What's it like working there?", "es": "¡Suena genial! ¿Qué tal es trabajar allí?"},
+            {"t": "Anything big coming up?", "es": "¿Se viene algo importante?"}
+          ],
+          "max_turns": 22
+        }
+      ]
+    }
+  ]
+}

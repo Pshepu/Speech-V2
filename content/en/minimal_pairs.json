@@ -1,0 +1,16 @@
+[
+  {"id": "i-ii", "a": "ɪ", "b": "iː", "name": "I corta vs I larga", "pairs": [["ship","sheep"],["live","leave"],["fill","feel"],["bit","beat"],["sit","seat"],["hill","heal"],["chip","cheap"],["it","eat"],["fit","feet"],["slip","sleep"],["will","wheel"],["lip","leap"]]},
+  {"id": "ae-uh", "a": "æ", "b": "ʌ", "name": "A abierta vs A corta", "pairs": [["cat","cut"],["bat","but"],["cap","cup"],["hat","hut"],["ran","run"],["bag","bug"],["match","much"],["fan","fun"],["track","truck"],["ankle","uncle"]]},
+  {"id": "ae-e", "a": "æ", "b": "ɛ", "name": "A abierta vs E", "pairs": [["bad","bed"],["man","men"],["pan","pen"],["sad","said"],["had","head"],["band","bend"],["sat","set"],["laughed","left"],["sand","send"],["dad","dead"]]},
+  {"id": "th-s", "a": "θ", "b": "s", "name": "TH vs S", "pairs": [["think","sink"],["thing","sing"],["thank","sank"],["mouth","mouse"],["path","pass"],["thick","sick"],["worth","worse"],["faith","face"],["theme","seem"],["thumb","sum"]]},
+  {"id": "th-t", "a": "θ", "b": "t", "name": "TH vs T", "pairs": [["three","tree"],["thin","tin"],["thought","taught"],["thank","tank"],["thigh","tie"],["both","boat"],["thorn","torn"],["math","mat"],["death","debt"],["through","true"]]},
+  {"id": "dh-d", "a": "ð", "b": "d", "name": "TH sonora vs D", "pairs": [["they","day"],["then","den"],["those","doze"],["though","dough"],["there","dare"],["breathe","breed"],["other","udder"],["worthy","wordy"],["lather","ladder"],["they've","dave"]]},
+  {"id": "v-b", "a": "v", "b": "b", "name": "V vs B", "pairs": [["very","berry"],["vote","boat"],["van","ban"],["vest","best"],["vowel","bowel"],["curve","curb"],["vet","bet"],["vase","base"],["veil","bale"],["marvel","marble"]]},
+  {"id": "s-z", "a": "s", "b": "z", "name": "S vs Z", "pairs": [["sue","zoo"],["ice","eyes"],["price","prize"],["bus","buzz"],["place","plays"],["rice","rise"],["peace","peas"],["race","raise"],["loose","lose"],["face","phase"]]},
+  {"id": "sh-ch", "a": "ʃ", "b": "tʃ", "name": "SH vs CH", "pairs": [["ship","chip"],["share","chair"],["wash","watch"],["shoes","choose"],["sheep","cheap"],["cash","catch"],["shop","chop"],["wish","witch"],["mash","match"],["sherry","cherry"]]},
+  {"id": "y-j", "a": "j", "b": "dʒ", "name": "Y vs J", "pairs": [["yes","jess"],["yet","jet"],["yell","gel"],["yolk","joke"],["yam","jam"],["you","jew"],["year","jeer"],["yale","jail"],["use","juice"],["yaw","jaw"]]},
+  {"id": "u-uu", "a": "ʊ", "b": "uː", "name": "U corta vs U larga", "pairs": [["full","fool"],["pull","pool"],["look","luke"],["foot","food"],["should","shoed"],["could","cooed"],["wood","wooed"],["soot","suit"],["hood","who'd"],["bull","boo"]]},
+  {"id": "l-r", "a": "l", "b": "ɹ", "name": "L vs R inglesa", "pairs": [["light","right"],["led","red"],["play","pray"],["glass","grass"],["fly","fry"],["long","wrong"],["lead","read"],["collect","correct"],["climb","crime"],["load","road"]]},
+  {"id": "n-ng", "a": "n", "b": "ŋ", "name": "N vs NG", "pairs": [["sin","sing"],["thin","thing"],["ran","rang"],["win","wing"],["ban","bang"],["kin","king"],["ton","tongue"],["sun","sung"],["fan","fang"],["run","rung"]]},
+  {"id": "h-0", "a": "h", "b": "∅", "name": "H aspirada vs sin H", "pairs": [["hat","at"],["hair","air"],["hold","old"],["heat","eat"],["hate","eight"],["hear","ear"],["hill","ill"],["harm","arm"],["high","eye"],["hand","and"]]}
+]

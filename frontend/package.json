@@ -1,0 +1,22 @@
+{
+  "name": "speech-v2-frontend",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "marked": "^18.1.3",
+    "pinia": "^4.1.0",
+    "vue": "^3.5.44",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}
