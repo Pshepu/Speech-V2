@@ -105,3 +105,86 @@ PACKS = {
          "a formal/academic French word useful for C1 essays, with a useful collocation in the example", ["verbes soutenus", "noms abstraits", "adjectifs et adverbes de nuance"]),
     ],
 }
+
+# ---------------------------------------------------------------- Portugués (Brasil) y alemán
+
+SYLLABUS["pt"] = [
+    ("pt-pronuncia", "A1", "Pronunciación del portugués de Brasil para hispanohablantes", "vocales nasales (ão, ãe, õe, im/um), e/o abiertas y cerradas (é/ê, ó/ô), -e final → i, -o final → u, t/d antes de i → tchi/dji, r fuerte → j suave, lh y nh, s/z sonora"),
+    ("pt-ser-estar", "A1", "Ser, estar y ficar", "diferencias con el español; ficar (quedarse, volverse, estar ubicado: 'Onde fica?')"),
+    ("pt-artigos", "A1", "Artículos y contracciones", "o/a/os/as, um/uma; no, na, do, da, pelo, pela, num, dum; 'o carro' (siempre artículo con posesivo: o meu carro)"),
+    ("pt-presente", "A1", "Presente de los verbos regulares", "-ar/-er/-ir; você/a gente con verbo en 3ª persona; tu poco usado en Brasil"),
+    ("pt-irregulares", "A1", "Verbos irregulares clave", "ter, fazer, ir, vir, poder, querer, dizer, saber, ver, dar, pôr"),
+    ("pt-falsos-amigos", "A1", "Falsos amigos español-portugués", "esquisito (raro), polvo (pulpo), borracha (goma), exquisito, apelido (apodo), oficina (taller), escritório, cena (escena), salada, rato (ratón), embaraçada (avergonzada), pegar, largo, ninguém/nenhum"),
+    ("pt-pronomes", "A2", "Pronombres: el uso en Brasil", "você, a gente, ele/ela como objeto en el habla ('eu vi ele'), te/lhe, posición del pronombre (próclisis en Brasil: 'me dá')"),
+    ("pt-preterito", "A2", "Pretérito perfeito", "regulares e irregulares (fui, tive, fiz, pude, disse); no existe pretérito perfecto compuesto como en español ('já comi')"),
+    ("pt-imperfeito", "A2", "Pretérito imperfeito vs perfeito", "descripción y hábitos vs acciones puntuales; 'estava fazendo'"),
+    ("pt-futuro", "A2", "Futuro: ir + infinitivo y futuro simple", "vou fazer (habla), farei (formal), futuro del subjuntivo básico ('quando eu tiver')"),
+    ("pt-gerundio", "A2", "Estar + gerúndio y expresiones de tiempo", "estou trabalhando; há/faz + tiempo; desde; ainda/já"),
+    ("pt-comparativos", "A2", "Comparativos y superlativos", "mais/menos...do que, tão...quanto, melhor/pior/maior/menor, -íssimo"),
+    ("pt-preposicoes", "A2", "Preposiciones y regencia verbal", "em/no/na, a/para, de, por/pelo; gostar de, precisar de, pensar em, chegar em (habla) / a"),
+    ("pt-subjuntivo-presente", "B1", "Subjuntivo presente", "espero que, é importante que, talvez; formación; diferencias con el español"),
+    ("pt-futuro-subjuntivo", "B1", "Futuro del subjuntivo (el gran desconocido)", "quando/se/assim que + futuro do subjuntivo: 'quando você chegar', 'se eu puder'; no existe en el español moderno"),
+    ("pt-condicional", "B1", "Condicional y frases con SE", "se + imperfeito do subjuntivo + futuro do pretérito ('se eu tivesse, compraria'), 'ia' en el habla"),
+    ("pt-infinitivo-pessoal", "B1", "Infinitivo personal", "para nós irmos, antes de vocês saírem; exclusivo del portugués"),
+    ("pt-mais-que-perfeito", "B2", "Pluscuamperfecto y tiempos compuestos", "tinha feito, teria feito; tenho feito (repetición, no 'he hecho')"),
+    ("pt-registro", "B2", "Portugués coloquial vs formal", "tá, pra, cê, né, a gente; o senhor/a senhora; correos formales"),
+    ("pt-conectores", "B2", "Conectores y argumentación", "no entanto, contudo, embora + subjuntivo, já que, portanto, aliás, ou seja"),
+    ("pt-tecnico", "B2", "Portugués en el trabajo (TI)", "reuniões, e-mails profissionais, entrevista de emprego, vocabulario de software (desenvolvedor, implantar, demanda, prazo)"),
+    ("pt-voz-passiva", "C1", "Voz pasiva y construcciones con SE", "foi feito, vende-se/vendem-se, sujeito indeterminado, registro escrito"),
+]
+
+SYLLABUS["de"] = [
+    ("de-aussprache", "A1", "Pronunciación del alemán para hispanohablantes", "ü, ö, ä, ch (ich/ach), sch, sp/st al inicio, z = ts, w = v, v = f, ei/ie/eu, h aspirada, vocales largas y cortas, endurecimiento final (Tag → tak)"),
+    ("de-sein-haben", "A1", "Sein y haben; pronombres personales", "conjugación; du vs Sie; 'Ich habe Hunger', 'Ich bin 20 Jahre alt'"),
+    ("de-artikel", "A1", "Los tres géneros y los artículos", "der/die/das, ein/eine, kein; trucos para adivinar el género (-ung, -heit, -keit, -chen); plurales"),
+    ("de-praesens", "A1", "Presente y verbos irregulares", "terminaciones, cambio de vocal (fahren → fährt, sprechen → spricht), möchten"),
+    ("de-satzbau", "A1", "Orden de la frase: el verbo en 2ª posición", "verbo siempre en segunda posición, inversión ('Heute gehe ich'), preguntas W y sí/no"),
+    ("de-akkusativ", "A1", "El acusativo", "den/einen, verbos con acusativo (haben, sehen, brauchen), es gibt + acusativo"),
+    ("de-trennbare", "A1", "Verbos separables", "anrufen → Ich rufe dich an; aufstehen, einkaufen, mitkommen; posición del prefijo al final"),
+    ("de-modalverben", "A2", "Verbos modales", "können, müssen, dürfen, wollen, sollen, mögen; infinitivo al final de la frase"),
+    ("de-dativ", "A2", "El dativo", "dem/der/den, preposiciones con dativo (mit, bei, nach, von, zu, aus, seit), verbos con dativo (helfen, gefallen, gehören)"),
+    ("de-wechselpraep", "A2", "Preposiciones de doble caso", "in, an, auf, über, unter...: ¿dónde? (dativo) vs ¿adónde? (acusativo); stellen/stehen, legen/liegen"),
+    ("de-perfekt", "A2", "Perfekt: el pasado hablado", "haben/sein + participio (ge-...-t / ge-...-en), verbos con sein (movimiento, cambio)"),
+    ("de-nebensatz", "A2", "Oraciones subordinadas: el verbo al final", "weil, dass, wenn, ob, obwohl: verbo conjugado al final; weil vs denn"),
+    ("de-adjektivdekl", "B1", "Declinación de adjetivos", "ein guter Kaffee, der gute Kaffee, guten Kaffee; tablas simplificadas y trucos"),
+    ("de-praeteritum", "B1", "Präteritum: el pasado escrito", "war, hatte, konnte (también en el habla); verbos irregulares frecuentes en Präteritum"),
+    ("de-konjunktiv2", "B1", "Konjunktiv II: cortesía y deseos", "würde + infinitivo, hätte, wäre, könnte; 'Ich hätte gern...', 'Wenn ich Zeit hätte...'"),
+    ("de-relativsatz", "B1", "Oraciones de relativo", "der/die/das como relativo, caso del relativo, verbo al final, wo/was"),
+    ("de-genitiv", "B2", "Genitivo y preposiciones con genitivo", "des/der, -s/-es; wegen, trotz, während, statt; genitivo en el habla vs von + dativo"),
+    ("de-passiv", "B2", "Voz pasiva", "werden + participio, Passiv mit Modalverb (muss gemacht werden), Zustandspassiv (ist geöffnet)"),
+    ("de-konnektoren", "B2", "Conectores y argumentación", "deshalb, trotzdem, außerdem, einerseits... andererseits, je... desto, sowohl... als auch; posición del verbo"),
+    ("de-beruf", "B2", "Alemán en el trabajo (TI)", "Vorstellungsgespräch, Meetings, E-Mails formales (Sehr geehrte...), Sie vs du en empresas tech, vocabulario de software"),
+    ("de-konjunktiv1", "C1", "Estilo indirecto (Konjunktiv I)", "er sagt, er sei/habe; uso en noticias; alternativas con Konjunktiv II"),
+    ("de-nominalstil", "C1", "Estilo nominal y registro formal", "nominalización (die Durchführung des Projekts), Funktionsverbgefüge (in Frage kommen, zur Verfügung stellen)"),
+]
+
+PACKS["en"].append(
+    ("en-tech", "B2", "Inglés técnico para informática", "Vocabulario y frases para trabajar en tecnología: desarrollo, reuniones ágiles, revisiones de código, entrevistas e infraestructura.",
+     "a word or phrase that software engineers really use at work", [
+         "software development and programming", "agile meetings: stand-ups, sprints, retros, planning",
+         "code review, pull requests and giving technical feedback", "tech job interviews, CVs and salary negotiation",
+         "cloud, DevOps, infrastructure and incidents", "explaining technical problems to non-technical people",
+     ]),
+)
+
+PACKS["pt"] = [
+    ("pt-expressoes", "B2", "Expressões do dia a dia", "Expresiones brasileñas muy usadas en conversación.",
+     "a very common Brazilian Portuguese colloquial expression", ["conversas do dia a dia", "emoções e opiniões", "trabalho e dinheiro"]),
+    ("pt-conectores", "B2", "Conectores", "Para estructurar ideas al hablar y escribir.",
+     "a Portuguese discourse connector", ["adição, contraste e concessão", "causa, consequência e conclusão"]),
+    ("pt-ti", "B1", "Português para TI", "Vocabulario para trabajar en empresas de tecnología en Brasil.",
+     "a word or phrase used daily in Brazilian tech companies (including common anglicisms as Brazilians say them)", ["desenvolvimento de software", "reuniões e metodologias ágeis", "entrevista de emprego e carreira"]),
+    ("pt-falsos", "A2", "Falsos amigos", "Palabras que parecen españolas pero significan otra cosa.",
+     "a Portuguese false friend for Spanish speakers (note explains the Spanish trap)", ["falsos amigos comuns", "falsos amigos no trabalho e na vida diária"]),
+]
+
+PACKS["de"] = [
+    ("de-redewendungen", "B2", "Redewendungen", "Expresiones idiomáticas alemanas frecuentes.",
+     "a common, current German idiomatic expression", ["Alltag und Gefühle", "Arbeit und Erfolg"]),
+    ("de-konnektoren", "B2", "Konnektoren", "Conectores para argumentar (¡ojo con la posición del verbo!).",
+     "a German connector (note says where the verb goes)", ["Addition, Gegensatz, Einschränkung", "Grund, Folge, Zweck, Bedingung"]),
+    ("de-it", "B1", "Deutsch für die IT", "Vocabulario para trabajar en empresas tech en Alemania.",
+     "a word or phrase used daily in German tech companies (nouns with article)", ["Softwareentwicklung", "Meetings, Scrum und Teamarbeit", "Bewerbung, Vorstellungsgespräch und Vertrag"]),
+    ("de-verben-praep", "B1", "Verben mit Präpositionen", "Verbos con preposición fija (warten auf, sich interessieren für...).",
+     "a German verb with a fixed preposition and its case", ["mit Akkusativ", "mit Dativ"]),
+]

@@ -14,7 +14,7 @@ import random
 from . import db, llm
 from .config import LANGUAGES, VOICE_GENDER
 
-TARGET = {"en": "English", "fr": "French"}
+from .config import TARGET_NAMES as TARGET
 
 LENGTH = {"A1": "8-10", "A2": "10-14", "B1": "14-18", "B2": "16-22", "C1": "18-26"}
 STYLE = {

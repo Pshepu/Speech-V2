@@ -1,0 +1,1987 @@
+[
+ {
+  "text": "Olá, tudo bem?",
+  "translation": "Hola, ¿todo bien?",
+  "level": "A1"
+ },
+ {
+  "text": "Meu nome é Ana.",
+  "translation": "Mi nombre es Ana.",
+  "level": "A1"
+ },
+ {
+  "text": "Você é brasileiro?",
+  "translation": "¿Eres brasileño?",
+  "level": "A1"
+ },
+ {
+  "text": "Sou da Espanha.",
+  "translation": "Soy de España.",
+  "level": "A1"
+ },
+ {
+  "text": "Eu moro em São Paulo.",
+  "translation": "Vivo en São Paulo.",
+  "level": "A1"
+ },
+ {
+  "text": "Temos três irmãos.",
+  "translation": "Tenemos tres hermanos.",
+  "level": "A1"
+ },
+ {
+  "text": "Ele é meu pai.",
+  "translation": "É mi padre.",
+  "level": "A1"
+ },
+ {
+  "text": "Ela é minha mãe.",
+  "translation": "Es mi madre.",
+  "level": "A1"
+ },
+ {
+  "text": "Você tem filhos?",
+  "translation": "¿Tienes hijos?",
+  "level": "A1"
+ },
+ {
+  "text": "Sim, tenho dois filhos.",
+  "translation": "Sí, tengo dos hijos.",
+  "level": "A1"
+ },
+ {
+  "text": "Qual é o seu trabalho?",
+  "translation": "¿Cuál es tu trabajo?",
+  "level": "A1"
+ },
+ {
+  "text": "Eu trabalho como professor.",
+  "translation": "Trabajo como profesor.",
+  "level": "A1"
+ },
+ {
+  "text": "Você gosta de café?",
+  "translation": "¿Te gusta el café?",
+  "level": "A1"
+ },
+ {
+  "text": "Eu gosto de chá.",
+  "translation": "Me gusta el té.",
+  "level": "A1"
+ },
+ {
+  "text": "Como você está hoje?",
+  "translation": "¿Cómo estás hoy?",
+  "level": "A1"
+ },
+ {
+  "text": "Estou bem, obrigado.",
+  "translation": "Estoy bien, gracias.",
+  "level": "A1"
+ },
+ {
+  "text": "Você quer ir ao cinema?",
+  "translation": "¿Quieres ir al cine?",
+  "level": "A1"
+ },
+ {
+  "text": "Vamos ao parque amanhã.",
+  "translation": "Vamos al parque mañana.",
+  "level": "A1"
+ },
+ {
+  "text": "Qual é o seu número de telefone?",
+  "translation": "¿Cuál es tu número de teléfono?",
+  "level": "A1"
+ },
+ {
+  "text": "Meu telefone é 12345678.",
+  "translation": "Mi teléfono es 12345678.",
+  "level": "A1"
+ },
+ {
+  "text": "Eu gosto de pizza.",
+  "translation": "Me gusta la pizza.",
+  "level": "A1"
+ },
+ {
+  "text": "Ele compra pão hoje.",
+  "translation": "Él compra pan hoy.",
+  "level": "A1"
+ },
+ {
+  "text": "Você quer café?",
+  "translation": "¿Quieres café?",
+  "level": "A1"
+ },
+ {
+  "text": "Ela serve arroz.",
+  "translation": "Ella sirve arroz.",
+  "level": "A1"
+ },
+ {
+  "text": "Nós compramos roupas.",
+  "translation": "Nosotros compramos ropa.",
+  "level": "A1"
+ },
+ {
+  "text": "Ele paga com dinheiro.",
+  "translation": "Él paga con dinero.",
+  "level": "A1"
+ },
+ {
+  "text": "Ela pede sobremesa.",
+  "translation": "Ella pide postre.",
+  "level": "A1"
+ },
+ {
+  "text": "Você tem troco?",
+  "translation": "¿Tienes cambio?",
+  "level": "A1"
+ },
+ {
+  "text": "Ele compra frutas.",
+  "translation": "Él compra frutas.",
+  "level": "A1"
+ },
+ {
+  "text": "Ela compra leite.",
+  "translation": "Ella compra leche.",
+  "level": "A1"
+ },
+ {
+  "text": "Você quer carne?",
+  "translation": "¿Quieres carne?",
+  "level": "A1"
+ },
+ {
+  "text": "Ele faz pedido.",
+  "translation": "Él hace pedido.",
+  "level": "A1"
+ },
+ {
+  "text": "Ela compra sapatos.",
+  "translation": "Ella compra zapatos.",
+  "level": "A1"
+ },
+ {
+  "text": "Nós vamos ao restaurante.",
+  "translation": "Vamos al restaurante.",
+  "level": "A1"
+ },
+ {
+  "text": "Ele paga conta.",
+  "translation": "Él paga cuenta.",
+  "level": "A1"
+ },
+ {
+  "text": "Você quer salada?",
+  "translation": "¿Quieres ensalada?",
+  "level": "A1"
+ },
+ {
+  "text": "Ela compra roupa nova.",
+  "translation": "Ella compra ropa nueva.",
+  "level": "A1"
+ },
+ {
+  "text": "Ele tem dinheiro suficiente.",
+  "translation": "Él tiene dinero suficiente.",
+  "level": "A1"
+ },
+ {
+  "text": "Você quer sobremesa?",
+  "translation": "¿Quieres postre?",
+  "level": "A1"
+ },
+ {
+  "text": "Ela serve comida deliciosa.",
+  "translation": "Ella sirve comida deliciosa.",
+  "level": "A1"
+ },
+ {
+  "text": "Onde fica o aeroporto?",
+  "translation": "Where is the airport?",
+  "level": "A1"
+ },
+ {
+  "text": "Preciso de táxi, por favor.",
+  "translation": "I need a taxi, please.",
+  "level": "A1"
+ },
+ {
+  "text": "Qual é a estação de trem?",
+  "translation": "Which is the train station?",
+  "level": "A1"
+ },
+ {
+  "text": "Eu quero um quarto de hotel.",
+  "translation": "I want a hotel room.",
+  "level": "A1"
+ },
+ {
+  "text": "O que custa a passagem?",
+  "translation": "How much is the ticket?",
+  "level": "A1"
+ },
+ {
+  "text": "Onde está o banheiro?",
+  "translation": "Where is the bathroom?",
+  "level": "A1"
+ },
+ {
+  "text": "Qual a hora do voo?",
+  "translation": "What time is the flight?",
+  "level": "A1"
+ },
+ {
+  "text": "Eu preciso de um mapa.",
+  "translation": "I need a map.",
+  "level": "A1"
+ },
+ {
+  "text": "Como chego ao centro?",
+  "translation": "How do I get to the center?",
+  "level": "A1"
+ },
+ {
+  "text": "A estação fica perto?",
+  "translation": "Is the station close?",
+  "level": "A1"
+ },
+ {
+  "text": "Preciso de um carro alugado.",
+  "translation": "I need a rental car.",
+  "level": "A1"
+ },
+ {
+  "text": "Qual é a temperatura hoje?",
+  "translation": "What is the temperature today?",
+  "level": "A1"
+ },
+ {
+  "text": "Está chovendo muito.",
+  "translation": "It is raining a lot.",
+  "level": "A1"
+ },
+ {
+  "text": "O sol está brilhando.",
+  "translation": "The sun is shining.",
+  "level": "A1"
+ },
+ {
+  "text": "Preciso de um hotel barato.",
+  "translation": "I need a cheap hotel.",
+  "level": "A1"
+ },
+ {
+  "text": "Onde está a saída?",
+  "translation": "Where is the exit?",
+  "level": "A1"
+ },
+ {
+  "text": "Qual é a rota mais rápida?",
+  "translation": "What is the fastest route?",
+  "level": "A1"
+ },
+ {
+  "text": "Eu preciso de um bilhete.",
+  "translation": "I need a ticket.",
+  "level": "A1"
+ },
+ {
+  "text": "O que devo fazer aqui?",
+  "translation": "What should I do here?",
+  "level": "A1"
+ },
+ {
+  "text": "Como chego ao aeroporto?",
+  "translation": "How do I get to the airport?",
+  "level": "A1"
+ },
+ {
+  "text": "Eu trabalho agora",
+  "translation": "Yo trabajo ahora",
+  "level": "A1"
+ },
+ {
+  "text": "Ele estuda medicina",
+  "translation": "Él estudia medicina",
+  "level": "A1"
+ },
+ {
+  "text": "Ela sente dor",
+  "translation": "Ella siente dolor",
+  "level": "A1"
+ },
+ {
+  "text": "Eu vou ao médico",
+  "translation": "Voy al médico",
+  "level": "A1"
+ },
+ {
+  "text": "Alerta de emergência",
+  "translation": "Alerta de emergencia",
+  "level": "A1"
+ },
+ {
+  "text": "Ele está feliz",
+  "translation": "Él está feliz",
+  "level": "A1"
+ },
+ {
+  "text": "Ela gosta de ler",
+  "translation": "Ella gusta de leer",
+  "level": "A1"
+ },
+ {
+  "text": "Eu uso computador",
+  "translation": "Yo uso computador",
+  "level": "A1"
+ },
+ {
+  "text": "Ele trabalha cedo",
+  "translation": "Él trabaja temprano",
+  "level": "A1"
+ },
+ {
+  "text": "Ela estuda inglês",
+  "translation": "Ella estudia inglés",
+  "level": "A1"
+ },
+ {
+  "text": "Eu sinto febre",
+  "translation": "Yo siento fiebre",
+  "level": "A1"
+ },
+ {
+  "text": "Ele vai ao dentista",
+  "translation": "Él va al dentista",
+  "level": "A1"
+ },
+ {
+  "text": "Ela tem medo",
+  "translation": "Ella tiene miedo",
+  "level": "A1"
+ },
+ {
+  "text": "Eu preciso de ajuda",
+  "translation": "Yo necesito ayuda",
+  "level": "A1"
+ },
+ {
+  "text": "Ele usa celular",
+  "translation": "Él usa celular",
+  "level": "A1"
+ },
+ {
+  "text": "Ela faz exercício",
+  "translation": "Ella hace ejercicio",
+  "level": "A1"
+ },
+ {
+  "text": "Eu vejo médico",
+  "translation": "Yo veo médico",
+  "level": "A1"
+ },
+ {
+  "text": "Ele sente ansiedade",
+  "translation": "Él siente ansiedad",
+  "level": "A1"
+ },
+ {
+  "text": "Ela lê jornal",
+  "translation": "Ella lee periódico",
+  "level": "A1"
+ },
+ {
+  "text": "Eu estudo espanhol",
+  "translation": "Yo estudio español",
+  "level": "A1"
+ },
+ {
+  "text": "Oi, tudo bem?",
+  "translation": "Hola, ¿todo bien?",
+  "level": "A2"
+ },
+ {
+  "text": "Como se chama?",
+  "translation": "¿Cómo te llamas?",
+  "level": "A2"
+ },
+ {
+  "text": "Eu sou Ana.",
+  "translation": "Yo soy Ana.",
+  "level": "A2"
+ },
+ {
+  "text": "Você tem irmãos?",
+  "translation": "¿Tienes hermanos?",
+  "level": "A2"
+ },
+ {
+  "text": "Ela vive na casa azul.",
+  "translation": "Ella vive en la casa azul.",
+  "level": "A2"
+ },
+ {
+  "text": "Hoje acordei cedo.",
+  "translation": "Hoy me desperté temprano.",
+  "level": "A2"
+ },
+ {
+  "text": "Vou ao supermercado amanhã.",
+  "translation": "Voy al supermercado mañana.",
+  "level": "A2"
+ },
+ {
+  "text": "Ele comprou pão ontem.",
+  "translation": "Él compró pan ayer.",
+  "level": "A2"
+ },
+ {
+  "text": "Nós jantamos às sete.",
+  "translation": "Nosotros cenamos a las siete.",
+  "level": "A2"
+ },
+ {
+  "text": "Ela trabalha na escola.",
+  "translation": "Ella trabaja en la escuela.",
+  "level": "A2"
+ },
+ {
+  "text": "Ele vai viajar na semana.",
+  "translation": "Él viajará la semana.",
+  "level": "A2"
+ },
+ {
+  "text": "Eu encontrei meu amigo.",
+  "translation": "Yo encontré a mi amigo.",
+  "level": "A2"
+ },
+ {
+  "text": "Ela tem dois filhos.",
+  "translation": "Ella tiene dos hijos.",
+  "level": "A2"
+ },
+ {
+  "text": "Nós moramos em São Paulo.",
+  "translation": "Nosotros vivimos en São Paulo.",
+  "level": "A2"
+ },
+ {
+  "text": "Você pode me ajudar?",
+  "translation": "¿Puedes ayudarme?",
+  "level": "A2"
+ },
+ {
+  "text": "Ele estudou matemática.",
+  "translation": "Él estudó matemáticas.",
+  "level": "A2"
+ },
+ {
+  "text": "Ela vai cozinhar hoje.",
+  "translation": "Ella cocinará hoy.",
+  "level": "A2"
+ },
+ {
+  "text": "Você está cansado?",
+  "translation": "¿Estás cansado?",
+  "level": "A2"
+ },
+ {
+  "text": "Ele foi ao médico.",
+  "translation": "Él fue al médico.",
+  "level": "A2"
+ },
+ {
+  "text": "Eu comprei uma casa.",
+  "translation": "Yo compré una casa.",
+  "level": "A2"
+ },
+ {
+  "text": "Vou ao supermercado hoje.",
+  "translation": "Voy al supermercado hoy.",
+  "level": "A2"
+ },
+ {
+  "text": "Comi arroz com feijão ontem.",
+  "translation": "Comí arroz con frijoles ayer.",
+  "level": "A2"
+ },
+ {
+  "text": "Quero comprar uma blusa nova.",
+  "translation": "Quiero comprar una blusa nueva.",
+  "level": "A2"
+ },
+ {
+  "text": "Ele pediu pizza e refrigerante.",
+  "translation": "Él pidió pizza y refresco.",
+  "level": "A2"
+ },
+ {
+  "text": "Ela não gosta de carne vermelha.",
+  "translation": "A ella no le gusta la carne roja.",
+  "level": "A2"
+ },
+ {
+  "text": "Vamos jantar fora amanhã.",
+  "translation": "Vamos a cenar fuera mañana.",
+  "level": "A2"
+ },
+ {
+  "text": "Você tem dinheiro suficiente?",
+  "translation": "¿Tienes suficiente dinero?",
+  "level": "A2"
+ },
+ {
+  "text": "Ele pagou com cartão de crédito.",
+  "translation": "Él pagó con tarjeta de crédito.",
+  "level": "A2"
+ },
+ {
+  "text": "O restaurante serve frutos do mar.",
+  "translation": "El restaurante sirve mariscos.",
+  "level": "A2"
+ },
+ {
+  "text": "Eu preciso de um guarda‑roupa.",
+  "translation": "Necesito un armario.",
+  "level": "A2"
+ },
+ {
+  "text": "Compramos roupas de inverno.",
+  "translation": "Compramos ropa de invierno.",
+  "level": "A2"
+ },
+ {
+  "text": "Ela pediu sobremesa deliciosa.",
+  "translation": "Ella pidió un postre delicioso.",
+  "level": "A2"
+ },
+ {
+  "text": "Ele economiza dinheiro para viajar.",
+  "translation": "Él ahorra dinero para viajar.",
+  "level": "A2"
+ },
+ {
+  "text": "Você quer um café ou chá?",
+  "translation": "¿Quieres café o té?",
+  "level": "A2"
+ },
+ {
+  "text": "O preço está muito alto.",
+  "translation": "El precio está muy alto.",
+  "level": "A2"
+ },
+ {
+  "text": "Ela comprou sapatos novos.",
+  "translation": "Ella compró zapatos nuevos.",
+  "level": "A2"
+ },
+ {
+  "text": "Vamos almoçar no parque.",
+  "translation": "Vamos a almorzar en el parque.",
+  "level": "A2"
+ },
+ {
+  "text": "Ele vende roupas usadas.",
+  "translation": "Él vende ropa usada.",
+  "level": "A2"
+ },
+ {
+  "text": "Preciso trocar a moeda local.",
+  "translation": "Necesito cambiar la moneda local.",
+  "level": "A2"
+ },
+ {
+  "text": "O prato principal é feijoada.",
+  "translation": "El plato principal es feijoada.",
+  "level": "A2"
+ },
+ {
+  "text": "Vou viajar amanhã de avião.",
+  "translation": "Voy a viajar mañana en avión.",
+  "level": "A2"
+ },
+ {
+  "text": "O ônibus chegou atrasado.",
+  "translation": "El autobús llegó retrasado.",
+  "level": "A2"
+ },
+ {
+  "text": "Onde fica a estação de trem?",
+  "translation": "¿Dónde está la estación de tren?",
+  "level": "A2"
+ },
+ {
+  "text": "Preciso de um hotel próximo ao centro.",
+  "translation": "Necesito un hotel cerca del centro.",
+  "level": "A2"
+ },
+ {
+  "text": "Qual é o horário de partida do voo?",
+  "translation": "¿Cuál es la hora de salida del vuelo?",
+  "level": "A2"
+ },
+ {
+  "text": "O tempo está ensolarado hoje.",
+  "translation": "El tiempo está soleado hoy.",
+  "level": "A2"
+ },
+ {
+  "text": "Você pode me indicar o caminho para a praia?",
+  "translation": "¿Puedes indicarme el camino a la playa?",
+  "level": "A2"
+ },
+ {
+  "text": "O trem está cheio, não há lugares.",
+  "translation": "El tren está lleno, no hay lugares.",
+  "level": "A2"
+ },
+ {
+  "text": "Quero reservar um quarto com vista para o mar.",
+  "translation": "Quiero reservar una habitación con vista al mar.",
+  "level": "A2"
+ },
+ {
+  "text": "O aeroporto está longe da cidade.",
+  "translation": "El aeropuerto está lejos de la ciudad.",
+  "level": "A2"
+ },
+ {
+  "text": "Cheguei ao hotel às 19h.",
+  "translation": "Llegué al hotel a las 19h.",
+  "level": "A2"
+ },
+ {
+  "text": "O clima vai piorar amanhã.",
+  "translation": "El clima empeorará mañana.",
+  "level": "A2"
+ },
+ {
+  "text": "Preciso de um táxi para o aeroporto.",
+  "translation": "Necesito un taxi al aeropuerto.",
+  "level": "A2"
+ },
+ {
+  "text": "Onde fica a saída de emergência?",
+  "translation": "¿Dónde está la salida de emergencia?",
+  "level": "A2"
+ },
+ {
+  "text": "O voo foi cancelado devido à chuva.",
+  "translation": "El vuelo fue cancelado por la lluvia.",
+  "level": "A2"
+ },
+ {
+  "text": "Você pode me mostrar o mapa da cidade?",
+  "translation": "¿Puedes mostrarme el mapa de la ciudad?",
+  "level": "A2"
+ },
+ {
+  "text": "O hotel oferece café da manhã gratuito.",
+  "translation": "El hotel ofrece desayuno gratuito.",
+  "level": "A2"
+ },
+ {
+  "text": "O tempo está nublado, pode chover.",
+  "translation": "El tiempo está nublado, puede llover.",
+  "level": "A2"
+ },
+ {
+  "text": "Qual é a melhor maneira de chegar ao centro?",
+  "translation": "¿Cuál es la mejor manera de llegar al centro?",
+  "level": "A2"
+ },
+ {
+  "text": "O trem partiu pontualmente.",
+  "translation": "El tren partió puntualmente.",
+  "level": "A2"
+ },
+ {
+  "text": "Eu terminei o relatório ontem.",
+  "translation": "Yo terminé el informe ayer.",
+  "level": "A2"
+ },
+ {
+  "text": "Ele vai trabalhar amanhã cedo.",
+  "translation": "Él va a trabajar mañana temprano.",
+  "level": "A2"
+ },
+ {
+  "text": "Ela estudou para a prova de matemática.",
+  "translation": "Ella estudió para la prueba de matemáticas.",
+  "level": "A2"
+ },
+ {
+  "text": "Nós estudamos em grupo na biblioteca.",
+  "translation": "Nosotros estudiamos en grupo en la biblioteca.",
+  "level": "A2"
+ },
+ {
+  "text": "Ele comprou um remédio para dor de cabeça.",
+  "translation": "Él compró un medicamento para dolor de cabeza.",
+  "level": "A2"
+ },
+ {
+  "text": "Ela sente dor de estômago.",
+  "translation": "Ella siente dolor de estómago.",
+  "level": "A2"
+ },
+ {
+  "text": "O médico disse que preciso descansar.",
+  "translation": "El médico dijo que necesito descansar.",
+  "level": "A2"
+ },
+ {
+  "text": "Eu fui ao médico na segunda-feira.",
+  "translation": "Yo fui al médico el lunes.",
+  "level": "A2"
+ },
+ {
+  "text": "A emergência exigiu evacuação imediata.",
+  "translation": "La emergencia exigió evacuación inmediata.",
+  "level": "A2"
+ },
+ {
+  "text": "O carro quebrou na estrada.",
+  "translation": "El coche se averió en la carretera.",
+  "level": "A2"
+ },
+ {
+  "text": "Eu estou feliz com o resultado.",
+  "translation": "Yo estoy feliz con el resultado.",
+  "level": "A2"
+ },
+ {
+  "text": "Ela se sentiu triste depois da notícia.",
+  "translation": "Ella se sintió triste después de la noticia.",
+  "level": "A2"
+ },
+ {
+  "text": "Ele gosta de tocar guitarra nas horas livres.",
+  "translation": "Él le gusta tocar guitarra en su tiempo libre.",
+  "level": "A2"
+ },
+ {
+  "text": "Ela pratica yoga todos os dias.",
+  "translation": "Ella practica yoga todos los días.",
+  "level": "A2"
+ },
+ {
+  "text": "Eu uso o celular para enviar mensagens.",
+  "translation": "Yo uso el celular para enviar mensajes.",
+  "level": "A2"
+ },
+ {
+  "text": "Ele atualiza o software do computador.",
+  "translation": "Él actualiza el software del computador.",
+  "level": "A2"
+ },
+ {
+  "text": "Ela lê livros de tecnologia.",
+  "translation": "Ella lee libros de tecnología.",
+  "level": "A2"
+ },
+ {
+  "text": "O médico recomendou exercícios leves.",
+  "translation": "El médico recomendó ejercicios leves.",
+  "level": "A2"
+ },
+ {
+  "text": "Eu preciso marcar uma consulta de rotina.",
+  "translation": "Yo necesito marcar una consulta de rutina.",
+  "level": "A2"
+ },
+ {
+  "text": "Ela está ansiosa para o exame.",
+  "translation": "Ella está ansiosa por el examen.",
+  "level": "A2"
+ },
+ {
+  "text": "Como te llamas?",
+  "translation": "¿Cómo te llamas?",
+  "level": "B1"
+ },
+ {
+  "text": "Eu me chamo Ana.",
+  "translation": "Me llamo Ana.",
+  "level": "B1"
+ },
+ {
+  "text": "De onde você é?",
+  "translation": "¿De dónde eres?",
+  "level": "B1"
+ },
+ {
+  "text": "Sou de São Paulo.",
+  "translation": "Soy de São Paulo.",
+  "level": "B1"
+ },
+ {
+  "text": "Tenho dois irmãos e uma irmã.",
+  "translation": "Tengo dos hermanos y una hermana.",
+  "level": "B1"
+ },
+ {
+  "text": "Qual é a sua profissão?",
+  "translation": "¿Cuál es tu profesión?",
+  "level": "B1"
+ },
+ {
+  "text": "Sou professora de português.",
+  "translation": "Soy profesora de portugués.",
+  "level": "B1"
+ },
+ {
+  "text": "Você gosta de viajar?",
+  "translation": "¿Te gusta viajar?",
+  "level": "B1"
+ },
+ {
+  "text": "Sim, adoro conhecer novos lugares.",
+  "translation": "Sí, me encanta conocer nuevos lugares.",
+  "level": "B1"
+ },
+ {
+  "text": "Qual é a sua comida favorita?",
+  "translation": "¿Cuál es tu comida favorita?",
+  "level": "B1"
+ },
+ {
+  "text": "Gosto de feijoada.",
+  "translation": "Me gusta la feijoada.",
+  "level": "B1"
+ },
+ {
+  "text": "Como é sua casa?",
+  "translation": "¿Cómo es tu casa?",
+  "level": "B1"
+ },
+ {
+  "text": "Ela tem três quartos e um jardim.",
+  "translation": "Tiene tres habitaciones y un jardín.",
+  "level": "B1"
+ },
+ {
+  "text": "Você costuma acordar cedo?",
+  "translation": "¿Sueles despertarte temprano?",
+  "level": "B1"
+ },
+ {
+  "text": "Não, prefiro dormir até tarde.",
+  "translation": "No, prefiero dormir hasta tarde.",
+  "level": "B1"
+ },
+ {
+  "text": "O que você faz no fim de semana?",
+  "translation": "¿Qué haces los fines de semana?",
+  "level": "B1"
+ },
+ {
+  "text": "Gosto de ler e passear com a família.",
+  "translation": "Me gusta leer y pasear con la familia.",
+  "level": "B1"
+ },
+ {
+  "text": "Você tem algum hobby?",
+  "translation": "¿Tienes algún pasatiempo?",
+  "level": "B1"
+ },
+ {
+  "text": "Eu adoro comer feijoada nas quintas-feiras.",
+  "translation": "Me encanta comer feijoada los viernes.",
+  "level": "B1"
+ },
+ {
+  "text": "Você já experimentou a pizza de calabresa aqui?",
+  "translation": "¿Has probado la pizza de calabresa aquí?",
+  "level": "B1"
+ },
+ {
+  "text": "Vou ao supermercado comprar frutas frescas amanhã.",
+  "translation": "Voy al supermercado a comprar frutas frescas mañana.",
+  "level": "B1"
+ },
+ {
+  "text": "Qual é o preço desse vestido? Ele parece caro.",
+  "translation": "¿Cuál es el precio de este vestido? Parece caro.",
+  "level": "B1"
+ },
+ {
+  "text": "Preciso de um café, por favor, com açúcar.",
+  "translation": "Necesito un café, por favor, con azúcar.",
+  "level": "B1"
+ },
+ {
+  "text": "O restaurante tem pratos vegetarianos, não é?",
+  "translation": "El restaurante tiene platos vegetarianos, ¿no?",
+  "level": "B1"
+ },
+ {
+  "text": "Você prefere pagar com cartão ou dinheiro?",
+  "translation": "¿Prefieres pagar con tarjeta o con efectivo?",
+  "level": "B1"
+ },
+ {
+  "text": "Vamos ao shopping para comprar roupas novas.",
+  "translation": "Vamos al centro comercial a comprar ropa nueva.",
+  "level": "B1"
+ },
+ {
+  "text": "O prato principal estava delicioso, mas o molho estava muito salgado.",
+  "translation": "El plato principal estaba delicioso, pero la salsa estaba muy salada.",
+  "level": "B1"
+ },
+ {
+  "text": "Você pode me indicar um bom restaurante italiano na cidade?",
+  "translation": "¿Puedes indicarme un buen restaurante italiano en la ciudad?",
+  "level": "B1"
+ },
+ {
+  "text": "Eu comprei um par de sapatos na promoção, ficaram ótimos.",
+  "translation": "Compré un par de zapatos en la promoción, quedaron geniales.",
+  "level": "B1"
+ },
+ {
+  "text": "Quero trocar a camisa que comprei, ela não serve.",
+  "translation": "Quiero cambiar la camisa que compré, no me queda.",
+  "level": "B1"
+ },
+ {
+  "text": "O caixa está com filas muito longas hoje.",
+  "translation": "El cajero tiene colas muy largas hoy.",
+  "level": "B1"
+ },
+ {
+  "text": "Você pode me dar um desconto se eu pagar à vista?",
+  "translation": "¿Puedes darme un descuento si pago al contado?",
+  "level": "B1"
+ },
+ {
+  "text": "A sobremesa de chocolate é irresistível aqui.",
+  "translation": "El postre de chocolate es irresistible aquí.",
+  "level": "B1"
+ },
+ {
+  "text": "Preciso de uma carteira nova, a antiga está rasgada.",
+  "translation": "Necesito una cartera nueva, la antigua está desgarrada.",
+  "level": "B1"
+ },
+ {
+  "text": "O menu tem opções de comida rápida e saudável.",
+  "translation": "El menú tiene opciones de comida rápida y saludable.",
+  "level": "B1"
+ },
+ {
+  "text": "Você vai ao mercado ou prefere comprar online?",
+  "translation": "¿Vas al mercado o prefieres comprar en línea?",
+  "level": "B1"
+ },
+ {
+  "text": "O garçom recomendou o prato de peixe, e foi excelente.",
+  "translation": "El camarero recomendó el plato de pescado, y fue excelente.",
+  "level": "B1"
+ },
+ {
+  "text": "Quero fazer um pedido de pizza grande, por favor.",
+  "translation": "Quiero hacer un pedido de pizza grande, por favor.",
+  "level": "B1"
+ },
+ {
+  "text": "O que você recomenda fazer na cidade de Lisboa?",
+  "translation": "¿Qué me recomiendas hacer en la ciudad de Lisboa?",
+  "level": "B1"
+ },
+ {
+  "text": "Eu prefiro viajar de trem, porque é mais confortável.",
+  "translation": "Prefiero viajar en tren, porque es más cómodo.",
+  "level": "B1"
+ },
+ {
+  "text": "Você já esteve no Aeroporto de Guarulhos?",
+  "translation": "¿Has estado en el Aeropuerto de Guarulhos?",
+  "level": "B1"
+ },
+ {
+  "text": "Qual é a melhor hora para chegar ao hotel?",
+  "translation": "¿Cuál es la mejor hora para llegar al hotel?",
+  "level": "B1"
+ },
+ {
+  "text": "A previsão do tempo indica chuva forte amanhã. Você vai usar guarda-chuva?",
+  "translation": "El pronóstico del tiempo indica lluvia fuerte mañana. ¿Vas a usar paraguas?",
+  "level": "B1"
+ },
+ {
+  "text": "Onde fica a estação de metrô mais próxima?",
+  "translation": "¿Dónde está la estación de metro más cercana?",
+  "level": "B1"
+ },
+ {
+  "text": "O hotel oferece café da manhã incluso?",
+  "translation": "¿El hotel ofrece desayuno incluido?",
+  "level": "B1"
+ },
+ {
+  "text": "Você prefere voar direto ou fazer escala?",
+  "translation": "¿Prefieres volar directo o hacer escala?",
+  "level": "B1"
+ },
+ {
+  "text": "Como chegar ao centro histórico de São Paulo?",
+  "translation": "¿Cómo llegar al centro histórico de São Paulo?",
+  "level": "B1"
+ },
+ {
+  "text": "O transporte público funciona até tarde da noite?",
+  "translation": "¿El transporte público funciona hasta tarde de la noche?",
+  "level": "B1"
+ },
+ {
+  "text": "Qual é a temperatura média em Rio de Janeiro durante o verão?",
+  "translation": "¿Cuál es la temperatura media en Río de Janeiro durante el verano?",
+  "level": "B1"
+ },
+ {
+  "text": "O que devo levar na mala para uma viagem de duas semanas?",
+  "translation": "¿Qué debo llevar en la maleta para un viaje de dos semanas?",
+  "level": "B1"
+ },
+ {
+  "text": "Você já experimentou o trem noturno? É bem silencioso.",
+  "translation": "¿Has probado el tren nocturno? Es muy silencioso.",
+  "level": "B1"
+ },
+ {
+  "text": "O aeroporto tem um lounge VIP gratuito para passageiros de classe econômica?",
+  "translation": "¿El aeropuerto tiene un salón VIP gratuito para pasajeros de clase económica?",
+  "level": "B1"
+ },
+ {
+  "text": "Preciso de um mapa da cidade, onde posso encontrar?",
+  "translation": "Necesito un mapa de la ciudad, ¿dónde puedo encontrarlo?",
+  "level": "B1"
+ },
+ {
+  "text": "Você acha que o clima vai melhorar no fim de semana?",
+  "translation": "¿Crees que el clima mejorará el fin de semana?",
+  "level": "B1"
+ },
+ {
+  "text": "O hotel tem serviço de traslado do aeroporto?",
+  "translation": "¿El hotel tiene servicio de traslado desde el aeropuerto?",
+  "level": "B1"
+ },
+ {
+  "text": "Qual é a distância entre o centro e a estação de trem?",
+  "translation": "¿Cuál es la distancia entre el centro y la estación de tren?",
+  "level": "B1"
+ },
+ {
+  "text": "Você já usou um aplicativo de transporte compartilhado?",
+  "translation": "¿Has usado una aplicación de transporte compartido?",
+  "level": "B1"
+ },
+ {
+  "text": "Como posso reservar um quarto de hotel com vista para o mar?",
+  "translation": "¿Cómo puedo reservar una habitación de hotel con vista al mar?",
+  "level": "B1"
+ },
+ {
+  "text": "Meu chefe pediu que eu entregue o relatório amanhã.",
+  "translation": "Mi jefe me pidió que entregue el informe mañana.",
+  "level": "B1"
+ },
+ {
+  "text": "Estava estudando para a prova quando o telefone tocou.",
+  "translation": "Estaba estudiando para el examen cuando sonó el teléfono.",
+  "level": "B1"
+ },
+ {
+  "text": "Preciso marcar uma consulta com o médico.",
+  "translation": "Necesito programar una cita con el médico.",
+  "level": "B1"
+ },
+ {
+  "text": "A dor na minha coluna piorou depois da viagem.",
+  "translation": "El dolor en mi columna empeoró después del viaje.",
+  "level": "B1"
+ },
+ {
+  "text": "Se houver uma emergência, ligue imediatamente para o hospital.",
+  "translation": "En caso de emergencia, llame inmediatamente al hospital.",
+  "level": "B1"
+ },
+ {
+  "text": "Sinto-me muito ansioso sobre o novo projeto.",
+  "translation": "Me siento muy ansioso por el nuevo proyecto.",
+  "level": "B1"
+ },
+ {
+  "text": "Minha paixão por fotografia me mantém motivado.",
+  "translation": "Mi pasión por la fotografía me mantiene motivado.",
+  "level": "B1"
+ },
+ {
+  "text": "A tecnologia moderna facilita a comunicação global.",
+  "translation": "La tecnología moderna facilita la comunicación global.",
+  "level": "B1"
+ },
+ {
+  "text": "Vou trabalhar na fábrica até as seis da tarde.",
+  "translation": "Trabajaré en la fábrica hasta las seis de la tarde.",
+  "level": "B1"
+ },
+ {
+  "text": "O professor pediu que entregássemos o trabalho em grupo.",
+  "translation": "El profesor pidió que entregáramos el trabajo en grupo.",
+  "level": "B1"
+ },
+ {
+  "text": "Minha saúde melhorou depois de começar a correr.",
+  "translation": "Mi salud mejoró después de empezar a correr.",
+  "level": "B1"
+ },
+ {
+  "text": "O médico recomendou que eu faça mais exercícios.",
+  "translation": "El médico recomendó que haga más ejercicio.",
+  "level": "B1"
+ },
+ {
+  "text": "Em caso de acidente, use o número de emergência 192.",
+  "translation": "En caso de accidente, use el número de emergencia 192.",
+  "level": "B1"
+ },
+ {
+  "text": "Estou nervoso porque a entrevista começa em meia hora.",
+  "translation": "Estoy nervioso porque la entrevista comienza en media hora.",
+  "level": "B1"
+ },
+ {
+  "text": "Eu coleciono moedas antigas como hobby.",
+  "translation": "Colecciono monedas antiguas como hobby.",
+  "level": "B1"
+ },
+ {
+  "text": "A inteligência artificial está mudando o mercado de trabalho.",
+  "translation": "La inteligencia artificial está cambiando el mercado laboral.",
+  "level": "B1"
+ },
+ {
+  "text": "Preciso terminar o relatório antes da reunião de amanhã.",
+  "translation": "Necesito terminar el informe antes de la reunión de mañana.",
+  "level": "B1"
+ },
+ {
+  "text": "O médico disse que a medicação ajuda a aliviar a dor.",
+  "translation": "El médico dijo que la medicación ayuda a aliviar el dolor.",
+  "level": "B1"
+ },
+ {
+  "text": "Se algo acontecer, siga as instruções do socorrista.",
+  "translation": "Si algo sucede, siga las instrucciones del socorrista.",
+  "level": "B1"
+ },
+ {
+  "text": "Meu humor está melhor desde que comecei a meditar.",
+  "translation": "Mi humor ha mejorado desde que comencé a meditar.",
+  "level": "B1"
+ },
+ {
+  "text": "A tecnologia de realidade virtual está revolucionando a educação.",
+  "translation": "La tecnología de realidad virtual está revolucionando la educación.",
+  "level": "B1"
+ },
+ {
+  "text": "Olá, meu nome é João e eu sou de São Paulo.",
+  "translation": "Hola, mi nombre es Juan y soy de São Paulo.",
+  "level": "B2"
+ },
+ {
+  "text": "Bom dia! Como vai você hoje?",
+  "translation": "¡Buenos días! ¿Cómo estás hoy?",
+  "level": "B2"
+ },
+ {
+  "text": "Você poderia me dizer onde fica a estação de metrô mais próxima?",
+  "translation": "¿Podría decirme dónde está la estación de metro más cercana?",
+  "level": "B2"
+ },
+ {
+  "text": "Eu moro em um apartamento de três quartos no centro da cidade.",
+  "translation": "Vivo en un apartamento de tres habitaciones en el centro de la ciudad.",
+  "level": "B2"
+ },
+ {
+  "text": "Minha mãe trabalha como professora em uma escola pública.",
+  "translation": "Mi madre trabaja como profesora en una escuela pública.",
+  "level": "B2"
+ },
+ {
+  "text": "Você tem irmãos ou irmãs?",
+  "translation": "¿Tienes hermanos o hermanas?",
+  "level": "B2"
+ },
+ {
+  "text": "Eu acordo às seis da manhã para começar meu dia.",
+  "translation": "Me despierto a las seis de la mañana para comenzar mi día.",
+  "level": "B2"
+ },
+ {
+  "text": "A minha rotina diária inclui café, trabalho e exercícios.",
+  "translation": "Mi rutina diaria incluye café, trabajo y ejercicio.",
+  "level": "B2"
+ },
+ {
+  "text": "Você costuma tomar café da manhã com a família?",
+  "translation": "¿Sueles tomar el desayuno con la familia?",
+  "level": "B2"
+ },
+ {
+  "text": "O meu pai costuma cozinhar pratos típicos da região.",
+  "translation": "Mi padre suele cocinar platos típicos de la región.",
+  "level": "B2"
+ },
+ {
+  "text": "Eu gosto de ler livros de ficção científica nas noites frias.",
+  "translation": "Me gusta leer libros de ciencia ficción en las noches frías.",
+  "level": "B2"
+ },
+ {
+  "text": "Você já visitou algum país onde o português é falado?",
+  "translation": "¿Has visitado algún país donde se habla portugués?",
+  "level": "B2"
+ },
+ {
+  "text": "Meu cachorro, chamado Bicho, adora brincar no parque.",
+  "translation": "Mi perro, llamado Bicho, le encanta jugar en el parque.",
+  "level": "B2"
+ },
+ {
+  "text": "Você prefere café ou chá no café da manhã?",
+  "translation": "¿Prefieres café o té en el desayuno?",
+  "level": "B2"
+ },
+ {
+  "text": "Eu estudo português para melhorar minha comunicação no trabalho.",
+  "translation": "Estudio portugués para mejorar mi comunicación en el trabajo.",
+  "level": "B2"
+ },
+ {
+  "text": "Você costuma fazer compras online ou prefere ir às lojas físicas?",
+  "translation": "¿Sueles hacer compras en línea o prefieres ir a las tiendas físicas?",
+  "level": "B2"
+ },
+ {
+  "text": "Minha irmã trabalha como engenheira em uma empresa de tecnologia.",
+  "translation": "Mi hermana trabaja como ingeniera en una empresa de tecnología.",
+  "level": "B2"
+ },
+ {
+  "text": "Eu sempre deixo a porta da casa aberta quando estou em casa.",
+  "translation": "Siempre dejo la puerta de la casa abierta cuando estoy en casa.",
+  "level": "B2"
+ },
+ {
+  "text": "Você tem planos de viajar para o interior do Brasil neste ano?",
+  "translation": "¿Tienes planes de viajar al interior de Brasil este año?",
+  "level": "B2"
+ },
+ {
+  "text": "A minha rotina inclui um banho de manhã e outra à noite.",
+  "translation": "Mi rutina incluye un baño por la mañana y otro por la noche.",
+  "level": "B2"
+ },
+ {
+  "text": "Aquele restaurante serve pratos típicos que lembram minha infância.",
+  "translation": "That restaurant serves typical dishes that remind me of my childhood.",
+  "level": "B2"
+ },
+ {
+  "text": "Se eu tivesse mais dinheiro, compraria roupas de grife.",
+  "translation": "If I had more money, I would buy designer clothes.",
+  "level": "B2"
+ },
+ {
+  "text": "Você já experimentou o prato de frutos do mar que está em promoção hoje?",
+  "translation": "Have you tried the seafood dish that is on promotion today?",
+  "level": "B2"
+ },
+ {
+  "text": "É importante escolher tecidos sustentáveis ao fazer compras.",
+  "translation": "It is important to choose sustainable fabrics when shopping.",
+  "level": "B2"
+ },
+ {
+  "text": "O chef recomendou um vinho que combina perfeitamente com a carne.",
+  "translation": "The chef recommended a wine that pairs perfectly with the meat.",
+  "level": "B2"
+ },
+ {
+  "text": "Se eu fosse você, pediria a sobremesa de chocolate, é deliciosa.",
+  "translation": "If I were you, I would order the chocolate dessert, it's delicious.",
+  "level": "B2"
+ },
+ {
+  "text": "Os preços dos tecidos variam muito de acordo com a estação.",
+  "translation": "Fabric prices vary a lot depending on the season.",
+  "level": "B2"
+ },
+ {
+  "text": "Você pode me indicar um restaurante que ofereça opções vegetarianas?",
+  "translation": "Can you recommend a restaurant that offers vegetarian options?",
+  "level": "B2"
+ },
+ {
+  "text": "Para economizar, prefiro comprar roupas em liquidação.",
+  "translation": "To save money, I prefer buying clothes on sale.",
+  "level": "B2"
+ },
+ {
+  "text": "O prato principal foi preparado com ingredientes frescos e locais.",
+  "translation": "The main dish was prepared with fresh, local ingredients.",
+  "level": "B2"
+ },
+ {
+  "text": "Se a promoção acabar, não vou conseguir comprar aquele casaco.",
+  "translation": "If the promotion ends, I won't be able to buy that coat.",
+  "level": "B2"
+ },
+ {
+  "text": "O garçom explicou que o prato é tradicional da região.",
+  "translation": "The waiter explained that the dish is traditional to the region.",
+  "level": "B2"
+ },
+ {
+  "text": "Você já pensou em trocar a roupa de inverno por algo mais leve?",
+  "translation": "Have you thought about swapping your winter clothes for something lighter?",
+  "level": "B2"
+ },
+ {
+  "text": "Para o almoço, escolhi um prato que não contenha glúten.",
+  "translation": "For lunch, I chose a dish that doesn't contain gluten.",
+  "level": "B2"
+ },
+ {
+  "text": "Os descontos são maiores quando você paga com cartão de crédito.",
+  "translation": "Discounts are higher when you pay with a credit card.",
+  "level": "B2"
+ },
+ {
+  "text": "Se eu tivesse mais tempo, visitaria todos os mercados da cidade.",
+  "translation": "If I had more time, I would visit all the markets in the city.",
+  "level": "B2"
+ },
+ {
+  "text": "O restaurante oferece um menu degustação que custa R$ 120.",
+  "translation": "The restaurant offers a tasting menu that costs R$ 120.",
+  "level": "B2"
+ },
+ {
+  "text": "Você prefere comprar roupas online ou em lojas físicas?",
+  "translation": "Do you prefer buying clothes online or in physical stores?",
+  "level": "B2"
+ },
+ {
+  "text": "A qualidade do tecido faz toda a diferença na durabilidade da peça.",
+  "translation": "The quality of the fabric makes all the difference in the durability of the piece.",
+  "level": "B2"
+ },
+ {
+  "text": "Se o prato não for muito picante, posso comer sem restrições.",
+  "translation": "If the dish isn't too spicy, I can eat it without restrictions.",
+  "level": "B2"
+ },
+ {
+  "text": "O que você acha de reservar um quarto de hotel com vista para o mar?",
+  "translation": "¿Qué opinas de reservar una habitación de hotel con vista al mar?",
+  "level": "B2"
+ },
+ {
+  "text": "Você já tentou usar o transporte público para chegar ao aeroporto?",
+  "translation": "¿Has intentado usar el transporte público para llegar al aeropuerto?",
+  "level": "B2"
+ },
+ {
+  "text": "Qual é a melhor forma de pedir direções em uma cidade desconhecida?",
+  "translation": "¿Cuál es la mejor manera de pedir direcciones en una ciudad desconocida?",
+  "level": "B2"
+ },
+ {
+  "text": "O clima está mudando rapidamente, e isso afeta nossos planos de viagem.",
+  "translation": "El clima está cambiando rápidamente, y eso afecta nuestros planes de viaje.",
+  "level": "B2"
+ },
+ {
+  "text": "Você prefere voar de manhã cedo ou de tarde?",
+  "translation": "¿Prefieres volar temprano en la mañana o en la tarde?",
+  "level": "B2"
+ },
+ {
+  "text": "O hotel oferece serviço de traslado gratuito para o aeroporto?",
+  "translation": "¿El hotel ofrece servicio de traslado gratuito al aeropuerto?",
+  "level": "B2"
+ },
+ {
+  "text": "Como você descreve a sensação de chegar a um destino pela primeira vez?",
+  "translation": "¿Cómo describes la sensación de llegar a un destino por primera vez?",
+  "level": "B2"
+ },
+ {
+  "text": "A previsão do tempo indica chuva forte no próximo fim de semana.",
+  "translation": "El pronóstico del tiempo indica lluvia fuerte el próximo fin de semana.",
+  "level": "B2"
+ },
+ {
+  "text": "Você já se perdeu em uma cidade por causa de uma sinalização confusa?",
+  "translation": "¿Alguna vez te has perdido en una ciudad por causa de una señalización confusa?",
+  "level": "B2"
+ },
+ {
+  "text": "Qual é a diferença entre um bilhete de ida e volta e um bilhete só de ida?",
+  "translation": "¿Cuál es la diferencia entre un billete de ida y vuelta y un billete solo de ida?",
+  "level": "B2"
+ },
+ {
+  "text": "O que você faz quando o seu voo é cancelado?",
+  "translation": "¿Qué haces cuando tu vuelo es cancelado?",
+  "level": "B2"
+ },
+ {
+  "text": "Você já experimentou o serviço de concierge em um hotel de luxo?",
+  "translation": "¿Has experimentado el servicio de conserje en un hotel de lujo?",
+  "level": "B2"
+ },
+ {
+  "text": "Como você lida com a diferença de fuso horário durante uma viagem?",
+  "translation": "¿Cómo manejas la diferencia de huso horario durante un viaje?",
+  "level": "B2"
+ },
+ {
+  "text": "O que significa 'check-in' e 'check-out' em um hotel?",
+  "translation": "¿Qué significa 'check-in' y 'check-out' en un hotel?",
+  "level": "B2"
+ },
+ {
+  "text": "Você prefere viajar de trem ou de ônibus?",
+  "translation": "¿Prefieres viajar en tren o en autobús?",
+  "level": "B2"
+ },
+ {
+  "text": "Qual é o seu destino de viagem dos sonhos?",
+  "translation": "¿Cuál es tu destino de viaje soñado?",
+  "level": "B2"
+ },
+ {
+  "text": "O que você faz para evitar o jet lag?",
+  "translation": "¿Qué haces para evitar el jet lag?",
+  "level": "B2"
+ },
+ {
+  "text": "Você já ficou em um hotel que oferecia café da manhã continental?",
+  "translation": "¿Alguna vez te alojaste en un hotel que ofrecía desayuno continental?",
+  "level": "B2"
+ },
+ {
+  "text": "Como você descreve a sensação de estar em um aeroporto movimentado?",
+  "translation": "¿Cómo describes la sensación de estar en un aeropuerto concurrido?",
+  "level": "B2"
+ },
+ {
+  "text": "Qual é a melhor maneira de se orientar em um mapa de transporte público?",
+  "translation": "¿Cuál es la mejor manera de orientarse en un mapa de transporte público?",
+  "level": "B2"
+ },
+ {
+  "text": "Se eu ganhar na loteria, compraria um escritório em Lisboa para trabalhar remotamente.",
+  "translation": "Si gano la lotería, compraría una oficina en Lisboa para trabajar de forma remota.",
+  "level": "B2"
+ },
+ {
+  "text": "O relatório de saúde pública indica que a vacinação é a melhor estratégia preventiva.",
+  "translation": "El informe de salud pública indica que la vacunación es la mejor estrategia preventiva.",
+  "level": "B2"
+ },
+ {
+  "text": "Se você se sentir mal, procure um médico imediatamente; a saúde não pode esperar.",
+  "translation": "Si te sientes mal, busca a un médico inmediatamente; la salud no puede esperar.",
+  "level": "B2"
+ },
+ {
+  "text": "A maioria dos especialistas concorda que a tecnologia pode reduzir o estresse no trabalho.",
+  "translation": "La mayoría de los especialistas están de acuerdo en que la tecnología puede reducir el estrés en el trabajo.",
+  "level": "B2"
+ },
+ {
+  "text": "Caso haja um acidente, lembre-se de manter a calma e chamar os serviços de emergência.",
+  "translation": "En caso de un accidente, recuerda mantener la calma y llamar a los servicios de emergencia.",
+  "level": "B2"
+ },
+ {
+  "text": "Se o projeto for aprovado, a equipe receberá um bônus inesperado.",
+  "translation": "Si el proyecto es aprobado, el equipo recibirá un bono inesperado.",
+  "level": "B2"
+ },
+ {
+  "text": "A pandemia mudou a forma como estudamos; agora, a maioria das aulas é online.",
+  "translation": "La pandemia cambió la forma en que estudiamos; ahora, la mayoría de las clases son en línea.",
+  "level": "B2"
+ },
+ {
+  "text": "Se eu tivesse mais tempo, dedicaría mais horas ao meu hobby de fotografia.",
+  "translation": "Si tuviera más tiempo, dedicaría más horas a mi hobby de fotografía.",
+  "level": "B2"
+ },
+ {
+  "text": "A pesquisa mostra que a prática regular de exercícios melhora a saúde mental e física.",
+  "translation": "La investigación muestra que la práctica regular de ejercicios mejora la salud mental y física.",
+  "level": "B2"
+ },
+ {
+  "text": "Se você quiser melhorar seu português, tente conversar com nativos diariamente.",
+  "translation": "Si quieres mejorar tu portugués, intenta conversar con nativos diariamente.",
+  "level": "B2"
+ },
+ {
+  "text": "A empresa anunciou que vai investir em inteligência artificial para otimizar processos.",
+  "translation": "La empresa anunció que va a invertir en inteligencia artificial para optimizar procesos.",
+  "level": "B2"
+ },
+ {
+  "text": "Se houver uma falha no sistema, os técnicos resolverão o problema em até duas horas.",
+  "translation": "Si hay una falla en el sistema, los técnicos resolverán el problema en hasta dos horas.",
+  "level": "B2"
+ },
+ {
+  "text": "O médico recomendou que você faça exames de rotina para prevenir doenças.",
+  "translation": "El médico recomendó que hagas exámenes de rutina para prevenir enfermedades.",
+  "level": "B2"
+ },
+ {
+  "text": "Se eu tivesse escolhido outra carreira, talvez não me sentisse tão estressado.",
+  "translation": "Si hubiera elegido otra carrera, tal vez no me sintiera tan estresado.",
+  "level": "B2"
+ },
+ {
+  "text": "A maioria das pessoas sente ansiedade quando enfrenta prazos apertados no trabalho.",
+  "translation": "La mayoría de las personas sienten ansiedad cuando enfrentan plazos ajustados en el trabajo.",
+  "level": "B2"
+ },
+ {
+  "text": "Caso você precise de ajuda, não hesite em pedir apoio aos colegas.",
+  "translation": "En caso de que necesites ayuda, no dudes en pedir apoyo a los colegas.",
+  "level": "B2"
+ },
+ {
+  "text": "Se a tecnologia falhar, o backup automático garante que os dados não sejam perdidos.",
+  "translation": "Si la tecnología falla, el respaldo automático garantiza que los datos no se pierdan.",
+  "level": "B2"
+ },
+ {
+  "text": "O estudo revelou que a meditação diária reduz significativamente o estresse.",
+  "translation": "El estudio reveló que la meditación diaria reduce significativamente el estrés.",
+  "level": "B2"
+ },
+ {
+  "text": "Se você continuar praticando, seu nível de proficiência em português melhorará rapidamente.",
+  "translation": "Si continúas practicando, tu nivel de competencia en portugués mejorará rápidamente.",
+  "level": "B2"
+ },
+ {
+  "text": "A equipe de desenvolvimento está trabalhando em um aplicativo que facilita o aprendizado de idiomas.",
+  "translation": "El equipo de desarrollo está trabajando en una aplicación que facilita el aprendizaje de idiomas.",
+  "level": "B2"
+ },
+ {
+  "text": "Oi, tudo bem? Como você está hoje?",
+  "translation": "¡Hola, ¿todo bien? ¿Cómo estás hoy?",
+  "level": "C1"
+ },
+ {
+  "text": "Eu sou o João, prazer em conhecê-lo.",
+  "translation": "Soy Juan, mucho gusto en conocerte.",
+  "level": "C1"
+ },
+ {
+  "text": "Meu irmão mais novo adora jogar videogame.",
+  "translation": "Mi hermano menor ama jugar videojuegos.",
+  "level": "C1"
+ },
+ {
+  "text": "A casa da minha família fica na periferia da cidade.",
+  "translation": "La casa de mi familia está en el suburbio de la ciudad.",
+  "level": "C1"
+ },
+ {
+  "text": "Meu pai trabalha como engenheiro em uma empresa de energia.",
+  "translation": "Mi padre trabaja como ingeniero en una empresa de energía.",
+  "level": "C1"
+ },
+ {
+  "text": "Eu costumo acordar às seis da manhã para correr no parque.",
+  "translation": "Normalmente me levanto a las seis de la mañana para correr en el parque.",
+  "level": "C1"
+ },
+ {
+  "text": "Você já visitou o centro histórico de Lisboa?",
+  "translation": "¿Has visitado el centro histórico de Lisboa?",
+  "level": "C1"
+ },
+ {
+  "text": "A minha avó faz um bolo de cenoura que é simplesmente divino.",
+  "translation": "Mi abuela hace un bizcocho de zanahoria que es simplemente divino.",
+  "level": "C1"
+ },
+ {
+  "text": "Na minha casa, a cozinha é o coração da família.",
+  "translation": "En mi casa, la cocina es el corazón de la familia.",
+  "level": "C1"
+ },
+ {
+  "text": "Você costuma tomar café da manhã com frutas ou pão?",
+  "translation": "¿Sueles tomar desayuno con frutas o pan?",
+  "level": "C1"
+ },
+ {
+  "text": "Eu sempre deixo a porta aberta para o ar fresco.",
+  "translation": "Siempre dejo la puerta abierta para el aire fresco.",
+  "level": "C1"
+ },
+ {
+  "text": "Meu irmão mais velho trabalha em um escritório na zona central.",
+  "translation": "Mi hermano mayor trabaja en una oficina en el centro.",
+  "level": "C1"
+ },
+ {
+  "text": "Você já pensou em mudar de cidade para estudar?",
+  "translation": "¿Alguna vez has pensado en mudarte de ciudad para estudiar?",
+  "level": "C1"
+ },
+ {
+  "text": "A nossa casa tem um jardim onde cultivamos tomates e manjericão.",
+  "translation": "Nuestra casa tiene un jardín donde cultivamos tomates y albahaca.",
+  "level": "C1"
+ },
+ {
+  "text": "Eu acordo cedo, tomo banho, e depois preparo o café para a família.",
+  "translation": "Me levanto temprano, me ducho y luego preparo el café para la familia.",
+  "level": "C1"
+ },
+ {
+  "text": "Você costuma usar o metrô ou prefere caminhar?",
+  "translation": "¿Sueles usar el metro o prefieres caminar?",
+  "level": "C1"
+ },
+ {
+  "text": "Meu avô sempre conta histórias fascinantes sobre a guerra.",
+  "translation": "Mi abuelo siempre cuenta historias fascinantes sobre la guerra.",
+  "level": "C1"
+ },
+ {
+  "text": "Na nossa casa, o sofá é o lugar favorito para assistir séries.",
+  "translation": "En nuestra casa, el sofá es el lugar favorito para ver series.",
+  "level": "C1"
+ },
+ {
+  "text": "Você já experimentou a feijoada típica de Minas Gerais?",
+  "translation": "¿Has probado la feijoada típica de Minas Gerais?",
+  "level": "C1"
+ },
+ {
+  "text": "Eu gosto de cozinhar pratos tradicionais quando encontro meus amigos.",
+  "translation": "Me gusta cocinar platos tradicionales cuando me reúno con mis amigos.",
+  "level": "C1"
+ },
+ {
+  "text": "Aquele restaurante no centro oferece um risoto de frutos do mar que vai te fazer esquecer de todas as outras opções.",
+  "translation": "Ese restaurante en el centro ofrece un risotto de mariscos que te hará olvidar todas las demás opciones.",
+  "level": "C1"
+ },
+ {
+  "text": "Quando você entra em uma loja de roupas, é comum que o vendedor diga: 'Posso ajudá-lo a encontrar algo especial hoje?', e isso costuma abrir a conversa.",
+  "translation": "Cuando entras en una tienda de ropa, es común que el vendedor diga: '¿Puedo ayudarte a encontrar algo especial hoy?', y eso suele abrir la conversación.",
+  "level": "C1"
+ },
+ {
+  "text": "Na feira de rua, o cheiro de pão fresco e de frutas exóticas faz a gente perder a noção do tempo.",
+  "translation": "En el mercado callejero, el olor del pan fresco y de frutas exóticas hace que perdamos la noción del tiempo.",
+  "level": "C1"
+ },
+ {
+  "text": "Se você quiser economizar, é melhor comprar no atacado e depois dividir em porções menores para usar ao longo da semana.",
+  "translation": "Si quieres ahorrar, es mejor comprar al por mayor y luego dividir en porciones más pequeñas para usar a lo largo de la semana.",
+  "level": "C1"
+ },
+ {
+  "text": "Para impressionar na próxima reunião, sugiro um prato de peixe grelhado com molho de vinho branco e ervas finas.",
+  "translation": "Para impresionar en la próxima reunión, sugiero un plato de pescado a la parrilla con salsa de vino blanco y hierbas finas.",
+  "level": "C1"
+ },
+ {
+  "text": "Ao comprar roupas de inverno, lembre-se de que tecidos como lã merino são mais leves que a lã comum.",
+  "translation": "Al comprar ropa de invierno, recuerda que los tejidos como la lana merino son más ligeros que la lana común.",
+  "level": "C1"
+ },
+ {
+  "text": "Quando o caixa do supermercado diz 'pagamento em dinheiro ou cartão', é uma oportunidade de praticar o vocabulário de moedas.",
+  "translation": "Cuando el cajero del supermercado dice 'pago en efectivo o tarjeta', es una oportunidad para practicar el vocabulario de monedas.",
+  "level": "C1"
+ },
+ {
+  "text": "Se você quiser um jantar romântico, escolha um restaurante que ofereça música ao vivo e iluminação suave.",
+  "translation": "Si quieres una cena romántica, elige un restaurante que ofrezca música en vivo y una iluminación suave.",
+  "level": "C1"
+ },
+ {
+  "text": "Na hora de pagar a conta, é comum dizer: 'A conta, por favor, e o troco de 10 reais', para evitar confusões.",
+  "translation": "En el momento de pagar la cuenta, es común decir: 'La cuenta, por favor, y el cambio de 10 reales', para evitar confusiones.",
+  "level": "C1"
+ },
+ {
+  "text": "Para quem gosta de experimentar, a culinária de fusão combina sabores tradicionais com técnicas modernas.",
+  "translation": "Para quien le gusta experimentar, la cocina de fusión combina sabores tradicionales con técnicas modernas.",
+  "level": "C1"
+ },
+ {
+  "text": "Se você quiser um desconto, pergunte se há promoções de fim de semana ou cupons de fidelidade.",
+  "translation": "Si quieres un descuento, pregunta si hay promociones de fin de semana o cupones de fidelidad.",
+  "level": "C1"
+ },
+ {
+  "text": "Ao escolher um vestido de festa, verifique se o tecido tem brilho suficiente para refletir a luz do salão.",
+  "translation": "Al elegir un vestido de fiesta, verifica si el tejido tiene suficiente brillo para reflejar la luz del salón.",
+  "level": "C1"
+ },
+ {
+  "text": "Quando o garçom oferece a sobremesa, aproveite para experimentar algo novo, como a mousse de maracujá.",
+  "translation": "Cuando el camarero ofrece el postre, aprovecha para probar algo nuevo, como la mousse de maracuyá.",
+  "level": "C1"
+ },
+ {
+  "text": "Para economizar no supermercado, compare preços em diferentes marcas e escolha a que oferece melhor relação custo-benefício.",
+  "translation": "Para ahorrar en el supermercado, compara precios en diferentes marcas y elige la que ofrece mejor relación calidad-precio.",
+  "level": "C1"
+ },
+ {
+  "text": "Na loja de roupas, o vendedor pode sugerir acessórios que complementam o look, como cintos ou bolsas de couro.",
+  "translation": "En la tienda de ropa, el vendedor puede sugerir accesorios que complementan el look, como cinturones o bolsas de cuero.",
+  "level": "C1"
+ },
+ {
+  "text": "Quando o caixa diz 'pagamento em dinheiro', lembre-se de que alguns estabelecimentos aceitam apenas moedas de 10 e 20 reais.",
+  "translation": "Cuando el cajero dice 'pago en efectivo', recuerda que algunos establecimientos solo aceptan monedas de 10 y 20 reales.",
+  "level": "C1"
+ },
+ {
+  "text": "Para quem gosta de comida rápida, o melhor é escolher opções com baixo teor de gordura e sal, para manter a saúde em dia.",
+  "translation": "Para quien le gusta la comida rápida, lo mejor es elegir opciones con bajo contenido de grasa y sal, para mantener la salud en día.",
+  "level": "C1"
+ },
+ {
+  "text": "Ao comprar roupas de verão, procure tecidos leves e respiráveis, como algodão ou linho, para evitar o desconforto.",
+  "translation": "Al comprar ropa de verano, busca tejidos ligeros y transpirables, como algodón o lino, para evitar la incomodidad.",
+  "level": "C1"
+ },
+ {
+  "text": "Se você quiser pagar com cartão, verifique se a loja aceita chip e senha, ou apenas contato via NFC.",
+  "translation": "Si quieres pagar con tarjeta, verifica si la tienda acepta chip y contraseña, o solo contacto NFC.",
+  "level": "C1"
+ },
+ {
+  "text": "Quando o garçom traz a conta, é comum dizer: 'A conta, por favor, e o troco de 5 reais', para facilitar o cálculo.",
+  "translation": "Cuando el camarero trae la cuenta, es común decir: 'La cuenta, por favor, y el cambio de 5 reales', para facilitar el cálculo.",
+  "level": "C1"
+ },
+ {
+  "text": "Ao chegar ao aeroporto, verifique se o seu voo está no horário, pois atrasos são comuns durante a temporada de verão.",
+  "translation": "Al llegar al aeropuerto, verifique si su vuelo está a tiempo, ya que los retrasos son comunes durante la temporada de verano.",
+  "level": "C1"
+ },
+ {
+  "text": "Se precisar de um táxi, lembre-se de usar o aplicativo oficial para evitar tarifas abusivas.",
+  "translation": "Si necesita un taxi, recuerde usar la aplicación oficial para evitar tarifas abusivas.",
+  "level": "C1"
+ },
+ {
+  "text": "Não se esqueça de trazer um adaptador universal; os plugues no Brasil são diferentes dos da Europa.",
+  "translation": "No olvide traer un adaptador universal; los enchufes en Brasil son diferentes a los de Europa.",
+  "level": "C1"
+ },
+ {
+  "text": "Ao solicitar o check-in, pergunte se há Wi‑Fi gratuito no quarto, pois alguns hotéis cobram por isso.",
+  "translation": "Al solicitar el check‑in, pregunte si hay Wi‑Fi gratuito en la habitación, ya que algunos hoteles cobran por ello.",
+  "level": "C1"
+ },
+ {
+  "text": "Para chegar ao centro, pegue a linha 3 do metrô e desça na estação Praça da Sé.",
+  "translation": "Para llegar al centro, tome la línea 3 del metro y baje en la estación Plaza de Sé.",
+  "level": "C1"
+ },
+ {
+  "text": "Se o seu voo for internacional, não deixe de checar a validade do passaporte antes de embarcar.",
+  "translation": "Si su vuelo es internacional, no deje de comprobar la validez del pasaporte antes de abordar.",
+  "level": "C1"
+ },
+ {
+  "text": "Quando o tempo estiver nublado, é melhor usar um guarda‑chuva; os ventos podem ser fortes no litoral.",
+  "translation": "Cuando el tiempo esté nublado, es mejor usar un paraguas; los vientos pueden ser fuertes en la costa.",
+  "level": "C1"
+ },
+ {
+  "text": "Ao reservar um hotel, verifique se há café da manhã incluso, pois isso economiza tempo pela manhã.",
+  "translation": "Al reservar un hotel, verifique si incluye desayuno, ya que eso ahorra tiempo por la mañana.",
+  "level": "C1"
+ },
+ {
+  "text": "Se precisar de um carro alugado, escolha um modelo com GPS integrado para não se perder na cidade.",
+  "translation": "Si necesita un coche alquilado, elija un modelo con GPS integrado para no perderse en la ciudad.",
+  "level": "C1"
+ },
+ {
+  "text": "Durante a viagem de trem, aproveite a vista panorâmica e tire fotos das paisagens rurais.",
+  "translation": "Durante el viaje en tren, aproveche la vista panorámica y tome fotos de los paisajes rurales.",
+  "level": "C1"
+ },
+ {
+  "text": "Para chegar ao hotel, siga as placas que indicam 'Hotel' e gire à direita na avenida principal.",
+  "translation": "Para llegar al hotel, siga las señales que indican 'Hotel' y gire a la derecha en la avenida principal.",
+  "level": "C1"
+ },
+ {
+  "text": "Ao chegar ao aeroporto, procure o balcão de informações para saber a localização da sua porta de embarque.",
+  "translation": "Al llegar al aeropuerto, busque el mostrador de información para saber la ubicación de su puerta de embarque.",
+  "level": "C1"
+ },
+ {
+  "text": "Se o clima estiver quente, use roupas leves e protetor solar, pois o sol pode ser intenso no deserto.",
+  "translation": "Si el clima está caluroso, use ropa ligera y protector solar, ya que el sol puede ser intenso en el desierto.",
+  "level": "C1"
+ },
+ {
+  "text": "Quando chegar ao hotel, peça ao recepcionista um mapa da cidade para não perder pontos turísticos.",
+  "translation": "Al llegar al hotel, pida al recepcionista un mapa de la ciudad para no perderse los puntos turísticos.",
+  "level": "C1"
+ },
+ {
+  "text": "Se houver cancelamento de voo, verifique se o seu bilhete inclui reembolso ou remarcação automática.",
+  "translation": "Si hay cancelación de vuelo, verifique si su billete incluye reembolso o remarcação automática.",
+  "level": "C1"
+ },
+ {
+  "text": "Para economizar, use transporte público em vez de táxis; os ônibus têm rotas bem marcadas.",
+  "translation": "Para ahorrar, use transporte público en lugar de taxis; los autobuses tienen rutas bien marcadas.",
+  "level": "C1"
+ },
+ {
+  "text": "Ao chegar ao aeroporto, não esqueça de passar pela segurança com os objetos líquidos em recipientes de 100 ml.",
+  "translation": "Al llegar al aeropuerto, no olvide pasar por la seguridad con objetos líquidos en recipientes de 100 ml.",
+  "level": "C1"
+ },
+ {
+  "text": "Se o tempo estiver frio, leve um casaco térmico, pois as noites podem ser geladas na montanha.",
+  "translation": "Si el clima está frío, lleve un abrigo térmico, ya que las noches pueden ser frías en la montaña.",
+  "level": "C1"
+ },
+ {
+  "text": "Ao solicitar o transporte, informe se prefere um veículo com ar-condicionado, pois pode fazer diferença no clima quente.",
+  "translation": "Al solicitar el transporte, informe si prefiere un vehículo con aire acondicionado, ya que puede hacer la diferencia en el clima cálido.",
+  "level": "C1"
+ },
+ {
+  "text": "Aquela reunião de trabalho foi tão intensa que senti que meu cérebro estava prestes a explodir.",
+  "translation": "That work meeting was so intense that I felt my brain was about to explode.",
+  "level": "C1"
+ },
+ {
+  "text": "Quando estudo para a prova, prefiro usar mapas mentais em vez de resumos tradicionais.",
+  "translation": "When I study for the exam, I prefer using mind maps instead of traditional summaries.",
+  "level": "C1"
+ },
+ {
+  "text": "A prática regular de exercícios não só mantém meu corpo saudável, mas também melhora minha concentração no trabalho.",
+  "translation": "Regular exercise not only keeps my body healthy but also improves my concentration at work.",
+  "level": "C1"
+ },
+ {
+  "text": "O médico recomendou que eu diminuísse a ingestão de açúcar para controlar a pressão arterial.",
+  "translation": "The doctor recommended that I reduce my sugar intake to control blood pressure.",
+  "level": "C1"
+ },
+ {
+  "text": "Em caso de emergência, ligue imediatamente para o serviço de ambulância e informe a localização exata.",
+  "translation": "In case of emergency, call the ambulance service immediately and give the exact location.",
+  "level": "C1"
+ },
+ {
+  "text": "Quando estou nervoso, costumo respirar fundo e contar até dez antes de responder.",
+  "translation": "When I'm nervous, I usually breathe deeply and count to ten before responding.",
+  "level": "C1"
+ },
+ {
+  "text": "Minha paixão por fotografia me leva a explorar novos lugares apenas para capturar a luz perfeita.",
+  "translation": "My passion for photography drives me to explore new places just to capture the perfect light.",
+  "level": "C1"
+ },
+ {
+  "text": "A tecnologia de realidade virtual tem revolucionado o treinamento de cirurgiões em todo o mundo.",
+  "translation": "Virtual reality technology has revolutionized surgeon training worldwide.",
+  "level": "C1"
+ },
+ {
+  "text": "O chefe pediu que eu entregasse o relatório antes do fim do expediente, mas eu preciso de mais tempo para garantir a qualidade.",
+  "translation": "The boss asked me to deliver the report before the end of the shift, but I need more time to ensure quality.",
+  "level": "C1"
+ },
+ {
+  "text": "Durante a aula de biologia, descobrimos que a genética pode influenciar a predisposição a doenças crônicas.",
+  "translation": "During the biology class, we discovered that genetics can influence predisposition to chronic diseases.",
+  "level": "C1"
+ },
+ {
+  "text": "Se você sentir tontura ou falta de ar, procure atendimento médico imediatamente.",
+  "translation": "If you feel dizziness or shortness of breath, seek medical attention immediately.",
+  "level": "C1"
+ },
+ {
+  "text": "O sentimento de gratidão que sinto ao ajudar os colegas aumenta minha motivação no trabalho.",
+  "translation": "The feeling of gratitude I feel when helping colleagues boosts my motivation at work.",
+  "level": "C1"
+ },
+ {
+  "text": "Meu hobby favorito é a jardinagem, pois me permite conectar com a natureza e relaxar.",
+  "translation": "My favorite hobby is gardening, as it allows me to connect with nature and relax.",
+  "level": "C1"
+ },
+ {
+  "text": "A inteligência artificial está sendo usada para diagnosticar doenças com maior precisão e rapidez.",
+  "translation": "Artificial intelligence is being used to diagnose diseases with greater precision and speed.",
+  "level": "C1"
+ },
+ {
+  "text": "Quando estou cansado, faço uma pausa de cinco minutos para alongar e evitar dores nas costas.",
+  "translation": "When I'm tired, I take a five-minute break to stretch and avoid back pain.",
+  "level": "C1"
+ },
+ {
+  "text": "O médico explicou que a falta de sono pode levar a problemas de memória e diminuição do desempenho no trabalho.",
+  "translation": "The doctor explained that lack of sleep can lead to memory problems and reduced work performance.",
+  "level": "C1"
+ },
+ {
+  "text": "Em caso de incêndio, siga as rotas de evacuação e não use elevadores.",
+  "translation": "In case of fire, follow evacuation routes and do not use elevators.",
+  "level": "C1"
+ },
+ {
+  "text": "A emoção de ver o nascer do sol na praia me faz sentir vivo e cheio de esperança.",
+  "translation": "The emotion of watching the sunrise on the beach makes me feel alive and full of hope.",
+  "level": "C1"
+ },
+ {
+  "text": "Para melhorar minha produtividade, uso aplicativos de gerenciamento de tarefas que me lembram de prazos importantes.",
+  "translation": "To improve my productivity, I use task management apps that remind me of important deadlines.",
+  "level": "C1"
+ }
+]

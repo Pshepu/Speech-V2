@@ -1,0 +1,278 @@
+[
+ {
+  "id": "e-open",
+  "a": "ɛ",
+  "b": "e",
+  "name": "É abierta vs Ê cerrada",
+  "pairs": [
+   [
+    "pé",
+    "pê"
+   ],
+   [
+    "avó",
+    "avô"
+   ],
+   [
+    "sé",
+    "sê"
+   ],
+   [
+    "meta",
+    "medo"
+   ],
+   [
+    "seta",
+    "selo"
+   ],
+   [
+    "café",
+    "você"
+   ],
+   [
+    "fé",
+    "vê"
+   ]
+  ]
+ },
+ {
+  "id": "o-open",
+  "a": "ɔ",
+  "b": "o",
+  "name": "Ó abierta vs Ô cerrada",
+  "pairs": [
+   [
+    "avó",
+    "avô"
+   ],
+   [
+    "pó",
+    "pôr"
+   ],
+   [
+    "nó",
+    "nos"
+   ],
+   [
+    "porta",
+    "porto"
+   ],
+   [
+    "bola",
+    "bolo"
+   ],
+   [
+    "sogra",
+    "sogro"
+   ],
+   [
+    "força",
+    "forço"
+   ]
+  ]
+ },
+ {
+  "id": "nasal-ao",
+  "a": "ɐ̃ʊ̃",
+  "b": "a",
+  "name": "Nasal ÃO vs A oral",
+  "pairs": [
+   [
+    "pão",
+    "pá"
+   ],
+   [
+    "mão",
+    "má"
+   ],
+   [
+    "não",
+    "nau"
+   ],
+   [
+    "são",
+    "sal"
+   ],
+   [
+    "irmão",
+    "irmã"
+   ],
+   [
+    "cão",
+    "cá"
+   ],
+   [
+    "chão",
+    "chá"
+   ],
+   [
+    "vão",
+    "vá"
+   ]
+  ]
+ },
+ {
+  "id": "nasal-vowel",
+  "a": "ĩ",
+  "b": "i",
+  "name": "Vocal nasal vs oral",
+  "pairs": [
+   [
+    "sim",
+    "si"
+   ],
+   [
+    "fim",
+    "fi"
+   ],
+   [
+    "lã",
+    "lá"
+   ],
+   [
+    "um",
+    "u"
+   ],
+   [
+    "bom",
+    "bó"
+   ],
+   [
+    "vim",
+    "vi"
+   ],
+   [
+    "sem",
+    "sé"
+   ],
+   [
+    "mundo",
+    "mudo"
+   ]
+  ]
+ },
+ {
+  "id": "r-rr",
+  "a": "ɾ",
+  "b": "x",
+  "name": "R suave vs R fuerte",
+  "pairs": [
+   [
+    "caro",
+    "carro"
+   ],
+   [
+    "muro",
+    "murro"
+   ],
+   [
+    "era",
+    "erra"
+   ],
+   [
+    "coro",
+    "corro"
+   ],
+   [
+    "fera",
+    "ferra"
+   ],
+   [
+    "moro",
+    "morro"
+   ],
+   [
+    "para",
+    "parra"
+   ]
+  ]
+ },
+ {
+  "id": "s-z",
+  "a": "s",
+  "b": "z",
+  "name": "S sorda vs S sonora",
+  "pairs": [
+   [
+    "caça",
+    "casa"
+   ],
+   [
+    "doce",
+    "doze"
+   ],
+   [
+    "assa",
+    "asa"
+   ],
+   [
+    "roça",
+    "rosa"
+   ],
+   [
+    "cela",
+    "zela"
+   ],
+   [
+    "selo",
+    "zelo"
+   ]
+  ]
+ },
+ {
+  "id": "sh-zh",
+  "a": "ʃ",
+  "b": "ʒ",
+  "name": "CH vs J",
+  "pairs": [
+   [
+    "chá",
+    "já"
+   ],
+   [
+    "chato",
+    "jato"
+   ],
+   [
+    "acho",
+    "ajo"
+   ],
+   [
+    "queixo",
+    "queijo"
+   ],
+   [
+    "chuta",
+    "juta"
+   ]
+  ]
+ },
+ {
+  "id": "v-b",
+  "a": "v",
+  "b": "b",
+  "name": "V vs B",
+  "pairs": [
+   [
+    "vela",
+    "bela"
+   ],
+   [
+    "votar",
+    "botar"
+   ],
+   [
+    "vaga",
+    "baga"
+   ],
+   [
+    "vem",
+    "bem"
+   ],
+   [
+    "vala",
+    "bala"
+   ]
+  ]
+ }
+]

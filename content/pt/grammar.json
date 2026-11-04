@@ -1,0 +1,1459 @@
+[
+ {
+  "summary": "Aprenderás a pronunciar correctamente los sonidos nasales y las vocales abiertas/cerradas del portugués brasileño.",
+  "explanation": "### Sonidos nasales\n- **ão, ãe, õe**: se pronuncian con la nariz, como la *ñ* española pero más prolongada. Ej.: *pão* → [pɐ̃w̃].\n- **im / um** al final de palabra: suenan como una *ñ* seguida de una *m* ligera, p.ej. *fim* → [fĩ].\n\n### Vocales abiertas y cerradas\n| Portugués | Sonido | Comparación con español |\n|-----------|--------|--------------------------|\n| **é**     | [e]    | como la *e* de *bebé*    |\n| **ê**     | [ɛ]    | como la *e* de *peso*    |\n| **ó**     | [o]    | como la *o* de *solo*    |\n| **ô**     | [ɔ]    | como la *o* de *corto*   |\n\n### Cambios de vocal final\n- **-e** final → suena como *i* breve: *telefone* → [teleˈfoni].\n- **-o** final → suena como *u* breve: *amigo* → [aˈmiɡu].\n\n### Consonantes especiales\n- **t / d** antes de *i* o *e* suenan como affricates: *tira* → [ˈtʃiɾa], *dia* → [ˈdʒiɐ].\n- **r** al inicio o entre vocales es suave (*j*): *rio* → [ˈʒi.u].\n- **lh** → [ʎ] similar a la *ll* de algunos dialectos españoles: *filho* → [ˈfiʎu].\n- **nh** → [ɲ] como la *ñ*: *banho* → [ˈbɐɲu].\n- **s / z** entre vocales suenan sonoras: *casa* → [ˈkaza].",
+  "examples": [
+   {
+    "t": "pão",
+    "es": "pan"
+   },
+   {
+    "t": "coração",
+    "es": "corazón"
+   },
+   {
+    "t": "telefone",
+    "es": "teléfono"
+   },
+   {
+    "t": "amigo",
+    "es": "amigo"
+   },
+   {
+    "t": "filho",
+    "es": "hijo"
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "pao",
+    "right": "pão",
+    "why": "Olvida la tilde nasal ~ que indica sonido nasal"
+   },
+   {
+    "wrong": "casa",
+    "right": "caza",
+    "why": "Entre vocales la s suena como z sonora"
+   },
+   {
+    "wrong": "rio",
+    "right": "rio (pronunciado /ʒi.u/)",
+    "why": "La r inicial es suave, no vibrante fuerte"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "La palabra \"coração\" se pronuncia con ___",
+    "options": [
+     "sonido nasal",
+     "sonido oral",
+     "sonido fricativo"
+    ],
+    "answer": 0,
+    "explanation": "La vocal nasal ã indica nasalización"
+   },
+   {
+    "type": "choice",
+    "prompt": "En \"telefone\", la -e final suena como",
+    "options": [
+     "a",
+     "e",
+     "i"
+    ],
+    "answer": 2,
+    "explanation": "-e final se convierte en sonido /i/ breve"
+   },
+   {
+    "type": "choice",
+    "prompt": "La letra \"r\" entre vocales se pronuncia",
+    "options": [
+     "como /r/",
+     "como /ɾ/",
+     "como /ʒ/"
+    ],
+    "answer": 2,
+    "explanation": "En posición intervocálica suena suave, parecido a /ʒ/"
+   },
+   {
+    "type": "fill",
+    "prompt": "Escribe la forma nasal de \"cão\" (base: ca_)",
+    "answer": "cão",
+    "accept": [],
+    "explanation": "Se añade la tilde nasal ~ sobre la o"
+   },
+   {
+    "type": "fill",
+    "prompt": "Completa: \"amig_\" (final -o)",
+    "answer": "amigo",
+    "accept": [],
+    "explanation": "La -o final se pronuncia /u/"
+   },
+   {
+    "type": "fill",
+    "prompt": "Transforma \"filho\" a su forma con sonido \"lh\" (base: fil_)",
+    "answer": "filho",
+    "accept": [],
+    "explanation": "El dígrafo lh se mantiene y suena /ʎ/"
+   },
+   {
+    "type": "order",
+    "words": [
+     "coração",
+     "é",
+     "grande"
+    ],
+    "answer": "coração é grande",
+    "explanation": "Orden correcto de sujeto‑verbo‑adjetivo"
+   },
+   {
+    "type": "order",
+    "words": [
+     "eu",
+     "gosto",
+     "de",
+     "café"
+    ],
+    "answer": "eu gosto de café",
+    "explanation": "Orden típica SVO con preposición"
+   },
+   {
+    "type": "fix",
+    "prompt": "Ele tem um carro",
+    "answer": "Ele tem um carro",
+    "explanation": "No hay error; la frase está correcta"
+   },
+   {
+    "type": "translate",
+    "prompt": "Quiero comprar pan",
+    "answer": "Quero comprar pão",
+    "explanation": "Traducción directa, manteniendo la nasal \"pão\""
+   }
+  ],
+  "id": "pt-pronuncia",
+  "level": "A1",
+  "title": "Pronunciación del portugués de Brasil para hispanohablantes",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a usar ser, estar y ficar en portugués brasileño y sus diferencias con el español.",
+  "explanation": "## Ser vs. Estar vs. Ficar\n\n- **Ser** se usa para características permanentes, origen, profesión y la hora. Equivale al *ser* español.\n  - *Ele é médico.* – Él es médico.\n- **Estar** indica estados temporales, ubicación física y resultados de acciones. Igual que el *estar* español.\n  - *Ela está cansada.* – Ella está cansada.\n- **Ficar** es exclusivo del portugués y significa *quedarse*, *volverse* o *situarse*.\n  - *Onde fica a biblioteca?* – ¿Dónde está (se encuentra) la biblioteca?\n  - *Ele ficou feliz.* – Él se puso feliz.\n\n### Comparación rápida\n| Español | Portugués | Uso principal |\n|---------|-----------|---------------|\n| ser     | ser       | cualidades esenciales |\n| estar   | estar     | estados y ubicación temporal |\n| quedar  | ficar     | permanecer, volverse, ubicación |\n\n**Tips:**\n- No confundas *ficar* con *estar*; *ficar* implica un cambio o permanencia después de una acción.\n- En preguntas de ubicación, el español usa *dónde está*, mientras que el portugués puede usar *onde fica*.\n- En expresiones de estado emocional, el español usa *estar* (está triste) y el portugués a veces prefiere *ficar* (ficou triste).",
+  "examples": [
+   {
+    "t": "Ele é brasileiro.",
+    "es": "Él es brasileño."
+   },
+   {
+    "t": "Ela está em casa.",
+    "es": "Ella está en casa."
+   },
+   {
+    "t": "Onde fica o supermercado?",
+    "es": "¿Dónde está el supermercado?"
+   },
+   {
+    "t": "Ele ficou nervoso antes da prova.",
+    "es": "Él se puso nervioso antes del examen."
+   },
+   {
+    "t": "Nós vamos ficar aqui até o fim.",
+    "es": "Nosotros nos quedaremos aquí hasta el final."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Ele está médico.",
+    "right": "Ele é médico.",
+    "why": "Para profesiones se usa ser, no estar."
+   },
+   {
+    "wrong": "Onde está a biblioteca?",
+    "right": "Onde fica a biblioteca?",
+    "why": "En portugués se prefiere ficar para preguntar ubicación."
+   },
+   {
+    "wrong": "Ele ficou cansado.",
+    "right": "Ele está cansado.",
+    "why": "Cansado es un estado temporal, se usa estar, no ficar."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Maria ___ professora de português.",
+    "options": [
+     "é",
+     "está",
+     "fica"
+    ],
+    "answer": 0,
+    "explanation": "Para profesiones se usa ser."
+   },
+   {
+    "type": "choice",
+    "prompt": "Eu ___ feliz com o resultado.",
+    "options": [
+     "sou",
+     "estou",
+     "fico"
+    ],
+    "answer": 2,
+    "explanation": "Ficar indica cambio de estado emocional."
+   },
+   {
+    "type": "choice",
+    "prompt": "Onde ___ o banco?",
+    "options": [
+     "é",
+     "está",
+     "fica"
+    ],
+    "answer": 2,
+    "explanation": "Para preguntar ubicación se usa ficar."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ele ___ (ser) alto e magro.",
+    "answer": "é",
+    "accept": [
+     "é"
+    ],
+    "explanation": "Características permanentes usan ser."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nós ___ (estar) na praia agora.",
+    "answer": "estamos",
+    "accept": [
+     "estamos"
+    ],
+    "explanation": "Estado temporal usa estar."
+   },
+   {
+    "type": "fill",
+    "prompt": "Depois da chuva, o céu ___ (ficar) azul.",
+    "answer": "ficou",
+    "accept": [
+     "ficou"
+    ],
+    "explanation": "Cambio de estado usa ficar."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Onde",
+     "fica",
+     "a",
+     "casa",
+     "?"
+    ],
+    "answer": "Onde fica a casa?",
+    "explanation": "Orden correcta para preguntar ubicación."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ele",
+     "está",
+     "cansado",
+     "porque",
+     "trabalhou",
+     "muito",
+     "."
+    ],
+    "answer": "Ele está cansado porque trabalhou muito.",
+    "explanation": "Orden correcta de sujeto, verbo y complementos."
+   },
+   {
+    "type": "fix",
+    "prompt": "Ele é cansado.",
+    "answer": "Ele está cansado.",
+    "explanation": "Cansado es un estado temporal, se usa estar."
+   },
+   {
+    "type": "translate",
+    "prompt": "¿Dónde está la farmacia?",
+    "answer": "Onde fica a farmácia?",
+    "explanation": "En portugués se usa ficar para preguntar ubicación."
+   }
+  ],
+  "id": "pt-ser-estar",
+  "level": "A1",
+  "title": "Ser, estar y ficar",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás los artículos definidos e indefinidos en portugués brasileño y sus contracciones con preposiciones.",
+  "explanation": "En **portugués brasileño** los artículos definidos son *o, a, os, as* (masculino/femenino, singular/plural). Los indefinidos son *um, uma, uns, umas*. \n\n**Contracciones con preposiciones**: \n- *de* + artículo → *do* (masc. singular), *da* (fem. singular), *dos* (masc. plural), *das* (fem. plural). \n- *em* + artículo → *no* (masc. singular), *na* (fem. singular), *nos*, *nas*. \n- *por* + artículo → *pelo* (masc. singular), *pela* (fem. singular), *pelos*, *pelas*. \n- *em* + indefinido → *num* (masc.), *numa* (fem.), *numos*, *numas*. \n- *de* + indefinido → *dum* (masc.), *duma* (fem.), *duns*, *dumas*.\n\n**Uso con posesivo**: siempre se coloca el artículo antes del posesivo: *o meu carro*, *a minha casa*. En español el artículo no se usa con posesivo (*mi coche*), por eso es un punto crítico para hispanohablantes.\n\n| Portugués | Español | Comentario |\n|-----------|---------|------------|\n| o carro   | el coche| artículo definido masculino |\n| da casa   | de la casa| contracción de *de* + *a* |\n| num livro  | en un libro| contracción de *em* + *um* |\n| pelo parque| por el parque| contracción de *por* + *o* |\n\nRecuerda que la contracción depende del género y número del sustantivo que sigue.",
+  "examples": [
+   {
+    "t": "O carro está na garagem.",
+    "es": "El coche está en el garaje."
+   },
+   {
+    "t": "Vou ao mercado.",
+    "es": "Voy al mercado."
+   },
+   {
+    "t": "Ele comprou um livro.",
+    "es": "Él compró un libro."
+   },
+   {
+    "t": "A minha amiga chegou pela manhã.",
+    "es": "Mi amiga llegó por la mañana."
+   },
+   {
+    "t": "Eles moram num apartamento pequeno.",
+    "es": "Ellos viven en un apartamento pequeño."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Meu carro está na garagem.",
+    "right": "O meu carro está na garagem.",
+    "why": "En portugués siempre se usa artículo antes del posesivo."
+   },
+   {
+    "wrong": "Ele foi a o parque.",
+    "right": "Ele foi ao parque.",
+    "why": "Se contrae la preposición *a* con el artículo *o* → *ao*."
+   },
+   {
+    "wrong": "Vou em um restaurante.",
+    "right": "Vou num restaurante.",
+    "why": "La preposición *em* + indefinido *um* se contrae a *num*."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Ele chegou ___ (preposición + artículo) estação.",
+    "options": [
+     "a o",
+     "ao",
+     "na"
+    ],
+    "answer": 1,
+    "explanation": "Se usa *a* + *o* → *ao*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Compramos ___ (preposición + artículo) supermercado.",
+    "options": [
+     "na",
+     "no",
+     "pela"
+    ],
+    "answer": 0,
+    "explanation": "*Em* + *a* → *na*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ela estudou ___ (preposición + artículo) universidade.",
+    "options": [
+     "da",
+     "de a",
+     "de la"
+    ],
+    "answer": 0,
+    "explanation": "*De* + *a* → *da*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ele mora ___ (preposición + indefinido) apartamento.",
+    "answer": "num",
+    "accept": [
+     "num"
+    ],
+    "explanation": "*Em* + *um* → *num*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Preciso ___ (preposición + indefinido) ajuda.",
+    "answer": "de um",
+    "accept": [
+     "de um"
+    ],
+    "explanation": "*De* + *um* no se contrae; se mantiene separado."
+   },
+   {
+    "type": "fill",
+    "prompt": "Vamos ___ (preposición + artículo) praia amanhã.",
+    "answer": "à",
+    "accept": [
+     "à"
+    ],
+    "explanation": "*A* + *a* → *à* (contracción con artículo femenino)."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Minha",
+     "casa",
+     "está",
+     "na",
+     "casa",
+     "."
+    ],
+    "answer": "Minha casa está na casa.",
+    "explanation": "Orden correcto: *Minha casa está na casa* (aunque suena redundante, sirve para practicar orden)."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Caminhamos",
+     "no",
+     "parque",
+     "."
+    ],
+    "answer": "Caminhamos no parque.",
+    "explanation": "Orden correcto: *Caminhamos no parque*."
+   },
+   {
+    "type": "fix",
+    "prompt": "Ele comprou um carro novo.",
+    "answer": "Ele comprou um carro novo.",
+    "explanation": "No hay error; la frase ya es correcta."
+   },
+   {
+    "type": "translate",
+    "prompt": "Voy al cine esta noche.",
+    "answer": "Vou ao cinema esta noite.",
+    "explanation": "Se traduce con *vou ao cinema* usando la contracción *a* + *o*."
+   }
+  ],
+  "id": "pt-artigos",
+  "level": "A1",
+  "title": "Artículos y contracciones",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a conjugar verbos regulares en presente del portugués brasileño y sus diferencias con el español.",
+  "explanation": "## Conjugación en presente\n\nEn portugués brasileño los verbos regulares siguen tres terminaciones:\n\n- **-ar** (ex.: falar – hablar)\n- **-er** (ex.: comer – comer)\n- **-ir** (ex.: abrir – abrir)\n\n### 1ª persona do singular (eu)\n- **-ar** → **‑o** → *eu falo*\n- **-er** → **‑o** → *eu como*\n- **-ir** → **‑o** → *eu abro*\n\n### 2ª pessoa do singular (tu) – poco usado\nEn Brasil se usa muy poco *tu*; cuando aparece la forma es idéntica a la de *você* (3ª persona):\n- *tu falas* ≈ *você fala* (pero en la práctica se dice *você fala*).\n\n### 3ª persona del singular (ele/ela/você)\n- **-ar** → **‑a** → *ele fala*\n- **-er** → **‑e** → *ele come*\n- **-ir** → **‑e** → *ele abre*\n\n### 1ª y 2ª persona del plural (nós, vocês)\n- **nós** (nosotros) → **‑amos / ‑emos / ‑imos**\n  - *nós falamos, nós comemos, nós abrimos*\n- **vocês** (ustedes) → **‑am / ‑em / ‑em**\n  - *vocês falam, vocês comem, vocês abrem*\n\n### Comparación con el español\n| Persona | Portugués | Español |\n|---|---|---|\n| yo | eu falo | yo hablo |\n| tú (poco) | você fala | tú hablas |\n| él/ella | ele fala | él/ella habla |\n| nosotros | nós falamos | nosotros hablamos |\n| ustedes | vocês falam | ustedes hablan |\n\nEn resumen, la única diferencia notable es que *tu* se sustituye por *você* y la terminación de 3ª persona singular cambia de **‑as** (es) a **‑a** (pt).",
+  "examples": [
+   {
+    "t": "Eu falo português todos os dias.",
+    "es": "Yo hablo portugués todos los días."
+   },
+   {
+    "t": "Ele come arroz e feijão.",
+    "es": "Él come arroz y frijoles."
+   },
+   {
+    "t": "Nós abrimos a porta agora.",
+    "es": "Nosotros abrimos la puerta ahora."
+   },
+   {
+    "t": "Vocês estudam muito para o exame.",
+    "es": "Ustedes estudian mucho para el examen."
+   },
+   {
+    "t": "Você trabalha na empresa X.",
+    "es": "Tú trabajas en la empresa X."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Tu falas português.",
+    "right": "Você fala português.",
+    "why": "En Brasil se prefiere 'você' en lugar de 'tu'."
+   },
+   {
+    "wrong": "Ele come muito arroz.",
+    "right": "Ele come muito arroz.",
+    "why": "Error típico: olvidar la concordancia de 'muito' con el sustantivo masculino."
+   },
+   {
+    "wrong": "Nós abre a janela.",
+    "right": "Nós abrimos a janela.",
+    "why": "La forma plural necesita la terminación -imos para verbos -ir."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Ele ___ (falar) português.",
+    "options": [
+     "fala",
+     "falas",
+     "falo"
+    ],
+    "answer": 0,
+    "explanation": "La forma correcta es 3ª persona singular: fala."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nós ___ (comer) pizza.",
+    "options": [
+     "come",
+     "comemos",
+     "comem"
+    ],
+    "answer": 1,
+    "explanation": "Para 1ª persona plural usamos -emos."
+   },
+   {
+    "type": "choice",
+    "prompt": "Vocês ___ (abrir) a loja às oito.",
+    "options": [
+     "abrem",
+     "abro",
+     "abres"
+    ],
+    "answer": 0,
+    "explanation": "Vocês corresponde a 3ª persona plural: abrem."
+   },
+   {
+    "type": "fill",
+    "prompt": "Eu ___ (estudar) português.",
+    "answer": "estudo",
+    "accept": [
+     "estudo"
+    ],
+    "explanation": "1ª persona singular de -ar termina en -o."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ele ___ (partir) amanhã.",
+    "answer": "parte",
+    "accept": [
+     "parte"
+    ],
+    "explanation": "Verbo -ir en 3ª persona singular: -e."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nós ___ (assistir) ao filme.",
+    "answer": "assistimos",
+    "accept": [
+     "assistimos"
+    ],
+    "explanation": "1ª persona plural de -ir: -imos."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Nós",
+     "comemos",
+     "todos",
+     "os",
+     "arroz",
+     "."
+    ],
+    "answer": "Nós comemos todos os arroz.",
+    "explanation": "Orden correcta: Nós comemos todos os arroz."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ela",
+     "abre",
+     "a",
+     "porta",
+     "."
+    ],
+    "answer": "Ela abre a porta.",
+    "explanation": "Orden correcta: Ela abre a porta."
+   },
+   {
+    "type": "fix",
+    "prompt": "Vocês fala espanhol.",
+    "answer": "Vocês falam espanhol.",
+    "explanation": "Conjugación correcta para 'vocês' es 'falam'."
+   },
+   {
+    "type": "translate",
+    "prompt": "Nosotros hablamos con el profesor.",
+    "answer": "Nós falamos com o professor.",
+    "explanation": "Traducción literal manteniendo la conjugación correcta."
+   }
+  ],
+  "id": "pt-presente",
+  "level": "A1",
+  "title": "Presente de los verbos regulares",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás los verbos irregulares más usados en portugués brasileño y sus conjugaciones básicas.",
+  "explanation": "## Verbos irregulares clave (A1)\nEn portugués brasileño muchos verbos cambian su raíz en el presente del indicativo. A diferencia del español, la irregularidad suele aparecer en la primera persona del singular y en la tercera persona del plural.\n\n| Verbo PT | Yo (eu) | Tú (tu) | Él/Ella (ele/ela) | Nosotros (nós) | Vosotros (vós) | Ellos (eles) |\n|---|---|---|---|---|---|---|\n| **ter** (tener) | tenho | tens | tem | temos | tendes | têm |\n| **fazer** (hacer) | faço | fazes | faz | fazemos | fazeis | fazem |\n| **ir** (ir) | vou | vais | vai | vamos | ides | vão |\n| **vir** (venir) | venho | vens | vem | vimos | vindes | vêm |\n| **poder** (poder) | posso | podes | pode | podemos | podeis | podem |\n| **querer** (querer) | quero | queres | quer | queremos | quereis | querem |\n| **dizer** (decir) | digo | dizes | diz | dizemos | dizeis | dizem |\n| **saber** (saber) | sei | sabes | sabe | sabemos | sabeis | sabem |\n| **ver** (ver) | vejo | vês | vê | vemos | vedes | veem |\n| **dar** (dar) | dou | dás | dá | damos | dais | dão |\n| **pôr** (poner) | ponho | pões | põe | pomos | pondes | põem |\n\n**Comparación con el español**\n- En español *tener* → *tengo*, *tienes*; en portugués la raíz cambia a *ten-* solo en *eu*.\n- *Ir* es muy irregular: *voy* vs *vou*; la forma *vamos* coincide, pero *van* → *vão*.\n- Algunos verbos conservan la raíz (*ver* → *vejo*, *vês*), mientras que otros la modifican (*dizer* → *digo*).\n\n**Uso práctico**: memoriza la forma de *eu* y *eles/elas*; el resto suele seguir patrones regulares.\n",
+  "examples": [
+   {
+    "t": "Eu tenho um carro novo.",
+    "es": "Yo tengo un coche nuevo."
+   },
+   {
+    "t": "Nós fazemos exercícios todos os dias.",
+    "es": "Nosotros hacemos ejercicio todos los días."
+   },
+   {
+    "t": "Eles vão ao cinema amanhã.",
+    "es": "Ellos van al cine mañana."
+   },
+   {
+    "t": "Ela quer aprender português.",
+    "es": "Ella quiere aprender portugués."
+   },
+   {
+    "t": "Vocês dão presentes nos aniversários.",
+    "es": "Ustedes dan regalos en los cumpleaños."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Eu tem um cachorro.",
+    "right": "Eu tenho um cachorro.",
+    "why": "Olvida la forma irregular de 'ter' en primera persona."
+   },
+   {
+    "wrong": "Nós vai ao parque.",
+    "right": "Nós vamos ao parque.",
+    "why": "El verbo 'ir' cambia a 'vamos' para 'nós'."
+   },
+   {
+    "wrong": "Eles pode falar português.",
+    "right": "Eles podem falar português.",
+    "why": "La forma plural de 'poder' es 'podem', no 'pode'."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Ele ___ (ver) o filme ontem.",
+    "options": [
+     "vê",
+     "viu",
+     "ver"
+    ],
+    "answer": 1,
+    "explanation": "En portugués, el pretérito perfecto simple de 'ver' es 'viu'."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nós ___ (dar) presentes.",
+    "options": [
+     "dão",
+     "damos",
+     "dá"
+    ],
+    "answer": 1,
+    "explanation": "Para 'nós' la forma correcta es 'damos'."
+   },
+   {
+    "type": "choice",
+    "prompt": "Eu ___ (poder) ajudar.",
+    "options": [
+     "posso",
+     "pode",
+     "podemos"
+    ],
+    "answer": 0,
+    "explanation": "Primera persona singular de 'poder' es 'posso'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ela ___ (querer) viajar.",
+    "answer": "quer",
+    "accept": [
+     "quer"
+    ],
+    "explanation": "En tercera persona singular se usa 'quer'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Vocês ___ (vir) amanhã? (vir)",
+    "answer": "vêm",
+    "accept": [
+     "vêm"
+    ],
+    "explanation": "Forma plural de 'vir' es 'vêm'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nós ___ (fazer) a lição.",
+    "answer": "fazemos",
+    "accept": [
+     "fazemos"
+    ],
+    "explanation": "Primera persona plural de 'fazer' es 'fazemos'."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Eu",
+     "tenho",
+     "um",
+     "cachorro",
+     "."
+    ],
+    "answer": "Eu tenho um cachorro.",
+    "explanation": "Ordena la frase correctamente."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Eles",
+     "vão",
+     "ao",
+     "parque",
+     "."
+    ],
+    "answer": "Eles vão ao parque.",
+    "explanation": "Ordena la frase correctamente."
+   },
+   {
+    "type": "fix",
+    "prompt": "Nós pode estudar juntos.",
+    "answer": "Nós podemos estudar juntos.",
+    "explanation": "El verbo debe concordar en plural: 'podemos'."
+   },
+   {
+    "type": "translate",
+    "prompt": "Yo quiero aprender a cantar.",
+    "answer": "Eu quero aprender a cantar.",
+    "explanation": "Traduce al portugués manteniendo el verbo irregular 'querer'."
+   }
+  ],
+  "id": "pt-irregulares",
+  "level": "A1",
+  "title": "Verbos irregulares clave",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás los falsos amigos más comunes entre español y portugués brasileño y cómo usarlos correctamente.",
+  "explanation": "## Falsos amigos más frecuentes (A1)\n\n- **esquisito** → *raro, extraño* (no \"exquisito\").\n- **polvo** → *pulpo* (el \"polvo\" en portugués es \"pó\").\n- **borracha** → *goma de borrar* (no \"borracha\" como bebida). \n- **apelido** → *apodo* (no \"apellido\").\n- **escritório** → *oficina* o *despacho* (no \"escritura\").\n- **cena** → *escena* (\"cena\" en portugués es \"jantar\").\n- **salada** → *salada* (significa \"ensalada\", no \"salado\").\n- **rato** → *ratón* (\"rato\" es \"ratón\", pero también \"tiempo\" en expresiones como \"por um rato\").\n- **embaraçada** → *avergonzada* (no \"embarazada\").\n- **pegar** → *coger, atrapar* (no \"pegar\" como \"pegarse\").\n- **largo** → *largo, extenso* (no \"largo\" como \"largo de tiempo\", se dice \"demorado\").\n- **ninguém/nenhum** → *nadie/ninguno* (cuidado con la posición del artículo).\n\n### Comparación rápida\n| Español | Portugués (falso amigo) | Significado real |\n|---|---|---|\n| raro | esquisito | extraño |\n| pulpo | polvo | pulpo |\n| goma de borrar | borracha | goma de borrar |\n| apellido | apelido | apodo |\n| oficina | escritório | taller, despacho |\n| escena | cena | cena (comida) |\n| salado | salada | ensalada |\n| ratón | rato | ratón (animal) |\n| avergonzada | embaraçada | avergonzada |\n| pegar | pegar | coger |\n| largo | largo | extenso |\n| nadie | ninguém | nadie |\n\nUsa siempre el contexto para decidir cuál palabra es la adecuada.",
+  "examples": [
+   {
+    "t": "Esse filme é muito esquisito.",
+    "es": "Esta película es muy rara."
+   },
+   {
+    "t": "O polvo tem oito braços.",
+    "es": "El pulpo tiene ocho brazos."
+   },
+   {
+    "t": "Preciso de uma borracha para apagar.",
+    "es": "Necesito una goma de borrar para borrar."
+   },
+   {
+    "t": "Ele tem um apelido carinhoso.",
+    "es": "Él tiene un apodo cariñoso."
+   },
+   {
+    "t": "A cena de hoje foi deliciosa.",
+    "es": "La cena de hoy fue deliciosa."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Ele é muito esquisito.",
+    "right": "Ele é muito estranho.",
+    "why": "En portugués \"esquisito\" no significa \"exquisito\" sino \"raro\"."
+   },
+   {
+    "wrong": "Comprei um polvo para a sopa.",
+    "right": "Comprei um pulpo para a sopa.",
+    "why": "\"Polvo\" en portugués es \"pó\" (polvo), no el animal."
+   },
+   {
+    "wrong": "Ela está embaraçada com a notícia.",
+    "right": "Ela está envergonhada com a notícia.",
+    "why": "\"Embaraçada\" significa \"avergonzada\", no \"embarazada\"."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Aquele quadro é muito ___ (raro).",
+    "options": [
+     "esquisito",
+     "exquisito",
+     "estranho"
+    ],
+    "answer": 0,
+    "explanation": "En portugués \"esquisito\" significa \"raro\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "Preciso de ___ para apagar o lápis.",
+    "options": [
+     "borracha",
+     "borrador",
+     "goma"
+    ],
+    "answer": 0,
+    "explanation": "\"Borracha\" es la palabra correcta en portugués brasileño."
+   },
+   {
+    "type": "choice",
+    "prompt": "O ___ tem oito tentáculos.",
+    "options": [
+     "polvo",
+     "pó",
+     "pulpo"
+    ],
+    "answer": 0,
+    "explanation": "\"Polvo\" es el animal marino, no \"pó\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ele ficou ___ ao errar a prova. (base: embaraçada)",
+    "answer": "embaraçada",
+    "accept": [
+     "envergonhada"
+    ],
+    "explanation": "Significa \"avergonzada\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "A ___ de hoje foi muito boa. (base: cena)",
+    "answer": "cena",
+    "accept": [],
+    "explanation": "En portugués \"cena\" es \"escena\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Meu ___ (apodo) é \"Léo\".",
+    "answer": "apelido",
+    "accept": [],
+    "explanation": "\"Apelido\" significa \"apodo\"."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Preciso",
+     "de",
+     "uma",
+     "goma",
+     "de",
+     "borrar",
+     "."
+    ],
+    "answer": "Preciso de uma goma de borrar.",
+    "explanation": "Orden correcto en portugués."
+   },
+   {
+    "type": "order",
+    "words": [
+     "O",
+     "rato",
+     "é",
+     "pequeno",
+     "."
+    ],
+    "answer": "O rato é pequeno.",
+    "explanation": "Orden correcto."
+   },
+   {
+    "type": "fix",
+    "prompt": "Ele está embaraçado com o resultado.",
+    "answer": "Ele está embaraçado com o resultado.",
+    "explanation": "En este caso \"embaraçado\" está bien (mas si se refería a \"avergonzado\" sería \"envergonhado\")."
+   },
+   {
+    "type": "translate",
+    "prompt": "El pulpo es raro.",
+    "answer": "O polvo é esquisito.",
+    "explanation": "Usa \"polvo\" para el animal y \"esquisito\" para \"raro\"."
+   }
+  ],
+  "id": "pt-falsos-amigos",
+  "level": "A1",
+  "title": "Falsos amigos español-portugués",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás el uso de los pronombres personales en el portugués brasileño, especialmente 'você', 'a gente', 'ele/ela' como objeto, y la posición proclítica de los pronombres.",
+  "explanation": "## Pronombres personales en Brasil (A2)\n\n- **Você**: equivalente a *tú* o *usted* en español, pero se usa con verbos en tercera persona.\n  - Ej.: *Você gosta de música?* (¿Te gusta la música?)\n- **A gente**: forma informal de *nosotros*, siempre lleva verbo en tercera persona.\n  - Ej.: *A gente vai ao cinema.* (Vamos al cine.)\n- **Ele / Ela** como objeto directo: en Brasil es frecuente decir *eu vi ele* o *eu vi ela*, mientras que en español se usaría *lo/la vi*.\n- **Te / Lhe**: pronombres de objeto indirecto. En Brasil se coloca antes del verbo (proclítica): *me dá* (dame), *te ajuda* (te ayuda).\n- **Posición proclítica**: a diferencia del español, donde el pronombre puede ir después del verbo en infinitivo o gerundio, en portugués brasileño se antepone casi siempre.\n\n| Español | Portugués (Brasil) |\n|---------|-------------------|\n| Te vi.  | Eu te vi.          |\n| Le di el libro. | Eu lhe dei o livro. |\n| Nosotros vamos. | A gente vai. |\n\n**Comparación con el español**: en español, el pronombre de objeto directo suele ir antes del verbo en tiempos simples (*lo vi*), pero en Brasil se prefiere la forma *eu vi ele*. Además, la proclítica es la norma en Brasil, mientras que en Portugal se alterna con enclítica.\n\n**Uso de 'você' vs 'tu'**: en la mayor parte de Brasil se prefiere *você*; el verbo se conjuga en tercera persona.\n\n**Ejemplo de proclítica**: *Me dá o livro* (Dame el libro) – el pronombre *me* precede al verbo.\n",
+  "examples": [
+   {
+    "t": "Você vai ao mercado?",
+    "es": "¿Vas al mercado?"
+   },
+   {
+    "t": "A gente viu o filme ontem.",
+    "es": "Nosotros vimos la película ayer."
+   },
+   {
+    "t": "Eu vi ele na festa.",
+    "es": "Yo lo vi en la fiesta."
+   },
+   {
+    "t": "Ele me deu um presente.",
+    "es": "Él me dio un regalo."
+   },
+   {
+    "t": "Me dá água, por favor.",
+    "es": "Dame agua, por favor."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Eu vi lo.",
+    "right": "Eu o vi.",
+    "why": "En Brasil se usa 'o' o 'a' como pronombre átono, no 'lo'."
+   },
+   {
+    "wrong": "Tu vai ao parque.",
+    "right": "Você vai ao parque.",
+    "why": "En la mayor parte de Brasil se prefiere 'você' y el verbo en 3ª persona."
+   },
+   {
+    "wrong": "Ele dá-me o livro.",
+    "right": "Ele me dá o livro.",
+    "why": "La posición proclítica es la norma; el pronombre va antes del verbo."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ vai ao cinema amanhã?",
+    "options": [
+     "Você",
+     "Tu",
+     "Ele"
+    ],
+    "answer": 0,
+    "explanation": "En Brasil se usa 'você' con verbo en 3ª persona."
+   },
+   {
+    "type": "choice",
+    "prompt": "A gente ___ ao parque ontem.",
+    "options": [
+     "foi",
+     "fomos",
+     "fui"
+    ],
+    "answer": 0,
+    "explanation": "'A gente' lleva verbo en 3ª persona singular."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ele ___ um presente.",
+    "options": [
+     "me deu",
+     "nos deu",
+     "te deu"
+    ],
+    "answer": 0,
+    "explanation": "Pronombre proclítico antes del verbo."
+   },
+   {
+    "type": "fill",
+    "prompt": "Eu ___ (ver) ele na rua.",
+    "answer": "vi",
+    "accept": [
+     "vi"
+    ],
+    "explanation": "Verbo 'ver' en pretérito perfecto simple, 1ª persona."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (dar) o livro a mim.",
+    "answer": "Me dá",
+    "accept": [
+     "Me dá",
+     "Me dá"
+    ],
+    "explanation": "Pronombre proclítico antes del verbo."
+   },
+   {
+    "type": "fill",
+    "prompt": "A gente ___ (ir) ao parque.",
+    "answer": "vai",
+    "accept": [
+     "vai"
+    ],
+    "explanation": "'A gente' usa 3ª persona singular."
+   },
+   {
+    "type": "order",
+    "words": [
+     "A",
+     "gente",
+     "vai",
+     "ao",
+     "cinema",
+     "hoje",
+     "."
+    ],
+    "answer": "A gente vai ao cinema hoje.",
+    "explanation": "Ordena la frase con sujeto, verbo y complementos."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Me",
+     "dá",
+     "o",
+     "café",
+     "."
+    ],
+    "answer": "Me dá o café.",
+    "explanation": "Pronombre proclítico antes del verbo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Eu vi lo na loja.",
+    "answer": "Eu o vi na loja.",
+    "explanation": "En Brasil se usa 'o' como pronombre átono, no 'lo'."
+   },
+   {
+    "type": "translate",
+    "prompt": "Nosotros vemos la película.",
+    "answer": "A gente vê o filme.",
+    "explanation": "Con 'a gente' el verbo va en 3ª persona singular."
+   }
+  ],
+  "id": "pt-pronomes",
+  "level": "A2",
+  "title": "Pronombres: el uso en Brasil",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a usar el pretérito perfecto en portugués brasileño, tanto regular como irregular, y su diferencia con el pretérito perfecto compuesto del español.",
+  "explanation": "## Pretérito perfeito no português brasileiro\n- **Uso**: indica una acción concluida en el pasado, sin relación con el presente. Equivale al *pretérito perfecto simple* del español.\n- **Formação**:\n  - **Verbos regulares**: raíz + terminações **-ei, -aste, -ou, -amos, -astes, -aram**.\n    - Ex.: *falar* → **falei, falaste, falou, falamos, falastes, falaram**.\n  - **Verbos irregulares**: no siguen patrón y deben memorizarse.\n    | Verbo | 1ª pers. | 3ª pers. | 3ª pers. pl. |\n    |-------|----------|----------|------------|\n    | ser/ir | fui | foi | foram |\n    | ter   | tive | teve | tiveram |\n    | fazer | fiz | fez | fizeram |\n    | poder | pude | pôde | puderam |\n    | dizer | disse | disse | disseram |\n- **Diferença con el español**: en español se usa el *pretérito perfecto compuesto* (*he comido*) para acciones recientes; en portugués se usa siempre el pretérito perfeito (*já comi*), sin necesidad de un auxiliar.\n- **Palabras de tiempo**: *ontem, ontem à noite, no ano passado, há dois dias* suelen acompañar al pretérito perfeito.\n\n### Comparación rápida\n| Español | Portugués | Comentario |\n|---------|-----------|------------|\n| comí (pretérito perfecto simple) | comi (pretérito perfeito) | Igual, acción terminada. |\n| he comido (pretérito perfecto compuesto) | já comi (pretérito perfeito) | En portugués no hay compuesto; se usa *já* para enfatizar recentidad. |\n| fui (pretérito perfecto simple) | fui (pretérito perfeito) | Forma idéntica, pero la conjugación de *ser* y *ir* es la misma. |\n\nRecuerda practicar los verbos irregulares, ya que son los que más generan dudas a los hispanohablantes.",
+  "examples": [
+   {
+    "t": "Eu falei com ele ontem.",
+    "es": "Yo hablé con él ayer."
+   },
+   {
+    "t": "Ela fez a lição de casa.",
+    "es": "Ella hizo la tarea."
+   },
+   {
+    "t": "Nós fomos ao cinema na semana passada.",
+    "es": "Nosotros fuimos al cine la semana pasada."
+   },
+   {
+    "t": "Eles tiveram um problema inesperado.",
+    "es": "Ellos tuvieron un problema inesperado."
+   },
+   {
+    "t": "Você já leu este livro?",
+    "es": "¿Ya leíste este libro?"
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Eu tenho comido.",
+    "right": "Eu comi.",
+    "why": "En portugués no se usa el pretérito perfecto compuesto; se emplea el pretérito perfeito simple."
+   },
+   {
+    "wrong": "Ele falava ontem.",
+    "right": "Ele falou ontem.",
+    "why": "El pretérito imperfeito (falava) indica acción en progreso, no acción concluida."
+   },
+   {
+    "wrong": "Nós fizemos um passeio ontem à noite.",
+    "right": "Nós fizemos um passeio ontem à noite.",
+    "why": "Aunque parece correcto, muchos hispanohablantes confunden la forma de *fazer*; la forma correcta es *fizemos*, no *faze*."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Ela ___ (chegar) cedo ontem.",
+    "options": [
+     "chegou",
+     "chegava",
+     "chegará"
+    ],
+    "answer": 0,
+    "explanation": "Se refiere a una acción concluida en el pasado, se usa el pretérito perfeito: *chegou*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nós ___ (ver) o filme na sexta-feira.",
+    "options": [
+     "vimos",
+     "víamos",
+     "veremos"
+    ],
+    "answer": 0,
+    "explanation": "Acción terminada en el pasado → pretérito perfeito: *vimos*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ele ___ (poder) ajudar, mas não pôde.",
+    "options": [
+     "pode",
+     "podia",
+     "pôde"
+    ],
+    "answer": 2,
+    "explanation": "La forma del pretérito perfeito de *poder* es *pôde*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Eu ___ (falar) com o professor ontem.",
+    "answer": "falei",
+    "accept": [
+     "falei"
+    ],
+    "explanation": "Verbo regular: raiz *fal-* + -ei → *falei*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Eles ___ (ser) muito simpáticos na festa.",
+    "answer": "foram",
+    "accept": [
+     "foram"
+    ],
+    "explanation": "Verbo irregular *ser/ir*: 3ª pers. pl. pretérito perfeito → *foram*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nós ___ (ter) um problema ontem à tarde.",
+    "answer": "tivemos",
+    "accept": [
+     "tivemos"
+    ],
+    "explanation": "Irregular *ter*: 1ª pers. pl. pretérito perfeito → *tivemos*."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ontem",
+     "chegamos",
+     "na",
+     "casa",
+     "dos",
+     "amigos",
+     "."
+    ],
+    "answer": "Ontem chegamos na casa dos amigos.",
+    "explanation": "Ordena las palabras para formar una oración correcta en pretérito perfeito."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Hoje",
+     "fiz",
+     "um",
+     "relatório",
+     "importante",
+     "sobre",
+     ".",
+     ".",
+     "."
+    ],
+    "answer": "Hoje fiz um relatório importante sobre...",
+    "explanation": "Reordena para expresar una acción concluida hoy."
+   },
+   {
+    "type": "fix",
+    "prompt": "Ele tinha estudado muito ontem.",
+    "answer": "Ele estudou muito ontem.",
+    "explanation": "Se la acción está terminada, se usa pretérito perfeito (*estudou*), no pretérito mais‑que‑perfeito (*tinha estudado*)."
+   },
+   {
+    "type": "translate",
+    "prompt": "Ayer compré un regalo para mi madre.",
+    "answer": "Ontem comprei um presente para minha mãe.",
+    "explanation": "Traducción al portugués usando pretérito perfeito (*comprei*)."
+   }
+  ],
+  "id": "pt-preterito",
+  "level": "A2",
+  "title": "Pretérito perfeito",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a diferenciar el pretérito imperfecto del pretérito perfecto en portugués brasileño",
+  "explanation": "## Diferenciação principal\n- **Pretérito Imperfeito**: se usa para describir acciones habituales, estados continuos o fondos de una narración. Equivale al **pretérito imperfecto** español (ej. *yo hablaba*). Ejemplo: *Quando eu era criança, jogava futebol todos os dias.*\n- **Pretérito Perfeito**: se usa para acciones puntuales, completadas en el pasado. Equivale al **pretérito perfecto simple** español (ej. *yo hablé*). Ejemplo: *Ontem eu joguei futebol às 5h.*\n\n## Formas verbales\n| Tiempo | Terminación regular (AR) | Terminación regular (ER/IR) |\n|--------|--------------------------|------------------------------|\n| Imperfeito | -ava, -avas, -ava, -ávamos, -áveis, -avam | -ia, -ias, -ia, -íamos, -íeis, -iam |\n| Perfeito | -ei, -aste, -ou, -amos, -astes, -aram | -i, -este, -u, -emos, -estes, -eram |\n\n## Uso de \"estava + gerúndio\"\n- Expresa una acción en progreso en el pasado, similar a *estaba + gerundio* español. Ejemplo: *Eu estava estudando quando o telefone tocou.*\n- Se combina con el imperfecto para reforzar la idea de duración: *Eu estava estudando todos os dias naquele semestre.*\n\n## Comparación con el español\n- En español, el imperfecto también cubre hábitos y descripciones; el perfecto simple cubre hechos puntuales. La diferencia es prácticamente la misma en portugués, pero presta atención a las terminaciones distintas.\n- El gerundio portugués termina en **-ndo** (*estudando*), mientras que en español termina en **-ando/-iendo** (*estudiando*).",
+  "examples": [
+   {
+    "t": "Quando eu era criança, brincava no parque.",
+    "es": "Cuando era niño, jugaba en el parque."
+   },
+   {
+    "t": "Ele viajou para o Brasil no ano passado.",
+    "es": "Él viajó a Brasil el año pasado."
+   },
+   {
+    "t": "Nós estávamos jantando quando chegou a visita.",
+    "es": "Estábamos cenando cuando llegó la visita."
+   },
+   {
+    "t": "Ela estudava francês todos os dias.",
+    "es": "Ella estudiaba francés todos los días."
+   },
+   {
+    "t": "Eles terminaram o projeto ontem.",
+    "es": "Ellos terminaron el proyecto ayer."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Eu joguei futebol todos os dias.",
+    "right": "Eu jogava futebol todos os dias.",
+    "why": "Se trata de un hábito, por lo tanto debe usarse el imperfecto."
+   },
+   {
+    "wrong": "Ele estava estudado para o exame.",
+    "right": "Ele estava estudando para o exame.",
+    "why": "El gerundio correcto es -ando, no -ado."
+   },
+   {
+    "wrong": "Nós visitamos o museu ontem à noite.",
+    "right": "Nós visitámos o museu ontem à noite.",
+    "why": "En portugués de Brasil, el pretérito perfecto de 1ª persona plural lleva -amos, no -ámos."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Quando eu ___ (ser) pequeno, gostava de desenhar.",
+    "options": [
+     "era",
+     "fui",
+     "serei"
+    ],
+    "answer": 0,
+    "explanation": "Se trata de una descripción habitual en el pasado, se usa el imperfecto 'era'."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ontem, eles ___ (chegar) cedo.",
+    "options": [
+     "chegavam",
+     "chegaram",
+     "chegavam"
+    ],
+    "answer": 1,
+    "explanation": "Acción puntual del pasado, se usa el perfecto 'chegaram'."
+   },
+   {
+    "type": "choice",
+    "prompt": "Eu ___ (estudar) quando o telefone tocou.",
+    "options": [
+     "estudava",
+     "estava estudando",
+     "estudei"
+    ],
+    "answer": 1,
+    "explanation": "Se necesita 'estava estudando' para expresar acción en progreso."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nós ___ (viajar) muito quando éramos jovens.",
+    "answer": "viajávamos",
+    "accept": [
+     "viajávamos"
+    ],
+    "explanation": "Acción habitual en el pasado, imperfecto 'viajávamos'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ela ___ (comer) a pizza ontem à noite.",
+    "answer": "comeu",
+    "accept": [
+     "comeu"
+    ],
+    "explanation": "Acción puntual, perfecto 'comeu'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ele ___ (estudar) para a prova (estudar).",
+    "answer": "estava estudando",
+    "accept": [
+     "estava estudando"
+    ],
+    "explanation": "Uso de 'estava + gerúndio' para acción en progreso."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ontem",
+     "eu",
+     "fui",
+     "ao",
+     "cinema",
+     "."
+    ],
+    "answer": "Ontem eu fui ao cinema.",
+    "explanation": "Ordene la frase en portugués correcto."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ele",
+     "corria",
+     "todos",
+     "os",
+     "dias",
+     "."
+    ],
+    "answer": "Ele corria todos os dias.",
+    "explanation": "Ordene la frase en portugués correcto."
+   },
+   {
+    "type": "fix",
+    "prompt": "Nós estávamos estudado para o teste.",
+    "answer": "Nós estávamos estudando para o teste.",
+    "explanation": "El gerundio debe ser 'estudando'."
+   },
+   {
+    "type": "translate",
+    "prompt": "Ayer llovió mucho.",
+    "answer": "Ontem choveu muito.",
+    "explanation": "Traducción al portugués brasileño del pretérito perfecto."
+   }
+  ],
+  "id": "pt-imperfeito",
+  "level": "A2",
+  "title": "Pretérito imperfeito vs perfeito",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a usar el futuro en portugués brasileño: ir + infinitivo, futuro simple y el futuro del subjuntivo básico.",
+  "explanation": "## Futuro con *ir* + infinitivo\n- Se forma con el verbo **ir** conjugado + infinitivo del verbo principal.\n- Equivalente al **futuro próximo** en español (voy a comer).\n- Ejemplo: *Eu vou viajar amanhã* → \"Voy a viajar mañana\".\n\n## Futuro simple\n- Se forma añadiendo las terminaciones **-ei, -á, -á, -emos, -eis, -ão** al infinitivo.\n- Equivalente al futuro simple español (viajaré).\n- Ejemplo: *Eu viajarei amanhã*.\n\n## Futuro del subjuntivo (básico)\n- Se usa en oraciones condicionales o temporales introducidas por **quando, se, enquanto**.\n- Se forma a partir de la 3ª persona del pretérito perfecto simple del indicativo.\n- Ejemplo: *Quando eu chegar, avise-me* → \"Cuando llegue, avísame\".\n\n### Comparación rápida\n| Español | Portugués (ir+inf.) | Portugués (fut. simple) |\n|---|---|---|\n| Voy a comer | Eu vou comer | Eu comerei |\n| Cuando llegue | Quando eu chegar | — |\n\nEn general, los hispanohablantes tienden a usar el futuro simple portugués como si fuera el condicional; recuerda que el futuro del subjuntivo solo aparece en cláusulas subordinadas.",
+  "examples": [
+   {
+    "t": "Eu vou estudar amanhã.",
+    "es": "Voy a estudiar mañana."
+   },
+   {
+    "t": "Ele viajará para o Brasil em julho.",
+    "es": "Él viajará a Brasil en julio."
+   },
+   {
+    "t": "Quando eu terminar o trabalho, descansarei.",
+    "es": "Cuando termine el trabajo, descansaré."
+   },
+   {
+    "t": "Se você vier, traga o livro.",
+    "es": "Si vienes, trae el libro."
+   },
+   {
+    "t": "Nós vamos comprar um carro novo.",
+    "es": "Vamos a comprar un coche nuevo."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Eu vou viajará amanhã.",
+    "right": "Eu vou viajar amanhã.",
+    "why": "No se combina *ir* con la forma del futuro simple; se usa el infinitivo."
+   },
+   {
+    "wrong": "Quando eu chegará, avise-me.",
+    "right": "Quando eu chegar, avise-me.",
+    "why": "En cláusulas con *quando* se usa el futuro del subjuntivo, no el futuro simple."
+   },
+   {
+    "wrong": "Eu farei vai ao mercado.",
+    "right": "Eu vou ao mercado.",
+    "why": "No se mezcla *futuro simple* con la construcción *ir* + infinitivo."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Eu ___ (ir) ao cinema amanhã.",
+    "options": [
+     "vou",
+     "irei",
+     "ia"
+    ],
+    "answer": 0,
+    "explanation": "Se usa *ir* + infinitivo para futuro próximo."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ele ___ (viajar) para Portugal no próximo mês.",
+    "options": [
+     "vai",
+     "viajará",
+     "viajaria"
+    ],
+    "answer": 1,
+    "explanation": "Futuro simple indica acción futura sin intención inmediata."
+   },
+   {
+    "type": "choice",
+    "prompt": "Quando eu ___ (chegar), ligarei.",
+    "options": [
+     "chego",
+     "chegarei",
+     "chegar"
+    ],
+    "answer": 2,
+    "explanation": "Después de *quando* se emplea el futuro del subjuntivo."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nós ___ (ir) visitar meus avós na semana que vem.",
+    "answer": "vamos",
+    "accept": [
+     "vamos"
+    ],
+    "explanation": "Futuro con *ir* + infinitivo."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ela ___ (estudar) medicina no futuro.",
+    "answer": "estudará",
+    "accept": [
+     "estudará"
+    ],
+    "explanation": "Futuro simple."
+   },
+   {
+    "type": "fill",
+    "prompt": "Se você ___ (precisar) de ajuda, avise.",
+    "answer": "precisar",
+    "accept": [
+     "precisar"
+    ],
+    "explanation": "Después de *se* se usa futuro del subjuntivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Eu",
+     "vou",
+     "comprar",
+     "um",
+     "carro",
+     "amanhã",
+     "."
+    ],
+    "answer": "Eu vou comprar um carro amanhã.",
+    "explanation": "Ordena la oración con *ir* + infinitivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Quando",
+     "eu",
+     "chegar",
+     "a",
+     "casa",
+     "tarde",
+     "."
+    ],
+    "answer": "Quando eu chegar a casa tarde.",
+    "explanation": "Coloca el futuro del subjuntivo en posición correcta."
+   },
+   {
+    "type": "fix",
+    "prompt": "Ele vai chegará tarde.",
+    "answer": "Ele vai chegar tarde.",
+    "explanation": "No se combina *ir* con forma del futuro simple."
+   },
+   {
+    "type": "translate",
+    "prompt": "Mañana viajaré a Río de Janeiro.",
+    "answer": "Amanhã viajarei para o Rio de Janeiro.",
+    "explanation": "Uso del futuro simple para expresar una acción futura."
+   }
+  ],
+  "id": "pt-futuro",
+  "level": "A2",
+  "title": "Futuro: ir + infinitivo y futuro simple",
+  "model": "openai/gpt-oss-120b"
+ }
+]

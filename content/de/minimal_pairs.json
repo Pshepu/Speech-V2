@@ -1,0 +1,270 @@
+[
+ {
+  "id": "ue-i",
+  "a": "yː",
+  "b": "iː",
+  "name": "Ü vs I",
+  "pairs": [
+   [
+    "Tür",
+    "Tier"
+   ],
+   [
+    "für",
+    "vier"
+   ],
+   [
+    "Bühne",
+    "Biene"
+   ],
+   [
+    "Lüge",
+    "Liege"
+   ],
+   [
+    "spülen",
+    "spielen"
+   ],
+   [
+    "fühlen",
+    "fielen"
+   ],
+   [
+    "Mühe",
+    "Miete"
+   ]
+  ]
+ },
+ {
+  "id": "ue-u",
+  "a": "yː",
+  "b": "uː",
+  "name": "Ü vs U",
+  "pairs": [
+   [
+    "Brüder",
+    "Bruder"
+   ],
+   [
+    "Mütter",
+    "Mutter"
+   ],
+   [
+    "müssen",
+    "Muße"
+   ],
+   [
+    "drücken",
+    "drucken"
+   ],
+   [
+    "Küche",
+    "Kuchen"
+   ]
+  ]
+ },
+ {
+  "id": "oe-o",
+  "a": "øː",
+  "b": "oː",
+  "name": "Ö vs O",
+  "pairs": [
+   [
+    "schön",
+    "schon"
+   ],
+   [
+    "hören",
+    "Horn"
+   ],
+   [
+    "Töne",
+    "Tone"
+   ],
+   [
+    "Brötchen",
+    "Brot"
+   ],
+   [
+    "können",
+    "kommen"
+   ]
+  ]
+ },
+ {
+  "id": "oe-e",
+  "a": "œ",
+  "b": "ɛ",
+  "name": "Ö vs E",
+  "pairs": [
+   [
+    "können",
+    "kennen"
+   ],
+   [
+    "Hölle",
+    "Helle"
+   ],
+   [
+    "Wörter",
+    "Werte"
+   ],
+   [
+    "zwölf",
+    "Welt"
+   ],
+   [
+    "Söhne",
+    "Sehne"
+   ],
+   [
+    "lösen",
+    "lesen"
+   ],
+   [
+    "Höfe",
+    "Hefe"
+   ]
+  ]
+ },
+ {
+  "id": "ich-ach",
+  "a": "ç",
+  "b": "x",
+  "name": "CH suave vs CH fuerte",
+  "pairs": [
+   [
+    "ich",
+    "ach"
+   ],
+   [
+    "Bücher",
+    "Buch"
+   ],
+   [
+    "Dächer",
+    "Dach"
+   ],
+   [
+    "Löcher",
+    "Loch"
+   ],
+   [
+    "Töchter",
+    "Tochter"
+   ],
+   [
+    "Bäuche",
+    "Bauch"
+   ],
+   [
+    "Köche",
+    "Koch"
+   ],
+   [
+    "recht",
+    "Rache"
+   ]
+  ]
+ },
+ {
+  "id": "long-short",
+  "a": "aː",
+  "b": "a",
+  "name": "Vocal larga vs corta",
+  "pairs": [
+   [
+    "Staat",
+    "Stadt"
+   ],
+   [
+    "Bahn",
+    "Bann"
+   ],
+   [
+    "Saat",
+    "satt"
+   ],
+   [
+    "kam",
+    "Kamm"
+   ],
+   [
+    "Wahl",
+    "Wall"
+   ],
+   [
+    "Miete",
+    "Mitte"
+   ],
+   [
+    "bieten",
+    "bitten"
+   ],
+   [
+    "Ofen",
+    "offen"
+   ]
+  ]
+ },
+ {
+  "id": "ei-ie",
+  "a": "aɪ",
+  "b": "iː",
+  "name": "EI vs IE",
+  "pairs": [
+   [
+    "Leib",
+    "Lieb"
+   ],
+   [
+    "Mein",
+    "Miene"
+   ],
+   [
+    "Reise",
+    "Riese"
+   ],
+   [
+    "Wein",
+    "Wien"
+   ],
+   [
+    "Bein",
+    "Biene"
+   ],
+   [
+    "Feier",
+    "Vier"
+   ]
+  ]
+ },
+ {
+  "id": "w-v",
+  "a": "v",
+  "b": "b",
+  "name": "W (v) vs B",
+  "pairs": [
+   [
+    "Wein",
+    "Bein"
+   ],
+   [
+    "wellen",
+    "bellen"
+   ],
+   [
+    "Wand",
+    "Band"
+   ],
+   [
+    "Wahl",
+    "Ball"
+   ],
+   [
+    "wild",
+    "Bild"
+   ]
+  ]
+ }
+]

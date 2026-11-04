@@ -25,9 +25,33 @@ CONTENT = ROOT / "content"
 BUILD = CONTENT / "_build"
 BUILD.mkdir(parents=True, exist_ok=True)
 
-LANG_NAMES = {"en": "English", "fr": "French"}
-VOCAB_SIZE = {"en": 5000, "fr": 4000}
+from app.config import TARGET_NAMES as LANG_NAMES  # noqa: E402
+VOCAB_SIZE = {"en": 5000, "fr": 4000, "pt": 3000, "de": 3000}
 PACK_BATCH = 25
+FAST = "--fast" in sys.argv
+GRAMMAR_MODEL = "openai/gpt-oss-120b"
+GRAMMAR_PER_DAY = 10  # ~50.000 tokens: deja ~150.000 diarios del modelo grande para la app
+
+
+def _quota_file() -> Path:
+    return ROOT / "content" / "_build" / "_grammar_quota.json"
+
+
+def _grammar_used_today() -> int:
+    import datetime as _dt
+    try:
+        q = json.loads(_quota_file().read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return 0
+    return q.get("count", 0) if q.get("day") == _dt.date.today().isoformat() else 0
+
+
+def _grammar_count_one():
+    import datetime as _dt
+    today = _dt.date.today().isoformat()
+    n = _grammar_used_today() + 1
+    _quota_file().parent.mkdir(parents=True, exist_ok=True)
+    _quota_file().write_text(json.dumps({"day": today, "count": n}), encoding="utf-8")
 VOCAB_BATCH = 40
 SENT_PER_LEVEL = 80
 SENT_BATCH = 20
@@ -75,13 +99,23 @@ def save_part(name: str, data: dict):
 def frequency_words(lang: str) -> list[str]:
     from wordfreq import top_n_list
 
-    pat = re.compile(r"[a-z]+(?:'[a-z]+)?") if lang == "en" else \
-        re.compile(r"[a-zàâæçéèêëîïôœùûüÿ]+(?:-[a-zàâæçéèêëîïôœùûüÿ]+)?")
-    keep1 = {"a", "i"} if lang == "en" else {"a", "à", "y"}
+    pat = {
+        "en": re.compile(r"[a-z]+(?:'[a-z]+)?"),
+        "fr": re.compile(r"[a-zàâæçéèêëîïôœùûüÿ]+(?:-[a-zàâæçéèêëîïôœùûüÿ]+)?"),
+        "pt": re.compile(r"[a-záàâãçéêíóôõúü]+(?:-[a-záàâãçéêíóôõúü]+)?"),
+        "de": re.compile(r"[a-zäöüß]+"),
+    }[lang]
+    keep1 = {"en": {"a", "i"}, "fr": {"a", "à", "y"}, "pt": {"a", "o", "e", "é", "à"}, "de": set()}[lang]
     out, seen = [], set()
-    for w in top_n_list(lang, 15000):
+    top = top_n_list(lang, 15000)
+    topset = set(top)
+    for w in top:
         if not pat.fullmatch(w) or (len(w) == 1 and w not in keep1) or w in seen:
             continue
+        # Alemán: descarta grafías sin diéresis ("fuer") si existe la buena ("für").
+        if lang == "de" and re.search(r"ae|oe|ue", w):
+            if w.replace("ae", "ä").replace("oe", "ö").replace("ue", "ü") in topset:
+                continue
         seen.add(w)
         out.append(w)
         if len(out) >= VOCAB_SIZE[lang]:
@@ -99,6 +133,8 @@ def vocab_prompt(lang: str, words: list[str]) -> tuple[str, str]:
         f"category: one of {CATEGORIES}. "
         f"example: a natural, simple {LANG_NAMES[lang]} sentence (max 10 words) using the word in its most common meaning. "
         "example_es: its Spanish translation."
+        + (" For German NOUNS write the word capitalised WITH its article (e.g. 'das Haus', 'die Zeit'); "
+           "for verbs the infinitive." if lang == "de" else "")
     )
     return system, json.dumps(words, ensure_ascii=False)
 
@@ -193,8 +229,18 @@ def validate_grammar(res: dict) -> dict:
         elif t == "order" and e.get("answer"):
             e["words"] = e["answer"].replace(",", " ,").replace("?", " ?").replace(".", " .").replace("!", " !").split()
             good.append(e)
+    # Sin ejercicios repetidos (mismo enunciado).
+    seen, uniq = set(), []
+    for e in good:
+        k = (e.get("type"), (e.get("prompt") or e.get("answer") or "").strip().lower())
+        if k not in seen:
+            seen.add(k)
+            uniq.append(e)
+    good = uniq
     if len(good) < 7 or not res.get("explanation"):
         raise ValueError("lección incompleta")
+    # Algunos modelos devuelven los saltos de línea escapados ("\\n" literal).
+    res["explanation"] = res["explanation"].replace("\\n", "\n")
     res["exercises"] = good
     return res
 
@@ -218,29 +264,13 @@ async def call(model: str, system: str, user: str, max_tokens: int) -> dict:
     raise llm.LLMError("demasiados reintentos")
 
 
-async def run(langs: list[str], parts: list[str]):
-    general: asyncio.Queue = asyncio.Queue()
-    grammar: asyncio.Queue = asyncio.Queue()
+async def run(langs: list[str], parts: list[str], wait_daily: bool = True):
+    """Genera todo lo pendiente. Las tareas se hacen por PRIORIDAD (lo esencial primero) y,
+    si se agota el límite diario de Groq, espera y sigue sola (wait_daily)."""
+    tasks: list[tuple] = []   # (prioridad, orden_idioma, tarea)
+    gtasks: list[tuple] = []
     stores: dict[str, dict] = {}
-
-    for lang in langs:
-        if "packs" in parts:
-            name = f"{lang}_packs"
-            stores[name] = load_part(name)
-            for pid, level, title, desc, item_desc, subs in PACKS[lang]:
-                for k, sub in enumerate(subs):
-                    key = f"{pid}#{k}"
-                    if key not in stores[name]:
-                        general.put_nowait(("pack", lang, name, key, (item_desc, sub, title)))
-    for lang in langs:
-        if "vocab" in parts:
-            name = f"{lang}_vocab"
-            stores[name] = load_part(name)
-            words = frequency_words(lang)
-            for i in range(0, len(words), VOCAB_BATCH):
-                key = str(i)
-                if key not in stores[name]:
-                    general.put_nowait(("vocab", lang, name, key, words[i : i + VOCAB_BATCH]))
+    for li, lang in enumerate(langs):
         if "sentences" in parts:
             name = f"{lang}_sentences"
             stores[name] = load_part(name)
@@ -248,30 +278,58 @@ async def run(langs: list[str], parts: list[str]):
                 for b in range(SENT_PER_LEVEL // SENT_BATCH):
                     key = f"{level}-{b}"
                     if key not in stores[name]:
-                        general.put_nowait(("sent", lang, name, key, (level, SENT_TOPICS[b % len(SENT_TOPICS)])))
+                        tasks.append((1, li, ("sent", lang, name, key, (level, SENT_TOPICS[b % len(SENT_TOPICS)]))))
+        if "vocab" in parts:
+            name = f"{lang}_vocab"
+            stores[name] = load_part(name)
+            words = frequency_words(lang)
+            for i in range(0, len(words), VOCAB_BATCH):
+                key = str(i)
+                if key not in stores[name]:
+                    # Las 2.000 palabras más frecuentes son lo más rentable: van antes.
+                    tasks.append((2 if i < 2000 else 4, li, ("vocab", lang, name, key, words[i: i + VOCAB_BATCH])))
+        if "packs" in parts:
+            name = f"{lang}_packs"
+            stores[name] = load_part(name)
+            for pid, level, title, desc, item_desc, subs in PACKS.get(lang, []):
+                for k, sub in enumerate(subs):
+                    key = f"{pid}#{k}"
+                    if key not in stores[name]:
+                        tasks.append((3, li, ("pack", lang, name, key, (item_desc, sub, title))))
         if "grammar" in parts:
             name = f"{lang}_grammar"
             stores[name] = load_part(name)
-            for lid, level, title, points in SYLLABUS[lang]:
+            for lid, level, title, points in SYLLABUS.get(lang, []):
                 if lid not in stores[name]:
-                    grammar.put_nowait(("grammar", lang, name, lid, (level, title, points)))
+                    gtasks.append((0, li, ("grammar", lang, name, lid, (level, title, points))))
+    tasks.sort(key=lambda t: (t[0], t[1]))
+    general = [t[2] for t in tasks]
+    grammar = [t[2] for t in gtasks]
 
-    total = general.qsize() + grammar.qsize()
-    print(f"Tareas pendientes: {total}", flush=True)
+    total = len(general) + len(grammar)
+    print(f"Tareas pendientes: {total} (gramática: {len(grammar)})", flush=True)
     done = 0
     failures: dict = {}
+    since_assemble = 0
 
-    async def worker(model: str):
-        nonlocal done
+    async def worker(model: str, kinds: set[str]):
+        nonlocal done, since_assemble
         while True:
-            if model in GRAMMAR_MODELS and not grammar.empty():
-                task = grammar.get_nowait()
-            elif not general.empty():
-                task = general.get_nowait()
-            elif not grammar.empty():
-                task = grammar.get_nowait()
+            grammar_ok = FAST or _grammar_used_today() < GRAMMAR_PER_DAY
+            if "grammar" in kinds and grammar and grammar_ok:
+                queue = grammar
+            elif "general" in kinds and general:
+                queue = general
+            elif "grammar" in kinds and grammar:
+                # Tope diario alcanzado: el resto del modelo grande queda para tus conversaciones.
+                print(f"   ⏸️  Hoy ya se redactaron {GRAMMAR_PER_DAY} lecciones; sigo mañana.", flush=True)
+                if not wait_daily:
+                    return
+                await asyncio.sleep(1800)
+                continue
             else:
                 return
+            task = queue.pop(0)
             kind, lang, name, key, payload = task
             try:
                 if kind == "vocab":
@@ -290,25 +348,42 @@ async def run(langs: list[str], parts: list[str]):
                     s = GRAMMAR_SYSTEM.format(lang=LANG_NAMES[lang])
                     u = f"Lesson: {title} (CEFR {level}). Key points: {points}."
                     res = validate_grammar(await call(model, s, u, 7000))
-                    res.update({"id": key, "level": level, "title": title})
+                    res.update({"id": key, "level": level, "title": title, "model": model})
+                    _grammar_count_one()
                 stores[name][key] = res
                 save_part(name, stores[name])
                 done += 1
+                since_assemble += 1
                 print(f"[{done}/{total}] {name} {key} ✓ ({model})", flush=True)
-            except Exception as e:  # la tarea vuelve a la cola (máx. 3 veces)
-                print(f"   ✗ {name} {key}: {e}", flush=True)
-                if "DIARIO" in str(e):
-                    (grammar if kind == "grammar" else general).put_nowait(task)
-                    print(f"   ⏸️  {model}: límite diario de Groq agotado. Vuelve a ejecutar este script mañana (sigue donde se quedó).", flush=True)
-                    return
-                failures[(name, key)] = failures.get((name, key), 0) + 1
-                if "401" in str(e):
+                if since_assemble >= 15:  # la app ve el contenido nuevo sin esperar al final
+                    since_assemble = 0
+                    assemble(langs, quiet=True)
+            except Exception as e:
+                msg = str(e)
+                if "DIARIO" in msg:
+                    queue.insert(0, task)
+                    assemble(langs, quiet=True)
+                    if not wait_daily:
+                        print(f"   ⏸️  {model}: límite diario agotado. Vuelve a ejecutar el script más tarde.", flush=True)
+                        return
+                    print(f"   ⏸️  {model}: límite diario de Groq agotado; espero 15 min y sigo "
+                          "(puedes cerrar la ventana cuando quieras: sigue donde se quedó).", flush=True)
+                    await asyncio.sleep(900)
+                    continue
+                print(f"   ✗ {name} {key}: {msg[:150]}", flush=True)
+                if "401" in msg:
                     raise SystemExit("Clave de API inválida: revisa GROQ_API_KEY en .env")
+                failures[(name, key)] = failures.get((name, key), 0) + 1
                 if failures[(name, key)] < 3:
-                    (grammar if kind == "grammar" else general).put_nowait(task)
+                    queue.append(task)
                 await asyncio.sleep(3)
 
-    await asyncio.gather(*(worker(m) for m in WORKER_MODELS))
+    # Vocabulario, frases y paquetes: modelo pequeño (lo hace bien).
+    # Gramática: SOLO el modelo grande (el pequeño comete errores en explicaciones y tablas),
+    # con un tope diario para no dejar a la app sin él. Con "--fast" no hay tope.
+    workers = [worker("openai/gpt-oss-20b", {"general"}),
+               worker(GRAMMAR_MODEL, {"grammar", "general"} if FAST else {"grammar"})]
+    await asyncio.gather(*workers)
     assemble(langs)
 
 
@@ -335,7 +410,7 @@ def _is_noise(w: dict) -> bool:
     return False
 
 
-def assemble(langs: list[str]):
+def assemble(langs: list[str], quiet: bool = False):
     """Une las partes en los archivos finales content/<lang>/*.json."""
     from wordfreq import zipf_frequency
 
@@ -358,7 +433,7 @@ def assemble(langs: list[str]):
                     it["zipf"] = round(zipf_frequency(w, lang), 2)
                     words.append(it)
             (d / "vocab.json").write_text(json.dumps(words, ensure_ascii=False, indent=1), encoding="utf-8")
-            print(f"{lang}: vocab {len(words)}")
+            quiet or print(f"{lang}: vocab {len(words)}")
         s = load_part(f"{lang}_sentences")
         if s:
             sents, seen = [], set()
@@ -369,11 +444,11 @@ def assemble(langs: list[str]):
                     seen.add(text.lower())
                     sents.append({"text": text, "translation": es, "level": level})
             (d / "sentences.json").write_text(json.dumps(sents, ensure_ascii=False, indent=1), encoding="utf-8")
-            print(f"{lang}: frases {len(sents)}")
+            quiet or print(f"{lang}: frases {len(sents)}")
         pk = load_part(f"{lang}_packs")
         if pk:
             packs = []
-            for pid, level, title, desc, _item, subs in PACKS[lang]:
+            for pid, level, title, desc, _item, subs in PACKS.get(lang, []):
                 items, seen = [], set()
                 for k in range(len(subs)):
                     for it in pk.get(f"{pid}#{k}", []):
@@ -383,20 +458,21 @@ def assemble(langs: list[str]):
                 if items:
                     packs.append({"id": pid, "level": level, "title": title, "description": desc, "items": items})
             (d / "packs.json").write_text(json.dumps(packs, ensure_ascii=False, indent=1), encoding="utf-8")
-            print(f"{lang}: paquetes {len(packs)} ({sum(len(p['items']) for p in packs)} expresiones)")
+            quiet or print(f"{lang}: paquetes {len(packs)} ({sum(len(p['items']) for p in packs)} expresiones)")
         g = load_part(f"{lang}_grammar")
         if g:
-            order = [lid for lid, *_ in SYLLABUS[lang]]
+            order = [lid for lid, *_ in SYLLABUS.get(lang, [])]
             lessons = [g[i] for i in order if i in g]
             (d / "grammar.json").write_text(json.dumps(lessons, ensure_ascii=False, indent=1), encoding="utf-8")
-            print(f"{lang}: lecciones {len(lessons)}")
+            quiet or print(f"{lang}: lecciones {len(lessons)}")
 
 
 if __name__ == "__main__":
     args = sys.argv[1:]
-    langs = [a for a in args if a in ("en", "fr")] or ["en", "fr"]
+    ALL = ["en", "fr", "pt", "de"]
+    langs = [a for a in args if a in ALL] or ALL
     parts = [a for a in args if a in ("vocab", "sentences", "grammar", "packs")] or ["vocab", "sentences", "grammar", "packs"]
     if "assemble" in args:
         assemble(langs)
     else:
-        asyncio.run(run(langs, parts))
+        asyncio.run(run(langs, parts, wait_daily="--no-wait" not in args))

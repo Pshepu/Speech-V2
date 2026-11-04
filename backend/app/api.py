@@ -14,7 +14,7 @@ from pydantic import BaseModel
 from . import assessment, audio, config, content, db, g2p, listening, llm, missions, planner, pronunciation, srs, stt, tts
 
 router = APIRouter(prefix="/api")
-TARGET = {"en": "English", "fr": "French"}
+TARGET = config.TARGET_NAMES
 
 
 def L(lang: str | None) -> str:
@@ -154,8 +154,13 @@ def practice_sentence(lang: str | None = None, level: str | None = None, phoneme
     s = None
     if phoneme:
         s = _sentence_with_phoneme(lang, level, phoneme)
-    s = s or content.random_sentence(lang, level) or {"text": "Hello, how are you?", "translation": "Hola, ¿cómo estás?", "level": "A1"}
-    words = [{"word": w, "ipa": "".join(p)} for w, p in g2p.sentence_phones(s["text"], lang)]
+    s = s or content.random_sentence(lang, level)
+    if not s:
+        # Mientras se genera el contenido de un idioma nuevo, usamos las frases útiles de sus misiones.
+        phrases = [{"text": p["t"], "translation": p["es"], "level": m.get("level", "A1")}
+                   for c in content.campaigns(lang) for m in c["missions"] for p in m.get("useful_phrases", [])]
+        s = random.choice(phrases) if phrases else {"text": "Hello, how are you?", "translation": "Hola, ¿cómo estás?", "level": "A1"}
+    words = [{"word": w, "ipa": ipa} for w, ipa in g2p.display_ipa_words(s["text"], lang)]
     return {**s, "words": words, "ipa": " ".join(w["ipa"] for w in words)}
 
 
@@ -701,7 +706,10 @@ def assessment_summary(lang: str | None = None):
 
 @router.get("/assessment/vocab-test")
 def assessment_vocab_test(lang: str | None = None):
-    return assessment.vocab_test(L(lang))
+    t = assessment.vocab_test(L(lang))
+    if not t["bands"]:
+        raise HTTPException(409, "Todavía no hay vocabulario para este idioma (se está generando). Inténtalo más tarde.")
+    return t
 
 
 class VocabTestIn(BaseModel):

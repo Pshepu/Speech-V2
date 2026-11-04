@@ -74,7 +74,38 @@ LANGUAGES: dict[str, dict] = {
             "fr-BE-GerardNeural", "fr-CH-ArianeNeural", "fr-CH-FabriceNeural",
         ],
     },
+    "pt": {
+        "code": "pt",
+        "name": "Portugués (Brasil)",
+        "flag": "🇧🇷",
+        # El modelo de fonemas se entrenó con la variante europea de espeak: puntuamos con "pt"
+        # (aceptando las variantes brasileñas) y mostramos la transcripción brasileña.
+        "espeak": "pt",
+        "espeak_display": "pt-br",
+        "whisper": "pt",
+        "tts_default": "pt-BR-FranciscaNeural",
+        "voices": [
+            "pt-BR-FranciscaNeural", "pt-BR-AntonioNeural", "pt-BR-ThalitaMultilingualNeural",
+            "pt-PT-RaquelNeural", "pt-PT-DuarteNeural",
+        ],
+    },
+    "de": {
+        "code": "de",
+        "name": "Alemán",
+        "flag": "🇩🇪",
+        "espeak": "de",
+        "whisper": "de",
+        "tts_default": "de-DE-KatjaNeural",
+        "voices": [
+            "de-DE-KatjaNeural", "de-DE-ConradNeural", "de-DE-AmalaNeural", "de-DE-KillianNeural",
+            "de-DE-SeraphinaMultilingualNeural", "de-DE-FlorianMultilingualNeural",
+            "de-AT-IngridNeural", "de-AT-JonasNeural", "de-CH-LeniNeural", "de-CH-JanNeural",
+        ],
+    },
 }
+
+# Nombre del idioma en inglés (para las instrucciones a la IA).
+TARGET_NAMES = {"en": "English", "fr": "French", "pt": "Brazilian Portuguese", "de": "German"}
 
 LEVELS = ["A1", "A2", "B1", "B2", "C1"]
 
@@ -86,4 +117,9 @@ VOICE_GENDER = {
     "fr-FR-DeniseNeural": "f", "fr-FR-HenriNeural": "m", "fr-FR-EloiseNeural": "f", "fr-CA-SylvieNeural": "f",
     "fr-CA-JeanNeural": "m", "fr-BE-CharlineNeural": "f", "fr-BE-GerardNeural": "m", "fr-CH-ArianeNeural": "f",
     "fr-CH-FabriceNeural": "m",
+    "pt-BR-FranciscaNeural": "f", "pt-BR-AntonioNeural": "m", "pt-BR-ThalitaMultilingualNeural": "f",
+    "pt-PT-RaquelNeural": "f", "pt-PT-DuarteNeural": "m",
+    "de-DE-KatjaNeural": "f", "de-DE-ConradNeural": "m", "de-DE-AmalaNeural": "f", "de-DE-KillianNeural": "m",
+    "de-DE-SeraphinaMultilingualNeural": "f", "de-DE-FlorianMultilingualNeural": "m",
+    "de-AT-IngridNeural": "f", "de-AT-JonasNeural": "m", "de-CH-LeniNeural": "f", "de-CH-JanNeural": "m",
 }

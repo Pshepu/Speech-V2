@@ -12,10 +12,11 @@ from __future__ import annotations
 
 import json
 import random
+import re
 
 from . import content, db, llm
 
-TARGET = {"en": "English", "fr": "French"}
+from .config import TARGET_NAMES as TARGET
 LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"]
 
 PSEUDO = {
@@ -25,14 +26,24 @@ PSEUDO = {
     "fr": ["chapoir", "frocule", "mautrer", "pelinade", "gourmir", "tralacer", "vitresque", "bouchenard", "plinter",
            "dravoir", "esclumer", "fanoir", "grisenne", "pralier", "trouvelle", "cramoise", "bablir", "pontaison",
            "sourniche", "fréquir", "gamblot", "chavrir", "truniche", "plaudeur", "vernoir", "mescule", "glandoir"],
+    "pt": ["brundeira", "chafolar", "trimenso", "galupar", "pernisco", "vontrado", "esbalir", "fornelha", "dramento",
+           "quilhosa", "ralventar", "mofisco", "plenhada", "tursivo", "gramolar", "biscunha", "setroar", "fandilho",
+           "cromeiro", "lapunça"],
+    "de": ["Bruchtel", "verglamen", "Fenschung", "Knapotte", "stralmig", "Wunkerei", "Plimmer", "gesorbt", "Zwackel",
+           "trunsen", "Molbung", "frastig", "kelpen", "Brodlung", "Wiepel", "flunsig", "Trampung"],
 }
 BAND = 1000
 PER_BAND = 12
 N_PSEUDO = 12
 
 
+def _bare(word: str) -> str:
+    """Quita el artículo alemán (das Haus → Haus) para que no delate cuáles son reales."""
+    return re.sub(r"^(der|die|das) ", "", word)
+
+
 def vocab_test(lang: str) -> dict:
-    words = [w["word"] for w in content.vocab(lang)]
+    words = [_bare(w["word"]) for w in content.vocab(lang)]
     bands = []
     for b in range(0, min(len(words), 5000), BAND):
         pool = [w for w in words[b: b + BAND] if len(w) > 2]
@@ -59,7 +70,7 @@ def level_from_vocab(size: float) -> str:
 
 
 def score_vocab_test(lang: str, shown: list[str], known: list[str]) -> dict:
-    words = [w["word"] for w in content.vocab(lang)]
+    words = [_bare(w["word"]) for w in content.vocab(lang)]
     rank = {w: i for i, w in enumerate(words)}
     pseudo = set(PSEUDO[lang])
     known_set = set(known)

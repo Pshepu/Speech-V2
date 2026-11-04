@@ -27,8 +27,9 @@ const vi = ref(0)
 const known = ref<string[]>([])
 const vres = ref<any>(null)
 async function startVocab() {
-  test.value = 'vocab'; vres.value = null; known.value = []; vi.value = 0
-  vt.value = await api.get(`/assessment/vocab-test?lang=${app.lang}`)
+  vres.value = null; known.value = []; vi.value = 0
+  try { vt.value = await api.get(`/assessment/vocab-test?lang=${app.lang}`); test.value = 'vocab' }
+  catch (e: any) { app.notify(e.message, 'error') }
 }
 async function answerVocab(yes: boolean) {
   const w = vt.value.items[vi.value]

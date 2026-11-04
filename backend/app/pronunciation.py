@@ -180,6 +180,23 @@ ALTERNATES: dict[str, dict[str, set[str]]] = {
         "ʊɹ": {"ɔːɹ", "ʊ", "uː", "ɔː", "ɹ", "ɚ"}, "aɪɚ": {"aɪə", "aɪ", "ɚ", "ɹ"},
         "oːɹ": {"ɔːɹ", "ɔː", "oʊ", "ɹ"},
     },
+    "pt": {
+        # Se puntúa con fonemas de espeak "pt" (europeo); aceptamos las realizaciones brasileñas.
+        "ɨ": {"i", "e", "ɪ", "ə", "dʒ", "tʃ"}, "ɹ": {"ɾ", "r", "x", "h", "ʁ"}, "ʊ": {"u", "o"},
+        "d": {"dʒ"}, "t": {"tʃ"},
+        "eʊ": {"e", "u", "w", "ɨ", "ew"}, "aʊ": {"a", "u", "w"},
+        "y": {"i", "ɪ"}, "i": {"y", "ɪ"}, "u": {"ʊ", "o"}, "ɐ": {"a", "ə", "ɨ"}, "a": {"ɐ"},
+        "ɐ̃ʊ̃": {"ɐ̃", "ãʊ̃", "ã"}, "ɐ̃": {"ã", "ɐ"}, "e": {"ɛ", "eɪ"}, "ɛ": {"e"}, "o": {"ɔ", "u"}, "ɔ": {"o"},
+        "eɪ": {"e", "ɛ"}, "eʊ": {"e", "u"}, "x": {"h", "ʁ", "χ", "r"}, "h": {"x", "ʁ"}, "ʁ": {"x", "h", "r"},
+        "ɾ": {"r", "ɹ"}, "r": {"ɾ", "x", "h"}, "dʒ": {"d", "ʒ"}, "tʃ": {"t", "ʃ"}, "æ": {"a", "ɐ", "ɛ"},
+        "ŋ": {"n", "m"}, "s": {"ʃ"}, "ʃ": {"s"},
+    },
+    "de": {
+        "ɐ": {"ə", "a", "ɾ", "ʁ"}, "ə": {"ɐ", "ɛ", "e"}, "ʁ": {"r", "ɾ", "ɐ", "χ"}, "ɾ": {"r", "ʁ", "ɐ"},
+        "r": {"ʁ", "ɾ"}, "ʔ": set(), "ɪ": {"i", "iː"}, "ʊ": {"u", "uː"}, "ɛ": {"e", "eː", "ɛː"},
+        "ɔ": {"o", "oː"}, "a": {"aː", "ɐ"}, "aː": {"a", "ɑː"}, "ɑː": {"aː", "a"}, "ç": {"x", "ʃ"},
+        "x": {"ç", "χ"}, "øː": {"ø", "œ"}, "œ": {"øː", "ø"}, "yː": {"y", "ʏ"}, "ʏ": {"y", "yː"},
+    },
     "fr": {
         "œ̃": {"ɛ̃"}, "ə": {"ø", "œ"}, "ɑ": {"a"}, "a": {"ɑ"}, "e": {"ɛ"}, "ɛ": {"e"},
         "o": {"ɔ"}, "ɔ": {"o"}, "ø": {"œ", "ə"}, "œ": {"ø", "ə"},
@@ -213,8 +230,8 @@ def assess(samples: np.ndarray, text: str, lang: str) -> dict:
                    and phones[-1] in ("z", "t", "n", "p", "ʁ"))
         for pi, p in enumerate(phones):
             for tid in _tokenize_phone(p):
-                if liaison and pi == len(phones) - 1:
-                    optional.add(len(flat))
+                if (liaison and pi == len(phones) - 1) or p == "ʔ":
+                    optional.add(len(flat))  # liaison francesa o golpe glótico alemán: opcionales
                 idxs.append(len(flat))
                 flat.append((wi, tid, _inv[tid]))
         word_tokens.append(idxs)

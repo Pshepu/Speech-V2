@@ -1,6 +1,6 @@
 # Speech V2 — Entrenador personal de idiomas
 
-Aplicación local para aprender **inglés** y **francés** (la interfaz está en español). Combina las técnicas con más respaldo en la investigación sobre adquisición de idiomas, y añade **misiones de inmersión**: juegos de rol con personajes, inspirados en el entrenamiento militar de idiomas.
+Aplicación local para aprender **inglés**, **portugués de Brasil**, **alemán** y **francés** (la interfaz está en español). Los idiomas se eligieron pensando en la carrera de un ingeniero en informática en Chile: inglés (imprescindible), portugués (Brasil, el mayor mercado tech de Latinoamérica) y alemán (Tarjeta Azul de la UE). Combina las técnicas con más respaldo en la investigación sobre adquisición de idiomas, y añade **misiones de inmersión**: juegos de rol con personajes, inspirados en el entrenamiento militar de idiomas.
 
 > Evolución de [huytd/speech](https://github.com/huytd/speech) y de mi versión anterior en Rust (`../speech`). Esta versión está reescrita desde cero en Python + Vue.
 
@@ -9,7 +9,7 @@ Aplicación local para aprender **inglés** y **francés** (la interfaz está en
 | Módulo | Qué hace |
 |---|---|
 | 🏠 **Hoy** | Plan diario automático (repaso, pronunciación, oído, gramática, misión, lectura, fluidez), adaptado a tus puntos débiles. Racha, XP y objetivo de minutos. |
-| 🎯 **Misiones** | Campañas *Operación Londres* (13 misiones, A1→B2) y *Opération Paris* (10). Cada una trae un informe previo, un personaje con información que debes conseguir, giros inesperados y un informe final (AAR) con tus errores. Modo **Entrenamiento** (pistas, traducciones, correcciones en vivo) o **Inmersión total**. También hay **modos de conversación** (debate, entrevista, explícamelo, historias, actualidad, small talk), **modo manos libres**, **autocorrección guiada** (primero una pista, luego la solución), nota de pronunciación en cada frase que dices, memoria de tu perfil y misiones generadas por IA a tu medida. |
+| 🎯 **Misiones** | Campañas *Operación Londres* (13 misiones, A1→B2), **Operación Silicon Valley** (8: entrevistas tech, stand-ups, revisiones de código, postmortem, diseño de sistemas y negociación salarial), *Operação São Paulo* (8, vida y trabajo en una startup brasileña), *Operation Berlin* (8: Bürgeramt, piso compartido, Tarjeta Azul, revisión de código) y *Opération Paris* (10). Cada una trae un informe previo, un personaje con información que debes conseguir, giros inesperados y un informe final (AAR) con tus errores. Modo **Entrenamiento** (pistas, traducciones, correcciones en vivo) o **Inmersión total**. También hay **modos de conversación** (debate, entrevista, explícamelo, historias, actualidad, small talk), **modo manos libres**, **autocorrección guiada** (primero una pista, luego la solución), nota de pronunciación en cada frase que dices, memoria de tu perfil y misiones generadas por IA a tu medida. |
 | 🎙️ **Pronunciación** | Evaluación **por fonema** con un modelo wav2vec2 de fonemas y alineación forzada: te dice qué sonido produjiste en lugar del correcto (por ejemplo, oyó /d/ en vez de /ð/). Consejos para hispanohablantes, pares mínimos, shadowing, audio lento y otros acentos. Registra tus sonidos débiles. |
 | 👂 **Escucha** | Diálogos, pódcasts, noticias y entrevistas generados a tu nivel, con 2 voces de acentos distintos y velocidad ajustable. Incluye preguntas de comprensión, **resumen corregido**, dictogloss, pares mínimos con voces aleatorias y dictado. |
 | 🧠 **Repaso** | Repetición espaciada con **FSRS** (el algoritmo actual de Anki). Las palabras pasan de reconocimiento a **frases con hueco**. Las expresiones se repasan en dirección de producción. Puedes responder escribiendo o **hablando**, pedir un **truco mnemotécnico** con IA y repasar **tus propios errores**, que se convierten solos en tarjetas. |
@@ -71,6 +71,9 @@ cd frontend && npm run dev
 ```
 
 ### Regenerar o ampliar el contenido
+
+Doble clic en `GENERAR_CONTENIDO.bat`. Vocabulario, frases y paquetes se generan con `gpt-oss-20b`; la gramática, con `gpt-oss-120b` y un máximo de 10 lecciones al día, para no agotar el límite diario que usa la app. Si se acaba la cuota, el generador espera y continúa solo.
+
 
 ```bash
 backend/.venv/Scripts/python scripts/build_content.py            # todo (reanudable)

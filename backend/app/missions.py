@@ -16,7 +16,7 @@ import re
 import uuid
 
 from . import content, db, llm
-from .config import LANGUAGES
+from .config import LANGUAGES, TARGET_NAMES
 
 LEVEL_STYLE = {
     "A1": "Use very simple, short sentences (max 10 words), common words, speak slowly and clearly. Repeat or rephrase if the learner seems confused.",
@@ -31,7 +31,7 @@ EMOTIONS = ["neutral", "happy", "friendly", "confused", "suspicious", "annoyed",
 
 def _character_system(m: dict, lang: str, mode: str, objectives_state: dict) -> str:
     lname = LANGUAGES[lang]["name"]
-    target = {"en": "English", "fr": "French"}[lang]
+    target = TARGET_NAMES[lang]
     ch = m["character"]
     objs = "\n".join(
         f'- {o["id"]}: {o["text"]} -> {"DONE" if objectives_state.get(o["id"]) else "pending"}'
@@ -184,7 +184,7 @@ CONVERSATION_MODES = {
 
 
 def free_talk_mission(lang: str, topic: str, level: str, kind: str = "libre") -> dict:
-    target = {"en": "English", "fr": "French"}[lang]
+    target = TARGET_NAMES[lang]
     voices = LANGUAGES[lang]["voices"]
     mode = CONVERSATION_MODES.get(kind, CONVERSATION_MODES["libre"])
     import random as _r
@@ -299,7 +299,7 @@ async def turn(run_id: int, text: str) -> dict:
 async def hint(run_id: int) -> dict:
     run = _load_run(run_id)
     m, lang = run["mission"], run["lang"]
-    target = {"en": "English", "fr": "French"}[lang]
+    target = TARGET_NAMES[lang]
     pending = [o["text"] for o in m["objectives"] if o["id"] not in run["state"]["done"]]
     convo = "\n".join(f'{"Learner" if t["role"] == "user" else m["character"]["name"]}: {t["content"]}'
                       for t in run["transcript"][-8:])
@@ -318,7 +318,7 @@ async def finish(run_id: int) -> dict:
     if run["finished"] and run["result"]:
         return json.loads(run["result"])
     m, lang, state = run["mission"], run["lang"], run["state"]
-    target = {"en": "English", "fr": "French"}[lang]
+    target = TARGET_NAMES[lang]
     learner_lines = [t["content"] for t in run["transcript"] if t["role"] == "user"]
     convo = "\n".join(f'{"Learner" if t["role"] == "user" else m["character"]["name"]}: {t["content"]}'
                       for t in run["transcript"])
@@ -395,7 +395,7 @@ async def finish(run_id: int) -> dict:
 
 async def generate_mission(lang: str, level: str, theme: str | None) -> dict:
     """La IA crea una misión nueva a tu nivel (se guarda para repetirla)."""
-    target = {"en": "English", "fr": "French"}[lang]
+    target = TARGET_NAMES[lang]
     voices = LANGUAGES[lang]["voices"]
     res = await llm.json_call(
         f"You design realistic role-play missions for Spanish speakers learning {target} (task-based learning, like military language immersion). "

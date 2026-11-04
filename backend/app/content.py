@@ -34,8 +34,18 @@ def sentences(lang: str) -> list[dict]:
     return _load(lang, "sentences", [])
 
 
+def _valid_exercise(e: dict) -> bool:
+    if e.get("type") == "choice":
+        opts = [str(o).strip().lower() for o in e.get("options") or []]
+        return len(opts) >= 2 and len(set(opts)) == len(opts)  # sin opciones repetidas
+    return True
+
+
 def grammar(lang: str) -> list[dict]:
-    return _load(lang, "grammar", [])
+    lessons = _load(lang, "grammar", [])
+    for l in lessons:
+        l["exercises"] = [e for e in l.get("exercises", []) if _valid_exercise(e)]
+    return lessons
 
 
 def lesson(lang: str, lesson_id: str) -> dict | None:
