@@ -198,7 +198,8 @@ def summary(lang: str) -> dict:
         skills[skill] = _comprehension_level(lang, skill)
     levels = [s["level"] for s in skills.values() if s and s.get("level") in LEVELS]
     overall = None
-    if levels:
+    # Con 1-2 destrezas medidas el "nivel global" engaña: se exige al menos 3.
+    if len(levels) >= 3:
         idx = sorted(LEVELS.index(l) for l in levels)
         overall = LEVELS[idx[(len(idx) - 1) // 2]]  # mediana baja: no se infla por una sola destreza
     return {"skills": skills, "overall": overall, "target": "C1"}

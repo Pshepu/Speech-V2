@@ -50468,13 +50468,365 @@
   "zipf": 4.23
  },
  {
+  "word": "essay",
+  "translation": "ensayo, ensayo, ensayo",
+  "pos": "noun",
+  "category": "otros",
+  "example": "I wrote an essay.",
+  "example_es": "Escribí un ensayo.",
+  "rank": 4589,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "expense",
+  "translation": "gasto, coste",
+  "pos": "noun",
+  "category": "otros",
+  "example": "The expense was high.",
+  "example_es": "El gasto fue alto.",
+  "rank": 4590,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "explaining",
+  "translation": "explicando",
+  "pos": "verb",
+  "category": "comunicación",
+  "example": "She is explaining the problem.",
+  "example_es": "Ella está explicando el problema.",
+  "rank": 4591,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "furthermore",
+  "translation": "además",
+  "pos": "conj",
+  "category": "palabras funcionales",
+  "example": "Furthermore, it is important.",
+  "example_es": "Además, es importante.",
+  "rank": 4592,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "graphic",
+  "translation": "gráfico, visual",
+  "pos": "adj",
+  "category": "tecnología",
+  "example": "The graphic was clear.",
+  "example_es": "El gráfico fue claro.",
+  "rank": 4593,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "healing",
+  "translation": "sanación, curación",
+  "pos": "noun",
+  "category": "cuerpo y salud",
+  "example": "Healing takes time.",
+  "example_es": "La sanación lleva tiempo.",
+  "rank": 4594,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "hiring",
+  "translation": "contratación",
+  "pos": "noun",
+  "category": "trabajo y estudios",
+  "example": "Hiring is underway.",
+  "example_es": "La contratación está en marcha.",
+  "rank": 4595,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "hosts",
+  "translation": "anfitriones, aloja",
+  "pos": "verb",
+  "category": "comunicación",
+  "example": "The hosts welcomed guests.",
+  "example_es": "Los anfitriones dieron la bienvenida.",
+  "rank": 4596,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "implemented",
+  "translation": "implementado",
+  "pos": "verb",
+  "category": "trabajo y estudios",
+  "example": "The plan was implemented.",
+  "example_es": "El plan fue implementado.",
+  "rank": 4597,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "instantly",
+  "translation": "instantáneamente",
+  "pos": "adv",
+  "category": "tiempo y calendario",
+  "example": "It happened instantly.",
+  "example_es": "Ocurrió instantáneamente.",
+  "rank": 4598,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "invasion",
+  "translation": "invasión",
+  "pos": "noun",
+  "category": "ciudad y lugares",
+  "example": "The invasion began.",
+  "example_es": "La invasión comenzó.",
+  "rank": 4599,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "jumping",
+  "translation": "saltando",
+  "pos": "verb",
+  "category": "ocio y deportes",
+  "example": "Jumping is fun.",
+  "example_es": "Saltando es divertido.",
+  "rank": 4600,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "laptop",
+  "translation": "portátil",
+  "pos": "noun",
+  "category": "tecnología",
+  "example": "I use a laptop.",
+  "example_es": "Uso un portátil.",
+  "rank": 4601,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "legendary",
+  "translation": "legendario",
+  "pos": "adj",
+  "category": "emociones y carácter",
+  "example": "He is legendary.",
+  "example_es": "Es legendario.",
+  "rank": 4602,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "maker",
+  "translation": "fabricante, creador",
+  "pos": "noun",
+  "category": "trabajo y estudios",
+  "example": "The maker is skilled.",
+  "example_es": "El fabricante es hábil.",
+  "rank": 4603,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "opponents",
+  "translation": "oponentes, adversarios",
+  "pos": "noun",
+  "category": "ocio y deportes",
+  "example": "Opponents were strong.",
+  "example_es": "Los oponentes fueron fuertes.",
+  "rank": 4604,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "outdoor",
+  "translation": "al aire libre",
+  "pos": "adj",
+  "category": "casa",
+  "example": "We had an outdoor party.",
+  "example_es": "Tuvimos una fiesta al aire libre.",
+  "rank": 4605,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "palm",
+  "translation": "palma, palma",
+  "pos": "noun",
+  "category": "naturaleza y clima",
+  "example": "The palm is tall.",
+  "example_es": "La palma es alta.",
+  "rank": 4606,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "photograph",
+  "translation": "fotografía",
+  "pos": "noun",
+  "category": "tecnología",
+  "example": "Take a photograph.",
+  "example_es": "Toma una fotografía.",
+  "rank": 4607,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "pole",
+  "translation": "polo, palo",
+  "pos": "noun",
+  "category": "casa",
+  "example": "The pole is tall.",
+  "example_es": "El palo es alto.",
+  "rank": 4608,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "pub",
+  "translation": "pub, bar",
+  "pos": "noun",
+  "category": "casa",
+  "example": "We went to a pub.",
+  "example_es": "Fuimos a un pub.",
+  "rank": 4609,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "quarters",
+  "translation": "cuartos, cuartel",
+  "pos": "noun",
+  "category": "casa",
+  "example": "The quarters are small.",
+  "example_es": "Los cuartos son pequeños.",
+  "rank": 4610,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "rangers",
+  "translation": "guardabosques",
+  "pos": "noun",
+  "category": "trabajo y estudios",
+  "example": "Rangers patrol the forest.",
+  "example_es": "Los guardabosques patrullan el bosque.",
+  "rank": 4611,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "ranks",
+  "translation": "rangos, puestos",
+  "pos": "noun",
+  "category": "trabajo y estudios",
+  "example": "He climbed the ranks.",
+  "example_es": "Ascendió los rangos.",
+  "rank": 4612,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "reception",
+  "translation": "recepción, recepción",
+  "pos": "noun",
+  "category": "casa",
+  "example": "The reception was warm.",
+  "example_es": "La recepción fue cálida.",
+  "rank": 4613,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "recipe",
+  "translation": "receta",
+  "pos": "noun",
+  "category": "comida y bebida",
+  "example": "Follow the recipe.",
+  "example_es": "Sigue la receta.",
+  "rank": 4614,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "regulatory",
+  "translation": "regulatorio",
+  "pos": "adj",
+  "category": "tecnología",
+  "example": "Regulatory rules apply.",
+  "example_es": "Las reglas regulatorias se aplican.",
+  "rank": 4615,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "reviewed",
+  "translation": "revisado",
+  "pos": "verb",
+  "category": "trabajo y estudios",
+  "example": "The report was reviewed.",
+  "example_es": "El informe fue revisado.",
+  "rank": 4616,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "rolls",
+  "translation": "rollos, panes",
+  "pos": "noun",
+  "category": "comida y bebida",
+  "example": "She baked rolls.",
+  "example_es": "Ella horneó rollos.",
+  "rank": 4617,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "rubber",
+  "translation": "goma, caucho",
+  "pos": "noun",
+  "category": "tecnología",
+  "example": "Rubber is flexible.",
+  "example_es": "El caucho es flexible.",
+  "rank": 4618,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "secured",
+  "translation": "asegurado",
+  "pos": "verb",
+  "category": "trabajo y estudios",
+  "example": "The data was secured.",
+  "example_es": "Los datos fueron asegurados.",
+  "rank": 4619,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
+  "word": "serial",
+  "translation": "serial, serie",
+  "pos": "adj",
+  "category": "tecnología",
+  "example": "Serial numbers matter.",
+  "example_es": "Los números seriales importan.",
+  "rank": 4620,
+  "level": "C1",
+  "zipf": 4.23
+ },
+ {
   "word": "settings",
   "translation": "configuración, ajustes",
   "pos": "noun",
   "category": "tecnología",
   "example": "Adjust the settings before printing.",
   "example_es": "Ajusta la configuración antes de imprimir.",
-  "rank": 4589,
+  "rank": 4621,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50485,7 +50837,7 @@
   "category": "casa",
   "example": "Store tools in the shed.",
   "example_es": "Guarda las herramientas en el cobertizo.",
-  "rank": 4590,
+  "rank": 4622,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50496,7 +50848,7 @@
   "category": "naturaleza y clima",
   "example": "The snake slithered across the grass.",
   "example_es": "La serpiente se deslizó por el pasto.",
-  "rank": 4591,
+  "rank": 4623,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50507,7 +50859,7 @@
   "category": "otros",
   "example": "The event was sponsored by a local company.",
   "example_es": "El evento fue patrocinado por una empresa local.",
-  "rank": 4592,
+  "rank": 4624,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50518,7 +50870,7 @@
   "category": "emociones y carácter",
   "example": "Stealing is illegal and unethical.",
   "example_es": "El robo es ilegal e inmoral.",
-  "rank": 4593,
+  "rank": 4625,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50529,7 +50881,7 @@
   "category": "otros",
   "example": "The teacher is strict with deadlines.",
   "example_es": "El profesor es estricto con los plazos.",
-  "rank": 4594,
+  "rank": 4626,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50540,7 +50892,7 @@
   "category": "otros",
   "example": "He failed the test, subsequently he studied harder.",
   "example_es": "Falló el examen, luego estudió más.",
-  "rank": 4595,
+  "rank": 4627,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50551,7 +50903,7 @@
   "category": "cuerpo y salud",
   "example": "The substance was toxic.",
   "example_es": "La sustancia era tóxica.",
-  "rank": 4596,
+  "rank": 4628,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50562,7 +50914,7 @@
   "category": "otros",
   "example": "I have a suggestion for the project.",
   "example_es": "Tengo una sugerencia para el proyecto.",
-  "rank": 4597,
+  "rank": 4629,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50573,7 +50925,7 @@
   "category": "ciudad y lugares",
   "example": "Switzerland is known for its mountains.",
   "example_es": "Suiza es conocida por sus montañas.",
-  "rank": 4598,
+  "rank": 4630,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50584,7 +50936,7 @@
   "category": "cuerpo y salud",
   "example": "He was diagnosed with a rare syndrome.",
   "example_es": "Fue diagnosticado con un síndrome raro.",
-  "rank": 4599,
+  "rank": 4631,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50595,7 +50947,7 @@
   "category": "trabajo y estudios",
   "example": "Complete the tasks by Friday.",
   "example_es": "Completa las tareas para el viernes.",
-  "rank": 4600,
+  "rank": 4632,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50606,7 +50958,7 @@
   "category": "viajes y transporte",
   "example": "We planned several trips this year.",
   "example_es": "Planeamos varios viajes este año.",
-  "rank": 4601,
+  "rank": 4633,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50617,7 +50969,7 @@
   "category": "otros",
   "example": "The ultra-fast train arrived early.",
   "example_es": "El tren ultra-rápido llegó temprano.",
-  "rank": 4602,
+  "rank": 4634,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50628,7 +50980,7 @@
   "category": "emociones y carácter",
   "example": "The unexpected gift surprised everyone.",
   "example_es": "El regalo inesperado sorprendió a todos.",
-  "rank": 4603,
+  "rank": 4635,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50639,7 +50991,7 @@
   "category": "tecnología",
   "example": "Check the usage of the device.",
   "example_es": "Verifica el uso del dispositivo.",
-  "rank": 4604,
+  "rank": 4636,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50650,7 +51002,7 @@
   "category": "otros",
   "example": "He dreamed of other worlds.",
   "example_es": "Soñó con otros mundos.",
-  "rank": 4605,
+  "rank": 4637,
   "level": "C1",
   "zipf": 4.23
  },
@@ -50661,7 +51013,7 @@
   "category": "otros",
   "example": "She accidentally dropped the vase.",
   "example_es": "Ella dejó caer el jarrón sin querer.",
-  "rank": 4606,
+  "rank": 4638,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50672,7 +51024,7 @@
   "category": "compras y dinero",
   "example": "The hotel is affordable for families.",
   "example_es": "El hotel es asequible para familias.",
-  "rank": 4607,
+  "rank": 4639,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50683,7 +51035,7 @@
   "category": "otros",
   "example": "He is an amateur photographer.",
   "example_es": "Es un fotógrafo aficionado.",
-  "rank": 4608,
+  "rank": 4640,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50694,7 +51046,7 @@
   "category": "emociones y carácter",
   "example": "The case has several appeals.",
   "example_es": "El caso tiene varias apelaciones.",
-  "rank": 4609,
+  "rank": 4641,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50705,7 +51057,7 @@
   "category": "otros",
   "example": "Her bearing was calm.",
   "example_es": "Su postura era tranquila.",
-  "rank": 4610,
+  "rank": 4642,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50716,7 +51068,7 @@
   "category": "ocio y deportes",
   "example": "The drummer keeps the beats.",
   "example_es": "El baterista mantiene los golpes.",
-  "rank": 4611,
+  "rank": 4643,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50727,7 +51079,7 @@
   "category": "casa",
   "example": "Put the trash in the bin.",
   "example_es": "Pon la basura en el cubo.",
-  "rank": 4612,
+  "rank": 4644,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50738,7 +51090,7 @@
   "category": "trabajo y estudios",
   "example": "Biology is the study of life.",
   "example_es": "La biología es el estudio de la vida.",
-  "rank": 4613,
+  "rank": 4645,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50749,7 +51101,7 @@
   "category": "otros",
   "example": "He explained it briefly.",
   "example_es": "Lo explicó brevemente.",
-  "rank": 4614,
+  "rank": 4646,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50760,7 +51112,7 @@
   "category": "ciudad y lugares",
   "example": "The Panama Canal connects oceans.",
   "example_es": "El Canal de Panamá conecta océanos.",
-  "rank": 4615,
+  "rank": 4647,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50771,7 +51123,7 @@
   "category": "otros",
   "example": "The flight was cancelled.",
   "example_es": "El vuelo fue cancelado.",
-  "rank": 4616,
+  "rank": 4648,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50782,7 +51134,7 @@
   "category": "compras y dinero",
   "example": "Cheaper options are available.",
   "example_es": "Hay opciones más económicas.",
-  "rank": 4617,
+  "rank": 4649,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50793,7 +51145,7 @@
   "category": "ocio y deportes",
   "example": "They plan to climb the mountain.",
   "example_es": "Planean escalar la montaña.",
-  "rank": 4618,
+  "rank": 4650,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50804,7 +51156,7 @@
   "category": "otros",
   "example": "The .com domain is popular.",
   "example_es": "El dominio .com es popular.",
-  "rank": 4619,
+  "rank": 4651,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50815,7 +51167,7 @@
   "category": "trabajo y estudios",
   "example": "Competing teams are ready.",
   "example_es": "Los equipos compitiendo están listos.",
-  "rank": 4620,
+  "rank": 4652,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50826,7 +51178,7 @@
   "category": "trabajo y estudios",
   "example": "The completion was delayed.",
   "example_es": "La finalización se retrasó.",
-  "rank": 4621,
+  "rank": 4653,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50837,7 +51189,7 @@
   "category": "viajes y transporte",
   "example": "We went on a cruise to the Caribbean.",
   "example_es": "Fuimos en un crucero al Caribe.",
-  "rank": 4622,
+  "rank": 4654,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50848,7 +51200,7 @@
   "category": "otros",
   "example": "The child was placed in the child's custody.",
   "example_es": "El niño fue puesto en la custodia del niño.",
-  "rank": 4623,
+  "rank": 4655,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50859,7 +51211,7 @@
   "category": "tecnología",
   "example": "Please delete the file.",
   "example_es": "Por favor, borra el archivo.",
-  "rank": 4624,
+  "rank": 4656,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50870,7 +51222,7 @@
   "category": "otros",
   "example": "She demonstrated her skill.",
   "example_es": "Ella demostró su habilidad.",
-  "rank": 4625,
+  "rank": 4657,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50881,7 +51233,7 @@
   "category": "viajes y transporte",
   "example": "The departure was delayed.",
   "example_es": "La salida se retrasó.",
-  "rank": 4626,
+  "rank": 4658,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50892,7 +51244,7 @@
   "category": "tecnología",
   "example": "The developers finished the app.",
   "example_es": "Los desarrolladores terminaron la aplicación.",
-  "rank": 4627,
+  "rank": 4659,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50903,7 +51255,7 @@
   "category": "tecnología",
   "example": "Recent developments are exciting.",
   "example_es": "Los recientes desarrollos son emocionantes.",
-  "rank": 4628,
+  "rank": 4660,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50914,7 +51266,7 @@
   "category": "otros",
   "example": "He dug a hole.",
   "example_es": "Él cavó un hoyo.",
-  "rank": 4629,
+  "rank": 4661,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50925,7 +51277,7 @@
   "category": "naturaleza y clima",
   "example": "Eagles soar high.",
   "example_es": "Las águilas vuelan alto.",
-  "rank": 4630,
+  "rank": 4662,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50936,7 +51288,7 @@
   "category": "trabajo y estudios",
   "example": "The employer hired new staff.",
   "example_es": "El empleador contrató nuevo personal.",
-  "rank": 4631,
+  "rank": 4663,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50947,7 +51299,7 @@
   "category": "otros",
   "example": "The explosion was loud.",
   "example_es": "La explosión fue fuerte.",
-  "rank": 4632,
+  "rank": 4664,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50958,7 +51310,7 @@
   "category": "cuerpo y salud",
   "example": "She has a fever.",
   "example_es": "Ella tiene fiebre.",
-  "rank": 4633,
+  "rank": 4665,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50969,7 +51321,7 @@
   "category": "cuerpo y salud",
   "example": "Water is a fluid.",
   "example_es": "El agua es un líquido.",
-  "rank": 4634,
+  "rank": 4666,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50980,7 +51332,7 @@
   "category": "otros",
   "example": "The folk sang songs.",
   "example_es": "La gente cantó canciones.",
-  "rank": 4635,
+  "rank": 4667,
   "level": "C1",
   "zipf": 4.22
  },
@@ -50991,7 +51343,7 @@
   "category": "tecnología",
   "example": "The machine generates heat.",
   "example_es": "La máquina genera calor.",
-  "rank": 4636,
+  "rank": 4668,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51002,7 +51354,7 @@
   "category": "otros",
   "example": "The GOP won the election.",
   "example_es": "El GOP ganó las elecciones.",
-  "rank": 4637,
+  "rank": 4669,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51013,7 +51365,7 @@
   "category": "emociones y carácter",
   "example": "He's a handsome man.",
   "example_es": "Es un hombre guapo.",
-  "rank": 4638,
+  "rank": 4670,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51024,7 +51376,7 @@
   "category": "otros",
   "example": "Ho, I forgot.",
   "example_es": "¡Oh, lo olvidé!",
-  "rank": 4639,
+  "rank": 4671,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51035,7 +51387,7 @@
   "category": "ocio y deportes",
   "example": "We plan holidays next year.",
   "example_es": "Planeamos vacaciones el próximo año.",
-  "rank": 4640,
+  "rank": 4672,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51046,7 +51398,7 @@
   "category": "casa",
   "example": "They stayed in hotels.",
   "example_es": "Se alojaron en hoteles.",
-  "rank": 4641,
+  "rank": 4673,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51057,7 +51409,7 @@
   "category": "emociones y carácter",
   "example": "Use your imagination.",
   "example_es": "Usa tu imaginación.",
-  "rank": 4642,
+  "rank": 4674,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51068,7 +51420,7 @@
   "category": "otros",
   "example": "Integration improves systems.",
   "example_es": "La integración mejora los sistemas.",
-  "rank": 4643,
+  "rank": 4675,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51079,7 +51431,7 @@
   "category": "emociones y carácter",
   "example": "Integrity matters.",
   "example_es": "La integridad importa.",
-  "rank": 4644,
+  "rank": 4676,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51090,7 +51442,7 @@
   "category": "otros",
   "example": "Her interpretation was clear.",
   "example_es": "Su interpretación fue clara.",
-  "rank": 4645,
+  "rank": 4677,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51101,7 +51453,7 @@
   "category": "naturaleza y clima",
   "example": "The leaf fell.",
   "example_es": "La hoja cayó.",
-  "rank": 4646,
+  "rank": 4678,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51112,7 +51464,7 @@
   "category": "otros",
   "example": "The claim is legitimate.",
   "example_es": "La reclamación es legítima.",
-  "rank": 4647,
+  "rank": 4679,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51123,7 +51475,7 @@
   "category": "naturaleza y clima",
   "example": "Lightning struck the tree.",
   "example_es": "El relámpago golpeó el árbol.",
-  "rank": 4648,
+  "rank": 4680,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51134,7 +51486,7 @@
   "category": "otros",
   "example": "He carried loads.",
   "example_es": "Él cargó muchas cosas.",
-  "rank": 4649,
+  "rank": 4681,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51145,7 +51497,7 @@
   "category": "otros",
   "example": "It is the longest road.",
   "example_es": "Es la carretera más larga.",
-  "rank": 4650,
+  "rank": 4682,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51156,7 +51508,7 @@
   "category": "otros",
   "example": "The show was magical.",
   "example_es": "El espectáculo fue mágico.",
-  "rank": 4651,
+  "rank": 4683,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51167,7 +51519,7 @@
   "category": "casa",
   "example": "The mills produce flour.",
   "example_es": "Los molinos producen harina.",
-  "rank": 4652,
+  "rank": 4684,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51178,7 +51530,7 @@
   "category": "emociones y carácter",
   "example": "Motivation drives success.",
   "example_es": "La motivación impulsa el éxito.",
-  "rank": 4653,
+  "rank": 4685,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51189,7 +51541,7 @@
   "category": "emociones y carácter",
   "example": "The food was nasty.",
   "example_es": "La comida estaba desagradable.",
-  "rank": 4654,
+  "rank": 4686,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51200,7 +51552,7 @@
   "category": "casa",
   "example": "She wore a new outfit.",
   "example_es": "Ella usó un nuevo atuendo.",
-  "rank": 4655,
+  "rank": 4687,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51211,7 +51563,7 @@
   "category": "trabajo y estudios",
   "example": "He receives a pension.",
   "example_es": "Recibe una pensión.",
-  "rank": 4656,
+  "rank": 4688,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51222,7 +51574,7 @@
   "category": "otros",
   "example": "Please permit me to speak.",
   "example_es": "Por favor, permíteme hablar.",
-  "rank": 4657,
+  "rank": 4689,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51233,7 +51585,7 @@
   "category": "comida y bebida",
   "example": "We set the plates.",
   "example_es": "Colocamos los platos.",
-  "rank": 4658,
+  "rank": 4690,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51244,7 +51596,7 @@
   "category": "otros",
   "example": "The weather is pleasant today.",
   "example_es": "El clima es agradable hoy.",
-  "rank": 4659,
+  "rank": 4691,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51255,7 +51607,7 @@
   "category": "otros",
   "example": "She took a portrait of her grandmother.",
   "example_es": "Tomó un retrato de su abuela.",
-  "rank": 4660,
+  "rank": 4692,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51266,7 +51618,7 @@
   "category": "trabajo y estudios",
   "example": "He was very productive at work.",
   "example_es": "Él fue muy productivo en el trabajo.",
-  "rank": 4661,
+  "rank": 4693,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51277,7 +51629,7 @@
   "category": "otros",
   "example": "This song reminds me of childhood.",
   "example_es": "Esta canción me recuerda a la infancia.",
-  "rank": 4662,
+  "rank": 4694,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51288,7 +51640,7 @@
   "category": "otros",
   "example": "The hotel has many reserves for guests.",
   "example_es": "El hotel tiene muchas reservas para los huéspedes.",
-  "rank": 4663,
+  "rank": 4695,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51299,7 +51651,7 @@
   "category": "otros",
   "example": "He drinks a glass of ron.",
   "example_es": "Él bebe un vaso de ron.",
-  "rank": 4664,
+  "rank": 4696,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51310,7 +51662,7 @@
   "category": "otros",
   "example": "He crossed the street safely.",
   "example_es": "Él cruzó la calle seguramente.",
-  "rank": 4665,
+  "rank": 4697,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51321,7 +51673,7 @@
   "category": "casa",
   "example": "She bought new shirts.",
   "example_es": "Compró nuevas camisas.",
-  "rank": 4666,
+  "rank": 4698,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51332,7 +51684,7 @@
   "category": "otros",
   "example": "This path is shorter than the other.",
   "example_es": "Este camino es más corto que el otro.",
-  "rank": 4667,
+  "rank": 4699,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51343,7 +51695,7 @@
   "category": "otros",
   "example": "There was a slight chance of rain.",
   "example_es": "Había una ligera probabilidad de lluvia.",
-  "rank": 4668,
+  "rank": 4700,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51354,7 +51706,7 @@
   "category": "otros",
   "example": "He is a socialist activist.",
   "example_es": "Es un activista socialista.",
-  "rank": 4669,
+  "rank": 4701,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51365,7 +51717,7 @@
   "category": "tecnología",
   "example": "Streaming is popular worldwide.",
   "example_es": "La transmisión es popular en todo el mundo.",
-  "rank": 4670,
+  "rank": 4702,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51376,7 +51728,7 @@
   "category": "trabajo y estudios",
   "example": "She will sue the company.",
   "example_es": "Ella demandará a la compañía.",
-  "rank": 4671,
+  "rank": 4703,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51387,7 +51739,7 @@
   "category": "otros",
   "example": "The campaign was targeted at teens.",
   "example_es": "La campaña estaba dirigida a adolescentes.",
-  "rank": 4672,
+  "rank": 4704,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51398,7 +51750,7 @@
   "category": "emociones y carácter",
   "example": "There was tension in the room.",
   "example_es": "Había tensión en la sala.",
-  "rank": 4673,
+  "rank": 4705,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51409,7 +51761,7 @@
   "category": "ciudad y lugares",
   "example": "I visited Thailand last year.",
   "example_es": "Visité Tailandia el año pasado.",
-  "rank": 4674,
+  "rank": 4706,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51420,7 +51772,7 @@
   "category": "trabajo y estudios",
   "example": "They studied scientific theories.",
   "example_es": "Estudiaron teorías científicas.",
-  "rank": 4675,
+  "rank": 4707,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51431,7 +51783,7 @@
   "category": "emociones y carácter",
   "example": "The movie was touching.",
   "example_es": "La película fue conmovedora.",
-  "rank": 4676,
+  "rank": 4708,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51442,7 +51794,7 @@
   "category": "compras y dinero",
   "example": "Bank transactions are recorded daily.",
   "example_es": "Las transacciones bancarias se registran diariamente.",
-  "rank": 4677,
+  "rank": 4709,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51453,7 +51805,7 @@
   "category": "otros",
   "example": "There was a sudden twist in the plot.",
   "example_es": "Hubo un giro inesperado en la trama.",
-  "rank": 4678,
+  "rank": 4710,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51464,7 +51816,7 @@
   "category": "otros",
   "example": "Ugh, I forgot my keys.",
   "example_es": "Uf, olvidé mis llaves.",
-  "rank": 4679,
+  "rank": 4711,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51475,7 +51827,7 @@
   "category": "trabajo y estudios",
   "example": "Unemployment rates are high.",
   "example_es": "Las tasas de desempleo son altas.",
-  "rank": 4680,
+  "rank": 4712,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51486,7 +51838,7 @@
   "category": "otros",
   "example": "They celebrated unity.",
   "example_es": "Celebraron la unidad.",
-  "rank": 4681,
+  "rank": 4713,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51497,7 +51849,7 @@
   "category": "otros",
   "example": "The old phone is useless.",
   "example_es": "El viejo teléfono es inútil.",
-  "rank": 4682,
+  "rank": 4714,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51508,7 +51860,7 @@
   "category": "ocio y deportes",
   "example": "The show attracted many viewers.",
   "example_es": "El programa atrajo a muchos espectadores.",
-  "rank": 4683,
+  "rank": 4715,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51519,7 +51871,7 @@
   "category": "naturaleza y clima",
   "example": "The winds are strong today.",
   "example_es": "Los vientos son fuertes hoy.",
-  "rank": 4684,
+  "rank": 4716,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51530,7 +51882,7 @@
   "category": "otros",
   "example": "She is woke about social issues.",
   "example_es": "Ella es consciente de los problemas sociales.",
-  "rank": 4685,
+  "rank": 4717,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51541,7 +51893,7 @@
   "category": "otros",
   "example": "Wtf, I can't believe this!",
   "example_es": "¡Qué demonios, no puedo creer esto!",
-  "rank": 4686,
+  "rank": 4718,
   "level": "C1",
   "zipf": 4.22
  },
@@ -51552,7 +51904,7 @@
   "category": "trabajo y estudios",
   "example": "He has many abilities.",
   "example_es": "Él tiene muchas habilidades.",
-  "rank": 4687,
+  "rank": 4719,
   "level": "C1",
   "zipf": 4.21
  },
@@ -51563,7 +51915,7 @@
   "category": "otros",
   "example": "She advocates for animal rights.",
   "example_es": "Ella defiende los derechos de los animales.",
-  "rank": 4688,
+  "rank": 4720,
   "level": "C1",
   "zipf": 4.21
  },
@@ -51574,7 +51926,7 @@
   "category": "trabajo y estudios",
   "example": "Their aims are clear.",
   "example_es": "Sus objetivos son claros.",
-  "rank": 4689,
+  "rank": 4721,
   "level": "C1",
   "zipf": 4.21
  },
@@ -51585,7 +51937,7 @@
   "category": "otros",
   "example": "The rainbow has an arc shape.",
   "example_es": "El arcoíris tiene forma de arco.",
-  "rank": 4690,
+  "rank": 4722,
   "level": "C1",
   "zipf": 4.21
  },
@@ -51596,7 +51948,7 @@
   "category": "tecnología",
   "example": "Make a backup of your files.",
   "example_es": "Haz una copia de seguridad de tus archivos.",
-  "rank": 4691,
+  "rank": 4723,
   "level": "C1",
   "zipf": 4.21
  },
@@ -51607,7 +51959,7 @@
   "category": "otros",
   "example": "The ground was beaten by the truck.",
   "example_es": "El suelo fue golpeado por el camión.",
-  "rank": 4692,
+  "rank": 4724,
   "level": "C1",
   "zipf": 4.21
  },
@@ -51618,7 +51970,7 @@
   "category": "otros",
   "example": "The coffee tastes bitter.",
   "example_es": "El café sabe amargo.",
-  "rank": 4693,
+  "rank": 4725,
   "level": "C1",
   "zipf": 4.21
  },
@@ -51629,7 +51981,7 @@
   "category": "otros",
   "example": "The balloon was blown up.",
   "example_es": "El globo fue inflado.",
-  "rank": 4694,
+  "rank": 4726,
   "level": "C1",
   "zipf": 4.21
  },
@@ -51640,7 +51992,7 @@
   "category": "naturaleza y clima",
   "example": "The tree has many branches.",
   "example_es": "El árbol tiene muchas ramas.",
-  "rank": 4695,
+  "rank": 4727,
   "level": "C1",
   "zipf": 4.21
  },
@@ -51651,7 +52003,7 @@
   "category": "trabajo y estudios",
   "example": "They launched new campaigns.",
   "example_es": "Lanzaron nuevas campañas.",
-  "rank": 4696,
+  "rank": 4728,
   "level": "C1",
   "zipf": 4.21
  },
@@ -51662,7 +52014,7 @@
   "category": "comida y bebida",
   "example": "She ate chips with salsa.",
   "example_es": "Ella comió patatas fritas con salsa.",
-  "rank": 4697,
+  "rank": 4729,
   "level": "C1",
   "zipf": 4.21
  },
@@ -51673,7 +52025,447 @@
   "category": "otros",
   "example": "The CIA investigated the case.",
   "example_es": "La CIA investigó el caso.",
-  "rank": 4698,
+  "rank": 4730,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "clever",
+  "translation": "inteligente",
+  "pos": "adj",
+  "category": "adjetivos comunes",
+  "example": "She is very clever.",
+  "example_es": "Ella es muy inteligente.",
+  "rank": 4731,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "clinic",
+  "translation": "clínica",
+  "pos": "noun",
+  "category": "cuerpo y salud",
+  "example": "I visited the clinic yesterday.",
+  "example_es": "Visité la clínica ayer.",
+  "rank": 4732,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "closest",
+  "translation": "más cercano",
+  "pos": "adj",
+  "category": "adjetivos comunes",
+  "example": "This is the closest store.",
+  "example_es": "Esta es la tienda más cercana.",
+  "rank": 4733,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "collections",
+  "translation": "colecciones",
+  "pos": "noun",
+  "category": "otros",
+  "example": "She has many art collections.",
+  "example_es": "Ella tiene muchas colecciones de arte.",
+  "rank": 4734,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "continuous",
+  "translation": "continuo",
+  "pos": "adj",
+  "category": "adjetivos comunes",
+  "example": "The train runs continuous.",
+  "example_es": "El tren corre continuo.",
+  "rank": 4735,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "converted",
+  "translation": "convertido",
+  "pos": "adj",
+  "category": "otros",
+  "example": "The building was converted.",
+  "example_es": "El edificio fue convertido.",
+  "rank": 4736,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "correctly",
+  "translation": "correctamente",
+  "pos": "adv",
+  "category": "otros",
+  "example": "He answered correctly.",
+  "example_es": "Él respondió correctamente.",
+  "rank": 4737,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "creator",
+  "translation": "creador",
+  "pos": "noun",
+  "category": "otros",
+  "example": "The movie creator is famous.",
+  "example_es": "El creador de la película es famoso.",
+  "rank": 4738,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "creatures",
+  "translation": "criaturas",
+  "pos": "noun",
+  "category": "naturaleza y clima",
+  "example": "We saw many creatures.",
+  "example_es": "Vimos muchas criaturas.",
+  "rank": 4739,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "criteria",
+  "translation": "criterios",
+  "pos": "noun",
+  "category": "otros",
+  "example": "These are the criteria.",
+  "example_es": "Estos son los criterios.",
+  "rank": 4740,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "declined",
+  "translation": "rechazó",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "She declined the offer.",
+  "example_es": "Ella rechazó la oferta.",
+  "rank": 4741,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "detective",
+  "translation": "detective",
+  "pos": "noun",
+  "category": "otros",
+  "example": "The detective solved the case.",
+  "example_es": "El detective resolvió el caso.",
+  "rank": 4742,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "difficulties",
+  "translation": "dificultades",
+  "pos": "noun",
+  "category": "emociones y carácter",
+  "example": "Facing difficulties is hard.",
+  "example_es": "Enfrentar dificultades es difícil.",
+  "rank": 4743,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "disability",
+  "translation": "discapacidad",
+  "pos": "noun",
+  "category": "cuerpo y salud",
+  "example": "She has a disability.",
+  "example_es": "Ella tiene una discapacidad.",
+  "rank": 4744,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "dish",
+  "translation": "plato",
+  "pos": "noun",
+  "category": "comida y bebida",
+  "example": "He cooked a dish.",
+  "example_es": "Cocinó un plato.",
+  "rank": 4745,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "douglas",
+  "translation": "douglas",
+  "pos": "proper noun",
+  "category": "otros",
+  "example": "Douglas is a name.",
+  "example_es": "Douglas es un nombre.",
+  "rank": 4746,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "du",
+  "translation": "du",
+  "pos": "proper noun",
+  "category": "otros",
+  "example": "Du is a surname.",
+  "example_es": "Du es un apellido.",
+  "rank": 4747,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "duck",
+  "translation": "pato",
+  "pos": "noun",
+  "category": "cuerpo y salud",
+  "example": "The duck swam.",
+  "example_es": "El pato nadó.",
+  "rank": 4748,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "egyptian",
+  "translation": "egipcio",
+  "pos": "adj",
+  "category": "otros",
+  "example": "Egyptian culture is ancient.",
+  "example_es": "La cultura egipcia es antigua.",
+  "rank": 4749,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "ep",
+  "translation": "episodio",
+  "pos": "noun",
+  "category": "otros",
+  "example": "Watch the next ep.",
+  "example_es": "Mira el próximo episodio.",
+  "rank": 4750,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "evaluation",
+  "translation": "evaluación",
+  "pos": "noun",
+  "category": "trabajo y estudios",
+  "example": "The evaluation is due.",
+  "example_es": "La evaluación vence.",
+  "rank": 4751,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "excess",
+  "translation": "exceso",
+  "pos": "noun",
+  "category": "otros",
+  "example": "There is excess sugar.",
+  "example_es": "Hay exceso de azúcar.",
+  "rank": 4752,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "farming",
+  "translation": "agricultura",
+  "pos": "noun",
+  "category": "cuerpo y salud",
+  "example": "Farming needs water.",
+  "example_es": "La agricultura necesita agua.",
+  "rank": 4753,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "fence",
+  "translation": "cerca",
+  "pos": "noun",
+  "category": "casa",
+  "example": "The fence is tall.",
+  "example_es": "La cerca es alta.",
+  "rank": 4754,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "fifa",
+  "translation": "fifa",
+  "pos": "proper noun",
+  "category": "otros",
+  "example": "FIFA organizes tournaments.",
+  "example_es": "FIFA organiza torneos.",
+  "rank": 4755,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "fighters",
+  "translation": "luchadores",
+  "pos": "noun",
+  "category": "ocio y deportes",
+  "example": "Fighters train hard.",
+  "example_es": "Los luchadores entrenan duro.",
+  "rank": 4756,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "flights",
+  "translation": "vuelo",
+  "pos": "noun",
+  "category": "viajes y transporte",
+  "example": "We booked flights.",
+  "example_es": "Reservamos vuelos.",
+  "rank": 4757,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "forcing",
+  "translation": "forzando",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "He is forcing it.",
+  "example_es": "Él está forzando.",
+  "rank": 4758,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "forming",
+  "translation": "formando",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "They are forming a team.",
+  "example_es": "Están formando un equipo.",
+  "rank": 4759,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "franklin",
+  "translation": "franklin",
+  "pos": "proper noun",
+  "category": "otros",
+  "example": "Franklin was a pioneer.",
+  "example_es": "Franklin fue un pionero.",
+  "rank": 4760,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "fred",
+  "translation": "fred",
+  "pos": "proper noun",
+  "category": "otros",
+  "example": "Fred likes music.",
+  "example_es": "Fred le gusta la música.",
+  "rank": 4761,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "gradually",
+  "translation": "gradualmente",
+  "pos": "adv",
+  "category": "otros",
+  "example": "It will happen gradually.",
+  "example_es": "Ocurre gradualmente.",
+  "rank": 4762,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "gravity",
+  "translation": "gravedad",
+  "pos": "noun",
+  "category": "cuerpo y salud",
+  "example": "Gravity pulls objects.",
+  "example_es": "La gravedad atrae objetos.",
+  "rank": 4763,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "habits",
+  "translation": "hábitos",
+  "pos": "noun",
+  "category": "emociones y carácter",
+  "example": "Good habits matter.",
+  "example_es": "Los buenos hábitos importan.",
+  "rank": 4764,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "hawaii",
+  "translation": "hawái",
+  "pos": "proper noun",
+  "category": "ciudad y lugares",
+  "example": "Hawaii is beautiful.",
+  "example_es": "Hawái es hermoso.",
+  "rank": 4765,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "highlight",
+  "translation": "destacar",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "Highlight the main point.",
+  "example_es": "Destaca el punto principal.",
+  "rank": 4766,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "holder",
+  "translation": "portador",
+  "pos": "noun",
+  "category": "otros",
+  "example": "The holder is sturdy.",
+  "example_es": "El portador es resistente.",
+  "rank": 4767,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "hood",
+  "translation": "capucha",
+  "pos": "noun",
+  "category": "casa",
+  "example": "The hood is soft.",
+  "example_es": "La capucha es suave.",
+  "rank": 4768,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "hung",
+  "translation": "colgado",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "The picture hung.",
+  "example_es": "El cuadro colgó.",
+  "rank": 4769,
+  "level": "C1",
+  "zipf": 4.21
+ },
+ {
+  "word": "identical",
+  "translation": "idéntico",
+  "pos": "adj",
+  "category": "adjetivos comunes",
+  "example": "They are identical twins.",
+  "example_es": "Son gemelos idénticos.",
+  "rank": 4770,
   "level": "C1",
   "zipf": 4.21
  }

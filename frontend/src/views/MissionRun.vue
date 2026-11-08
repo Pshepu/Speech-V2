@@ -64,21 +64,18 @@ const training = computed(() => mode.value === 'entrenamiento')
 const EMO: Record<string, string> = { neutral: '😐', happy: '😄', friendly: '🙂', confused: '😕', suspicious: '🤨', annoyed: '😒', impatient: '😤', impressed: '🤩' }
 
 onMounted(async () => {
-  const cached = sessionStorage.getItem(`run-${runId}`)
-  let data: any
-  if (cached) data = JSON.parse(cached)
-  else data = await api.get(`/runs/${runId}`)
+  // La partida se guarda en el servidor turno a turno: siempre se carga desde ahí,
+  // así puedes cerrar la app y retomarla más tarde exactamente donde la dejaste.
+  const data: any = await api.get(`/runs/${runId}`)
   mission.value = data.mission
   mode.value = data.mode
-  turnsLeft.value = data.mission.max_turns
-  if (data.transcript) {
-    messages.value = data.transcript
-    done.value = data.state?.done || []
-    if (data.result) result.value = data.result
-  } else {
-    messages.value = [{ role: 'assistant', content: data.opening, emotion: 'friendly' }]
-    say(data.opening)
-  }
+  messages.value = data.transcript || []
+  done.value = data.state?.done || []
+  if (data.result && !data.result.abandoned) result.value = data.result
+  const userTurns = messages.value.filter((m: any) => m.role === 'user').length
+  turnsLeft.value = Math.max(0, data.mission.max_turns - userTurns)
+  if (userTurns === 0 && messages.value.length) say(messages.value[0].content)
+  else if (userTurns > 0) app.notify('Misión retomada donde la dejaste', 'good')
   scroll()
 })
 
@@ -107,6 +104,8 @@ async function send(content?: string): Promise<any> {
     failed.value = r.mission_failed
     outOfTurns.value = r.out_of_turns
     sending.value = false
+    // Si la escena lleva varios turnos sin avanzar, ofrecemos una pista automáticamente.
+    if (r.stuck && training.value && !hint.value) getHint()
     scroll()
     say(r.reply).then(maybeListen)
     return userMsg

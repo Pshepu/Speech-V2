@@ -1,0 +1,2611 @@
+[
+ {
+  "id": "fr-expressions",
+  "level": "C1",
+  "title": "Expressions idiomatiques",
+  "description": "Expresiones que usan los francófonos a diario.",
+  "items": [
+   {
+    "t": "faire le plein de travail",
+    "es": "tener mucho trabajo",
+    "example": "Il a fait le plein de travail avant la pause.",
+    "example_es": "Él tuvo mucho trabajo antes del descanso.",
+    "note": "informal"
+   },
+   {
+    "t": "être à la bourre",
+    "es": "estar atrasado",
+    "example": "Je suis à la bourre pour le projet.",
+    "example_es": "Estoy atrasado con el proyecto.",
+    "note": "informal"
+   },
+   {
+    "t": "mettre la main à la pâte",
+    "es": "apoyarse en el trabajo",
+    "example": "Mettons la main à la pâte pour finir à temps.",
+    "example_es": "Apostemos a trabajar para terminar a tiempo.",
+    "note": "informal"
+   },
+   {
+    "t": "tirer son épingle du jeu",
+    "es": "salir adelante",
+    "example": "Il a tiré son épingle du jeu malgré les difficultés.",
+    "example_es": "Salió adelante a pesar de las dificultades.",
+    "note": "formal"
+   },
+   {
+    "t": "avoir le beurre dans la poche",
+    "es": "tener dinero",
+    "example": "Elle a le beurre dans la poche grâce à son bonus.",
+    "example_es": "Ella tiene dinero gracias a su bono.",
+    "note": "informal"
+   },
+   {
+    "t": "casser la tête à quelqu’un",
+    "es": "preocupar a alguien",
+    "example": "Je ne veux pas casser la tête à mes collègues.",
+    "example_es": "No quiero preocupar a mis colegas.",
+    "note": "informal"
+   },
+   {
+    "t": "marcher sur la même longueur d’onde",
+    "es": "estar en sintonía",
+    "example": "Nous marchons sur la même longueur d’onde.",
+    "example_es": "Estamos en sintonía.",
+    "note": "informal"
+   },
+   {
+    "t": "faire de la monnaie",
+    "es": "ganar dinero",
+    "example": "Il fait de la monnaie en vendant des cartes.",
+    "example_es": "Gana dinero vendiendo tarjetas.",
+    "note": "informal"
+   },
+   {
+    "t": "être dans la même galère",
+    "es": "estar en la misma situación",
+    "example": "On est dans la même galère avec le client.",
+    "example_es": "Estamos en la misma situación con el cliente.",
+    "note": "informal"
+   },
+   {
+    "t": "tirer le diable par la queue",
+    "es": "tener dificultades financieras",
+    "example": "Elle tire le diable par la queue depuis la crise.",
+    "example_es": "Tiene dificultades financieras desde la crisis.",
+    "note": "informal"
+   },
+   {
+    "t": "être au bout du rouleau",
+    "es": "estar agotado",
+    "example": "Je suis au bout du rouleau après la réunion.",
+    "example_es": "Estoy agotado después de la reunión.",
+    "note": "informal"
+   },
+   {
+    "t": "faire le plein de bonnes idées",
+    "es": "tener muchas ideas",
+    "example": "Ils ont fait le plein de bonnes idées pour le pitch.",
+    "example_es": "Tienen muchas ideas para el pitch.",
+    "note": "informal"
+   },
+   {
+    "t": "avoir la tête dans les nuages",
+    "es": "tener la cabeza en la nube",
+    "example": "Il a la tête dans les nuages pendant le brainstorming.",
+    "example_es": "Tiene la cabeza en la nube durante la lluvia de ideas.",
+    "note": "informal"
+   },
+   {
+    "t": "casser la banque",
+    "es": "romper la banca",
+    "example": "Il a cassé la banque en vendant son invention.",
+    "example_es": "Rompi la banca vendiendo su invento.",
+    "note": "informal"
+   },
+   {
+    "t": "mettre le pied à l’étrier",
+    "es": "ponerse en marcha",
+    "example": "Mettons le pied à l’étrier pour le lancement.",
+    "example_es": "Pongámonos en marcha para el lanzamiento.",
+    "note": "informal"
+   },
+   {
+    "t": "faire un coup de pouce",
+    "es": "dar una mano",
+    "example": "Il a fait un coup de pouce à son collègue.",
+    "example_es": "Dio una mano a su colega.",
+    "note": "informal"
+   },
+   {
+    "t": "avoir la main verte",
+    "es": "tener mano verde",
+    "example": "Elle a la main verte pour le jardin d’entreprise.",
+    "example_es": "Tiene mano verde para el jardín de la empresa.",
+    "note": "informal"
+   },
+   {
+    "t": "se mettre à la rigueur",
+    "es": "ponerse en serio",
+    "example": "Il se met à la rigueur pour le rapport.",
+    "example_es": "Se pone en serio para el informe.",
+    "note": "informal"
+   },
+   {
+    "t": "tirer le meilleur parti",
+    "es": "sacar el máximo provecho",
+    "example": "Tirez le meilleur parti de votre temps.",
+    "example_es": "Saque el máximo provecho de su tiempo.",
+    "note": "informal"
+   },
+   {
+    "t": "faire la courbe de la lune",
+    "es": "cambiar de trabajo",
+    "example": "Il fait la courbe de la lune pour un nouveau poste.",
+    "example_es": "Cambia de trabajo para un nuevo puesto.",
+    "note": "informal"
+   },
+   {
+    "t": "être à la hauteur",
+    "es": "ser capaz",
+    "example": "Il est à la hauteur de la mission.",
+    "example_es": "Es capaz de la misión.",
+    "note": "informal"
+   },
+   {
+    "t": "marcher sur un fil",
+    "es": "trabajar en una situación delicada",
+    "example": "Ils marchent sur un fil entre les deux départements.",
+    "example_es": "Trabajan en una situación delicada entre los dos departamentos.",
+    "note": "informal"
+   },
+   {
+    "t": "avoir le bras de fer",
+    "es": "tener la palabra",
+    "example": "Il a le bras de fer lors des négociations.",
+    "example_es": "Tiene la palabra en las negociaciones.",
+    "note": "informal"
+   },
+   {
+    "t": "tirer le gros lot",
+    "es": "ganar en grande",
+    "example": "Il a tiré le gros lot en vendant la startup.",
+    "example_es": "Ganó en grande vendiendo la startup.",
+    "note": "informal"
+   },
+   {
+    "t": "être à la rescousse",
+    "es": "estar a la rescate",
+    "example": "Il est à la rescousse du projet.",
+    "example_es": "Está a la rescate del proyecto.",
+    "note": "informal"
+   },
+   {
+    "t": "faire un coup de génie",
+    "es": "dar una idea brillante",
+    "example": "Elle a fait un coup de génie pour résoudre le problème.",
+    "example_es": "Dio una idea brillante para resolver el problema.",
+    "note": "informal"
+   },
+   {
+    "t": "avoir le cœur sur la main",
+    "es": "tener el corazón en la mano",
+    "example": "Il a le cœur sur la main, toujours prêt à aider.",
+    "example_es": "Tiene el corazón en la mano, siempre listo para ayudar.",
+    "note": "Uso informal, expresión de generosidad."
+   },
+   {
+    "t": "faire la tête de loup",
+    "es": "hacer la cara de lobo",
+    "example": "Elle fait la tête de loup quand on lui parle.",
+    "example_es": "Hace la cara de lobo cuando le hablan.",
+    "note": "Uso coloquial, expresión de enojo."
+   },
+   {
+    "t": "être à l’ombre de quelqu’un",
+    "es": "estar a la sombra de alguien",
+    "example": "Il est à l’ombre de son père, il ne veut pas le dépasser.",
+    "example_es": "Está a la sombra de su padre, no quiere superarlo.",
+    "note": "Uso figurado, relación familiar."
+   },
+   {
+    "t": "prendre le cœur à la main",
+    "es": "tomar el corazón a mano",
+    "example": "Elle a pris le cœur à la main en apprenant la nouvelle.",
+    "example_es": "Tomó el corazón a mano al escuchar la noticia.",
+    "note": "Uso figurado, reacción emocional."
+   },
+   {
+    "t": "avoir le cœur gonflé",
+    "es": "tener el corazón inflado",
+    "example": "Son cœur gonflé après la victoire.",
+    "example_es": "Su corazón inflado después de la victoria.",
+    "note": "Uso figurado, orgullo."
+   },
+   {
+    "t": "mettre son cœur sur la table",
+    "es": "poner el corazón en la mesa",
+    "example": "Il a mis son cœur sur la table lors de la réunion.",
+    "example_es": "Puso su corazón en la mesa durante la reunión.",
+    "note": "Uso formal, sinceridad."
+   },
+   {
+    "t": "avoir le cœur serré",
+    "es": "tener el corazón apretado",
+    "example": "Son cœur serré quand il pense à son ami.",
+    "example_es": "Su corazón apretado cuando piensa en su amigo.",
+    "note": "Uso figurado, tristeza."
+   },
+   {
+    "t": "se mettre à la corde de quelqu’un",
+    "es": "ponerse en el cordón de alguien",
+    "example": "Elle se met à la corde de son frère, il est toujours là.",
+    "example_es": "Se pone en el cordón de su hermano, siempre está ahí.",
+    "note": "Uso coloquial, apoyo."
+   },
+   {
+    "t": "avoir le cœur à l’envers",
+    "es": "tener el corazón al revés",
+    "example": "Son cœur à l’envers après la rupture.",
+    "example_es": "Su corazón al revés después de la ruptura.",
+    "note": "Uso figurado, confusión."
+   },
+   {
+    "t": "avoir le cœur en miettes",
+    "es": "tener el corazón en migajas",
+    "example": "Son cœur en miettes après la déception.",
+    "example_es": "Su corazón en migajas después de la decepción.",
+    "note": "Uso figurado, dolor."
+   },
+   {
+    "t": "se mettre à l’aise avec quelqu’un",
+    "es": "ponerse cómodo con alguien",
+    "example": "Il se met à l’aise avec ses collègues.",
+    "example_es": "Se pone cómodo con sus colegas.",
+    "note": "Uso informal, confianza."
+   },
+   {
+    "t": "avoir le cœur de pierre",
+    "es": "tener el corazón de piedra",
+    "example": "Son cœur de pierre ne réagit pas aux émotions.",
+    "example_es": "Su corazón de piedra no reacciona a las emociones.",
+    "note": "Uso figurado, frialdad."
+   },
+   {
+    "t": "mettre son cœur sur le dos",
+    "es": "poner el corazón en la espalda",
+    "example": "Il met son cœur sur le dos pour éviter les conflits.",
+    "example_es": "Pone su corazón en la espalda para evitar conflictos.",
+    "note": "Uso figurado, evasión."
+   },
+   {
+    "t": "être le cœur de la maison",
+    "es": "ser el corazón de la casa",
+    "example": "Elle est le cœur de la maison, tout le monde l’aime.",
+    "example_es": "Ella es el corazón de la casa, todos la aman.",
+    "note": "Uso figurado, centro de la familia."
+   },
+   {
+    "t": "avoir le cœur d’ange",
+    "es": "tener el corazón de ángel",
+    "example": "Son cœur d’ange le rend très gentil.",
+    "example_es": "Su corazón de ángel lo hace muy amable.",
+    "note": "Uso figurado, bondad."
+   },
+   {
+    "t": "se mettre à la porte de quelqu’un",
+    "es": "ponerse a la puerta de alguien",
+    "example": "Il se met à la porte de son ami pour le soutenir.",
+    "example_es": "Se pone a la puerta de su amigo para apoyarlo.",
+    "note": "Uso coloquial, presencia."
+   },
+   {
+    "t": "avoir le cœur de lion",
+    "es": "tener el corazón de león",
+    "example": "Son cœur de lion le rend très courageux.",
+    "example_es": "Su corazón de león lo hace muy valiente.",
+    "note": "Uso figurado, valentía."
+   },
+   {
+    "t": "se mettre à la porte de la vérité",
+    "es": "ponerse a la puerta de la verdad",
+    "example": "Il se met à la porte de la vérité, il ne ment pas.",
+    "example_es": "Se pone a la puerta de la verdad, no miente.",
+    "note": "Uso figurado, honestidad."
+   },
+   {
+    "t": "se mettre à la porte du bonheur",
+    "es": "ponerse a la puerta de la felicidad",
+    "example": "Il se met à la porte du bonheur après la promotion.",
+    "example_es": "Se pone a la puerta de la felicidad tras la promoción.",
+    "note": "Uso figurado, alegría."
+   },
+   {
+    "t": "avoir le cœur de l’ange",
+    "es": "tener el corazón del ángel",
+    "example": "Son cœur de l’ange le rend très doux.",
+    "example_es": "Su corazón del ángel lo hace muy dulce.",
+    "note": "Uso figurado, ternura."
+   },
+   {
+    "t": "se mettre à la porte de la vie",
+    "es": "ponerse a la puerta de la vida",
+    "example": "Il se met à la porte de la vie, il veut vivre pleinement.",
+    "example_es": "Se pone a la puerta de la vida, quiere vivir plenamente.",
+    "note": "Uso figurado, pasión."
+   },
+   {
+    "t": "avoir le cœur de l’ombre",
+    "es": "tener el corazón de la sombra",
+    "example": "Son cœur de l’ombre le rend mystérieux.",
+    "example_es": "Su corazón de la sombra lo hace misterioso.",
+    "note": "Uso figurado, misterio."
+   },
+   {
+    "t": "se mettre à la porte de l’amour",
+    "es": "ponerse a la puerta del amor",
+    "example": "Il se met à la porte de l’amour, il cherche une relation.",
+    "example_es": "Se pone a la puerta del amor, busca una relación.",
+    "note": "Uso figurado, búsqueda amorosa."
+   },
+   {
+    "t": "à temps",
+    "es": "a tiempo",
+    "example": "Il a terminé son projet à temps.",
+    "example_es": "Terminó su proyecto a tiempo.",
+    "note": ""
+   },
+   {
+    "t": "en temps voulu",
+    "es": "en el momento oportuno",
+    "example": "Il a reçu la réponse en temps voulu.",
+    "example_es": "Recibió la respuesta en el momento oportuno.",
+    "note": ""
+   },
+   {
+    "t": "à la rescousse",
+    "es": "a la rescate",
+    "example": "Il est venu à la rescousse de son ami.",
+    "example_es": "Vino a la rescate de su amigo.",
+    "note": ""
+   },
+   {
+    "t": "en un clin d’œil",
+    "es": "en un instante",
+    "example": "Il a fini le travail en un clin d’œil.",
+    "example_es": "Terminó el trabajo en un instante.",
+    "note": ""
+   },
+   {
+    "t": "au bon moment",
+    "es": "en el buen momento",
+    "example": "Elle a pris la décision au bon moment.",
+    "example_es": "Tomó la decisión en el buen momento.",
+    "note": ""
+   },
+   {
+    "t": "au bon escient",
+    "es": "con la debida precaución",
+    "example": "Il a agi au bon escient.",
+    "example_es": "Actuó con la debida precaución.",
+    "note": ""
+   },
+   {
+    "t": "à la hâte",
+    "es": "con prisa",
+    "example": "Il a fait ses devoirs à la hâte.",
+    "example_es": "Hizo sus deberes con prisa.",
+    "note": ""
+   },
+   {
+    "t": "en toute hâte",
+    "es": "con toda prisa",
+    "example": "Elle a quitté la maison en toute hâte.",
+    "example_es": "Salió de la casa con toda prisa.",
+    "note": ""
+   },
+   {
+    "t": "en un éclair",
+    "es": "en un instante",
+    "example": "Il a répondu en un éclair.",
+    "example_es": "Respondió en un instante.",
+    "note": ""
+   },
+   {
+    "t": "au bon prix",
+    "es": "al buen precio",
+    "example": "Il a acheté la voiture au bon prix.",
+    "example_es": "Compró el coche al buen precio.",
+    "note": ""
+   },
+   {
+    "t": "à la fin des temps",
+    "es": "al fin de los tiempos",
+    "example": "Il a attendu la réponse à la fin des temps.",
+    "example_es": "Esperó la respuesta al fin de los tiempos.",
+    "note": ""
+   },
+   {
+    "t": "à l’heure",
+    "es": "a tiempo",
+    "example": "Il est arrivé à l’heure.",
+    "example_es": "Llegó a tiempo.",
+    "note": ""
+   },
+   {
+    "t": "à l’heure du repas",
+    "es": "a la hora de la comida",
+    "example": "Il est arrivé à l’heure du repas.",
+    "example_es": "Llegó a la hora de la comida.",
+    "note": ""
+   },
+   {
+    "t": "à l’heure du déjeuner",
+    "es": "a la hora del almuerzo",
+    "example": "Il est arrivé à l’heure du déjeuner.",
+    "example_es": "Llegó a la hora del almuerzo.",
+    "note": ""
+   },
+   {
+    "t": "à l’heure du dîner",
+    "es": "a la hora de la cena",
+    "example": "Il est arrivé à l’heure du dîner.",
+    "example_es": "Llegó a la hora de la cena.",
+    "note": ""
+   },
+   {
+    "t": "à l’heure du travail",
+    "es": "a la hora de trabajo",
+    "example": "Il est arrivé à l’heure du travail.",
+    "example_es": "Llegó a la hora de trabajo.",
+    "note": ""
+   },
+   {
+    "t": "prendre le pouce",
+    "es": "tomar el pulgar",
+    "example": "Il a pris le pouce pour signaler son accord.",
+    "example_es": "Tomó el pulgar para indicar su acuerdo.",
+    "note": "coloquial"
+   },
+   {
+    "t": "être à l'ouest",
+    "es": "estar a la orilla",
+    "example": "Je suis à l'ouest après le film.",
+    "example_es": "Estoy a la orilla después de la película.",
+    "note": "informal"
+   },
+   {
+    "t": "faire un coup de main",
+    "es": "dar una mano",
+    "example": "Il a fait un coup de main à son voisin.",
+    "example_es": "Dio una mano a su vecino.",
+    "note": "informal"
+   },
+   {
+    "t": "tenir le pied",
+    "es": "mantener el pie",
+    "example": "Il tient le pied pour ne pas perdre l'équilibre.",
+    "example_es": "Mantiene el pie para no perder el equilibrio.",
+    "note": "informal"
+   },
+   {
+    "t": "avoir un cœur de pierre",
+    "es": "tener un corazón de piedra",
+    "example": "Il a un cœur de pierre après la rupture.",
+    "example_es": "Tiene un corazón de piedra después de la ruptura.",
+    "note": "coloquial"
+   },
+   {
+    "t": "prendre la tête",
+    "es": "tomar la cabeza",
+    "example": "Le projet a pris la tête de ses priorités.",
+    "example_es": "El proyecto ha tomado la cabeza de sus prioridades.",
+    "note": "informal"
+   },
+   {
+    "t": "mettre les pieds dans le plat",
+    "es": "meter los pies en el plato",
+    "example": "Il a mis les pieds dans le plat en parlant de son avenir.",
+    "example_es": "Metió los pies en el plato al hablar de su futuro.",
+    "note": "coloquial"
+   },
+   {
+    "t": "avoir la main dans le sac",
+    "es": "tener la mano en el saco",
+    "example": "Il a la main dans le sac pour gagner.",
+    "example_es": "Tiene la mano en el saco para ganar.",
+    "note": "coloquial"
+   },
+   {
+    "t": "avoir les yeux plus gros que le ventre",
+    "es": "tener los ojos más grandes que el estómago",
+    "example": "Il a les yeux plus gros que le ventre pour les desserts.",
+    "example_es": "Tiene los ojos más grandes que el estómago para los postres.",
+    "note": "coloquial"
+   },
+   {
+    "t": "mettre les mains dans le cambouis",
+    "es": "meter las manos en el cambú",
+    "example": "Il met les mains dans le cambouis pour réparer.",
+    "example_es": "Meter las manos en el cambú para reparar.",
+    "note": "coloquial"
+   },
+   {
+    "t": "avoir le cœur d'un lion",
+    "es": "tener el corazón de un león",
+    "example": "Elle a le cœur d'un lion face à la foule.",
+    "example_es": "Tiene el corazón de un león frente a la multitud.",
+    "note": "coloquial"
+   },
+   {
+    "t": "être à l'ombre",
+    "es": "estar a la sombra",
+    "example": "Il est à l'ombre de son frère.",
+    "example_es": "Está a la sombra de su hermano.",
+    "note": "informal"
+   },
+   {
+    "t": "mettre les pieds sur la table",
+    "es": "meter los pies en la mesa",
+    "example": "Il a mis les pieds sur la table pour se détendre.",
+    "example_es": "Metió los pies en la mesa para relajarse.",
+    "note": "informal"
+   },
+   {
+    "t": "avoir la tête dans le guidon",
+    "es": "tener la cabeza en el guidón",
+    "example": "Il a la tête dans le guidon quand il conduit.",
+    "example_es": "Tiene la cabeza en el guidón cuando conduce.",
+    "note": "coloquial"
+   },
+   {
+    "t": "avoir les yeux rivés sur",
+    "es": "tener los ojos fijos en",
+    "example": "Il a les yeux rivés sur le tableau.",
+    "example_es": "Tiene los ojos fijos en el cuadro.",
+    "note": "formal"
+   },
+   {
+    "t": "avoir un appétit d'oiseau",
+    "es": "tener un apetito de pájaro",
+    "example": "Il a un appétit d'oiseau, il mange tout de suite.",
+    "example_es": "Tiene un apetito de pájaro, come de inmediato.",
+    "note": "Uso informal, se refiere a comer rápido."
+   },
+   {
+    "t": "être un gros dinosaure",
+    "es": "ser un dinosaurio enorme",
+    "example": "Il est un gros dinosaure quand il s'agit de manger.",
+    "example_es": "Es un dinosaurio enorme cuando se trata de comer.",
+    "note": "Se usa para describir a alguien con gran apetito."
+   },
+   {
+    "t": "faire la grasse matinée",
+    "es": "tomar la siesta",
+    "example": "Après le repas, il fait la grasse matinée.",
+    "example_es": "Después de la comida, toma la siesta.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "être un poisson d'avril",
+    "es": "ser un tonto",
+    "example": "Il est un poisson d'avril, il ne comprend rien.",
+    "example_es": "Es un tonto, no entiende nada.",
+    "note": "Uso informal."
+   },
+   {
+    "t": "prendre le taureau par les cornes",
+    "es": "tomar el toro por los cuernos",
+    "example": "Il a décidé de prendre le taureau par les cornes.",
+    "example_es": "Decidió tomar el toro por los cuernos.",
+    "note": "Se usa para mostrar decisión."
+   },
+   {
+    "t": "mettre la main sur le beurre",
+    "es": "ponerse en posición de ventaja",
+    "example": "Il a mis la main sur le beurre en négociant.",
+    "example_es": "Se puso en posición de ventaja al negociar.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "être un gros chat",
+    "es": "ser un gato grande",
+    "example": "Il est un gros chat, il mange tout.",
+    "example_es": "Es un gato grande, come todo.",
+    "note": ""
+   },
+   {
+    "t": "avoir un appétit de lion",
+    "es": "tener un apetito de león",
+    "example": "Il a un appétit de lion, il mange tout.",
+    "example_es": "Tiene un apetito de león, come todo.",
+    "note": ""
+   },
+   {
+    "t": "être un petit pois",
+    "es": "ser un pequeño",
+    "example": "Il est un petit pois, il ne parle pas.",
+    "example_es": "Es un pequeño, no habla.",
+    "note": ""
+   },
+   {
+    "t": "mettre de l'eau dans son vin",
+    "es": "poner agua en su vino",
+    "example": "Il met de l'eau dans son vin pour calmer les tensions.",
+    "example_es": "Pone agua en su vino para calmar las tensiones.",
+    "note": ""
+   },
+   {
+    "t": "avoir un cœur de beurre",
+    "es": "tener un corazón de mantequilla",
+    "example": "Il a un cœur de beurre, il est doux.",
+    "example_es": "Tiene un corazón de mantequilla, es dulce.",
+    "note": ""
+   },
+   {
+    "t": "être un bon appétit",
+    "es": "tener buen apetito",
+    "example": "Il est un bon appétit, il mange tout.",
+    "example_es": "Tiene buen apetito, come todo.",
+    "note": ""
+   },
+   {
+    "t": "avoir un appétit de poule",
+    "es": "tener apetito de gallina",
+    "example": "Il a un appétit de poule, il mange tout.",
+    "example_es": "Tiene apetito de gallina, come todo.",
+    "note": ""
+   },
+   {
+    "t": "être un gros poisson",
+    "es": "ser un gran pez",
+    "example": "Il est un gros poisson, il mange tout.",
+    "example_es": "Es un gran pez, come todo.",
+    "note": ""
+   },
+   {
+    "t": "prendre le beurre",
+    "es": "tomar la mantequilla",
+    "example": "Il prend le beurre pour la recette.",
+    "example_es": "Toma la mantequilla para la receta.",
+    "note": ""
+   },
+   {
+    "t": "avoir la tête dans la soupe",
+    "es": "tener la cabeza en la sopa",
+    "example": "Il a la tête dans la soupe, il ne comprend pas.",
+    "example_es": "Tiene la cabeza en la sopa, no entiende.",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "fr-connecteurs",
+  "level": "B2",
+  "title": "Connecteurs logiques",
+  "description": "Para argumentar y estructurar el discurso.",
+  "items": [
+   {
+    "t": "et",
+    "es": "y",
+    "example": "Il a acheté des pommes et des poires.",
+    "example_es": "Compró manzanas y peras.",
+    "note": ""
+   },
+   {
+    "t": "mais",
+    "es": "pero",
+    "example": "Il voulait partir, mais il était trop tard.",
+    "example_es": "Quería irse, pero era demasiado tarde.",
+    "note": ""
+   },
+   {
+    "t": "en outre",
+    "es": "además",
+    "example": "En outre, il a gagné un prix.",
+    "example_es": "Además, ganó un premio.",
+    "note": ""
+   },
+   {
+    "t": "par ailleurs",
+    "es": "por otro lado",
+    "example": "Par ailleurs, elle est très compétente.",
+    "example_es": "Por otro lado, es muy competente.",
+    "note": ""
+   },
+   {
+    "t": "de plus",
+    "es": "además",
+    "example": "De plus, il a réussi l'examen.",
+    "example_es": "Además, aprobó el examen.",
+    "note": ""
+   },
+   {
+    "t": "en revanche",
+    "es": "en cambio",
+    "example": "En revanche, elle ne l'a pas fait.",
+    "example_es": "En cambio, ella no lo hizo.",
+    "note": ""
+   },
+   {
+    "t": "cependant",
+    "es": "sin embargo",
+    "example": "Ce dernier est riche, cependant il est malheureux.",
+    "example_es": "El último es rico, sin embargo es infeliz.",
+    "note": ""
+   },
+   {
+    "t": "néanmoins",
+    "es": "no obstante",
+    "example": "Néanmoins, il a continué.",
+    "example_es": "No obstante, continuó.",
+    "note": ""
+   },
+   {
+    "t": "pourtant",
+    "es": "sin embargo",
+    "example": "Il a dormi, pourtant il est fatigué.",
+    "example_es": "Dormió, sin embargo está cansado.",
+    "note": ""
+   },
+   {
+    "t": "en effet",
+    "es": "en efecto",
+    "example": "En effet, c'est vrai.",
+    "example_es": "En efecto, es cierto.",
+    "note": ""
+   },
+   {
+    "t": "d'autre part",
+    "es": "por otra parte",
+    "example": "D'autre part, il a un talent.",
+    "example_es": "Por otra parte, tiene un talento.",
+    "note": ""
+   },
+   {
+    "t": "en somme",
+    "es": "en resumen",
+    "example": "En somme, c'est simple.",
+    "example_es": "En resumen, es sencillo.",
+    "note": ""
+   },
+   {
+    "t": "en tout",
+    "es": "en todo",
+    "example": "En tout, il est heureux.",
+    "example_es": "En todo, está feliz.",
+    "note": ""
+   },
+   {
+    "t": "parce que",
+    "es": "porque",
+    "example": "Il est tard, parce que je n'ai pas encore fini mon travail.",
+    "example_es": "Es tarde, porque aún no he terminado mi trabajo.",
+    "note": "Uso informal, evita confusión con 'parce que' formal."
+   },
+   {
+    "t": "car",
+    "es": "porque",
+    "example": "Je ne peux pas venir, car je suis malade.",
+    "example_es": "No puedo venir, porque estoy enfermo.",
+    "note": "Uso más formal, suele aparecer en textos."
+   },
+   {
+    "t": "à cause de",
+    "es": "debido a",
+    "example": "Il a perdu son emploi à cause de la crise.",
+    "example_es": "Perdió su empleo debido a la crisis.",
+    "note": "Se emplea en contextos formales."
+   },
+   {
+    "t": "en raison de",
+    "es": "debido a",
+    "example": "La réunion a été annulée en raison de la météo.",
+    "example_es": "La reunión fue cancelada debido al clima.",
+    "note": "Uso formal, sinónimo de 'à cause de'."
+   },
+   {
+    "t": "du fait que",
+    "es": "debido a que",
+    "example": "Le projet a échoué du fait que les délais étaient trop courts.",
+    "example_es": "El proyecto fracasó debido a que los plazos eran demasiado cortos.",
+    "note": "Se usa en contextos formales."
+   },
+   {
+    "t": "puisque",
+    "es": "ya que",
+    "example": "Je pars, puisque j'ai fini mes devoirs.",
+    "example_es": "Me voy, ya que terminé mis tareas.",
+    "note": "Uso informal, sinónimo de 'parce que'."
+   },
+   {
+    "t": "étant donné que",
+    "es": "ya que",
+    "example": "Étant donné que tu es là, nous pouvons commencer.",
+    "example_es": "Dado que estás aquí, podemos comenzar.",
+    "note": "Uso formal, en textos."
+   },
+   {
+    "t": "pour cause de",
+    "es": "por causa de",
+    "example": "Il a été blessé pour cause de l'accident.",
+    "example_es": "Fue lesionado por causa de el accidente.",
+    "note": "Uso formal, poco frecuente."
+   },
+   {
+    "t": "par conséquent",
+    "es": "por consiguiente",
+    "example": "Il a gagné, par conséquent il a gagné un prix.",
+    "example_es": "Ganó, por consiguiente ganó un premio.",
+    "note": "Uso formal, se usa en textos."
+   },
+   {
+    "t": "en conséquence",
+    "es": "en consecuencia",
+    "example": "Elle a manqué le train, en conséquence elle a raté son entretien.",
+    "example_es": "Se perdió el tren, en consecuencia perdió su entrevista.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "donc",
+    "es": "así que",
+    "example": "Il pleut, donc je resterai à la maison.",
+    "example_es": "Llueve, así que me quedaré en casa.",
+    "note": "Uso informal."
+   },
+   {
+    "t": "ainsi",
+    "es": "así",
+    "example": "Nous avons gagné, ainsi nous célébrons.",
+    "example_es": "Ganamos, así celebramos.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "par suite",
+    "es": "por lo tanto",
+    "example": "Il a été promu, par suite il a un nouveau poste.",
+    "example_es": "Fue ascendido, por lo tanto tiene un nuevo puesto.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "pour atteindre",
+    "es": "para lograr",
+    "example": "Il travaille dur pour atteindre ses objectifs.",
+    "example_es": "Trabaja duro para lograr sus objetivos.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "afin de",
+    "es": "para",
+    "example": "Je travaille pour gagner de l'argent afin de voyager.",
+    "example_es": "Trabajo para ganar dinero para viajar.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "dans le but de",
+    "es": "con el fin de",
+    "example": "Il étudie le français dans le but de travailler à Paris.",
+    "example_es": "Estudia francés con el fin de trabajar en París.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "pour que",
+    "es": "para que",
+    "example": "Je te donne un livre pour que tu puisses lire.",
+    "example_es": "Te doy un libro para que puedas leer.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "de façon à",
+    "es": "para que",
+    "example": "Il a organisé la réunion de façon à ce que tout le monde participe.",
+    "example_es": "Organizó la reunión para que todos participen.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "en vue de",
+    "es": "con el objetivo de",
+    "example": "Il travaille en vue de devenir chef.",
+    "example_es": "Trabaja con el objetivo de convertirse en jefe.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "pour atteindre l'objectif de",
+    "es": "para lograr el objetivo de",
+    "example": "Il a suivi une formation pour atteindre l'objectif de devenir médecin.",
+    "example_es": "Seguyó una formación para lograr el objetivo de convertirse en médico.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "pour que l'on puisse",
+    "es": "para que se pueda",
+    "example": "Nous avons simplifié les procédures pour que l'on puisse les suivre facilement.",
+    "example_es": "Simplificamos los procedimientos para que se puedan seguir fácilmente.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "de façon à ce que",
+    "es": "para que",
+    "example": "Il a réduit les coûts de façon à ce que le projet soit viable.",
+    "example_es": "Redujo los costos para que el proyecto sea viable.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "bien que",
+    "es": "aunque",
+    "example": "Il a réussi, bien que beaucoup l'avaient douté.",
+    "example_es": "Él logró, aunque muchos lo habían dudado.",
+    "note": "concesión"
+   },
+   {
+    "t": "quoique",
+    "es": "aunque",
+    "example": "Quoique le temps soit court, nous devons finir.",
+    "example_es": "Aunque el tiempo es corto, debemos terminar.",
+    "note": "concesión"
+   },
+   {
+    "t": "malgré que",
+    "es": "a pesar de que",
+    "example": "Malgré que le projet soit complexe, on l'accepte.",
+    "example_es": "A pesar de que el proyecto sea complejo, lo aceptamos.",
+    "note": "concesión"
+   },
+   {
+    "t": "à condition que",
+    "es": "siempre que",
+    "example": "Vous pouvez partir, à condition que vous reveniez.",
+    "example_es": "Puedes salir, siempre que regreses.",
+    "note": "hipótesis"
+   },
+   {
+    "t": "à condition d'",
+    "es": "siempre que",
+    "example": "Il partira, à condition d'avoir son passeport.",
+    "example_es": "Partirá, siempre que tenga su pasaporte.",
+    "note": "hipótesis"
+   },
+   {
+    "t": "à condition que...",
+    "es": "siempre que...",
+    "example": "Je le ferai, à condition que tu me soutiennes.",
+    "example_es": "Lo haré, siempre que me apoyes.",
+    "note": "hipótesis"
+   },
+   {
+    "t": "si",
+    "es": "si",
+    "example": "Si tu viens, on partira.",
+    "example_es": "Si vienes, partiremos.",
+    "note": "hipótesis"
+   },
+   {
+    "t": "au cas où",
+    "es": "en caso de que",
+    "example": "Au cas où il pleuvrait, on attendra.",
+    "example_es": "En caso de que llueva, esperaremos.",
+    "note": "hipótesis"
+   },
+   {
+    "t": "au cas où...",
+    "es": "en caso de que...",
+    "example": "Au cas où il manquerait, on l'attendra.",
+    "example_es": "En caso de que falte, lo esperaremos.",
+    "note": "hipótesis"
+   },
+   {
+    "t": "en supposant que",
+    "es": "suponiendo que",
+    "example": "En supposant que tu aies raison, je cède.",
+    "example_es": "Suponiendo que tengas razón, cederé.",
+    "note": "hipótesis"
+   },
+   {
+    "t": "en supposant que...",
+    "es": "suponiendo que...",
+    "example": "En supposant que tu sois libre, on se verra.",
+    "example_es": "Suponiendo que estés libre, nos veremos.",
+    "note": "hipótesis"
+   },
+   {
+    "t": "en fin",
+    "es": "en fin",
+    "example": "En fin, il faut accepter la décision.",
+    "example_es": "En fin, hay que aceptar la decisión.",
+    "note": "conclusión"
+   },
+   {
+    "t": "en définitive",
+    "es": "en definitiva",
+    "example": "En définitive, il faut agir.",
+    "example_es": "En definitiva, hay que actuar.",
+    "note": "conclusión"
+   },
+   {
+    "t": "pour conclure",
+    "es": "para concluir",
+    "example": "Pour conclure, je vous remercie.",
+    "example_es": "Para concluir, gracias.",
+    "note": "conclusión"
+   },
+   {
+    "t": "en conclusion",
+    "es": "en conclusión",
+    "example": "En conclusion, nous devons avancer.",
+    "example_es": "En conclusión, debemos avanzar.",
+    "note": "conclusión"
+   },
+   {
+    "t": "en bref",
+    "es": "en breve",
+    "example": "En bref, c'est simple.",
+    "example_es": "En breve, es simple.",
+    "note": "conclusión"
+   },
+   {
+    "t": "en résumé",
+    "es": "en resumen",
+    "example": "En résumé, il faut être prudent.",
+    "example_es": "En resumen, hay que ser prudente.",
+    "note": "conclusión"
+   },
+   {
+    "t": "en fin de compte",
+    "es": "en última instancia",
+    "example": "En fin de compte, il faut accepter.",
+    "example_es": "En última instancia, hay que aceptar.",
+    "note": "conclusión"
+   },
+   {
+    "t": "finalement",
+    "es": "finalmente",
+    "example": "Finalement, il est temps d'agir.",
+    "example_es": "Finalmente, es hora de actuar.",
+    "note": "conclusión"
+   }
+  ]
+ },
+ {
+  "id": "fr-collocations",
+  "level": "C1",
+  "title": "Collocations et verbes à préposition",
+  "description": "Combinaciones naturales (prendre une décision, tenir compte de...).",
+  "items": [
+   {
+    "t": "prendre place",
+    "es": "tomar lugar",
+    "example": "Il a pris place au premier rang.",
+    "example_es": "Tomó lugar en el primer rango.",
+    "note": "formal"
+   },
+   {
+    "t": "prendre soin",
+    "es": "cuidar",
+    "example": "Elle prend soin de ses plantes.",
+    "example_es": "Cuida de sus plantas.",
+    "note": "informal"
+   },
+   {
+    "t": "prendre part",
+    "es": "participar",
+    "example": "Ils prennent part à la réunion.",
+    "example_es": "Participan en la reunión.",
+    "note": "formal"
+   },
+   {
+    "t": "prendre note",
+    "es": "anotar",
+    "example": "Prenez note de ces points clés.",
+    "example_es": "Toma nota de estos puntos clave.",
+    "note": "informal"
+   },
+   {
+    "t": "prendre conscience",
+    "es": "conscienciarse",
+    "example": "Il a pris conscience de son erreur.",
+    "example_es": "Se dio cuenta de su error.",
+    "note": "formal"
+   },
+   {
+    "t": "prendre en compte",
+    "es": "tener en cuenta",
+    "example": "Prenez en compte les avis.",
+    "example_es": "Toma en cuenta los avis.",
+    "note": "formal"
+   },
+   {
+    "t": "prendre en charge",
+    "es": "encargarse",
+    "example": "Il a pris en charge le projet.",
+    "example_es": "Se encargó del proyecto.",
+    "note": "formal"
+   },
+   {
+    "t": "prendre en considération",
+    "es": "considerar",
+    "example": "Nous prenons en considération vos remarques.",
+    "example_es": "Consideramos tus comentarios.",
+    "note": "formal"
+   },
+   {
+    "t": "faire partie",
+    "es": "ser parte",
+    "example": "Il fait partie de l'équipe.",
+    "example_es": "Es parte del equipo.",
+    "note": "informal"
+   },
+   {
+    "t": "faire face à",
+    "es": "enfrentar",
+    "example": "Ils font face à de nouveaux défis.",
+    "example_es": "Enfrentan nuevos desafíos.",
+    "note": "formal"
+   },
+   {
+    "t": "faire confiance à",
+    "es": "confiar en",
+    "example": "Je fais confiance à mon instinct.",
+    "example_es": "Confío en mi instinto.",
+    "note": "informal"
+   },
+   {
+    "t": "faire appel à",
+    "es": "apelar a",
+    "example": "Ils font appel à un expert.",
+    "example_es": "Apelan a un experto.",
+    "note": "formal"
+   },
+   {
+    "t": "faire preuve de",
+    "es": "mostrar",
+    "example": "Il fait preuve de courage.",
+    "example_es": "Muestra coraje.",
+    "note": "informal"
+   },
+   {
+    "t": "faire l'effort de",
+    "es": "hacer el esfuerzo de",
+    "example": "Nous faisons l'effort de comprendre.",
+    "example_es": "Hacemos el esfuerzo de entender.",
+    "note": "formal"
+   },
+   {
+    "t": "faire l'acquisition de",
+    "es": "adquirir",
+    "example": "Ils font l'acquisition de nouvelles compétences.",
+    "example_es": "Adquieren nuevas habilidades.",
+    "note": "formal"
+   },
+   {
+    "t": "faire le choix de",
+    "es": "hacer la elección de",
+    "example": "Elle fait le choix de rester.",
+    "example_es": "Hace la elección de quedarse.",
+    "note": "informal"
+   },
+   {
+    "t": "faire le point sur",
+    "es": "hacer el punto sobre",
+    "example": "Nous faisons le point sur les progrès.",
+    "example_es": "Hacemos el punto sobre los avances.",
+    "note": "formal"
+   },
+   {
+    "t": "faire le tour de",
+    "es": "hacer el recorrido de",
+    "example": "Ils font le tour de la ville.",
+    "example_es": "Hacen el recorrido de la ciudad.",
+    "note": "informal"
+   },
+   {
+    "t": "mettre en place",
+    "es": "poner en marcha",
+    "example": "Ils mettent en place un nouveau système.",
+    "example_es": "Ponen en marcha un nuevo sistema.",
+    "note": "formal"
+   },
+   {
+    "t": "mettre en œuvre",
+    "es": "implementar",
+    "example": "Nous mettons en œuvre la stratégie.",
+    "example_es": "Implementamos la estrategia.",
+    "note": "formal"
+   },
+   {
+    "t": "mettre en évidence",
+    "es": "resaltar",
+    "example": "Il met en évidence les erreurs.",
+    "example_es": "Resalta los errores.",
+    "note": "informal"
+   },
+   {
+    "t": "mettre en garde",
+    "es": "advertir",
+    "example": "Ils mettent en garde contre les risques.",
+    "example_es": "Adverten contra los riesgos.",
+    "note": "formal"
+   },
+   {
+    "t": "mettre en avant",
+    "es": "destacar",
+    "example": "Nous mettons en avant les talents.",
+    "example_es": "Destacamos los talentos.",
+    "note": "informal"
+   },
+   {
+    "t": "mettre en danger",
+    "es": "poner en peligro",
+    "example": "Il met en danger la sécurité.",
+    "example_es": "Pone en peligro la seguridad.",
+    "note": "formal"
+   },
+   {
+    "t": "mettre en valeur",
+    "es": "realzar",
+    "example": "Ils mettent en valeur le produit.",
+    "example_es": "Realzan el producto.",
+    "note": "informal"
+   },
+   {
+    "t": "donner naissance à",
+    "es": "dar origen a",
+    "example": "Ils donnent naissance à une idée.",
+    "example_es": "Dan origen a una idea.",
+    "note": "formal"
+   },
+   {
+    "t": "donner accès à",
+    "es": "dar acceso a",
+    "example": "Ils donnent accès aux données.",
+    "example_es": "Dan acceso a los datos.",
+    "note": "informal"
+   },
+   {
+    "t": "donner crédit à",
+    "es": "dar crédito a",
+    "example": "Nous donnons crédit à son travail.",
+    "example_es": "Damos crédito a su trabajo.",
+    "note": "formal"
+   },
+   {
+    "t": "donner l'importance à",
+    "es": "dar importancia a",
+    "example": "Ils donnent l'importance à la qualité.",
+    "example_es": "Dan importancia a la calidad.",
+    "note": "formal"
+   },
+   {
+    "t": "donner le pouvoir à",
+    "es": "dar el poder a",
+    "example": "Ils donnent le pouvoir à la jeunesse.",
+    "example_es": "Dan el poder a la juventud.",
+    "note": "informal"
+   },
+   {
+    "t": "avoir une opinion sur",
+    "es": "tener una opinión sobre",
+    "example": "Il a une opinion sur la politique française.",
+    "example_es": "Tiene una opinión sobre la política francesa.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "rester à la maison",
+    "es": "quedarse en casa",
+    "example": "Elle reste à la maison aujourd'hui.",
+    "example_es": "Ella se queda en casa hoy.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "se concentrer sur",
+    "es": "concentrarse en",
+    "example": "Il se concentre sur son travail.",
+    "example_es": "Se concentra en su trabajo.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "prendre soin de",
+    "es": "cuidar de",
+    "example": "Prenez soin de votre santé.",
+    "example_es": "Cuida tu salud.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "parler de",
+    "es": "hablar de",
+    "example": "Nous parlons de nos projets.",
+    "example_es": "Hablamos de nuestros planes.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "s'en tenir à",
+    "es": "mantenerse a",
+    "example": "Il s'en tient à ses principes.",
+    "example_es": "Se mantiene a sus principios.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "se souvenir de",
+    "es": "recordar",
+    "example": "Je me souviens de mon enfance.",
+    "example_es": "Recuerdo mi infancia.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "se mettre à",
+    "es": "empezar a",
+    "example": "Il se met à chanter.",
+    "example_es": "Empieza a cantar.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "avoir besoin de",
+    "es": "necesitar",
+    "example": "J'ai besoin de ton aide.",
+    "example_es": "Necesito tu ayuda.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "faire partie de",
+    "es": "ser parte de",
+    "example": "Il fait partie de l'équipe.",
+    "example_es": "Es parte del equipo.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "s'en remettre à",
+    "es": "confiar en",
+    "example": "S'en remets à ton jugement.",
+    "example_es": "Confía en tu juicio.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "se méfier de",
+    "es": "desconfiar de",
+    "example": "Se méfie de ses promesses.",
+    "example_es": "Desconfía de sus promesas.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "se fier à",
+    "es": "confiar en",
+    "example": "Je me fies à tes conseils.",
+    "example_es": "Confío en tus consejos.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "se battre pour",
+    "es": "luchar por",
+    "example": "Se bat pour la justice.",
+    "example_es": "Lucha por la justicia.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "se détendre en",
+    "es": "relajarse en",
+    "example": "Se détend en lisant.",
+    "example_es": "Se relaja leyendo.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "se mettre en colère contre",
+    "es": "enfadarse con",
+    "example": "Il se met en colère contre son frère.",
+    "example_es": "Se enfada con su hermano.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "prendre part à",
+    "es": "participar",
+    "example": "Ils ont pris part à la conférence internationale.",
+    "example_es": "Participaron a la conferencia internacional.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "être à la hauteur de",
+    "es": "cumplir con",
+    "example": "Le projet est à la hauteur des attentes.",
+    "example_es": "El proyecto cumple con las expectativas.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "s'inscrire à",
+    "es": "inscribirse a",
+    "example": "Ils se sont inscrits à la formation.",
+    "example_es": "Se inscribieron a la formación.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "participer à",
+    "es": "participar en",
+    "example": "Elle participe à l'assemblée générale.",
+    "example_es": "Participa en la asamblea general.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "être en charge de",
+    "es": "estar a cargo de",
+    "example": "Il est en charge de la stratégie.",
+    "example_es": "Está a cargo de la estrategia.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "rester à la traîne de",
+    "es": "quedarse rezagado de",
+    "example": "L'entreprise reste à la traîne de la concurrence.",
+    "example_es": "La empresa se queda rezagada de la competencia.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "s'engager à",
+    "es": "comprometerse a",
+    "example": "Ils s'engagent à réduire les émissions.",
+    "example_es": "Se comprometen a reducir las emisiones.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "faire un pas en avant",
+    "es": "dar un paso adelante",
+    "example": "Il a fait un pas en avant dans la négociation.",
+    "example_es": "Dio un paso adelante en la negociación.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "se tenir au courant de",
+    "es": "mantenerse al tanto de",
+    "example": "Il se tient au courant de l'actualité.",
+    "example_es": "Se mantiene al tanto de la noticia.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "être à la pointe de",
+    "es": "estar a la vanguardia de",
+    "example": "Cette technologie est à la pointe de l'industrie.",
+    "example_es": "Esta tecnología está a la vanguardia de la industria.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "faire un effort pour",
+    "es": "hacer un esfuerzo por",
+    "example": "Il fait un effort pour améliorer ses compétences.",
+    "example_es": "Hace un esfuerzo por mejorar sus habilidades.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "avoir recours à",
+    "es": "hacer uso de",
+    "example": "Ils ont recours à des consultants.",
+    "example_es": "Hacen uso de consultores.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "se mettre en avant",
+    "es": "destacarse",
+    "example": "Il se met en avant dans les médias.",
+    "example_es": "Se destaca en los medios.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "être à la merci de",
+    "es": "estar a merced de",
+    "example": "Les citoyens sont à la merci du pouvoir.",
+    "example_es": "Los ciudadanos están a merced del poder.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "s'adresser à",
+    "es": "dirigirse a",
+    "example": "Le ministre s'adresse à la nation.",
+    "example_es": "El ministro se dirige a la nación.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "se tenir à l'écart de",
+    "es": "mantenerse alejado de",
+    "example": "Il se tient à l'écart de la politique.",
+    "example_es": "Se mantiene alejado de la política.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "faire l'objet de",
+    "es": "ser objeto de",
+    "example": "Cette décision fait l'objet de débats.",
+    "example_es": "Esta decisión es objeto de debates.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "être en mesure de",
+    "es": "estar en capacidad de",
+    "example": "Ils sont en mesure de répondre aux exigences.",
+    "example_es": "Están en capacidad de responder a los requisitos.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "se prononcer sur",
+    "es": "expresar opinión sobre",
+    "example": "Le ministre s'est prononcé sur la réforme.",
+    "example_es": "El ministro expresó su opinión sobre la reforma.",
+    "note": "formal"
+   },
+   {
+    "t": "débattre de",
+    "es": "discutir sobre",
+    "example": "Ils débattent de la politique fiscale.",
+    "example_es": "Ellos discuten sobre la política fiscal.",
+    "note": "formal"
+   },
+   {
+    "t": "se prononcer à propos de",
+    "es": "expresar opinión acerca de",
+    "example": "Je me suis prononcé à propos de la loi.",
+    "example_es": "Me expresé acerca de la ley.",
+    "note": "formal"
+   },
+   {
+    "t": "se prononcer sur le sujet",
+    "es": "expresar opinión sobre el tema",
+    "example": "Il a dû se prononcer sur le sujet.",
+    "example_es": "Tuvieron que expresar su opinión sobre el tema.",
+    "note": "formal"
+   },
+   {
+    "t": "se prononcer sur la question",
+    "es": "expresar opinión sobre la cuestión",
+    "example": "Les experts se sont prononcés sur la question.",
+    "example_es": "Los expertos expresaron su opinión sobre la cuestión.",
+    "note": "formal"
+   },
+   {
+    "t": "se prononcer sur le plan",
+    "es": "expresar opinión sobre el plan",
+    "example": "Ils se sont prononcés sur le plan.",
+    "example_es": "Ellos expresaron su opinión sobre el plan.",
+    "note": "formal"
+   },
+   {
+    "t": "débattre de l'avenir",
+    "es": "discutir sobre el futuro",
+    "example": "Les jeunes débattent de l'avenir.",
+    "example_es": "Los jóvenes discuten sobre el futuro.",
+    "note": "informal"
+   },
+   {
+    "t": "se prononcer sur la situation",
+    "es": "expresar opinión sobre la situación",
+    "example": "Le président s'est prononcé sur la situation.",
+    "example_es": "El presidente expresó su opinión sobre la situación.",
+    "note": "formal"
+   },
+   {
+    "t": "débattre de la réforme",
+    "es": "discutir sobre la reforma",
+    "example": "Ils débattent de la réforme.",
+    "example_es": "Ellos discuten sobre la reforma.",
+    "note": "formal"
+   },
+   {
+    "t": "se prononcer sur le problème",
+    "es": "expresar opinión sobre el problema",
+    "example": "Elle a dû se prononcer sur le problème.",
+    "example_es": "Ella tuvo que expresar su opinión sobre el problema.",
+    "note": "formal"
+   },
+   {
+    "t": "se prononcer sur la politique",
+    "es": "expresar opinión sobre la política",
+    "example": "Le député s'est prononcé sur la politique.",
+    "example_es": "El diputado expresó su opinión sobre la política.",
+    "note": "formal"
+   },
+   {
+    "t": "débattre de la loi",
+    "es": "discutir sobre la ley",
+    "example": "Les parlementaires débattent de la loi.",
+    "example_es": "Los parlamentarios discuten sobre la ley.",
+    "note": "formal"
+   },
+   {
+    "t": "se prononcer sur la décision",
+    "es": "expresar opinión sobre la decisión",
+    "example": "Ils se sont prononcés sur la décision.",
+    "example_es": "Ellos expresaron su opinión sobre la decisión.",
+    "note": "formal"
+   },
+   {
+    "t": "débattre de la situation",
+    "es": "discutir sobre la situación",
+    "example": "On débattre de la situation actuelle.",
+    "example_es": "Se discute sobre la situación actual.",
+    "note": "informal"
+   },
+   {
+    "t": "débattre de la politique",
+    "es": "discutir sobre la política",
+    "example": "Les étudiants débattent de la politique.",
+    "example_es": "Los estudiantes discuten sobre la política.",
+    "note": "informal"
+   }
+  ]
+ },
+ {
+  "id": "fr-familier",
+  "level": "B2",
+  "title": "Français familier",
+  "description": "Lo que vas a oír en la calle y en series (y su equivalente neutro).",
+  "items": [
+   {
+    "t": "bouffer",
+    "es": "comer",
+    "example": "On va bouffer un bon repas ce soir.",
+    "example_es": "Vamos a comer una buena comida esta noche.",
+    "note": "neutral: manger"
+   },
+   {
+    "t": "bosser",
+    "es": "trabajar",
+    "example": "Je bosse à la boutique depuis cinq ans.",
+    "example_es": "Trabajo en la boutique desde hace cinco años.",
+    "note": "neutral: travailler"
+   },
+   {
+    "t": "fric",
+    "es": "dinero",
+    "example": "Il a gagné pas mal de fric à la loterie.",
+    "example_es": "Ganó bastante dinero en la lotería.",
+    "note": "neutral: argent"
+   },
+   {
+    "t": "kiffer",
+    "es": "gustar",
+    "example": "Je kiffe vraiment ce film.",
+    "example_es": "Me gusta mucho esta película.",
+    "note": "neutral: aimer"
+   },
+   {
+    "t": "taper",
+    "es": "tocar (instrumento)",
+    "example": "Elle tape du piano toute la journée.",
+    "example_es": "Toca el piano todo el día.",
+    "note": "neutral: jouer"
+   },
+   {
+    "t": "choper",
+    "es": "coger, agarrar",
+    "example": "On a choper la dernière place du concert.",
+    "example_es": "Nosotros agarramos el último asiento del concierto.",
+    "note": "neutral: prendre"
+   },
+   {
+    "t": "péter",
+    "es": "romper, hacer estallido",
+    "example": "Il a pété un câble après le test.",
+    "example_es": "Se enojó mucho después del examen.",
+    "note": "neutral: exploser"
+   },
+   {
+    "t": "glander",
+    "es": "perezarse",
+    "example": "Je glande devant la télé toute la journée.",
+    "example_es": "Me quedo de brazos cruzados frente a la tele todo el día.",
+    "note": "neutral: se reposer"
+   },
+   {
+    "t": "débarasser",
+    "es": "deshacerse",
+    "example": "Il a débarrassé la maison de vieux meubles.",
+    "example_es": "Se deshizo de los muebles viejos de la casa.",
+    "note": "neutral: débarrasser"
+   },
+   {
+    "t": "taper la balle",
+    "es": "jugar a la pelota",
+    "example": "On va taper la balle au parc.",
+    "example_es": "Vamos a jugar al fútbol en el parque.",
+    "note": "neutral: jouer au ballon"
+   },
+   {
+    "t": "se foutre de",
+    "es": "hacer caso omiso",
+    "example": "Il se fout de tes conseils.",
+    "example_es": "Échafauda tus consejos.",
+    "note": "neutral: se moquer de"
+   },
+   {
+    "t": "se prendre la tête",
+    "es": "preocuparse",
+    "example": "Ne te prends pas la tête, tout ira bien.",
+    "example_es": "No te preocupes, todo irá bien.",
+    "note": "neutral: se inquiéter"
+   },
+   {
+    "t": "se faire la malle",
+    "es": "irse",
+    "example": "Il s'est fait la malle hier soir.",
+    "example_es": "Se fue anoche.",
+    "note": "neutral: partir"
+   },
+   {
+    "t": "se mettre en boîte",
+    "es": "ir a la discoteca",
+    "example": "Ce soir, on se met en boîte.",
+    "example_es": "Esta noche vamos a la discoteca.",
+    "note": "neutral: aller en boîte"
+   },
+   {
+    "t": "se taper un verre",
+    "es": "tomar una copa",
+    "example": "On se tape un verre après le boulot.",
+    "example_es": "Tomamos una copa después del trabajo.",
+    "note": "neutral: prendre un verre"
+   },
+   {
+    "t": "se faire la gueule",
+    "es": "ponerse de mal humor",
+    "example": "Il se fait la gueule parce qu'il a perdu.",
+    "example_es": "Se puso de mal humor porque perdió.",
+    "note": "neutral: se fâcher"
+   },
+   {
+    "t": "se faire la cour",
+    "es": "hacer una corte",
+    "example": "Il se fait la cour à la nouvelle voisine.",
+    "example_es": "Le está cortejando a la nueva vecina.",
+    "note": "neutral: courtiser"
+   },
+   {
+    "t": "se faire une bêtise",
+    "es": "hacer una tontería",
+    "example": "Il s'est fait une bêtise en oubliant son parapluie.",
+    "example_es": "Se cometió una tontería al olvidar su paraguas.",
+    "note": "neutral: faire une erreur"
+   },
+   {
+    "t": "se faire un plan",
+    "es": "hacer un plan",
+    "example": "Il s'est fait un plan pour finir le projet.",
+    "example_es": "Hizo un plan para terminar el proyecto.",
+    "note": "neutral: élaborer un plan"
+   },
+   {
+    "t": "se faire un max",
+    "es": "hacer un esfuerzo",
+    "example": "Il s'est fait un max pour finir à temps.",
+    "example_es": "Se esforzó para terminar a tiempo.",
+    "note": "neutral: se donner du mal"
+   },
+   {
+    "t": "se faire un tour",
+    "es": "dar una vuelta",
+    "example": "On se fait un tour au marché.",
+    "example_es": "Vamos a dar una vuelta al mercado.",
+    "note": "neutral: faire un tour"
+   },
+   {
+    "t": "se faire un coup de foudre",
+    "es": "enamorarse de repente",
+    "example": "Il s'est fait un coup de foudre pour la première fois.",
+    "example_es": "Se enamoró de repente por primera vez.",
+    "note": "neutral: tomber amoureux"
+   },
+   {
+    "t": "se faire la frousse",
+    "es": "asustarse",
+    "example": "Il s'est fait la frousse en voyant la araignée.",
+    "example_es": "Se asustó al ver la araña.",
+    "note": "neutral: avoir peur"
+   },
+   {
+    "t": "ça fait quoi",
+    "es": "¿qué pasa?",
+    "example": "Ça fait quoi de venir à la fête ?",
+    "example_es": "¿Qué pasa al venir a la fiesta?",
+    "note": "uso informal, pregunta casual"
+   },
+   {
+    "t": "c'est le bordel",
+    "es": "es un desastre",
+    "example": "C'est le bordel dans la salle de bain.",
+    "example_es": "Es un desastre en el baño.",
+    "note": "expresión coloquial"
+   },
+   {
+    "t": "t'inquiète",
+    "es": "no te preocupes",
+    "example": "T'inquiète, je t'aide.",
+    "example_es": "No te preocupes, te ayudo.",
+    "note": "forma abreviada de ne t'inquiète pas"
+   },
+   {
+    "t": "c'est le fun",
+    "es": "es divertido",
+    "example": "C'est le fun de jouer au foot.",
+    "example_es": "Es divertido jugar al fútbol.",
+    "note": "uso juvenil"
+   },
+   {
+    "t": "ça roule",
+    "es": "todo bien",
+    "example": "Ça roule pour la soirée ?",
+    "example_es": "¿Todo bien para la noche?",
+    "note": "forma coloquial"
+   },
+   {
+    "t": "c'est le feu",
+    "es": "es genial",
+    "example": "C'est le feu ce concert !",
+    "example_es": "¡Es genial este concierto!",
+    "note": "expresión de entusiasmo"
+   },
+   {
+    "t": "c'est la merde",
+    "es": "es una mierda",
+    "example": "C'est la merde après l'accident.",
+    "example_es": "Es una mierda después del accidente.",
+    "note": "expresión vulgar"
+   },
+   {
+    "t": "c'est la galère",
+    "es": "es una galera",
+    "example": "C'est la galère de trouver un logement.",
+    "example_es": "Es una galera encontrar alojamiento.",
+    "note": "uso coloquial"
+   },
+   {
+    "t": "c'est la bombe",
+    "es": "es una bomba",
+    "example": "C'est la bombe, ce film.",
+    "example_es": "Es una bomba, esa película.",
+    "note": "expresión de aprobación"
+   },
+   {
+    "t": "c'est le gros",
+    "es": "es grande",
+    "example": "C'est le gros problème.",
+    "example_es": "Es el gran problema.",
+    "note": "forma coloquial"
+   },
+   {
+    "t": "c'est la teuf",
+    "es": "es la fiesta",
+    "example": "C'est la teuf ce soir.",
+    "example_es": "Es la fiesta esta noche.",
+    "note": "expresión juvenil"
+   },
+   {
+    "t": "c'est la nana",
+    "es": "es la chica",
+    "example": "C'est la nana que j'ai rencontrée.",
+    "example_es": "Es la chica que conocí.",
+    "note": "uso informal"
+   },
+   {
+    "t": "c'est le truc",
+    "es": "es la cosa",
+    "example": "C'est le truc que je cherche.",
+    "example_es": "Es la cosa que busco.",
+    "note": "forma coloquial"
+   },
+   {
+    "t": "c'est la dalle",
+    "es": "es la calle",
+    "example": "C'est la dalle où on se retrouve.",
+    "example_es": "Es la calle donde nos reunimos.",
+    "note": "uso informal"
+   },
+   {
+    "t": "ouf",
+    "es": "loco",
+    "example": "C’est fou, il a gagné à la loterie!",
+    "example_es": "¡Es una locura, ganó la lotería!",
+    "note": "Uso informal, no se usa en textos formales."
+   },
+   {
+    "t": "keuf",
+    "es": "policía",
+    "example": "Le keuf est arrivé en deux minutes.",
+    "example_es": "El policía llegó en dos minutos.",
+    "note": "Verlan de 'flic', coloquial."
+   },
+   {
+    "t": "blé",
+    "es": "dinero",
+    "example": "Je n’ai pas de blé pour le concert.",
+    "example_es": "No tengo dinero para el concierto.",
+    "note": "Uso coloquial, no en contextos formales."
+   },
+   {
+    "t": "taper la discute",
+    "es": "pelear",
+    "example": "Ils ont tapé la discute hier soir.",
+    "example_es": "Se pelearon anoche.",
+    "note": "Expresión coloquial."
+   },
+   {
+    "t": "flic",
+    "es": "policía",
+    "example": "Le flic a arrêté le voleur.",
+    "example_es": "El policía arrestó al ladrón.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "bagnole",
+    "es": "coche",
+    "example": "Sa bagnole est super rapide.",
+    "example_es": "Su coche es súper rápido.",
+    "note": "Verlan de 'voiture', coloquial."
+   },
+   {
+    "t": "bidule",
+    "es": "cosa",
+    "example": "Je ne sais pas quel bidule c’est.",
+    "example_es": "No sé qué cosa es eso.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "chouette",
+    "es": "genial",
+    "example": "C’est chouette de te voir!",
+    "example_es": "¡Qué genial verte!",
+    "note": "Uso informal."
+   },
+   {
+    "t": "gros gros",
+    "es": "muy grande",
+    "example": "C’est un gros gros problème.",
+    "example_es": "Es un gran problema.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "lâcher la balle",
+    "es": "soltar la pelota",
+    "example": "Il a lâché la balle en classe.",
+    "example_es": "Él soltó la pelota en clase.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "mec",
+    "es": "chico",
+    "example": "Le mec est sympa.",
+    "example_es": "El chico es simpático.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "nana",
+    "es": "chica",
+    "example": "La nana est très jolie.",
+    "example_es": "La chica es muy bonita.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "pote",
+    "es": "amigo",
+    "example": "Mon pote vient demain.",
+    "example_es": "Mi amigo viene mañana.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "péter un câble",
+    "es": "enfadarse",
+    "example": "Il a pété un câble après le match.",
+    "example_es": "Se enfadó después del partido.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "poussière",
+    "es": "poco",
+    "example": "Il n’y a que de la poussière à la maison.",
+    "example_es": "Solo hay polvo en la casa.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "rien de rien",
+    "es": "nada",
+    "example": "Il a rien de rien.",
+    "example_es": "No tiene nada.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "sac à dos",
+    "es": "mochila",
+    "example": "Je porte toujours mon sac à dos.",
+    "example_es": "Siempre llevo mi mochila.",
+    "note": "Uso coloquial."
+   },
+   {
+    "t": "trop de la classe",
+    "es": "muy genial",
+    "example": "C’est trop de la classe!",
+    "example_es": "¡Es muy genial!",
+    "note": "Uso coloquial."
+   }
+  ]
+ },
+ {
+  "id": "fr-soutenu",
+  "level": "C1",
+  "title": "Vocabulaire soutenu",
+  "description": "Vocabulario formal para escribir y hablar en contextos profesionales.",
+  "items": [
+   {
+    "t": "défier",
+    "es": "desafiar",
+    "example": "Il a défié les conventions de la société.",
+    "example_es": "Desafió las convenciones de la sociedad.",
+    "note": "formal"
+   },
+   {
+    "t": "exacerber",
+    "es": "exacerbar",
+    "example": "Les politiques ont exacerbé les tensions.",
+    "example_es": "Las políticas han exacerbado las tensiones.",
+    "note": "formal"
+   },
+   {
+    "t": "consolider",
+    "es": "consolidar",
+    "example": "Il a consolidé ses arguments avec des données solides.",
+    "example_es": "Consolidó sus argumentos con datos sólidos.",
+    "note": "formal"
+   },
+   {
+    "t": "déployer",
+    "es": "desplegar",
+    "example": "Le gouvernement a déployé des ressources supplémentaires.",
+    "example_es": "El gobierno desplegó recursos adicionales.",
+    "note": "formal"
+   },
+   {
+    "t": "éclaircir",
+    "es": "aclarar",
+    "example": "Il a éclairci les points controversés.",
+    "example_es": "Aclaró los puntos controvertidos.",
+    "note": "formal"
+   },
+   {
+    "t": "élucider",
+    "es": "elucidar",
+    "example": "Le professeur a élucidé la théorie.",
+    "example_es": "El profesor elucidó la teoría.",
+    "note": "formal"
+   },
+   {
+    "t": "exhorter",
+    "es": "exhortar",
+    "example": "Il a exhorté les étudiants à réfléchir.",
+    "example_es": "Exhortó a los estudiantes a reflexionar.",
+    "note": "formal"
+   },
+   {
+    "t": "implorer",
+    "es": "implorar",
+    "example": "Il a imploré la paix.",
+    "example_es": "Imploró la paz.",
+    "note": "formal"
+   },
+   {
+    "t": "instruire",
+    "es": "instruir",
+    "example": "Le directeur a instruite les nouveaux employés.",
+    "example_es": "El director instruyó a los nuevos empleados.",
+    "note": "formal"
+   },
+   {
+    "t": "interdire",
+    "es": "intervenir",
+    "example": "Le conseil a interdisé l'accès aux archives.",
+    "example_es": "El consejo prohibió el acceso a los archivos.",
+    "note": "formal"
+   },
+   {
+    "t": "justifier",
+    "es": "justificar",
+    "example": "Il a justifié ses actions par la nécessité.",
+    "example_es": "Justificó sus acciones por la necesidad.",
+    "note": "formal"
+   },
+   {
+    "t": "légiférer",
+    "es": "legificar",
+    "example": "Le parlement légifère sur les droits numériques.",
+    "example_es": "El parlamento legisla sobre derechos digitales.",
+    "note": "formal"
+   },
+   {
+    "t": "mériter",
+    "es": "merecer",
+    "example": "Son travail mérite la reconnaissance.",
+    "example_es": "Su trabajo merece el reconocimiento.",
+    "note": "formal"
+   },
+   {
+    "t": "mépriser",
+    "es": "despreciar",
+    "example": "Il méprisait les idées contraires.",
+    "example_es": "Despreciaba las ideas contrarias.",
+    "note": "formal"
+   },
+   {
+    "t": "opprimer",
+    "es": "opprimir",
+    "example": "Le régime a opprimé les minorités.",
+    "example_es": "El régimen opprimió a las minorías.",
+    "note": "formal"
+   },
+   {
+    "t": "préconiser",
+    "es": "preconizar",
+    "example": "Il préconise la réforme éducative.",
+    "example_es": "Preconiza la reforma educativa.",
+    "note": "formal"
+   },
+   {
+    "t": "proclamer",
+    "es": "proclamar",
+    "example": "Le président a proclamé la victoire.",
+    "example_es": "El presidente proclamó la victoria.",
+    "note": "formal"
+   },
+   {
+    "t": "provoquer",
+    "es": "provocar",
+    "example": "Les actes ont provoqué une crise.",
+    "example_es": "Los actos provocaron una crisis.",
+    "note": "formal"
+   },
+   {
+    "t": "reconcilier",
+    "es": "reconciliar",
+    "example": "Il a reconcilier les parties opposées.",
+    "example_es": "Reconcilió las partes opuestas.",
+    "note": "formal"
+   },
+   {
+    "t": "réconcilier",
+    "es": "reconciliar",
+    "example": "Le médiateur a réconcilié les familles.",
+    "example_es": "El mediador reconcilió las familias.",
+    "note": "formal"
+   },
+   {
+    "t": "sublimer",
+    "es": "sublimar",
+    "example": "Il a sublimé le texte en y ajoutant des métaphores.",
+    "example_es": "Sublimó el texto añadiendo metáforas.",
+    "note": "formal"
+   },
+   {
+    "t": "suggérer",
+    "es": "sugerir",
+    "example": "Il a suggéré une approche alternative.",
+    "example_es": "Sugirió un enfoque alternativo.",
+    "note": "formal"
+   },
+   {
+    "t": "transcender",
+    "es": "transcender",
+    "example": "Son œuvre transcende les frontières culturelles.",
+    "example_es": "Su obra trasciende las fronteras culturales.",
+    "note": "formal"
+   },
+   {
+    "t": "valoriser",
+    "es": "valorizar",
+    "example": "Il valorise les contributions des chercheurs.",
+    "example_es": "Valora las contribuciones de los investigadores.",
+    "note": "formal"
+   },
+   {
+    "t": "élargir",
+    "es": "ampliar",
+    "example": "Il élargit le débat à d'autres disciplines.",
+    "example_es": "Amplió el debate a otras disciplinas.",
+    "note": "formal"
+   },
+   {
+    "t": "soutenir",
+    "es": "apoyar",
+    "example": "Il soutient les initiatives locales.",
+    "example_es": "Apoya las iniciativas locales.",
+    "note": "formal"
+   },
+   {
+    "t": "aberration",
+    "es": "anomalía",
+    "example": "Cette aberration scientifique a surpris les chercheurs.",
+    "example_es": "Esta anomalía científica sorprendió a los investigadores.",
+    "note": "formal"
+   },
+   {
+    "t": "apogée",
+    "es": "pico",
+    "example": "L'apogée de sa carrière a été marquée par ce prix.",
+    "example_es": "El pico de su carrera fue marcado por este premio.",
+    "note": "formal"
+   },
+   {
+    "t": "censure",
+    "es": "censura",
+    "example": "La censure de l'œuvre a été contestée.",
+    "example_es": "La censura de la obra fue contestada.",
+    "note": "formal"
+   },
+   {
+    "t": "déférence",
+    "es": "respeto",
+    "example": "Il a fait preuve de déférence envers ses aînés.",
+    "example_es": "Demostró respeto hacia sus mayores.",
+    "note": "formal"
+   },
+   {
+    "t": "éminence",
+    "es": "eminencia",
+    "example": "Sa stature d'éminence le rendait incontournable.",
+    "example_es": "Su estatura de eminencia lo hacía imprescindible.",
+    "note": "formal"
+   },
+   {
+    "t": "exégèse",
+    "es": "exégesis",
+    "example": "L'exégèse du texte a révélé des nuances.",
+    "example_es": "La exégesis del texto reveló matices.",
+    "note": "formal"
+   },
+   {
+    "t": "exil",
+    "es": "exilio",
+    "example": "Son exil a duré cinq ans.",
+    "example_es": "Su exilio duró cinco años.",
+    "note": "formal"
+   },
+   {
+    "t": "hégémonie",
+    "es": "hegemonía",
+    "example": "La hégémonie culturelle de la France est indéniable.",
+    "example_es": "La hegemonía cultural de Francia es indiscutible.",
+    "note": "formal"
+   },
+   {
+    "t": "inéluctabilité",
+    "es": "inevitabilidad",
+    "example": "L'inéluctabilité des changements climatiques est claire.",
+    "example_es": "La inevitabilidad de los cambios climáticos es clara.",
+    "note": "formal"
+   },
+   {
+    "t": "intransigeance",
+    "es": "intransigencia",
+    "example": "Sa intransigeance sur les principes a inspiré beaucoup.",
+    "example_es": "Su intransigencia sobre los principios inspiró a muchos.",
+    "note": "formal"
+   },
+   {
+    "t": "légitimité",
+    "es": "legitimidad",
+    "example": "La légitimité de la décision a été remise en question.",
+    "example_es": "La legitimidad de la decisión fue cuestionada.",
+    "note": "formal"
+   },
+   {
+    "t": "méritocratie",
+    "es": "mérito",
+    "example": "La méritocratie est souvent critiquée pour ses inégalités.",
+    "example_es": "La meritocracia a menudo es criticada por sus desigualdades.",
+    "note": "formal"
+   },
+   {
+    "t": "nécessité",
+    "es": "necesidad",
+    "example": "La nécessité de réformer est évidente.",
+    "example_es": "La necesidad de reformar es evidente.",
+    "note": "formal"
+   },
+   {
+    "t": "paradoxe",
+    "es": "paradoja",
+    "example": "Ce paradoxe illustre la complexité du problème.",
+    "example_es": "Este paradoja ilustra la complejidad del problema.",
+    "note": "formal"
+   },
+   {
+    "t": "péril",
+    "es": "peligro",
+    "example": "Le péril de la crise économique est imminent.",
+    "example_es": "El peligro de la crisis económica es inminente.",
+    "note": "formal"
+   },
+   {
+    "t": "pléthore",
+    "es": "plétora",
+    "example": "Une pléthore de données soutient cette théorie.",
+    "example_es": "Una plétora de datos sostiene esta teoría.",
+    "note": "formal"
+   },
+   {
+    "t": "prédominance",
+    "es": "predominio",
+    "example": "La prédominance de l'anglais dans le monde est indéniable.",
+    "example_es": "El predominio del inglés en el mundo es indiscutible.",
+    "note": "formal"
+   },
+   {
+    "t": "résilience",
+    "es": "resiliencia",
+    "example": "La résilience des populations face aux catastrophes est remarquable.",
+    "example_es": "La resiliencia de las poblaciones frente a las catástrofes es notable.",
+    "note": "formal"
+   },
+   {
+    "t": "sérénité",
+    "es": "serenidad",
+    "example": "La sérénité du quartier est appréciée par les résidents.",
+    "example_es": "La serenidad del barrio es apreciada por los residentes.",
+    "note": "formal"
+   },
+   {
+    "t": "solitude",
+    "es": "soledad",
+    "example": "La solitude du chercheur était palpable.",
+    "example_es": "La soledad del investigador era palpable.",
+    "note": "formal"
+   },
+   {
+    "t": "suspicion",
+    "es": "sospecha",
+    "example": "La suspicion de corruption a été confirmée.",
+    "example_es": "La sospecha de corrupción fue confirmada.",
+    "note": "formal"
+   },
+   {
+    "t": "transcendance",
+    "es": "transcendencia",
+    "example": "Sa transcendance artistique a touché le public.",
+    "example_es": "Su trascendencia artística tocó al público.",
+    "note": "formal"
+   },
+   {
+    "t": "utopie",
+    "es": "utopía",
+    "example": "L'utopie d'une société parfaite reste un idéal.",
+    "example_es": "La utopía de una sociedad perfecta sigue siendo un ideal.",
+    "note": "formal"
+   },
+   {
+    "t": "vérité",
+    "es": "verdad",
+    "example": "La vérité des faits est cruciale.",
+    "example_es": "La verdad de los hechos es crucial.",
+    "note": "formal"
+   },
+   {
+    "t": "zèle",
+    "es": "entusiasmo",
+    "example": "Son zèle pour la recherche est sans égal.",
+    "example_es": "Su entusiasmo por la investigación es sin igual.",
+    "note": "formal"
+   },
+   {
+    "t": "adéquat",
+    "es": "adecuado",
+    "example": "Il est crucial d'adopter une approche adéquate pour résoudre ce problème.",
+    "example_es": "Es crucial adoptar un enfoque adecuado para resolver este problema.",
+    "note": "formal"
+   },
+   {
+    "t": "adroit",
+    "es": "hábil",
+    "example": "Elle a démontré une grande adroitness dans la gestion des crises.",
+    "example_es": "Ella demostró una gran destreza en la gestión de crisis.",
+    "note": "uso académico"
+   },
+   {
+    "t": "altruiste",
+    "es": "altruista",
+    "example": "Les politiques altruiste visent à réduire les inégalités.",
+    "example_es": "Las políticas altruistas buscan reducir las desigualdades.",
+    "note": "coloc. altruiste + políticas"
+   },
+   {
+    "t": "ambigüe",
+    "es": "ambiguo",
+    "example": "Ce terme demeure ambigüe, laissant place à l'interprétation.",
+    "example_es": "Este término sigue siendo ambiguo, dejando espacio a la interpretación.",
+    "note": "uso formal"
+   },
+   {
+    "t": "ardeur",
+    "es": "ardor",
+    "example": "Sa passion pour la recherche témoigne d'une ardeur sans faille.",
+    "example_es": "Su pasión por la investigación demuestra un ardor sin fallas.",
+    "note": "coloc. ardeur + passion"
+   },
+   {
+    "t": "autoritatif",
+    "es": "autoritario",
+    "example": "Le style d'enseignement autoritatif peut parfois être contre-productif.",
+    "example_es": "El estilo de enseñanza autoritario puede ser a veces contraproducente.",
+    "note": "coloc. style + autoritatif"
+   },
+   {
+    "t": "avéré",
+    "es": "verificado",
+    "example": "Les résultats de l'étude ont été avérés par plusieurs experts.",
+    "example_es": "Los resultados del estudio fueron verificados por varios expertos.",
+    "note": "uso académico"
+   },
+   {
+    "t": "bénéfique",
+    "es": "beneficioso",
+    "example": "Les nouvelles technologies sont bénéfiques pour l'économie locale.",
+    "example_es": "Las nuevas tecnologías son beneficiosas para la economía local.",
+    "note": "coloc. nouvelles technologies + bénéfiques"
+   },
+   {
+    "t": "candid",
+    "es": "franco",
+    "example": "Il a fait un discours candid sur les défis actuels.",
+    "example_es": "Hizo un discurso franco sobre los desafíos actuales.",
+    "note": "coloc. discours + candid"
+   },
+   {
+    "t": "cohérent",
+    "es": "coherente",
+    "example": "Son argumentation est cohérente et bien structurée.",
+    "example_es": "Su argumentación es coherente y bien estructurada.",
+    "note": "coloc. argumentation + cohérente"
+   },
+   {
+    "t": "concret",
+    "es": "concreto",
+    "example": "Il faut présenter des exemples concrets pour illustrer la théorie.",
+    "example_es": "Es necesario presentar ejemplos concretos para ilustrar la teoría.",
+    "note": "coloc. exemples + concrets"
+   },
+   {
+    "t": "décisif",
+    "es": "decisivo",
+    "example": "Un leadership décisif est essentiel en période de crise.",
+    "example_es": "Un liderazgo decisivo es esencial en tiempos de crisis.",
+    "note": "coloc. leadership + décisif"
+   },
+   {
+    "t": "diligent",
+    "es": "diligente",
+    "example": "Les étudiants diligents obtiennent les meilleurs résultats.",
+    "example_es": "Los estudiantes diligentes obtienen los mejores resultados.",
+    "note": "coloc. étudiants + diligents"
+   },
+   {
+    "t": "évident",
+    "es": "obvio",
+    "example": "Il est évident que la réforme doit être accélérée.",
+    "example_es": "Es obvio que la reforma debe acelerarse.",
+    "note": "coloc. il est évident + que"
+   },
+   {
+    "t": "exigé",
+    "es": "exigido",
+    "example": "Le poste exige une grande expérience professionnelle.",
+    "example_es": "El puesto exige una gran experiencia profesional.",
+    "note": "coloc. poste + exige"
+   },
+   {
+    "t": "fidèle",
+    "es": "fiel",
+    "example": "Il reste fidèle à ses principes, même sous pression.",
+    "example_es": "Se mantiene fiel a sus principios, incluso bajo presión.",
+    "note": "coloc. rester + fidèle"
+   },
+   {
+    "t": "fluctuant",
+    "es": "fluctuante",
+    "example": "Le marché est fluctuant, rendant les prévisions difficiles.",
+    "example_es": "El mercado es fluctuante, lo que dificulta las previsiones.",
+    "note": "coloc. marché + fluctuant"
+   },
+   {
+    "t": "génial",
+    "es": "genial",
+    "example": "Son approche géniale a révolutionné le secteur.",
+    "example_es": "Su enfoque genial revolucionó el sector.",
+    "note": "coloc. approche + géniale"
+   },
+   {
+    "t": "hésitant",
+    "es": "vacilante",
+    "example": "Il est hésitant à adopter la nouvelle politique.",
+    "example_es": "Es vacilante adoptar la nueva política.",
+    "note": "coloc. être + hésitant"
+   },
+   {
+    "t": "indispensable",
+    "es": "indispensable",
+    "example": "Une communication claire est indispensable dans ce contexte.",
+    "example_es": "Una comunicación clara es indispensable en este contexto.",
+    "note": "coloc. communication + indispensable"
+   },
+   {
+    "t": "inexorable",
+    "es": "inexorable",
+    "example": "Le temps est inexorable, il faut agir rapidement.",
+    "example_es": "El tiempo es inexorable, hay que actuar rápido.",
+    "note": "coloc. temps + inexorable"
+   },
+   {
+    "t": "juvénile",
+    "es": "juvenil",
+    "example": "Les idées juvéniles manquent de profondeur.",
+    "example_es": "Las ideas juveniles carecen de profundidad.",
+    "note": "coloc. idées + juvéniles"
+   },
+   {
+    "t": "lucide",
+    "es": "lucido",
+    "example": "Son analyse est lucide et précise.",
+    "example_es": "Su análisis es lúcido y preciso.",
+    "note": "coloc. analyse + lucide"
+   },
+   {
+    "t": "méritoire",
+    "es": "merecido",
+    "example": "Cette initiative mérite une reconnaissance méritoire.",
+    "example_es": "Esta iniciativa merece un reconocimiento merecido.",
+    "note": "coloc. initiative + méritoire"
+   },
+   {
+    "t": "nuancé",
+    "es": "nuancé",
+    "example": "Il adopte une approche nuancée, évitant les extrêmes.",
+    "example_es": "Adopta un enfoque nuancado, evitando los extremos.",
+    "note": "coloc. approche + nuancée"
+   },
+   {
+    "t": "paradoxal",
+    "es": "paradoxal",
+    "example": "Il y a un paradoxe paradoxal dans cette affirmation.",
+    "example_es": "Hay un paradójico paradoxo en esta afirmación.",
+    "note": "coloc. paradoxe + paradoxal"
+   },
+   {
+    "t": "précis",
+    "es": "preciso",
+    "example": "Une définition précise est essentielle pour la clarté.",
+    "example_es": "Una definición precisa es esencial para la claridad.",
+    "note": "coloc. définition + précise"
+   },
+   {
+    "t": "rigoureux",
+    "es": "riguroso",
+    "example": "Le protocole doit être rigoureux pour garantir la fiabilité.",
+    "example_es": "El protocolo debe ser riguroso para garantizar la fiabilidad.",
+    "note": "coloc. protocole + rigoureux"
+   },
+   {
+    "t": "sensible",
+    "es": "sensato",
+    "example": "Il a pris une décision sensible, équilibrant les intérêts.",
+    "example_es": "Tomó una decisión sensata, equilibrando los intereses.",
+    "note": "coloc. décision + sensible"
+   },
+   {
+    "t": "tactique",
+    "es": "táctico",
+    "example": "Une stratégie tactique est indispensable pour gagner.",
+    "example_es": "Una estrategia táctica es indispensable para ganar.",
+    "note": "coloc. stratégie + tactique"
+   },
+   {
+    "t": "utile",
+    "es": "útil",
+    "example": "Cette mesure est utile pour réduire les coûts.",
+    "example_es": "Esta medida es útil para reducir costos.",
+    "note": "coloc. mesure + utile"
+   },
+   {
+    "t": "vérifiable",
+    "es": "verificable",
+    "example": "Les données doivent être vérifiables par des experts indépendants.",
+    "example_es": "Los datos deben ser verificables por expertos independientes.",
+    "note": "coloc. données + vérifiables"
+   }
+  ]
+ }
+]

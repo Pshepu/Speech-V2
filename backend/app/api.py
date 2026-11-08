@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import random
 import re
+from datetime import date
 from difflib import SequenceMatcher
 
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
@@ -11,7 +12,7 @@ from fastapi.concurrency import run_in_threadpool
 from fastapi.responses import Response
 from pydantic import BaseModel
 
-from . import assessment, audio, config, content, db, g2p, listening, llm, missions, planner, pronunciation, srs, stt, tts
+from . import assessment, audio, backup, config, content, db, g2p, listening, llm, missions, planner, pronunciation, srs, stt, tts
 
 router = APIRouter(prefix="/api")
 TARGET = config.TARGET_NAMES
@@ -74,6 +75,42 @@ def put_settings(s: SettingsIn):
         if v is not None:
             db.set_setting(k, v)
     return meta(lang)
+
+
+@router.get("/backup")
+def backup_list():
+    return {"dir": str(backup.backup_dir()), "backups": backup.list_backups()}
+
+
+@router.post("/backup/now")
+def backup_now():
+    p = backup.make_backup()
+    return {"ok": True, "file": str(p)}
+
+
+@router.get("/backup/export")
+def backup_export():
+    from fastapi.responses import FileResponse
+    p = backup.export_copy()
+    return FileResponse(p, filename=p.name, media_type="application/octet-stream")
+
+
+class RestoreIn(BaseModel):
+    name: str
+
+
+@router.post("/backup/restore")
+def backup_restore(r: RestoreIn):
+    try:
+        backup.restore(r.name)
+    except FileNotFoundError:
+        raise HTTPException(404, "copia no encontrada")
+    return {"ok": True}
+
+
+@router.get("/journey")
+def journey(lang: str | None = None):
+    return planner.journey(L(lang))
 
 
 @router.get("/plan")
@@ -871,6 +908,38 @@ def missions_list(lang: str | None = None):
     return missions.list_missions(L(lang))
 
 
+DAILY_THEMES = [
+    "a job interview for a software position", "renting a car on a road trip", "a problem with an online order",
+    "a doctor's appointment", "planning a weekend trip with a friend", "a tech support call",
+    "a misunderstanding at a restaurant", "negotiating a deadline with a client", "meeting a colleague's family",
+    "lost luggage at an airport", "a gym membership cancellation", "a team retrospective after a failed sprint",
+    "buying a second-hand laptop", "a parent-teacher style meeting about a project", "a surprise party plan",
+]
+
+
+@router.get("/missions/daily")
+async def mission_daily(lang: str | None = None):
+    """Una misión nueva cada día, generada a tu nivel (se reutiliza durante todo el día)."""
+    lang = L(lang)
+    key = f"daily_mission_{lang}"
+    saved = db.get_setting(key)
+    if saved and saved.get("day") == db.today():
+        m = missions.get_mission(lang, saved["id"])
+        if m:
+            return missions.public_mission(m)
+    level = db.get_setting(f"level_{lang}", "A1")
+    facts = db.get_setting("learner_profile", [])
+    theme = DAILY_THEMES[date.today().toordinal() % len(DAILY_THEMES)]
+    if facts:
+        theme += f" (if it fits, connect it to the learner's life: {'; '.join(facts[-5:])})"
+    try:
+        m = await missions.generate_mission(lang, level, theme)
+    except llm.LLMError as e:
+        _llm_error(e)
+    db.set_setting(key, {"day": db.today(), "id": m["id"]})
+    return missions.public_mission(m)
+
+
 @router.get("/missions/{mission_id}")
 def mission_get(mission_id: str, lang: str | None = None):
     m = missions.get_mission(L(lang), mission_id)
@@ -983,7 +1052,7 @@ async def run_finish(run_id: int):
         raise HTTPException(404, "partida no encontrada")
 
 
-@router.get("/runs/{run_id}")
+@router.get("/runs/{run_id:int}")
 def run_get(run_id: int):
     row = db.one("SELECT * FROM mission_runs WHERE id=?", (run_id,))
     if not row:
@@ -994,6 +1063,35 @@ def run_get(run_id: int):
             "result": json.loads(row["result"]) if row["result"] else None}
 
 
+@router.get("/runs/unfinished")
+def runs_unfinished(lang: str | None = None):
+    """Misiones y conversaciones empezadas y no terminadas, para retomarlas donde las dejaste."""
+    rows = db.query("SELECT id, mission_id, mode, mission, transcript, state, started FROM mission_runs "
+                    "WHERE lang=? AND finished IS NULL ORDER BY id DESC LIMIT 20", (L(lang),))
+    out, seen = [], set()
+    for r in rows:
+        tr = json.loads(r["transcript"])
+        user_turns = sum(1 for t in tr if t["role"] == "user")
+        if user_turns == 0 or r["mission_id"] in seen:
+            continue  # sin respuestas tuyas, o ya hay una partida más reciente de esa misión
+        seen.add(r["mission_id"])
+        m = json.loads(r["mission"])
+        st = json.loads(r["state"])
+        out.append({"run_id": r["id"], "mission_id": r["mission_id"], "title": m.get("title"),
+                    "character": m.get("character", {}).get("name"), "mode": r["mode"], "free": m.get("free", False),
+                    "done": len(st.get("done", [])), "objectives": len(m.get("objectives", [])),
+                    "turns": user_turns, "started": r["started"]})
+    return out
+
+
+@router.delete("/runs/{run_id:int}")
+def run_discard(run_id: int):
+    """Descarta una partida a medias (queda en el historial como abandonada)."""
+    db.execute("UPDATE mission_runs SET finished=?, result=? WHERE id=? AND finished IS NULL",
+               (db.now_iso(), json.dumps({"abandoned": True}), run_id))
+    return {"ok": True}
+
+
 @router.get("/runs")
 def runs_list(lang: str | None = None):
     rows = db.query("SELECT id, mission_id, mode, result, started, finished FROM mission_runs WHERE lang=? "
@@ -1002,6 +1100,7 @@ def runs_list(lang: str | None = None):
         res = json.loads(r.pop("result") or "{}")
         r["score"] = res.get("score")
         r["success"] = res.get("success")
+        r["abandoned"] = bool(res.get("abandoned"))
     return rows
 
 

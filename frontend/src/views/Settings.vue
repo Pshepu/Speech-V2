@@ -8,6 +8,18 @@ const s = ref({ ...app.meta.settings })
 const theme = ref((() => { try { return localStorage.getItem('theme') || 'auto' } catch { return 'auto' } })())
 const saved = ref(false)
 const facts = ref('')
+const backups = ref<any>(null)
+async function loadBackups() { backups.value = await api.get('/backup') }
+onMounted(loadBackups)
+async function backupNow() { await api.post('/backup/now'); app.notify('Copia guardada', 'good'); loadBackups() }
+async function restore(name: string) {
+  if (!confirm(`¿Restaurar tu progreso a la copia "${name}"?
+
+Antes se guardará automáticamente una copia del estado actual, así que no pierdes nada.`)) return
+  await api.post('/backup/restore', { name })
+  app.notify('Progreso restaurado', 'good')
+  setTimeout(() => location.reload(), 800)
+}
 onMounted(async () => { facts.value = ((await api.get('/profile')).facts || []).join('\n') })
 async function saveFacts() {
   await api.put('/profile', { facts: facts.value.split('\n') })
@@ -54,6 +66,21 @@ const engine: Record<string, string> = { ready: '✅ Listo', loading: '⏳ Carga
       <textarea v-model="facts" rows="5" placeholder="works as a nurse&#10;loves hiking&#10;wants to move to Canada"></textarea>
       <button class="btn" style="margin-top:8px" @click="saveFacts">Guardar perfil</button>
     </div>
+    <div class="card" v-if="backups">
+      <h3>💾 Tu progreso está a salvo</h3>
+      <p class="muted">Todo se guarda al instante en tu PC. Además, cada día (y cada 2 horas mientras usas la app) se guarda una copia en <b>{{ backups.dir }}</b>. Se conservan los últimos 30 días.</p>
+      <div class="row" style="margin-bottom:10px">
+        <button class="btn" @click="backupNow">Hacer copia ahora</button>
+        <a class="btn" href="/api/backup/export">⬇️ Descargar mi progreso</a>
+      </div>
+      <details>
+        <summary class="muted">Copias guardadas ({{ backups.backups.length }})</summary>
+        <div v-for="b in backups.backups" :key="b.name" class="row between brow">
+          <span>{{ b.name }} <small class="muted">· {{ b.modified.replace('T', ' ') }} · {{ b.size_kb }} KB</small></span>
+          <button class="btn sm ghost" @click="restore(b.name)">Restaurar</button>
+        </div>
+      </details>
+    </div>
     <div class="card">
       <h3>Estado del sistema</h3>
       <p>IA (Groq): {{ app.aiReady ? '✅ Configurada' : '❌ Falta GROQ_API_KEY en .env' }}</p>
@@ -66,4 +93,5 @@ const engine: Record<string, string> = { ready: '✅ Listo', loading: '⏳ Carga
 <style scoped>
 .form { display: grid; gap: 8px; max-width: 520px; }
 .form label { margin-top: 8px; }
+.brow { padding: 6px 0; border-bottom: 1px solid var(--border); }
 </style>

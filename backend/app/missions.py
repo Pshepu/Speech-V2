@@ -57,6 +57,11 @@ Possible complication to introduce naturally after a few turns: {m.get("complica
 - Do NOT volunteer the information the learner must obtain: they must ask for it.
 - Replies: 1-3 short sentences, natural spoken language. {LEVEL_STYLE.get(m.get("level", "A2"), "")}
 - Be realistic: if the learner is rude or unclear, react like a real person would.
+- NEVER stall. Every reply must move the scene forward. Never say "please wait", "still checking" or "hold on" twice.
+- If a complication blocks progress, tell the learner CLEARLY what you need from them (e.g. "Could you spell your surname for me?").
+  A complication must be resolved within 2 learner turns, even if the learner's answer is imperfect.
+- If the learner asks for something before it's possible, say exactly what must happen first.
+- If the learner seems confused ("?", "what?", "sorry?"), rephrase what you said more simply and slowly.
 
 ## Learner's mission objectives (secret from the learner's perspective, you just track them)
 {objs}
@@ -261,12 +266,20 @@ async def turn(run_id: int, text: str) -> dict:
     messages = [{"role": "system", "content": _character_system(m, lang, run["mode"], done_map)}]
     for t in transcript[-16:]:
         messages.append({"role": t["role"], "content": t["content"]})
+    stall = int(state.get("stall", 0))
+    if stall >= 2 and not m.get("free"):
+        # "Director de escena": la conversación lleva varios turnos sin avanzar.
+        messages.append({"role": "system", "content":
+            f"[Scene director: the scene has been stuck for {stall} turns. In THIS reply, resolve any pending "
+            "complication and move the scene forward, or ask the learner directly and simply for the one thing "
+            "you need. Do not ask them to wait again.]"})
     res = await llm.chat(messages, json_mode=True, temperature=0.7, max_tokens=1200)
 
     reply = (res.get("reply") or "...").strip()
     valid_ids = {o["id"] for o in m["objectives"]}
     newly = [o for o in (res.get("objectives_done") or []) if o in valid_ids and o not in state["done"]]
     state["done"] = sorted(set(state["done"]) | set(newly))
+    state["stall"] = 0 if newly else stall + 1
     corr = res.get("correction")
     if isinstance(corr, dict) and corr.get("original") and corr.get("corrected") \
             and corr["original"].strip().lower() != corr["corrected"].strip().lower() \
@@ -293,6 +306,7 @@ async def turn(run_id: int, text: str) -> dict:
         "mission_failed": failed,
         "out_of_turns": out_of_turns and not complete,
         "turns_left": max(0, m.get("max_turns", 16) - user_turns),
+        "stuck": state["stall"] >= 3 and not m.get("free"),  # el frontend ofrece una pista
     }
 
 

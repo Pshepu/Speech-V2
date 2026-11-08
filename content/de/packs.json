@@ -1,0 +1,1595 @@
+[
+ {
+  "id": "de-redewendungen",
+  "level": "B2",
+  "title": "Redewendungen",
+  "description": "Expresiones idiomáticas alemanas frecuentes.",
+  "items": [
+   {
+    "t": "auf die Nerven gehen",
+    "es": "molestar",
+    "example": "Der ständige Lärm geht mir auf die Nerven.",
+    "example_es": "El ruido constante me molesta.",
+    "note": "informal, evita 'nerven' en contextos formales"
+   },
+   {
+    "t": "ein Herz aus Gold haben",
+    "es": "tener un gran corazón",
+    "example": "Er hat ein Herz aus Gold, hilft immer gern.",
+    "example_es": "Tiene un gran corazón, siempre ayuda.",
+    "note": "uso figurado, no literal"
+   },
+   {
+    "t": "durch die Decke gehen",
+    "es": "salir de control",
+    "example": "Die Stimmung geht durch die Decke.",
+    "example_es": "La atmósfera se descontrola.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "den Kopf verlieren",
+    "es": "perder la cabeza",
+    "example": "Sie hat den Kopf verloren, als er kam.",
+    "example_es": "Perdió la cabeza cuando llegó.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "mit dem Feuer spielen",
+    "es": "jugar con fuego",
+    "example": "Er spielt mit dem Feuer, wenn er raucht.",
+    "example_es": "Juega con fuego cuando fuma.",
+    "note": "coloquial, riesgo"
+   },
+   {
+    "t": "auf dem Holzweg sein",
+    "es": "estar equivocado",
+    "example": "Du bist auf dem Holzweg, das ist falsch.",
+    "example_es": "Estás equivocado, eso es falso.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "in den sauren Apfel beißen",
+    "es": "aceptar una tarea difícil",
+    "example": "Man muss den sauren Apfel beißen, wenn man Erfolg will.",
+    "example_es": "Hay que aceptar una tarea difícil para tener éxito.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "den Nagel auf die Spur bringen",
+    "es": "encontrar la causa",
+    "example": "Wir müssen den Nagel auf die Spur bringen.",
+    "example_es": "Tenemos que encontrar la causa.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "etwas auf die lange Bank schieben",
+    "es": "posponer",
+    "example": "Er schiebt das Projekt auf die lange Bank.",
+    "example_es": "Él pospone el proyecto.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "ein Auge zudrücken",
+    "es": "cómplice",
+    "example": "Er hat ein Auge zudrücken, wenn er lügt.",
+    "example_es": "Él cierra los ojos cuando miente.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "auf dem falschen Fuß erwachen",
+    "es": "despertar confundido",
+    "example": "Er erwachte auf dem falschen Fuß.",
+    "example_es": "Se despertó confundido.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "sich die Hände voll machen",
+    "es": "hacerse cargo",
+    "example": "Er macht sich die Hände voll, um die Arbeit zu erledigen.",
+    "example_es": "Se hace cargo de la tarea.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "eine Handvoll Glück haben",
+    "es": "tener suerte",
+    "example": "Sie hat eine Handvoll Glück, alles klappt.",
+    "example_es": "Tiene suerte, todo funciona.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "ein Blatt vor die Nase haben",
+    "es": "ser ingenuo",
+    "example": "Er hat ein Blatt vor die Nase, glaubt alles.",
+    "example_es": "Es ingenuo, cree todo.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "auf die Kante gehen",
+    "es": "perder la paciencia",
+    "example": "Er geht auf die Kante, wenn er warten muss.",
+    "example_es": "Se enfada cuando debe esperar.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "in der Klemme stecken",
+    "es": "estar atascado",
+    "example": "Sie stecken in der Klemme, kein Weg raus.",
+    "example_es": "Están atascados, sin salida.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "ein Herz für jemanden haben",
+    "es": "tener cariño por alguien",
+    "example": "Er hat ein Herz für sie, hilft immer.",
+    "example_es": "Tiene cariño por ella, siempre ayuda.",
+    "note": "coloquial, figurado"
+   },
+   {
+    "t": "in die Pfanne gehen",
+    "es": "fallar",
+    "example": "Die Idee geht in die Pfanne, niemand mag sie.",
+    "example_es": "La idea falla, nadie la quiere.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "den Ball ins Rollen bringen",
+    "es": "iniciar algo",
+    "example": "Der Plan bringt den Ball ins Rollen.",
+    "example_es": "El plan inicia algo.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "etwas auf die leichte Schulter nehmen",
+    "es": "tomar algo a la ligera",
+    "example": "Er nimmt das Problem auf die leichte Schulter.",
+    "example_es": "Toma el problema a la ligera.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "die Katze im Sack kaufen",
+    "es": "comprar sin revisar",
+    "example": "Er kauft die Katze im Sack, ohne zu prüfen.",
+    "example_es": "Compra sin revisar.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "etwas in der Tasche haben",
+    "es": "tener una ventaja",
+    "example": "Er hat etwas in der Tasche, gewinnt leicht.",
+    "example_es": "Tiene una ventaja, gana fácilmente.",
+    "note": "coloquial, no literal"
+   },
+   {
+    "t": "sich die Luft holen",
+    "es": "tomar aire",
+    "example": "Er holt sich die Luft, nach dem Lauf.",
+    "example_es": "Toma aire después de correr.",
+    "note": "coloquial, literal"
+   },
+   {
+    "t": "den Nagel auf den Kopf treffen",
+    "es": "dar en el clavo",
+    "example": "Sie hat den Nagel auf den Kopf getroffen, als sie die Fehler aufzeigte.",
+    "example_es": "Ella dio en el clavo cuando señaló los errores.",
+    "note": "formal e informal"
+   },
+   {
+    "t": "eine gute Basis schaffen",
+    "es": "sentar una buena base",
+    "example": "Eine klare Zieldefinition schafft eine gute Basis für den Erfolg.",
+    "example_es": "Establecer una definición clara de objetivos crea una buena base para el éxito.",
+    "note": "formal"
+   },
+   {
+    "t": "eine Brücke bauen",
+    "es": "construir puentes",
+    "example": "Wir müssen eine Brücke bauen, um die Abteilungen zu verknüpfen.",
+    "example_es": "Debemos construir puentes para conectar los departamentos.",
+    "note": "coloquial"
+   },
+   {
+    "t": "den Faden verlieren",
+    "es": "perder el hilo",
+    "example": "Er hat den Faden verloren, als die Diskussion zu komplex wurde.",
+    "example_es": "Perdió el hilo cuando la discusión se volvió compleja.",
+    "note": "coloquial"
+   },
+   {
+    "t": "eine klare Linie ziehen",
+    "es": "establecer una línea clara",
+    "example": "Wir ziehen jetzt eine klare Linie, um Missverständnisse zu vermeiden.",
+    "example_es": "Establecemos una línea clara para evitar malentendidos.",
+    "note": "formal"
+   },
+   {
+    "t": "den Teufel an die Wand malen",
+    "es": "predecir lo peor",
+    "example": "Er malt den Teufel an die Wand, obwohl das Ergebnis positiv war.",
+    "example_es": "El predijo lo peor aunque el resultado fue positivo.",
+    "note": "coloquial"
+   },
+   {
+    "t": "eine neue Richtung einschlagen",
+    "es": "tomar una nueva dirección",
+    "example": "Nach dem Rückschlag hat das Team eine neue Richtung eingeschlagen.",
+    "example_es": "El equipo tomó una nueva dirección tras el revés.",
+    "note": "formal"
+   },
+   {
+    "t": "den Hammer auf den Nagel schlagen",
+    "es": "hacer algo decisivo",
+    "example": "Wir müssen den Hammer auf den Nagel schlagen, um die Deadline einzuhalten.",
+    "example_es": "Debemos hacer algo decisivo para cumplir la fecha límite.",
+    "note": "coloquial"
+   },
+   {
+    "t": "eine klare Vorstellung haben",
+    "es": "tener una idea clara",
+    "example": "Sie hat eine klare Vorstellung davon, wie das Projekt laufen soll.",
+    "example_es": "Ella tiene una idea clara de cómo debe funcionar el proyecto.",
+    "note": "formal"
+   },
+   {
+    "t": "eine klare Linie verfolgen",
+    "es": "seguir una línea clara",
+    "example": "Wir verfolgen eine klare Linie, um die Qualität zu sichern.",
+    "example_es": "Seguimos una línea clara para asegurar la calidad.",
+    "note": "formal"
+   },
+   {
+    "t": "eine klare Vision haben",
+    "es": "tener una visión clara",
+    "example": "Er hat eine klare Vision für die Zukunft des Unternehmens.",
+    "example_es": "Él tiene una visión clara del futuro de la empresa.",
+    "note": "formal"
+   },
+   {
+    "t": "eine klare Strategie entwickeln",
+    "es": "desarrollar una estrategia clara",
+    "example": "Wir entwickeln eine klare Strategie, um die Marktanteile zu erhöhen.",
+    "example_es": "Desarrollamos una estrategia clara para aumentar la cuota de mercado.",
+    "note": "formal"
+   },
+   {
+    "t": "eine klare Zielsetzung haben",
+    "es": "tener un objetivo claro",
+    "example": "Sie hat eine klare Zielsetzung für die nächsten fünf Jahre.",
+    "example_es": "Ella tiene un objetivo claro para los próximos cinco años.",
+    "note": "formal"
+   },
+   {
+    "t": "eine klare Richtung vorgeben",
+    "es": "establecer una dirección clara",
+    "example": "Der Chef gibt eine klare Richtung vor, damit alle wissen, was zu tun ist.",
+    "example_es": "El jefe establece una dirección clara para que todos sepan qué hacer.",
+    "note": "formal"
+   },
+   {
+    "t": "eine klare Linie setzen",
+    "es": "establecer una línea clara",
+    "example": "Wir setzen jetzt eine klare Linie, um die Effizienz zu steigern.",
+    "example_es": "Establecemos una línea clara para aumentar la eficiencia.",
+    "note": "formal"
+   }
+  ]
+ },
+ {
+  "id": "de-konnektoren",
+  "level": "B2",
+  "title": "Konnektoren",
+  "description": "Conectores para argumentar (¡ojo con la posición del verbo!).",
+  "items": [
+   {
+    "t": "und",
+    "es": "y",
+    "example": "Ich lese gern und schreibe gern.",
+    "example_es": "Yo leo y escribo.",
+    "note": ""
+   },
+   {
+    "t": "außerdem",
+    "es": "además",
+    "example": "Wir haben Zeit, außerdem haben wir Geld.",
+    "example_es": "Tenemos tiempo, además tenemos dinero.",
+    "note": ""
+   },
+   {
+    "t": "zudem",
+    "es": "además",
+    "example": "Zudem ist das Wetter schön.",
+    "example_es": "Además el clima es agradable.",
+    "note": ""
+   },
+   {
+    "t": "außerdem noch",
+    "es": "además",
+    "example": "Er kommt, außerdem noch zu spät.",
+    "example_es": "Él viene, además aún llega tarde.",
+    "note": ""
+   },
+   {
+    "t": "sowie",
+    "es": "así como",
+    "example": "Wir essen Brot sowie Butter.",
+    "example_es": "Comemos pan así como mantequilla.",
+    "note": ""
+   },
+   {
+    "t": "sowie auch",
+    "es": "así como también",
+    "example": "Er spricht Englisch sowie auch Spanisch.",
+    "example_es": "Él habla inglés así como también español.",
+    "note": ""
+   },
+   {
+    "t": "und auch",
+    "es": "y también",
+    "example": "Sie spielt Tennis und auch Golf.",
+    "example_es": "Ella juega tenis y también golf.",
+    "note": ""
+   },
+   {
+    "t": "und zusätzlich",
+    "es": "y además",
+    "example": "Er arbeitet, und zusätzlich studiert er.",
+    "example_es": "Él trabaja y además estudia.",
+    "note": ""
+   },
+   {
+    "t": "und außerdem",
+    "es": "y además",
+    "example": "Sie fährt Auto und außerdem Fahrrad.",
+    "example_es": "Ella conduce auto y además bicicleta.",
+    "note": ""
+   },
+   {
+    "t": "und doch",
+    "es": "y sin embargo",
+    "example": "Er war müde, und doch ging er.",
+    "example_es": "Él estaba cansado, y sin embargo fue.",
+    "note": ""
+   },
+   {
+    "t": "doch",
+    "es": "pero",
+    "example": "Er wollte gehen, doch blieb er.",
+    "example_es": "Él quería ir, pero se quedó.",
+    "note": ""
+   },
+   {
+    "t": "aber",
+    "es": "pero",
+    "example": "Ich wollte gehen, aber ich blieb.",
+    "example_es": "Yo quería ir, pero me quedé.",
+    "note": ""
+   },
+   {
+    "t": "während",
+    "es": "mientras",
+    "example": "Ich lese, während er schreibt.",
+    "example_es": "Yo leo mientras él escribe.",
+    "note": ""
+   },
+   {
+    "t": "währenddessen",
+    "es": "mientras tanto",
+    "example": "Er arbeitet, währenddessen ich schlafe.",
+    "example_es": "Él trabaja mientras tanto yo duermo.",
+    "note": ""
+   },
+   {
+    "t": "während dem",
+    "es": "mientras que",
+    "example": "Während dem Gespräch war er laut.",
+    "example_es": "Mientras la conversación él era ruidoso.",
+    "note": ""
+   },
+   {
+    "t": "trotzdem",
+    "es": "aun así",
+    "example": "Er war krank, trotzdem kam er.",
+    "example_es": "Él estaba enfermo, aun así vino.",
+    "note": ""
+   },
+   {
+    "t": "obwohl",
+    "es": "aunque",
+    "example": "Obwohl es regnete, gingen wir.",
+    "example_es": "Aunque llovía, fuimos.",
+    "note": ""
+   },
+   {
+    "t": "obwohl es",
+    "es": "aunque sea",
+    "example": "Obwohl es schwierig ist, probiere ich.",
+    "example_es": "Aunque sea difícil, lo intento.",
+    "note": ""
+   },
+   {
+    "t": "obwohl er",
+    "es": "aunque él",
+    "example": "Obwohl er spät kam, war er freundlich.",
+    "example_es": "Aunque él llegó tarde, era amable.",
+    "note": ""
+   },
+   {
+    "t": "obwohl wir",
+    "es": "aunque nosotros",
+    "example": "Obwohl wir müde waren, spielten wir.",
+    "example_es": "Aunque estábamos cansados, jugamos.",
+    "note": ""
+   },
+   {
+    "t": "obwohl die",
+    "es": "aunque la",
+    "example": "Obwohl die Arbeit schwer war, halfen wir.",
+    "example_es": "Aunque el trabajo era difícil, ayudamos.",
+    "note": ""
+   },
+   {
+    "t": "obwohl die Situation",
+    "es": "aunque la situación",
+    "example": "Obwohl die Situation kritisch war, blieb er ruhig.",
+    "example_es": "Aunque la situación era crítica, permaneció tranquilo.",
+    "note": ""
+   },
+   {
+    "t": "obwohl die Leute",
+    "es": "aunque la gente",
+    "example": "Obwohl die Leute skeptisch waren, blieb ich.",
+    "example_es": "Aunque la gente era escéptica, me quedé.",
+    "note": ""
+   },
+   {
+    "t": "obwohl die Zeit",
+    "es": "aunque el tiempo",
+    "example": "Obwohl die Zeit knapp war, schaffte ich es.",
+    "example_es": "Aunque el tiempo era limitado, lo logré.",
+    "note": ""
+   },
+   {
+    "t": "obwohl die Kosten",
+    "es": "aunque los costos",
+    "example": "Obwohl die Kosten hoch waren, kauften wir.",
+    "example_es": "Aunque los costos eran altos, compramos.",
+    "note": ""
+   },
+   {
+    "t": "obwohl die Lage",
+    "es": "aunque la situación",
+    "example": "Obwohl die Lage unsicher war, gingen wir.",
+    "example_es": "Aunque la situación era incierta, fuimos.",
+    "note": ""
+   },
+   {
+    "t": "obwohl die Situation schwierig",
+    "es": "aunque la situación difícil",
+    "example": "Obwohl die Situation schwierig war, blieb ich.",
+    "example_es": "Aunque la situación era difícil, me quedé.",
+    "note": ""
+   },
+   {
+    "t": "obwohl die Situation schwierig war",
+    "es": "aunque la situación difícil fue",
+    "example": "Obwohl die Situation schwierig war, blieb ich.",
+    "example_es": "Aunque la situación fue difícil, me quedé.",
+    "note": ""
+   },
+   {
+    "t": "weil",
+    "es": "porque",
+    "example": "Ich gehe nach Hause, weil ich müde bin.",
+    "example_es": "Voy a casa porque estoy cansado.",
+    "note": "Verbo en infinitivo después de weil"
+   },
+   {
+    "t": "daher",
+    "es": "por eso",
+    "example": "Er hat die Prüfung bestanden, daher bekommt er einen Bonus.",
+    "example_es": "Él aprobó el examen, por eso recibe un bono.",
+    "note": "Verbo en infinitivo después de daher"
+   },
+   {
+    "t": "deshalb",
+    "es": "por eso",
+    "example": "Wir müssen früh aufstehen, deshalb ist der Bus schon weg.",
+    "example_es": "Tenemos que levantarnos temprano, por eso el autobús ya se fue.",
+    "note": "Verbo en infinitivo después de deshalb"
+   },
+   {
+    "t": "damit",
+    "es": "para que",
+    "example": "Sie lernt Deutsch, damit sie in Berlin arbeiten kann.",
+    "example_es": "Ella aprende alemán para que pueda trabajar en Berlín.",
+    "note": "Verbo en infinitivo después de damit"
+   },
+   {
+    "t": "so dass",
+    "es": "de modo que",
+    "example": "Er hat das Fenster geöffnet, so dass frische Luft hereinkommt.",
+    "example_es": "Él abrió la ventana, de modo que entra aire fresco.",
+    "note": "Verbo en infinitivo después de so dass"
+   },
+   {
+    "t": "falls",
+    "es": "si",
+    "example": "Falls es regnet, bleiben wir zu Hause.",
+    "example_es": "Si llueve, nos quedamos en casa.",
+    "note": "Verbo en infinitivo después de falls"
+   },
+   {
+    "t": "solange",
+    "es": "mientras que",
+    "example": "Sie arbeitet, solange ihr Chef nicht kommt.",
+    "example_es": "Ella trabaja mientras que su jefe no llega.",
+    "note": "Verbo en infinitivo después de solange"
+   },
+   {
+    "t": "wenn",
+    "es": "si",
+    "example": "Wenn du Zeit hast, komm vorbei.",
+    "example_es": "Si tienes tiempo, ven.",
+    "note": "Verbo en infinitivo después de wenn"
+   },
+   {
+    "t": "nachdem",
+    "es": "después de que",
+    "example": "Nachdem ich gegessen hatte, ging ich ins Kino.",
+    "example_es": "Después de haber comido, fui al cine.",
+    "note": "Verbo en infinitivo después de nachdem"
+   },
+   {
+    "t": "bevor",
+    "es": "antes de que",
+    "example": "Bevor du gehst, ruf mich an.",
+    "example_es": "Antes de que te vayas, llámame.",
+    "note": "Verbo en infinitivo después de bevor"
+   },
+   {
+    "t": "seitdem",
+    "es": "desde que",
+    "example": "Seitdem er hier ist, hat er viel gelernt.",
+    "example_es": "Desde que está aquí, ha aprendido mucho.",
+    "note": "Verbo en infinitivo después de seitdem"
+   },
+   {
+    "t": "außerhalb von",
+    "es": "fuera de",
+    "example": "Außerhalb von Berlin gibt es viele kleine Städte.",
+    "example_es": "Fuera de Berlín hay muchas ciudades pequeñas.",
+    "note": "Verbo en infinitivo después de außerhalb von"
+   },
+   {
+    "t": "wegen",
+    "es": "debido a",
+    "example": "Wegen des Sturms blieb die Schule geschlossen.",
+    "example_es": "Debido al huracán, la escuela cerró.",
+    "note": "Verbo en infinitivo después de wegen"
+   },
+   {
+    "t": "aufgrund von",
+    "es": "debido a",
+    "example": "Aufgrund von Krankheit konnte er nicht kommen.",
+    "example_es": "Debido a la enfermedad, no pudo venir.",
+    "note": "Verbo en infinitivo después de aufgrund von"
+   },
+   {
+    "t": "trotz",
+    "es": "a pesar de",
+    "example": "Trotz des Wetters gingen wir spazieren.",
+    "example_es": "A pesar del clima, fuimos a pasear.",
+    "note": "Verbo en infinitivo después de trotz"
+   },
+   {
+    "t": "falls nicht",
+    "es": "si no",
+    "example": "Falls nicht, dann gehen wir nach Hause.",
+    "example_es": "Si no, entonces vamos a casa.",
+    "note": "Verbo en infinitivo después de falls nicht"
+   },
+   {
+    "t": "falls doch",
+    "es": "si sí",
+    "example": "Falls doch, können wir das ändern.",
+    "example_es": "Si sí, podemos cambiarlo.",
+    "note": "Verbo en infinitivo después de falls doch"
+   },
+   {
+    "t": "wird es sein, dass",
+    "es": "será que",
+    "example": "Wird es sein, dass er kommt?",
+    "example_es": "¿Será que viene?",
+    "note": "Verbo en infinitivo después de wird es sein, dass"
+   },
+   {
+    "t": "damit nicht",
+    "es": "para no",
+    "example": "Ich mache das, damit nicht Fehler passieren.",
+    "example_es": "Lo hago para que no ocurran errores.",
+    "note": "Verbo en infinitivo después de damit nicht"
+   }
+  ]
+ },
+ {
+  "id": "de-it",
+  "level": "B1",
+  "title": "Deutsch für die IT",
+  "description": "Vocabulario para trabajar en empresas tech en Alemania.",
+  "items": [
+   {
+    "t": "der Code",
+    "es": "el código",
+    "example": "Der Code muss sauber sein.",
+    "example_es": "El código debe estar limpio.",
+    "note": "Uso formal, evita 'código' sin artículo."
+   },
+   {
+    "t": "die Variable",
+    "es": "la variable",
+    "example": "Die Variable ist nicht initialisiert.",
+    "example_es": "La variable no está inicializada.",
+    "note": "No se usa 'variable' sin artículo."
+   },
+   {
+    "t": "der Compiler",
+    "es": "el compilador",
+    "example": "Der Compiler hat einen Fehler gefunden.",
+    "example_es": "El compilador encontró un error.",
+    "note": "Técnico, registro formal."
+   },
+   {
+    "t": "die Funktion",
+    "es": "la función",
+    "example": "Die Funktion liefert das Ergebnis.",
+    "example_es": "La función devuelve el resultado.",
+    "note": "Uso formal."
+   },
+   {
+    "t": "der Algorithmus",
+    "es": "el algoritmo",
+    "example": "Der Algorithmus ist effizient.",
+    "example_es": "El algoritmo es eficiente.",
+    "note": "Formal."
+   },
+   {
+    "t": "die Schnittstelle",
+    "es": "la interfaz",
+    "example": "Die Schnittstelle ist offen.",
+    "example_es": "La interfaz está abierta.",
+    "note": "Técnico."
+   },
+   {
+    "t": "der Fehler",
+    "es": "el error",
+    "example": "Der Fehler wurde behoben.",
+    "example_es": "El error fue corregido.",
+    "note": "Formal."
+   },
+   {
+    "t": "das Modul",
+    "es": "el módulo",
+    "example": "Das Modul ist geladen.",
+    "example_es": "El módulo está cargado.",
+    "note": "Técnico."
+   },
+   {
+    "t": "die Bibliothek",
+    "es": "la biblioteca",
+    "example": "Die Bibliothek ist veraltet.",
+    "example_es": "La biblioteca está obsoleta.",
+    "note": "Formal."
+   },
+   {
+    "t": "der Server",
+    "es": "el servidor",
+    "example": "Der Server läuft seit gestern.",
+    "example_es": "El servidor funciona desde ayer.",
+    "note": "Técnico."
+   },
+   {
+    "t": "die Datenbank",
+    "es": "la base de datos",
+    "example": "Die Datenbank ist voll.",
+    "example_es": "La base de datos está llena.",
+    "note": "Formal."
+   },
+   {
+    "t": "das Framework",
+    "es": "el framework",
+    "example": "Das Framework unterstützt MVC.",
+    "example_es": "El framework soporta MVC.",
+    "note": "Técnico."
+   },
+   {
+    "t": "der Branch",
+    "es": "la rama",
+    "example": "Der Branch ist stabil.",
+    "example_es": "La rama es estable.",
+    "note": "Técnico."
+   },
+   {
+    "t": "die Pull‑Request",
+    "es": "la solicitud de extracción",
+    "example": "Die Pull‑Request wurde angenommen.",
+    "example_es": "La solicitud de extracción fue aceptada.",
+    "note": "Técnico."
+   },
+   {
+    "t": "der Merge",
+    "es": "la fusión",
+    "example": "Der Merge wurde erfolgreich.",
+    "example_es": "La fusión fue exitosa.",
+    "note": "Técnico."
+   },
+   {
+    "t": "die API",
+    "es": "la API",
+    "example": "Die API liefert JSON.",
+    "example_es": "La API devuelve JSON.",
+    "note": "Técnico."
+   },
+   {
+    "t": "das Deployment",
+    "es": "el despliegue",
+    "example": "Das Deployment läuft.",
+    "example_es": "El despliegue está en marcha.",
+    "note": "Técnico."
+   },
+   {
+    "t": "der Bug",
+    "es": "el bug",
+    "example": "Der Bug ist kritisch.",
+    "example_es": "El bug es crítico.",
+    "note": "Técnico."
+   },
+   {
+    "t": "die Version",
+    "es": "la versión",
+    "example": "Die Version ist 2.1.",
+    "example_es": "La versión es 2.1.",
+    "note": "Formal."
+   },
+   {
+    "t": "der Build",
+    "es": "la compilación",
+    "example": "Der Build ist fehlgeschlagen.",
+    "example_es": "La compilación falló.",
+    "note": "Técnico."
+   },
+   {
+    "t": "die Konfiguration",
+    "es": "la configuración",
+    "example": "Die Konfiguration ist korrekt.",
+    "example_es": "La configuración es correcta.",
+    "note": "Formal."
+   },
+   {
+    "t": "der Commit",
+    "es": "el commit",
+    "example": "Der Commit wurde gespeichert.",
+    "example_es": "El commit se guardó.",
+    "note": "Técnico."
+   },
+   {
+    "t": "die Refactorierung",
+    "es": "la refactorización",
+    "example": "Die Refactorierung verbessert die Lesbarkeit.",
+    "example_es": "La refactorización mejora la legibilidad.",
+    "note": "Técnico."
+   },
+   {
+    "t": "der Release",
+    "es": "el lanzamiento",
+    "example": "Der Release ist geplant.",
+    "example_es": "El lanzamiento está planificado.",
+    "note": "Formal."
+   },
+   {
+    "t": "das Teammeeting",
+    "es": "reunión de equipo",
+    "example": "Im Teammeeting besprechen wir die Sprintziele.",
+    "example_es": "En la reunión de equipo discutimos los objetivos del sprint.",
+    "note": "formal"
+   },
+   {
+    "t": "das Daily Stand‑Up",
+    "es": "stand-up diario",
+    "example": "Das Daily Stand‑Up findet jeden Morgen um 9 Uhr statt.",
+    "example_es": "El stand-up diario se lleva a cabo cada mañana a las 9.",
+    "note": "informal"
+   },
+   {
+    "t": "die Retrospektive",
+    "es": "retroalimentación",
+    "example": "Die Retrospektive hilft, Prozesse zu verbessern.",
+    "example_es": "La retroalimentación ayuda a mejorar los procesos.",
+    "note": "formal"
+   },
+   {
+    "t": "der Product Owner",
+    "es": "propietario del producto",
+    "example": "Der Product Owner priorisiert die User Stories.",
+    "example_es": "El propietario del producto prioriza las historias de usuario.",
+    "note": "formal"
+   },
+   {
+    "t": "der Scrum Master",
+    "es": "scrum master",
+    "example": "Der Scrum Master moderiert das Daily.",
+    "example_es": "El scrum master modera el stand-up.",
+    "note": "formal"
+   },
+   {
+    "t": "das Backlog",
+    "es": "lista de tareas",
+    "example": "Wir pflegen das Backlog kontinuierlich.",
+    "example_es": "Mantenemos la lista de tareas continuamente.",
+    "note": "formal"
+   },
+   {
+    "t": "die User Story",
+    "es": "historia de usuario",
+    "example": "Eine User Story beschreibt ein Feature aus Sicht des Nutzers.",
+    "example_es": "Una historia de usuario describe una característica desde la perspectiva del usuario.",
+    "note": "formal"
+   },
+   {
+    "t": "die Sprintplanung",
+    "es": "planificación del sprint",
+    "example": "Die Sprintplanung startet am Montag.",
+    "example_es": "La planificación del sprint comienza el lunes.",
+    "note": "formal"
+   },
+   {
+    "t": "der Sprint",
+    "es": "sprint",
+    "example": "Der Sprint dauert zwei Wochen.",
+    "example_es": "El sprint dura dos semanas.",
+    "note": "formal"
+   },
+   {
+    "t": "der Burndown Chart",
+    "es": "gráfico de reducción",
+    "example": "Der Burndown Chart zeigt den Fortschritt.",
+    "example_es": "El gráfico de reducción muestra el progreso.",
+    "note": "formal"
+   },
+   {
+    "t": "die Definition of Done",
+    "es": "definición de hecho",
+    "example": "Die Definition of Done ist klar definiert.",
+    "example_es": "La definición de hecho está claramente definida.",
+    "note": "formal"
+   },
+   {
+    "t": "die Kanban-Tafel",
+    "es": "tabla Kanban",
+    "example": "Die Kanban-Tafel visualisiert den Workflow.",
+    "example_es": "La tabla Kanban visualiza el flujo de trabajo.",
+    "note": "formal"
+   },
+   {
+    "t": "der Code Review",
+    "es": "revisión de código",
+    "example": "Der Code Review findet vor dem Merge statt.",
+    "example_es": "La revisión de código se realiza antes del merge.",
+    "note": "formal"
+   },
+   {
+    "t": "das Merge Request",
+    "es": "solicitud de fusión",
+    "example": "Wir eröffnen ein Merge Request für die neue Feature.",
+    "example_es": "Abrimos una solicitud de fusión para la nueva característica.",
+    "note": "formal"
+   },
+   {
+    "t": "der Pull Request",
+    "es": "solicitud de extracción",
+    "example": "Der Pull Request wurde genehmigt.",
+    "example_es": "La solicitud de extracción fue aprobada.",
+    "note": "formal"
+   },
+   {
+    "t": "die CI/CD Pipeline",
+    "es": "pipeline CI/CD",
+    "example": "Die CI/CD Pipeline automatisiert Tests und Deployments.",
+    "example_es": "La pipeline CI/CD automatiza pruebas y despliegues.",
+    "note": "formal"
+   },
+   {
+    "t": "die Testumgebung",
+    "es": "entorno de pruebas",
+    "example": "Wir testen in der Testumgebung.",
+    "example_es": "Probamos en el entorno de pruebas.",
+    "note": "formal"
+   },
+   {
+    "t": "die Stakeholder",
+    "es": "partes interesadas",
+    "example": "Die Stakeholder haben Feedback gegeben.",
+    "example_es": "Las partes interesadas dieron feedback.",
+    "note": "formal"
+   },
+   {
+    "t": "der Stakeholder-Workshop",
+    "es": "taller de partes interesadas",
+    "example": "Der Stakeholder-Workshop klärt Anforderungen.",
+    "example_es": "El taller de partes interesadas aclara requisitos.",
+    "note": "formal"
+   },
+   {
+    "t": "die Projektplanung",
+    "es": "planificación de proyecto",
+    "example": "Die Projektplanung ist abgeschlossen.",
+    "example_es": "La planificación del proyecto está completa.",
+    "note": "formal"
+   },
+   {
+    "t": "das Sprint Review",
+    "es": "revisión del sprint",
+    "example": "Das Sprint Review präsentiert die Ergebnisse.",
+    "example_es": "La revisión del sprint presenta los resultados.",
+    "note": "formal"
+   },
+   {
+    "t": "die Abnahme",
+    "es": "aceptación",
+    "example": "Die Abnahme erfolgt nach erfolgreicher Testphase.",
+    "example_es": "La aceptación ocurre después de la fase de prueba exitosa.",
+    "note": "formal"
+   },
+   {
+    "t": "der Knowledge Share",
+    "es": "compartir conocimiento",
+    "example": "Der Knowledge Share findet monatlich statt.",
+    "example_es": "El compartir conocimiento ocurre mensualmente.",
+    "note": "formal"
+   },
+   {
+    "t": "das Retrospektiv-Board",
+    "es": "tablero de retro",
+    "example": "Das Retrospektiv-Board sammelt Verbesserungsvorschläge.",
+    "example_es": "El tablero de retro recopila propuestas de mejora.",
+    "note": "formal"
+   },
+   {
+    "t": "der Lebenslauf",
+    "es": "currículum",
+    "example": "Ich habe meinen Lebenslauf aktualisiert.",
+    "example_es": "He actualizado mi currículum.",
+    "note": "formal"
+   },
+   {
+    "t": "die Bewerbung",
+    "es": "solicitud",
+    "example": "Die Bewerbung wurde gestern eingereicht.",
+    "example_es": "La solicitud fue enviada ayer.",
+    "note": "formal"
+   },
+   {
+    "t": "das Anschreiben",
+    "es": "carta de presentación",
+    "example": "Im Anschreiben erwähnte ich meine Programmierkenntnisse.",
+    "example_es": "En la carta de presentación mencioné mis conocimientos de programación.",
+    "note": "formal"
+   },
+   {
+    "t": "die Einladung",
+    "es": "invitación",
+    "example": "Die Einladung zum Vorstellungsgespräch ist per E‑Mail verschickt.",
+    "example_es": "La invitación al entrevista fue enviada por correo electrónico.",
+    "note": "formal"
+   },
+   {
+    "t": "das Vorstellungsgespräch",
+    "es": "entrevista de trabajo",
+    "example": "Das Vorstellungsgespräch fand online statt.",
+    "example_es": "La entrevista de trabajo se realizó en línea.",
+    "note": "formal"
+   },
+   {
+    "t": "der Gesprächspartner",
+    "es": "parte conversadora",
+    "example": "Der Gesprächspartner stellte viele Fragen.",
+    "example_es": "El interlocutor hizo muchas preguntas.",
+    "note": "formal"
+   },
+   {
+    "t": "die Fragen",
+    "es": "preguntas",
+    "example": "Die Fragen waren sehr technisch.",
+    "example_es": "Las preguntas fueron muy técnicas.",
+    "note": "formal"
+   },
+   {
+    "t": "die Antwort",
+    "es": "respuesta",
+    "example": "Ich habe die Antwort vorbereitet.",
+    "example_es": "Preparé la respuesta.",
+    "note": "formal"
+   },
+   {
+    "t": "der Termin",
+    "es": "cita",
+    "example": "Der Termin ist für Montag um 10 Uhr.",
+    "example_es": "La cita es para el lunes a las 10.",
+    "note": "formal"
+   },
+   {
+    "t": "das Protokoll",
+    "es": "acta",
+    "example": "Ich habe das Protokoll des Gesprächs geschrieben.",
+    "example_es": "Escribí la acta de la entrevista.",
+    "note": "formal"
+   },
+   {
+    "t": "der Vertrag",
+    "es": "contrato",
+    "example": "Der Vertrag wurde unterschrieben.",
+    "example_es": "El contrato fue firmado.",
+    "note": "formal"
+   },
+   {
+    "t": "die Vertragsbedingungen",
+    "es": "condiciones del contrato",
+    "example": "Die Vertragsbedingungen sind klar geregelt.",
+    "example_es": "Las condiciones del contrato están claramente definidas.",
+    "note": "formal"
+   },
+   {
+    "t": "die Kündigung",
+    "es": "rescindir el contrato",
+    "example": "Die Kündigung erfolgte ohne Vorwarnung.",
+    "example_es": "Se rescindió el contrato sin previo aviso.",
+    "note": "formal"
+   },
+   {
+    "t": "der Arbeitsvertrag",
+    "es": "contrato de trabajo",
+    "example": "Der Arbeitsvertrag enthält eine Probezeit.",
+    "example_es": "El contrato de trabajo incluye un período de prueba.",
+    "note": "formal"
+   },
+   {
+    "t": "das Gehalt",
+    "es": "salario",
+    "example": "Das Gehalt wird monatlich ausgezahlt.",
+    "example_es": "El salario se paga mensualmente.",
+    "note": "formal"
+   },
+   {
+    "t": "die Bonuszahlung",
+    "es": "bonificación",
+    "example": "Die Bonuszahlung erfolgte im letzten Quartal.",
+    "example_es": "La bonificación se pagó en el último trimestre.",
+    "note": "formal"
+   },
+   {
+    "t": "die Probezeit",
+    "es": "período de prueba",
+    "example": "Die Probezeit beträgt drei Monate.",
+    "example_es": "El período de prueba dura tres meses.",
+    "note": "formal"
+   },
+   {
+    "t": "der Arbeitsbeginn",
+    "es": "inicio de trabajo",
+    "example": "Der Arbeitsbeginn ist am 1. Juni.",
+    "example_es": "El inicio del trabajo es el 1 de junio.",
+    "note": "formal"
+   },
+   {
+    "t": "die Arbeitszeit",
+    "es": "horas de trabajo",
+    "example": "Die Arbeitszeit ist von 9 bis 17 Uhr.",
+    "example_es": "Las horas de trabajo son de 9 a 17.",
+    "note": "formal"
+   },
+   {
+    "t": "die Arbeitsbedingungen",
+    "es": "condiciones de trabajo",
+    "example": "Die Arbeitsbedingungen sind flexibel.",
+    "example_es": "Las condiciones de trabajo son flexibles.",
+    "note": "formal"
+   },
+   {
+    "t": "die Weiterbildung",
+    "es": "formación",
+    "example": "Die Weiterbildung ist im Unternehmen organisiert.",
+    "example_es": "La formación está organizada en la empresa.",
+    "note": "formal"
+   },
+   {
+    "t": "der Mentor",
+    "es": "mentor",
+    "example": "Der Mentor unterstützt mich bei Projekten.",
+    "example_es": "El mentor me ayuda con los proyectos.",
+    "note": "formal"
+   },
+   {
+    "t": "die Teamarbeit",
+    "es": "trabajo en equipo",
+    "example": "Die Teamarbeit ist entscheidend.",
+    "example_es": "El trabajo en equipo es decisivo.",
+    "note": "formal"
+   },
+   {
+    "t": "das Feedback",
+    "es": "retroalimentación",
+    "example": "Das Feedback war sehr positiv.",
+    "example_es": "La retroalimentación fue muy positiva.",
+    "note": "formal"
+   }
+  ]
+ },
+ {
+  "id": "de-verben-praep",
+  "level": "B1",
+  "title": "Verben mit Präpositionen",
+  "description": "Verbos con preposición fija (warten auf, sich interessieren für...).",
+  "items": [
+   {
+    "t": "anbieten",
+    "es": "ofrecer",
+    "example": "Er bietet dir ein Geschenk an.",
+    "example_es": "Él te ofrece un regalo.",
+    "note": "informal, común"
+   },
+   {
+    "t": "anrufen",
+    "es": "llamar",
+    "example": "Sie ruft mich an.",
+    "example_es": "Ella me llama.",
+    "note": "formal, común"
+   },
+   {
+    "t": "anvertrauen",
+    "es": "confiar",
+    "example": "Ich vertraue ihm mein Geheimnis an.",
+    "example_es": "Yo le confío mi secreto.",
+    "note": "formal, común"
+   },
+   {
+    "t": "aufhören",
+    "es": "dejar",
+    "example": "Wir hören den Lärm auf.",
+    "example_es": "Nosotros dejamos el ruido.",
+    "note": "formal, común"
+   },
+   {
+    "t": "aufpassen",
+    "es": "cuidar",
+    "example": "Pass auf deine Sachen auf!",
+    "example_es": "¡Cuida tus cosas!",
+    "note": "informal, común"
+   },
+   {
+    "t": "aufstehen",
+    "es": "levantarse",
+    "example": "Er steht um sechs Uhr auf.",
+    "example_es": "Él se levanta a las seis.",
+    "note": "informal, común"
+   },
+   {
+    "t": "ausgeben",
+    "es": "gastar",
+    "example": "Sie gibt ihr Geld aus.",
+    "example_es": "Ella gasta su dinero.",
+    "note": "formal, común"
+   },
+   {
+    "t": "ausziehen",
+    "es": "quitarse",
+    "example": "Er zieht sich die Jacke aus.",
+    "example_es": "Él se quita la chaqueta.",
+    "note": "informal, común"
+   },
+   {
+    "t": "beabsichtigen",
+    "es": "intentar",
+    "example": "Wir beabsichtigen, das Projekt zu starten.",
+    "example_es": "Nosotros pretendemos iniciar el proyecto.",
+    "note": "formal, común"
+   },
+   {
+    "t": "beeinflussen",
+    "es": "influir",
+    "example": "Er beeinflusst die Entscheidung stark.",
+    "example_es": "Él influye fuertemente en la decisión.",
+    "note": "informal, común"
+   },
+   {
+    "t": "begehen",
+    "es": "cometer",
+    "example": "Sie beging einen Fehler.",
+    "example_es": "Ella cometió un error.",
+    "note": "formal, común"
+   },
+   {
+    "t": "bekommen",
+    "es": "recibir",
+    "example": "Ich bekomme ein Paket.",
+    "example_es": "Yo recibo un paquete.",
+    "note": "informal, común"
+   },
+   {
+    "t": "bekämpfen",
+    "es": "combatir",
+    "example": "Wir bekämpfen die Krankheit.",
+    "example_es": "Nosotros combatimos la enfermedad.",
+    "note": "formal, común"
+   },
+   {
+    "t": "beziehen",
+    "es": "obtener",
+    "example": "Er bezieht das Geld aus dem Konto.",
+    "example_es": "Él obtiene el dinero de la cuenta.",
+    "note": "informal, común"
+   },
+   {
+    "t": "bieten",
+    "es": "ofrecer",
+    "example": "Sie bieten dem Kunden einen Rabatt an.",
+    "example_es": "Ella ofrece al cliente un descuento.",
+    "note": "formal, común"
+   },
+   {
+    "t": "binden",
+    "es": "atar",
+    "example": "Er bindet die Kette an die Tür.",
+    "example_es": "Él ata la cadena a la puerta.",
+    "note": "informal, häufig"
+   },
+   {
+    "t": "brauchen",
+    "es": "necesitar",
+    "example": "Sie braucht einen Stift.",
+    "example_es": "Ella necesita un bolígrafo.",
+    "note": "informal, común"
+   },
+   {
+    "t": "denken",
+    "es": "pensar",
+    "example": "Ich denke an dich.",
+    "example_es": "Yo pienso en ti.",
+    "note": "informal, común"
+   },
+   {
+    "t": "dringen",
+    "es": "exigir",
+    "example": "Er dringt die Wahrheit an.",
+    "example_es": "Él exige la verdad.",
+    "note": "formal, poco común"
+   },
+   {
+    "t": "einladen",
+    "es": "invitar",
+    "example": "Wir laden dich zum Abend an.",
+    "example_es": "Nosotros te invitamos a la cena.",
+    "note": "informal, común"
+   },
+   {
+    "t": "einreichen",
+    "es": "presentar",
+    "example": "Er reichte die Unterlagen an die Behörde ein.",
+    "example_es": "Él presentó los documentos a la autoridad.",
+    "note": "formal, común"
+   },
+   {
+    "t": "einsetzen",
+    "es": "poner",
+    "example": "Sie setzt die Schraube an.",
+    "example_es": "Ella pone la tuerca.",
+    "note": "informal, común"
+   },
+   {
+    "t": "einziehen",
+    "es": "mudarse",
+    "example": "Er zieht in die neue Wohnung ein.",
+    "example_es": "Él se muda al nuevo apartamento.",
+    "note": "informal, común"
+   },
+   {
+    "t": "entschuldigen",
+    "es": "disculpar",
+    "example": "Wir entschuldigen uns bei dir an.",
+    "example_es": "Nos disculpamos contigo.",
+    "note": "formal, común"
+   },
+   {
+    "t": "erzählen",
+    "es": "contar",
+    "example": "Er erzählt die Geschichte an.",
+    "example_es": "Él cuenta la historia.",
+    "note": "informal, común"
+   },
+   {
+    "t": "feiern",
+    "es": "celebrar",
+    "example": "Wir feiern die Hochzeit an.",
+    "example_es": "Nosotros celebramos la boda.",
+    "note": "informal, común"
+   },
+   {
+    "t": "fliehen",
+    "es": "huir",
+    "example": "Sie flieht vor dem Feuer an.",
+    "example_es": "Ella huye del fuego.",
+    "note": "informal, poco común"
+   },
+   {
+    "t": "folgen",
+    "es": "seguir",
+    "example": "Er folgt dem Weg an.",
+    "example_es": "Él sigue el camino.",
+    "note": "informal, común"
+   },
+   {
+    "t": "fordern",
+    "es": "exigir",
+    "example": "Wir fordern die Zahlung an.",
+    "example_es": "Nosotros exigimos el pago.",
+    "note": "formal, común"
+   },
+   {
+    "t": "fragen",
+    "es": "preguntar",
+    "example": "Er fragt die Frage an.",
+    "example_es": "Él pregunta la pregunta.",
+    "note": "informal, poco común"
+   },
+   {
+    "t": "geben",
+    "es": "dar",
+    "example": "Sie gibt ihm das Buch an.",
+    "example_es": "Ella le da el libro.",
+    "note": "informal, común"
+   },
+   {
+    "t": "geschehen",
+    "es": "suceder",
+    "example": "Es geschehen mir ein Unglück an.",
+    "example_es": "Me sucedió un desastre.",
+    "note": "informal, poco común"
+   },
+   {
+    "t": "gespielt",
+    "es": "jugar",
+    "example": "Er spielt das Spiel an.",
+    "example_es": "Él juega el juego.",
+    "note": "informal, común"
+   },
+   {
+    "t": "handeln",
+    "es": "tratar",
+    "example": "Wir handeln die Angelegenheit an.",
+    "example_es": "Nosotros tratamos el asunto.",
+    "note": "informal, común"
+   },
+   {
+    "t": "helfen",
+    "es": "ayudar",
+    "example": "Er hilft mir an.",
+    "example_es": "Él me ayuda.",
+    "note": "informal, común"
+   },
+   {
+    "t": "hinzufügen",
+    "es": "añadir",
+    "example": "Sie fügt die Zahl an.",
+    "example_es": "Ella añade el número.",
+    "note": "informal, común"
+   },
+   {
+    "t": "hinterfragen",
+    "es": "interrogar",
+    "example": "Er hinterfragt die Aussage an.",
+    "example_es": "Él interroga la declaración.",
+    "note": "formal, poco común"
+   },
+   {
+    "t": "holen",
+    "es": "recoger",
+    "example": "Wir holen die Pakete an.",
+    "example_es": "Nosotros recogemos los paquetes.",
+    "note": "informal, común"
+   },
+   {
+    "t": "jagen",
+    "es": "cazar",
+    "example": "Er jagt den Vogel an.",
+    "example_es": "Él caza el pájaro.",
+    "note": "informal, poco común"
+   },
+   {
+    "t": "kaufen",
+    "es": "comprar",
+    "example": "Sie kauft das Auto an.",
+    "example_es": "Ella compra el coche.",
+    "note": "informal, común"
+   },
+   {
+    "t": "können",
+    "es": "poder",
+    "example": "Er kann das Problem an.",
+    "example_es": "Él puede el problema.",
+    "note": "informal, poco común"
+   },
+   {
+    "t": "abhängen von",
+    "es": "depender de",
+    "example": "Die Entscheidung hängt stark von den Wetterbedingungen ab.",
+    "example_es": "La decisión depende mucho de las condiciones climáticas.",
+    "note": "informal"
+   },
+   {
+    "t": "anvertrauen an",
+    "es": "confiar a",
+    "example": "Ich vertraue dir mein Geheimnis an.",
+    "example_es": "Confío en ti mi secreto.",
+    "note": "formal"
+   },
+   {
+    "t": "aufpassen bei",
+    "es": "cuidar de",
+    "example": "Pass auf bei der neuen Maschine!",
+    "example_es": "¡Cuidado con la nueva máquina!",
+    "note": "informal"
+   },
+   {
+    "t": "ausgehen mit",
+    "es": "salir con",
+    "example": "Wir gehen heute Abend mit Freunden aus.",
+    "example_es": "Vamos a salir con amigos esta noche.",
+    "note": "informal"
+   },
+   {
+    "t": "außen liegen bei",
+    "es": "estar fuera de",
+    "example": "Die Ware liegt außerhalb der Lieferzeit bei 20 Tagen.",
+    "example_es": "El producto está fuera del plazo de entrega en 20 días.",
+    "note": "formal"
+   },
+   {
+    "t": "beteiligen sich an",
+    "es": "participar en",
+    "example": "Alle Mitarbeiter beteiligen sich an der Diskussion.",
+    "example_es": "Todos los empleados participan en la discusión.",
+    "note": "formal"
+   },
+   {
+    "t": "bestehen aus",
+    "es": "constar de",
+    "example": "Das Team besteht aus fünf Mitgliedern.",
+    "example_es": "El equipo consta de cinco miembros.",
+    "note": "formal"
+   },
+   {
+    "t": "bieten an",
+    "es": "ofrecer a",
+    "example": "Er bietet mir einen Job an.",
+    "example_es": "Él me ofrece un trabajo.",
+    "note": "informal"
+   },
+   {
+    "t": "danken für",
+    "es": "agradecer por",
+    "example": "Ich danke dir für deine Hilfe.",
+    "example_es": "Te agradezco por tu ayuda.",
+    "note": "formal"
+   },
+   {
+    "t": "denken an",
+    "es": "pensar en",
+    "example": "Ich denke an die vergangenen Tage.",
+    "example_es": "Pienso en los días pasados.",
+    "note": "informal"
+   },
+   {
+    "t": "entscheiden sich für",
+    "es": "decidirse por",
+    "example": "Sie entscheiden sich für das rote Auto.",
+    "example_es": "Se deciden por el coche rojo.",
+    "note": "formal"
+   },
+   {
+    "t": "fahren mit",
+    "es": "conducir con",
+    "example": "Wir fahren mit dem Bus zur Arbeit.",
+    "example_es": "Vamos en autobús al trabajo.",
+    "note": "informal"
+   },
+   {
+    "t": "fliehen vor",
+    "es": "huir de",
+    "example": "Er flieht vor der Verantwortung.",
+    "example_es": "Él huye de la responsabilidad.",
+    "note": "formal"
+   },
+   {
+    "t": "gewinnen an",
+    "es": "ganar a",
+    "example": "Er gewinnt an Erfahrung.",
+    "example_es": "Él gana experiencia.",
+    "note": "informal"
+   },
+   {
+    "t": "hinterfragen bei",
+    "es": "interrogar a",
+    "example": "Der Richter hinterfragt den Zeugen bei der Anklage.",
+    "example_es": "El juez interroga al testigo en la acusación.",
+    "note": "formal"
+   },
+   {
+    "t": "hinterlassen bei",
+    "es": "dejar a",
+    "example": "Sie hinterlässt bei uns viele Erinnerungen.",
+    "example_es": "Ella deja muchas memorias con nosotros.",
+    "note": "informal"
+   },
+   {
+    "t": "inhalten bei",
+    "es": "contener en",
+    "example": "Die Box enthält bei uns alles Notwendige.",
+    "example_es": "La caja contiene todo lo necesario con nosotros.",
+    "note": "formal"
+   },
+   {
+    "t": "kümmern sich um",
+    "es": "cuidar de",
+    "example": "Wir kümmern uns um die Kinder.",
+    "example_es": "Nos cuidamos de los niños.",
+    "note": "informal"
+   },
+   {
+    "t": "leiten an",
+    "es": "liderar a",
+    "example": "Der Chef leitet das Team an.",
+    "example_es": "El jefe lidera al equipo.",
+    "note": "formal"
+   },
+   {
+    "t": "müssen bei",
+    "es": "tener que en",
+    "example": "Wir müssen bei der Prüfung bestehen.",
+    "example_es": "Tenemos que aprobar el examen.",
+    "note": "formal"
+   },
+   {
+    "t": "nennen bei",
+    "es": "nombrar a",
+    "example": "Er nennt bei der Besprechung alle Namen.",
+    "example_es": "Él nombra a todos los nombres en la reunión.",
+    "note": "informal"
+   },
+   {
+    "t": "passieren bei",
+    "es": "ocurrir en",
+    "example": "Was passiert bei der Versammlung?",
+    "example_es": "¿Qué ocurre en la asamblea?",
+    "note": "informal"
+   },
+   {
+    "t": "sich erinnern an",
+    "es": "recordar a",
+    "example": "Ich erinnere mich an die Kindheitstage.",
+    "example_es": "Recuerdo los días de infancia.",
+    "note": "informal"
+   },
+   {
+    "t": "sich freuen bei",
+    "es": "alegrarse en",
+    "example": "Wir freuen uns bei der Party.",
+    "example_es": "Nos alegramos en la fiesta.",
+    "note": "informal"
+   },
+   {
+    "t": "sich interessieren für",
+    "es": "interesarse por",
+    "example": "Er interessiert sich für klassische Musik.",
+    "example_es": "Él se interesa por la música clásica.",
+    "note": "informal"
+   }
+  ]
+ }
+]

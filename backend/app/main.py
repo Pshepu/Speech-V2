@@ -7,7 +7,7 @@ from fastapi import FastAPI
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import config, db, pronunciation
+from . import backup, config, db, pronunciation
 from .api import router
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
@@ -21,6 +21,8 @@ def startup():
     db.conn()
     # El modelo de fonemas tarda ~15 s en cargar: lo hacemos en segundo plano.
     pronunciation.preload_async()
+    # Copia de seguridad al arrancar y cada 2 horas (en Documentos).
+    backup.start_scheduler()
 
 
 if config.FRONTEND_DIST.exists():

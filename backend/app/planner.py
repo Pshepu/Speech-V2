@@ -75,88 +75,184 @@ def daily_plan(lang: str) -> dict:
         if next_mission:
             break
 
-    tasks = []
-    to_review = len(q["cards"])
-    tasks.append({
-        "id": "srs", "title": "Repaso espaciado",
-        "detail": f"{to_review} tarjetas pendientes" if to_review else "Todo al día",
-        "why": "Recordar activamente justo antes de olvidar fija la memoria a largo plazo.",
-        "minutes": max(2, round(to_review * 0.15)), "route": "/repaso",
-        "done": to_review == 0 and ("srs" in kinds or q["total"] > 0),
-    })
-    tasks.append({
-        "id": "pronunciation", "title": "Pronunciación",
-        "detail": ("Sonidos a trabajar: " + ", ".join(f"/{w['phoneme']}/" for w in weak)) if weak else "5 frases a tu nivel",
-        "why": "Feedback inmediato por sonido corrige la pronunciación antes de que se fosilice.",
-        "minutes": 5, "route": "/pronunciacion",
-        "done": pron_today_n >= 5,
-        "progress": f"{min(pron_today_n, 5)}/5",
-    })
     level = db.get_setting(f"level_{lang}", "A1")
     advanced = level in ("B1", "B2", "C1")
-    tasks.append({
-        "id": "listening", "title": "Escucha activa",
-        "detail": "Un diálogo o pódcast a tu nivel + resumen" if advanced else "Pares mínimos con varias voces, o un dictado",
-        "why": "Entender a nativos a velocidad real es lo que más cuesta para llegar a C1; resumir después fija lo escuchado.",
-        "minutes": 7 if advanced else 4, "route": "/oido",
-        "done": "listening" in kinds or "dictation" in kinds,
-    })
+    reviewed_today = db.one(
+        "SELECT COUNT(*) AS n FROM activity WHERE lang=? AND day=? AND kind='srs'", (lang, db.today()))["n"]
+    to_review = len(q["cards"])
+
+    def n(k):  # actividades de ese tipo hoy
+        return (kinds.get(k) or {}).get("n") or 0
+
+    def task(id_, title, goal, cur, target, detail, why, minutes, route, core=True):
+        cur = min(cur, target)
+        return {"id": id_, "title": title, "goal": goal, "current": cur, "target": target,
+                "progress": f"{cur}/{target}", "done": cur >= target, "detail": detail, "why": why,
+                "minutes": minutes, "route": route, "core": core}
+
+    tasks = [
+        task("srs", "Repaso espaciado", "Repasar todas las tarjetas pendientes",
+             reviewed_today, max(1, reviewed_today + to_review),
+             f"{to_review} tarjetas pendientes ahora" if to_review else "¡Todo al día!",
+             "Recordar activamente justo antes de olvidar fija la memoria a largo plazo.",
+             max(2, round(to_review * 0.15)), "/repaso"),
+        task("pronunciation", "Pronunciación", "Practicar 5 frases",
+             pron_today_n, 5,
+             ("Sonidos a trabajar: " + ", ".join(f"/{w['phoneme']}/" for w in weak)) if weak else "Frases a tu nivel",
+             "Feedback inmediato por sonido corrige la pronunciación antes de que se fosilice.", 5, "/pronunciacion"),
+        task("listening", "Escucha activa", "1 audio, pares mínimos o dictado",
+             n("listening") + n("dictation"), 1,
+             "Un diálogo o pódcast a tu nivel + resumen" if advanced else "Pares mínimos con varias voces, o un dictado",
+             "Entender a nativos a velocidad real es lo que más cuesta para llegar a C1.", 7 if advanced else 4, "/oido"),
+        task("mission", "Misión o conversación", "Terminar 1 misión o conversación (hasta el informe)",
+             n("mission") + n("free_talk"), 1,
+             f"Siguiente: {next_mission['level']} · {next_mission['title']}" if next_mission else
+             ("Debate, entrevista o 'explícamelo'" if advanced else "Genera una misión nueva o conversa libremente"),
+             "Usar el idioma para lograr algo real es como lo entrenan las escuelas militares.", 8,
+             f"/misiones?start={next_mission['id']}" if next_mission else "/misiones"),
+    ]
     if next_lesson:
-        tasks.append({
-            "id": "grammar", "title": "Gramática",
-            "detail": f"{next_lesson['level']} · {next_lesson['title']}",
-            "why": "Una explicación corta + práctica inmediata; los errores se convierten en tarjetas.",
-            "minutes": 8, "route": f"/gramatica/{next_lesson['id']}",
-            "done": "grammar" in kinds,
-        })
-    tasks.append({
-        "id": "mission", "title": "Misión de inmersión" if next_mission or not advanced else "Conversación con tutor",
-        "detail": f"{next_mission['level']} · {next_mission['title']}" if next_mission else
-                  ("Debate, entrevista o 'explícamelo' (en modo manos libres)" if advanced else "Genera una misión nueva o conversa libremente"),
-        "why": "Usar el idioma para lograr algo real (tareas) es como lo entrenan las escuelas militares.",
-        "minutes": 8,
-        "route": f"/misiones?start={next_mission['id']}" if next_mission else "/misiones",
-        "done": "mission" in kinds or "free_talk" in kinds,
-    })
-    tasks.append({
-        "id": "input", "title": "Lectura / escucha",
-        "detail": "Una historia a tu nivel con audio: toca cualquier palabra para traducirla y guardarla",
-        "why": "El input comprensible (≈95-98 % de palabras conocidas) es el motor de la adquisición.",
-        "minutes": 6, "route": "/lectura",
-        "done": "reading" in kinds,
-    })
-    if date.today().toordinal() % 2 == 0:
-        tasks.append({
-            "id": "fluency", "title": "Fluidez",
-            "detail": "Técnica 4/3/2 o lectura repetida cronometrada",
-            "why": "Repetir con presión de tiempo sobre material conocido automatiza el habla.",
-            "minutes": 9, "route": "/fluidez",
-            "done": "fluency" in kinds,
-        })
+        tasks.append(task("grammar", "Gramática", "Hacer 1 lección", n("grammar"), 1,
+                          f"Siguiente: {next_lesson['level']} · {next_lesson['title']}",
+                          "Explicación corta + práctica inmediata; tus errores pasan al repaso.", 8,
+                          f"/gramatica/{next_lesson['id']}", core=False))
+    tasks.append(task("input", "Lectura", "Leer 1 texto y responder", n("reading"), 1,
+                      "Una historia a tu nivel o un texto tuyo importado",
+                      "El input comprensible es el motor de la adquisición.", 6, "/lectura", core=False))
+    tasks.append(task("fluency", "Fluidez", "1 sesión (4/3/2 o lectura repetida)", n("fluency"), 1,
+                      "Habla lo mismo cada vez más rápido", "Automatiza el habla con material que ya conoces.",
+                      9, "/fluidez", core=False))
 
     # Medir el nivel cada ~3 semanas (o la primera vez) para ver el progreso real hacia C1.
     last = db.one("SELECT ts FROM assessments WHERE lang=? AND skill IN ('vocabulary','speaking','writing') ORDER BY id DESC LIMIT 1", (lang,))
     stale = (not last) or (date.today() - date.fromisoformat(last["ts"][:10])).days >= 21
     if stale:
-        tasks.append({
-            "id": "assessment", "title": "Mide tu nivel",
-            "detail": "Test de vocabulario y prueba oral/escrita" if not last else "Han pasado 3 semanas: vuelve a medir tu nivel",
-            "why": "Medir cada destreza por separado muestra qué te frena para llegar a C1.",
-            "minutes": 6, "route": "/nivel", "done": "assessment" in kinds,
-        })
+        tasks.append(task("assessment", "Mide tu nivel", "1 prueba de nivel", n("assessment"), 1,
+                          "Test de vocabulario y prueba oral/escrita" if not last else "Han pasado 3 semanas: vuelve a medir",
+                          "Medir cada destreza muestra qué te frena para llegar a C1.", 6, "/nivel", core=False))
 
     xp_today = sum((k["xp"] or 0) for k in kinds.values())
     minutes_today = round(sum((k["minutes"] or 0) for k in kinds.values()), 1)
     goal = int(db.get_setting("daily_minutes", 20))
+    core = [t for t in tasks if t["core"]]
+    core_done = sum(1 for t in core if t["done"])
+    # El día cuenta como completado si haces las 4 esenciales o alcanzas tu objetivo de minutos.
+    day_complete = core_done == len(core) or minutes_today >= goal
     return {
         "tasks": tasks,
         "done": sum(1 for t in tasks if t["done"]),
+        "core_done": core_done, "core_total": len(core),
+        "day_complete": day_complete,
         "xp_today": xp_today,
         "minutes_today": minutes_today,
         "goal_minutes": goal,
         "streak": streak(),
+        "today_log": today_log(lang),
         "srs": {k: q[k] for k in ("due", "new_available", "new_left_today", "total")},
     }
+
+
+KIND_ES = {"srs": "Repaso", "pronunciation": "Pronunciación", "listening": "Escucha", "dictation": "Dictado",
+           "grammar": "Gramática", "mission": "Misión", "free_talk": "Conversación", "reading": "Lectura",
+           "writing": "Escritura", "fluency": "Fluidez", "assessment": "Prueba de nivel"}
+
+
+def today_log(lang: str) -> list[dict]:
+    """Lo que ya hiciste hoy (para que veas qué ha contado)."""
+    rows = db.query("SELECT kind, COUNT(*) AS n, SUM(xp) AS xp, SUM(minutes) AS minutes FROM activity "
+                    "WHERE lang=? AND day=? GROUP BY kind ORDER BY MIN(id)", (lang, db.today()))
+    return [{"kind": r["kind"], "name": KIND_ES.get(r["kind"], r["kind"]), "n": r["n"],
+             "xp": r["xp"] or 0, "minutes": round(r["minutes"] or 0, 1)} for r in rows]
+
+
+LEVELS_ALL = ["A1", "A2", "B1", "B2", "C1", "C2"]
+
+
+def _snapshot(lang: str) -> dict:
+    from . import assessment
+    words = db.one("SELECT COUNT(*) AS n FROM cards WHERE lang=? AND kind IN ('word','phrase') AND state=2", (lang,))["n"]
+    missions_done = db.one("SELECT COUNT(*) AS n FROM mission_progress WHERE lang=? AND completed IS NOT NULL", (lang,))["n"]
+    lessons_done = db.one("SELECT COUNT(*) AS n FROM grammar_progress WHERE lang=? AND completed IS NOT NULL", (lang,))["n"]
+    pron = db.one("SELECT AVG(score) AS a FROM (SELECT score FROM pron_attempts WHERE lang=? ORDER BY id DESC LIMIT 30)", (lang,))["a"]
+    summ = assessment.summary(lang)
+    return {
+        "date": db.today(),
+        "level": db.get_setting(f"level_{lang}", "A1"),
+        "overall": summ["overall"],
+        "skills": {k: (v or {}).get("level") for k, v in summ["skills"].items()},
+        "vocab_size": (summ["skills"].get("vocabulary") or {}).get("size"),
+        "words_known": words, "missions_done": missions_done, "lessons_done": lessons_done,
+        "pronunciation": round(pron, 1) if pron else None,
+        "total_minutes": round(db.one("SELECT COALESCE(SUM(minutes),0) AS m FROM activity WHERE lang=?", (lang,))["m"]),
+    }
+
+
+def journey(lang: str) -> dict:
+    """Punto de partida vs ahora, semanas e hitos: para ver claramente si avanzas."""
+    key = f"baseline_{lang}"
+    base = db.get_setting(key)
+    now = _snapshot(lang)
+    if not base:
+        # Punto de partida = tu primer día de uso (si ya habías practicado, se reconstruye desde el historial).
+        first_day = db.one("SELECT MIN(day) AS d FROM activity WHERE lang=?", (lang,))["d"]
+        base = {**now, "date": first_day or db.today(), "overall": None,
+                "skills": {k: None for k in now["skills"]}, "vocab_size": None,
+                "words_known": 0, "missions_done": 0, "lessons_done": 0, "total_minutes": 0,
+                "pronunciation": None}
+        db.set_setting(key, base)
+    # Si el punto de partida no tenía una destreza medida, usamos la PRIMERA medición de esa destreza.
+    changed = False
+    for skill in ("vocabulary", "speaking", "writing"):
+        if not base["skills"].get(skill):
+            first = db.one("SELECT level, score FROM assessments WHERE lang=? AND skill=? ORDER BY id LIMIT 1", (lang, skill))
+            if first:
+                base["skills"][skill] = first["level"]
+                if skill == "vocabulary" and not base.get("vocab_size"):
+                    base["vocab_size"] = round(first["score"])
+                changed = True
+    if not base.get("pronunciation"):
+        first = db.one("SELECT AVG(score) AS a FROM (SELECT score FROM pron_attempts WHERE lang=? ORDER BY id LIMIT 10)", (lang,))
+        if first and first["a"]:
+            base["pronunciation"] = round(first["a"], 1)
+            changed = True
+    if changed:
+        db.set_setting(key, base)
+
+    # Semanas (lunes a domingo): días activos, minutos y XP.
+    today = date.today()
+    monday = today - timedelta(days=today.weekday())
+    weeks = []
+    for w in range(7, -1, -1):
+        start = monday - timedelta(weeks=w)
+        end = start + timedelta(days=6)
+        r = db.one("SELECT COUNT(DISTINCT day) AS d, COALESCE(SUM(minutes),0) AS m, COALESCE(SUM(xp),0) AS xp "
+                   "FROM activity WHERE lang=? AND day BETWEEN ? AND ?", (lang, start.isoformat(), end.isoformat()))
+        weeks.append({"start": start.isoformat(), "days": r["d"], "minutes": round(r["m"]), "xp": r["xp"]})
+    this_week = []
+    for i in range(7):
+        d = monday + timedelta(days=i)
+        r = db.one("SELECT COALESCE(SUM(minutes),0) AS m FROM activity WHERE lang=? AND day=?", (lang, d.isoformat()))
+        this_week.append({"day": d.isoformat(), "minutes": round(r["m"], 1), "future": d > today, "today": d == today})
+
+    cur = now["overall"] or now["level"]
+    c1 = LEVELS_ALL.index("C1")
+    pct = round(100 * (LEVELS_ALL.index(cur) + 1) / (c1 + 1)) if cur in LEVELS_ALL else 0
+
+    def ms(title, cur_v, target):
+        return {"title": title, "current": min(cur_v, target), "target": target, "done": cur_v >= target}
+    milestones = [
+        ms("Primera misión completada", now["missions_done"], 1),
+        ms("100 palabras dominadas", now["words_known"], 100),
+        ms("10 lecciones de gramática", now["lessons_done"], 10),
+        ms("500 palabras dominadas", now["words_known"], 500),
+        ms("10 misiones completadas", now["missions_done"], 10),
+        ms("1.000 palabras dominadas", now["words_known"], 1000),
+        ms("50 horas de práctica", now["total_minutes"] // 60, 50),
+        ms("2.500 palabras dominadas", now["words_known"], 2500),
+    ]
+    return {"baseline": base, "now": now, "current_level": cur, "c1_progress": pct, "weeks": weeks,
+            "this_week": this_week, "milestones": milestones,
+            "goal_minutes": int(db.get_setting("daily_minutes", 20))}
 
 
 def stats(lang: str) -> dict:

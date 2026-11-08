@@ -141,8 +141,8 @@
               "text": "Averigua a qué hora es el desayuno"
             }
           ],
-          "secret": "At first you cannot find the reservation. The learner must spell their surname letter by letter, then you find it (it was misspelled). Room 304, third floor. Wifi password: THAMES2024. Breakfast 7 to 10 am in the garden room. Only give wifi and breakfast info if asked.",
-          "complication": "You cannot find the booking under that name — ask them to spell it.",
+          "secret": "When the learner gives their name, say you can't find the reservation and IMMEDIATELY ask them to spell their surname letter by letter. As soon as they spell it (even imperfectly), find it: it was misspelled in the system. Room 304, third floor. Wifi password: THAMES2024. Breakfast 7 to 10 am in the garden room. Give wifi and breakfast info only when asked; if they ask for the wifi before the booking is found, say you'll give it right after, and ask again for the spelling.",
+          "complication": "The booking is not found under that name until the learner spells the surname.",
           "opening": "Good evening, welcome to the Riverside Hotel. How can I help you?",
           "useful_phrases": [
             {
@@ -1124,6 +1124,437 @@
             }
           ],
           "max_turns": 20
+        }
+      ]
+    },
+    {
+      "id": "en-nyc",
+      "title": "Operación Nueva York",
+      "description": "Segunda fase en EE. UU.: ya no eres turista, vives aquí. Bancos, caseros, seguros médicos, vecinos y eventos profesionales: situaciones B1→C1 donde hay que negociar, quejarse con educación y defender tus intereses.",
+      "missions": [
+        {
+          "id": "en-ny1-bank",
+          "level": "B1",
+          "title": "Abrir una cuenta bancaria",
+          "location": "Sucursal de un banco en Brooklyn",
+          "briefing": "Necesitas una cuenta para cobrar tu sueldo. No tienes número de Seguro Social (SSN) todavía. Averigua qué documentos sirven, las comisiones mensuales y cómo evitarlas.",
+          "character": {
+            "name": "Marcus",
+            "role": "personal banker at a US bank",
+            "personality": "polite, a bit salesy, pushes credit cards",
+            "voice": "en-US-GuyNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Explica que quieres abrir una cuenta corriente"
+            },
+            {
+              "id": "o2",
+              "text": "Explica tu situación sin SSN y averigua qué documentos sirven"
+            },
+            {
+              "id": "o3",
+              "text": "Pregunta por la comisión mensual y cómo evitarla"
+            },
+            {
+              "id": "o4",
+              "text": "Rechaza la tarjeta de crédito con educación"
+            }
+          ],
+          "secret": "Without SSN they can open an account with passport + proof of address + ITIN or a letter from employer. Monthly fee $12, waived with direct deposit of $500+/month or $1,500 minimum balance. Offer a credit card twice.",
+          "complication": "Offer a credit card with 'great rewards' and insist once.",
+          "opening": "Hi there, welcome! What can I help you with today?",
+          "useful_phrases": [
+            {
+              "t": "I'd like to open a checking account.",
+              "es": "Quisiera abrir una cuenta corriente."
+            },
+            {
+              "t": "I don't have a Social Security number yet.",
+              "es": "Todavía no tengo número de Seguro Social."
+            },
+            {
+              "t": "Is there a monthly fee? How can I avoid it?",
+              "es": "¿Hay comisión mensual? ¿Cómo la evito?"
+            },
+            {
+              "t": "I'll pass on the credit card for now, thanks.",
+              "es": "Por ahora paso de la tarjeta de crédito, gracias."
+            }
+          ],
+          "max_turns": 16
+        },
+        {
+          "id": "en-ny2-landlord",
+          "level": "B1",
+          "title": "El casero y la gotera",
+          "location": "Llamada telefónica al casero",
+          "briefing": "Hay una gotera en el techo del baño desde hace 5 días. Llama al casero, describe el problema, consigue una fecha concreta de reparación y que se haga cargo él.",
+          "character": {
+            "name": "Mr. Kowalski",
+            "role": "landlord who avoids spending money",
+            "personality": "friendly on the surface, vague, tries to blame the tenant",
+            "voice": "en-US-ChristopherNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Describe el problema y desde cuándo ocurre"
+            },
+            {
+              "id": "o2",
+              "text": "Rechaza la idea de que es culpa tuya"
+            },
+            {
+              "id": "o3",
+              "text": "Consigue una fecha y hora concretas para el fontanero"
+            },
+            {
+              "id": "o4",
+              "text": "Confirma que el casero paga la reparación"
+            }
+          ],
+          "secret": "First you say 'maybe you left the window open'. Then propose 'next week sometime'. If the learner insists politely and mentions it's the landlord's responsibility, agree to send a plumber Thursday between 9 and 11 am, paid by you.",
+          "complication": "Suggest it might be the tenant's fault.",
+          "opening": "Hello, Kowalski speaking.",
+          "useful_phrases": [
+            {
+              "t": "There's been a leak in the bathroom ceiling for five days.",
+              "es": "Hay una gotera en el techo del baño desde hace cinco días."
+            },
+            {
+              "t": "I don't think that's the cause.",
+              "es": "No creo que esa sea la causa."
+            },
+            {
+              "t": "Could we set a specific day and time?",
+              "es": "¿Podemos fijar un día y una hora concretos?"
+            },
+            {
+              "t": "Just to confirm, you'll cover the cost?",
+              "es": "Para confirmar, ¿usted cubre el coste?"
+            }
+          ],
+          "max_turns": 16
+        },
+        {
+          "id": "en-ny3-return",
+          "level": "B1",
+          "title": "Devolver un producto sin ticket",
+          "location": "Atención al cliente de una tienda de electrónica",
+          "briefing": "Compraste unos auriculares hace 10 días y uno no suena. Perdiste el ticket, pero pagaste con tarjeta. Consigue un reembolso o un cambio.",
+          "character": {
+            "name": "Tiffany",
+            "role": "customer service rep following store policy",
+            "personality": "bored but fair, sticks to policy, softens if the customer is polite and offers solutions",
+            "voice": "en-US-AriaNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Explica el problema del producto"
+            },
+            {
+              "id": "o2",
+              "text": "Explica que no tienes el ticket y propón una alternativa"
+            },
+            {
+              "id": "o3",
+              "text": "Pide reembolso o cambio"
+            },
+            {
+              "id": "o4",
+              "text": "Acepta una solución y confirma los pasos"
+            }
+          ],
+          "secret": "Policy: refunds only with receipt within 30 days. Without receipt: store credit or exchange. If the learner suggests looking up the purchase with the card, you can find it and offer a full refund to the card.",
+          "complication": "Say firmly that without a receipt there's nothing you can do.",
+          "opening": "Hi, next in line. What can I do for you?",
+          "useful_phrases": [
+            {
+              "t": "The left earbud doesn't work.",
+              "es": "El auricular izquierdo no funciona."
+            },
+            {
+              "t": "I lost the receipt, but I paid by card.",
+              "es": "Perdí el ticket, pero pagué con tarjeta."
+            },
+            {
+              "t": "Could you look up the purchase with my card?",
+              "es": "¿Podría buscar la compra con mi tarjeta?"
+            },
+            {
+              "t": "I'd prefer a refund, if possible.",
+              "es": "Preferiría un reembolso, si es posible."
+            }
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "en-ny4-insurance",
+          "level": "B2",
+          "title": "El seguro médico",
+          "location": "Llamada a la aseguradora médica",
+          "briefing": "Fuiste a urgencias por un esguince y te llegó una factura de 1.200 dólares. Llama al seguro, entiende qué cubre (copago, deducible) y consigue que reprocesen la reclamación.",
+          "character": {
+            "name": "Denise",
+            "role": "health insurance call center agent",
+            "personality": "professional, uses insurance jargon (deductible, copay, in-network), explains if asked",
+            "voice": "en-US-JennyNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Explica la situación y la factura recibida"
+            },
+            {
+              "id": "o2",
+              "text": "Pide que te expliquen un término que no entiendas (deductible, copay…)"
+            },
+            {
+              "id": "o3",
+              "text": "Averigua por qué no se cubrió"
+            },
+            {
+              "id": "o4",
+              "text": "Consigue que reprocesen la reclamación y un número de referencia"
+            }
+          ],
+          "secret": "The claim was denied because the hospital coded it as out-of-network. In emergencies, out-of-network is covered as in-network. The learner should owe only the ER copay ($250). If the learner asks for reprocessing, give reference number CLM-58821; takes 10 business days.",
+          "complication": "Initially say the claim is correct because the hospital is out-of-network.",
+          "opening": "Thank you for calling, this is Denise. Can I have your member ID, please?",
+          "useful_phrases": [
+            {
+              "t": "I received a bill for twelve hundred dollars for an ER visit.",
+              "es": "Recibí una factura de 1.200 dólares por una visita a urgencias."
+            },
+            {
+              "t": "Sorry, what exactly is a deductible?",
+              "es": "Perdón, ¿qué es exactamente el deducible?"
+            },
+            {
+              "t": "But it was an emergency, so it should be covered as in-network.",
+              "es": "Pero fue una emergencia, así que debería cubrirse como dentro de la red."
+            },
+            {
+              "t": "Could you reprocess the claim and give me a reference number?",
+              "es": "¿Podría reprocesar la reclamación y darme un número de referencia?"
+            }
+          ],
+          "max_turns": 18
+        },
+        {
+          "id": "en-ny5-neighbor",
+          "level": "B2",
+          "title": "El vecino ruidoso",
+          "location": "En el pasillo del edificio, 11 de la noche",
+          "briefing": "Tu vecino pone música alta casi todas las noches y mañana tienes una entrevista importante. Habla con él de forma diplomática, sin crear conflicto, y llegad a un acuerdo duradero.",
+          "character": {
+            "name": "Tyler",
+            "role": "neighbor who plays loud music and is a bit defensive",
+            "personality": "laid-back, defensive at first ('it's not that loud'), reasonable if treated with respect",
+            "voice": "en-US-ChristopherNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Inicia la conversación de forma amable"
+            },
+            {
+              "id": "o2",
+              "text": "Explica el problema sin acusar"
+            },
+            {
+              "id": "o3",
+              "text": "Responde a su actitud defensiva con calma"
+            },
+            {
+              "id": "o4",
+              "text": "Acordad una solución concreta (horario, volumen…)"
+            }
+          ],
+          "secret": "You think it's not that loud and say other neighbors never complained. If the learner is polite and suggests a concrete compromise (e.g., music low after 10 pm on weeknights), agree and apologise. If they're aggressive, get defensive.",
+          "complication": "Say: 'It's Friday tomorrow, man, it's not that loud.'",
+          "opening": "Oh, hey. What's up?",
+          "useful_phrases": [
+            {
+              "t": "Sorry to bother you, do you have a minute?",
+              "es": "Perdona que te moleste, ¿tienes un minuto?"
+            },
+            {
+              "t": "I can hear the music quite clearly from my place.",
+              "es": "Desde mi piso se oye la música bastante."
+            },
+            {
+              "t": "I totally get it, I'm not asking you to stop completely.",
+              "es": "Lo entiendo perfectamente, no te pido que pares del todo."
+            },
+            {
+              "t": "Would it work for you to keep it down after ten?",
+              "es": "¿Te vendría bien bajarla después de las diez?"
+            }
+          ],
+          "max_turns": 16
+        },
+        {
+          "id": "en-ny6-meetup",
+          "level": "B2",
+          "title": "Networking en un meetup tech",
+          "location": "Meetup de Python en Manhattan",
+          "briefing": "En un meetup conoces a la directora de ingeniería de una empresa que contrata. Preséntate en 30 segundos (elevator pitch), habla de un proyecto tuyo con naturalidad y consigue su contacto o una referencia.",
+          "character": {
+            "name": "Angela",
+            "role": "director of engineering at a fintech, attending a meetup",
+            "personality": "friendly, busy, asks sharp questions, dislikes desperate self-promotion",
+            "voice": "en-GB-SoniaNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Preséntate de forma natural (elevator pitch)"
+            },
+            {
+              "id": "o2",
+              "text": "Habla de un proyecto con un resultado concreto"
+            },
+            {
+              "id": "o3",
+              "text": "Muestra interés por su trabajo con una pregunta"
+            },
+            {
+              "id": "o4",
+              "text": "Consigue su contacto o una referencia"
+            }
+          ],
+          "secret": "Your company is hiring two backend engineers, remote-friendly. You give your LinkedIn and offer a referral only if the learner shows genuine interest in your work and explains a concrete achievement. If they ask for a job directly in the first minute, become a bit cooler.",
+          "complication": "Ask: 'So what makes you different from the hundred other backend devs I meet?'",
+          "opening": "Hi! Great talk, wasn't it? I don't think we've met. I'm Angela.",
+          "useful_phrases": [
+            {
+              "t": "I'm a backend engineer from Chile, I mostly work with Python and AWS.",
+              "es": "Soy ingeniero backend de Chile, trabajo sobre todo con Python y AWS."
+            },
+            {
+              "t": "Recently I built a system that cut processing time in half.",
+              "es": "Hace poco construí un sistema que redujo el tiempo de procesamiento a la mitad."
+            },
+            {
+              "t": "What are you working on these days?",
+              "es": "¿En qué estás trabajando estos días?"
+            },
+            {
+              "t": "Would you mind if I connected with you on LinkedIn?",
+              "es": "¿Te importa si te agrego en LinkedIn?"
+            }
+          ],
+          "max_turns": 18
+        },
+        {
+          "id": "en-ny7-flight",
+          "level": "C1",
+          "title": "Vuelo cancelado",
+          "location": "Mostrador de la aerolínea en el aeropuerto JFK",
+          "briefing": "Tu vuelo a Santiago se canceló y te ofrecen un vuelo dentro de 2 días sin hotel. Mañana tienes un compromiso importante. Negocia con firmeza y diplomacia: un vuelo antes, hotel y comidas, o compensación.",
+          "character": {
+            "name": "Robert",
+            "role": "airline gate agent dealing with many angry passengers",
+            "personality": "tired, scripted at first, responds well to calm, specific requests and knowledge of passenger rights",
+            "voice": "en-US-GuyNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Explica tu situación y lo que necesitas"
+            },
+            {
+              "id": "o2",
+              "text": "Rechaza la primera oferta con argumentos"
+            },
+            {
+              "id": "o3",
+              "text": "Propón alternativas concretas (otra aerolínea, otra ruta)"
+            },
+            {
+              "id": "o4",
+              "text": "Consigue hotel y comidas o un vuelo antes"
+            }
+          ],
+          "secret": "First offer: flight in 2 days, no hotel (cancellation 'due to weather'). Truth: it was a crew scheduling problem, so the airline must cover hotel and meals. If the learner asks the reason and pushes, admit it. Possible solutions: rebooking via Lima with a partner airline tomorrow at 9 pm, or hotel + meal vouchers. Offer both only if the learner negotiates well.",
+          "complication": "Say the cancellation was 'due to weather', so no hotel.",
+          "opening": "Next, please. I'm sorry for the inconvenience. I can rebook you on the flight on Thursday.",
+          "useful_phrases": [
+            {
+              "t": "Thursday doesn't work for me, I have a commitment tomorrow evening.",
+              "es": "El jueves no me sirve, tengo un compromiso mañana por la tarde."
+            },
+            {
+              "t": "Could you tell me the exact reason for the cancellation?",
+              "es": "¿Podría decirme el motivo exacto de la cancelación?"
+            },
+            {
+              "t": "Would it be possible to reroute me through another city?",
+              "es": "¿Sería posible enviarme por otra ciudad?"
+            },
+            {
+              "t": "In that case, I'd expect the airline to cover a hotel and meals.",
+              "es": "En ese caso, esperaría que la aerolínea cubra hotel y comidas."
+            }
+          ],
+          "max_turns": 18
+        },
+        {
+          "id": "en-ny8-conference",
+          "level": "C1",
+          "title": "Misión final: preguntas tras tu charla",
+          "location": "Conferencia tech, ronda de preguntas tras tu presentación",
+          "briefing": "Acabas de dar una charla sobre cómo migraste un monolito a microservicios. Ahora responde las preguntas del público: una técnica, una crítica y una trampa. Mantén la calma, reconoce límites y responde con claridad.",
+          "character": {
+            "name": "Moderator & audience",
+            "role": "conference moderator relaying questions from a technical audience",
+            "personality": "professional moderator; audience questions range from friendly to sceptical and one slightly hostile",
+            "voice": "en-IE-ConnorNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Responde la pregunta técnica con un ejemplo"
+            },
+            {
+              "id": "o2",
+              "text": "Responde a la crítica reconociendo lo válido"
+            },
+            {
+              "id": "o3",
+              "text": "Maneja la pregunta trampa sin perder la calma"
+            },
+            {
+              "id": "o4",
+              "text": "Cierra con un mensaje claro y agradece"
+            }
+          ],
+          "secret": "Ask in order: (1) 'How did you handle data consistency between services?' (2) Critical: 'Isn't microservices overkill for a team of eight?' (3) Trap: 'Wouldn't it have been cheaper to just hire better developers for the monolith?' Then ask for a final takeaway. React like a real audience.",
+          "complication": "One audience member interrupts to say the approach is outdated.",
+          "opening": "Thank you, that was fascinating. We have a few minutes for questions. First one, from the back: how did you handle data consistency between the services?",
+          "useful_phrases": [
+            {
+              "t": "That's a great question. In our case, we used...",
+              "es": "Excelente pregunta. En nuestro caso, usamos..."
+            },
+            {
+              "t": "That's a fair point, and to be honest...",
+              "es": "Es un punto válido y, para ser honesto..."
+            },
+            {
+              "t": "I'd push back a little on that, because...",
+              "es": "Discreparía un poco de eso, porque..."
+            },
+            {
+              "t": "If there's one thing to take away, it's that...",
+              "es": "Si hay que quedarse con una idea, es que..."
+            }
+          ],
+          "max_turns": 18
         }
       ]
     }

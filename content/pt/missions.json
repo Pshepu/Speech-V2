@@ -11,21 +11,50 @@
           "title": "El Uber desde Guarulhos",
           "location": "Aeropuerto de Guarulhos — dentro de un Uber",
           "briefing": "Acabas de aterrizar. Confirma con el conductor la dirección de tu Airbnb en la Vila Madalena, pregunta cuánto se tarda y pide que ponga el aire acondicionado.",
-          "character": {"name": "Seu Raimundo", "role": "Uber driver in São Paulo", "personality": "very chatty, friendly, talks about traffic and football, speaks fast", "voice": "pt-BR-AntonioNeural"},
+          "character": {
+            "name": "Seu Raimundo",
+            "role": "Uber driver in São Paulo",
+            "personality": "very chatty, friendly, talks about traffic and football, speaks fast",
+            "voice": "pt-BR-AntonioNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Saluda y confirma tu destino"},
-            {"id": "o2", "text": "Pregunta cuánto tiempo se tarda"},
-            {"id": "o3", "text": "Pide que encienda el aire acondicionado"},
-            {"id": "o4", "text": "Responde a su pregunta sobre de dónde eres"}
+            {
+              "id": "o1",
+              "text": "Saluda y confirma tu destino"
+            },
+            {
+              "id": "o2",
+              "text": "Pregunta cuánto tiempo se tarda"
+            },
+            {
+              "id": "o3",
+              "text": "Pide que encienda el aire acondicionado"
+            },
+            {
+              "id": "o4",
+              "text": "Responde a su pregunta sobre de dónde eres"
+            }
           ],
           "secret": "The trip takes about 1 hour because of traffic (trânsito). You turn on the AC only if asked. You ask where they are from and talk about Chilean football. Destination: Rua Harmonia, Vila Madalena.",
           "complication": "Say there is a big traffic jam on the Marginal and ask if they mind a longer route.",
           "opening": "Boa noite! Tudo bem? Você vai pra Vila Madalena, né?",
           "useful_phrases": [
-            {"t": "Isso, Rua Harmonia, por favor.", "es": "Eso, calle Harmonia, por favor."},
-            {"t": "Quanto tempo demora?", "es": "¿Cuánto tiempo se tarda?"},
-            {"t": "Você pode ligar o ar-condicionado?", "es": "¿Puede encender el aire acondicionado?"},
-            {"t": "Eu sou do Chile.", "es": "Soy de Chile."}
+            {
+              "t": "Isso, Rua Harmonia, por favor.",
+              "es": "Eso, calle Harmonia, por favor."
+            },
+            {
+              "t": "Quanto tempo demora?",
+              "es": "¿Cuánto tiempo se tarda?"
+            },
+            {
+              "t": "Você pode ligar o ar-condicionado?",
+              "es": "¿Puede encender el aire acondicionado?"
+            },
+            {
+              "t": "Eu sou do Chile.",
+              "es": "Soy de Chile."
+            }
           ],
           "max_turns": 12
         },
@@ -35,21 +64,50 @@
           "title": "La padaria",
           "location": "Padaria de barrio, a las 8 de la mañana",
           "briefing": "Desayuna como un paulista: pide un pão na chapa y un café com leite, pregunta el precio y paga con Pix (el sistema de pago instantáneo de Brasil).",
-          "character": {"name": "Dona Cida", "role": "owner of a neighbourhood bakery", "personality": "warm, calls everyone 'querido/querida', curious about foreigners", "voice": "pt-BR-FranciscaNeural"},
+          "character": {
+            "name": "Dona Cida",
+            "role": "owner of a neighbourhood bakery",
+            "personality": "warm, calls everyone 'querido/querida', curious about foreigners",
+            "voice": "pt-BR-FranciscaNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Pide algo de comer y de beber"},
-            {"id": "o2", "text": "Pregunta cuánto es"},
-            {"id": "o3", "text": "Pregunta si aceptan Pix o tarjeta"},
-            {"id": "o4", "text": "Despídete"}
+            {
+              "id": "o1",
+              "text": "Pide algo de comer y de beber"
+            },
+            {
+              "id": "o2",
+              "text": "Pregunta cuánto es"
+            },
+            {
+              "id": "o3",
+              "text": "Pregunta si aceptan Pix o tarjeta"
+            },
+            {
+              "id": "o4",
+              "text": "Despídete"
+            }
           ],
           "secret": "Pão na chapa R$ 6, café com leite R$ 5, pão de queijo R$ 4. You accept Pix and card. Suggest pão de queijo if they look undecided.",
           "complication": "The card machine is not working today: only Pix or cash.",
           "opening": "Bom dia, querido! O que vai ser hoje?",
           "useful_phrases": [
-            {"t": "Eu queria um pão na chapa e um café com leite.", "es": "Quería un pan a la plancha y un café con leche."},
-            {"t": "Quanto é?", "es": "¿Cuánto es?"},
-            {"t": "Posso pagar com Pix?", "es": "¿Puedo pagar con Pix?"},
-            {"t": "Valeu, até amanhã!", "es": "¡Gracias, hasta mañana!"}
+            {
+              "t": "Eu queria um pão na chapa e um café com leite.",
+              "es": "Quería un pan a la plancha y un café con leche."
+            },
+            {
+              "t": "Quanto é?",
+              "es": "¿Cuánto es?"
+            },
+            {
+              "t": "Posso pagar com Pix?",
+              "es": "¿Puedo pagar con Pix?"
+            },
+            {
+              "t": "Valeu, até amanhã!",
+              "es": "¡Gracias, hasta mañana!"
+            }
           ],
           "max_turns": 12
         },
@@ -59,21 +117,50 @@
           "title": "Primer día en la oficina",
           "location": "Recepción de la startup, en la Avenida Paulista",
           "briefing": "Es tu primer día. Preséntate en recepción, consigue tu credencial, la contraseña del wifi y averigua dónde se sienta tu equipo.",
-          "character": {"name": "Larissa", "role": "office manager at a tech startup", "personality": "efficient, cheerful, uses Brazilian slang lightly", "voice": "pt-BR-ThalitaMultilingualNeural"},
+          "character": {
+            "name": "Larissa",
+            "role": "office manager at a tech startup",
+            "personality": "efficient, cheerful, uses Brazilian slang lightly",
+            "voice": "pt-BR-ThalitaMultilingualNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Preséntate: nombre y puesto"},
-            {"id": "o2", "text": "Pide tu credencial (crachá)"},
-            {"id": "o3", "text": "Consigue la contraseña del wifi"},
-            {"id": "o4", "text": "Averigua dónde está tu equipo"}
+            {
+              "id": "o1",
+              "text": "Preséntate: nombre y puesto"
+            },
+            {
+              "id": "o2",
+              "text": "Pide tu credencial (crachá)"
+            },
+            {
+              "id": "o3",
+              "text": "Consigue la contraseña del wifi"
+            },
+            {
+              "id": "o4",
+              "text": "Averigua dónde está tu equipo"
+            }
           ],
           "secret": "The learner joins the 'Pagamentos' team as backend developer. Badge (crachá) needs a photo: take it now. Wifi: StartupSP / senha cafe2025. The team sits on the 12th floor (12º andar), near the kitchen. Reveal only when asked.",
           "complication": "The badge system is down: they need to come back after lunch, give a temporary guest badge.",
           "opening": "Oi! Bem-vindo! Você é o novo dev, né? Como você se chama?",
           "useful_phrases": [
-            {"t": "Eu me chamo... Sou o novo desenvolvedor backend.", "es": "Me llamo... Soy el nuevo desarrollador backend."},
-            {"t": "Onde eu pego o meu crachá?", "es": "¿Dónde recojo mi credencial?"},
-            {"t": "Qual é a senha do wi-fi?", "es": "¿Cuál es la contraseña del wifi?"},
-            {"t": "Onde fica o meu time?", "es": "¿Dónde está mi equipo?"}
+            {
+              "t": "Eu me chamo... Sou o novo desenvolvedor backend.",
+              "es": "Me llamo... Soy el nuevo desarrollador backend."
+            },
+            {
+              "t": "Onde eu pego o meu crachá?",
+              "es": "¿Dónde recojo mi credencial?"
+            },
+            {
+              "t": "Qual é a senha do wi-fi?",
+              "es": "¿Cuál es la contraseña del wifi?"
+            },
+            {
+              "t": "Onde fica o meu time?",
+              "es": "¿Dónde está mi equipo?"
+            }
           ],
           "max_turns": 14
         },
@@ -83,21 +170,50 @@
           "title": "La daily",
           "location": "Reunión diaria (daily) del equipo",
           "briefing": "Tu primera reunión diaria. Cuenta qué hiciste ayer, qué harás hoy y si tienes algún bloqueo (necesitas acceso al repositorio de pagos).",
-          "character": {"name": "Rafael", "role": "Scrum master / tech lead running the daily stand-up", "personality": "relaxed but keeps the meeting short, asks follow-up questions", "voice": "pt-BR-AntonioNeural"},
+          "character": {
+            "name": "Rafael",
+            "role": "Scrum master / tech lead running the daily stand-up",
+            "personality": "relaxed but keeps the meeting short, asks follow-up questions",
+            "voice": "pt-BR-AntonioNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Di qué hiciste ayer"},
-            {"id": "o2", "text": "Di qué vas a hacer hoy"},
-            {"id": "o3", "text": "Explica tu bloqueo (acceso al repositorio)"},
-            {"id": "o4", "text": "Averigua quién puede darte acceso"}
+            {
+              "id": "o1",
+              "text": "Di qué hiciste ayer"
+            },
+            {
+              "id": "o2",
+              "text": "Di qué vas a hacer hoy"
+            },
+            {
+              "id": "o3",
+              "text": "Explica tu bloqueo (acceso al repositorio)"
+            },
+            {
+              "id": "o4",
+              "text": "Averigua quién puede darte acceso"
+            }
           ],
           "secret": "Access to the repository is given by Juliana from DevOps; she is on vacation until Thursday, so the alternative is to open a ticket in Jira with the 'acesso' label. Reveal only when asked.",
           "complication": "Ask the learner to estimate how long their current task will take.",
           "opening": "Bom dia, pessoal! Vamos começar a daily. Você quer começar? O que você fez ontem?",
           "useful_phrases": [
-            {"t": "Ontem eu configurei o meu ambiente.", "es": "Ayer configuré mi entorno."},
-            {"t": "Hoje eu vou trabalhar na tarefa de...", "es": "Hoy voy a trabajar en la tarea de..."},
-            {"t": "Estou bloqueado porque não tenho acesso ao repositório.", "es": "Estoy bloqueado porque no tengo acceso al repositorio."},
-            {"t": "Quem pode me dar acesso?", "es": "¿Quién me puede dar acceso?"}
+            {
+              "t": "Ontem eu configurei o meu ambiente.",
+              "es": "Ayer configuré mi entorno."
+            },
+            {
+              "t": "Hoje eu vou trabalhar na tarefa de...",
+              "es": "Hoy voy a trabajar en la tarea de..."
+            },
+            {
+              "t": "Estou bloqueado porque não tenho acesso ao repositório.",
+              "es": "Estoy bloqueado porque no tengo acceso al repositorio."
+            },
+            {
+              "t": "Quem pode me dar acesso?",
+              "es": "¿Quién me puede dar acceso?"
+            }
           ],
           "max_turns": 14
         },
@@ -107,21 +223,50 @@
           "title": "Alquilar un apartamento",
           "location": "Visita a un apartamento en Pinheiros",
           "briefing": "Necesitas un apartamento por 12 meses. Presupuesto: R$ 4.000 al mes con condomínio incluido. Averigua el alquiler, el condomínio, el IPTU, si piden fiador y negocia.",
-          "character": {"name": "Marcos", "role": "real estate agent (corretor)", "personality": "salesy, optimistic, avoids talking about extra costs unless asked", "voice": "pt-BR-AntonioNeural"},
+          "character": {
+            "name": "Marcos",
+            "role": "real estate agent (corretor)",
+            "personality": "salesy, optimistic, avoids talking about extra costs unless asked",
+            "voice": "pt-BR-AntonioNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Pregunta el alquiler y el condomínio"},
-            {"id": "o2", "text": "Pregunta por el IPTU y otros gastos"},
-            {"id": "o3", "text": "Averigua qué garantía piden (fiador, depósito o seguro)"},
-            {"id": "o4", "text": "Negocia hasta tu presupuesto"}
+            {
+              "id": "o1",
+              "text": "Pregunta el alquiler y el condomínio"
+            },
+            {
+              "id": "o2",
+              "text": "Pregunta por el IPTU y otros gastos"
+            },
+            {
+              "id": "o3",
+              "text": "Averigua qué garantía piden (fiador, depósito o seguro)"
+            },
+            {
+              "id": "o4",
+              "text": "Negocia hasta tu presupuesto"
+            }
           ],
           "secret": "Rent R$ 3.400, condomínio R$ 700, IPTU R$ 150/month. Guarantee options: fiador (guarantor with property in SP), 3 months deposit (caução), or seguro-fiança (~1 rent per year). Foreigners usually use caução or seguro-fiança. You can lower the rent to R$ 3.150 if they sign for 30 months or pay caução.",
           "complication": "Say another couple wants to sign today.",
           "opening": "E aí, tudo certo? Olha só que vista! O apartamento tem dois quartos, todo reformado.",
           "useful_phrases": [
-            {"t": "Quanto é o aluguel com condomínio?", "es": "¿Cuánto es el alquiler con gastos comunes?"},
-            {"t": "E o IPTU, quanto é?", "es": "¿Y el impuesto predial, cuánto es?"},
-            {"t": "Eu não tenho fiador. Posso dar caução?", "es": "No tengo aval. ¿Puedo dar depósito?"},
-            {"t": "Dá pra baixar um pouco?", "es": "¿Se puede bajar un poco?"}
+            {
+              "t": "Quanto é o aluguel com condomínio?",
+              "es": "¿Cuánto es el alquiler con gastos comunes?"
+            },
+            {
+              "t": "E o IPTU, quanto é?",
+              "es": "¿Y el impuesto predial, cuánto es?"
+            },
+            {
+              "t": "Eu não tenho fiador. Posso dar caução?",
+              "es": "No tengo aval. ¿Puedo dar depósito?"
+            },
+            {
+              "t": "Dá pra baixar um pouco?",
+              "es": "¿Se puede bajar un poco?"
+            }
           ],
           "max_turns": 16
         },
@@ -131,21 +276,50 @@
           "title": "Incidente en producción",
           "location": "Videollamada urgente con el equipo",
           "briefing": "¡Los pagos con Pix están fallando en producción! Explica qué viste en los logs (error de timeout con el banco), qué ya probaste y propón un plan: hacer rollback del último deploy.",
-          "character": {"name": "Fernanda", "role": "engineering manager during a production incident", "personality": "calm under pressure, direct, wants clear facts and a decision", "voice": "pt-BR-FranciscaNeural"},
+          "character": {
+            "name": "Fernanda",
+            "role": "engineering manager during a production incident",
+            "personality": "calm under pressure, direct, wants clear facts and a decision",
+            "voice": "pt-BR-FranciscaNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Explica el problema y desde cuándo ocurre"},
-            {"id": "o2", "text": "Di qué viste en los logs"},
-            {"id": "o3", "text": "Propón una solución (rollback)"},
-            {"id": "o4", "text": "Acuerda quién avisa a los clientes y cuándo es la próxima actualización"}
+            {
+              "id": "o1",
+              "text": "Explica el problema y desde cuándo ocurre"
+            },
+            {
+              "id": "o2",
+              "text": "Di qué viste en los logs"
+            },
+            {
+              "id": "o3",
+              "text": "Propón una solución (rollback)"
+            },
+            {
+              "id": "o4",
+              "text": "Acuerda quién avisa a los clientes y cuándo es la próxima actualización"
+            }
           ],
           "secret": "The incident started at 14:05 right after the 14:00 deploy. You approve the rollback if the learner explains the risk. Customer support (time de suporte) will notify clients; next update in 30 minutes. Ask 'qual é o impacto?' (around 30% of payments failing).",
           "complication": "Ask what the impact is and whether data could be lost.",
           "opening": "Pessoal, os pagamentos com Pix estão falhando. Você estava olhando os logs, né? O que você descobriu?",
           "useful_phrases": [
-            {"t": "Começou logo depois do deploy das duas.", "es": "Empezó justo después del deploy de las dos."},
-            {"t": "Nos logs aparece um erro de timeout com o banco.", "es": "En los logs aparece un error de timeout con el banco."},
-            {"t": "Eu sugiro fazer rollback.", "es": "Sugiero hacer rollback."},
-            {"t": "Quem vai avisar os clientes?", "es": "¿Quién va a avisar a los clientes?"}
+            {
+              "t": "Começou logo depois do deploy das duas.",
+              "es": "Empezó justo después del deploy de las dos."
+            },
+            {
+              "t": "Nos logs aparece um erro de timeout com o banco.",
+              "es": "En los logs aparece un error de timeout con el banco."
+            },
+            {
+              "t": "Eu sugiro fazer rollback.",
+              "es": "Sugiero hacer rollback."
+            },
+            {
+              "t": "Quem vai avisar os clientes?",
+              "es": "¿Quién va a avisar a los clientes?"
+            }
           ],
           "max_turns": 16
         },
@@ -155,21 +329,50 @@
           "title": "Happy hour con el equipo",
           "location": "Un bar en la Vila Madalena, viernes por la noche",
           "briefing": "Intégrate con tu equipo: haz small talk, cuenta algo sobre Chile, entiende las bromas y averigua el plan para el fin de semana (te han invitado a algo).",
-          "character": {"name": "Thiago", "role": "friendly coworker at a bar", "personality": "funny, uses a lot of slang (cara, mano, tipo, né, bora), teases about football", "voice": "pt-BR-AntonioNeural"},
+          "character": {
+            "name": "Thiago",
+            "role": "friendly coworker at a bar",
+            "personality": "funny, uses a lot of slang (cara, mano, tipo, né, bora), teases about football",
+            "voice": "pt-BR-AntonioNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Pide algo para beber"},
-            {"id": "o2", "text": "Cuenta algo sobre Chile o tu ciudad"},
-            {"id": "o3", "text": "Pregunta qué significa una expresión que no entiendas"},
-            {"id": "o4", "text": "Averigua el plan del fin de semana y acepta o rechaza"}
+            {
+              "id": "o1",
+              "text": "Pide algo para beber"
+            },
+            {
+              "id": "o2",
+              "text": "Cuenta algo sobre Chile o tu ciudad"
+            },
+            {
+              "id": "o3",
+              "text": "Pregunta qué significa una expresión que no entiendas"
+            },
+            {
+              "id": "o4",
+              "text": "Averigua el plan del fin de semana y acepta o rechaza"
+            }
           ],
           "secret": "You order a 'chopp' or caipirinha. On Saturday the team goes to a churrasco at Rafael's house at 13h; bring something to drink. Use slang like 'tá ligado?', 'mó legal', 'de boa'; explain if asked.",
           "complication": "Make a joke comparing Brazilian and Chilean football and wait for the learner's reaction.",
           "opening": "E aí, mano! Sextou! O que você vai beber? Aqui o chopp é mó bom.",
           "useful_phrases": [
-            {"t": "Vou de caipirinha.", "es": "Me pido una caipiriña."},
-            {"t": "O que quer dizer 'tá ligado'?", "es": "¿Qué significa 'tá ligado'?"},
-            {"t": "Lá no Chile a gente...", "es": "Allá en Chile nosotros..."},
-            {"t": "Bora! Que horas?", "es": "¡Vamos! ¿A qué hora?"}
+            {
+              "t": "Vou de caipirinha.",
+              "es": "Me pido una caipiriña."
+            },
+            {
+              "t": "O que quer dizer 'tá ligado'?",
+              "es": "¿Qué significa 'tá ligado'?"
+            },
+            {
+              "t": "Lá no Chile a gente...",
+              "es": "Allá en Chile nosotros..."
+            },
+            {
+              "t": "Bora! Que horas?",
+              "es": "¡Vamos! ¿A qué hora?"
+            }
           ],
           "max_turns": 18
         },
@@ -179,23 +382,271 @@
           "title": "Misión final: la promoción",
           "location": "Reunión 1:1 de evaluación de desempeño",
           "briefing": "Llevas 6 meses. Pide una promoción a desarrollador sénior y un aumento: argumenta con logros concretos (lideraste la migración a Kubernetes, redujiste los incidentes un 40%) y negocia.",
-          "character": {"name": "Fernanda", "role": "engineering manager in a performance review", "personality": "fair, data-driven, budget-conscious, asks for evidence", "voice": "pt-BR-FranciscaNeural"},
+          "character": {
+            "name": "Fernanda",
+            "role": "engineering manager in a performance review",
+            "personality": "fair, data-driven, budget-conscious, asks for evidence",
+            "voice": "pt-BR-FranciscaNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Pide la promoción con claridad"},
-            {"id": "o2", "text": "Argumenta con al menos 2 logros concretos"},
-            {"id": "o3", "text": "Responde a la objeción del presupuesto"},
-            {"id": "o4", "text": "Cierra un acuerdo (fecha, porcentaje o plan)"}
+            {
+              "id": "o1",
+              "text": "Pide la promoción con claridad"
+            },
+            {
+              "id": "o2",
+              "text": "Argumenta con al menos 2 logros concretos"
+            },
+            {
+              "id": "o3",
+              "text": "Responde a la objeción del presupuesto"
+            },
+            {
+              "id": "o4",
+              "text": "Cierra un acuerdo (fecha, porcentaje o plan)"
+            }
           ],
           "secret": "Budget is tight until January. You can offer: senior title now + 10% raise in January, or 6% now. If the learner argues very well (impact, numbers, market), offer 12% in January. Ask about leadership and mentoring.",
           "complication": "Say the company froze raises until next quarter.",
           "opening": "Oi! Que bom ter esse tempo pra conversar. Como você sente que foram esses seis meses?",
           "useful_phrases": [
-            {"t": "Eu gostaria de conversar sobre uma promoção.", "es": "Me gustaría hablar de una promoción."},
-            {"t": "Eu liderei a migração para Kubernetes.", "es": "Lideré la migración a Kubernetes."},
-            {"t": "Reduzimos os incidentes em quarenta por cento.", "es": "Redujimos los incidentes un cuarenta por ciento."},
-            {"t": "Entendo, mas o mercado está pagando...", "es": "Entiendo, pero el mercado está pagando..."}
+            {
+              "t": "Eu gostaria de conversar sobre uma promoção.",
+              "es": "Me gustaría hablar de una promoción."
+            },
+            {
+              "t": "Eu liderei a migração para Kubernetes.",
+              "es": "Lideré la migración a Kubernetes."
+            },
+            {
+              "t": "Reduzimos os incidentes em quarenta por cento.",
+              "es": "Redujimos los incidentes un cuarenta por ciento."
+            },
+            {
+              "t": "Entendo, mas o mercado está pagando...",
+              "es": "Entiendo, pero el mercado está pagando..."
+            }
           ],
           "max_turns": 20
+        }
+      ]
+    },
+    {
+      "id": "pt-floripa",
+      "title": "Operação Floripa",
+      "description": "Te mandan a la oficina de Florianópolis, polo tecnológico del sur de Brasil. Trámites, vida diaria y eventos del sector.",
+      "missions": [
+        {
+          "id": "pt-f1-cpf",
+          "level": "A2",
+          "title": "Sacar el CPF y abrir una cuenta",
+          "location": "Agencia bancaria en el centro de Florianópolis",
+          "briefing": "Sin CPF (el número de contribuyente) no puedes hacer casi nada en Brasil. Averigua cómo conseguirlo y abre una cuenta digital.",
+          "character": {
+            "name": "Patrícia",
+            "role": "bank employee",
+            "personality": "patient, explains step by step, talks about apps",
+            "voice": "pt-BR-FranciscaNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Di que quieres abrir una cuenta"
+            },
+            {
+              "id": "o2",
+              "text": "Pregunta cómo conseguir el CPF"
+            },
+            {
+              "id": "o3",
+              "text": "Averigua qué documentos necesitas"
+            },
+            {
+              "id": "o4",
+              "text": "Pregunta si hay comisión mensual"
+            }
+          ],
+          "secret": "CPF can be requested online at Receita Federal website and is free; it arrives the same day. Documents for the account: passport, CPF, proof of address (comprovante de residência). Digital account has no monthly fee (tarifa zero).",
+          "complication": "Say the system is slow today and suggest coming back with the CPF printed.",
+          "opening": "Boa tarde! Em que posso ajudar?",
+          "useful_phrases": [
+            {
+              "t": "Eu queria abrir uma conta.",
+              "es": "Quería abrir una cuenta."
+            },
+            {
+              "t": "Como eu tiro o CPF?",
+              "es": "¿Cómo saco el CPF?"
+            },
+            {
+              "t": "Quais documentos eu preciso?",
+              "es": "¿Qué documentos necesito?"
+            },
+            {
+              "t": "Tem alguma tarifa mensal?",
+              "es": "¿Hay alguna comisión mensual?"
+            }
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "pt-f2-pousada",
+          "level": "A2",
+          "title": "Problema en la pousada",
+          "location": "Recepción de una pousada en Lagoa da Conceição",
+          "briefing": "El aire acondicionado de tu habitación no funciona y hace 35 °C. Quéjate con educación y consigue cambiar de habitación o un descuento.",
+          "character": {
+            "name": "Jefferson",
+            "role": "relaxed pousada receptionist",
+            "personality": "super relaxed ('fica tranquilo'), wants to solve it later",
+            "voice": "pt-BR-AntonioNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Explica el problema"
+            },
+            {
+              "id": "o2",
+              "text": "Insiste en que necesitas una solución hoy"
+            },
+            {
+              "id": "o3",
+              "text": "Consigue cambio de habitación o descuento"
+            },
+            {
+              "id": "o4",
+              "text": "Confirma la solución"
+            }
+          ],
+          "secret": "Technician only tomorrow. There is a free room (quarto 8) with AC but no sea view. Offer 20% discount if they prefer to stay.",
+          "complication": "Say the technician will come 'amanhã, se Deus quiser'.",
+          "opening": "Opa, tudo bem? Fala aí!",
+          "useful_phrases": [
+            {
+              "t": "O ar-condicionado do meu quarto não está funcionando.",
+              "es": "El aire acondicionado de mi habitación no funciona."
+            },
+            {
+              "t": "Eu preciso de uma solução hoje.",
+              "es": "Necesito una solución hoy."
+            },
+            {
+              "t": "Dá pra trocar de quarto?",
+              "es": "¿Se puede cambiar de habitación?"
+            },
+            {
+              "t": "Então fechado, obrigado!",
+              "es": "Entonces trato hecho, ¡gracias!"
+            }
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "pt-f3-evento",
+          "level": "B1",
+          "title": "Evento de tecnología",
+          "location": "Coffee break en un evento tech de Florianópolis",
+          "briefing": "Haz networking: preséntate, explica qué hace tu empresa, descubre en qué trabaja tu interlocutora y consigue su contacto.",
+          "character": {
+            "name": "Bruna",
+            "role": "CTO of a local startup at a tech event",
+            "personality": "curious, direct, loves talking about her product",
+            "voice": "pt-BR-ThalitaMultilingualNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Preséntate y di qué haces"
+            },
+            {
+              "id": "o2",
+              "text": "Pregúntale por su startup"
+            },
+            {
+              "id": "o3",
+              "text": "Encuentra algo en común"
+            },
+            {
+              "id": "o4",
+              "text": "Intercambiad contacto (LinkedIn o WhatsApp)"
+            }
+          ],
+          "secret": "Her startup builds software for agribusiness (agro). They are looking for a backend dev with Python. She gives her WhatsApp if the learner shows interest.",
+          "complication": "Ask: 'E o que você acha do Brasil até agora?'",
+          "opening": "Oi! Você também veio pela palestra de IA? Eu sou a Bruna.",
+          "useful_phrases": [
+            {
+              "t": "Prazer! Eu trabalho como desenvolvedor backend.",
+              "es": "¡Encantado! Trabajo como desarrollador backend."
+            },
+            {
+              "t": "E a sua startup, faz o quê?",
+              "es": "¿Y tu startup qué hace?"
+            },
+            {
+              "t": "Que legal! Eu também trabalho com Python.",
+              "es": "¡Qué bueno! Yo también trabajo con Python."
+            },
+            {
+              "t": "Bora trocar contato?",
+              "es": "¿Intercambiamos contacto?"
+            }
+          ],
+          "max_turns": 16
+        },
+        {
+          "id": "pt-f4-medico",
+          "level": "B1",
+          "title": "En la consulta médica",
+          "location": "Clínica del plan de salud",
+          "briefing": "Te duele la espalda desde hace una semana por trabajar muchas horas sentado. Explica los síntomas, responde a las preguntas del médico y entiende el tratamiento.",
+          "character": {
+            "name": "Dr. Henrique",
+            "role": "doctor at a health plan clinic",
+            "personality": "calm, asks many questions, gives advice about posture",
+            "voice": "pt-BR-AntonioNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Describe el dolor y desde cuándo"
+            },
+            {
+              "id": "o2",
+              "text": "Responde sobre tu trabajo y hábitos"
+            },
+            {
+              "id": "o3",
+              "text": "Entiende el tratamiento"
+            },
+            {
+              "id": "o4",
+              "text": "Pide un certificado médico (atestado)"
+            }
+          ],
+          "secret": "Diagnosis: muscle contracture from bad posture. Treatment: anti-inflammatory 3 days, hot compresses, stretching every hour, physiotherapy if it continues. Atestado for 1 day if asked.",
+          "complication": "Ask how many hours a day they sit in front of the computer.",
+          "opening": "Bom dia! Pode sentar. O que está sentindo?",
+          "useful_phrases": [
+            {
+              "t": "Estou com dor nas costas há uma semana.",
+              "es": "Me duele la espalda desde hace una semana."
+            },
+            {
+              "t": "Eu trabalho umas dez horas por dia no computador.",
+              "es": "Trabajo unas diez horas al día en el computador."
+            },
+            {
+              "t": "Quantas vezes por dia eu tomo o remédio?",
+              "es": "¿Cuántas veces al día tomo el medicamento?"
+            },
+            {
+              "t": "O senhor pode me dar um atestado?",
+              "es": "¿Me puede dar un certificado médico?"
+            }
+          ],
+          "max_turns": 16
         }
       ]
     }

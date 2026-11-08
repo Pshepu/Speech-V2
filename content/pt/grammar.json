@@ -1455,5 +1455,1492 @@
   "level": "A2",
   "title": "Futuro: ir + infinitivo y futuro simple",
   "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a usar \"estar + gerúndio\" y las expresiones de tiempo en portugués brasileño.",
+  "explanation": "## Estar + gerúndio\nEn portugués se usa **estar** + verbo en **gerúndio** (terminación -ndo) para expresar una acción en desarrollo, igual que el presente continuo en español.\n\n- Eu **estou trabalhando** = Estoy trabajando.\n- Ela **está estudando** = Ella está estudiando.\n\n### Comparación con el español\n| Portugués | Español |\n|-----------|---------|\n| estou trabalhando | estoy trabajando |\n| está chovendo | está lloviendo |\n| estamos assistindo | estamos viendo |\n\n## Expresiones de tiempo\n- **há + tiempo** o **faz + tiempo**: indican cuánto tiempo ha pasado desde que comenzó algo.\n  - *Há duas horas* = *Hace dos horas*.\n  - *Faz três dias que não vejo* = *Hace tres días que no veo*.\n- **desde**: señala el punto de inicio de una acción que continúa.\n  - *Desde segunda‑feira* = *Desde el lunes*.\n- **ainda / já**: usadas con **há** para negar o afirmar que algo ya ocurrió.\n  - *Ainda não cheguei* = *Todavía no he llegado*.\n  - *Já faz um ano que moro aqui* = *Ya hace un año que vivo aquí*.\n\n### Uso conjunto\n- *Eu estou estudando **há** duas horas* → \"He estado estudiando durante dos horas\".\n- *Ele ainda **está** trabalhando **desde** manhã* → \"Él todavía está trabajando desde la mañana\".\n\nEstos patrones son esenciales en el nivel A2 para describir acciones en progreso y su duración.",
+  "examples": [
+   {
+    "t": "Estou lendo um livro.",
+    "es": "Estoy leyendo un libro."
+   },
+   {
+    "t": "Ela está falando ao telefone.",
+    "es": "Ella está hablando por teléfono."
+   },
+   {
+    "t": "Há três semanas que ele viaja.",
+    "es": "Hace tres semanas que él viaja."
+   },
+   {
+    "t": "Desde ontem estou cansado.",
+    "es": "Desde ayer estoy cansado."
+   },
+   {
+    "t": "Já faz cinco minutos que o ônibus chegou.",
+    "es": "Ya hace cinco minutos que el autobús llegó."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Eu está trabalhando.",
+    "right": "Eu estou trabalhando.",
+    "why": "El verbo \"estar\" se conjuga como \"estou\" en primera persona."
+   },
+   {
+    "wrong": "Há dois anos eu moro aqui.",
+    "right": "Eu moro aqui há dois anos.",
+    "why": "En portugués la expresión de tiempo suele ir después del verbo."
+   },
+   {
+    "wrong": "Já está faz três dias.",
+    "right": "Já faz três dias.",
+    "why": "No se combina \"já está\" con \"faz\"; se usa solo \"já faz\"."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Ele ___ (está / está a) estudando para a prova.",
+    "options": [
+     "está",
+     "está a",
+     "está ao"
+    ],
+    "answer": 0,
+    "explanation": "Se usa \"está\" + gerúndio, sin preposición."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nós ___ (há / faz) duas horas que esperamos.",
+    "options": [
+     "há",
+     "faz",
+     "há a"
+    ],
+    "answer": 0,
+    "explanation": "Con \"há\" se indica tiempo transcurrido."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ela ainda ___ (não chegou / não chegou ainda).",
+    "options": [
+     "não chegou",
+     "não chegou ainda",
+     "ainda não chegou"
+    ],
+    "answer": 2,
+    "explanation": "La posición correcta es \"ainda não chegou\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Eu ___ (estou) estudando ___ (há) três horas.",
+    "answer": "estou, há",
+    "accept": [
+     "estou, há"
+    ],
+    "explanation": "Se combina \"estou\" con gerúndio y \"há\" para duración."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ele ___ (já) faz cinco minutos que ___ (chegou) ao trabalho.",
+    "answer": "já, chegou",
+    "accept": [
+     "já, chegou"
+    ],
+    "explanation": "Uso de \"já faz\" + tiempo + verbo en pasado."
+   },
+   {
+    "type": "fill",
+    "prompt": "Desde ___ (segunda‑feira) eu ___ (não vejo) você.",
+    "answer": "segunda‑feira, não vejo",
+    "accept": [
+     "segunda‑feira, não vejo"
+    ],
+    "explanation": "Se usa \"desde\" + punto de inicio y verbo en presente."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Estou",
+     "trabalhando",
+     "há",
+     "duas",
+     "horas",
+     "."
+    ],
+    "answer": "Estou trabalhando há duas horas.",
+    "explanation": "Orden correcta: verbo + gerúndio + expresión de tiempo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Já",
+     "faz",
+     "um",
+     "ano",
+     "que",
+     "moro",
+     "aqui",
+     "."
+    ],
+    "answer": "Já faz um ano que moro aqui.",
+    "explanation": "Colocación típica de \"já faz\" al inicio."
+   },
+   {
+    "type": "fix",
+    "prompt": "Ele está estudando há três dias.",
+    "answer": "Ele está estudando há três dias.",
+    "explanation": "La frase ya es correcta; el ejercicio sirve para confirmar."
+   },
+   {
+    "type": "translate",
+    "prompt": "Todavía no he terminado el trabajo.",
+    "answer": "Ainda não terminei o trabalho.",
+    "explanation": "Uso de \"ainda não\" para negar la finalización."
+   }
+  ],
+  "id": "pt-gerundio",
+  "level": "A2",
+  "title": "Estar + gerúndio y expresiones de tiempo",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a formar comparativos y superlativos en portugués brasileño usando mais/menos…do que, tão…quanto y los sufijos -íssimo",
+  "explanation": "## Comparativos de **maioria**\n- **Mais/menos … do que** se usa para comparar duas coisas diferentes.\n  - *Ele é **mais alto** do que eu.* → **É más alto que yo**.\n- **Tão … quanto** indica igualdade.\n  - *Ela é **tão inteligente** quanto o irmão.* → **Es tan inteligente como su hermano**.\n\n## Superlativos\n- **Superlativo relativo**: *o mais/menos + adjetivo + de*.\n  - *É o **mais rápido** da turma.* → **Es el más rápido de la clase**.\n- **Superlativo absoluto**: sufixo **-íssimo / -érrimo** (para adjetivos terminados em -r, -z, -s usa‑se -érrimo).\n  - *bonito → **bonitíssimo***\n  - *fácil → **facilíssimo***\n  - *pobre → **pobrezíssimo***\n\n## Comparativos irregulares\n| Português | Español | Comentario |\n|-----------|---------|------------|\n| melhor    | mejor   | de **bom** → **melhor** |\n| pior      | peor    | de **mau** → **pior** |\n| maior     | mayor   | de **grande** → **maior** |\n| menor     | menor   | de **pequeno** → **menor** |\n\n**Comparación con el español**: en español se usa *más/menos … que* y *tan … como*, mientras que en portugués se añade la preposición **do** antes de *que*. El superlativo absoluto en español suele formarse con *-ísimo* (p.ej., *bonitísimo* → *bonitísimo*), idéntico al portugués.\n",
+  "examples": [
+   {
+    "t": "Ele é mais alto do que eu.",
+    "es": "É más alto que yo."
+   },
+   {
+    "t": "Esta casa é tão grande quanto a sua.",
+    "es": "Esta casa es tan grande como la tuya."
+   },
+   {
+    "t": "Ela é a mais inteligente da turma.",
+    "es": "Ella es la más inteligente de la clase."
+   },
+   {
+    "t": "Esse filme é facilíssimo de entender.",
+    "es": "Esa película es facilísima de entender."
+   },
+   {
+    "t": "Ele é o pior jogador do time.",
+    "es": "É el peor jugador del equipo."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Ele é mais alto que eu.",
+    "right": "Ele é mais alto **do** que eu.",
+    "why": "En portugués siempre se incluye la preposición *do* antes de *que* en comparativos de superioridad/inferioridad."
+   },
+   {
+    "wrong": "Ela é tão inteligente como o irmão.",
+    "right": "Ela é tão inteligente **quanto** o irmão.",
+    "why": "Para igualdad se usa *quanto*, no *como*."
+   },
+   {
+    "wrong": "Esse carro é bonitíssimo.",
+    "right": "Esse carro é **bonitíssimo** (sin cambio).",
+    "why": "Algunos confundem con *bonitíssimo* → *bonitíssimo*; la forma correcta ya está escrita."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Maria é ___ alta ___ João.",
+    "options": [
+     "mais",
+     "menos",
+     "tão"
+    ],
+    "answer": 0,
+    "explanation": "Se compara altura, se usa *mais*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Este livro é ___ interessante ___ o outro.",
+    "options": [
+     "tão",
+     "mais",
+     "menos"
+    ],
+    "answer": 2,
+    "explanation": "Comparativo de inferioridad usa *menos*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ele corre ___ rápido ___ o irmão.",
+    "options": [
+     "tão",
+     "mais",
+     "menos"
+    ],
+    "answer": 1,
+    "explanation": "Comparativo de superioridad usa *mais*."
+   },
+   {
+    "type": "fill",
+    "prompt": "O filme foi ___ (bom) ___ (difícil) de entender.",
+    "answer": "bomíssimo",
+    "accept": [
+     "bonitíssimo",
+     "facilíssimo"
+    ],
+    "explanation": "Superlativo absoluto de *bom* es *bomíssimo*."
+   },
+   {
+    "type": "fill",
+    "prompt": "A prova foi ___ (difícil) ___ (fácil) para mim.",
+    "answer": "difícilíssima",
+    "accept": [
+     "difícilíssima"
+    ],
+    "explanation": "Superlativo absoluto de *difícil* usa -íssima."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ele é ___ (pobre) ___ (rico) que eu.",
+    "answer": "pobrezíssimo",
+    "accept": [
+     "pobrezíssimo"
+    ],
+    "explanation": "Superlativo absoluto de *pobre*."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ela",
+     "é",
+     "mais",
+     "inteligente",
+     "do",
+     "que",
+     "eu",
+     "."
+    ],
+    "answer": "Ela é mais inteligente do que eu.",
+    "explanation": "Ordene correctamente la frase."
+   },
+   {
+    "type": "order",
+    "words": [
+     "O",
+     "cavalo",
+     "é",
+     "o",
+     "mais",
+     "rápido",
+     "da",
+     "pista",
+     "."
+    ],
+    "answer": "O cavalo é o mais rápido da pista.",
+    "explanation": "Coloque las palabras en el orden correcto."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ela",
+     "é",
+     "a",
+     "casa",
+     "bonitíssima",
+     "."
+    ],
+    "answer": "Ela é a casa bonitíssima.",
+    "explanation": "Ordene la frase."
+   },
+   {
+    "type": "fix",
+    "prompt": "Ele é tão alto quanto eu.",
+    "answer": "Ele é tão alto **quanto** eu.",
+    "explanation": "En portugués se usa *quanto* para igualdad, no *como*."
+   },
+   {
+    "type": "translate",
+    "prompt": "Mi hermano es el peor estudiante de la clase.",
+    "answer": "Meu irmão é o pior estudante da turma.",
+    "explanation": "Traducción al portugués brasileño."
+   }
+  ],
+  "id": "pt-comparativos",
+  "level": "A2",
+  "title": "Comparativos y superlativos",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás el uso correcto de las preposiciones en portugués brasileño y su regencia con verbos comunes.",
+  "explanation": "## Preposiciones básicas\n- **em / no / na**: se usan para indicar lugar o tiempo. *No* = *em+o*, *na* = *em+a*. Ej.: *Estou **no** Brasil*, *Vou **na** escola*.\n- **a / para**: *a* indica movimiento o dirección; *para* indica finalidad o destino. Ej.: *Vou **a** Lisboa*, *Estudo **para** passar no exame*.\n- **de**: origen, posesión o materia. Ej.: *Sou **de** Portugal*, *A caneta **de** metal*.\n- **por / pelo**: causa, medio o duración. *Por* = preposición simple; *pelo* = *por+o*. Ej.: *Passei **por** aqui*, *Fui **pelo** correio*.\n\n## Regencia verbal\n| Verbo | Preposición correcta | Comentario |\n|-------|----------------------|------------|\n| gostar | **de** | *Gosto **de** música* |\n| precisar | **de** | *Preciso **de** ajuda* |\n| pensar | **em** | *Penso **em** você* |\n| chegar | **a** (destino) o **em** (lugar genérico) | *Chego **a** casa* vs *Chego **em** São Paulo* |\n\n### Comparación con el español\n- En español se dice *gustar de*, pero en portugués solo **de**.\n- *Pensar en* → **em** (no *sobre* como a veces en español).\n- *Llegar a* es idéntico, pero *chegar em* se usa cuando el lugar no es un punto concreto.\n\nUsa siempre la preposición que acompaña al verbo; cambiarla altera el significado o produce una frase incorrecta.",
+  "examples": [
+   {
+    "t": "Eu gosto **de** ler livros.",
+    "es": "Me gusta leer libros."
+   },
+   {
+    "t": "Ele chegou **a** casa tarde.",
+    "es": "Él llegó a casa tarde."
+   },
+   {
+    "t": "Precisamos **de** água.",
+    "es": "Necesitamos agua."
+   },
+   {
+    "t": "Ela pensa **em** viajar.",
+    "es": "Ella piensa en viajar."
+   },
+   {
+    "t": "Vou **para** o parque amanhã.",
+    "es": "Voy al parque mañana."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Eu gosto **em** música.",
+    "right": "Eu gosto **de** música.",
+    "why": "El verbo *gostar* solo rige *de*."
+   },
+   {
+    "wrong": "Cheguei **em** casa.",
+    "right": "Cheguei **a** casa.",
+    "why": "Para destinos concretos se usa *a*."
+   },
+   {
+    "wrong": "Preciso **por** ajuda.",
+    "right": "Preciso **de** ajuda.",
+    "why": "*Precisar* siempre lleva *de*."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Ele pensa ___ futuro.",
+    "options": [
+     "em",
+     "de",
+     "a"
+    ],
+    "answer": 0,
+    "explanation": "El verbo *pensar* rige *em*."
+   },
+   {
+    "type": "choice",
+    "prompt": "Vamos ___ praia amanhã.",
+    "options": [
+     "para",
+     "por",
+     "de"
+    ],
+    "answer": 0,
+    "explanation": "*Para* indica destino."
+   },
+   {
+    "type": "choice",
+    "prompt": "Eu moro ___ Brasil.",
+    "options": [
+     "no",
+     "na",
+     "a"
+    ],
+    "answer": 0,
+    "explanation": "*No* = *em+o* para lugar masculino."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ela chegou ___ (a) festa cedo.",
+    "answer": "à",
+    "accept": [
+     "a"
+    ],
+    "explanation": "Se usa *à* (a + a) para indicar destino femenino."
+   },
+   {
+    "type": "fill",
+    "prompt": "Preciso ___ (de) um carro novo.",
+    "answer": "de",
+    "accept": [],
+    "explanation": "Verbo *precisar* siempre lleva *de*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Vamos ___ (para) o centro da cidade.",
+    "answer": "para",
+    "accept": [],
+    "explanation": "*Para* indica dirección."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Comprei",
+     "o",
+     "livro",
+     "na",
+     "loja",
+     "."
+    ],
+    "answer": "Comprei o livro na loja.",
+    "explanation": "Ordena la oración correctamente."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Cheguei",
+     "a",
+     "casa",
+     "ontem",
+     "."
+    ],
+    "answer": "Cheguei a casa ontem.",
+    "explanation": "Coloca la preposición y el verbo en orden."
+   },
+   {
+    "type": "fix",
+    "prompt": "Gosto em viajar.",
+    "answer": "Gosto de viajar.",
+    "explanation": "El verbo *gostar* lleva *de*."
+   },
+   {
+    "type": "translate",
+    "prompt": "Necesito ayuda para terminar el proyecto.",
+    "answer": "Preciso de ajuda para terminar o projeto.",
+    "explanation": "Traduce usando la estructura correcta de *precisar de* y *para*."
+   }
+  ],
+  "id": "pt-preposicoes",
+  "level": "A2",
+  "title": "Preposiciones y regencia verbal",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a usar el subjuntivo presente en portugués brasileño con expresiones como \"espero que\", \"é importante que\" y \"talvez\" y sus diferencias con el español.",
+  "explanation": "## Subjuntivo presente en portugués brasileño\n\nEl subjuntivo se emplea para expresar **dudas, deseos, hipótesis o valoraciones**. En el presente, la conjugación es distinta a la del indicativo y, a veces, a la del español.\n\n### Formación básica\n| Persona | Terminación -ar | Terminación -er/-ir |\n|---|---|---|\n| eu | -e | -a |\n| tu/você | -es / -e | -as / -a |\n| ele/ela | -e | -a |\n| nós | -emos / -ermos | -amos |\n| vós/vocês | -eis / -e | -am |\n| eles/elas | -em | -am |\n\n### Uso con expresiones típicas\n- **espero que** → deseo o expectativa: *Espero que você venha.* (Esp: *Espero que vengas*).\n- **é importante que** → valoración: *É importante que estudemos.* (Esp: *Es importante que estudiemos*).\n- **talvez** + subjuntivo → posibilidad: *Talvez ele chegue tarde.* (Esp: *Quizá él llegue tarde*).\n\n### Diferencias con el español\n- En portugués, **\"tu\"** lleva la forma de subjuntivo idéntica a la de **\"você\"** (‑es vs ‑e). En español, *tú* y *usted* difieren.\n- El verbo **\"ser\"** en subjuntivo es *seja* (eu seja), mientras que en español es *sea*; la diferencia es mínima pero importante en la ortografía.\n- Con **\"talvez\"**, el verbo siempre va en subjuntivo; en español se usa *quizá* + indicativo o subjuntivo según el contexto.\n\nPractica estos patrones y notarás que el subjuntivo brasileño es muy parecido al español, con pequeñas variaciones de terminación y uso de pronombres.",
+  "examples": [
+   {
+    "t": "Espero que você venha à festa amanhã.",
+    "es": "Espero que vengas a la fiesta mañana."
+   },
+   {
+    "t": "É importante que eles cheguem cedo.",
+    "es": "Es importante que ellos lleguen temprano."
+   },
+   {
+    "t": "Talvez eu consiga o emprego.",
+    "es": "Quizá yo consiga el empleo."
+   },
+   {
+    "t": "Quero que você me ajude com o trabalho.",
+    "es": "Quiero que me ayudes con el trabajo."
+   },
+   {
+    "t": "É necessário que nós estudemos mais.",
+    "es": "Es necesario que estudiemos más."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Espero que você vem.",
+    "right": "Espero que você venha.",
+    "why": "El verbo debe ir en subjuntivo, no en indicativo."
+   },
+   {
+    "wrong": "É importante que eles chegam cedo.",
+    "right": "É importante que eles cheguem cedo.",
+    "why": "Después de \"é importante que\" se usa subjuntivo."
+   },
+   {
+    "wrong": "Talvez eu consigo o emprego.",
+    "right": "Talvez eu consiga o emprego.",
+    "why": "\"Talvez\" exige subjuntivo, no indicativo."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ que você estude mais para a prova.",
+    "options": [
+     "Espero",
+     "É importante",
+     "Talvez"
+    ],
+    "answer": 1,
+    "explanation": "En esta frase se necesita la expresión de valoración, por lo que la opción correcta es \"É importante\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ ele chegue tarde, vamos começar sem ele.",
+    "options": [
+     "Talvez",
+     "Espero",
+     "É necessário"
+    ],
+    "answer": 0,
+    "explanation": "\"Talvez\" introduce una posibilidad, por eso se usa con subjuntivo."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ que eles venham, a reunião será adiada.",
+    "options": [
+     "É importante",
+     "É possível",
+     "É necessário"
+    ],
+    "answer": 2,
+    "explanation": "\"É necessário\" indica una condición obligatoria."
+   },
+   {
+    "type": "fill",
+    "prompt": "Talvez ___ (chegar) mais cedo.",
+    "answer": "chegue",
+    "accept": [
+     "chegue"
+    ],
+    "explanation": "Después de \"talvez\" se usa el subjuntivo del verbo \"chegar\" (eu chegue)."
+   },
+   {
+    "type": "fill",
+    "prompt": "É importante ___ (estudar) todos os dias.",
+    "answer": "estudar",
+    "accept": [
+     "estudar"
+    ],
+    "explanation": "Después de \"é importante\" el verbo va en infinitivo en portugués, pero la frase completa requiere subjuntivo: \"que estudemos\". Aquí se pide la forma base."
+   },
+   {
+    "type": "fill",
+    "prompt": "Espero que ___ (vir) ao cinema.",
+    "answer": "venha",
+    "accept": [
+     "venha"
+    ],
+    "explanation": "El verbo \"vir\" en subjuntivo presente para \"você\" es \"venha\"."
+   },
+   {
+    "type": "order",
+    "words": [
+     "É",
+     "importante",
+     "que",
+     "cheguemos",
+     "amanhã"
+    ],
+    "answer": "É importante que cheguemos amanhã",
+    "explanation": "Ordena la frase correctamente."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Talvez",
+     "ela",
+     "faça",
+     "o",
+     "trabalho"
+    ],
+    "answer": "Talvez ela faça o trabalho",
+    "explanation": "Ordena la frase correctamente."
+   },
+   {
+    "type": "fix",
+    "prompt": "É importante que nós estudamos mais.",
+    "answer": "É importante que nós estudemos mais.",
+    "explanation": "Se corrige \"estudamos\" a la forma de subjuntivo \"estudemos\"."
+   },
+   {
+    "type": "translate",
+    "prompt": "Es importante que ellos lleguen a tiempo.",
+    "answer": "É importante que eles cheguem a tempo.",
+    "explanation": "Traducción al portugués brasileño usando subjuntivo."
+   }
+  ],
+  "id": "pt-subjuntivo-presente",
+  "level": "B1",
+  "title": "Subjuntivo presente",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a usar el futuro del subjuntivo en portugués brasileño con 'quando', 'se' y 'assim que'.",
+  "explanation": "## Futuro do subjuntivo\n\nEn portugués brasileño existe una forma verbal que ya no aparece en el español moderno: el **futuro del subjuntivo**. Se usa principalmente en oraciones subordinadas que expresan una condición o un momento futuro.\n\n- **Cuando** (quando) + futuro del subjuntivo: *quando você chegar* (cuando llegues). \n- **Si** (se) + futuro del subjuntivo: *se eu puder* (si puedo). \n- **Así que** (assim que) + futuro del subjuntivo: *assim que eles terminarem* (tan pronto como terminen).\n\n### Comparación con el español\n| Portugués | Español equivalente |\n|-----------|----------------------|\n| quando você chegar | cuando llegues |\n| se eu puder | si puedo |\n| assim que eles terminarem | tan pronto como terminen |\n\nEn español usamos el presente de subjuntivo o el indicativo, mientras que en portugués se mantiene una forma específica que termina en **-r**, **-res**, **-r**, **-mos**, **-des**, **-rem** (ej. *chegar*, *puder*, *terminarem*). Esta forma solo aparece en contextos de futuro o condición.\n\n### Uso típico\n- **Oraciones condicionales**: *Se eu ganhar na loteria, viajarei.*\n- **Oraciones temporales**: *Quando eles saírem, avisaremos.*\n- **Oraciones consecutivas**: *Assim que terminar, volto.*\n\nRecuerda que el futuro del subjuntivo nunca lleva **-á** como el futuro del indicativo; su terminación es la misma que el infinitivo más la desinencia de subjuntivo.",
+  "examples": [
+   {
+    "t": "Quando você chegar, me avise.",
+    "es": "Cuando llegues, avísame."
+   },
+   {
+    "t": "Se eu puder, irei ao cinema.",
+    "es": "Si puedo, iré al cine."
+   },
+   {
+    "t": "Assim que eles terminarem o trabalho, descansaremos.",
+    "es": "Tan pronto como terminen el trabajo, descansaremos."
+   },
+   {
+    "t": "Quando chover, ficaremos em casa.",
+    "es": "Cuando llueva, nos quedaremos en casa."
+   },
+   {
+    "t": "Se ela estudar, passará no exame.",
+    "es": "Si ella estudia, aprobará el examen."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Quando você chegará, me avise.",
+    "right": "Quando você chegar, me avise.",
+    "why": "Se usa futuro do subjuntivo, no futuro do indicativo."
+   },
+   {
+    "wrong": "Se eu poderei, irei.",
+    "right": "Se eu puder, irei.",
+    "why": "El futuro do subjuntivo no lleva -ei; la forma correcta es 'puder'."
+   },
+   {
+    "wrong": "Assim que eles terminarão, voltaremos.",
+    "right": "Assim que eles terminarem, voltaremos.",
+    "why": "En la cláusula subordinada se emplea futuro del subjuntivo, no futuro del indicativo."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ você chegar, avise-me.",
+    "options": [
+     "Quando",
+     "Se",
+     "Assim que"
+    ],
+    "answer": 0,
+    "explanation": "Se usa 'quando' para indicar el momento futuro."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ eu puder, vou ao parque.",
+    "options": [
+     "Quando",
+     "Se",
+     "Assim que"
+    ],
+    "answer": 1,
+    "explanation": "'Se' introduce una condición."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ eles terminarem, vamos jantar.",
+    "options": [
+     "Quando",
+     "Se",
+     "Assim que"
+    ],
+    "answer": 2,
+    "explanation": "'Assim que' indica una acción inmediata después de otra."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (chegar) ao aeroporto, pegue um táxi.",
+    "answer": "Quando você chegar",
+    "accept": [
+     "Quando chegar",
+     "Quando você chegar"
+    ],
+    "explanation": "Se necesita futuro del subjuntivo 'chegar' con 'quando'."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (poder) ajudar, avise-me.",
+    "answer": "Se eu puder",
+    "accept": [
+     "Se eu puder"
+    ],
+    "explanation": "Condición con futuro del subjuntivo de 'poder'."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (terminar) o projeto, celebraremos.",
+    "answer": "Assim que eles terminarem",
+    "accept": [
+     "Assim que eles terminarem"
+    ],
+    "explanation": "Uso de 'assim que' + futuro del subjuntivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Quando",
+     "você",
+     "chegar",
+     ",",
+     "avise-me",
+     "."
+    ],
+    "answer": "Quando você chegar, avise-me.",
+    "explanation": "Ordena la oración correcta con futuro del subjuntivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Se",
+     "eu",
+     "puder",
+     ",",
+     "vou",
+     "."
+    ],
+    "answer": "Se eu puder, vou.",
+    "explanation": "Coloca la cláusula condicional en orden correcto."
+   },
+   {
+    "type": "fix",
+    "prompt": "Quando eles terminarão, vamos sair.",
+    "answer": "Quando eles terminarem, vamos sair.",
+    "explanation": "Corrige el verbo al futuro del subjuntivo."
+   },
+   {
+    "type": "translate",
+    "prompt": "Si tú estudias, aprobarás el examen.",
+    "answer": "Se tu estudardes, passarás no exame.",
+    "explanation": "Traduce usando futuro del subjuntivo para la condición."
+   }
+  ],
+  "id": "pt-futuro-subjuntivo",
+  "level": "B1",
+  "title": "Futuro del subjuntivo (el gran desconocido)",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a usar el condicional y las oraciones con \"se\" en portugués brasileño",
+  "explanation": "## Condicional en portugués\n- El **condicional simple** se forma con el infinitivo + **ia** (ia, ías, íamos, íais, iam).  \n- Equivale al *condicional simple* español (*compraría*).  \n- En el habla coloquial se usa **ia** después de verbos auxiliares: *vou comprar* → *ia comprar*.\n\n## Oraciones con \"se\" + pretérito imperfecto del subjuntivo + condicional\n- Estructura: **se + verbo en pretérito imperfecto del subjuntivo + condicional**.\n- Expresa una hipótesis irreal en el pasado o presente:  \n  - *Se eu tivesse dinheiro, viajaria.* (Si tuviera dinero, viajaría.)\n- En español la forma del subjuntivo es *tuviera/tuviese*; en portugués termina en **-sse** (tivesse, fosse, fosse).  \n- El verbo principal siempre va en **condicional simple**.\n\n## Comparación rápida\n| Español | Portugués | Comentario |\n|---|---|---|\n| Si tuviera tiempo, iría. | Se eu tivesse tempo, iria. | El subjuntivo termina en **-ra** vs **-sse**. |\n| Yo compraría. | Eu compraria. | Igual en significado, diferente terminación. |\n| Si hubiera sabido, habría venido. | Se eu soubesse, teria vindo. | En portugués se usa *teria* (condicional compuesto). |\n\n**Uso de \"ia\" en la conversación**: se puede sustituir a *vou* + infinitivo para expresar intención futura con matiz de duda: *Eu ia viajar* ≈ *Yo iba a viajar*.",
+  "examples": [
+   {
+    "t": "Se eu ganhasse na loteria, compraria uma casa na praia.",
+    "es": "Si ganara la lotería, compraría una casa en la playa."
+   },
+   {
+    "t": "Eu ia ao cinema, mas o filme estava esgotado.",
+    "es": "Yo iba al cine, pero la película estaba agotada."
+   },
+   {
+    "t": "Se você estudasse mais, passaria no exame.",
+    "es": "Si estudiaras más, aprobarías el examen."
+   },
+   {
+    "t": "Eles iam viajar, porém a pandemia cancelou os planos.",
+    "es": "Ellos iban a viajar, pero la pandemia canceló los planes."
+   },
+   {
+    "t": "Se nós soubéssemos a resposta, contaríamos a todos.",
+    "es": "Si supiéramos la respuesta, se la contaríamos a todos."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Se eu teria dinheiro, compraria.",
+    "right": "Se eu tivesse dinheiro, compraria.",
+    "why": "El verbo de la cláusula \"se\" debe ir en pretérito imperfecto del subjuntivo, no en condicional."
+   },
+   {
+    "wrong": "Eu ia comprar um carro, mas não tenho dinheiro.",
+    "right": "Eu ia comprar um carro, mas não tenho dinheiro.",
+    "why": "En portugués \"ia\" se usa solo para intención futura; no se confunda con \"iria\" que es condicional."
+   },
+   {
+    "wrong": "Se eu tivesse estudado, eu passei.",
+    "right": "Se eu tivesse estudado, eu teria passado.",
+    "why": "El resultado de una condición irreal se expresa con condicional compuesto (*teria passado*)."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ eu soubesse a verdade, teria dito.",
+    "options": [
+     "Se",
+     "Caso",
+     "Quando"
+    ],
+    "answer": 0,
+    "explanation": "Se se usa para introducir una condición hipotética."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ele ___ viajar amanhã, mas está doente.",
+    "options": [
+     "ia",
+     "iria",
+     "vai"
+    ],
+    "answer": 0,
+    "explanation": "En contexto de intención futura con duda, se usa \"ia\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "Se nós ___ mais tempo, visitaríamos o museu.",
+    "options": [
+     "tivéssemos",
+     "tivermos",
+     "tivéssemos"
+    ],
+    "answer": 0,
+    "explanation": "Se requiere pretérito imperfecto do subjuntivo."
+   },
+   {
+    "type": "fill",
+    "prompt": "Se ela ___ (chegar) cedo, poderíamos sair juntos.",
+    "answer": "chegasse",
+    "accept": [
+     "chegasse"
+    ],
+    "explanation": "Se usa o pretérito imperfecto do subjuntivo."
+   },
+   {
+    "type": "fill",
+    "prompt": "Eu ___ (ir) ao parque, mas está chovendo.",
+    "answer": "ia",
+    "accept": [
+     "ia"
+    ],
+    "explanation": "Intención futura con duda, usa \"ia\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Se eles ___ (estudar) mais, passariam no concurso.",
+    "answer": "estudassem",
+    "accept": [
+     "estudassem"
+    ],
+    "explanation": "Condición irreal, verbo no subjuntivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Eu",
+     "viajaria",
+     "se",
+     "tivesse",
+     "tempo",
+     "."
+    ],
+    "answer": "Eu viajaria se tivesse tempo.",
+    "explanation": "Ordene la oración con sujeto, verbo condicional y cláusula \"se\"."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ela",
+     "não",
+     "ia",
+     "comer",
+     "se",
+     "estivesse",
+     "faminta",
+     "."
+    ],
+    "answer": "Ela não ia comer se estivesse faminta.",
+    "explanation": "Reordene manteniendo la negación y la condición."
+   },
+   {
+    "type": "fix",
+    "prompt": "Se eu teria dinheiro, eu compraria um carro.",
+    "answer": "Se eu tivesse dinheiro, eu compraria um carro.",
+    "explanation": "Corrija el verbo de la cláusula \"se\" al pretérito imperfecto del subjuntivo."
+   },
+   {
+    "type": "translate",
+    "prompt": "Si tuviera tiempo, iría al gimnasio.",
+    "answer": "Se eu tivesse tempo, iria à academia.",
+    "explanation": "Traducción literal respetando la estructura condicional."
+   }
+  ],
+  "id": "pt-condicional",
+  "level": "B1",
+  "title": "Condicional y frases con SE",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás el infinitivo personal en portugués brasileño y cómo difiere del español",
+  "explanation": "## Infinitivo personal\nEl infinitivo en portugués puede concordar con el sujeto, algo que no ocurre en español. Se usa cuando el sujeto del infinitivo es distinto del sujeto de la oración principal.\n\n- **Forma**: se añade la desinencia de la 1ª, 2ª o 3ª persona del presente del indicativo al infinitivo.\n  - **1ª pessoa singular**: *-r* → *-r* + *-**e** → *-r* → *ir* → *irmos* (nosotros)\n  - **2ª pessoa plural**: *-r* + *-**e**s* → *-r* → *sair* → *saírem* (vosotros)\n- **Uso típico**:\n  1. Después de preposiciones (*para*, *antes de*, *sem*, *ao*). \n  2. En oraciones subordinadas sin conjunción (*Querendo*, *tendo*).\n  3. Con verbos de percepción o intención (*ver*, *esperar*).\n\n### Comparación con el español\n| Español | Portugués (infinitivo personal) | Comentario |\n|---|---|---|\n| *Para que nosotros vayamos* | *Para nós irmos* | En español se usa subjuntivo; en portugués se mantiene infinitivo con concordancia. |\n| *Antes de que ustedes salgan* | *Antes de vocês saírem* | El infinitivo lleva la terminación *-rem* para 3ª persona plural. |\n| *Sin que él lo haga* | *Sem ele fazer* (no infinitivo personal) | En portugués, a veces se prefiere el infinitivo simple sin concordancia. |\n\n### Cuándo no usar el infinitivo personal\n- Cuando el sujeto del infinitivo coincide con el de la oración principal.\n- En construcciones muy formales o literarias donde se prefiere el infinitivo simple.\n\n### Resumen rápido\n- **1ª pers. sing.**: *-r* → *-r* (ex.: *para eu fazer*)\n- **2ª pers. sing.**: *-r* → *-r* + *-es* (ex.: *para tu fazeres*)\n- **3ª pers. sing.**: *-r* → *-r* + *-e* (ex.: *para ele fazer*)\n- **1ª pers. pl.**: *-r* → *-r* + *-mos* (ex.: *para nós fazermos*)\n- **2ª pers. pl.**: *-r* → *-r* + *-des* (ex.: *para vós fazerdes*)\n- **3ª pers. pl.**: *-r* → *-r* + *-rem* (ex.: *para eles fazerem*)",
+  "examples": [
+   {
+    "t": "Para nós irmos ao cinema, precisamos comprar os ingressos.",
+    "es": "Para que vayamos al cine, necesitamos comprar las entradas."
+   },
+   {
+    "t": "Antes de vocês saírem, fechem a porta.",
+    "es": "Antes de que ustedes salgan, cierren la puerta."
+   },
+   {
+    "t": "Sem eu dizer nada, ele já começou.",
+    "es": "Sin que yo diga nada, él ya empezó."
+   },
+   {
+    "t": "Ao chegar, avise-me.",
+    "es": "Al llegar, avísame."
+   },
+   {
+    "t": "Esperando que eles venham, preparamos a comida.",
+    "es": "Esperando que ellos vengan, preparamos la comida."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Para nós ir ao cinema.",
+    "right": "Para nós irmos ao cinema.",
+    "why": "Falta la desinencia -mos del infinitivo personal."
+   },
+   {
+    "wrong": "Antes de vocês sair.",
+    "right": "Antes de vocês saírem.",
+    "why": "El infinitivo debe concordar con el sujeto plural."
+   },
+   {
+    "wrong": "Sem eu dizer nada.",
+    "right": "Sem eu dizer nada.",
+    "why": "En este caso el infinitivo simple es correcto; el error típico es intentar usar *dizeres* que no existe."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ nós estudarmos, precisamos de silêncio.",
+    "options": [
+     "Para",
+     "Antes de",
+     "Sem"
+    ],
+    "answer": 0,
+    "explanation": "Se usa *para* + infinitivo personal."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ele saiu antes de ___ chegarem.",
+    "options": [
+     "você",
+     "vocês",
+     "tu"
+    ],
+    "answer": 1,
+    "explanation": "El sujeto es plural, se necesita *vocês* y el infinitivo *chegarem*."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ eu terminar, avise-me.",
+    "options": [
+     "Ao",
+     "Sem",
+     "Antes de"
+    ],
+    "answer": 0,
+    "explanation": "*Ao* introduce el infinitivo personal."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nós vamos ___ (partir) amanhã.",
+    "answer": "partir",
+    "accept": [
+     "partir"
+    ],
+    "explanation": "El infinitivo simple se usa cuando el sujeto coincide."
+   },
+   {
+    "type": "fill",
+    "prompt": "Eles decidiram ___ (viajar) juntos.",
+    "answer": "viajar",
+    "accept": [
+     "viajar"
+    ],
+    "explanation": "Sujeto coincide, infinitivo simple."
+   },
+   {
+    "type": "fill",
+    "prompt": "Antes de ___ (sair) vocês, feche a janela.",
+    "answer": "saírem",
+    "accept": [
+     "saírem"
+    ],
+    "explanation": "Infinitivo personal 3ª pers. pl."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Precisamos",
+     "para",
+     "nós",
+     "estudar",
+     "."
+    ],
+    "answer": "Precisamos para nós estudar.",
+    "explanation": "Ordena la oración manteniendo el infinitivo personal."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Eles",
+     "vão",
+     "antes",
+     "de",
+     "chegar",
+     "."
+    ],
+    "answer": "Eles vão antes de chegar.",
+    "explanation": "El infinitivo simple es correcto aquí."
+   },
+   {
+    "type": "fix",
+    "prompt": "Para vocês ir ao parque, levem água.",
+    "answer": "Para vocês irem ao parque, levem água.",
+    "explanation": "Se necesita el infinitivo personal *irem*."
+   },
+   {
+    "type": "translate",
+    "prompt": "Antes de que ellos terminen, revisa el informe.",
+    "answer": "Antes de eles terminarem, revise o relatório.",
+    "explanation": "Traduce usando infinitivo personal en 3ª pers. pl."
+   }
+  ],
+  "id": "pt-infinitivo-pessoal",
+  "level": "B1",
+  "title": "Infinitivo personal",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a usar los tiempos compuestos del portugués brasileño: pretérito mais‑que‑perfeito, futuro do pretérito composto y presente perfeito",
+  "explanation": "## Tiempos compuestos en portugués brasileño\n\n- **Pretérito mais‑que‑perfeito** (`tinha feito`, `havíamos dito`): equivale al **pluscuamperfecto** español (`había hecho`). Se forma con el verbo auxiliar *ter* en pretérito imperfeito + participio del verbo principal.\n  - *Eu tinha estudado* → *Yo había estudiado*.\n- **Futuro do pretérito composto** (`teria feito`, `teríamos visto`): corresponde al **condicional compuesto** español (`habría hecho`). Usa *ter* en condicional simple + participio.\n  - *Ele teria chegado* → *Él habría llegado*.\n- **Presente perfeito** (`tenho feito`, `temos falado`): se usa para acciones repetidas o que continúan en el presente, similar al **pretérito perfecto compuesto** español (`he hecho`). No se usa *há* como en el portugués europeo.\n  - *Tenho estudado muito* → *He estudiado mucho*.\n\n### Comparación rápida\n| Español | Portugués (BR) | Uso |\n|---|---|---|\n| había comido | tinha comido | Acción anterior a otro pasado |\n| habría ido | teria ido | Hipótesis en pasado |\n| he leído | tenho lido | Acción que empezó antes y sigue ahora |\n\n**Nota:** En portugués europeo se usa *há* + gerundio (`há estudado`), pero en Brasil se prefiere *tenho* + participio.\n",
+  "examples": [
+   {
+    "t": "Eu tinha terminado o trabalho antes da reunião.",
+    "es": "Yo había terminado el trabajo antes de la reunión."
+   },
+   {
+    "t": "Se eu tivesse dinheiro, teria comprado o carro.",
+    "es": "Si tuviera dinero, habría comprado el coche."
+   },
+   {
+    "t": "Ela tem estudado francês nos últimos meses.",
+    "es": "Ella ha estado estudiando francés en los últimos meses."
+   },
+   {
+    "t": "Nós tínhamos visto aquele filme antes.",
+    "es": "Nosotros habíamos visto esa película antes."
+   },
+   {
+    "t": "Eles teriam chegado mais cedo se não tivessem o trânsito.",
+    "es": "Ellos habrían llegado antes si no hubieran tenido tráfico."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Eu tinha feito o dever ontem.",
+    "right": "Eu tinha feito o dever ontem.",
+    "why": "En portugués brasileño se usa *tinha* + participio, no *había*."
+   },
+   {
+    "wrong": "Se eu teria dinheiro, compraria.",
+    "right": "Se eu tivesse dinheiro, compraria.",
+    "why": "El condicional compuesto usa *teria* solo en la cláusula principal, no en la condición."
+   },
+   {
+    "wrong": "Eu tenho estudado ontem.",
+    "right": "Eu estudei ontem.",
+    "why": "Para acciones puntuales en el pasado se usa pretérito perfecto simple, no el presente perfecto."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Ele ___ (ter) chegado antes se não ___ (perder) o ônibus.",
+    "options": [
+     "tinha, perderia",
+     "teria, perdesse",
+     "tinha, perdesse"
+    ],
+    "answer": 2,
+    "explanation": "Se usa pretérito mais‑que‑perfeito na condición y futuro do pretérito composto en la consecuencia."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nós ___ (ter) estudado muito este semestre.",
+    "options": [
+     "temos",
+     "tínhamos",
+     "tivemos"
+    ],
+    "answer": 0,
+    "explanation": "Presente perfeito: *temos* + participio."
+   },
+   {
+    "type": "choice",
+    "prompt": "Se eu ___ (ter) tempo, teria viajado.",
+    "options": [
+     "tivesse",
+     "tinha",
+     "teria"
+    ],
+    "answer": 0,
+    "explanation": "Condicional compuesto necesita condición en pretérito imperfeito de *ter*."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ela ___ (ter) falado com o professor antes da prova.",
+    "answer": "tinha falado",
+    "accept": [
+     "tinha falado"
+    ],
+    "explanation": "Uso del pretérito mais‑que‑perfeito."
+   },
+   {
+    "type": "fill",
+    "prompt": "Nós ___ (ter) terminado o projeto quando o cliente chegou.",
+    "answer": "tínhamos terminado",
+    "accept": [
+     "tínhamos terminado"
+    ],
+    "explanation": "Pretérito mais‑que‑perfeito con sujeto plural."
+   },
+   {
+    "type": "fill",
+    "prompt": "Se eles ___ (ter) dinheiro, teriam comprado a casa.",
+    "answer": "tivessem",
+    "accept": [
+     "tivessem"
+    ],
+    "explanation": "Condicional compuesto requiere subjuntivo imperfecto de *ter*."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Tenho",
+     "lido",
+     "muitos",
+     "livros"
+    ],
+    "answer": "Tenho lido muitos livros",
+    "explanation": "Orden correcta del presente perfecto."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ele",
+     "tinha",
+     "chegado",
+     "antes",
+     "da",
+     "reunião"
+    ],
+    "answer": "Ele tinha chegado antes da reunião",
+    "explanation": "Ordena sujeto + auxiliar + participio + complemento."
+   },
+   {
+    "type": "fix",
+    "prompt": "Eu teria estudado mais se eu tinha tempo.",
+    "answer": "Eu teria estudado mais se eu tivesse tempo.",
+    "explanation": "En la condición se necesita *tivesse*, no *tinha*."
+   },
+   {
+    "type": "translate",
+    "prompt": "Si hubiéramos sabido la noticia, habríamos reaccionado antes.",
+    "answer": "Se nós tivéssemos sabido a notícia, teríamos reagido antes.",
+    "explanation": "Traducción al portugués brasileño con condicional compuesto y pretérito mais‑que‑perfeito."
+   }
+  ],
+  "id": "pt-mais-que-perfeito",
+  "level": "B2",
+  "title": "Pluscuamperfecto y tiempos compuestos",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a diferenciar el portugués coloquial del formal y cuándo usar expresiones como “tá”, “pra”, “cê”, “né” y “a gente”.",
+  "explanation": "## Diferencia principal\n- **Coloquial**: se usa en conversaciones informales, con contracciones y pronombres relajados.\n- **Formal**: se emplea en contextos profesionales, académicos o con personas mayores.\n\n### Elementos coloquiales\n| Expresión | Equivalente formal | Uso típico |\n|-----------|-------------------|-----------|\n| tá        | está               | “Tá tudo bem?” → “Está tudo bem?” |\n| pra       | para               | “Vou pra casa.” → “Vou para a casa.” |\n| cê        | você               | “Cê vai?” → “Você vai?” |\n| né        | não é?             | “É bom, né?” → “É bom, não é?” |\n| a gente   | nós                | “A gente vai.” → “Nós vamos.” |\n\n### Tratamiento formal\n- **o senhor / a senhora**: usado con desconocidos o mayores, sustituyendo “você”.\n- Evita contracciones y usa verbos en tercera persona.\n\n### Comparación con el español\n- En español el coloquial también tiene contracciones (p.ej., *'tá* → *está*), pero el uso de *tú* vs *usted* es similar al *você* vs *o senhor/a senhora* portugués.\n- El portugués tiende a usar más pronombres de tercera persona (*a gente*) en lugar de *nosotros*.\n\n**Consejo**: Identifica el registro del interlocutor y adapta tu vocabulario; en escritos oficiales nunca uses *cê* o *tá*.",
+  "examples": [
+   {
+    "t": "Tá frio hoje.",
+    "es": "Hace frío hoy."
+   },
+   {
+    "t": "Vou pra praia amanhã.",
+    "es": "Iré a la playa mañana."
+   },
+   {
+    "t": "Cê viu o filme?",
+    "es": "¿Viste la película?"
+   },
+   {
+    "t": "A gente vai ao restaurante.",
+    "es": "Nosotros vamos al restaurante."
+   },
+   {
+    "t": "O senhor poderia me ajudar?",
+    "es": "¿Podría ayudarme, señor?"
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Você tá cansado?",
+    "right": "Você está cansado?",
+    "why": "En registro formal se evita la contracción \"tá\"."
+   },
+   {
+    "wrong": "Cê vai ao médico.",
+    "right": "Você vai ao médico.",
+    "why": "Uso de \"cê\" es demasiado coloquial para situaciones formales."
+   },
+   {
+    "wrong": "A gente precisamos estudar.",
+    "right": "Nós precisamos estudar.",
+    "why": "Con \"a gente\" el verbo se conjuga en 3ª persona singular, no plural."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Ele ___ (estar) cansado, né?",
+    "options": [
+     "tá",
+     "está",
+     "estava"
+    ],
+    "answer": 1,
+    "explanation": "En registro formal se usa \"está\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "Nós vamos ___ (para) o parque.",
+    "options": [
+     "pra",
+     "para",
+     "pro"
+    ],
+    "answer": 1,
+    "explanation": "En contexto neutro se prefiere \"para\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ (Você) poderia fechar a porta, por favor?",
+    "options": [
+     "Cê",
+     "Você",
+     "Tu"
+    ],
+    "answer": 1,
+    "explanation": "Forma formal es \"você\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ele ___ (estar) atrasado. (está)",
+    "answer": "está",
+    "accept": [
+     "está"
+    ],
+    "explanation": "Verbo en tercera persona singular del presente."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (A gente) vai ao cinema hoje.",
+    "answer": "A gente",
+    "accept": [
+     "A gente"
+    ],
+    "explanation": "Pronombre coloquial para \"nosotros\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "O senhor ___ (precisar) de ajuda? (precisa)",
+    "answer": "precisa",
+    "accept": [
+     "precisa"
+    ],
+    "explanation": "Conjugación correcta en tercera persona singular."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Vou",
+     "a",
+     "casa",
+     "."
+    ],
+    "answer": "Vou a casa.",
+    "explanation": "Orden correcta y sin contracción."
+   },
+   {
+    "type": "order",
+    "words": [
+     "A",
+     "gente",
+     "está",
+     "cansada",
+     "."
+    ],
+    "answer": "A gente está cansada.",
+    "explanation": "Verbo concuerda con \"a gente\" en tercera persona singular."
+   },
+   {
+    "type": "fix",
+    "prompt": "Cê tá feliz.",
+    "answer": "Você está feliz.",
+    "explanation": "Se corrige a forma coloquial para registro formal."
+   },
+   {
+    "type": "translate",
+    "prompt": "¿Podría indicarme la hora, por favor?",
+    "answer": "O senhor poderia me indicar a hora, por favor?",
+    "explanation": "Traducción al registro formal usando \"o senhor\"."
+   }
+  ],
+  "id": "pt-registro",
+  "level": "B2",
+  "title": "Portugués coloquial vs formal",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a usar los conectores de contraste, causa y conclusión en portugués brasileño.",
+  "explanation": "### Conectores de contraste\n- **no entanto**, **contudo**: equivalen a *sin embargo*.\n- Se colocan al inicio o en medio de la oración.\n\n### Conectores de causa\n- **já que**, **pois**: traducen *ya que*.\n- Van antes de la causa y pueden ir al final.\n\n### Conectores de conclusión\n- **portanto**, **ou seja**: equivalen a *por lo tanto*, *es decir*.\n- Introducen la conclusión o explicación.\n\n### Conector de adición\n- **aliás**: similar a *por cierto*, se usa para añadir información extra.\n\n### Concesión con subjuntivo\n- **embora + subjuntivo**: *aunque*.\n- El verbo va en subjuntivo: *embora eu **estivesse** cansado...*\n\n#### Comparación con el español\n| Español | Portugués | Uso |\n|---|---|---|\n| sin embargo | no entanto / contudo | contraste |\n| ya que | já que | causa |\n| por lo tanto | portanto | conclusión |\n| aunque (subj.) | embora (subj.) | concesión |\n\nLos conectores organizan el discurso y facilitan la argumentación. En B2 se espera usarlos de forma fluida y variada.",
+  "examples": [
+   {
+    "t": "Ele estudou muito, **no entanto** não passou no exame.",
+    "es": "Él estudió mucho, **sin embargo** no aprobó el examen."
+   },
+   {
+    "t": "Vou sair mais cedo, **contudo** preciso terminar o relatório.",
+    "es": "Voy a salir temprano, **sin embargo** necesito terminar el informe."
+   },
+   {
+    "t": "**Já que** você chegou tarde, a reunião começou sem você.",
+    "es": "**Ya que** llegaste tarde, la reunión empezó sin ti."
+   },
+   {
+    "t": "Ele não sabia nada, **ou seja**, não poderia responder.",
+    "es": "Él no sabía nada, **es decir**, no podía responder."
+   },
+   {
+    "t": "**Embora** estivesse cansado, continuou a trabalhar.",
+    "es": "**Aunque** estaba cansado, siguió trabajando."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Ele estudou muito, porém não passou.",
+    "right": "Ele estudou muito, **no entanto** não passou.",
+    "why": "‘porém’ es menos usado en Brasil; se prefiere ‘no entanto’ o ‘contudo’."
+   },
+   {
+    "wrong": "Já que você está aqui, então vamos começar.",
+    "right": "Já que você está aqui, vamos começar.",
+    "why": "‘então’ es redundante después de ‘já que’."
+   },
+   {
+    "wrong": "Ele não entende, **embora** ele não estudou.",
+    "right": "Ele não entende, **embora** não tenha estudado.",
+    "why": "Después de ‘embora’ se requiere subjuntivo, no indicativo."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Ele estava doente, ___ foi ao trabalho.",
+    "options": [
+     "no entanto",
+     "já que",
+     "portanto"
+    ],
+    "answer": 0,
+    "explanation": "‘no entanto’ indica contraste con la situación de estar enfermo."
+   },
+   {
+    "type": "choice",
+    "prompt": "Estava chovendo, ___ decidimos ficar em casa.",
+    "options": [
+     "contudo",
+     "aliás",
+     "portanto"
+    ],
+    "answer": 2,
+    "explanation": "‘portanto’ introduce la conclusión de quedarse en casa."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ você tem experiência, pode liderar o projeto.",
+    "options": [
+     "Embora",
+     "Já que",
+     "Aliás"
+    ],
+    "answer": 1,
+    "explanation": "‘Já que’ introduce la causa: porque tienes experiencia."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ele chegou atrasado, ___ (já) não foi aceito.",
+    "answer": "já",
+    "accept": [
+     "já"
+    ],
+    "explanation": "‘já’ indica causa inmediata después del retraso."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (Embora) estivesse cansado, continuou estudando.",
+    "answer": "embora",
+    "accept": [
+     "embora"
+    ],
+    "explanation": "Concesión con subjuntivo."
+   },
+   {
+    "type": "fill",
+    "prompt": "Precisamos economizar, ___ (portanto) vamos cortar gastos.",
+    "answer": "portanto",
+    "accept": [
+     "portanto"
+    ],
+    "explanation": "Conclusión lógica."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Hoje",
+     "está",
+     "frio",
+     ",",
+     "portanto",
+     "vou",
+     "usar",
+     "um",
+     "casaco",
+     "."
+    ],
+    "answer": "Hoje está frio, portanto vou usar um casaco.",
+    "explanation": "Ordena la oración con el conector al medio."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Embora",
+     "não",
+     "tenha",
+     "tempo",
+     ",",
+     "vou",
+     "ajudar",
+     "."
+    ],
+    "answer": "Embora não tenha tempo, vou ajudar.",
+    "explanation": "Coloca ‘embora’ al inicio y mantiene el subjuntivo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Ele estudou muito, porém passou na prova.",
+    "answer": "Ele estudou muito, **portanto** passou na prova.",
+    "explanation": "‘porém’ indica contraste, pero la segunda parte es una conclusión; se usa ‘portanto’."
+   },
+   {
+    "type": "translate",
+    "prompt": "Sin embargo, aunque estaba cansado, siguió trabajando.",
+    "answer": "No entanto, embora estivesse cansado, continuou a trabalhar.",
+    "explanation": "Uso de ‘no entanto’ y ‘embora’ con subjuntivo."
+   }
+  ],
+  "id": "pt-conectores",
+  "level": "B2",
+  "title": "Conectores y argumentación",
+  "model": "openai/gpt-oss-120b"
  }
 ]

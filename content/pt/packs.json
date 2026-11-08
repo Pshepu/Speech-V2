@@ -1,0 +1,1133 @@
+[
+ {
+  "id": "pt-expressoes",
+  "level": "B2",
+  "title": "Expressões do dia a dia",
+  "description": "Expresiones brasileñas muy usadas en conversación.",
+  "items": [
+   {
+    "t": "dar um jeito",
+    "es": "hacer un arreglo",
+    "example": "Ele deu um jeito na situação.",
+    "example_es": "Él arregló la situación.",
+    "note": "informal, coloquial"
+   },
+   {
+    "t": "ficar de boa",
+    "es": "estar tranquilo",
+    "example": "Ele ficou de boa depois da reunião.",
+    "example_es": "Él quedó tranquilo después de la reunión.",
+    "note": "informal"
+   },
+   {
+    "t": "bater um papo",
+    "es": "charlar",
+    "example": "Batei um papo com a tia ontem.",
+    "example_es": "Hablé un rato con la tía ayer.",
+    "note": "informal"
+   },
+   {
+    "t": "ficar de olho",
+    "es": "mantener la vista",
+    "example": "Fique de olho no prazo.",
+    "example_es": "Mantén la vista en el plazo.",
+    "note": "informal"
+   },
+   {
+    "t": "dar um gás",
+    "es": "dar un empujón",
+    "example": "Ele deu um gás na apresentação.",
+    "example_es": "Él dio un empujón en la presentación.",
+    "note": "informal"
+   },
+   {
+    "t": "dar um rolê",
+    "es": "dar una vuelta",
+    "example": "Demos um rolê no centro.",
+    "example_es": "Damos una vuelta por el centro.",
+    "note": "informal"
+   },
+   {
+    "t": "bater de frente",
+    "es": "enfrentar",
+    "example": "Bater de frente com a verdade é difícil.",
+    "example_es": "Enfrentar la verdad es difícil.",
+    "note": ""
+   },
+   {
+    "t": "dar uma de",
+    "es": "actuar como",
+    "example": "Ele deu uma de quem sabe tudo.",
+    "example_es": "Actuó como si supiera todo.",
+    "note": ""
+   },
+   {
+    "t": "ficar de cara",
+    "es": "sorprenderse",
+    "example": "Fiquei de cara com a notícia.",
+    "example_es": "Me sorprendió la noticia.",
+    "note": ""
+   },
+   {
+    "t": "ficar de boca aberta",
+    "es": "sorprenderse",
+    "example": "Fiquei de boca aberta com a proposta.",
+    "example_es": "Me sorprendió la propuesta.",
+    "note": ""
+   },
+   {
+    "t": "ficar na mão",
+    "es": "no control",
+    "example": "Ficou na mão do chefe.",
+    "example_es": "Estaba bajo el control del jefe.",
+    "note": ""
+   },
+   {
+    "t": "dar a louca",
+    "es": "enfadarse",
+    "example": "Ela deu a louca quando viu o preço.",
+    "example_es": "Se enfadó al ver el precio.",
+    "note": ""
+   },
+   {
+    "t": "dar o braço a torcer",
+    "es": "cambiar de opinión",
+    "example": "Ele deu o braço a torcer depois.",
+    "example_es": "Cambió de opinión después.",
+    "note": ""
+   },
+   {
+    "t": "dar um passo à frente",
+    "es": "avanzar",
+    "example": "Ele deu um passo à frente na carreira.",
+    "example_es": "Avanzó en su carrera.",
+    "note": ""
+   },
+   {
+    "t": "ficar de cabeça",
+    "es": "sorprenderse",
+    "example": "Fiquei de cabeça com a surpresa.",
+    "example_es": "Me sorprendió la sorpresa.",
+    "note": ""
+   },
+   {
+    "t": "dar um salto",
+    "es": "saltar",
+    "example": "Ela deu um salto na carreira.",
+    "example_es": "Salto en su carrera.",
+    "note": ""
+   },
+   {
+    "t": "dar um upgrade",
+    "es": "mejorar",
+    "example": "Ele deu um upgrade no contrato e ganhou mais dinheiro.",
+    "example_es": "Él dio un upgrade en el contrato y ganó más dinero.",
+    "note": ""
+   },
+   {
+    "t": "cair na real",
+    "es": "ver la realidad",
+    "example": "Caiu na real e percebeu que o projeto não valia a pena.",
+    "example_es": "Cayó en la realidad y se dio cuenta de que el proyecto no valía la pena.",
+    "note": ""
+   },
+   {
+    "t": "cortar o grilo",
+    "es": "cortar gastos",
+    "example": "Para equilibrar o orçamento, cortaram o grilo na decoração.",
+    "example_es": "Para equilibrar el presupuesto, cortaron el grilo en la decoración.",
+    "note": ""
+   },
+   {
+    "t": "fazer a conta",
+    "es": "calcular",
+    "example": "Ele fez a conta e viu que precisava economizar.",
+    "example_es": "Él hizo la cuenta y vio que necesitaba ahorrar.",
+    "note": ""
+   },
+   {
+    "t": "bater a meta",
+    "es": "cumplir la meta",
+    "example": "Bater a meta de vendas foi um sucesso.",
+    "example_es": "Cumplir la meta de ventas fue un éxito.",
+    "note": ""
+   },
+   {
+    "t": "tirar o peso",
+    "es": "eliminar la carga",
+    "example": "Tirou o peso do projeto e voltou a respirar.",
+    "example_es": "Eliminó la carga del proyecto y volvió a respirar.",
+    "note": ""
+   },
+   {
+    "t": "pagar a real",
+    "es": "pagar el precio",
+    "example": "Pagar a real foi o que ele sentiu ao perder o emprego.",
+    "example_es": "Pagar el precio fue lo que sintió al perder el trabajo.",
+    "note": ""
+   },
+   {
+    "t": "cair na conta",
+    "es": "ser rentable",
+    "example": "O negócio caiu na conta e não deu lucro.",
+    "example_es": "El negocio fue rentable y no dio lucro.",
+    "note": ""
+   },
+   {
+    "t": "cortar a linha",
+    "es": "cortar la línea",
+    "example": "Cortaram a linha de custos na empresa.",
+    "example_es": "Cortaron la línea de costos en la empresa.",
+    "note": ""
+   },
+   {
+    "t": "fazer a diferença",
+    "es": "hacer la diferencia",
+    "example": "Ele faz a diferença na equipe com ideias inovadoras.",
+    "example_es": "Él hace la diferencia en el equipo con ideas innovadoras.",
+    "note": ""
+   },
+   {
+    "t": "fazer o feio",
+    "es": "hacer el feo",
+    "example": "Ele faz o feio e não paga impostos.",
+    "example_es": "Él hace el feo y no paga impuestos.",
+    "note": ""
+   },
+   {
+    "t": "dar a mão",
+    "es": "dar ayuda",
+    "example": "Ele deu a mão ao colega que precisava de apoio.",
+    "example_es": "Él dio la mano al colega que necesitaba apoyo.",
+    "note": ""
+   },
+   {
+    "t": "fazer o que tem de fazer",
+    "es": "hacer lo que hay que hacer",
+    "example": "Ele faz o que tem de fazer, não se enrola.",
+    "example_es": "Él hace lo que hay que hacer, no se enrola.",
+    "note": ""
+   },
+   {
+    "t": "fazer o que se pode",
+    "es": "hacer lo que se puede",
+    "example": "No tem mais opção, faz o que se pode.",
+    "example_es": "No tiene más opción, hace lo que se puede.",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "pt-conectores",
+  "level": "B2",
+  "title": "Conectores",
+  "description": "Para estructurar ideas al hablar y escribir.",
+  "items": [
+   {
+    "t": "e",
+    "es": "y",
+    "example": "Ele comprou pão, e café.",
+    "example_es": "Compró pan, y café.",
+    "note": ""
+   },
+   {
+    "t": "bem",
+    "es": "y",
+    "example": "Ela estudou, bem, e passou.",
+    "example_es": "Estudó, y pasó.",
+    "note": ""
+   },
+   {
+    "t": "também",
+    "es": "también",
+    "example": "Ele gosta de música, também.",
+    "example_es": "Le gusta la música, también.",
+    "note": ""
+   },
+   {
+    "t": "além disso",
+    "es": "además",
+    "example": "Ele chegou cedo, além disso, trouxe lanches.",
+    "example_es": "Llegó temprano, además, trajo bocadillos.",
+    "note": ""
+   },
+   {
+    "t": "ainda",
+    "es": "aún",
+    "example": "Ele não terminou, ainda, mas está quase lá.",
+    "example_es": "No terminó, aún, pero está casi allí.",
+    "note": ""
+   },
+   {
+    "t": "porém",
+    "es": "pero",
+    "example": "Ele queria sair, porém, ficou em casa.",
+    "example_es": "Quería salir, pero se quedó en casa.",
+    "note": ""
+   },
+   {
+    "t": "no entanto",
+    "es": "no obstante",
+    "example": "O projeto atrasou, no entanto, foi concluído.",
+    "example_es": "El proyecto se retrasó, no obstante, se completó.",
+    "note": ""
+   },
+   {
+    "t": "contudo",
+    "es": "sin embargo",
+    "example": "Ele prometeu, contudo, não cumpriu.",
+    "example_es": "Prometió, sin embargo, no cumplió.",
+    "note": ""
+   },
+   {
+    "t": "por outro lado",
+    "es": "por otro lado",
+    "example": "Ele é bom em matemática, por outro lado, ruim em história.",
+    "example_es": "Es bueno en matemáticas, por otro lado, malo en historia.",
+    "note": ""
+   },
+   {
+    "t": "entretanto",
+    "es": "sin embargo",
+    "example": "Ele queria ir, entretanto, não teve tempo.",
+    "example_es": "Quería ir, sin embargo, no tuvo tiempo.",
+    "note": ""
+   },
+   {
+    "t": "apesar de",
+    "es": "a pesar de",
+    "example": "A chuva, apesar de, continuou.",
+    "example_es": "La lluvia, a pesar de, continuó.",
+    "note": ""
+   },
+   {
+    "t": "embora",
+    "es": "aunque",
+    "example": "Embora ele tenha dinheiro, não gasta.",
+    "example_es": "Aunque tenga dinero, no gasta.",
+    "note": ""
+   },
+   {
+    "t": "mesmo assim",
+    "es": "aun así",
+    "example": "Ele não estudou, mesmo assim, passou.",
+    "example_es": "No estudó, aun así, pasó.",
+    "note": ""
+   },
+   {
+    "t": "ainda que",
+    "es": "aunque",
+    "example": "Ainda que seja caro, compramos.",
+    "example_es": "Aunque sea caro, compramos.",
+    "note": ""
+   },
+   {
+    "t": "porque",
+    "es": "porque",
+    "example": "Ele saiu cedo porque estava cansado.",
+    "example_es": "Él salió temprano porque estaba cansado.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "já que",
+    "es": "ya que",
+    "example": "Já que não há mais tempo, vamos embora.",
+    "example_es": "Ya que no queda más tiempo, vamos.",
+    "note": "Formal"
+   },
+   {
+    "t": "por causa de",
+    "es": "por causa de",
+    "example": "Perdeu o emprego por causa de um erro.",
+    "example_es": "Perdió el trabajo por causa de un error.",
+    "note": "Colocación"
+   },
+   {
+    "t": "devido a",
+    "es": "debido a",
+    "example": "O projeto foi cancelado devido a problemas financeiros.",
+    "example_es": "El proyecto fue cancelado debido a problemas financieros.",
+    "note": "Formal"
+   },
+   {
+    "t": "em razão de",
+    "es": "en razón de",
+    "example": "Ele não compareceu em razão de um compromisso.",
+    "example_es": "No asistió en razón de un compromiso.",
+    "note": "Formal"
+   },
+   {
+    "t": "por consequência",
+    "es": "por consecuencia",
+    "example": "Ele estudou, por consequência, passou na prova.",
+    "example_es": "Estudó, por consecuencia, aprobó el examen.",
+    "note": "Uso académico"
+   },
+   {
+    "t": "logo",
+    "es": "luego",
+    "example": "Ele terminou o trabalho, logo saiu cedo.",
+    "example_es": "Terminó el trabajo, luego salió temprano.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "portanto",
+    "es": "por lo tanto",
+    "example": "Ele não veio, portanto não fomos.",
+    "example_es": "No vino, por lo tanto no fuimos.",
+    "note": "Formal"
+   },
+   {
+    "t": "assim",
+    "es": "así",
+    "example": "Ele estava cansado, assim se foi para casa.",
+    "example_es": "Estaba cansado, así se fue a casa.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "por isso",
+    "es": "por eso",
+    "example": "Ele não tem dinheiro, por isso não pode viajar.",
+    "example_es": "No tiene dinero, por eso no puede viajar.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "de modo que",
+    "es": "de modo que",
+    "example": "Ele estudou, de modo que passou.",
+    "example_es": "Estudó, de modo que aprobó.",
+    "note": "Formal"
+   },
+   {
+    "t": "consequentemente",
+    "es": "consecuentemente",
+    "example": "Ele não estudou, consequentemente falhou.",
+    "example_es": "No estudó, consecuentemente falló.",
+    "note": "Formal"
+   },
+   {
+    "t": "dessa forma",
+    "es": "de esta forma",
+    "example": "Ele fez isso dessa forma, e funcionou.",
+    "example_es": "Hizo eso de esta forma, y funcionó.",
+    "note": "Formal"
+   },
+   {
+    "t": "por fim",
+    "es": "por fin",
+    "example": "Ele terminou, por fim, o trabalho.",
+    "example_es": "Terminó, por fin, el trabajo.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "no fim",
+    "es": "al final",
+    "example": "No fim, tudo ficou bem.",
+    "example_es": "Al final, todo quedó bien.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "então",
+    "es": "entonces",
+    "example": "Ele não veio, então não fomos.",
+    "example_es": "No vino, entonces no fuimos.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "logo então",
+    "es": "luego entonces",
+    "example": "Ele não estudou, logo então não passou.",
+    "example_es": "No estudó, luego entonces no aprobó.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "por conseguinte",
+    "es": "por consiguiente",
+    "example": "Ele não estudou, por conseguinte não passou.",
+    "example_es": "No estudó, por consiguiente no aprobó.",
+    "note": "Formal"
+   },
+   {
+    "t": "por isso mesmo",
+    "es": "por eso mismo",
+    "example": "Ele não tem dinheiro, por isso mesmo não pode viajar.",
+    "example_es": "No tiene dinero, por eso mismo no puede viajar.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "portanto que",
+    "es": "por lo que",
+    "example": "Ele não veio, portanto que não fomos.",
+    "example_es": "No vino, por lo que no fuimos.",
+    "note": "Formal"
+   }
+  ]
+ },
+ {
+  "id": "pt-ti",
+  "level": "B1",
+  "title": "Português para TI",
+  "description": "Vocabulario para trabajar en empresas de tecnología en Brasil.",
+  "items": [
+   {
+    "t": "código-fonte",
+    "es": "código fuente",
+    "example": "Eu depurei o código-fonte para encontrar o bug.",
+    "example_es": "He depuró el código fuente para encontrar el error.",
+    "note": "Uso informal, común en desarrollo."
+   },
+   {
+    "t": "debugar",
+    "es": "depurar",
+    "example": "Vamos debugar essa função antes de enviar.",
+    "example_es": "Vamos depurar esta función antes de enviar.",
+    "note": "Verbo anglicismo."
+   },
+   {
+    "t": "commit",
+    "es": "commit",
+    "example": "Ele fez um commit no Git antes do deadline.",
+    "example_es": "Hizo un commit en Git antes del plazo.",
+    "note": "Uso en Git."
+   },
+   {
+    "t": "branch",
+    "es": "rama",
+    "example": "Crie uma branch para a nova feature.",
+    "example_es": "Crea una rama para la nueva característica.",
+    "note": "En Git."
+   },
+   {
+    "t": "merge",
+    "es": "merge",
+    "example": "O merge da branch foi aprovado.",
+    "example_es": "El merge de la rama fue aprobado.",
+    "note": "En Git."
+   },
+   {
+    "t": "pull request",
+    "es": "pull request",
+    "example": "Envie um pull request para revisão.",
+    "example_es": "Envía un pull request para revisión.",
+    "note": "En GitHub."
+   },
+   {
+    "t": "deploy",
+    "es": "desplegar",
+    "example": "O deploy na produção falhou.",
+    "example_es": "El deploy en producción falló.",
+    "note": "Verbo anglicismo."
+   },
+   {
+    "t": "rollback",
+    "es": "rollback",
+    "example": "Precisamos fazer rollback da última versão.",
+    "example_es": "Necesitamos hacer rollback de la última versión.",
+    "note": "Verbo anglicismo."
+   },
+   {
+    "t": "refatorar",
+    "es": "refactorizar",
+    "example": "Vamos refatorar esse módulo para melhorar performance.",
+    "example_es": "Vamos refactorizar este módulo para mejorar rendimiento.",
+    "note": "Uso técnico."
+   },
+   {
+    "t": "refatoração",
+    "es": "refactorización",
+    "example": "A refatoração aumentou a legibilidade do código.",
+    "example_es": "La refactorización aumentó la legibilidad del código.",
+    "note": "Uso técnico."
+   },
+   {
+    "t": "framework",
+    "es": "marco",
+    "example": "Escolhemos o React como framework principal.",
+    "example_es": "Elegimos React como marco principal.",
+    "note": "Anglicismo."
+   },
+   {
+    "t": "biblioteca",
+    "es": "biblioteca",
+    "example": "Use a biblioteca lodash para manipular arrays.",
+    "example_es": "Usa la biblioteca lodash para manipular arrays.",
+    "note": "Uso técnico."
+   },
+   {
+    "t": "API",
+    "es": "API",
+    "example": "A API retorna dados em JSON.",
+    "example_es": "La API devuelve datos en JSON.",
+    "note": "Anglicismo."
+   },
+   {
+    "t": "endpoint",
+    "es": "endpoint",
+    "example": "O endpoint /users retorna usuários ativos.",
+    "example_es": "El endpoint /users devuelve usuarios activos.",
+    "note": "Anglicismo."
+   },
+   {
+    "t": "middleware",
+    "es": "middleware",
+    "example": "O middleware autentica antes de prosseguir.",
+    "example_es": "El middleware autentica antes de continuar.",
+    "note": "Anglicismo."
+   },
+   {
+    "t": "token",
+    "es": "token",
+    "example": "Armazene o token JWT em localStorage.",
+    "example_es": "Guarde el token JWT en localStorage.",
+    "note": "Anglicismo."
+   },
+   {
+    "t": "autenticação",
+    "es": "autenticación",
+    "example": "Implementamos autenticação de dois fatores.",
+    "example_es": "Implementamos autenticación de dos factores.",
+    "note": "Uso técnico."
+   },
+   {
+    "t": "autorização",
+    "es": "autorización",
+    "example": "A autorização verifica papéis do usuário.",
+    "example_es": "La autorización verifica roles del usuario.",
+    "note": "Uso técnico."
+   },
+   {
+    "t": "pipeline",
+    "es": "pipeline",
+    "example": "O pipeline CI/CD automatiza testes.",
+    "example_es": "El pipeline CI/CD automatiza pruebas.",
+    "note": "Anglicismo."
+   },
+   {
+    "t": "build",
+    "es": "build",
+    "example": "O build está pronto para staging.",
+    "example_es": "El build está listo para staging.",
+    "note": "Anglicismo."
+   },
+   {
+    "t": "hotfix",
+    "es": "hotfix",
+    "example": "Aplicamos um hotfix urgente na produção.",
+    "example_es": "Aplicamos un hotfix urgente en producción.",
+    "note": "Anglicismo."
+   },
+   {
+    "t": "testes unitários",
+    "es": "pruebas unitarias",
+    "example": "Escrevemos testes unitários para cada função.",
+    "example_es": "Escribimos pruebas unitarias para cada función.",
+    "note": "Uso técnico."
+   },
+   {
+    "t": "mock",
+    "es": "mock",
+    "example": "Criamos mocks para simular dependências externas.",
+    "example_es": "Creamos mocks para simular dependencias externas.",
+    "note": "Anglicismo."
+   },
+   {
+    "t": "mocking",
+    "es": "mocking",
+    "example": "O mocking facilita a isolação de testes.",
+    "example_es": "El mocking facilita la aislamiento de pruebas.",
+    "note": "Anglicismo."
+   },
+   {
+    "t": "CI",
+    "es": "CI",
+    "example": "O CI verifica a qualidade do código automaticamente.",
+    "example_es": "El CI verifica la calidad del código automáticamente.",
+    "note": "Anglicismo."
+   },
+   {
+    "t": "CD",
+    "es": "CD",
+    "example": "O CD garante deploy contínuo sem intervenção humana.",
+    "example_es": "El CD garantiza despliegue continuo sin intervención humana.",
+    "note": "Anglicismo."
+   },
+   {
+    "t": "scrum",
+    "es": "scrum",
+    "example": "A reunião diária de scrum foi cancelada hoje.",
+    "example_es": "La reunión diaria de scrum fue cancelada hoy.",
+    "note": "Uso informal, común en equipos ágiles."
+   },
+   {
+    "t": "stand‑up",
+    "es": "stand‑up",
+    "example": "O stand‑up matinal começou às 9h.",
+    "example_es": "El stand‑up matinal comenzó a las 9h.",
+    "note": "Palabra inglesa usada como verbo y sustantivo."
+   },
+   {
+    "t": "retro",
+    "es": "retro",
+    "example": "A retro do sprint terminou às 17h.",
+    "example_es": "La retro del sprint terminó a las 17h.",
+    "note": "Abreviatura de retrospectiva, informal."
+   },
+   {
+    "t": "backlog",
+    "es": "backlog",
+    "example": "O backlog do produto precisa ser revisado.",
+    "example_es": "El backlog del producto necesita ser revisado.",
+    "note": "Término técnico, masculino."
+   },
+   {
+    "t": "user story",
+    "es": "user story",
+    "example": "Criamos uma user story para o novo recurso.",
+    "example_es": "Creamos una user story para la nueva funcionalidad.",
+    "note": "Anglicismo, se usa como sustantivo."
+   },
+   {
+    "t": "epic",
+    "es": "epic",
+    "example": "Esse epic abrange várias funcionalidades.",
+    "example_es": "Ese epic abarca varias funcionalidades.",
+    "note": "Anglicismo, masculino."
+   },
+   {
+    "t": "sprint",
+    "es": "sprint",
+    "example": "O sprint de duas semanas começa amanhã.",
+    "example_es": "El sprint de dos semanas comienza mañana.",
+    "note": "Término técnico, masculino."
+   },
+   {
+    "t": "burn‑up",
+    "es": "burn‑up",
+    "example": "O burn‑up mostra o progresso do sprint.",
+    "example_es": "El burn‑up muestra el progreso del sprint.",
+    "note": "Anglicismo, masculino."
+   },
+   {
+    "t": "burn‑down",
+    "es": "burn‑down",
+    "example": "O burn‑down indica o trabalho restante.",
+    "example_es": "El burn‑down indica el trabajo restante.",
+    "note": "Anglicismo, masculino."
+   },
+   {
+    "t": "velocity",
+    "es": "velocity",
+    "example": "A velocity média do time é de 30 pontos.",
+    "example_es": "La velocity media del equipo es de 30 puntos.",
+    "note": "Término técnico, femenino."
+   },
+   {
+    "t": "pair programming",
+    "es": "pair programming",
+    "example": "Fizemos pair programming para a nova feature.",
+    "example_es": "Hicimos pair programming para la nueva feature.",
+    "note": "Anglicismo, masculino."
+   },
+   {
+    "t": "kanban",
+    "es": "kanban",
+    "example": "O kanban foi atualizado na board.",
+    "example_es": "El kanban fue actualizado en la board.",
+    "note": "Término técnico, masculino."
+   },
+   {
+    "t": "burn‑rate",
+    "es": "burn‑rate",
+    "example": "A burn‑rate do projeto está alta.",
+    "example_es": "La burn‑rate del proyecto está alta.",
+    "note": "Anglicismo, masculino."
+   },
+   {
+    "t": "devops",
+    "es": "devops",
+    "example": "A cultura devops ajuda na entrega contínua.",
+    "example_es": "La cultura devops ayuda en la entrega continua.",
+    "note": "Término técnico, masculino."
+   },
+   {
+    "t": "CI/CD",
+    "es": "CI/CD",
+    "example": "Implementamos CI/CD no pipeline.",
+    "example_es": "Implementamos CI/CD en el pipeline.",
+    "note": "Anglicismo, masculino."
+   },
+   {
+    "t": "bug",
+    "es": "bug",
+    "example": "Encontramos um bug crítico na API.",
+    "example_es": "Encontramos un bug crítico en la API.",
+    "note": "Término técnico, masculino."
+   },
+   {
+    "t": "release",
+    "es": "release",
+    "example": "O release 2.0 será lançado na próxima semana.",
+    "example_es": "El release 2.0 será lanzado la próxima semana.",
+    "note": "Anglicismo, masculino."
+   },
+   {
+    "t": "code review",
+    "es": "code review",
+    "example": "O code review está em andamento.",
+    "example_es": "El code review está en marcha.",
+    "note": "Anglicismo, masculino."
+   },
+   {
+    "t": "test‑driven development",
+    "es": "test‑driven development",
+    "example": "Praticamos TDD para garantir qualidade.",
+    "example_es": "Practiquemos TDD para garantizar calidad.",
+    "note": "Anglicismo, masculino."
+   },
+   {
+    "t": "refactor",
+    "es": "refactor",
+    "example": "Vamos refactor o módulo de autenticação.",
+    "example_es": "Vamos refactor el módulo de autenticación.",
+    "note": "Anglicismo, verbo."
+   },
+   {
+    "t": "agile",
+    "es": "agile",
+    "example": "A metodologia agile evoluiu para lean.",
+    "example_es": "La metodología agile evolucionó a lean.",
+    "note": "Término inglés, masculino."
+   },
+   {
+    "t": "scrum master",
+    "es": "scrum master",
+    "example": "O scrum master facilitou a reunião.",
+    "example_es": "El scrum master facilitó la reunión.",
+    "note": "Anglicismo, masculino."
+   },
+   {
+    "t": "product owner",
+    "es": "product owner",
+    "example": "O product owner definiu as prioridades.",
+    "example_es": "El product owner definió las prioridades.",
+    "note": "Anglicismo, masculino."
+   },
+   {
+    "t": "currículo",
+    "es": "currículum",
+    "example": "Meu currículo está atualizado com os últimos projetos.",
+    "example_es": "Mi currículum está actualizado con los últimos proyectos.",
+    "note": ""
+   },
+   {
+    "t": "entrevista",
+    "es": "entrevista",
+    "example": "A entrevista foi marcada para segunda-feira às 10h.",
+    "example_es": "La entrevista está programada para el lunes a las 10h.",
+    "note": ""
+   },
+   {
+    "t": "headhunter",
+    "es": "reclutador",
+    "example": "O headhunter me convidou para uma vaga internacional.",
+    "example_es": "El headhunter me invitó para una posición internacional.",
+    "note": ""
+   },
+   {
+    "t": "feedback",
+    "es": "retroalimentación",
+    "example": "O feedback foi muito construtivo.",
+    "example_es": "La retroalimentación fue muy constructiva.",
+    "note": ""
+   },
+   {
+    "t": "soft skills",
+    "es": "habilidades blandas",
+    "example": "Soft skills são essenciais para liderar equipes.",
+    "example_es": "Las habilidades blandas son esenciales para liderar equipos.",
+    "note": ""
+   },
+   {
+    "t": "hard skills",
+    "es": "habilidades técnicas",
+    "example": "Hard skills em Python são requisitados.",
+    "example_es": "Las habilidades técnicas en Python son requeridas.",
+    "note": ""
+   },
+   {
+    "t": "pitch",
+    "es": "presentación",
+    "example": "O pitch da startup foi aprovado.",
+    "example_es": "La presentación de la startup fue aprobada.",
+    "note": ""
+   },
+   {
+    "t": "networking",
+    "es": "conexión",
+    "example": "Networking é vital para crescer na área.",
+    "example_es": "El networking es vital para crecer en la zona.",
+    "note": ""
+   },
+   {
+    "t": "bootcamp",
+    "es": "campamento de formación",
+    "example": "Fiz um bootcamp de data science.",
+    "example_es": "Hice un bootcamp de ciencia de datos.",
+    "note": ""
+   },
+   {
+    "t": "mentor",
+    "es": "mentor",
+    "example": "Meu mentor me orienta sobre carreira.",
+    "example_es": "Mi mentor me orienta sobre carrera.",
+    "note": ""
+   },
+   {
+    "t": "hiring",
+    "es": "contratación",
+    "example": "A hiring process dura duas semanas.",
+    "example_es": "El proceso de contratación dura dos semanas.",
+    "note": ""
+   },
+   {
+    "t": "onboarding",
+    "es": "integración",
+    "example": "O onboarding foi rápido e informativo.",
+    "example_es": "La integración fue rápida e informativa.",
+    "note": ""
+   },
+   {
+    "t": "cloud",
+    "es": "nube",
+    "example": "A solução está na cloud.",
+    "example_es": "La solución está en la nube.",
+    "note": ""
+   },
+   {
+    "t": "recruiter",
+    "es": "reclutador",
+    "example": "O recruiter enviou a proposta.",
+    "example_es": "El reclutador envió la propuesta.",
+    "note": ""
+   },
+   {
+    "t": "portfolio",
+    "es": "portafolio",
+    "example": "Atualizei meu portfolio online.",
+    "example_es": "Actualicé mi portafolio online.",
+    "note": ""
+   },
+   {
+    "t": "benchmark",
+    "es": "benchmark",
+    "example": "Fazemos benchmark de concorrentes.",
+    "example_es": "Hacemos benchmark de competidores.",
+    "note": ""
+   },
+   {
+    "t": "KPIs",
+    "es": "KPIs",
+    "example": "KPIs de vendas aumentaram 15%.",
+    "example_es": "Los KPIs de ventas aumentaron 15%.",
+    "note": ""
+   },
+   {
+    "t": "roadmap",
+    "es": "roadmap",
+    "example": "O roadmap do produto está em fase de revisão.",
+    "example_es": "El roadmap del producto está en fase de revisión.",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "pt-falsos",
+  "level": "A2",
+  "title": "Falsos amigos",
+  "description": "Palabras que parecen españolas pero significan otra cosa.",
+  "items": [
+   {
+    "t": "abacaxi",
+    "es": "manzana",
+    "example": "Eu comprei um abacaxi na feira.",
+    "example_es": "Compré un piña en el mercado.",
+    "note": "En español, abacaxi significa piña, no fruta tropical."
+   },
+   {
+    "t": "agenda",
+    "es": "agenda",
+    "example": "Ela tem uma agenda cheia de compromissos.",
+    "example_es": "Ella tiene una agenda llena de compromisos.",
+    "note": "En español, agenda es un planificador, no la lista de tareas."
+   },
+   {
+    "t": "assistir",
+    "es": "asistir",
+    "example": "Vou assistir ao filme hoje.",
+    "example_es": "Voy a asistir a la película hoy.",
+    "note": "En español, assistir significa asistir, no ver."
+   },
+   {
+    "t": "bom",
+    "es": "bueno",
+    "example": "Ele é bom em matemática.",
+    "example_es": "É bueno en matemáticas.",
+    "note": "En español, bom = bueno, no buen."
+   },
+   {
+    "t": "candidato",
+    "es": "candidato",
+    "example": "O candidato foi eleito.",
+    "example_es": "El candidato fue elegido.",
+    "note": "En español, candidato es igual, sin confusión."
+   },
+   {
+    "t": "caro",
+    "es": "caro",
+    "example": "O carro é caro.",
+    "example_es": "El coche es caro.",
+    "note": "En español, caro = caro, no caro."
+   },
+   {
+    "t": "congelado",
+    "es": "congelado",
+    "example": "Comprei um sorvete congelado.",
+    "example_es": "Compré un helado congelado.",
+    "note": "En español, congelado = congelado, no frío."
+   },
+   {
+    "t": "conteúdo",
+    "es": "contenido",
+    "example": "O conteúdo do livro é profundo.",
+    "example_es": "El contenido del libro es profundo.",
+    "note": "En español, contenido es igual, sin ambigüedad."
+   },
+   {
+    "t": "desculpa",
+    "es": "disculpa",
+    "example": "Desculpa, não ouvi.",
+    "example_es": "Disculpa, no escuché.",
+    "note": "En español, desculpa = disculpa, no perdón."
+   },
+   {
+    "t": "emergência",
+    "es": "emergencia",
+    "example": "Chamei a emergência imediatamente.",
+    "example_es": "Llamé a la emergencia inmediatamente.",
+    "note": "En español, emergencia = emergencia, sin error."
+   },
+   {
+    "t": "evento",
+    "es": "evento",
+    "example": "O evento foi cancelado.",
+    "example_es": "El evento fue cancelado.",
+    "note": "En español, evento = evento, sin confusión."
+   },
+   {
+    "t": "exemplo",
+    "es": "ejemplo",
+    "example": "Este é um exemplo claro.",
+    "example_es": "Este es un ejemplo claro.",
+    "note": "En español, ejemplo = ejemplo, sin ambigüedad."
+   },
+   {
+    "t": "férias",
+    "es": "ferias",
+    "example": "Férias na praia são relaxantes.",
+    "example_es": "Vacaciones en la playa son relajantes.",
+    "note": "En español, férias = ferias, sin error."
+   },
+   {
+    "t": "gráfico",
+    "es": "gráfico",
+    "example": "O gráfico mostra crescimento.",
+    "example_es": "El gráfico muestra crecimiento.",
+    "note": "En español, gráfico = gráfico, sin confusión."
+   },
+   {
+    "t": "hospedeiro",
+    "es": "hospedador",
+    "example": "O hospedeiro foi muito gentil.",
+    "example_es": "El hospedador fue muy amable.",
+    "note": "En español, hospedeiro = hospedador, sin ambigüedad."
+   },
+   {
+    "t": "inicial",
+    "es": "inicial",
+    "example": "O inicial do documento está em vermelho.",
+    "example_es": "El inicial del documento está en rojo.",
+    "note": "En español, inicial = inicial, sin error."
+   },
+   {
+    "t": "jurídico",
+    "es": "jurídico",
+    "example": "Ele é jurídico especializado.",
+    "example_es": "Es jurídico especializado.",
+    "note": "En español, jurídico = jurídico, sin ambigüedad."
+   },
+   {
+    "t": "lógico",
+    "es": "lógico",
+    "example": "A solução é lógica.",
+    "example_es": "La solución es lógica.",
+    "note": "En español, lógico = lógico, sin confusión."
+   },
+   {
+    "t": "médio",
+    "es": "medio",
+    "example": "Ele vive no meio da cidade.",
+    "example_es": "Vive en medio de la ciudad.",
+    "note": "En español, médio = medio, sin error."
+   },
+   {
+    "t": "novo",
+    "es": "nuevo",
+    "example": "O novo projeto é inovador.",
+    "example_es": "El nuevo proyecto es innovador.",
+    "note": "En español, novo = nuevo, sin ambigüedad."
+   },
+   {
+    "t": "objetivo",
+    "es": "objetivo",
+    "example": "O objetivo é claro.",
+    "example_es": "El objetivo es claro.",
+    "note": "En español, objetivo = objetivo, sin confusión."
+   },
+   {
+    "t": "parcial",
+    "es": "parcial",
+    "example": "O parcial foi difícil.",
+    "example_es": "El parcial fue difícil.",
+    "note": "En español, parcial = parcial, sin error."
+   },
+   {
+    "t": "qualidade",
+    "es": "calidad",
+    "example": "A qualidade do serviço é alta.",
+    "example_es": "La calidad del servicio es alta.",
+    "note": "En español, qualidade = calidad, sin ambigüedad."
+   },
+   {
+    "t": "realizar",
+    "es": "realizar",
+    "example": "Vamos realizar a reunião amanhã.",
+    "example_es": "Vamos realizar la reunión mañana.",
+    "note": "En español, realizar = realizar, sin confusión."
+   },
+   {
+    "t": "sistema",
+    "es": "sistema",
+    "example": "O sistema está em manutenção.",
+    "example_es": "El sistema está en mantenimiento.",
+    "note": "En español, sistema = sistema, sin error."
+   },
+   {
+    "t": "tempo",
+    "es": "tiempo",
+    "example": "O tempo está bom hoje.",
+    "example_es": "El tiempo está bueno hoy.",
+    "note": "En español, tempo = tiempo, sin ambigüedad."
+   }
+  ]
+ }
+]

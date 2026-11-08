@@ -328,6 +328,97 @@
     "note": ""
    },
    {
+    "t": "break off",
+    "es": "romperse",
+    "example": "I broke off the deal after the meeting.",
+    "example_es": "Rompí el acuerdo después de la reunión.",
+    "note": "informal, usado en negocios"
+   },
+   {
+    "t": "call off",
+    "es": "cancelar",
+    "example": "They called off the concert due to rain.",
+    "example_es": "Cancelaron el concierto por la lluvia.",
+    "note": "formal/informal"
+   },
+   {
+    "t": "carry off",
+    "es": "lograr",
+    "example": "She carried off the presentation flawlessly.",
+    "example_es": "Logró la presentación sin errores.",
+    "note": "uso positivo"
+   },
+   {
+    "t": "cut off",
+    "es": "interrumpir",
+    "example": "The power cut off during the storm.",
+    "example_es": "Se cortó la energía durante la tormenta.",
+    "note": "colloquial"
+   },
+   {
+    "t": "drop off",
+    "es": "entregar",
+    "example": "Can you drop off the package at the office?",
+    "example_es": "Puedes dejar el paquete en la oficina?",
+    "note": "informal"
+   },
+   {
+    "t": "figure off",
+    "es": "deducir",
+    "example": "I figured off the extra cost myself.",
+    "example_es": "Calculé el costo extra yo mismo.",
+    "note": "informal"
+   },
+   {
+    "t": "give off",
+    "es": "emitir",
+    "example": "The smoke gave off a strong odor.",
+    "example_es": "El humo emitió un fuerte olor.",
+    "note": "formal"
+   },
+   {
+    "t": "go off",
+    "es": "explosionar",
+    "example": "The alarm went off at 7 AM.",
+    "example_es": "La alarma sonó a las 7 a.m.",
+    "note": "informal"
+   },
+   {
+    "t": "hand off",
+    "es": "entregar",
+    "example": "He handed off the project to the new manager.",
+    "example_es": "Entregó el proyecto al nuevo gerente.",
+    "note": "formal"
+   },
+   {
+    "t": "hold off",
+    "es": "esperar",
+    "example": "We held off on the decision until next week.",
+    "example_es": "Esperamos la decisión hasta la próxima semana.",
+    "note": "formal"
+   },
+   {
+    "t": "knock off",
+    "es": "terminar",
+    "example": "The workday knocks off at 5 pm.",
+    "example_es": "El día laboral termina a las 5 p.m.",
+    "note": "informal"
+   },
+   {
+    "t": "let off",
+    "es": "liberar",
+    "example": "They let off the prisoners early.",
+    "example_es": "Liberaron a los prisioneros temprano.",
+    "note": "formal"
+   },
+   {
+    "t": "pick off",
+    "es": "eliminar",
+    "example": "The sniper picked off the target from afar.",
+    "example_es": "El francotirador eliminó el objetivo desde lejos.",
+    "note": "informal"
+   },
+   {
     "t": "bring down",
     "es": "bajar",
     "example": "The new law will bring down the cost of healthcare.",
@@ -494,6 +585,335 @@
     "example": "Take down the poster before the meeting.",
     "example_es": "Baja el cartel antes de la reunión.",
     "note": "Uso cotidiano"
+   },
+   {
+    "t": "break on",
+    "es": "romperse",
+    "example": "The new policy broke on the old system.",
+    "example_es": "La nueva política se rompió con el antiguo sistema.",
+    "note": "uso informal"
+   },
+   {
+    "t": "carry on",
+    "es": "continuar",
+    "example": "She carried on working after lunch.",
+    "example_es": "Ella continuó trabajando después del almuerzo.",
+    "note": "formal"
+   },
+   {
+    "t": "cut in",
+    "es": "interrumpir",
+    "example": "He cut in during the conversation.",
+    "example_es": "Él interrumpió durante la conversación.",
+    "note": "colloquial"
+   },
+   {
+    "t": "give in",
+    "es": "ceder",
+    "example": "She finally gave in to the demands.",
+    "example_es": "Ella finalmente cedió a las demandas.",
+    "note": "formal"
+   },
+   {
+    "t": "give into",
+    "es": "ceder",
+    "example": "He gave into the temptation.",
+    "example_es": "Él cedió a la tentación.",
+    "note": "formal"
+   },
+   {
+    "t": "hand in",
+    "es": "entregar",
+    "example": "Please hand in your assignment by Friday.",
+    "example_es": "Por favor, entrega tu tarea antes del viernes.",
+    "note": "formal"
+   },
+   {
+    "t": "hand into",
+    "es": "entregar",
+    "example": "She handed into the documents at the desk.",
+    "example_es": "Ella entregó los documentos en el mostrador.",
+    "note": "formal"
+   },
+   {
+    "t": "hold on",
+    "es": "esperar",
+    "example": "Hold on, I’ll be right back.",
+    "example_es": "Espera, vuelvo enseguida.",
+    "note": "informal"
+   },
+   {
+    "t": "hold onto",
+    "es": "mantener",
+    "example": "Hold onto the railing.",
+    "example_es": "Mantén el agarre del pasamanos.",
+    "note": "informal"
+   },
+   {
+    "t": "keep on",
+    "es": "seguir",
+    "example": "Keep on studying, you’ll improve.",
+    "example_es": "Sigue estudiando, mejorarás.",
+    "note": "informal"
+   },
+   {
+    "t": "keep in",
+    "es": "mantenerse",
+    "example": "Keep in touch with your friends.",
+    "example_es": "Mantente en contacto con tus amigos.",
+    "note": "informal"
+   },
+   {
+    "t": "make on",
+    "es": "hacer un movimiento insinuante",
+    "example": "He made on to the girl at the party.",
+    "example_es": "Él le hizo un movimiento insinuante en la fiesta.",
+    "note": "informal"
+   },
+   {
+    "t": "make into",
+    "es": "convertir en",
+    "example": "They made the old warehouse into a studio.",
+    "example_es": "Convirtieron el viejo almacén en un estudio.",
+    "note": "formal"
+   },
+   {
+    "t": "pick on",
+    "es": "acosar",
+    "example": "Don’t pick on the new student.",
+    "example_es": "No acoses al nuevo estudiante.",
+    "note": "informal"
+   },
+   {
+    "t": "pick into",
+    "es": "examinar",
+    "example": "The detective picked into the evidence.",
+    "example_es": "El detective examinó la evidencia.",
+    "note": "formal"
+   },
+   {
+    "t": "push on",
+    "es": "empujar",
+    "example": "Push on until you reach the top.",
+    "example_es": "Empuja hasta llegar a la cima.",
+    "note": "informal"
+   },
+   {
+    "t": "push into",
+    "es": "empujar dentro",
+    "example": "Push the box into the corner.",
+    "example_es": "Empuja la caja dentro de la esquina.",
+    "note": "informal"
+   },
+   {
+    "t": "run on",
+    "es": "continuar",
+    "example": "The train runs on until midnight.",
+    "example_es": "El tren continúa hasta la medianoche.",
+    "note": "informal"
+   },
+   {
+    "t": "run into",
+    "es": "encontrarse con",
+    "example": "I ran into an old friend.",
+    "example_es": "Me encontré con un viejo amigo.",
+    "note": "informal"
+   },
+   {
+    "t": "set on",
+    "es": "enfocarse",
+    "example": "She set on learning Spanish.",
+    "example_es": "Ella se enfocó en aprender español.",
+    "note": "informal"
+   },
+   {
+    "t": "set into",
+    "es": "incorporar",
+    "example": "They set the new policy into practice.",
+    "example_es": "Incorporaron la nueva política en la práctica.",
+    "note": "formal"
+   },
+   {
+    "t": "stand on",
+    "es": "apoyar",
+    "example": "They stand on the same principle.",
+    "example_es": "Apoyan el mismo principio.",
+    "note": "formal"
+   },
+   {
+    "t": "stand into",
+    "es": "incorporar",
+    "example": "The company stood into the new market.",
+    "example_es": "La empresa se incorporó al nuevo mercado.",
+    "note": "formal"
+   },
+   {
+    "t": "take on",
+    "es": "asumir",
+    "example": "He took on the project last year.",
+    "example_es": "Asumió el proyecto el año pasado.",
+    "note": "informal"
+   },
+   {
+    "t": "take into",
+    "es": "incluir",
+    "example": "Take into account the risks.",
+    "example_es": "Toma en cuenta los riesgos.",
+    "note": "formal"
+   },
+   {
+    "t": "turn on",
+    "es": "encender",
+    "example": "Turn on the lights, please.",
+    "example_es": "Enciende las luces, por favor.",
+    "note": "informal"
+   },
+   {
+    "t": "turn into",
+    "es": "transformar",
+    "example": "The caterpillar turned into a butterfly.",
+    "example_es": "La oruga se transformó en mariposa.",
+    "note": "informal"
+   },
+   {
+    "t": "come across",
+    "es": "encontrarse con",
+    "example": "I came across an old friend.",
+    "example_es": "Me encontré con un viejo amigo.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "do over",
+    "es": "repetir",
+    "example": "I had to do the test over.",
+    "example_es": "Tuve que repetir el examen.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "fill out",
+    "es": "rellenar",
+    "example": "Please fill out this form.",
+    "example_es": "Por favor, rellena este formulario.",
+    "note": "Formal"
+   },
+   {
+    "t": "keep up",
+    "es": "mantenerse al día",
+    "example": "Keep up with the news.",
+    "example_es": "Mantente al día con las noticias.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "look after",
+    "es": "cuidar",
+    "example": "Can you look after my cat?",
+    "example_es": "¿Puedes cuidar a mi gato?",
+    "note": "Uso informal"
+   },
+   {
+    "t": "make up",
+    "es": "inventar",
+    "example": "She made up a story.",
+    "example_es": "Inventó una historia.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "pay back",
+    "es": "reembolsar",
+    "example": "I will pay you back tomorrow.",
+    "example_es": "Te reembolsaré mañana.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "set up",
+    "es": "organizar",
+    "example": "They set up a new office.",
+    "example_es": "Organizaron una nueva oficina.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "take over",
+    "es": "tomar el control",
+    "example": "The new manager took over last month.",
+    "example_es": "El nuevo gerente tomó el control el mes pasado.",
+    "note": "Formal"
+   },
+   {
+    "t": "turn down",
+    "es": "rechazar",
+    "example": "She turned down the offer.",
+    "example_es": "Rechazó la oferta.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "break through",
+    "es": "superar",
+    "example": "They broke through the barrier.",
+    "example_es": "Superaron la barrera.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "carry through",
+    "es": "cumplir",
+    "example": "She carried the project through to completion.",
+    "example_es": "Cumplió el proyecto hasta su finalización.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "come through",
+    "es": "satisfacer",
+    "example": "He came through when we needed him.",
+    "example_es": "Cumplió cuando lo necesitábamos.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "go through",
+    "es": "pasar por",
+    "example": "I went through a lot last year.",
+    "example_es": "Pasé por mucho el año pasado.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "look through",
+    "es": "examinar",
+    "example": "Look through the report before signing.",
+    "example_es": "Examina el informe antes de firmar.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "pay through",
+    "es": "pagar a través de",
+    "example": "Pay through the app.",
+    "example_es": "Paga a través de la aplicación.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "take back",
+    "es": "retirar",
+    "example": "He took back his statement.",
+    "example_es": "Retiró su declaración.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "turn back",
+    "es": "regresar",
+    "example": "We turned back after the storm.",
+    "example_es": "Regresamos después de la tormenta.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "work back",
+    "es": "trabajar hacia atrás",
+    "example": "We worked back from the deadline.",
+    "example_es": "Trabajamos hacia atrás desde la fecha límite.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "break back",
+    "es": "romperse de nuevo",
+    "example": "The machine broke back after repair.",
+    "example_es": "La máquina se rompió de nuevo tras la reparación.",
+    "note": "Uso técnico"
    },
    {
     "t": "break away",
@@ -676,6 +1096,69 @@
     "example": "He leaned around the table to listen.",
     "example_es": "Se apoyó alrededor de la mesa para escuchar.",
     "note": ""
+   },
+   {
+    "t": "drop by",
+    "es": "pasar de visita",
+    "example": "Feel free to drop by anytime.",
+    "example_es": "Siéntete libre de pasar de visita en cualquier momento.",
+    "note": "Informal."
+   },
+   {
+    "t": "fall through",
+    "es": "fallar",
+    "example": "The deal fell through due to lack of funds.",
+    "example_es": "El acuerdo fracasó por falta de fondos.",
+    "note": "Negocios."
+   },
+   {
+    "t": "go over",
+    "es": "revisar",
+    "example": "Let's go over the details again.",
+    "example_es": "Revisemos los detalles de nuevo.",
+    "note": "Formal."
+   },
+   {
+    "t": "make out",
+    "es": "entender",
+    "example": "I can't make out what he's saying.",
+    "example_es": "No puedo entender lo que dice.",
+    "note": "Colloquial."
+   },
+   {
+    "t": "pay off",
+    "es": "pagar",
+    "example": "All the hard work paid off.",
+    "example_es": "Todo el trabajo duro dio sus frutos.",
+    "note": "Éxito."
+   },
+   {
+    "t": "put off",
+    "es": "posponer",
+    "example": "We put off the meeting until next week.",
+    "example_es": "Pospusimos la reunión hasta la próxima semana.",
+    "note": "Formal."
+   },
+   {
+    "t": "take off",
+    "es": "despegar",
+    "example": "The plane will take off at 6 PM.",
+    "example_es": "El avión despegará a las 6 PM.",
+    "note": "Aviación."
+   },
+   {
+    "t": "write down",
+    "es": "anotar",
+    "example": "Write down the key points.",
+    "example_es": "Anota los puntos clave.",
+    "note": "Académico."
+   },
+   {
+    "t": "pull over",
+    "es": "detenerse",
+    "example": "The driver pulled over to the side.",
+    "example_es": "El conductor se detuvo al costado.",
+    "note": "Tráfico."
    }
   ]
  },
@@ -852,6 +1335,160 @@
     "example": "We ignored the elephant in the room: the company's massive debt.",
     "example_es": "Ignoramos el elefante en la habitación: la enorme deuda de la empresa.",
     "note": "Neutral. Problema obvio que nadie quiere discutir."
+   },
+   {
+    "t": "time flies",
+    "es": "el tiempo vuela",
+    "example": "Time flies when you're having fun.",
+    "example_es": "El tiempo vuela cuando te divertes.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "beat the clock",
+    "es": "ganar tiempo",
+    "example": "They beat the clock to submit the proposal.",
+    "example_es": "Ganaron el tiempo para enviar la propuesta.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "in the nick of time",
+    "es": "en el último momento",
+    "example": "He arrived in the nick of time for the meeting.",
+    "example_es": "Llegó en el último momento para la reunión.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "time is money",
+    "es": "el tiempo es oro",
+    "example": "Time is money, so we can't waste it.",
+    "example_es": "El tiempo es oro, así que no podemos perderlo.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "make time",
+    "es": "encajar tiempo",
+    "example": "I will make time for you tomorrow.",
+    "example_es": "Encajaré tiempo para ti mañana.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "time will tell",
+    "es": "el tiempo lo dirá",
+    "example": "Time will tell if this plan works.",
+    "example_es": "El tiempo dirá si este plan funciona.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "in a heartbeat",
+    "es": "en un instante",
+    "example": "She said yes in a heartbeat.",
+    "example_es": "Ella dijo sí en un instante.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "time to hit the brakes",
+    "es": "es hora de frenar",
+    "example": "It's time to hit the brakes on this project.",
+    "example_es": "Es hora de frenar en este proyecto.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "hit a home run",
+    "es": "dar un gran éxito",
+    "example": "Her presentation hit a home run.",
+    "example_es": "Su presentación dio un gran éxito.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "hit the jackpot",
+    "es": "ganar a lo grande",
+    "example": "They hit the jackpot with their new product.",
+    "example_es": "Ganaron a lo grande con su nuevo producto.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "break the bank",
+    "es": "costar mucho",
+    "example": "This renovation will break the bank.",
+    "example_es": "Esta renovación romperá el banco.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "go the extra mile",
+    "es": "hacer un esfuerzo extra",
+    "example": "She goes the extra mile for her clients.",
+    "example_es": "Ella hace un esfuerzo extra por sus clientes.",
+    "note": "Uso profesional"
+   },
+   {
+    "t": "beat the odds",
+    "es": "superar las probabilidades",
+    "example": "They beat the odds and won the championship.",
+    "example_es": "Superaron las probabilidades y ganaron el campeonato.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "hit the road",
+    "es": "irse",
+    "example": "They hit the road early this morning.",
+    "example_es": "Se fueron temprano esta mañana.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "in the long run",
+    "es": "a largo plazo",
+    "example": "In the long run, this strategy will pay off.",
+    "example_es": "A largo plazo, esta estrategia dará frutos.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "on the rocks",
+    "es": "en problemas",
+    "example": "Their relationship is on the rocks.",
+    "example_es": "Su relación está en problemas.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "hit a snag",
+    "es": "encontrar un problema",
+    "example": "We hit a snag with the software update.",
+    "example_es": "Encontramos un problema con la actualización de software.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "lose your footing",
+    "es": "perder el control",
+    "example": "He lost his footing after the scandal.",
+    "example_es": "Perdió el control tras el escándalo.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "get off on the wrong foot",
+    "es": "comenzar mal",
+    "example": "They got off on the wrong foot with their new manager.",
+    "example_es": "Comenzaron mal con su nuevo gerente.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "hit the wall",
+    "es": "quedarse sin energía",
+    "example": "After the marathon, she hit the wall.",
+    "example_es": "Después del maratón, se quedó sin energía.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "break new ground",
+    "es": "innovar",
+    "example": "They broke new ground in renewable energy.",
+    "example_es": "Innovaron en energía renovable.",
+    "note": "Uso formal"
+   },
+   {
+    "t": "hit the sweet spot",
+    "es": "encajar perfecto",
+    "example": "This marketing campaign hits the sweet spot.",
+    "example_es": "Esta campaña de marketing encaja perfecto.",
+    "note": "Uso coloquial"
    },
    {
     "t": "hit it off",
@@ -1034,6 +1671,4057 @@
     "example": "Losing the job was a blessing in disguise.",
     "example_es": "Perder el trabajo fue una bendición inesperada.",
     "note": "informal, positive"
+   },
+   {
+    "t": "to get someone's point across",
+    "es": "hacer llegar el punto",
+    "example": "She used a diagram to get her point across.",
+    "example_es": "Ella usó un diagrama para hacer llegar el punto.",
+    "note": "formal"
+   },
+   {
+    "t": "to be on the same page",
+    "es": "estar en la misma página",
+    "example": "We need to be on the same page before moving forward.",
+    "example_es": "Necesitamos estar en la misma página antes de avanzar.",
+    "note": "informal"
+   },
+   {
+    "t": "to speak one's mind",
+    "es": "decir lo que se piensa",
+    "example": "He always speaks his mind, even if it's risky.",
+    "example_es": "Siempre dice lo que piensa, aunque sea arriesgado.",
+    "note": "informal"
+   },
+   {
+    "t": "to put words into someone's mouth",
+    "es": "ponerle palabras a alguien",
+    "example": "Don't put words into my mouth. I didn't say that.",
+    "example_es": "No me pongas palabras. No dije eso.",
+    "note": "formal"
+   },
+   {
+    "t": "to read between the lines",
+    "es": "leer entre líneas",
+    "example": "You can read between the lines and see the real meaning.",
+    "example_es": "Puedes leer entre líneas y ver el verdadero significado.",
+    "note": "informal"
+   },
+   {
+    "t": "to sound off",
+    "es": "hablar sin filtro",
+    "example": "She sounded off during the meeting.",
+    "example_es": "Ella habló sin filtro durante la reunión.",
+    "note": "informal"
+   },
+   {
+    "t": "to take something with a grain of salt",
+    "es": "tomar algo con escepticismo",
+    "example": "Take his advice with a grain of salt. He exaggerates.",
+    "example_es": "Toma su consejo con escepticismo. Exagera.",
+    "note": "informal"
+   },
+   {
+    "t": "to throw shade",
+    "es": "arrojar sombra",
+    "example": "He threw shade at his competitor.",
+    "example_es": "Arrojó sombra a su competidor.",
+    "note": "informal"
+   },
+   {
+    "t": "to beat around the bush",
+    "es": "evitar lo directo",
+    "example": "Stop beating around the bush and tell me what you want.",
+    "example_es": "Deja de evitar lo directo y dime lo que quieres.",
+    "note": "informal"
+   },
+   {
+    "t": "to put the cart before the horse",
+    "es": "poner la carroza delante del caballo",
+    "example": "Planning the launch before the product is ready is putting the cart before the horse.",
+    "example_es": "Planear el lanzamiento antes de que el producto esté listo es poner la carroza delante del caballo.",
+    "note": "informal"
+   },
+   {
+    "t": "to be in the driver's seat",
+    "es": "tener el control",
+    "example": "In negotiations, she was in the driver's seat.",
+    "example_es": "En las negociaciones, ella tenía el control.",
+    "note": "informal"
+   },
+   {
+    "t": "to have a word with someone",
+    "es": "hablar con alguien",
+    "example": "I need to have a word with you about the deadline.",
+    "example_es": "Necesito hablar contigo sobre la fecha límite.",
+    "note": "informal"
+   },
+   {
+    "t": "to give someone the cold shoulder",
+    "es": "darle la espalda",
+    "example": "He gave me the cold shoulder after the argument.",
+    "example_es": "Me dio la espalda después del argumento.",
+    "note": "informal"
+   },
+   {
+    "t": "to be all ears",
+    "es": "estar atento",
+    "example": "I’m all ears for your ideas.",
+    "example_es": "Estoy atento a tus ideas.",
+    "note": "informal"
+   },
+   {
+    "t": "to have a bone to pick with someone",
+    "es": "tener un problema con alguien",
+    "example": "She has a bone to pick with him about the report.",
+    "example_es": "Ella tiene un problema con él sobre el informe.",
+    "note": "informal"
+   },
+   {
+    "t": "to get a word in edgewise",
+    "es": "intervenir",
+    "example": "He couldn't get a word in edgewise during the debate.",
+    "example_es": "No pudo intervenir durante el debate.",
+    "note": "informal"
+   },
+   {
+    "t": "to be on the fence",
+    "es": "no decidirse",
+    "example": "He’s on the fence about the new policy.",
+    "example_es": "No se decide sobre la nueva política.",
+    "note": "informal"
+   },
+   {
+    "t": "to put someone on the spot",
+    "es": "poner a alguien en una situación difícil",
+    "example": "The interviewer put me on the spot with tough questions.",
+    "example_es": "El entrevistador me puso en una situación difícil con preguntas difíciles.",
+    "note": "informal"
+   },
+   {
+    "t": "to read someone’s face",
+    "es": "leer la cara de alguien",
+    "example": "I could read his face and knew he was lying.",
+    "example_es": "Pude leer su cara y supe que estaba mintiendo.",
+    "note": "informal"
+   },
+   {
+    "t": "to take the floor",
+    "es": "tomar la palabra",
+    "example": "She took the floor and explained her position.",
+    "example_es": "Ella tomó la palabra y explicó su posición.",
+    "note": "formal"
+   },
+   {
+    "t": "to be in the hot seat",
+    "es": "estar bajo presión",
+    "example": "The CEO was in the hot seat during the crisis.",
+    "example_es": "El CEO estaba bajo presión durante la crisis.",
+    "note": "informal"
+   },
+   {
+    "t": "to be a voice of reason",
+    "es": "ser la voz de la razón",
+    "example": "He’s always a voice of reason in heated debates.",
+    "example_es": "Siempre es la voz de la razón en debates acalorados.",
+    "note": "informal"
+   },
+   {
+    "t": "to speak out",
+    "es": "hablar abiertamente",
+    "example": "She decided to speak out against the injustice.",
+    "example_es": "Decidió hablar abiertamente contra la injusticia.",
+    "note": "formal"
+   },
+   {
+    "t": "to keep someone in the loop",
+    "es": "mantener a alguien informado",
+    "example": "Keep me in the loop about any changes.",
+    "example_es": "Mantenme informado sobre cualquier cambio.",
+    "note": "informal"
+   },
+   {
+    "t": "to have a point to make",
+    "es": "tener algo que decir",
+    "example": "He had a point to make about the policy change.",
+    "example_es": "Tenía algo que decir sobre el cambio de política.",
+    "note": "informal"
+   },
+   {
+    "t": "to be on the same wavelength",
+    "es": "tener la misma onda",
+    "example": "We’re on the same wavelength about the project.",
+    "example_es": "Estamos en la misma onda sobre el proyecto.",
+    "note": "informal"
+   },
+   {
+    "t": "break a leg",
+    "es": "desear buena suerte",
+    "example": "Break a leg, and you'll do great!",
+    "example_es": "¡Rómpete una pierna, y lo harás genial!",
+    "note": "Uso teatral, informal"
+   },
+   {
+    "t": "hit the books",
+    "es": "estudiar intensamente",
+    "example": "I need to hit the books for tomorrow's exam.",
+    "example_es": "Necesito romper las pelotas para el examen de mañana.",
+    "note": "Uso académico, informal"
+   },
+   {
+    "t": "give someone a hand",
+    "es": "ayudar",
+    "example": "Can you give me a hand with this box?",
+    "example_es": "¿Puedes darme una mano con esta caja?",
+    "note": "Uso cotidiano, informal"
+   },
+   {
+    "t": "keep an eye on",
+    "es": "vigilar",
+    "example": "Keep an eye on the pot, or it'll boil over.",
+    "example_es": "Mantén un ojo en la olla, o se desbordará.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "put your foot in your mouth",
+    "es": "meterse en problemas",
+    "example": "He put his foot in his mouth during the meeting.",
+    "example_es": "Metió su pie en su boca durante la reunión.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "hit the nail on the head",
+    "es": "acertar",
+    "example": "You hit the nail on the head with that analysis.",
+    "example_es": "Aciertas el clavo con ese análisis.",
+    "note": "Uso profesional"
+   },
+   {
+    "t": "take a back seat",
+    "es": "tomar un rol secundario",
+    "example": "She decided to take a back seat this time.",
+    "example_es": "Decidió tomar un asiento trasero esta vez.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "get your head around",
+    "es": "entender",
+    "example": "I can't get my head around this new concept.",
+    "example_es": "No puedo entender este nuevo concepto.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "keep your head above water",
+    "es": "sobrevivir",
+    "example": "After the layoffs, we had to keep our heads above water.",
+    "example_es": "Después de los despidos, tuvimos que mantener la cabeza sobre el agua.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "bite your tongue",
+    "es": "callarse",
+    "example": "Bite your tongue and don't say that again.",
+    "example_es": "Muerde tu lengua y no digas eso de nuevo.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "lose your train of thought",
+    "es": "perder el hilo",
+    "example": "I lost my train of thought during the lecture.",
+    "example_es": "Perdí el hilo durante la conferencia.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "have a heart of gold",
+    "es": "tener buen corazón",
+    "example": "She has a heart of gold, always helping others.",
+    "example_es": "Tiene un corazón de oro, siempre ayuda a los demás.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "catch someone's eye",
+    "es": "llamar la atención",
+    "example": "The bright dress caught everyone's eye.",
+    "example_es": "El vestido brillante llamó la atención de todos.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "have a finger in every pie",
+    "es": "participar en todo",
+    "example": "He has a finger in every pie at the company.",
+    "example_es": "Tiene un dedo en cada pastel en la empresa.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "take a breath",
+    "es": "tomar aire",
+    "example": "Take a breath before you speak.",
+    "example_es": "Toma un respiro antes de hablar.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "keep your fingers crossed",
+    "es": "cruzar los dedos",
+    "example": "Keep your fingers crossed for me!",
+    "example_es": "¡Cruza los dedos por mí!",
+    "note": "Uso informal"
+   },
+   {
+    "t": "give someone the cold shoulder",
+    "es": "ignorar",
+    "example": "She gave him the cold shoulder at the party.",
+    "example_es": "Lo ignoró con la espalda fría en la fiesta.",
+    "note": "Uso informal"
+   },
+   {
+    "t": "have a nose for",
+    "es": "tener talento para",
+    "example": "He has a nose for trouble.",
+    "example_es": "Tiene un olfato para el problema.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "keep your eyes peeled",
+    "es": "mantener los ojos abiertos",
+    "example": "Keep your eyes peeled for any changes.",
+    "example_es": "Mantén los ojos abiertos a cualquier cambio.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "take a step back",
+    "es": "dar un paso atrás",
+    "example": "Take a step back and reassess the situation.",
+    "example_es": "Da un paso atrás y reevalúa la situación.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "have a head start",
+    "es": "tener ventaja",
+    "example": "She had a head start in the race.",
+    "example_es": "Ella tenía una ventaja en la carrera.",
+    "note": "Uso cotidiano"
+   },
+   {
+    "t": "keep your nose to the grindstone",
+    "es": "trabajar duro",
+    "example": "Keep your nose to the grindstone this week.",
+    "example_es": "Mantén la nariz en la piedra de moler esta semana.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "have a leg up",
+    "es": "tener ventaja",
+    "example": "He had a leg up thanks to his connections.",
+    "example_es": "Tenía una ventaja gracias a sus conexiones.",
+    "note": "Uso coloquial"
+   },
+   {
+    "t": "keep your fingers on the pulse",
+    "es": "mantenerse al día",
+    "example": "Keep your fingers on the pulse of the market.",
+    "example_es": "Mantente al día con el pulso del mercado.",
+    "note": "Uso profesional"
+   },
+   {
+    "t": "keep your head in the game",
+    "es": "mantenerse enfocado",
+    "example": "Keep your head in the game to win.",
+    "example_es": "Mantén la cabeza en el juego para ganar.",
+    "note": "Uso deportivo"
+   },
+   {
+    "t": "bite the bullet",
+    "es": "morder la bala",
+    "example": "I finally bit the bullet and accepted the promotion.",
+    "example_es": "Finalmente mordí la bala y acepté la promoción.",
+    "note": "uso cotidiano"
+   },
+   {
+    "t": "spill the tea",
+    "es": "revelar chismes",
+    "example": "They spilled the tea about the celebrity’s breakup.",
+    "example_es": "Revelaron los chismes sobre la ruptura de la celebridad.",
+    "note": "informal"
+   },
+   {
+    "t": "in a pickle",
+    "es": "en apuros",
+    "example": "I’m in a pickle because I forgot my keys.",
+    "example_es": "Estoy en apuros porque olvidé mis llaves.",
+    "note": "informal"
+   },
+   {
+    "t": "keep your chin up",
+    "es": "mantener la moral",
+    "example": "Keep your chin up during the interview.",
+    "example_es": "Mantén la moral durante la entrevista.",
+    "note": "formal"
+   },
+   {
+    "t": "back to the drawing board",
+    "es": "volver a empezar",
+    "example": "The plan failed, back to the drawing board.",
+    "example_es": "El plan falló, volvemos a empezar.",
+    "note": "formal"
+   }
+  ]
+ },
+ {
+  "id": "en-collocations",
+  "level": "C1",
+  "title": "Colocaciones",
+  "description": "Combinaciones naturales de palabras (make a decision, heavy rain...). Son lo que más delata a un no nativo.",
+  "items": [
+   {
+    "t": "make a decision",
+    "es": "tomar una decisión",
+    "example": "I need to make a decision soon.",
+    "example_es": "Necesito tomar una decisión pronto.",
+    "note": "formal"
+   },
+   {
+    "t": "make a mistake",
+    "es": "cometer un error",
+    "example": "She made a mistake on the report.",
+    "example_es": "Ella cometió un error en el informe.",
+    "note": "informal"
+   },
+   {
+    "t": "make an effort",
+    "es": "hacer un esfuerzo",
+    "example": "He made an effort to improve.",
+    "example_es": "Él hizo un esfuerzo por mejorar.",
+    "note": "formal"
+   },
+   {
+    "t": "make an appointment",
+    "es": "pactar una cita",
+    "example": "Let's make an appointment with the doctor.",
+    "example_es": "Pactemos una cita con el médico.",
+    "note": "formal"
+   },
+   {
+    "t": "make an impression",
+    "es": "dejar una impresión",
+    "example": "She made a strong impression at the interview.",
+    "example_es": "Ella dejó una fuerte impresión en la entrevista.",
+    "note": "formal"
+   },
+   {
+    "t": "do a favor",
+    "es": "hacer un favor",
+    "example": "Can you do me a favor?",
+    "example_es": "¿Puedes hacerme un favor?",
+    "note": "informal"
+   },
+   {
+    "t": "do a job",
+    "es": "hacer un trabajo",
+    "example": "He did a job for the company.",
+    "example_es": "Él hizo un trabajo para la empresa.",
+    "note": "informal"
+   },
+   {
+    "t": "do a survey",
+    "es": "realizar una encuesta",
+    "example": "We need to do a survey before launching.",
+    "example_es": "Necesitamos realizar una encuesta antes de lanzar.",
+    "note": "formal"
+   },
+   {
+    "t": "do a test",
+    "es": "hacer una prueba",
+    "example": "She did a test in math.",
+    "example_es": "Ella hizo una prueba de matemáticas.",
+    "note": "informal"
+   },
+   {
+    "t": "do a review",
+    "es": "hacer una revisión",
+    "example": "The editor did a review of the manuscript.",
+    "example_es": "El editor hizo una revisión del manuscrito.",
+    "note": "formal"
+   },
+   {
+    "t": "take a break",
+    "es": "tomar un descanso",
+    "example": "Let's take a break after lunch.",
+    "example_es": "Tomemos un descanso después del almuerzo.",
+    "note": "informal"
+   },
+   {
+    "t": "take a risk",
+    "es": "tomar un riesgo",
+    "example": "He took a risk investing early.",
+    "example_es": "Él tomó un riesgo al invertir temprano.",
+    "note": "formal"
+   },
+   {
+    "t": "take a seat",
+    "es": "sentarse",
+    "example": "Please take a seat in the waiting room.",
+    "example_es": "Por favor, siéntese en la sala de espera.",
+    "note": "informal"
+   },
+   {
+    "t": "take a look",
+    "es": "echar un vistazo",
+    "example": "Take a look at this new design.",
+    "example_es": "Echa un vistazo a este nuevo diseño.",
+    "note": "informal"
+   },
+   {
+    "t": "take a step",
+    "es": "dar un paso",
+    "example": "We need to take a step towards sustainability.",
+    "example_es": "Necesitamos dar un paso hacia la sostenibilidad.",
+    "note": "formal"
+   },
+   {
+    "t": "take a chance",
+    "es": "arriesgarse",
+    "example": "She took a chance on the startup.",
+    "example_es": "Ella se arriesgó con la startup.",
+    "note": "informal"
+   },
+   {
+    "t": "take a call",
+    "es": "contestar una llamada",
+    "example": "I have to take a call right now.",
+    "example_es": "Tengo que contestar una llamada ahora.",
+    "note": "informal"
+   },
+   {
+    "t": "take a stand",
+    "es": "tomar una posición",
+    "example": "He took a stand against injustice.",
+    "example_es": "Él tomó una posición contra la injusticia.",
+    "note": "formal"
+   },
+   {
+    "t": "heavy rain",
+    "es": "lluvia intensa",
+    "example": "The heavy rain flooded the streets.",
+    "example_es": "La lluvia intensa inundó las calles.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "strong coffee",
+    "es": "café fuerte",
+    "example": "I prefer a strong coffee in the morning.",
+    "example_es": "Prefiero un café fuerte por la mañana.",
+    "note": "colocación habitual"
+   },
+   {
+    "t": "tight schedule",
+    "es": "horario apretado",
+    "example": "She has a tight schedule today.",
+    "example_es": "Ella tiene un horario apretado hoy.",
+    "note": "colocación común"
+   },
+   {
+    "t": "deep sleep",
+    "es": "sueño profundo",
+    "example": "He was in a deep sleep.",
+    "example_es": "Estaba en un sueño profundo.",
+    "note": "colocación típica"
+   },
+   {
+    "t": "sharp decline",
+    "es": "caída brusca",
+    "example": "The company saw a sharp decline in sales.",
+    "example_es": "La empresa vio una caída brusca en ventas.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "bright future",
+    "es": "futuro brillante",
+    "example": "He has a bright future ahead.",
+    "example_es": "Tiene un futuro brillante por delante.",
+    "note": "colocación habitual"
+   },
+   {
+    "t": "heavy traffic",
+    "es": "tráfico denso",
+    "example": "Heavy traffic delayed the meeting.",
+    "example_es": "El tráfico denso retrasó la reunión.",
+    "note": "colocación típica"
+   },
+   {
+    "t": "strong evidence",
+    "es": "prueba sólida",
+    "example": "There is strong evidence of fraud.",
+    "example_es": "Hay prueba sólida de fraude.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "deep knowledge",
+    "es": "conocimiento profundo",
+    "example": "She has deep knowledge of linguistics.",
+    "example_es": "Tiene conocimiento profundo de lingüística.",
+    "note": "colocación habitual"
+   },
+   {
+    "t": "tight budget",
+    "es": "presupuesto ajustado",
+    "example": "The project operates on a tight budget.",
+    "example_es": "El proyecto opera con un presupuesto ajustado.",
+    "note": "colocación típica"
+   },
+   {
+    "t": "heavy workload",
+    "es": "carga de trabajo pesada",
+    "example": "He has a heavy workload this week.",
+    "example_es": "Tiene una carga de trabajo pesada esta semana.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "strong reaction",
+    "es": "reacción fuerte",
+    "example": "The policy sparked a strong reaction.",
+    "example_es": "La política provocó una reacción fuerte.",
+    "note": "colocación habitual"
+   },
+   {
+    "t": "deep silence",
+    "es": "silencio profundo",
+    "example": "The room was filled with deep silence.",
+    "example_es": "La habitación estaba llena de silencio profundo.",
+    "note": "colocación típica"
+   },
+   {
+    "t": "bright idea",
+    "es": "idea brillante",
+    "example": "That's a bright idea for the campaign.",
+    "example_es": "Esa es una idea brillante para la campaña.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "tight grip",
+    "es": "agarrón firme",
+    "example": "She had a tight grip on the railing.",
+    "example_es": "Ella tenía un agarrón firme en la barandilla.",
+    "note": "colocación habitual"
+   },
+   {
+    "t": "heavy metal",
+    "es": "metal pesado",
+    "example": "They play heavy metal music.",
+    "example_es": "Tocan música heavy metal.",
+    "note": "colocación típica"
+   },
+   {
+    "t": "strong will",
+    "es": "voluntad férrea",
+    "example": "He has a strong will to succeed.",
+    "example_es": "Tiene una voluntad férrea para triunfar.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "deep respect",
+    "es": "respeto profundo",
+    "example": "She has deep respect for her mentors.",
+    "example_es": "Ella tiene un respeto profundo por sus mentores.",
+    "note": "colocación habitual"
+   },
+   {
+    "t": "bright colors",
+    "es": "colores vivos",
+    "example": "The painting uses bright colors.",
+    "example_es": "La pintura usa colores vivos.",
+    "note": "colocación típica"
+   },
+   {
+    "t": "tight deadline",
+    "es": "plazo ajustado",
+    "example": "We face a tight deadline tomorrow.",
+    "example_es": "Nos enfrentamos a un plazo ajustado mañana.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "heavy lifting",
+    "es": "levantamiento pesado",
+    "example": "Heavy lifting is required for this job.",
+    "example_es": "Se requiere levantamiento pesado para este trabajo.",
+    "note": "colocación habitual"
+   },
+   {
+    "t": "strong sense",
+    "es": "sentido fuerte",
+    "example": "He has a strong sense of humor.",
+    "example_es": "Tiene un sentido fuerte del humor.",
+    "note": "colocación típica"
+   },
+   {
+    "t": "deep conviction",
+    "es": "convicción profunda",
+    "example": "She spoke with deep conviction.",
+    "example_es": "Ella habló con convicción profunda.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "bright outlook",
+    "es": "perspectiva brillante",
+    "example": "The future looks bright for the company.",
+    "example_es": "El futuro parece brillante para la empresa.",
+    "note": "colocación habitual"
+   },
+   {
+    "t": "make a presentation",
+    "es": "hacer una presentación",
+    "example": "I need to make a presentation tomorrow.",
+    "example_es": "Necesito hacer una presentación mañana.",
+    "note": "formal"
+   },
+   {
+    "t": "give a briefing",
+    "es": "dar una breve",
+    "example": "The manager gave a briefing on the new policy.",
+    "example_es": "El gerente dio una breve sobre la nueva política.",
+    "note": "formal"
+   },
+   {
+    "t": "lead a meeting",
+    "es": "conducir una reunión",
+    "example": "She will lead the meeting next week.",
+    "example_es": "Ella conducirá la reunión la próxima semana.",
+    "note": "formal"
+   },
+   {
+    "t": "draft a proposal",
+    "es": "redactar una propuesta",
+    "example": "We need to draft a proposal before the deadline.",
+    "example_es": "Necesitamos redactar una propuesta antes de la fecha límite.",
+    "note": "formal"
+   },
+   {
+    "t": "submit a report",
+    "es": "enviar un informe",
+    "example": "Please submit a report by Friday.",
+    "example_es": "Por favor envía un informe antes del viernes.",
+    "note": "formal"
+   },
+   {
+    "t": "conduct an audit",
+    "es": "realizar una auditoría",
+    "example": "The firm will conduct an audit next month.",
+    "example_es": "La firma realizará una auditoría el próximo mes.",
+    "note": "formal"
+   },
+   {
+    "t": "deliver a speech",
+    "es": "dar un discurso",
+    "example": "He delivered a speech at the conference.",
+    "example_es": "Él dio un discurso en la conferencia.",
+    "note": "formal"
+   },
+   {
+    "t": "prepare a budget",
+    "es": "preparar un presupuesto",
+    "example": "We must prepare a budget for Q3.",
+    "example_es": "Debemos preparar un presupuesto para el tercer trimestre.",
+    "note": "formal"
+   },
+   {
+    "t": "present a case",
+    "es": "presentar un caso",
+    "example": "She will present a case study tomorrow.",
+    "example_es": "Ella presentará un estudio de caso mañana.",
+    "note": "formal"
+   },
+   {
+    "t": "organise a workshop",
+    "es": "organizar un taller",
+    "example": "The team will organise a workshop on teamwork.",
+    "example_es": "El equipo organizará un taller sobre trabajo en equipo.",
+    "note": "formal"
+   },
+   {
+    "t": "conduct a survey",
+    "es": "realizar una encuesta",
+    "example": "We plan to conduct a survey next quarter.",
+    "example_es": "Planeamos realizar una encuesta el próximo trimestre.",
+    "note": "formal"
+   },
+   {
+    "t": "draft a contract",
+    "es": "redactar un contrato",
+    "example": "They drafted a contract last week.",
+    "example_es": "Ellos redactaron un contrato la semana pasada.",
+    "note": "formal"
+   },
+   {
+    "t": "give a presentation",
+    "es": "dar una presentación",
+    "example": "He gave a presentation on market trends.",
+    "example_es": "Él dio una presentación sobre tendencias de mercado.",
+    "note": "formal"
+   },
+   {
+    "t": "lead a project",
+    "es": "conducir un proyecto",
+    "example": "She will lead a project on sustainability.",
+    "example_es": "Ella conducirá un proyecto sobre sostenibilidad.",
+    "note": "formal"
+   },
+   {
+    "t": "organise a conference",
+    "es": "organizar una conferencia",
+    "example": "We are organising a conference on AI.",
+    "example_es": "Estamos organizando una conferencia sobre IA.",
+    "note": "formal"
+   },
+   {
+    "t": "prepare a pitch",
+    "es": "preparar un pitch",
+    "example": "The startup will prepare a pitch for investors.",
+    "example_es": "La startup preparará un pitch para los inversores.",
+    "note": "informal"
+   },
+   {
+    "t": "present a proposal",
+    "es": "presentar una propuesta",
+    "example": "They presented a proposal to the board.",
+    "example_es": "Presentaron una propuesta a la junta.",
+    "note": "formal"
+   },
+   {
+    "t": "draft a memo",
+    "es": "redactar un memorándum",
+    "example": "He drafted a memo about the new policy.",
+    "example_es": "Redactó un memorándum sobre la nueva política.",
+    "note": "formal"
+   },
+   {
+    "t": "conduct a meeting",
+    "es": "realizar una reunión",
+    "example": "We will conduct a meeting with stakeholders.",
+    "example_es": "Realizaremos una reunión con los interesados.",
+    "note": "formal"
+   },
+   {
+    "t": "lead a discussion",
+    "es": "conducir una discusión",
+    "example": "She will lead a discussion on ethics.",
+    "example_es": "Ella conducirá una discusión sobre ética.",
+    "note": "formal"
+   },
+   {
+    "t": "organise a training",
+    "es": "organizar un entrenamiento",
+    "example": "They will organise a training on cybersecurity.",
+    "example_es": "Organizarán un entrenamiento sobre ciberseguridad.",
+    "note": "formal"
+   },
+   {
+    "t": "prepare a case study",
+    "es": "preparar un estudio de caso",
+    "example": "We need to prepare a case study for the seminar.",
+    "example_es": "Necesitamos preparar un estudio de caso para el seminario.",
+    "note": "formal"
+   },
+   {
+    "t": "present a report",
+    "es": "presentar un informe",
+    "example": "He presented a report on quarterly results.",
+    "example_es": "Él presentó un informe sobre los resultados trimestrales.",
+    "note": "formal"
+   },
+   {
+    "t": "highly unlikely",
+    "es": "extremadamente improbable",
+    "example": "It is highly unlikely that he'll finish on time.",
+    "example_es": "Es extremadamente improbable que termine a tiempo.",
+    "note": "informal"
+   },
+   {
+    "t": "deeply concerned",
+    "es": "profundamente preocupado",
+    "example": "She is deeply concerned about the future.",
+    "example_es": "Ella está profundamente preocupada por el futuro.",
+    "note": "formal"
+   },
+   {
+    "t": "incredibly powerful",
+    "es": "increíblemente poderoso",
+    "example": "The new engine is incredibly powerful.",
+    "example_es": "El nuevo motor es increíblemente poderoso.",
+    "note": "informal"
+   },
+   {
+    "t": "extremely rare",
+    "es": "extremadamente raro",
+    "example": "Such a phenomenon is extremely rare.",
+    "example_es": "Ese fenómeno es extremadamente raro.",
+    "note": "formal"
+   },
+   {
+    "t": "completely different",
+    "es": "completamente diferente",
+    "example": "Their opinions are completely different.",
+    "example_es": "Sus opiniones son completamente diferentes.",
+    "note": "informal"
+   },
+   {
+    "t": "remarkably quick",
+    "es": "notablemente rápido",
+    "example": "He solved the puzzle remarkably quick.",
+    "example_es": "Él resolvió el rompecabezas notablemente rápido.",
+    "note": "formal"
+   },
+   {
+    "t": "totally unacceptable",
+    "es": "totalmente inaceptable",
+    "example": "That behavior is totally unacceptable.",
+    "example_es": "Ese comportamiento es totalmente inaceptable.",
+    "note": "formal"
+   },
+   {
+    "t": "truly remarkable",
+    "es": "verdaderamente notable",
+    "example": "Her performance was truly remarkable.",
+    "example_es": "Su actuación fue verdaderamente notable.",
+    "note": "formal"
+   },
+   {
+    "t": "unusually high",
+    "es": "inusualmente alto",
+    "example": "The temperature is unusually high today.",
+    "example_es": "La temperatura es inusualmente alta hoy.",
+    "note": "informal"
+   },
+   {
+    "t": "exceptionally good",
+    "es": "excepcionalmente bueno",
+    "example": "The service was exceptionally good.",
+    "example_es": "El servicio fue excepcionalmente bueno.",
+    "note": "formal"
+   },
+   {
+    "t": "incredibly fast",
+    "es": "increíblemente rápido",
+    "example": "The athlete ran incredibly fast.",
+    "example_es": "El atleta corrió increíblemente rápido.",
+    "note": "informal"
+   },
+   {
+    "t": "deeply rooted",
+    "es": "profundamente arraigado",
+    "example": "The tradition is deeply rooted in culture.",
+    "example_es": "La tradición está profundamente arraigada en la cultura.",
+    "note": "formal"
+   },
+   {
+    "t": "highly probable",
+    "es": "altamente probable",
+    "example": "It is highly probable that the meeting will happen.",
+    "example_es": "Es altamente probable que la reunión ocurra.",
+    "note": "formal"
+   },
+   {
+    "t": "extremely sensitive",
+    "es": "extremadamente sensible",
+    "example": "The topic is extremely sensitive.",
+    "example_es": "El tema es extremadamente sensible.",
+    "note": "formal"
+   },
+   {
+    "t": "completely irrelevant",
+    "es": "completamente irrelevante",
+    "example": "His comments were completely irrelevant.",
+    "example_es": "Sus comentarios fueron completamente irrelevantes.",
+    "note": "informal"
+   },
+   {
+    "t": "remarkably calm",
+    "es": "notablemente tranquilo",
+    "example": "She remained remarkably calm during the crisis.",
+    "example_es": "Ella permaneció notablemente tranquila durante la crisis.",
+    "note": "formal"
+   },
+   {
+    "t": "totally impossible",
+    "es": "totalmente imposible",
+    "example": "It is totally impossible to finish in time.",
+    "example_es": "Es totalmente imposible terminar a tiempo.",
+    "note": "informal"
+   },
+   {
+    "t": "deeply emotional",
+    "es": "profundamente emotivo",
+    "example": "The movie was deeply emotional.",
+    "example_es": "La película fue profundamente emotiva.",
+    "note": "formal"
+   },
+   {
+    "t": "incredibly complex",
+    "es": "increíblemente complejo",
+    "example": "The problem is incredibly complex.",
+    "example_es": "El problema es increíblemente complejo.",
+    "note": "informal"
+   },
+   {
+    "t": "extremely valuable",
+    "es": "extremadamente valioso",
+    "example": "This information is extremely valuable.",
+    "example_es": "Esta información es extremadamente valiosa.",
+    "note": "formal"
+   },
+   {
+    "t": "highly recommended",
+    "es": "altamente recomendado",
+    "example": "This book is highly recommended.",
+    "example_es": "Este libro es altamente recomendado.",
+    "note": "formal"
+   },
+   {
+    "t": "remarkably beautiful",
+    "es": "notablemente hermoso",
+    "example": "The view is remarkably beautiful.",
+    "example_es": "La vista es notablemente hermosa.",
+    "note": "formal"
+   },
+   {
+    "t": "deeply felt",
+    "es": "profundamente sentido",
+    "example": "His apology was deeply felt by everyone.",
+    "example_es": "Su disculpa fue profundamente sentida por todos.",
+    "note": "formal"
+   },
+   {
+    "t": "incredibly expensive",
+    "es": "increíblemente caro",
+    "example": "The concert tickets are incredibly expensive.",
+    "example_es": "Las entradas del concierto son increíblemente caras.",
+    "note": "informal"
+   },
+   {
+    "t": "extremely dangerous",
+    "es": "extremadamente peligroso",
+    "example": "The area is extremely dangerous after dark.",
+    "example_es": "El área es extremadamente peligrosa después del anochecer.",
+    "note": "formal"
+   },
+   {
+    "t": "totally unnecessary",
+    "es": "totalmente innecesario",
+    "example": "That extra step is totally unnecessary.",
+    "example_es": "Ese paso extra es totalmente innecesario.",
+    "note": "informal"
+   },
+   {
+    "t": "give an opinion",
+    "es": "dar una opinión",
+    "example": "I would give my opinion on the matter.",
+    "example_es": "Yo daría mi opinión sobre el asunto.",
+    "note": "informal, común"
+   },
+   {
+    "t": "express an opinion",
+    "es": "expresar una opinión",
+    "example": "She expressed her opinion during the meeting.",
+    "example_es": "Ella expresó su opinión durante la reunión.",
+    "note": "formal, escrito"
+   },
+   {
+    "t": "voice an opinion",
+    "es": "manifestar una opinión",
+    "example": "He voiced his opinion loudly.",
+    "example_es": "Él manifestó su opinión en voz alta.",
+    "note": "coloquial, debate"
+   },
+   {
+    "t": "offer an opinion",
+    "es": "ofrecer una opinión",
+    "example": "The consultant offered an opinion on the strategy.",
+    "example_es": "El consultor ofreció una opinión sobre la estrategia.",
+    "note": "profesional"
+   },
+   {
+    "t": "state an opinion",
+    "es": "afirmar una opinión",
+    "example": "She stated her opinion clearly.",
+    "example_es": "Ella afirmó su opinión claramente.",
+    "note": "formal, escrito"
+   },
+   {
+    "t": "make a case",
+    "es": "hacer un caso",
+    "example": "He made a case for the new policy.",
+    "example_es": "Él hizo un caso por la nueva política.",
+    "note": "formal, argumentar"
+   },
+   {
+    "t": "raise an argument",
+    "es": "levantar un argumento",
+    "example": "They raised an argument about the budget.",
+    "example_es": "Ellos levantaron un argumento sobre el presupuesto.",
+    "note": "formal, debate"
+   },
+   {
+    "t": "bring up a point",
+    "es": "sacar un punto",
+    "example": "He brought up a point about safety.",
+    "example_es": "Él sacó un punto sobre la seguridad.",
+    "note": "informal, conversación"
+   },
+   {
+    "t": "introduce a point",
+    "es": "introducir un punto",
+    "example": "The speaker introduced a point early.",
+    "example_es": "El orador introdujo un punto temprano.",
+    "note": "formal, presentación"
+   },
+   {
+    "t": "counter an argument",
+    "es": "contrarrestar un argumento",
+    "example": "She countered the argument with data.",
+    "example_es": "Ella contrarrestó el argumento con datos.",
+    "note": "formal, debate"
+   },
+   {
+    "t": "refute an argument",
+    "es": "refutar un argumento",
+    "example": "The scientist refuted the argument convincingly.",
+    "example_es": "El científico refutó el argumento convincientemente.",
+    "note": "formal, académico"
+   },
+   {
+    "t": "support an argument",
+    "es": "apoyar un argumento",
+    "example": "They supported the argument with evidence.",
+    "example_es": "Ellos apoyaron el argumento con evidencia.",
+    "note": "formal, académico"
+   },
+   {
+    "t": "challenge an argument",
+    "es": "desafiar un argumento",
+    "example": "He challenged the argument during the panel.",
+    "example_es": "Él desafió el argumento durante el panel.",
+    "note": "formal, debate"
+   },
+   {
+    "t": "weigh in on",
+    "es": "opinar sobre",
+    "example": "The expert weighed in on the controversy.",
+    "example_es": "El experto opinó sobre la controversia.",
+    "note": "informal, debate"
+   },
+   {
+    "t": "contribute to a debate",
+    "es": "contribuir a un debate",
+    "example": "She contributed to a debate on policy.",
+    "example_es": "Ella contribuyó a un debate sobre política.",
+    "note": "formal, debate"
+   },
+   {
+    "t": "offer a perspective",
+    "es": "ofrecer una perspectiva",
+    "example": "The analyst offered a perspective on the issue.",
+    "example_es": "El analista ofreció una perspectiva sobre el asunto.",
+    "note": "formal, escrito"
+   },
+   {
+    "t": "present an argument",
+    "es": "presentar un argumento",
+    "example": "He presented an argument for reform.",
+    "example_es": "Él presentó un argumento por la reforma.",
+    "note": "formal, académico"
+   },
+   {
+    "t": "make an argument",
+    "es": "hacer un argumento",
+    "example": "She made an argument for equality.",
+    "example_es": "Ella hizo un argumento por la igualdad.",
+    "note": "informal, conversación"
+   },
+   {
+    "t": "push an argument",
+    "es": "impulsar un argumento",
+    "example": "The activist pushed an argument for change.",
+    "example_es": "El activista impulsó un argumento por el cambio.",
+    "note": "informal, debate"
+   },
+   {
+    "t": "raise a concern",
+    "es": "levantar una preocupación",
+    "example": "They raised a concern about the timeline.",
+    "example_es": "Ellos levantaron una preocupación sobre el cronograma.",
+    "note": "formal, profesional"
+   },
+   {
+    "t": "voice a concern",
+    "es": "manifestar una preocupación",
+    "example": "He voiced a concern about safety.",
+    "example_es": "Él manifestó una preocupación por la seguridad.",
+    "note": "formal, profesional"
+   },
+   {
+    "t": "express a concern",
+    "es": "expresar una preocupación",
+    "example": "The manager expressed a concern about costs.",
+    "example_es": "El gerente expresó una preocupación por los costos.",
+    "note": "formal, profesional"
+   },
+   {
+    "t": "highlight an issue",
+    "es": "destacar un problema",
+    "example": "The report highlighted an issue with data quality.",
+    "example_es": "El informe destacó un problema con la calidad de datos.",
+    "note": "formal, escrito"
+   },
+   {
+    "t": "emphasize a point",
+    "es": "enfatizar un punto",
+    "example": "She emphasized a point during the lecture.",
+    "example_es": "Ella enfatizó un punto durante la conferencia.",
+    "note": "formal, académico"
+   },
+   {
+    "t": "climate change",
+    "es": "cambio climático",
+    "example": "Climate change is accelerating faster than predicted.",
+    "example_es": "El cambio climático se está acelerando más rápido de lo previsto.",
+    "note": ""
+   },
+   {
+    "t": "global warming",
+    "es": "calentamiento global",
+    "example": "Global warming threatens polar ice caps.",
+    "example_es": "El calentamiento global amenaza los casquetes polares.",
+    "note": ""
+   },
+   {
+    "t": "sustainable development",
+    "es": "desarrollo sostenible",
+    "example": "Sustainable development requires balancing growth and conservation.",
+    "example_es": "El desarrollo sostenible requiere equilibrar el crecimiento y la conservación.",
+    "note": ""
+   },
+   {
+    "t": "green economy",
+    "es": "economía verde",
+    "example": "The green economy creates jobs in renewable energy.",
+    "example_es": "La economía verde crea empleos en energía renovable.",
+    "note": ""
+   },
+   {
+    "t": "carbon footprint",
+    "es": "huella de carbono",
+    "example": "Reducing your carbon footprint saves the planet.",
+    "example_es": "Reducir tu huella de carbono salva el planeta.",
+    "note": ""
+   },
+   {
+    "t": "social media",
+    "es": "redes sociales",
+    "example": "Social media shapes public opinion quickly.",
+    "example_es": "Las redes sociales moldean la opinión pública rápidamente.",
+    "note": ""
+   },
+   {
+    "t": "fake news",
+    "es": "noticias falsas",
+    "example": "Fake news can spread misinformation rapidly.",
+    "example_es": "Las noticias falsas pueden propagar desinformación rápidamente.",
+    "note": ""
+   },
+   {
+    "t": "public transport",
+    "es": "transporte público",
+    "example": "Public transport reduces traffic congestion.",
+    "example_es": "El transporte público reduce la congestión del tráfico.",
+    "note": ""
+   },
+   {
+    "t": "urban sprawl",
+    "es": "expansión urbana",
+    "example": "Urban sprawl consumes valuable farmland.",
+    "example_es": "La expansión urbana consume tierras agrícolas valiosas.",
+    "note": ""
+   },
+   {
+    "t": "environmental policy",
+    "es": "política ambiental",
+    "example": "Environmental policy must address plastic waste.",
+    "example_es": "La política ambiental debe abordar el desperdicio de plástico.",
+    "note": ""
+   },
+   {
+    "t": "human rights",
+    "es": "derechos humanos",
+    "example": "Human rights activists demand justice worldwide.",
+    "example_es": "Los activistas de derechos humanos exigen justicia en todo el mundo.",
+    "note": ""
+   },
+   {
+    "t": "climate crisis",
+    "es": "crisis climática",
+    "example": "The climate crisis demands immediate action.",
+    "example_es": "La crisis climática exige acción inmediata.",
+    "note": ""
+   },
+   {
+    "t": "renewable energy",
+    "es": "energía renovable",
+    "example": "Renewable energy can replace fossil fuels.",
+    "example_es": "La energía renovable puede reemplazar los combustibles fósiles.",
+    "note": ""
+   },
+   {
+    "t": "social inequality",
+    "es": "desigualdad social",
+    "example": "Social inequality fuels unrest in many cities.",
+    "example_es": "La desigualdad social alimenta disturbios en muchas ciudades.",
+    "note": ""
+   },
+   {
+    "t": "environmental impact",
+    "es": "impacto ambiental",
+    "example": "The environmental impact of mining is severe.",
+    "example_es": "El impacto ambiental de la minería es severo.",
+    "note": ""
+   },
+   {
+    "t": "public opinion",
+    "es": "opinión pública",
+    "example": "Public opinion often shifts after elections.",
+    "example_es": "La opinión pública a menudo cambia después de elecciones.",
+    "note": ""
+   },
+   {
+    "t": "media coverage",
+    "es": "cobertura mediática",
+    "example": "Media coverage highlighted the scandal.",
+    "example_es": "La cobertura mediática destacó el escándalo.",
+    "note": ""
+   },
+   {
+    "t": "greenhouse gases",
+    "es": "gases de efecto invernadero",
+    "example": "Greenhouse gases trap heat in the atmosphere.",
+    "example_es": "Los gases de efecto invernadero atrapan calor en la atmósfera.",
+    "note": ""
+   },
+   {
+    "t": "environmental justice",
+    "es": "justicia ambiental",
+    "example": "Environmental justice seeks fair resource distribution.",
+    "example_es": "La justicia ambiental busca una distribución justa de recursos.",
+    "note": ""
+   },
+   {
+    "t": "social media influencer",
+    "es": "influencer de redes sociales",
+    "example": "Social media influencers often partner with brands.",
+    "example_es": "Los influencers de redes sociales suelen asociarse con marcas.",
+    "note": ""
+   },
+   {
+    "t": "climate action",
+    "es": "acción climática",
+    "example": "Climate action requires global cooperation.",
+    "example_es": "La acción climática requiere cooperación global.",
+    "note": ""
+   },
+   {
+    "t": "environmental protection",
+    "es": "protección ambiental",
+    "example": "Environmental protection laws safeguard ecosystems.",
+    "example_es": "Las leyes de protección ambiental salvaguardan ecosistemas.",
+    "note": ""
+   },
+   {
+    "t": "public policy",
+    "es": "política pública",
+    "example": "Public policy shapes national priorities.",
+    "example_es": "La política pública moldea las prioridades nacionales.",
+    "note": ""
+   },
+   {
+    "t": "social responsibility",
+    "es": "responsabilidad social",
+    "example": "Companies show social responsibility through donations.",
+    "example_es": "Las empresas demuestran responsabilidad social mediante donaciones.",
+    "note": ""
+   },
+   {
+    "t": "environmental sustainability",
+    "es": "sostenibilidad ambiental",
+    "example": "Environmental sustainability is crucial for future generations.",
+    "example_es": "La sostenibilidad ambiental es crucial para las generaciones futuras.",
+    "note": ""
+   },
+   {
+    "t": "feel a surge of confidence",
+    "es": "sentirse muy confiado",
+    "example": "She felt a surge of confidence before the interview.",
+    "example_es": "Ella sintió una oleada de confianza antes de la entrevista.",
+    "note": "uso informal"
+   },
+   {
+    "t": "have a heart attack",
+    "es": "tener un ataque al corazón",
+    "example": "He had a heart attack last year.",
+    "example_es": "Tuvo un ataque al corazón el año pasado.",
+    "note": "uso médico"
+   },
+   {
+    "t": "make a breakthrough",
+    "es": "hacer un avance",
+    "example": "The research made a breakthrough in cancer treatment.",
+    "example_es": "La investigación hizo un avance en el tratamiento del cáncer.",
+    "note": "uso científico"
+   },
+   {
+    "t": "break the ice",
+    "es": "romper el hielo",
+    "example": "He told a joke to break the ice.",
+    "example_es": "Contó un chiste para romper el hielo.",
+    "note": "uso social"
+   },
+   {
+    "t": "feel a wave of nostalgia",
+    "es": "sentir una ola de nostalgia",
+    "example": "Seeing the old photos felt a wave of nostalgia.",
+    "example_es": "Ver las viejas fotos me hizo sentir una ola de nostalgia.",
+    "note": "uso emocional"
+   },
+   {
+    "t": "have a nervous breakdown",
+    "es": "tener un colapso nervioso",
+    "example": "She had a nervous breakdown after the accident.",
+    "example_es": "Ella tuvo un colapso nervioso tras el accidente.",
+    "note": "uso médico"
+   },
+   {
+    "t": "give someone a heartwarming smile",
+    "es": "dar a alguien una sonrisa reconfortante",
+    "example": "He gave her a heartwarming smile at the party.",
+    "example_es": "Le dio una sonrisa reconfortante en la fiesta.",
+    "note": "uso coloquial"
+   },
+   {
+    "t": "feel a pang of guilt",
+    "es": "sentir un dolor de culpa",
+    "example": "He felt a pang of guilt when he saw the mess.",
+    "example_es": "Sintió un dolor de culpa al ver el desastre.",
+    "note": "uso emocional"
+   },
+   {
+    "t": "have a sudden insight",
+    "es": "tener una idea repentina",
+    "example": "She had a sudden insight during the meeting.",
+    "example_es": "Tuvo una idea repentina durante la reunión.",
+    "note": "uso académico"
+   },
+   {
+    "t": "share a deep bond",
+    "es": "compartir un vínculo profundo",
+    "example": "They share a deep bond from childhood.",
+    "example_es": "Comparten un vínculo profundo desde la infancia.",
+    "note": "uso emocional"
+   },
+   {
+    "t": "feel a sense of relief",
+    "es": "sentir un alivio",
+    "example": "She felt a sense of relief after the exam.",
+    "example_es": "Sintió un alivio después del examen.",
+    "note": "uso emocional"
+   },
+   {
+    "t": "have a feverish mind",
+    "es": "tener una mente febril",
+    "example": "He had a feverish mind during the crisis.",
+    "example_es": "Tenía una mente febril durante la crisis.",
+    "note": "uso médico"
+   },
+   {
+    "t": "make a heartfelt apology",
+    "es": "hacer una disculpa sincera",
+    "example": "He made a heartfelt apology to his friend.",
+    "example_es": "Hizo una disculpa sincera a su amigo.",
+    "note": "uso formal"
+   },
+   {
+    "t": "feel a surge of hope",
+    "es": "sentir una oleada de esperanza",
+    "example": "She felt a surge of hope after the news.",
+    "example_es": "Sintió una oleada de esperanza tras las noticias.",
+    "note": "uso emocional"
+   },
+   {
+    "t": "have a heart-to-heart",
+    "es": "tener una charla profunda",
+    "example": "They had a heart-to-heart about their future.",
+    "example_es": "Tuvieron una charla profunda sobre su futuro.",
+    "note": "uso coloquial"
+   },
+   {
+    "t": "feel a twinge of doubt",
+    "es": "sentir una pizca de duda",
+    "example": "He felt a twinge of doubt about the plan.",
+    "example_es": "Sintió una pizca de duda sobre el plan.",
+    "note": "uso emocional"
+   },
+   {
+    "t": "have a sudden panic attack",
+    "es": "tener un ataque de pánico repentino",
+    "example": "She had a sudden panic attack in the crowd.",
+    "example_es": "Tuvo un ataque de pánico repentino en la multitud.",
+    "note": "uso médico"
+   },
+   {
+    "t": "make a heartfelt toast",
+    "es": "hacer un brindis sincero",
+    "example": "They made a heartfelt toast to the new couple.",
+    "example_es": "Hicieron un brindis sincero a la nueva pareja.",
+    "note": "uso formal"
+   },
+   {
+    "t": "feel a wave of gratitude",
+    "es": "sentir una ola de gratitud",
+    "example": "He felt a wave of gratitude for the help.",
+    "example_es": "Sintió una ola de gratitud por la ayuda.",
+    "note": "uso emocional"
+   },
+   {
+    "t": "have a lingering ache",
+    "es": "tener un dolor persistente",
+    "example": "She had a lingering ache after the surgery.",
+    "example_es": "Tuvo un dolor persistente después de la cirugía.",
+    "note": "uso médico"
+   },
+   {
+    "t": "share a mutual respect",
+    "es": "compartir un respeto mutuo",
+    "example": "They share a mutual respect in the workplace.",
+    "example_es": "Comparten un respeto mutuo en el trabajo.",
+    "note": "uso formal"
+   },
+   {
+    "t": "feel a spark of jealousy",
+    "es": "sentir una chispa de celos",
+    "example": "He felt a spark of jealousy when she praised his colleague.",
+    "example_es": "Sintió una chispa de celos cuando ella elogió a su colega.",
+    "note": "uso emocional"
+   },
+   {
+    "t": "have a sudden epiphany",
+    "es": "tener una epifanía repentina",
+    "example": "She had a sudden epiphany about the project.",
+    "example_es": "Tuvo una epifanía repentina sobre el proyecto.",
+    "note": "uso académico"
+   },
+   {
+    "t": "make a heartfelt promise",
+    "es": "hacer una promesa sincera",
+    "example": "He made a heartfelt promise to stay close.",
+    "example_es": "Hizo una promesa sincera de mantenerse cercano.",
+    "note": "uso formal"
+   },
+   {
+    "t": "feel a sense of belonging",
+    "es": "sentir un sentido de pertenencia",
+    "example": "She felt a sense of belonging at the club.",
+    "example_es": "Sintió un sentido de pertenencia en el club.",
+    "note": "uso emocional"
+   },
+   {
+    "t": "break down",
+    "es": "romperse",
+    "example": "The machine broke down during the test.",
+    "example_es": "La máquina se rompió durante la prueba.",
+    "note": "colocación común"
+   },
+   {
+    "t": "come across",
+    "es": "encontrar",
+    "example": "I came across an old friend at the mall.",
+    "example_es": "Encontré a un viejo amigo en el centro comercial.",
+    "note": "uso informal"
+   },
+   {
+    "t": "carry out",
+    "es": "llevar a cabo",
+    "example": "They carried out the experiment successfully.",
+    "example_es": "Llevaron a cabo el experimento con éxito.",
+    "note": "formal"
+   },
+   {
+    "t": "come up with",
+    "es": "proponer",
+    "example": "She came up with a brilliant idea.",
+    "example_es": "Propuso una idea brillante.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "cut back on",
+    "es": "reducir",
+    "example": "We need to cut back on expenses.",
+    "example_es": "Necesitamos reducir gastos.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "do over",
+    "es": "repetir",
+    "example": "I had to do the test over.",
+    "example_es": "Tuve que repetir el examen.",
+    "note": "colocación informal"
+   },
+   {
+    "t": "fall through",
+    "es": "fallar",
+    "example": "The deal fell through last week.",
+    "example_es": "El acuerdo falló la semana pasada.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "give up on",
+    "es": "renunciar a",
+    "example": "She gave up on her dream.",
+    "example_es": "Renunció a su sueño.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "go through",
+    "es": "pasar por",
+    "example": "He went through a tough time.",
+    "example_es": "Pasó por un momento difícil.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "keep up with",
+    "es": "mantenerse al día",
+    "example": "Keep up with the latest trends.",
+    "example_es": "Mantente al día con las últimas tendencias.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "make up for",
+    "es": "reponer",
+    "example": "She made up for the loss with hard work.",
+    "example_es": "Reponía la pérdida con trabajo duro.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "pay off",
+    "es": "saldar",
+    "example": "The loan finally paid off.",
+    "example_es": "El préstamo finalmente se saldó.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "pick up",
+    "es": "recoger",
+    "example": "I picked up the package at the post office.",
+    "example_es": "Recogí el paquete en la oficina de correos.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "put off",
+    "es": "posponer",
+    "example": "They put off the meeting until tomorrow.",
+    "example_es": "Pospusieron la reunión hasta mañana.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "run into",
+    "es": "encontrarse con",
+    "example": "I ran into an old colleague yesterday.",
+    "example_es": "Me encontré con un viejo colega ayer.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "set up",
+    "es": "configurar",
+    "example": "Set up the system before the launch.",
+    "example_es": "Configura el sistema antes del lanzamiento.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "take over",
+    "es": "asumir el control",
+    "example": "The new manager will take over next month.",
+    "example_es": "El nuevo gerente asumirá el control el próximo mes.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "turn down",
+    "es": "rechazar",
+    "example": "She turned down the offer politely.",
+    "example_es": "Rechazó la oferta amablemente.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "work out",
+    "es": "funcionar",
+    "example": "Everything worked out fine.",
+    "example_es": "Todo funcionó bien.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "break into",
+    "es": "entrar en",
+    "example": "The thieves broke into the house.",
+    "example_es": "Los ladrones entraron en la casa.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "bring about",
+    "es": "causar",
+    "example": "His actions brought about change.",
+    "example_es": "Sus acciones causaron cambio.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "carry on",
+    "es": "continuar",
+    "example": "Carry on with your work.",
+    "example_es": "Continúa con tu trabajo.",
+    "note": "colocación frecuente"
+   },
+   {
+    "t": "fall out of",
+    "es": "caer fuera de",
+    "example": "The lights fell out of the chandelier.",
+    "example_es": "Las luces se cayeron del candelabro.",
+    "note": "colocación frecuente"
+   }
+  ]
+ },
+ {
+  "id": "en-linkers",
+  "level": "B2",
+  "title": "Conectores del discurso",
+  "description": "Para estructurar ideas al hablar y escribir con coherencia (clave en C1).",
+  "items": [
+   {
+    "t": "and",
+    "es": "y",
+    "example": "I went to the store, and I bought milk.",
+    "example_es": "Fui a la tienda, y compré leche.",
+    "note": "Uso informal."
+   },
+   {
+    "t": "moreover",
+    "es": "además",
+    "example": "Moreover, the project will cost less than expected.",
+    "example_es": "Además, el proyecto costará menos de lo esperado.",
+    "note": "Formal."
+   },
+   {
+    "t": "furthermore",
+    "es": "además",
+    "example": "The data supports the theory, furthermore, it predicts future trends.",
+    "example_es": "Los datos respaldan la teoría, además, predicen tendencias futuras.",
+    "note": "Formal."
+   },
+   {
+    "t": "in addition",
+    "es": "además",
+    "example": "In addition, we need to review the budget.",
+    "example_es": "Además, necesitamos revisar el presupuesto.",
+    "note": "Formal."
+   },
+   {
+    "t": "besides",
+    "es": "además",
+    "example": "Besides, the team is ready to start.",
+    "example_es": "Además, el equipo está listo para comenzar.",
+    "note": "Informal."
+   },
+   {
+    "t": "also",
+    "es": "también",
+    "example": "Also, she will attend the meeting.",
+    "example_es": "También, ella asistirá a la reunión.",
+    "note": "Informal."
+   },
+   {
+    "t": "plus",
+    "es": "además",
+    "example": "The cost is high, plus the timeline is tight.",
+    "example_es": "El costo es alto, además el plazo es ajustado.",
+    "note": "Informal."
+   },
+   {
+    "t": "as well as",
+    "es": "así como",
+    "example": "We need to hire staff, as well as train them.",
+    "example_es": "Necesitamos contratar personal, así como entrenarlos.",
+    "note": "Formal."
+   },
+   {
+    "t": "not only... but also",
+    "es": "no solo... sino también",
+    "example": "Not only did he win, but also he set a record.",
+    "example_es": "No solo ganó, sino también estableció un récord.",
+    "note": "Formal."
+   },
+   {
+    "t": "in contrast",
+    "es": "en contraste",
+    "example": "In contrast, the southern region is warmer.",
+    "example_es": "En contraste, la región sur es más cálida.",
+    "note": "Formal."
+   },
+   {
+    "t": "however",
+    "es": "sin embargo",
+    "example": "The plan is solid; however, it needs funding.",
+    "example_es": "El plan es sólido; sin embargo, necesita financiamiento.",
+    "note": "Formal."
+   },
+   {
+    "t": "nevertheless",
+    "es": "no obstante",
+    "example": "It was risky, nevertheless, we succeeded.",
+    "example_es": "Fue arriesgado, no obstante, tuvimos éxito.",
+    "note": "Formal."
+   },
+   {
+    "t": "on the other hand",
+    "es": "por otro lado",
+    "example": "She likes coffee; on the other hand, he prefers tea.",
+    "example_es": "Le gusta el café; por otro lado, él prefiere el té.",
+    "note": "Informal."
+   },
+   {
+    "t": "in spite of",
+    "es": "a pesar de",
+    "example": "In spite of the rain, the event continued.",
+    "example_es": "A pesar de la lluvia, el evento continuó.",
+    "note": "Formal."
+   },
+   {
+    "t": "despite",
+    "es": "a pesar de",
+    "example": "Despite the delay, we arrived on time.",
+    "example_es": "A pesar del retraso, llegamos a tiempo.",
+    "note": "Formal."
+   },
+   {
+    "t": "yet",
+    "es": "sin embargo",
+    "example": "The task is hard, yet we can do it.",
+    "example_es": "La tarea es difícil, sin embargo, podemos hacerlo.",
+    "note": "Informal."
+   },
+   {
+    "t": "although",
+    "es": "aunque",
+    "example": "Although it was late, we finished early.",
+    "example_es": "Aunque fue tarde, terminamos temprano.",
+    "note": "Informal."
+   },
+   {
+    "t": "even though",
+    "es": "aunque",
+    "example": "Even though he was tired, he worked.",
+    "example_es": "Aunque estaba cansado, trabajó.",
+    "note": "Informal."
+   },
+   {
+    "t": "whereas",
+    "es": "mientras que",
+    "example": "She likes jazz, whereas he prefers rock.",
+    "example_es": "Le gusta el jazz, mientras que él prefiere el rock.",
+    "note": "Formal."
+   },
+   {
+    "t": "on the contrary",
+    "es": "al contrario",
+    "example": "He said it would be easy, on the contrary, it's hard.",
+    "example_es": "Dijo que sería fácil, al contrario, es difícil.",
+    "note": "Formal."
+   },
+   {
+    "t": "conversely",
+    "es": "conversamente",
+    "example": "The policy increased sales; conversely, it raised costs.",
+    "example_es": "La política aumentó las ventas; conversamente, aumentó los costos.",
+    "note": "Formal."
+   },
+   {
+    "t": "in comparison",
+    "es": "en comparación",
+    "example": "In comparison, the new model is more efficient.",
+    "example_es": "En comparación, el nuevo modelo es más eficiente.",
+    "note": "Formal."
+   },
+   {
+    "t": "in contrast to",
+    "es": "en contraste con",
+    "example": "In contrast to the previous version, this is lighter.",
+    "example_es": "En contraste con la versión anterior, esta es más ligera.",
+    "note": "Formal."
+   },
+   {
+    "t": "because",
+    "es": "porque",
+    "example": "I left early because I had a meeting",
+    "example_es": "Me fui temprano porque tenía una reunión",
+    "note": "uso formal e informal"
+   },
+   {
+    "t": "since",
+    "es": "ya que",
+    "example": "Since it's raining, we should stay inside",
+    "example_es": "Ya que está lloviendo, deberíamos quedarnos dentro",
+    "note": "forma más formal"
+   },
+   {
+    "t": "as",
+    "es": "ya que",
+    "example": "As the deadline approached, we worked overtime",
+    "example_es": "Ya que se acercaba la fecha límite, trabajamos horas extras",
+    "note": "uso informal"
+   },
+   {
+    "t": "due to",
+    "es": "debido a",
+    "example": "The event was canceled due to bad weather",
+    "example_es": "El evento se canceló debido a mal tiempo",
+    "note": "forma formal"
+   },
+   {
+    "t": "owing to",
+    "es": "debido a",
+    "example": "Owing to the traffic, I was late",
+    "example_es": "Debido al tráfico, llegué tarde",
+    "note": "forma formal"
+   },
+   {
+    "t": "because of",
+    "es": "por causa de",
+    "example": "The delay was because of a software bug",
+    "example_es": "El retraso fue por causa de un error de software",
+    "note": "forma informal"
+   },
+   {
+    "t": "in light of",
+    "es": "a la luz de",
+    "example": "In light of recent changes, we need new policies",
+    "example_es": "A la luz de los cambios recientes, necesitamos nuevas políticas",
+    "note": "forma formal"
+   },
+   {
+    "t": "as a result of",
+    "es": "como resultado de",
+    "example": "As a result of the protest, the road was closed",
+    "example_es": "Como resultado de la protesta, se cerró la carretera",
+    "note": "forma formal"
+   },
+   {
+    "t": "consequently",
+    "es": "en consecuencia",
+    "example": "The budget cut, consequently, staff were laid off",
+    "example_es": "El recorte presupuestario, en consecuencia, se despidió al personal",
+    "note": "forma formal"
+   },
+   {
+    "t": "therefore",
+    "es": "por lo tanto",
+    "example": "The data is flawed; therefore, we must redo the study",
+    "example_es": "Los datos están defectuosos; por lo tanto, debemos rehacer el estudio",
+    "note": "forma formal"
+   },
+   {
+    "t": "thus",
+    "es": "así",
+    "example": "Thus, we can conclude the hypothesis is correct",
+    "example_es": "Así, podemos concluir que la hipótesis es correcta",
+    "note": "forma formal"
+   },
+   {
+    "t": "hence",
+    "es": "por eso",
+    "example": "He was ill, hence he missed the meeting",
+    "example_es": "Estaba enfermo, por eso faltó a la reunión",
+    "note": "forma formal"
+   },
+   {
+    "t": "so",
+    "es": "así que",
+    "example": "It was late, so we left early",
+    "example_es": "Estaba tarde, así que nos fuimos temprano",
+    "note": "forma informal"
+   },
+   {
+    "t": "as a consequence",
+    "es": "como consecuencia",
+    "example": "As a consequence, the company lost market share",
+    "example_es": "Como consecuencia, la empresa perdió cuota de mercado",
+    "note": "forma formal"
+   },
+   {
+    "t": "for this reason",
+    "es": "por esta razón",
+    "example": "For this reason, we recommend a new strategy",
+    "example_es": "Por esta razón, recomendamos una nueva estrategia",
+    "note": "forma formal"
+   },
+   {
+    "t": "to this end",
+    "es": "con este fin",
+    "example": "We are training staff to this end",
+    "example_es": "Estamos entrenando al personal con este fin",
+    "note": "forma formal"
+   },
+   {
+    "t": "in order to",
+    "es": "para",
+    "example": "In order to improve efficiency, we hired experts",
+    "example_es": "Para mejorar la eficiencia, contratamos expertos",
+    "note": "forma formal"
+   },
+   {
+    "t": "so as to",
+    "es": "para que",
+    "example": "She left early so as to avoid traffic",
+    "example_es": "Se fue temprano para evitar el tráfico",
+    "note": "forma informal"
+   },
+   {
+    "t": "with the aim of",
+    "es": "con el objetivo de",
+    "example": "With the aim of reducing costs, we cut expenses",
+    "example_es": "Con el objetivo de reducir costos, recortamos gastos",
+    "note": "forma formal"
+   },
+   {
+    "t": "to",
+    "es": "para",
+    "example": "He wrote a letter to ask for help",
+    "example_es": "Escribió una carta para pedir ayuda",
+    "note": "forma informal"
+   },
+   {
+    "t": "so that",
+    "es": "para que",
+    "example": "She studied hard so that she could pass",
+    "example_es": "Estudió mucho para que pudiera aprobar",
+    "note": "forma formal"
+   },
+   {
+    "t": "firstly",
+    "es": "primero",
+    "example": "First, we need to gather data.",
+    "example_es": "Primero, necesitamos recopilar datos.",
+    "note": "formal"
+   },
+   {
+    "t": "next",
+    "es": "después",
+    "example": "Next, we will analyze the results.",
+    "example_es": "Después, analizaremos los resultados.",
+    "note": "neutral"
+   },
+   {
+    "t": "then",
+    "es": "luego",
+    "example": "Then, we will publish the findings.",
+    "example_es": "Luego, publicaremos los hallazgos.",
+    "note": "neutral"
+   },
+   {
+    "t": "afterwards",
+    "es": "después",
+    "example": "Afterwards, we will conduct a follow-up study.",
+    "example_es": "Después, realizaremos un estudio de seguimiento.",
+    "note": "neutral"
+   },
+   {
+    "t": "subsequently",
+    "es": "posteriormente",
+    "example": "Subsequently, we will refine the methodology.",
+    "example_es": "Posteriormente, afinaremos la metodología.",
+    "note": "neutral"
+   },
+   {
+    "t": "finally",
+    "es": "finalmente",
+    "example": "Finally, we will present the conclusions.",
+    "example_es": "Finalmente, presentaremos las conclusiones.",
+    "note": "formal"
+   },
+   {
+    "t": "in the end",
+    "es": "al final",
+    "example": "In the end, the hypothesis was confirmed.",
+    "example_es": "Al final, se confirmó la hipótesis.",
+    "note": "neutral"
+   },
+   {
+    "t": "to illustrate",
+    "es": "para ilustrar",
+    "example": "To illustrate, consider the following example.",
+    "example_es": "Para ilustrar, considera el siguiente ejemplo.",
+    "note": "neutral"
+   },
+   {
+    "t": "for instance",
+    "es": "por ejemplo",
+    "example": "For instance, the sample size was 200.",
+    "example_es": "Por ejemplo, el tamaño de la muestra fue 200.",
+    "note": "neutral"
+   },
+   {
+    "t": "for example",
+    "es": "por ejemplo",
+    "example": "For example, we used a randomized design.",
+    "example_es": "Por ejemplo, usamos un diseño aleatorizado.",
+    "note": "neutral"
+   },
+   {
+    "t": "such as",
+    "es": "como",
+    "example": "We studied several species, such as lions and tigers.",
+    "example_es": "Estudiamos varias especies, como leones y tigres.",
+    "note": "neutral"
+   },
+   {
+    "t": "to sum up",
+    "es": "en resumen",
+    "example": "To sum up, the data supports the theory.",
+    "example_es": "En resumen, los datos apoyan la teoría.",
+    "note": "neutral"
+   },
+   {
+    "t": "in summary",
+    "es": "en resumen",
+    "example": "In summary, the experiment was successful.",
+    "example_es": "En resumen, el experimento fue exitoso.",
+    "note": "neutral"
+   },
+   {
+    "t": "in conclusion",
+    "es": "en conclusión",
+    "example": "In conclusion, further research is needed.",
+    "example_es": "En conclusión, se necesita más investigación.",
+    "note": "formal"
+   },
+   {
+    "t": "to conclude",
+    "es": "para concluir",
+    "example": "To conclude, we recommend policy changes.",
+    "example_es": "Para concluir, recomendamos cambios de política.",
+    "note": "neutral"
+   },
+   {
+    "t": "in short",
+    "es": "en pocas palabras",
+    "example": "In short, the results were significant.",
+    "example_es": "En pocas palabras, los resultados fueron significativos.",
+    "note": "informal"
+   },
+   {
+    "t": "to recap",
+    "es": "para recapitular",
+    "example": "To recap, we found a strong correlation.",
+    "example_es": "Para recapitular, encontramos una fuerte correlación.",
+    "note": "neutral"
+   },
+   {
+    "t": "to reiterate",
+    "es": "para reiterar",
+    "example": "To reiterate, the sample was representative.",
+    "example_es": "Para reiterar, la muestra fue representativa.",
+    "note": "formal"
+   },
+   {
+    "t": "to put it briefly",
+    "es": "en pocas palabras",
+    "example": "To put it briefly, the study succeeded.",
+    "example_es": "En pocas palabras, el estudio tuvo éxito.",
+    "note": "neutral"
+   },
+   {
+    "t": "in brief",
+    "es": "en breve",
+    "example": "In brief, the hypothesis holds.",
+    "example_es": "En breve, la hipótesis se sostiene.",
+    "note": "neutral"
+   },
+   {
+    "t": "to emphasize",
+    "es": "para enfatizar",
+    "example": "To emphasize, the effect was large.",
+    "example_es": "Para enfatizar, el efecto fue grande.",
+    "note": "neutral"
+   },
+   {
+    "t": "to highlight",
+    "es": "para resaltar",
+    "example": "To highlight, the sample size was adequate.",
+    "example_es": "Para resaltar, el tamaño de la muestra fue adecuado.",
+    "note": "neutral"
+   },
+   {
+    "t": "to illustrate further",
+    "es": "para ilustrar más",
+    "example": "To illustrate further, consider the graph.",
+    "example_es": "Para ilustrar más, considera el gráfico.",
+    "note": "neutral"
+   },
+   {
+    "t": "to clarify",
+    "es": "para aclarar",
+    "example": "To clarify, the term 'bias' refers to systematic error.",
+    "example_es": "Para aclarar, el término 'bias' se refiere a error sistemático.",
+    "note": "neutral"
+   },
+   {
+    "t": "to point out",
+    "es": "para señalar",
+    "example": "To point out, the data is incomplete.",
+    "example_es": "Para señalar, los datos están incompletos.",
+    "note": "neutral"
+   },
+   {
+    "t": "to be honest",
+    "es": "para ser honesto",
+    "example": "To be honest, I think we should postpone the meeting.",
+    "example_es": "Para ser honesto, creo que deberíamos posponer la reunión.",
+    "note": "informal"
+   },
+   {
+    "t": "I suppose",
+    "es": "supongo que",
+    "example": "I suppose we might need more data.",
+    "example_es": "Supongo que podríamos necesitar más datos.",
+    "note": "neutral"
+   },
+   {
+    "t": "I guess",
+    "es": "supongo",
+    "example": "I guess it will rain tomorrow.",
+    "example_es": "Supongo que lloverá mañana.",
+    "note": "informal"
+   },
+   {
+    "t": "I think that",
+    "es": "pienso que",
+    "example": "I think that the policy will change soon.",
+    "example_es": "Pienso que la política cambiará pronto.",
+    "note": "neutral"
+   },
+   {
+    "t": "I believe that",
+    "es": "creo que",
+    "example": "I believe that we can improve the system.",
+    "example_es": "Creo que podemos mejorar el sistema.",
+    "note": "neutral"
+   },
+   {
+    "t": "I feel that",
+    "es": "siento que",
+    "example": "I feel that the results are promising.",
+    "example_es": "Siento que los resultados son prometedores.",
+    "note": "neutral"
+   },
+   {
+    "t": "I would say",
+    "es": "diría que",
+    "example": "I would say that the project is on track.",
+    "example_es": "Diría que el proyecto está en marcha.",
+    "note": "neutral"
+   },
+   {
+    "t": "I reckon",
+    "es": "estimo",
+    "example": "I reckon the cost will be lower than expected.",
+    "example_es": "Estimo que el costo será menor de lo esperado.",
+    "note": "informal"
+   },
+   {
+    "t": "It seems to me that",
+    "es": "me parece que",
+    "example": "It seems to me that we should reconsider the deadline.",
+    "example_es": "Me parece que deberíamos reconsiderar el plazo.",
+    "note": "neutral"
+   },
+   {
+    "t": "I suspect that",
+    "es": "sospecho que",
+    "example": "I suspect that the data is incomplete.",
+    "example_es": "Sospecho que los datos están incompletos.",
+    "note": "neutral"
+   },
+   {
+    "t": "I have a feeling that",
+    "es": "tengo la sensación de que",
+    "example": "I have a feeling that the team will accept the proposal.",
+    "example_es": "Tengo la sensación de que el equipo aceptará la propuesta.",
+    "note": "neutral"
+   },
+   {
+    "t": "I think it might be",
+    "es": "creo que podría ser",
+    "example": "I think it might be a good idea to delay the launch.",
+    "example_es": "Creo que podría ser buena idea retrasar el lanzamiento.",
+    "note": "neutral"
+   },
+   {
+    "t": "It appears that",
+    "es": "parece que",
+    "example": "It appears that the results are inconclusive.",
+    "example_es": "Parece que los resultados son inconclusos.",
+    "note": "neutral"
+   },
+   {
+    "t": "I would argue that",
+    "es": "argumentaría que",
+    "example": "I would argue that the evidence is inconclusive.",
+    "example_es": "Argumentaría que la evidencia es inconclusa.",
+    "note": "formal"
+   },
+   {
+    "t": "I would claim that",
+    "es": "afirmaría que",
+    "example": "I would claim that the policy is flawed.",
+    "example_es": "Afirmaría que la política es defectuosa.",
+    "note": "formal"
+   },
+   {
+    "t": "I would posit that",
+    "es": "propondría que",
+    "example": "I would posit that the theory is incomplete.",
+    "example_es": "Propondría que la teoría está incompleta.",
+    "note": "formal"
+   },
+   {
+    "t": "I am inclined to think that",
+    "es": "estoy inclinado a pensar que",
+    "example": "I am inclined to think that the market will recover.",
+    "example_es": "Estoy inclinado a pensar que el mercado se recuperará.",
+    "note": "neutral"
+   },
+   {
+    "t": "I am of the opinion that",
+    "es": "estoy de la opinión de que",
+    "example": "I am of the opinion that the plan is viable.",
+    "example_es": "Estoy de la opinión de que el plan es viable.",
+    "note": "neutral"
+   },
+   {
+    "t": "I am convinced that",
+    "es": "estoy convencido de que",
+    "example": "I am convinced that we should proceed.",
+    "example_es": "Estoy convencido de que debemos proceder.",
+    "note": "neutral"
+   },
+   {
+    "t": "I am persuaded that",
+    "es": "estoy convencido de que",
+    "example": "I am persuaded that the data supports the hypothesis.",
+    "example_es": "Estoy convencido de que los datos respaldan la hipótesis.",
+    "note": "neutral"
+   },
+   {
+    "t": "I am fairly certain that",
+    "es": "estoy bastante seguro de que",
+    "example": "I am fairly certain that the deadline is realistic.",
+    "example_es": "Estoy bastante seguro de que el plazo es realista.",
+    "note": "neutral"
+   },
+   {
+    "t": "I am not entirely sure that",
+    "es": "no estoy totalmente seguro de que",
+    "example": "I am not entirely sure that the proposal is feasible.",
+    "example_es": "No estoy totalmente seguro de que la propuesta sea factible.",
+    "note": "neutral"
+   },
+   {
+    "t": "I am somewhat skeptical about",
+    "es": "soy algo escéptico acerca de",
+    "example": "I am somewhat skeptical about the cost estimates.",
+    "example_es": "Soy algo escéptico acerca de los costos estimados.",
+    "note": "neutral"
+   },
+   {
+    "t": "I am doubtful that",
+    "es": "dudo que",
+    "example": "I am doubtful that the results will hold up.",
+    "example_es": "Dudo que los resultados se mantengan.",
+    "note": "neutral"
+   },
+   {
+    "t": "I am uncertain whether",
+    "es": "estoy incierto si",
+    "example": "I am uncertain whether the plan will succeed.",
+    "example_es": "Estoy incierto si el plan tendrá éxito.",
+    "note": "neutral"
+   }
+  ]
+ },
+ {
+  "id": "en-academic",
+  "level": "C1",
+  "title": "Vocabulario académico y formal",
+  "description": "Palabras de la Academic Word List: noticias, trabajo, estudios, exámenes C1.",
+  "items": [
+   {
+    "t": "acquire",
+    "es": "adquirir",
+    "example": "The company will acquire a new subsidiary next year.",
+    "example_es": "La compañía adquirirá una nueva filial el próximo año.",
+    "note": "formal"
+   },
+   {
+    "t": "allocate",
+    "es": "asignar",
+    "example": "The budget will allocate funds for research.",
+    "example_es": "El presupuesto asignará fondos para la investigación.",
+    "note": "formal"
+   },
+   {
+    "t": "analysis",
+    "es": "análisis",
+    "example": "This analysis shows the trend clearly.",
+    "example_es": "Este análisis muestra la tendencia claramente.",
+    "note": "formal"
+   },
+   {
+    "t": "approach",
+    "es": "enfoque",
+    "example": "Her approach to the problem was innovative.",
+    "example_es": "Su enfoque al problema fue innovador.",
+    "note": "formal"
+   },
+   {
+    "t": "assess",
+    "es": "evaluar",
+    "example": "We need to assess the impact of the policy.",
+    "example_es": "Necesitamos evaluar el impacto de la política.",
+    "note": "formal"
+   },
+   {
+    "t": "assume",
+    "es": "suponer",
+    "example": "Assume that the data is accurate.",
+    "example_es": "Supón que los datos son precisos.",
+    "note": "formal"
+   },
+   {
+    "t": "benefit",
+    "es": "beneficio",
+    "example": "The benefit of this method is its simplicity.",
+    "example_es": "El beneficio de este método es su simplicidad.",
+    "note": "formal"
+   },
+   {
+    "t": "concept",
+    "es": "concepto",
+    "example": "The concept of sustainability is central.",
+    "example_es": "El concepto de sostenibilidad es central.",
+    "note": "formal"
+   },
+   {
+    "t": "conclude",
+    "es": "concluir",
+    "example": "We can conclude that the hypothesis is valid.",
+    "example_es": "Podemos concluir que la hipótesis es válida.",
+    "note": "formal"
+   },
+   {
+    "t": "contribute",
+    "es": "contribuir",
+    "example": "This study contributes to the field of genetics.",
+    "example_es": "Este estudio contribuye al campo de la genética.",
+    "note": "formal"
+   },
+   {
+    "t": "data",
+    "es": "datos",
+    "example": "The data indicate a significant correlation.",
+    "example_es": "Los datos indican una correlación significativa.",
+    "note": "formal"
+   },
+   {
+    "t": "define",
+    "es": "definir",
+    "example": "Define the parameters before starting the experiment.",
+    "example_es": "Define los parámetros antes de comenzar el experimento.",
+    "note": "formal"
+   },
+   {
+    "t": "derive",
+    "es": "derivar",
+    "example": "We can derive conclusions from the evidence.",
+    "example_es": "Podemos derivar conclusiones de la evidencia.",
+    "note": "formal"
+   },
+   {
+    "t": "evidence",
+    "es": "evidencia",
+    "example": "The evidence supports the new theory.",
+    "example_es": "La evidencia respalda la nueva teoría.",
+    "note": "formal"
+   },
+   {
+    "t": "estimate",
+    "es": "estimar",
+    "example": "Estimate the cost before approval.",
+    "example_es": "Estima el costo antes de la aprobación.",
+    "note": "formal"
+   },
+   {
+    "t": "evaluate",
+    "es": "evaluar",
+    "example": "Evaluate the results critically.",
+    "example_es": "Evalúa críticamente los resultados.",
+    "note": "formal"
+   },
+   {
+    "t": "focus",
+    "es": "enfocar",
+    "example": "Focus on the main objectives.",
+    "example_es": "Enfócate en los objetivos principales.",
+    "note": "formal"
+   },
+   {
+    "t": "identify",
+    "es": "identificar",
+    "example": "Identify the key variables first.",
+    "example_es": "Identifica primero las variables clave.",
+    "note": "formal"
+   },
+   {
+    "t": "impact",
+    "es": "impacto",
+    "example": "The impact of climate change is profound.",
+    "example_es": "El impacto del cambio climático es profundo.",
+    "note": "formal"
+   },
+   {
+    "t": "implement",
+    "es": "implementar",
+    "example": "Implement the new protocol immediately.",
+    "example_es": "Implementa el protocolo nuevo inmediatamente.",
+    "note": "formal"
+   },
+   {
+    "t": "indicate",
+    "es": "indicar",
+    "example": "The chart indicates a rising trend.",
+    "example_es": "El gráfico indica una tendencia ascendente.",
+    "note": "formal"
+   },
+   {
+    "t": "interpret",
+    "es": "interpretar",
+    "example": "Interpret the data with caution.",
+    "example_es": "Interpreta los datos con cautela.",
+    "note": "formal"
+   },
+   {
+    "t": "justify",
+    "es": "justificar",
+    "example": "Justify the need for additional funding.",
+    "example_es": "Justifica la necesidad de financiamiento adicional.",
+    "note": "formal"
+   },
+   {
+    "t": "maintain",
+    "es": "mantener",
+    "example": "Maintain the integrity of the sample.",
+    "example_es": "Mantén la integridad de la muestra.",
+    "note": "formal"
+   },
+   {
+    "t": "analyze",
+    "es": "analizar",
+    "example": "The committee will analyze the data before making a decision.",
+    "example_es": "El comité analizará los datos antes de tomar una decisión.",
+    "note": "formal"
+   },
+   {
+    "t": "deduce",
+    "es": "deducir",
+    "example": "From the evidence, we can deduce the cause of the problem.",
+    "example_es": "A partir de la evidencia, podemos deducir la causa del problema.",
+    "note": "formal"
+   },
+   {
+    "t": "determine",
+    "es": "determinar",
+    "example": "The results will determine the next steps.",
+    "example_es": "Los resultados determinarán los próximos pasos.",
+    "note": "formal"
+   },
+   {
+    "t": "discuss",
+    "es": "discutir",
+    "example": "Let's discuss the implications in the next meeting.",
+    "example_es": "Discutamos las implicaciones en la próxima reunión.",
+    "note": "formal"
+   },
+   {
+    "t": "examine",
+    "es": "examinar",
+    "example": "We must examine the data for inconsistencies.",
+    "example_es": "Debemos examinar los datos en busca de inconsistencias.",
+    "note": "formal"
+   },
+   {
+    "t": "explore",
+    "es": "explorar",
+    "example": "They plan to explore new markets next year.",
+    "example_es": "Planean explorar nuevos mercados el próximo año.",
+    "note": "formal"
+   },
+   {
+    "t": "formulate",
+    "es": "formular",
+    "example": "The researchers will formulate a new hypothesis.",
+    "example_es": "Los investigadores formularán una nueva hipótesis.",
+    "note": "formal"
+   },
+   {
+    "t": "investigate",
+    "es": "investigar",
+    "example": "They will investigate the claim thoroughly.",
+    "example_es": "Investigarán la afirmación minuciosamente.",
+    "note": "formal"
+   },
+   {
+    "t": "observe",
+    "es": "observar",
+    "example": "We observed a significant increase in participation.",
+    "example_es": "Observamos un aumento significativo en la participación.",
+    "note": "formal"
+   },
+   {
+    "t": "propose",
+    "es": "proponer",
+    "example": "The committee proposes a new framework for evaluation.",
+    "example_es": "El comité propone un nuevo marco de evaluación.",
+    "note": "formal"
+   },
+   {
+    "t": "reveal",
+    "es": "revelar",
+    "example": "The data revealed unexpected trends.",
+    "example_es": "Los datos revelaron tendencias inesperadas.",
+    "note": "formal"
+   },
+   {
+    "t": "specify",
+    "es": "especificar",
+    "example": "Please specify the parameters of the experiment.",
+    "example_es": "Por favor, especifica los parámetros del experimento.",
+    "note": "formal"
+   },
+   {
+    "t": "support",
+    "es": "apoyar",
+    "example": "The evidence supports the hypothesis strongly.",
+    "example_es": "La evidencia apoya fuertemente la hipótesis.",
+    "note": "formal"
+   },
+   {
+    "t": "sustain",
+    "es": "sostener",
+    "example": "The project will sustain the local economy.",
+    "example_es": "El proyecto sostendrá la economía local.",
+    "note": "formal"
+   },
+   {
+    "t": "validate",
+    "es": "validar",
+    "example": "We need to validate the results before publication.",
+    "example_es": "Necesitamos validar los resultados antes de la publicación.",
+    "note": "formal"
+   },
+   {
+    "t": "verify",
+    "es": "verificar",
+    "example": "The auditor will verify the financial statements.",
+    "example_es": "El auditor verificará los estados financieros.",
+    "note": "formal"
+   },
+   {
+    "t": "conduct",
+    "es": "conducir",
+    "example": "The researcher will conduct a survey among participants.",
+    "example_es": "El investigador conducirá una encuesta entre los participantes.",
+    "note": "formal, técnico"
+   },
+   {
+    "t": "emphasize",
+    "es": "enfatizar",
+    "example": "The author emphasizes the importance of early intervention.",
+    "example_es": "El autor enfatiza la importancia de la intervención temprana.",
+    "note": "formal, académico"
+   },
+   {
+    "t": "exhibit",
+    "es": "exhibir",
+    "example": "The study exhibits a clear trend towards sustainability.",
+    "example_es": "El estudio exhibe una tendencia clara hacia la sostenibilidad.",
+    "note": "formal, académico"
+   },
+   {
+    "t": "highlight",
+    "es": "destacar",
+    "example": "The report highlights key challenges in urban planning.",
+    "example_es": "El informe destaca los principales desafíos en la planificación urbana.",
+    "note": "formal, académico"
+   },
+   {
+    "t": "optimize",
+    "es": "optimizar",
+    "example": "We aim to optimize the algorithm for faster processing.",
+    "example_es": "Nuestro objetivo es optimizar el algoritmo para un procesamiento más rápido.",
+    "note": "formal, técnico"
+   },
+   {
+    "t": "predict",
+    "es": "predecir",
+    "example": "The model predicts a rise in temperatures over the next decade.",
+    "example_es": "El modelo predice un aumento de temperaturas en la próxima década.",
+    "note": "formal, académico"
+   },
+   {
+    "t": "represent",
+    "es": "representar",
+    "example": "The chart represents the distribution of responses.",
+    "example_es": "El gráfico representa la distribución de respuestas.",
+    "note": "formal, técnico"
+   },
+   {
+    "t": "synthesize",
+    "es": "sintetizar",
+    "example": "The team synthesized the data into a comprehensive report.",
+    "example_es": "El equipo sintetizó los datos en un informe comprensible.",
+    "note": "formal, técnico"
+   },
+   {
+    "t": "illustrate",
+    "es": "ilustrar",
+    "example": "The graph illustrates the trend over time.",
+    "example_es": "El gráfico ilustra la tendencia a lo largo del tiempo.",
+    "note": "formal, academic"
+   },
+   {
+    "t": "influence",
+    "es": "influenciar",
+    "example": "Social media influences consumer behavior significantly.",
+    "example_es": "Las redes sociales influyen significativamente en el comportamiento del consumidor.",
+    "note": "formal, academic"
+   },
+   {
+    "t": "summarize",
+    "es": "resumir",
+    "example": "The report summarizes the main findings succinctly.",
+    "example_es": "El informe resume los hallazgos principales de manera sucinta.",
+    "note": "formal, academic"
+   },
+   {
+    "t": "warrant",
+    "es": "justificar",
+    "example": "The results warrant further investigation.",
+    "example_es": "Los resultados justifican una investigación adicional.",
+    "note": "formal, academic"
+   },
+   {
+    "t": "outline",
+    "es": "esbozar",
+    "example": "The paper outlines the main arguments succinctly.",
+    "example_es": "El documento esboza los argumentos principales de manera sucinta.",
+    "note": "formal"
+   },
+   {
+    "t": "refine",
+    "es": "refinar",
+    "example": "The algorithm has been refined to improve accuracy.",
+    "example_es": "El algoritmo ha sido refinado para mejorar la precisión.",
+    "note": "formal"
+   },
+   {
+    "t": "present",
+    "es": "presentar",
+    "example": "The speaker presents the data in a clear manner.",
+    "example_es": "El orador presenta los datos de manera clara.",
+    "note": "formal"
+   }
+  ]
+ },
+ {
+  "id": "en-register",
+  "level": "C1",
+  "title": "Registro: informal ↔ formal",
+  "description": "La misma idea dicha de forma coloquial y formal (escribe 'informal → formal').",
+  "items": [
+   {
+    "t": "get → obtain",
+    "es": "obtener",
+    "example": "I need to get a new phone.",
+    "example_es": "Necesito obtener un teléfono nuevo.",
+    "note": "formal"
+   },
+   {
+    "t": "ask for → request",
+    "es": "solicitar",
+    "example": "Can you ask for a raise?",
+    "example_es": "¿Puedes solicitar un aumento?",
+    "note": "formal"
+   },
+   {
+    "t": "give up → surrender",
+    "es": "rendirse",
+    "example": "She gave up on the project.",
+    "example_es": "Se rindió al proyecto.",
+    "note": "formal"
+   },
+   {
+    "t": "take off → depart",
+    "es": "partir",
+    "example": "The plane will take off soon.",
+    "example_es": "El avión partirá pronto.",
+    "note": "formal"
+   },
+   {
+    "t": "look after → attend to",
+    "es": "cuidar",
+    "example": "Can you look after the kids?",
+    "example_es": "¿Puedes cuidar a los niños?",
+    "note": "formal"
+   },
+   {
+    "t": "make up → compose",
+    "es": "componer",
+    "example": "She made up a song.",
+    "example_es": "Ella compuso una canción.",
+    "note": "formal"
+   },
+   {
+    "t": "drop by → visit",
+    "es": "visitar",
+    "example": "I'll drop by tomorrow.",
+    "example_es": "Visitaré mañana.",
+    "note": "formal"
+   },
+   {
+    "t": "find out → discover",
+    "es": "descubrir",
+    "example": "I need to find out the truth.",
+    "example_es": "Necesito descubrir la verdad.",
+    "note": "formal"
+   },
+   {
+    "t": "take care of → attend",
+    "es": "atender",
+    "example": "Take care of the paperwork.",
+    "example_es": "Atiende la documentación.",
+    "note": "formal"
+   },
+   {
+    "t": "put off → postpone",
+    "es": "posponer",
+    "example": "We put off the meeting.",
+    "example_es": "Pospusimos la reunión.",
+    "note": "formal"
+   },
+   {
+    "t": "turn down → decline",
+    "es": "declinar",
+    "example": "He turned down the offer.",
+    "example_es": "Rechazó la oferta.",
+    "note": "formal"
+   },
+   {
+    "t": "give in → capitulate",
+    "es": "caber",
+    "example": "They finally gave in.",
+    "example_es": "Finalmente cedieron.",
+    "note": "formal"
+   },
+   {
+    "t": "look up → research",
+    "es": "investigar",
+    "example": "Look up the statistics.",
+    "example_es": "Investiga las estadísticas.",
+    "note": "formal"
+   },
+   {
+    "t": "break down → fail",
+    "es": "fallar",
+    "example": "The machine broke down.",
+    "example_es": "La máquina falló.",
+    "note": "formal"
+   },
+   {
+    "t": "take over → assume",
+    "es": "asumir",
+    "example": "She will take over the role.",
+    "example_es": "Asumirá el cargo.",
+    "note": "formal"
+   },
+   {
+    "t": "get rid of → eliminate",
+    "es": "eliminar",
+    "example": "Get rid of the clutter.",
+    "example_es": "Elimina el desorden.",
+    "note": "formal"
+   },
+   {
+    "t": "come up with → devise",
+    "es": "idear",
+    "example": "He came up with a solution.",
+    "example_es": "Ideó una solución.",
+    "note": "formal"
+   },
+   {
+    "t": "make out → decipher",
+    "es": "descifrar",
+    "example": "Can you make out this handwriting?",
+    "example_es": "¿Puedes descifrar esta escritura?",
+    "note": "formal"
+   },
+   {
+    "t": "keep up with → keep pace",
+    "es": "mantener el ritmo",
+    "example": "Keep up with the trend.",
+    "example_es": "Mantén el ritmo.",
+    "note": "formal"
+   },
+   {
+    "t": "go over → review",
+    "es": "revisar",
+    "example": "Let's go over the plan.",
+    "example_es": "Revisemos el plan.",
+    "note": "formal"
+   },
+   {
+    "t": "get together → convene",
+    "es": "convenir",
+    "example": "We need to get together tomorrow.",
+    "example_es": "Necesitamos convenir mañana.",
+    "note": "formal"
+   },
+   {
+    "t": "give away → donate",
+    "es": "donar",
+    "example": "He gave away his old books.",
+    "example_es": "Donó sus libros viejos.",
+    "note": "formal"
+   },
+   {
+    "t": "take up → adopt",
+    "es": "adoptar",
+    "example": "She took up the challenge.",
+    "example_es": "Adoptó el desafío.",
+    "note": "formal"
+   },
+   {
+    "t": "break up → dissolve",
+    "es": "disolver",
+    "example": "The partnership broke up.",
+    "example_es": "La asociación se disolvió.",
+    "note": "formal"
+   },
+   {
+    "t": "turn into → transform",
+    "es": "transformar",
+    "example": "The caterpillar turns into a butterfly.",
+    "example_es": "El oruga se transforma en mariposa.",
+    "note": "formal"
+   },
+   {
+    "t": "Hey, can you send me that file?",
+    "es": "Could you please forward me that file?",
+    "example": "Hey, can you send me that file?",
+    "example_es": "Hola, ¿puedes enviarme ese archivo?",
+    "note": "Uso informal, evita en comunicaciones formales."
+   },
+   {
+    "t": "Got it, thanks!",
+    "es": "Thank you for the information.",
+    "example": "Got it, thanks!",
+    "example_es": "Entendido, gracias!",
+    "note": "No es formal, usa en correos internos."
+   },
+   {
+    "t": "I'll ping you later",
+    "es": "I will contact you at a later time",
+    "example": "I'll ping you later",
+    "example_es": "Te contactaré más tarde",
+    "note": "Ping es coloquial, usa 'contactar'."
+   },
+   {
+    "t": "FYI, the deadline is tomorrow",
+    "es": "For your information, the deadline is tomorrow",
+    "example": "FYI, the deadline is tomorrow",
+    "example_es": "Para su información, la fecha límite es mañana",
+    "note": "FYI es abreviatura informal."
+   },
+   {
+    "t": "Can we reschedule?",
+    "es": "Could we postpone the meeting?",
+    "example": "Can we reschedule?",
+    "example_es": "¿Podemos reprogramar?",
+    "note": "Reschedule es informal."
+   },
+   {
+    "t": "I'm on it",
+    "es": "I am addressing the issue",
+    "example": "I'm on it",
+    "example_es": "Estoy en ello",
+    "note": "Uso informal, evita en correos."
+   },
+   {
+    "t": "Let me know",
+    "es": "Please inform me",
+    "example": "Let me know",
+    "example_es": "Hazme saber",
+    "note": "Informal, evita en contextos formales."
+   },
+   {
+    "t": "Thanks a lot!",
+    "es": "Thank you very much",
+    "example": "Thanks a lot!",
+    "example_es": "¡Muchas gracias!",
+    "note": "Agradecimiento informal."
+   },
+   {
+    "t": "Sorry, I messed up",
+    "es": "I apologize for the error",
+    "example": "Sorry, I messed up",
+    "example_es": "Lo siento, cometí un error",
+    "note": "Messed up es coloquial."
+   },
+   {
+    "t": "No worries",
+    "es": "There is no problem",
+    "example": "No worries",
+    "example_es": "No hay problema",
+    "note": "Uso informal."
+   },
+   {
+    "t": "Could you do me a favor?",
+    "es": "Would you be able to assist me?",
+    "example": "Could you do me a favor?",
+    "example_es": "¿Podrías hacerme un favor?",
+    "note": "Favor es informal."
+   },
+   {
+    "t": "I'm out of the office",
+    "es": "I am currently not in the office",
+    "example": "I'm out of the office",
+    "example_es": "No estoy en la oficina",
+    "note": "Out of the office es informal."
+   },
+   {
+    "t": "Just checking in",
+    "es": "I am following up",
+    "example": "Just checking in",
+    "example_es": "Solo reviso",
+    "note": "Checking in es coloquial."
+   },
+   {
+    "t": "I'll get back to you",
+    "es": "I will respond to you",
+    "example": "I'll get back to you",
+    "example_es": "Te responderé",
+    "note": "Informal, evita en correos."
+   },
+   {
+    "t": "Let me know if you need anything",
+    "es": "Please inform me if you require assistance",
+    "example": "Let me know if you need anything",
+    "example_es": "Hazme saber si necesitas algo",
+    "note": "Uso informal."
+   },
+   {
+    "t": "Thanks for the heads-up",
+    "es": "Thank you for the information",
+    "example": "Thanks for the heads-up",
+    "example_es": "Gracias por la información",
+    "note": "Heads-up es coloquial."
+   },
+   {
+    "t": "I'll keep you posted",
+    "es": "I will keep you informed",
+    "example": "I'll keep you posted",
+    "example_es": "Te mantendré informado",
+    "note": "Informal, evita en contextos formales."
+   },
+   {
+    "t": "Sorry for the delay",
+    "es": "I apologize for the delay",
+    "example": "Sorry for the delay",
+    "example_es": "Lo siento por el retraso",
+    "note": "Delay es informal."
+   },
+   {
+    "t": "Can you double-check?",
+    "es": "Could you verify?",
+    "example": "Can you double-check?",
+    "example_es": "¿Puedes verificar?",
+    "note": "Double-check es coloquial."
+   },
+   {
+    "t": "Gotcha",
+    "es": "I understand",
+    "example": "Gotcha",
+    "example_es": "Entendido",
+    "note": "Gotcha es informal."
+   },
+   {
+    "t": "No problem",
+    "es": "It is not an issue",
+    "example": "No problem",
+    "example_es": "No hay problema",
+    "note": "Uso informal."
+   },
+   {
+    "t": "I'll take care of it",
+    "es": "I will handle it",
+    "example": "I'll take care of it",
+    "example_es": "Me encargaré",
+    "note": "Informal, evita en correos."
+   },
+   {
+    "t": "Just a heads-up",
+    "es": "Just to inform you",
+    "example": "Just a heads-up",
+    "example_es": "Solo para informarte",
+    "note": "Heads-up es coloquial."
+   },
+   {
+    "t": "I'll be back in a minute",
+    "es": "I will return shortly",
+    "example": "I'll be back in a minute",
+    "example_es": "Volveré en un minuto",
+    "note": "Informal, evita en contextos formales."
+   },
+   {
+    "t": "Thanks for the update",
+    "es": "Thank you for the information",
+    "example": "Thanks for the update",
+    "example_es": "Gracias por la actualización",
+    "note": "Update es coloquial."
+   }
+  ]
+ },
+ {
+  "id": "en-tech",
+  "level": "B2",
+  "title": "Inglés técnico para informática",
+  "description": "Vocabulario y frases para trabajar en tecnología: desarrollo, reuniones ágiles, revisiones de código, entrevistas e infraestructura.",
+  "items": [
+   {
+    "t": "debug",
+    "es": "depurar",
+    "example": "I need to debug the code before release.",
+    "example_es": "Necesito depurar el código antes del lanzamiento.",
+    "note": ""
+   },
+   {
+    "t": "refactor",
+    "es": "refactorizar",
+    "example": "Let's refactor this module for clarity.",
+    "example_es": "Vamos a refactorizar este módulo para mayor claridad.",
+    "note": ""
+   },
+   {
+    "t": "commit",
+    "es": "confirmar",
+    "example": "Don't forget to commit your changes.",
+    "example_es": "No olvides confirmar tus cambios.",
+    "note": ""
+   },
+   {
+    "t": "branch",
+    "es": "rama",
+    "example": "Create a new branch for the feature.",
+    "example_es": "Crea una nueva rama para la característica.",
+    "note": ""
+   },
+   {
+    "t": "merge",
+    "es": "fusionar",
+    "example": "Merge the feature branch into main.",
+    "example_es": "Fusiona la rama de la característica con main.",
+    "note": ""
+   },
+   {
+    "t": "pull request",
+    "es": "solicitud de extracción",
+    "example": "Submit a pull request for review.",
+    "example_es": "Envía una solicitud de extracción para revisión.",
+    "note": ""
+   },
+   {
+    "t": "push",
+    "es": "empujar",
+    "example": "Push your local commits to the remote repo.",
+    "example_es": "Empuja tus confirmaciones locales al repositorio remoto.",
+    "note": ""
+   },
+   {
+    "t": "clone",
+    "es": "clonar",
+    "example": "Clone the repository to your machine.",
+    "example_es": "Clona el repositorio en tu máquina.",
+    "note": ""
+   },
+   {
+    "t": "deploy",
+    "es": "desplegar",
+    "example": "Deploy the app to production tonight.",
+    "example_es": "Despliega la aplicación a producción esta noche.",
+    "note": ""
+   },
+   {
+    "t": "rollback",
+    "es": "revertir",
+    "example": "Rollback the last deployment if it fails.",
+    "example_es": "Revertir el último despliegue si falla.",
+    "note": ""
+   },
+   {
+    "t": "CI/CD",
+    "es": "integración continua/entrega continua",
+    "example": "Our CI/CD pipeline automates testing.",
+    "example_es": "Nuestro pipeline CI/CD automatiza las pruebas.",
+    "note": ""
+   },
+   {
+    "t": "unit test",
+    "es": "prueba unitaria",
+    "example": "Write unit tests for each function.",
+    "example_es": "Escribe pruebas unitarias para cada función.",
+    "note": ""
+   },
+   {
+    "t": "integration test",
+    "es": "prueba de integración",
+    "example": "Integration tests ensure modules work together.",
+    "example_es": "Las pruebas de integración aseguran que los módulos funcionen juntos.",
+    "note": ""
+   },
+   {
+    "t": "bug",
+    "es": "error",
+    "example": "We found a critical bug in the login flow.",
+    "example_es": "Encontramos un error crítico en el flujo de inicio de sesión.",
+    "note": ""
+   },
+   {
+    "t": "feature",
+    "es": "característica",
+    "example": "Add a new feature to improve UX.",
+    "example_es": "Agrega una nueva característica para mejorar la UX.",
+    "note": ""
+   },
+   {
+    "t": "API",
+    "es": "interfaz de programación de aplicaciones",
+    "example": "The API returns JSON data.",
+    "example_es": "La API devuelve datos JSON.",
+    "note": ""
+   },
+   {
+    "t": "endpoint",
+    "es": "punto final",
+    "example": "Create an endpoint for user profiles.",
+    "example_es": "Crea un punto final para perfiles de usuario.",
+    "note": ""
+   },
+   {
+    "t": "payload",
+    "es": "carga útil",
+    "example": "The payload includes user credentials.",
+    "example_es": "La carga útil incluye credenciales de usuario.",
+    "note": ""
+   },
+   {
+    "t": "timeout",
+    "es": "tiempo de espera",
+    "example": "The request timed out after 30 seconds.",
+    "example_es": "La solicitud expiró después de 30 segundos.",
+    "note": ""
+   },
+   {
+    "t": "cache",
+    "es": "caché",
+    "example": "Use cache to speed up responses.",
+    "example_es": "Usa caché para acelerar las respuestas.",
+    "note": ""
+   },
+   {
+    "t": "logging",
+    "es": "registro",
+    "example": "Add logging to track errors.",
+    "example_es": "Añade registro para rastrear errores.",
+    "note": ""
+   },
+   {
+    "t": "exception",
+    "es": "excepción",
+    "example": "Handle exceptions gracefully.",
+    "example_es": "Maneja excepciones de forma elegante.",
+    "note": ""
+   },
+   {
+    "t": "framework",
+    "es": "marco de trabajo",
+    "example": "React is a popular frontend framework.",
+    "example_es": "React es un marco de trabajo frontend popular.",
+    "note": ""
+   },
+   {
+    "t": "library",
+    "es": "biblioteca",
+    "example": "Use a library for date manipulation.",
+    "example_es": "Usa una biblioteca para manipular fechas.",
+    "note": ""
+   },
+   {
+    "t": "dependency",
+    "es": "dependencia",
+    "example": "Manage dependencies with npm.",
+    "example_es": "Gestiona dependencias con npm.",
+    "note": ""
+   },
+   {
+    "t": "version control",
+    "es": "control de versiones",
+    "example": "Version control is essential for collaboration.",
+    "example_es": "El control de versiones es esencial para la colaboración.",
+    "note": ""
+   },
+   {
+    "t": "backlog",
+    "es": "lista de tareas",
+    "example": "We need to groom the backlog before sprint planning.",
+    "example_es": "Necesitamos pulir la lista de tareas antes de la planificación de sprint.",
+    "note": "Uso común en Scrum"
+   },
+   {
+    "t": "burn‑up chart",
+    "es": "gráfico de avance",
+    "example": "The burn‑up chart shows completed work.",
+    "example_es": "El gráfico de avance muestra el trabajo completado.",
+    "note": "Gráfico de progreso"
+   },
+   {
+    "t": "burn‑down chart",
+    "es": "gráfico de decremento",
+    "example": "The burn‑down chart helps track sprint velocity.",
+    "example_es": "El gráfico de decremento ayuda a rastrear la velocidad del sprint.",
+    "note": "Gráfico de progreso"
+   },
+   {
+    "t": "capacity",
+    "es": "capacidad",
+    "example": "We estimate capacity for next sprint.",
+    "example_es": "Estimamos la capacidad para el próximo sprint.",
+    "note": "Capacidad de equipo"
+   },
+   {
+    "t": "ceremony",
+    "es": "ceremonia",
+    "example": "The daily stand‑up is a key ceremony.",
+    "example_es": "La reunión diaria es una ceremonia clave.",
+    "note": "Ceremonia de Scrum"
+   },
+   {
+    "t": "commitment",
+    "es": "compromiso",
+    "example": "Team commitment is critical for success.",
+    "example_es": "El compromiso del equipo es crítico para el éxito.",
+    "note": "Compromiso del equipo"
+   },
+   {
+    "t": "definition of done",
+    "es": "definición de hecho",
+    "example": "The definition of done must be clear.",
+    "example_es": "La definición de hecho debe estar clara.",
+    "note": "Definición de hecho"
+   },
+   {
+    "t": "epic",
+    "es": "épico",
+    "example": "This epic spans multiple sprints.",
+    "example_es": "Este épico abarca varios sprints.",
+    "note": "Gran historia"
+   },
+   {
+    "t": "iteration",
+    "es": "iteración",
+    "example": "We review the iteration at the retrospective.",
+    "example_es": "Revisamos la iteración en la retrospectiva.",
+    "note": "Iteración de trabajo"
+   },
+   {
+    "t": "kanban board",
+    "es": "tablero kanban",
+    "example": "The kanban board tracks flow.",
+    "example_es": "El tablero kanban rastrea el flujo.",
+    "note": "Tablero Kanban"
+   },
+   {
+    "t": "minimum viable product",
+    "es": "producto mínimo viable",
+    "example": "We launch the MVP next month.",
+    "example_es": "Lanzamos el MVP el próximo mes.",
+    "note": "MVP"
+   },
+   {
+    "t": "pair programming",
+    "es": "programación en pareja",
+    "example": "Pair programming improves code quality.",
+    "example_es": "La programación en pareja mejora la calidad del código.",
+    "note": "Programación en pareja"
+   },
+   {
+    "t": "product backlog",
+    "es": "backlog del producto",
+    "example": "The product backlog is prioritized daily.",
+    "example_es": "El backlog del producto se prioriza diariamente.",
+    "note": "Backlog del producto"
+   },
+   {
+    "t": "product owner",
+    "es": "propietario del producto",
+    "example": "The product owner clarifies requirements.",
+    "example_es": "El propietario del producto aclara los requisitos.",
+    "note": "Propietario del producto"
+   },
+   {
+    "t": "retrospective",
+    "es": "retrospectiva",
+    "example": "We hold a retrospective every sprint.",
+    "example_es": "Realizamos una retrospectiva cada sprint.",
+    "note": "Reunión de retrospectiva"
+   },
+   {
+    "t": "sprint goal",
+    "es": "objetivo del sprint",
+    "example": "The sprint goal guides the team.",
+    "example_es": "El objetivo del sprint guía al equipo.",
+    "note": "Objetivo del sprint"
+   },
+   {
+    "t": "sprint planning",
+    "es": "planificación de sprint",
+    "example": "Sprint planning starts with backlog grooming.",
+    "example_es": "La planificación de sprint comienza con el pulido del backlog.",
+    "note": "Planificación de sprint"
+   },
+   {
+    "t": "sprint review",
+    "es": "revisión de sprint",
+    "example": "The sprint review demos new features.",
+    "example_es": "La revisión de sprint muestra nuevas funciones.",
+    "note": "Revisión de sprint"
+   },
+   {
+    "t": "story point",
+    "es": "punto de historia",
+    "example": "We estimate tasks in story points.",
+    "example_es": "Estimamos tareas en puntos de historia.",
+    "note": "Punto de historia"
+   },
+   {
+    "t": "velocity",
+    "es": "velocidad",
+    "example": "Velocity helps forecast future sprints.",
+    "example_es": "La velocidad ayuda a pronosticar futuros sprints.",
+    "note": "Velocidad del equipo"
+   },
+   {
+    "t": "velocity chart",
+    "es": "gráfico de velocidad",
+    "example": "The velocity chart tracks progress.",
+    "example_es": "El gráfico de velocidad rastrea el progreso.",
+    "note": "Gráfico de velocidad"
+   },
+   {
+    "t": "work in progress",
+    "es": "trabajo en progreso",
+    "example": "WIP limits reduce bottlenecks.",
+    "example_es": "Los límites de WIP reducen cuellos de botella.",
+    "note": "Trabajo en progreso"
+   },
+   {
+    "t": "daily stand‑up",
+    "es": "reunión diaria",
+    "example": "The daily stand‑up is a quick sync.",
+    "example_es": "La reunión diaria es un sincronismo rápido.",
+    "note": "Reunión diaria"
+   },
+   {
+    "t": "code review",
+    "es": "revisión de código",
+    "example": "I just finished a code review on the new feature.",
+    "example_es": "Acabo de terminar una revisión de código en la nueva funcionalidad.",
+    "note": "formal, usado en equipos de desarrollo."
+   },
+   {
+    "t": "merge conflict",
+    "es": "conflicto de fusión",
+    "example": "We need to resolve the merge conflict before merging.",
+    "example_es": "Necesitamos resolver el conflicto de fusión antes de fusionar.",
+    "note": "formal."
+   },
+   {
+    "t": "linting",
+    "es": "análisis estático",
+    "example": "Run linting to catch syntax errors early.",
+    "example_es": "Ejecuta linting para detectar errores de sintaxis temprano.",
+    "note": "formal."
+   },
+   {
+    "t": "unit tests",
+    "es": "pruebas unitarias",
+    "example": "Add unit tests for the new API endpoint.",
+    "example_es": "Añade pruebas unitarias para el nuevo endpoint de API.",
+    "note": "formal."
+   },
+   {
+    "t": "integration tests",
+    "es": "pruebas de integración",
+    "example": "Integration tests should cover end-to-end flows.",
+    "example_es": "Las pruebas de integración deben cubrir flujos de extremo a extremo.",
+    "note": "formal."
+   },
+   {
+    "t": "CI/CD pipeline",
+    "es": "pipeline CI/CD",
+    "example": "The CI/CD pipeline failed due to a missing dependency.",
+    "example_es": "El pipeline CI/CD falló por una dependencia faltante.",
+    "note": "formal."
+   },
+   {
+    "t": "branch naming",
+    "es": "naming de ramas",
+    "example": "Use a clear branch naming convention like feature/xyz.",
+    "example_es": "Usa una convención clara de nombres de ramas como feature/xyz.",
+    "note": "formal."
+   },
+   {
+    "t": "code coverage",
+    "es": "cobertura de código",
+    "example": "We need 90% code coverage before merging.",
+    "example_es": "Necesitamos 90% de cobertura de código antes de fusionar.",
+    "note": "formal."
+   },
+   {
+    "t": "dead code",
+    "es": "código muerto",
+    "example": "Remove dead code to keep the repo clean.",
+    "example_es": "Elimina código muerto para mantener el repositorio limpio.",
+    "note": "formal."
+   },
+   {
+    "t": "commit message",
+    "es": "mensaje de commit",
+    "example": "Write a concise commit message explaining the change.",
+    "example_es": "Escribe un mensaje de commit conciso explicando el cambio.",
+    "note": "formal."
+   },
+   {
+    "t": "semantic versioning",
+    "es": "versionado semántico",
+    "example": "Follow semantic versioning for releases.",
+    "example_es": "Sigue el versionado semántico para las releases.",
+    "note": "formal."
+   },
+   {
+    "t": "hotfix",
+    "es": "corrección urgente",
+    "example": "Deploy the hotfix immediately to production.",
+    "example_es": "Despliega la corrección urgente inmediatamente a producción.",
+    "note": "formal."
+   },
+   {
+    "t": "sandbox environment",
+    "es": "entorno sandbox",
+    "example": "Test changes in a sandbox environment first.",
+    "example_es": "Prueba los cambios en un entorno sandbox primero.",
+    "note": "formal."
+   },
+   {
+    "t": "code ownership",
+    "es": "propiedad de código",
+    "example": "Assign code ownership for the new module.",
+    "example_es": "Asigna la propiedad de código para el nuevo módulo.",
+    "note": "formal."
+   },
+   {
+    "t": "branch protection",
+    "es": "protección de rama",
+    "example": "Enable branch protection to enforce reviews.",
+    "example_es": "Activa la protección de rama para exigir revisiones.",
+    "note": "formal."
+   },
+   {
+    "t": "code duplication",
+    "es": "duplicación de código",
+    "example": "Avoid code duplication by using helper functions.",
+    "example_es": "Evita duplicación de código usando funciones auxiliares.",
+    "note": "formal."
+   },
+   {
+    "t": "static analysis",
+    "es": "análisis estático",
+    "example": "Static analysis flags potential security issues.",
+    "example_es": "El análisis estático señala posibles problemas de seguridad.",
+    "note": "formal."
+   },
+   {
+    "t": "runtime error",
+    "es": "error en tiempo de ejecución",
+    "example": "The runtime error occurs when null is dereferenced.",
+    "example_es": "El error en tiempo de ejecución ocurre cuando se desreferencia null.",
+    "note": "formal."
+   },
+   {
+    "t": "debugging session",
+    "es": "sesión de depuración",
+    "example": "Start a debugging session to trace the issue.",
+    "example_es": "Inicia una sesión de depuración para rastrear el problema.",
+    "note": "formal."
+   },
+   {
+    "t": "performance bottleneck",
+    "es": "cuello de botella de rendimiento",
+    "example": "Identify performance bottlenecks with profiling tools.",
+    "example_es": "Identifica cuellos de botella de rendimiento con herramientas de profiling.",
+    "note": "formal."
+   },
+   {
+    "t": "code smell",
+    "es": "olor de código",
+    "example": "This function smells of a design flaw.",
+    "example_es": "Esta función tiene olor de un fallo de diseño.",
+    "note": "formal."
+   },
+   {
+    "t": "technical debt",
+    "es": "deuda técnica",
+    "example": "Pay down technical debt before adding features.",
+    "example_es": "Paga la deuda técnica antes de agregar funciones.",
+    "note": "formal."
+   },
+   {
+    "t": "unit test failure",
+    "es": "fallo de prueba unitaria",
+    "example": "The unit test failure indicates a logic error.",
+    "example_es": "El fallo de prueba unitaria indica un error lógico.",
+    "note": "formal."
+   },
+   {
+    "t": "agile",
+    "es": "ágil",
+    "example": "We use agile methodologies to deliver faster.",
+    "example_es": "Usamos metodologías ágiles para entregar más rápido.",
+    "note": "formal"
+   },
+   {
+    "t": "dev‑ops",
+    "es": "dev‑ops",
+    "example": "Dev‑ops bridges development and operations.",
+    "example_es": "Dev‑ops conecta desarrollo y operaciones.",
+    "note": "formal"
+   },
+   {
+    "t": "end‑to‑end testing",
+    "es": "pruebas de extremo a extremo",
+    "example": "End‑to‑end testing ensures user flows work.",
+    "example_es": "Las pruebas de extremo a extremo garantizan que los flujos de usuario funcionen.",
+    "note": "formal"
+   },
+   {
+    "t": "full‑stack",
+    "es": "full‑stack",
+    "example": "I’m a full‑stack developer.",
+    "example_es": "Soy un desarrollador full‑stack.",
+    "note": "formal"
+   },
+   {
+    "t": "git flow",
+    "es": "flujo de git",
+    "example": "Git flow manages feature branches.",
+    "example_es": "Git flow gestiona ramas de características.",
+    "note": "formal"
+   },
+   {
+    "t": "headless CMS",
+    "es": "CMS sin cabeza",
+    "example": "A headless CMS decouples front and back.",
+    "example_es": "Un CMS sin cabeza desacopla front y back.",
+    "note": "formal"
+   },
+   {
+    "t": "microservices",
+    "es": "microsservicios",
+    "example": "Microservices scale independently.",
+    "example_es": "Los microsservicios escalan de forma independiente.",
+    "note": "formal"
+   },
+   {
+    "t": "on‑call",
+    "es": "en guardia",
+    "example": "I’m on‑call every weekend.",
+    "example_es": "Estoy en guardia cada fin de semana.",
+    "note": "formal"
+   },
+   {
+    "t": "REST API",
+    "es": "API REST",
+    "example": "The REST API handles CRUD operations.",
+    "example_es": "La API REST maneja operaciones CRUD.",
+    "note": "formal"
+   },
+   {
+    "t": "SaaS",
+    "es": "software como servicio",
+    "example": "SaaS solutions are subscription‑based.",
+    "example_es": "Las soluciones SaaS son basadas en suscripción.",
+    "note": "formal"
+   },
+   {
+    "t": "scrum",
+    "es": "scrum",
+    "example": "Scrum meetings happen daily.",
+    "example_es": "Las reuniones Scrum ocurren diariamente.",
+    "note": "formal"
+   },
+   {
+    "t": "serverless",
+    "es": "sin servidor",
+    "example": "Serverless architecture reduces overhead.",
+    "example_es": "La arquitectura sin servidor reduce costos.",
+    "note": "formal"
+   },
+   {
+    "t": "staging environment",
+    "es": "entorno de staging",
+    "example": "We test in staging before production.",
+    "example_es": "Probamos en staging antes de producción.",
+    "note": "formal"
+   },
+   {
+    "t": "unit testing",
+    "es": "pruebas unitarias",
+    "example": "Unit testing catches bugs early.",
+    "example_es": "Las pruebas unitarias detectan errores temprano.",
+    "note": "formal"
+   },
+   {
+    "t": "UX/UI",
+    "es": "UX/UI",
+    "example": "UX/UI design improves usability.",
+    "example_es": "El diseño UX/UI mejora la usabilidad.",
+    "note": "formal"
+   },
+   {
+    "t": "wireframe",
+    "es": "wireframe",
+    "example": "Wireframes outline layout.",
+    "example_es": "Los wireframes describen el diseño.",
+    "note": "formal"
+   },
+   {
+    "t": "zero‑downtime deployment",
+    "es": "despliegue sin tiempo de inactividad",
+    "example": "We aim for zero‑downtime deployment.",
+    "example_es": "Buscamos despliegue sin tiempo de inactividad.",
+    "note": "formal"
+   },
+   {
+    "t": "salary negotiation",
+    "es": "negociación salarial",
+    "example": "I’m open to salary negotiation.",
+    "example_es": "Estoy abierto a la negociación salarial.",
+    "note": "formal"
+   },
+   {
+    "t": "cloud",
+    "es": "nube",
+    "example": "We migrated the app to the cloud.",
+    "example_es": "Migramos la aplicación a la nube.",
+    "note": "uso común"
+   },
+   {
+    "t": "DevOps",
+    "es": "DevOps",
+    "example": "DevOps bridges development and operations.",
+    "example_es": "DevOps conecta desarrollo y operaciones.",
+    "note": "término técnico"
+   },
+   {
+    "t": "infrastructure",
+    "es": "infraestructura",
+    "example": "Infrastructure needs scaling.",
+    "example_es": "La infraestructura necesita escalado.",
+    "note": "uso común"
+   },
+   {
+    "t": "incident",
+    "es": "incidente",
+    "example": "The incident was logged in Jira.",
+    "example_es": "El incidente se registró en Jira.",
+    "note": "uso común"
+   },
+   {
+    "t": "microservice",
+    "es": "microservicio",
+    "example": "Microservices improve modularity.",
+    "example_es": "Los microservicios mejoran la modularidad.",
+    "note": "uso común"
+   },
+   {
+    "t": "container",
+    "es": "contenedor",
+    "example": "Docker containers isolate apps.",
+    "example_es": "Los contenedores Docker aíslan aplicaciones.",
+    "note": "término técnico"
+   },
+   {
+    "t": "orchestration",
+    "es": "orquestación",
+    "example": "Kubernetes handles orchestration.",
+    "example_es": "Kubernetes gestiona la orquestación.",
+    "note": "término técnico"
+   },
+   {
+    "t": "load balancer",
+    "es": "balanceador de carga",
+    "example": "The load balancer distributes traffic.",
+    "example_es": "El balanceador de carga distribuye tráfico.",
+    "note": "uso común"
+   },
+   {
+    "t": "autoscaling",
+    "es": "autoscaling",
+    "example": "Autoscaling adjusts resources automatically.",
+    "example_es": "El autoscaling ajusta recursos automáticamente.",
+    "note": "término técnico"
+   },
+   {
+    "t": "blue-green deployment",
+    "es": "despliegue azul-verde",
+    "example": "Blue-green deployment reduces downtime.",
+    "example_es": "El despliegue azul-verde reduce el tiempo de inactividad.",
+    "note": "término técnico"
+   },
+   {
+    "t": "canary release",
+    "es": "lanzamiento canario",
+    "example": "Canary releases test new features.",
+    "example_es": "Los lanzamientos canarios prueban nuevas funciones.",
+    "note": "término técnico"
+   },
+   {
+    "t": "immutable infrastructure",
+    "es": "infraestructura inmutable",
+    "example": "Immutable infrastructure prevents drift.",
+    "example_es": "La infraestructura inmutable previene desviaciones.",
+    "note": "término técnico"
+   },
+   {
+    "t": "stateful",
+    "es": "estado persistente",
+    "example": "Stateful services maintain data.",
+    "example_es": "Los servicios stateful mantienen datos.",
+    "note": "uso común"
+   },
+   {
+    "t": "stateless",
+    "es": "sin estado",
+    "example": "Stateless services scale easily.",
+    "example_es": "Los servicios stateless escalan fácilmente.",
+    "note": "uso común"
+   },
+   {
+    "t": "API gateway",
+    "es": "pasarela de API",
+    "example": "The API gateway handles routing.",
+    "example_es": "La pasarela de API maneja el enrutamiento.",
+    "note": "término técnico"
+   },
+   {
+    "t": "service mesh",
+    "es": "malla de servicios",
+    "example": "Istio is a service mesh.",
+    "example_es": "Istio es una malla de servicios.",
+    "note": "término técnico"
+   },
+   {
+    "t": "observability",
+    "es": "observabilidad",
+    "example": "Observability includes metrics, logs, traces.",
+    "example_es": "La observabilidad incluye métricas, logs, trazas.",
+    "note": "término técnico"
+   },
+   {
+    "t": "monitoring",
+    "es": "monitoreo",
+    "example": "Monitoring alerts on failures.",
+    "example_es": "El monitoreo alerta sobre fallos.",
+    "note": "uso común"
+   },
+   {
+    "t": "alerting",
+    "es": "alertas",
+    "example": "Alerting ensures rapid response.",
+    "example_es": "Las alertas aseguran respuesta rápida.",
+    "note": "uso común"
+   },
+   {
+    "t": "log aggregation",
+    "es": "agregación de logs",
+    "example": "ELK stack aggregates logs.",
+    "example_es": "El stack ELK agrega logs.",
+    "note": "término técnico"
+   },
+   {
+    "t": "incident response",
+    "es": "respuesta a incidentes",
+    "example": "Incident response plans are crucial.",
+    "example_es": "Los planes de respuesta a incidentes son cruciales.",
+    "note": "uso común"
+   },
+   {
+    "t": "postmortem",
+    "es": "postmortem",
+    "example": "Postmortem reviews prevent repeats.",
+    "example_es": "Las revisiones postmortem previenen repeticiones.",
+    "note": "uso común"
+   },
+   {
+    "t": "root cause analysis",
+    "es": "análisis de causa raíz",
+    "example": "Root cause analysis identifies issues.",
+    "example_es": "El análisis de causa raíz identifica problemas.",
+    "note": "uso común"
+   },
+   {
+    "t": "SLA",
+    "es": "acuerdo de nivel de servicio",
+    "example": "SLA guarantees uptime.",
+    "example_es": "El SLA garantiza tiempo de actividad.",
+    "note": "término técnico"
+   },
+   {
+    "t": "crash",
+    "es": "colapso",
+    "example": "The program crashed after the update.",
+    "example_es": "El programa se colapsó después de la actualización.",
+    "note": "colloquial"
+   },
+   {
+    "t": "lag",
+    "es": "latencia",
+    "example": "There's a lag when loading the dashboard.",
+    "example_es": "Hay una latencia al cargar el panel.",
+    "note": "colloquial"
+   },
+   {
+    "t": "freeze",
+    "es": "congelación",
+    "example": "The screen froze during the video playback.",
+    "example_es": "La pantalla se congeló durante la reproducción del video.",
+    "note": "colloquial"
+   },
+   {
+    "t": "issue",
+    "es": "problema",
+    "example": "We need to address the issue with the login feature.",
+    "example_es": "Necesitamos abordar el problema con la función de inicio de sesión.",
+    "note": "neutral"
+   },
+   {
+    "t": "error message",
+    "es": "mensaje de error",
+    "example": "The error message says 'Invalid credentials'.",
+    "example_es": "El mensaje de error dice 'Credenciales inválidas'.",
+    "note": "formal"
+   },
+   {
+    "t": "patch",
+    "es": "parche",
+    "example": "We released a patch to fix the security flaw.",
+    "example_es": "Lanzamos un parche para corregir la falla de seguridad.",
+    "note": "neutral"
+   },
+   {
+    "t": "build",
+    "es": "compilación",
+    "example": "The build failed due to missing dependencies.",
+    "example_es": "La compilación falló por dependencias faltantes.",
+    "note": "neutral"
+   },
+   {
+    "t": "release",
+    "es": "lanzamiento",
+    "example": "The release is scheduled for next Friday.",
+    "example_es": "El lanzamiento está programado para el próximo viernes.",
+    "note": "neutral"
+   },
+   {
+    "t": "log",
+    "es": "registro",
+    "example": "Check the log for error details.",
+    "example_es": "Revisa el registro para los detalles del error.",
+    "note": "neutral"
+   },
+   {
+    "t": "stack trace",
+    "es": "rastro de pila",
+    "example": "The stack trace points to line 42.",
+    "example_es": "El rastro de pila apunta a la línea 42.",
+    "note": "neutral"
+   },
+   {
+    "t": "payload size",
+    "es": "tamaño de carga",
+    "example": "The payload size exceeds the limit.",
+    "example_es": "El tamaño de la carga excede el límite.",
+    "note": "neutral"
+   },
+   {
+    "t": "latency",
+    "es": "latencia",
+    "example": "We need to reduce latency by 20%.",
+    "example_es": "Necesitamos reducir la latencia en un 20%.",
+    "note": "neutral"
+   },
+   {
+    "t": "throughput",
+    "es": "rendimiento",
+    "example": "Throughput increased after optimization.",
+    "example_es": "El rendimiento aumentó después de la optimización.",
+    "note": "neutral"
+   },
+   {
+    "t": "scalability",
+    "es": "escalabilidad",
+    "example": "Scalability is a key concern for the new system.",
+    "example_es": "La escalabilidad es una preocupación clave para el nuevo sistema.",
+    "note": "neutral"
+   },
+   {
+    "t": "performance",
+    "es": "rendimiento",
+    "example": "Performance drops during peak hours.",
+    "example_es": "El rendimiento cae durante las horas pico.",
+    "note": "neutral"
+   },
+   {
+    "t": "downtime",
+    "es": "tiempo de inactividad",
+    "example": "The downtime was longer than expected.",
+    "example_es": "El tiempo de inactividad fue más largo de lo esperado.",
+    "note": "neutral"
    }
   ]
  }

@@ -11,21 +11,50 @@
           "title": "La Bäckerei",
           "location": "Panadería de barrio en Kreuzberg",
           "briefing": "Primera mañana en Berlín. Pide dos Brötchen y un café para llevar, pregunta el precio y paga. Ojo: muchos sitios solo aceptan efectivo.",
-          "character": {"name": "Frau Schulz", "role": "baker in Berlin", "personality": "typical Berlin directness (Berliner Schnauze): brusque but not unfriendly, short sentences", "voice": "de-DE-KatjaNeural"},
+          "character": {
+            "name": "Frau Schulz",
+            "role": "baker in Berlin",
+            "personality": "typical Berlin directness (Berliner Schnauze): brusque but not unfriendly, short sentences",
+            "voice": "de-DE-KatjaNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Saluda y pide lo que quieres"},
-            {"id": "o2", "text": "Di que el café es para llevar"},
-            {"id": "o3", "text": "Pregunta cuánto es"},
-            {"id": "o4", "text": "Paga y despídete"}
+            {
+              "id": "o1",
+              "text": "Saluda y pide lo que quieres"
+            },
+            {
+              "id": "o2",
+              "text": "Di que el café es para llevar"
+            },
+            {
+              "id": "o3",
+              "text": "Pregunta cuánto es"
+            },
+            {
+              "id": "o4",
+              "text": "Paga y despídete"
+            }
           ],
           "secret": "Brötchen 0,60 € each, Kaffee 2,50 €. Total 3,70 €. Card payment only above 10 € ('Kartenzahlung erst ab zehn Euro'). Ask 'Zum Mitnehmen oder hier essen?'",
           "complication": "Say card payment is only possible from 10 euros.",
           "opening": "Morgen! Was darf's sein?",
           "useful_phrases": [
-            {"t": "Guten Morgen! Zwei Brötchen, bitte.", "es": "¡Buenos días! Dos panecillos, por favor."},
-            {"t": "Und einen Kaffee zum Mitnehmen.", "es": "Y un café para llevar."},
-            {"t": "Was macht das?", "es": "¿Cuánto es?"},
-            {"t": "Schönen Tag noch!", "es": "¡Que tenga un buen día!"}
+            {
+              "t": "Guten Morgen! Zwei Brötchen, bitte.",
+              "es": "¡Buenos días! Dos panecillos, por favor."
+            },
+            {
+              "t": "Und einen Kaffee zum Mitnehmen.",
+              "es": "Y un café para llevar."
+            },
+            {
+              "t": "Was macht das?",
+              "es": "¿Cuánto es?"
+            },
+            {
+              "t": "Schönen Tag noch!",
+              "es": "¡Que tenga un buen día!"
+            }
           ],
           "max_turns": 12
         },
@@ -35,21 +64,50 @@
           "title": "El casting de la WG",
           "location": "Piso compartido (WG) en Neukölln — entrevista con los compañeros",
           "briefing": "Encontrar piso en Berlín es durísimo. En las WG (pisos compartidos) te hacen una 'entrevista'. Preséntate, cuenta a qué te dedicas y tus hábitos, y averigua el precio y cuándo está libre la habitación.",
-          "character": {"name": "Jonas", "role": "flatmate interviewing candidates for a room", "personality": "relaxed, eco-conscious, cares about cleaning schedules and quiet hours, uses 'du'", "voice": "de-DE-KillianNeural"},
+          "character": {
+            "name": "Jonas",
+            "role": "flatmate interviewing candidates for a room",
+            "personality": "relaxed, eco-conscious, cares about cleaning schedules and quiet hours, uses 'du'",
+            "voice": "de-DE-KillianNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Preséntate: nombre, origen y trabajo"},
-            {"id": "o2", "text": "Habla de tus hábitos y aficiones"},
-            {"id": "o3", "text": "Pregunta el precio (Warmmiete) de la habitación"},
-            {"id": "o4", "text": "Averigua desde cuándo está libre"}
+            {
+              "id": "o1",
+              "text": "Preséntate: nombre, origen y trabajo"
+            },
+            {
+              "id": "o2",
+              "text": "Habla de tus hábitos y aficiones"
+            },
+            {
+              "id": "o3",
+              "text": "Pregunta el precio (Warmmiete) de la habitación"
+            },
+            {
+              "id": "o4",
+              "text": "Averigua desde cuándo está libre"
+            }
           ],
           "secret": "Room 18 m², 550 € warm (incl. heating and internet), free from the 1st of next month. The WG has a cleaning plan (Putzplan) and quiet hours after 22h. You worry the learner works too much and won't participate in WG life.",
           "complication": "Ask if they would join the weekly WG dinner on Sundays.",
           "opening": "Hi, komm rein! Schön, dass du da bist. Erzähl mal ein bisschen über dich!",
           "useful_phrases": [
-            {"t": "Ich heiße... und komme aus Chile.", "es": "Me llamo... y vengo de Chile."},
-            {"t": "Ich arbeite als Softwareentwickler.", "es": "Trabajo como desarrollador de software."},
-            {"t": "Wie hoch ist die Warmmiete?", "es": "¿Cuánto es el alquiler con gastos?"},
-            {"t": "Ab wann ist das Zimmer frei?", "es": "¿Desde cuándo está libre la habitación?"}
+            {
+              "t": "Ich heiße... und komme aus Chile.",
+              "es": "Me llamo... y vengo de Chile."
+            },
+            {
+              "t": "Ich arbeite als Softwareentwickler.",
+              "es": "Trabajo como desarrollador de software."
+            },
+            {
+              "t": "Wie hoch ist die Warmmiete?",
+              "es": "¿Cuánto es el alquiler con gastos?"
+            },
+            {
+              "t": "Ab wann ist das Zimmer frei?",
+              "es": "¿Desde cuándo está libre la habitación?"
+            }
           ],
           "max_turns": 14
         },
@@ -59,21 +117,50 @@
           "title": "El Bürgeramt (empadronamiento)",
           "location": "Bürgeramt — oficina de registro de la ciudad",
           "briefing": "Debes registrar tu domicilio (Anmeldung) en 14 días; sin ella no tienes cuenta bancaria ni número de impuestos. Entrega tus papeles. Cuidado: te falta un documento.",
-          "character": {"name": "Herr Becker", "role": "civil servant at the Bürgeramt", "personality": "formal, strict about rules, uses 'Sie', not unfriendly but zero flexibility", "voice": "de-DE-ConradNeural"},
+          "character": {
+            "name": "Herr Becker",
+            "role": "civil servant at the Bürgeramt",
+            "personality": "formal, strict about rules, uses 'Sie', not unfriendly but zero flexibility",
+            "voice": "de-DE-ConradNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Explica que quieres registrar tu domicilio"},
-            {"id": "o2", "text": "Entrega tus documentos"},
-            {"id": "o3", "text": "Entiende qué documento falta"},
-            {"id": "o4", "text": "Averigua cómo conseguirlo y si puedes volver sin cita"}
+            {
+              "id": "o1",
+              "text": "Explica que quieres registrar tu domicilio"
+            },
+            {
+              "id": "o2",
+              "text": "Entrega tus documentos"
+            },
+            {
+              "id": "o3",
+              "text": "Entiende qué documento falta"
+            },
+            {
+              "id": "o4",
+              "text": "Averigua cómo conseguirlo y si puedes volver sin cita"
+            }
           ],
           "secret": "Required: passport, registration form (Anmeldeformular) and Wohnungsgeberbestätigung (confirmation signed by the landlord). The learner is missing the Wohnungsgeberbestätigung. They must ask the landlord/main tenant to sign it. They need a new appointment (Termin) online; no walk-ins.",
           "complication": "The learner is missing the Wohnungsgeberbestätigung.",
           "opening": "Guten Tag. Ihre Wartenummer, bitte. Was kann ich für Sie tun?",
           "useful_phrases": [
-            {"t": "Ich möchte meinen Wohnsitz anmelden.", "es": "Quiero registrar mi domicilio."},
-            {"t": "Hier sind mein Pass und das Formular.", "es": "Aquí están mi pasaporte y el formulario."},
-            {"t": "Was fehlt denn noch?", "es": "¿Qué falta todavía?"},
-            {"t": "Brauche ich einen neuen Termin?", "es": "¿Necesito una nueva cita?"}
+            {
+              "t": "Ich möchte meinen Wohnsitz anmelden.",
+              "es": "Quiero registrar mi domicilio."
+            },
+            {
+              "t": "Hier sind mein Pass und das Formular.",
+              "es": "Aquí están mi pasaporte y el formulario."
+            },
+            {
+              "t": "Was fehlt denn noch?",
+              "es": "¿Qué falta todavía?"
+            },
+            {
+              "t": "Brauche ich einen neuen Termin?",
+              "es": "¿Necesito una nueva cita?"
+            }
           ],
           "max_turns": 14
         },
@@ -83,21 +170,50 @@
           "title": "El Daily Stand-up",
           "location": "Reunión diaria del equipo de desarrollo",
           "briefing": "Tu equipo hace el stand-up en alemán. Cuenta qué hiciste ayer, qué harás hoy y tu bloqueo: el entorno de pruebas (Staging) no funciona.",
-          "character": {"name": "Lena", "role": "Scrum Master running the stand-up", "personality": "structured, punctual, friendly, uses 'du' with colleagues", "voice": "de-DE-AmalaNeural"},
+          "character": {
+            "name": "Lena",
+            "role": "Scrum Master running the stand-up",
+            "personality": "structured, punctual, friendly, uses 'du' with colleagues",
+            "voice": "de-DE-AmalaNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Di qué hiciste ayer"},
-            {"id": "o2", "text": "Di qué harás hoy"},
-            {"id": "o3", "text": "Explica tu bloqueo (Staging caído)"},
-            {"id": "o4", "text": "Acuerda con quién lo resuelves después"}
+            {
+              "id": "o1",
+              "text": "Di qué hiciste ayer"
+            },
+            {
+              "id": "o2",
+              "text": "Di qué harás hoy"
+            },
+            {
+              "id": "o3",
+              "text": "Explica tu bloqueo (Staging caído)"
+            },
+            {
+              "id": "o4",
+              "text": "Acuerda con quién lo resuelves después"
+            }
           ],
           "secret": "Staging has been down since yesterday evening; Tobias from the platform team knows about it. Propose a short call with Tobias after the stand-up at 10:30. Ask for a rough estimate of when the learner's ticket will be done.",
           "complication": "Ask how many story points the learner's ticket has left.",
           "opening": "Guten Morgen zusammen! Fangen wir an. Magst du anfangen? Was hast du gestern gemacht?",
           "useful_phrases": [
-            {"t": "Gestern habe ich am Login-Feature gearbeitet.", "es": "Ayer trabajé en la funcionalidad de login."},
-            {"t": "Heute mache ich die Code-Reviews.", "es": "Hoy hago las revisiones de código."},
-            {"t": "Ich bin blockiert, weil Staging nicht funktioniert.", "es": "Estoy bloqueado porque Staging no funciona."},
-            {"t": "Mit wem kann ich das klären?", "es": "¿Con quién puedo aclararlo?"}
+            {
+              "t": "Gestern habe ich am Login-Feature gearbeitet.",
+              "es": "Ayer trabajé en la funcionalidad de login."
+            },
+            {
+              "t": "Heute mache ich die Code-Reviews.",
+              "es": "Hoy hago las revisiones de código."
+            },
+            {
+              "t": "Ich bin blockiert, weil Staging nicht funktioniert.",
+              "es": "Estoy bloqueado porque Staging no funciona."
+            },
+            {
+              "t": "Mit wem kann ich das klären?",
+              "es": "¿Con quién puedo aclararlo?"
+            }
           ],
           "max_turns": 14
         },
@@ -107,21 +223,50 @@
           "title": "Cita con el médico",
           "location": "Llamada telefónica a una consulta (Arztpraxis)",
           "briefing": "Tienes fiebre y dolor de garganta desde hace tres días. Pide cita lo antes posible, explica tus síntomas y averigua qué necesitas llevar (tarjeta del seguro médico).",
-          "character": {"name": "Frau Wagner", "role": "medical receptionist on the phone", "personality": "busy, speaks quickly, asks for insurance details, formal 'Sie'", "voice": "de-AT-IngridNeural"},
+          "character": {
+            "name": "Frau Wagner",
+            "role": "medical receptionist on the phone",
+            "personality": "busy, speaks quickly, asks for insurance details, formal 'Sie'",
+            "voice": "de-AT-IngridNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Pide una cita y explica tus síntomas"},
-            {"id": "o2", "text": "Di desde cuándo los tienes"},
-            {"id": "o3", "text": "Acepta una hora que te venga bien"},
-            {"id": "o4", "text": "Averigua qué tienes que llevar"}
+            {
+              "id": "o1",
+              "text": "Pide una cita y explica tus síntomas"
+            },
+            {
+              "id": "o2",
+              "text": "Di desde cuándo los tienes"
+            },
+            {
+              "id": "o3",
+              "text": "Acepta una hora que te venga bien"
+            },
+            {
+              "id": "o4",
+              "text": "Averigua qué tienes que llevar"
+            }
           ],
           "secret": "Available: today 17:30 (open consultation, waiting likely) or tomorrow 8:15. Ask if they are 'gesetzlich' (public) or 'privat' insured: bring the Versichertenkarte. If they need a sick note (Krankschreibung) for work, the doctor can issue it.",
           "complication": "Ask whether they are publicly or privately insured.",
           "opening": "Praxis Dr. Hoffmann, Wagner am Apparat, guten Tag.",
           "useful_phrases": [
-            {"t": "Ich hätte gern einen Termin, so schnell wie möglich.", "es": "Quisiera una cita lo antes posible."},
-            {"t": "Ich habe seit drei Tagen Fieber und Halsschmerzen.", "es": "Tengo fiebre y dolor de garganta desde hace tres días."},
-            {"t": "Ich bin gesetzlich versichert.", "es": "Tengo seguro médico público."},
-            {"t": "Brauche ich eine Krankschreibung?", "es": "¿Necesito una baja médica?"}
+            {
+              "t": "Ich hätte gern einen Termin, so schnell wie möglich.",
+              "es": "Quisiera una cita lo antes posible."
+            },
+            {
+              "t": "Ich habe seit drei Tagen Fieber und Halsschmerzen.",
+              "es": "Tengo fiebre y dolor de garganta desde hace tres días."
+            },
+            {
+              "t": "Ich bin gesetzlich versichert.",
+              "es": "Tengo seguro médico público."
+            },
+            {
+              "t": "Brauche ich eine Krankschreibung?",
+              "es": "¿Necesito una baja médica?"
+            }
           ],
           "max_turns": 14
         },
@@ -131,21 +276,50 @@
           "title": "Revisión de código",
           "location": "Revisión de código en pareja con un desarrollador sénior",
           "briefing": "Un compañero sénior revisa tu Pull Request y no está convencido. Explica tu solución (añadiste caché para la API), responde a sus objeciones y acuerda los cambios.",
-          "character": {"name": "Tobias", "role": "senior backend developer doing a code review", "personality": "very thorough, direct German feedback style, values tests and clean code, not rude", "voice": "de-DE-ConradNeural"},
+          "character": {
+            "name": "Tobias",
+            "role": "senior backend developer doing a code review",
+            "personality": "very thorough, direct German feedback style, values tests and clean code, not rude",
+            "voice": "de-DE-ConradNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Explica qué hace tu cambio y por qué"},
-            {"id": "o2", "text": "Responde a la crítica sobre los tests"},
-            {"id": "o3", "text": "Defiende o acepta una sugerencia con argumentos"},
-            {"id": "o4", "text": "Acuerda los próximos pasos"}
+            {
+              "id": "o1",
+              "text": "Explica qué hace tu cambio y por qué"
+            },
+            {
+              "id": "o2",
+              "text": "Responde a la crítica sobre los tests"
+            },
+            {
+              "id": "o3",
+              "text": "Defiende o acepta una sugerencia con argumentos"
+            },
+            {
+              "id": "o4",
+              "text": "Acuerda los próximos pasos"
+            }
           ],
           "secret": "Concerns: no unit tests for the cache, cache invalidation is unclear (what happens if data changes?), magic number 300 for TTL should be a config value. You accept the approach if the learner explains invalidation and agrees to add tests.",
           "complication": "Say directly: 'Ehrlich gesagt finde ich die Lösung zu kompliziert.'",
           "opening": "So, ich habe mir deinen Pull Request angeschaut. Kannst du mir kurz erklären, was du gemacht hast?",
           "useful_phrases": [
-            {"t": "Ich habe einen Cache für die API eingebaut, weil sie zu langsam war.", "es": "Añadí una caché para la API porque era demasiado lenta."},
-            {"t": "Da hast du recht, ich schreibe noch Tests.", "es": "Tienes razón, todavía escribo tests."},
-            {"t": "Ich sehe das ein bisschen anders, weil...", "es": "Lo veo un poco distinto, porque..."},
-            {"t": "Dann passe ich das an und melde mich.", "es": "Entonces lo ajusto y te aviso."}
+            {
+              "t": "Ich habe einen Cache für die API eingebaut, weil sie zu langsam war.",
+              "es": "Añadí una caché para la API porque era demasiado lenta."
+            },
+            {
+              "t": "Da hast du recht, ich schreibe noch Tests.",
+              "es": "Tienes razón, todavía escribo tests."
+            },
+            {
+              "t": "Ich sehe das ein bisschen anders, weil...",
+              "es": "Lo veo un poco distinto, porque..."
+            },
+            {
+              "t": "Dann passe ich das an und melde mich.",
+              "es": "Entonces lo ajusto y te aviso."
+            }
           ],
           "max_turns": 16
         },
@@ -155,21 +329,50 @@
           "title": "La oficina de extranjería",
           "location": "Ausländerbehörde — cita para la Tarjeta Azul",
           "briefing": "Cita en la oficina de extranjería para tu Tarjeta Azul (Blaue Karte EU). El funcionario revisa tu contrato y tu salario. Responde con precisión y aclara una duda sobre tu título universitario.",
-          "character": {"name": "Frau Krüger", "role": "officer at the immigration office (Ausländerbehörde)", "personality": "formal, precise, uses bureaucratic language, polite but demanding", "voice": "de-DE-SeraphinaMultilingualNeural"},
+          "character": {
+            "name": "Frau Krüger",
+            "role": "officer at the immigration office (Ausländerbehörde)",
+            "personality": "formal, precise, uses bureaucratic language, polite but demanding",
+            "voice": "de-DE-SeraphinaMultilingualNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Explica el motivo de la cita"},
-            {"id": "o2", "text": "Responde sobre tu contrato y tu salario"},
-            {"id": "o3", "text": "Aclara la duda sobre tu título (reconocimiento)"},
-            {"id": "o4", "text": "Averigua los plazos y los próximos pasos"}
+            {
+              "id": "o1",
+              "text": "Explica el motivo de la cita"
+            },
+            {
+              "id": "o2",
+              "text": "Responde sobre tu contrato y tu salario"
+            },
+            {
+              "id": "o3",
+              "text": "Aclara la duda sobre tu título (reconocimiento)"
+            },
+            {
+              "id": "o4",
+              "text": "Averigua los plazos y los próximos pasos"
+            }
           ],
           "secret": "Ask about: employer, start date, gross annual salary (the learner earns 62.000 € brutto), whether the degree is recognised (anabin database / Zeugnisbewertung from ZAB). If the learner says the university is listed as H+ in anabin, accept it. The card takes 4-6 weeks; a Fiktionsbescheinigung allows them to work meanwhile.",
           "complication": "Say a document is missing: the Zeugnisbewertung of the degree, unless they mention anabin H+.",
           "opening": "Guten Tag, nehmen Sie bitte Platz. Sie sind wegen der Blauen Karte hier, richtig?",
           "useful_phrases": [
-            {"t": "Ich bin wegen meiner Blauen Karte hier.", "es": "Vengo por mi Tarjeta Azul."},
-            {"t": "Mein Bruttojahresgehalt beträgt...", "es": "Mi salario bruto anual es de..."},
-            {"t": "Meine Universität ist in der anabin-Datenbank als H+ gelistet.", "es": "Mi universidad figura como H+ en la base de datos anabin."},
-            {"t": "Wie lange dauert das Verfahren?", "es": "¿Cuánto tarda el trámite?"}
+            {
+              "t": "Ich bin wegen meiner Blauen Karte hier.",
+              "es": "Vengo por mi Tarjeta Azul."
+            },
+            {
+              "t": "Mein Bruttojahresgehalt beträgt...",
+              "es": "Mi salario bruto anual es de..."
+            },
+            {
+              "t": "Meine Universität ist in der anabin-Datenbank als H+ gelistet.",
+              "es": "Mi universidad figura como H+ en la base de datos anabin."
+            },
+            {
+              "t": "Wie lange dauert das Verfahren?",
+              "es": "¿Cuánto tarda el trámite?"
+            }
           ],
           "max_turns": 18
         },
@@ -179,23 +382,271 @@
           "title": "Misión final: negociar el sueldo",
           "location": "Entrevista final en otra empresa tech de Múnich",
           "briefing": "Una empresa de Múnich quiere contratarte. Última ronda: habla de tu experiencia, responde a una pregunta técnica sobre arquitectura y negocia el sueldo (tu objetivo: 72.000 € brutos al año + 30 días de vacaciones + teletrabajo 2 días).",
-          "character": {"name": "Herr Neumann", "role": "Head of Engineering in a final interview", "personality": "friendly, analytical, negotiates firmly, values precision", "voice": "de-DE-FlorianMultilingualNeural"},
+          "character": {
+            "name": "Herr Neumann",
+            "role": "Head of Engineering in a final interview",
+            "personality": "friendly, analytical, negotiates firmly, values precision",
+            "voice": "de-DE-FlorianMultilingualNeural"
+          },
           "objectives": [
-            {"id": "o1", "text": "Presenta tu experiencia y un proyecto clave"},
-            {"id": "o2", "text": "Responde a la pregunta técnica"},
-            {"id": "o3", "text": "Di tu expectativa salarial con argumentos"},
-            {"id": "o4", "text": "Negocia al menos uno de: sueldo, vacaciones o teletrabajo"}
+            {
+              "id": "o1",
+              "text": "Presenta tu experiencia y un proyecto clave"
+            },
+            {
+              "id": "o2",
+              "text": "Responde a la pregunta técnica"
+            },
+            {
+              "id": "o3",
+              "text": "Di tu expectativa salarial con argumentos"
+            },
+            {
+              "id": "o4",
+              "text": "Negocia al menos uno de: sueldo, vacaciones o teletrabajo"
+            }
           ],
           "secret": "Technical question: 'How would you scale a service that suddenly has 10x traffic?' (expect: caching, horizontal scaling, queues, monitoring). Budget: offer 65.000 € first; max 71.000 €, 30 vacation days is standard; home office max 3 days. Accept if the learner argues well.",
           "complication": "Offer 65.000 € and say it's the standard for the position.",
           "opening": "Schön, dass Sie heute da sind. Erzählen Sie mir doch von einem Projekt, auf das Sie besonders stolz sind.",
           "useful_phrases": [
-            {"t": "Ich bin besonders stolz auf ein Projekt, bei dem...", "es": "Estoy especialmente orgulloso de un proyecto en el que..."},
-            {"t": "Ich würde horizontal skalieren und einen Cache einsetzen.", "es": "Escalaría horizontalmente y usaría una caché."},
-            {"t": "Meine Gehaltsvorstellung liegt bei 72.000 Euro brutto.", "es": "Mi expectativa salarial es de 72.000 euros brutos."},
-            {"t": "Wäre es möglich, zwei Tage pro Woche im Homeoffice zu arbeiten?", "es": "¿Sería posible teletrabajar dos días por semana?"}
+            {
+              "t": "Ich bin besonders stolz auf ein Projekt, bei dem...",
+              "es": "Estoy especialmente orgulloso de un proyecto en el que..."
+            },
+            {
+              "t": "Ich würde horizontal skalieren und einen Cache einsetzen.",
+              "es": "Escalaría horizontalmente y usaría una caché."
+            },
+            {
+              "t": "Meine Gehaltsvorstellung liegt bei 72.000 Euro brutto.",
+              "es": "Mi expectativa salarial es de 72.000 euros brutos."
+            },
+            {
+              "t": "Wäre es möglich, zwei Tage pro Woche im Homeoffice zu arbeiten?",
+              "es": "¿Sería posible teletrabajar dos días por semana?"
+            }
           ],
           "max_turns": 20
+        }
+      ]
+    },
+    {
+      "id": "de-hamburg",
+      "title": "Operation Hamburg",
+      "description": "Te trasladan a la oficina de Hamburgo. Más burocracia, contratos y vida profesional: la parte del alemán que nadie enseña en los cursos.",
+      "missions": [
+        {
+          "id": "de-h1-konto",
+          "level": "A2",
+          "title": "Abrir una cuenta (Girokonto)",
+          "location": "Filial de un banco (Sparkasse)",
+          "briefing": "Necesitas una cuenta corriente alemana para cobrar tu sueldo. Pregunta qué documentos necesitas, cuánto cuesta y cuándo llega la tarjeta.",
+          "character": {
+            "name": "Herr Petersen",
+            "role": "bank advisor at a Sparkasse",
+            "personality": "formal, thorough, northern German calm",
+            "voice": "de-DE-KillianNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Di que quieres abrir un Girokonto"
+            },
+            {
+              "id": "o2",
+              "text": "Pregunta qué documentos necesitas"
+            },
+            {
+              "id": "o3",
+              "text": "Pregunta la cuota mensual"
+            },
+            {
+              "id": "o4",
+              "text": "Averigua cuándo llega la tarjeta"
+            }
+          ],
+          "secret": "Documents: passport and Meldebescheinigung (registration certificate). Monthly fee 6,90 € (free for under 27 or for online account at 2,90 €). Card (Girocard) arrives by post in 5-7 days, PIN in a separate letter.",
+          "complication": "Ask for the Meldebescheinigung, which the learner must say they have.",
+          "opening": "Moin! Was kann ich für Sie tun?",
+          "useful_phrases": [
+            {
+              "t": "Ich möchte ein Girokonto eröffnen.",
+              "es": "Quiero abrir una cuenta corriente."
+            },
+            {
+              "t": "Welche Unterlagen brauche ich?",
+              "es": "¿Qué documentos necesito?"
+            },
+            {
+              "t": "Was kostet das Konto im Monat?",
+              "es": "¿Cuánto cuesta la cuenta al mes?"
+            },
+            {
+              "t": "Wann bekomme ich die Karte?",
+              "es": "¿Cuándo recibo la tarjeta?"
+            }
+          ],
+          "max_turns": 14
+        },
+        {
+          "id": "de-h2-kuendigung",
+          "level": "B1",
+          "title": "Cancelar un contrato de móvil",
+          "location": "Tienda de una compañía telefónica",
+          "briefing": "Quieres cancelar tu contrato de móvil porque te mudas. El vendedor intentará retenerte con ofertas. Consigue la baja, la fecha exacta y una confirmación por escrito.",
+          "character": {
+            "name": "Kevin",
+            "role": "mobile phone shop salesman",
+            "personality": "friendly, persistent, offers deals to keep customers",
+            "voice": "de-DE-ConradNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Di que quieres cancelar (kündigen) tu contrato"
+            },
+            {
+              "id": "o2",
+              "text": "Rechaza la oferta de retención"
+            },
+            {
+              "id": "o3",
+              "text": "Averigua la fecha de fin del contrato"
+            },
+            {
+              "id": "o4",
+              "text": "Pide la confirmación por escrito (Kündigungsbestätigung)"
+            }
+          ],
+          "secret": "The contract has a 1-month notice period (Kündigungsfrist); it ends on the last day of next month. Offer twice: 10 € discount for 12 months, then a free phone upgrade. Send the written confirmation by email if asked.",
+          "complication": "Offer a 'special deal' twice before accepting.",
+          "opening": "Hallo! Was kann ich heute für dich tun?",
+          "useful_phrases": [
+            {
+              "t": "Ich möchte meinen Vertrag kündigen.",
+              "es": "Quiero cancelar mi contrato."
+            },
+            {
+              "t": "Danke, aber ich bin nicht interessiert.",
+              "es": "Gracias, pero no me interesa."
+            },
+            {
+              "t": "Wann endet der Vertrag genau?",
+              "es": "¿Cuándo termina exactamente el contrato?"
+            },
+            {
+              "t": "Kann ich eine schriftliche Kündigungsbestätigung bekommen?",
+              "es": "¿Puedo recibir una confirmación de la baja por escrito?"
+            }
+          ],
+          "max_turns": 16
+        },
+        {
+          "id": "de-h3-heizung",
+          "level": "B1",
+          "title": "La calefacción no funciona",
+          "location": "Llamada a la administración del edificio (Hausverwaltung)",
+          "briefing": "Es noviembre y la calefacción lleva 3 días sin funcionar. Llama a la administración, describe el problema, exige una solución rápida y pregunta por una reducción del alquiler (Mietminderung).",
+          "character": {
+            "name": "Frau Hansen",
+            "role": "property management employee",
+            "personality": "formal, bureaucratic, wants a written report, becomes cooperative if the tenant knows their rights",
+            "voice": "de-DE-AmalaNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Describe el problema y desde cuándo"
+            },
+            {
+              "id": "o2",
+              "text": "Consigue una cita con el técnico"
+            },
+            {
+              "id": "o3",
+              "text": "Pregunta por una reducción del alquiler"
+            },
+            {
+              "id": "o4",
+              "text": "Acuerda cómo enviar el aviso por escrito"
+            }
+          ],
+          "secret": "First say a technician can come next week. If the learner insists it's urgent (it's cold, legally heating must work), offer tomorrow 8-12. Mietminderung is possible: they should send a written notice (Mängelanzeige) by email to verwaltung@hansa-wohnen.de.",
+          "complication": "Say the technician has no free appointments until next week.",
+          "opening": "Hansa Wohnen, Hansen am Apparat. Guten Tag.",
+          "useful_phrases": [
+            {
+              "t": "Unsere Heizung funktioniert seit drei Tagen nicht.",
+              "es": "Nuestra calefacción no funciona desde hace tres días."
+            },
+            {
+              "t": "Das ist dringend, in der Wohnung ist es sehr kalt.",
+              "es": "Es urgente, en el piso hace mucho frío."
+            },
+            {
+              "t": "Habe ich Anspruch auf eine Mietminderung?",
+              "es": "¿Tengo derecho a una reducción del alquiler?"
+            },
+            {
+              "t": "An welche E-Mail-Adresse soll ich die Mängelanzeige schicken?",
+              "es": "¿A qué correo envío el aviso de desperfectos?"
+            }
+          ],
+          "max_turns": 16
+        },
+        {
+          "id": "de-h4-meetup",
+          "level": "B2",
+          "title": "Charla en un meetup",
+          "location": "Tech-Meetup en Hamburgo, ronda de preguntas",
+          "briefing": "Presentaste brevemente tu proyecto de migración a la nube. Responde las preguntas del público en alemán, admite lo que no sabes y defiende tus decisiones.",
+          "character": {
+            "name": "Moderator Lukas",
+            "role": "meetup moderator relaying audience questions",
+            "personality": "friendly, technical, asks precise questions in German",
+            "voice": "de-DE-FlorianMultilingualNeural"
+          },
+          "objectives": [
+            {
+              "id": "o1",
+              "text": "Responde la pregunta técnica"
+            },
+            {
+              "id": "o2",
+              "text": "Defiende una decisión con argumentos"
+            },
+            {
+              "id": "o3",
+              "text": "Admite con naturalidad algo que no sabes"
+            },
+            {
+              "id": "o4",
+              "text": "Cierra resumiendo la idea principal"
+            }
+          ],
+          "secret": "Questions in order: (1) Why AWS and not a German/EU provider (data protection, DSGVO)? (2) What were the costs before and after? (3) A detail the learner can't know: 'Did you test with Kubernetes 1.31?' Then ask for a summary.",
+          "complication": "Ask a very specific question the speaker cannot know.",
+          "opening": "Vielen Dank für den Vortrag! Wir haben noch Zeit für Fragen. Erste Frage: Warum habt ihr euch für AWS entschieden und nicht für einen europäischen Anbieter?",
+          "useful_phrases": [
+            {
+              "t": "Gute Frage. Wir haben uns dafür entschieden, weil...",
+              "es": "Buena pregunta. Nos decidimos por eso porque..."
+            },
+            {
+              "t": "Was den Datenschutz angeht, ...",
+              "es": "En cuanto a la protección de datos, ..."
+            },
+            {
+              "t": "Ehrlich gesagt weiß ich das nicht genau, aber ich kann es nachschauen.",
+              "es": "Sinceramente, no lo sé con exactitud, pero puedo averiguarlo."
+            },
+            {
+              "t": "Zusammenfassend kann man sagen, dass...",
+              "es": "En resumen, se puede decir que..."
+            }
+          ],
+          "max_turns": 16
         }
       ]
     }
