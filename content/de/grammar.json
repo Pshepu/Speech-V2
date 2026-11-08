@@ -1,0 +1,862 @@
+[
+ {
+  "summary": "Aprenderás a pronunciar correctamente los sonidos difíciles del alemán para hispanohablantes.",
+  "explanation": "### Sonidos vocálicos\n- **ä, ö, ü**: se asemejan a *e, o, u* pero con la lengua más alta. Ej.: *Mädchen* [ˈmɛːtçən], *schön* [ʃøːn], *für* [fyːɐ̯].\n- **Largas vs cortas**: una vocal seguida de doble consonante suele ser larga (z.B. *Saal* [zaːl]), mientras que una simple indica corta (z.B. *Salz* [zalts]).\n\n### Consonantes\n- **ch**: *ich-Laut* [ç] después de *i, e, ä, ö, ü* (z.B. *ich* [ɪç]); *ach-Laut* [x] después de *a, o, u, au* (z.B. *Bach* [bax]).\n- **sch** = [ʃ] como en español *sh* de *shampoo*.\n- **sp / st** al inicio de palabra suenan [ʃp] y [ʃt] (z.B. *Sport* [ʃpɔʁt], *Stadt* [ʃtat]).\n- **z** = [ts] (z.B. *Zeit* [tsaɪt]).\n- **w** = [v] (z.B. *Wasser* [vasɐ]).\n- **v** = [f] en la mayoría de los casos (z.B. *Vater* [faːtɐ]).\n- **ei / ie / eu**: *ei* = [aɪ] (como *ay* en español), *ie* = [iː] larga, *eu* = [ɔʏ] (similar a *oy* en *hoy*).\n- **h aspirada**: al inicio se pronuncia, al final solo alarga la vocal previa (z.B. *Haus* [haʊs]).\n- **Ende fuerte**: la consonante final se pronuncia claramente (z.B. *Tag* → [taːk]).\n\nComparado con el español, muchos de estos sonidos no existen o se articulan de forma distinta, por lo que la práctica auditiva y la repetición son clave.",
+  "examples": [
+   {
+    "t": "Ich habe ein schönes Haus.",
+    "es": "Tengo una casa bonita."
+   },
+   {
+    "t": "Der Junge trinkt Wasser.",
+    "es": "El chico bebe agua."
+   },
+   {
+    "t": "Wir gehen zum Bahnhof.",
+    "es": "Vamos a la estación."
+   },
+   {
+    "t": "Sie spricht sehr schnell.",
+    "es": "Ella habla muy rápido."
+   },
+   {
+    "t": "Das Mädchen liest ein Buch.",
+    "es": "La niña lee un libro."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Ich habe ein schoenes Haus.",
+    "right": "Ich habe ein schönes Haus.",
+    "why": "Olvidar la umlaut ä en \"schön\"."
+   },
+   {
+    "wrong": "Der Junge trinkt Vasser.",
+    "right": "Der Junge trinkt Wasser.",
+    "why": "Confundir la w alemana con la v española."
+   },
+   {
+    "wrong": "Wir gehen zum Bahnhof.",
+    "right": "Wir gehen zum Bahnhof.",
+    "why": "Pronunciar \"z\" como /z/ en vez de /ts/."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ (ich) gehe nach Berlin.",
+    "options": [
+     "Ich",
+     "Ih",
+     "Ihch"
+    ],
+    "answer": 0,
+    "explanation": "El pronombre personal es \"Ich\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "Das ___ (Mädchen) ist freundlich.",
+    "options": [
+     "Mädchen",
+     "Mäden",
+     "Mächen"
+    ],
+    "answer": 0,
+    "explanation": "\"Mädchen\" lleva la umlaut ä."
+   },
+   {
+    "type": "choice",
+    "prompt": "Wir trinken ___ (Wasser).",
+    "options": [
+     "Vasser",
+     "Wasser",
+     "Waser"
+    ],
+    "answer": 1,
+    "explanation": "La w se pronuncia como /v/ y se escribe \"Wasser\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Er spricht ___ (Deutsch).",
+    "answer": "Deutsch",
+    "accept": [
+     "Deutsch"
+    ],
+    "explanation": "Palabra completa sin cambios."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ich habe ___ (ein) Buch.",
+    "answer": "ein",
+    "accept": [
+     "ein"
+    ],
+    "explanation": "Artículo indefinido neutro."
+   },
+   {
+    "type": "fill",
+    "prompt": "Sie fährt ___ (nach) Hause.",
+    "answer": "nach",
+    "accept": [
+     "nach"
+    ],
+    "explanation": "Preposición correcta."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ich",
+     "habe",
+     "ein",
+     "Haus",
+     "."
+    ],
+    "answer": "Ich habe ein Haus.",
+    "explanation": "Orden sujeto‑verbo‑objeto."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Das",
+     "Buch",
+     "ist",
+     "schön",
+     "."
+    ],
+    "answer": "Das Buch ist schön.",
+    "explanation": "Orden correcto en alemán."
+   },
+   {
+    "type": "fix",
+    "prompt": "Der Vater trinkt Wasser.",
+    "answer": "Der Vater trinkt Wasser.",
+    "explanation": "Corregir la ortografía de \"Vater\"."
+   },
+   {
+    "type": "translate",
+    "prompt": "Mi hermano estudia en la universidad.",
+    "answer": "Mein Bruder studiert an der Universität.",
+    "explanation": "Traducción literal con artículo y preposición adecuados."
+   }
+  ],
+  "id": "de-aussprache",
+  "level": "A1",
+  "title": "Pronunciación del alemán para hispanohablantes",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a usar los verbos \"sein\" y \"haben\" y los pronombres personales en alemán.",
+  "explanation": "## Verbos básicos\n- **sein** (ser/estar): ich **bin**, du **bist**, er/sie/es **ist**, wir **sind**, ihr **seid**, Sie/sie **sind**.\n- **haben** (tener): ich **habe**, du **hast**, er/sie/es **hat**, wir **haben**, ihr **habt**, Sie/sie **haben**.\n\n## Pronombres personales\n| Alemán | Español |\n|--------|---------|\n| ich    | yo      |\n| du     | tú (informal) |\n| Sie    | usted (formal) |\n| er/sie/es | él/ella/ello |\n| wir    | nosotros |\n| ihr    | vosotros |\n| sie    | ellos/ellas |\n\n## Diferencias clave con el español\n- En español el verbo *ser* y *estar* se usan según el contexto; en alemán solo **sein** cubre ambos.\n- *Haben* se usa para expresar posesión o estados como *Hunger haben* (tener hambre). En español usamos \"tener\".\n- El pronombre **Sie** (formal) siempre lleva la forma verbal de tercera persona plural (**sind**, **haben**), aunque se refiere a una sola persona.\n\n## Uso típico\n- **Ich bin 20 Jahre alt.** → \"Tengo 20 años.\"\n- **Ich habe Hunger.** → \"Tengo hambre.\"\n- **Du bist müde.** → \"Estás cansado.\"\n- **Sie haben ein Auto.** → \"Usted tiene un coche.\"\n",
+  "examples": [
+   {
+    "t": "Ich bin müde.",
+    "es": "Estoy cansado."
+   },
+   {
+    "t": "Du hast ein Buch.",
+    "es": "Tienes un libro."
+   },
+   {
+    "t": "Sie ist Lehrerin.",
+    "es": "Ella es profesora."
+   },
+   {
+    "t": "Wir haben keine Zeit.",
+    "es": "No tenemos tiempo."
+   },
+   {
+    "t": "Ihr seid meine Freunde.",
+    "es": "Ustedes son mis amigos."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Ich bin Hunger.",
+    "right": "Ich habe Hunger.",
+    "why": "En alemán el hambre se expresa con \"haben\"."
+   },
+   {
+    "wrong": "Du bist ein Auto.",
+    "right": "Du hast ein Auto.",
+    "why": "Para posesión se usa \"haben\", no \"sein\"."
+   },
+   {
+    "wrong": "Sie haben alt.",
+    "right": "Sie sind alt.",
+    "why": "\"Alt\" describe una cualidad y requiere \"sein\"."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ bin 30 Jahre alt.",
+    "options": [
+     "Ich",
+     "Du",
+     "Er"
+    ],
+    "answer": 0,
+    "explanation": "El sujeto es \"yo\", por lo tanto \"Ich\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "Wir ___ ein Haus.",
+    "options": [
+     "haben",
+     "sind",
+     "sein"
+    ],
+    "answer": 0,
+    "explanation": "Para posesión se usa \"haben\"."
+   },
+   {
+    "type": "choice",
+    "prompt": "Sie (formal) ___ müde.",
+    "options": [
+     "bist",
+     "sind",
+     "habt"
+    ],
+    "answer": 1,
+    "explanation": "Con \"Sie\" formal se usa la forma plural de \"sein\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Du ___ (sein) glücklich.",
+    "answer": "bist",
+    "accept": [],
+    "explanation": "Segunda persona singular de \"sein\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Er ___ (haben) ein Fahrrad.",
+    "answer": "hat",
+    "accept": [],
+    "explanation": "Tercera persona singular de \"haben\"."
+   },
+   {
+    "type": "fill",
+    "prompt": "Wir ___ (sein) Freunde.",
+    "answer": "sind",
+    "accept": [],
+    "explanation": "Primera persona plural de \"sein\"."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ich",
+     "bin",
+     "müde",
+     "."
+    ],
+    "answer": "Ich bin müde.",
+    "explanation": "Orden correcto: sujeto + verbo + adjetivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Sie",
+     "hat",
+     "ein",
+     "Auto",
+     "."
+    ],
+    "answer": "Sie hat ein Auto.",
+    "explanation": "Sujeto + verbo + objeto."
+   },
+   {
+    "type": "fix",
+    "prompt": "Du sind glücklich.",
+    "answer": "Du bist glücklich.",
+    "explanation": "Con \"du\" se usa \"bist\", no \"sind\"."
+   },
+   {
+    "type": "translate",
+    "prompt": "Nosotros tenemos frío.",
+    "answer": "Wir haben kalt.",
+    "explanation": "Se usa \"haben\" para expresar sensación de frío."
+   }
+  ],
+  "id": "de-sein-haben",
+  "level": "A1",
+  "title": "Sein y haben; pronombres personales",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás los tres géneros en alemán y sus artículos definidos e indefinidos.",
+  "explanation": "### Géneros y artículos\n- **Masculino**: *der* (definido), *ein* (indefinido), *kein* (negación). Ej.: *der Tisch*, *ein Tisch*, *kein Tisch*.\n- **Femenino**: *die* (definido), *eine* (indefinido), *keine* (negación). Ej.: *die Lampe*, *eine Lampe*, *keine Lampe*.\n- **Neutro**: *das* (definido), *ein* (indefinido), *kein* (negación). Ej.: *das Buch*, *ein Buch*, *kein Buch*.\n\n### Trucos para adivinar el género\n| Terminación | Género probable |\n|-------------|-----------------|\n| -ung, -heit, -keit | femenino (die) |\n| -chen, -lein | neutro (das) |\n| -er, -en (profesiones) | masculino (der) |\n\n### Plurales\n- Los sustantivos **no** cambian de artículo: *die* para todos los géneros.\n- Formas comunes de plural: *-e*, *-er*, *-en*, *-s* y cambios de vocal (Umlaut).\n- Ej.: *der Hund → die Hunde*, *die Stadt → die Städte*, *das Kind → die Kinder*.\n\n### Comparación con el español\n- En español el género suele coincidir con la terminación (-o masculino, -a femenino), pero en alemán hay muchas excepciones, por eso los trucos son útiles.\n- El artículo indefinido *ein* sirve para masculino y neutro; el femenino lleva *eine*.\n- La negación *kein* funciona como \"ningún/ninguna\" y concuerda en género y número.",
+  "examples": [
+   {
+    "t": "Der Mann liest ein Buch.",
+    "es": "El hombre lee un libro."
+   },
+   {
+    "t": "Die Frau kauft eine Blume.",
+    "es": "La mujer compra una flor."
+   },
+   {
+    "t": "Das Kind hat keinen Ball.",
+    "es": "El niño no tiene pelota."
+   },
+   {
+    "t": "Die Häuser sind groß.",
+    "es": "Las casas son grandes."
+   },
+   {
+    "t": "Ein kleiner Hund bellt.",
+    "es": "Un perro pequeño ladra."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Der Frau",
+    "right": "Die Frau",
+    "why": "Femenino lleva artículo 'die'."
+   },
+   {
+    "wrong": "Ein Auto ist rot.",
+    "right": "Das Auto ist rot.",
+    "why": "Neutro usa 'das', no 'ein' como masculino."
+   },
+   {
+    "wrong": "Kein Bücher",
+    "right": "Keine Bücher",
+    "why": "Negación plural siempre 'keine'."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ Mann trinkt Wasser.",
+    "options": [
+     "Der",
+     "Die",
+     "Das"
+    ],
+    "answer": 0,
+    "explanation": "Masculino → 'der'."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ich habe ___ Apfel.",
+    "options": [
+     "ein",
+     "eine",
+     "einen"
+    ],
+    "answer": 0,
+    "explanation": "Masculino sin artículo definido, nominativo: 'ein'."
+   },
+   {
+    "type": "choice",
+    "prompt": "Wir sehen ___ Kinder.",
+    "options": [
+     "die",
+     "der",
+     "das"
+    ],
+    "answer": 0,
+    "explanation": "Plural siempre 'die'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Sie kauft ___ (Buch) im Laden.",
+    "answer": "ein Buch",
+    "accept": [
+     "ein Buch"
+    ],
+    "explanation": "Neutro indefinido en acusativo es 'ein Buch'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Er hat ___ (Freundin) nicht gesehen.",
+    "answer": "eine Freundin",
+    "accept": [
+     "eine Freundin"
+    ],
+    "explanation": "Femenino indefinido en acusativo."
+   },
+   {
+    "type": "fill",
+    "prompt": "Wir haben ___ (Kinder) im Park.",
+    "answer": "keine Kinder",
+    "accept": [
+     "keine Kinder"
+    ],
+    "explanation": "Negación plural siempre 'keine'."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Das",
+     "Buch",
+     "ist",
+     "interessant",
+     "."
+    ],
+    "answer": "Das Buch ist interessant.",
+    "explanation": "Orden sujeto‑verbo‑predicado."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Die",
+     "Blumen",
+     "sind",
+     "schön",
+     "."
+    ],
+    "answer": "Die Blumen sind schön.",
+    "explanation": "Orden correcto con adjetivo al final."
+   },
+   {
+    "type": "fix",
+    "prompt": "ein Hund läuft schnell.",
+    "answer": "Ein Hund läuft schnell.",
+    "explanation": "Al inicio de oración la primera letra debe ser mayúscula."
+   },
+   {
+    "type": "translate",
+    "prompt": "Los estudiantes no tienen libros.",
+    "answer": "Die Studenten haben keine Bücher.",
+    "explanation": "Negación plural con 'keine' y artículo definido 'die' para plural."
+   }
+  ],
+  "id": "de-artikel",
+  "level": "A1",
+  "title": "Los tres géneros y los artículos",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás el presente de indicativo en alemán, incluyendo verbos regulares e irregulares y el uso de \"möchten\".",
+  "explanation": "## Presente de indicativo\nEn alemán el presente se forma añadiendo terminaciones al radical del verbo. \n- **Verb​os regulares**: *-en* → raíz + **-e, -st, -t, -en, -t, -en**.\n  - Ich **lerne** (yo aprendo)\n  - Du **lernst** (tú aprendes)\n- **Verb​os irregulares**: la raíz cambia a veces (cambio de vocal) y la terminación sigue siendo la misma.\n  | Infinitivo | 1ª pers. | 3ª pers. singular |\n  |------------|----------|-------------------|\n  | fahren     | ich **fahre** | er **fährt** |\n  | sprechen   | ich **spreche** | er **spricht** |\n  | sehen      | ich **sehe**   | er **sieht** |\n- **möchten** es el verbo modal de cortesía que significa \"querer\" en sentido de deseo. Se conjuga como *möchten* (solo forma presente) y se usa con infinitivo sin \"zu\".\n  - Ich **möchte** ein Bier.\n  - Wir **möchten** nach Berlin fahren.\n\n### Comparación con el español\n- En español el presente también tiene terminaciones, pero el cambio de vocal es menos frecuente. En alemán, verbos como *fahren* cambian la vocal de *a* a *ä* en la 3ª persona singular.\n- \"Möchten\" equivale a \"quisiera\" o \"me gustaría\", mientras que el verbo *querer* en alemán (*wollen*) implica intención más firme.\n",
+  "examples": [
+   {
+    "t": "Ich lerne Deutsch.",
+    "es": "Yo aprendo alemán."
+   },
+   {
+    "t": "Du fährst mit dem Zug.",
+    "es": "Tú vas en tren."
+   },
+   {
+    "t": "Er spricht Englisch.",
+    "es": "Él habla inglés."
+   },
+   {
+    "t": "Wir möchten Pizza bestellen.",
+    "es": "Nosotros queremos pedir pizza."
+   },
+   {
+    "t": "Sie sehen den Film.",
+    "es": "Ellos ven la película."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Ich fahren nach Berlin.",
+    "right": "Ich fahre nach Berlin.",
+    "why": "Falta la terminación -e y el cambio de vocal a *ä* en 1ª persona."
+   },
+   {
+    "wrong": "Du möchte ein Buch.",
+    "right": "Du möchtest ein Buch.",
+    "why": "El verbo modal siempre lleva -t en 2ª persona singular."
+   },
+   {
+    "wrong": "Er sprecht gut.",
+    "right": "Er spricht gut.",
+    "why": "Cambio de vocal *e → i* y termina en -t, no -ht."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Sie ___ (fahren) jeden Tag zur Arbeit.",
+    "options": [
+     "fährt",
+     "fahren",
+     "fährst"
+    ],
+    "answer": 0,
+    "explanation": "3ª pers. singular lleva -t y cambio de vocal a ä."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ich ___ (möchten) einen Kaffee.",
+    "options": [
+     "möchte",
+     "möchten",
+     "möchtet"
+    ],
+    "answer": 0,
+    "explanation": "1ª pers. singular de möchten es möchte."
+   },
+   {
+    "type": "choice",
+    "prompt": "Wir ___ (sprechen) Deutsch.",
+    "options": [
+     "spricht",
+     "sprechen",
+     "sprichst"
+    ],
+    "answer": 1,
+    "explanation": "1ª pers. plural usa la forma infinitiva sin cambio."
+   },
+   {
+    "type": "fill",
+    "prompt": "Du ___ (sehen) den Himmel. (siehst)",
+    "answer": "siehst",
+    "accept": [],
+    "explanation": "2ª pers. singular añade -st y cambia e → i."
+   },
+   {
+    "type": "fill",
+    "prompt": "Er ___ (lernen) schnell. (lernt)",
+    "answer": "lernt",
+    "accept": [],
+    "explanation": "3ª pers. singular termina en -t."
+   },
+   {
+    "type": "fill",
+    "prompt": "Wir ___ (möchten) ins Kino gehen.",
+    "answer": "möchten",
+    "accept": [],
+    "explanation": "Forma plural de möchten es möchten."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ich",
+     "lerne",
+     "Deutsch",
+     "gut",
+     "."
+    ],
+    "answer": "Ich lerne Deutsch gut.",
+    "explanation": "Orden típico: sujeto‑verbo‑objeto‑adverbio."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Möchten",
+     "Sie",
+     "einen",
+     "Salat",
+     "?"
+    ],
+    "answer": "Möchten Sie einen Salat?",
+    "explanation": "En preguntas formales el verbo modal va al inicio."
+   },
+   {
+    "type": "fix",
+    "prompt": "Er fahren nach Hause.",
+    "answer": "Er fährt nach Hause.",
+    "explanation": "3ª pers. singular necesita -t y cambio de vocal a ä."
+   },
+   {
+    "type": "translate",
+    "prompt": "Nosotros queremos visitar el museo.",
+    "answer": "Wir möchten das Museum besuchen.",
+    "explanation": "Uso de möchten + infinitivo sin \"zu\"."
+   }
+  ],
+  "id": "de-praesens",
+  "level": "A1",
+  "title": "Presente y verbos irregulares",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás el orden básico de la frase en alemán: verbo en segunda posición.",
+  "explanation": "## Orden básico (S‑V‑O)\nEn alemán, el verbo conjugado siempre ocupa la **segunda posición** de la oración principal. El primer elemento puede ser el sujeto, un complemento temporal, un adverbio, etc.\n\n- **S‑V‑O**: *Ich* (sujeto) **gehe** (verbo) *nach Hause* (objeto).\n- **Adverbio‑V‑S**: *Heute* (adverbio de tiempo) **gehe** *ich* *nach Hause*.\n\n### Preguntas\n- **Sí/No**: verbo en primera posición → *Geht er?* (¿Va él?)\n- **W‑preguntas**: palabra interrogativa ocupa la primera posición, verbo segunda → *Wo geht er hin?* (¿Dónde va él?)\n\n### Comparación con el español\nEn español el verbo suele ir después del sujeto (S‑V‑O) y la posición es flexible. En alemán la regla es estricta: **verbo siempre en 2ª posición**. Esto causa errores típicos de hispanohablantes que colocan el verbo al final o después del sujeto en oraciones con adverbios iniciales.\n\n| Español | Alemán (orden) |\n|---------|----------------|\n| Yo hoy voy al parque. | **Hoy** gehe ich in den Park. |\n| ¿Dónde está el libro? | **Wo** ist das Buch? |\n\nRecuerda: si la oración empieza con cualquier elemento que no sea el sujeto, el verbo sigue inmediatamente después.",
+  "examples": [
+   {
+    "t": "Ich lerne Deutsch.",
+    "es": "Yo aprendo alemán."
+   },
+   {
+    "t": "Morgen besuche ich meine Eltern.",
+    "es": "Mañana visito a mis padres."
+   },
+   {
+    "t": "Heute gehe ich ins Kino.",
+    "es": "Hoy voy al cine."
+   },
+   {
+    "t": "Warum kommt er zu spät?",
+    "es": "¿Por qué llega él tarde?"
+   },
+   {
+    "t": "Geht er mit?",
+    "es": "¿Va él con nosotros?"
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Ich heute gehe ins Kino.",
+    "right": "Heute gehe ich ins Kino.",
+    "why": "El verbo debe estar en segunda posición, después del adverbio inicial."
+   },
+   {
+    "wrong": "Wo ist das Buch?",
+    "right": "Wo ist das Buch?",
+    "why": "Correcto, pero muchos ponen 'ist' al final como en español."
+   },
+   {
+    "wrong": "Geht er nicht?",
+    "right": "Geht er nicht?",
+    "why": "En preguntas sí/no el verbo va primero; el error típico es invertir sujeto y verbo."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ gehe ich zur Arbeit.",
+    "options": [
+     "Morgen",
+     "Ich",
+     "Zur"
+    ],
+    "answer": 0,
+    "explanation": "El adverbio de tiempo ocupa la primera posición, luego el verbo."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ kommt er?",
+    "options": [
+     "Wie",
+     "Kommt",
+     "Er"
+    ],
+    "answer": 0,
+    "explanation": "Las preguntas con W‑palabra van primero, seguidas del verbo."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ du das Buch lesen?",
+    "options": [
+     "Willst",
+     "Du",
+     "Lesen"
+    ],
+    "answer": 0,
+    "explanation": "En preguntas sí/no el verbo va primero."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (morgen) ich ___ (besuchen) meine Freundin.",
+    "answer": "Morgen besuche",
+    "accept": [
+     "Morgen besuche"
+    ],
+    "explanation": "Adverbio de tiempo primero, verbo en segunda posición."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (oft) wir ___ (gehen) ins Schwimmbad.",
+    "answer": "Oft gehen",
+    "accept": [
+     "Oft gehen"
+    ],
+    "explanation": "Adverbio al inicio, verbo en segunda posición."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (warum) ___ (du) ___ (kommen) spät?",
+    "answer": "Warum kommst du",
+    "accept": [
+     "Warum kommst du"
+    ],
+    "explanation": "W‑palabra primero, verbo en segunda posición, sujeto después."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Heute",
+     "lese",
+     "ich",
+     "ein",
+     "Buch",
+     "."
+    ],
+    "answer": "Heute lese ich ein Buch.",
+    "explanation": "Adverbio primero, verbo segundo, resto del sujeto y objeto."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Morgen",
+     "gehen",
+     "wir",
+     "ins",
+     "Museum",
+     "."
+    ],
+    "answer": "Morgen gehen wir ins Museum.",
+    "explanation": "Adverbio de tiempo primero, verbo segundo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Ich gehe heute ins Kino.",
+    "answer": "Heute gehe ich ins Kino.",
+    "explanation": "El adverbio de tiempo debe ir antes del verbo para respetar la regla de segunda posición."
+   },
+   {
+    "type": "translate",
+    "prompt": "Mañana visitaré a mis abuelos.",
+    "answer": "Morgen besuche ich meine Großeltern.",
+    "explanation": "Adverbio de tiempo al inicio, verbo en segunda posición, sujeto después."
+   }
+  ],
+  "id": "de-satzbau",
+  "level": "A1",
+  "title": "Orden de la frase: el verbo en 2ª posición",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a usar el acusativo en alemán con artículos y verbos básicos",
+  "explanation": "## El caso acusativo en alemán\n\nEn alemán, el **acusativo** se usa para el objeto directo de la oración. \n\n### Artículos definidos e indefinidos\n| Caso | Masculino | Femenino | Neutro | Plural |\n|------|-----------|----------|--------|--------|\n| Nominativo | der | die | das | die |\n| **Acusativo** | **den** | die | das | die |\n| Indefinido | **einen** | eine | ein | **einige** |\n\n- En español el artículo no cambia con la función del sustantivo, pero en alemán sí cambia en masculino singular.\n- En femenino, neutro y plural el artículo permanece igual que en nominativo.\n\n### Verbos que requieren acusativo\n- **haben** (tener): *Ich habe **den** Apfel.* – Tengo la manzana.\n- **sehen** (ver): *Sie sieht **einen** Hund.* – Ella ve un perro.\n- **brauchen** (necesitar): *Wir brauchen **die** Bücher.* – Necesitamos los libros.\n\n### \"Es gibt\" + acusativo\n- La construcción **es gibt** significa \"hay\" y siempre lleva el sustantivo en acusativo.\n- Ejemplo: *Es gibt **einen** Park in der Stadt.* – Hay un parque en la ciudad.\n\n### Comparación con el español\n- En español el objeto directo no afecta al artículo: *Veo **el** perro* vs. *Veo **den** Hund* (masc. acusativo).\n- El cambio solo ocurre en masculino singular, lo que suele ser la mayor traba para hispanohablantes.",
+  "examples": [
+   {
+    "t": "Ich sehe den Mann.",
+    "es": "Veo al hombre."
+   },
+   {
+    "t": "Sie hat einen Stift.",
+    "es": "Ella tiene un bolígrafo."
+   },
+   {
+    "t": "Es gibt die Bücher im Regal.",
+    "es": "Hay los libros en la estantería."
+   },
+   {
+    "t": "Wir brauchen das Brot.",
+    "es": "Necesitamos el pan."
+   },
+   {
+    "t": "Du kaufst einen Apfel.",
+    "es": "Compras una manzana."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Ich sehe das Mann.",
+    "right": "Ich sehe **den** Mann.",
+    "why": "Masculino singular necesita 'den' en acusativo."
+   },
+   {
+    "wrong": "Sie hat ein Stift.",
+    "right": "Sie hat **einen** Stift.",
+    "why": "El artículo indefinido masculino cambia a 'einen' en acusativo."
+   },
+   {
+    "wrong": "Es gibt der Park.",
+    "right": "Es gibt **den** Park.",
+    "why": "Después de 'es gibt' el sustantivo va en acusativo, no en nominativo."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "Ich habe ___ Buch.",
+    "options": [
+     "den",
+     "das",
+     "der"
+    ],
+    "answer": 1,
+    "explanation": "El sustantivo 'Buch' es neutro, el artículo acusativo es 'das'."
+   },
+   {
+    "type": "choice",
+    "prompt": "Sie sieht ___ Katze.",
+    "options": [
+     "den",
+     "die",
+     "das"
+    ],
+    "answer": 1,
+    "explanation": "‘Katze’ es femenino, el artículo acusativo coincide con nominativo: 'die'."
+   },
+   {
+    "type": "choice",
+    "prompt": "Es gibt ___ Auto.",
+    "options": [
+     "ein",
+     "einen",
+     "einem"
+    ],
+    "answer": 0,
+    "explanation": "‘Auto’ es neutro, el acusativo de 'ein' es también 'ein'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Wir brauchen ___ (Brot).",
+    "answer": "das Brot",
+    "accept": [
+     "das Brot"
+    ],
+    "explanation": "‘Brot’ es neutro, el artículo acusativo es 'das'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Du kaufst ___ (Apfel).",
+    "answer": "einen Apfel",
+    "accept": [
+     "einen Apfel"
+    ],
+    "explanation": "‘Apfel’ es masculino, el artículo indefinido cambia a 'einen'."
+   },
+   {
+    "type": "fill",
+    "prompt": "Es gibt ___ (Kinder).",
+    "answer": "die Kinder",
+    "accept": [
+     "die Kinder"
+    ],
+    "explanation": "En plural, el artículo acusativo es 'die'."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Ich",
+     "sehe",
+     "den",
+     "Film",
+     "."
+    ],
+    "answer": "Ich sehe den Film.",
+    "explanation": "Orden sujeto‑verbo‑objeto con artículo acusativo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Der",
+     "Mann",
+     "braucht",
+     "die",
+     "Bücher",
+     "."
+    ],
+    "answer": "Der Mann braucht die Bücher.",
+    "explanation": "Coloca el sujeto antes del verbo y el objeto con artículo acusativo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Sie hat den Hund.",
+    "answer": "Sie hat **einen** Hund.",
+    "explanation": "‘Hund’ es masculino, necesita el artículo indefinido 'einen' si es indefinido; si se quiere definido sería 'den Hund' pero la frase original ya era correcta, aquí se corrige para practicar el indefinido."
+   },
+   {
+    "type": "translate",
+    "prompt": "Hay una silla en la habitación.",
+    "answer": "Es gibt **einen** Stuhl im Zimmer.",
+    "explanation": "‘Stuhl’ es masculino, por lo que el artículo acusativo indefinido es 'einen'."
+   }
+  ],
+  "id": "de-akkusativ",
+  "level": "A1",
+  "title": "El acusativo",
+  "model": "openai/gpt-oss-120b"
+ }
+]

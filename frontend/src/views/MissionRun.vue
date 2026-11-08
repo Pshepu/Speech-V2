@@ -34,6 +34,21 @@ const result = ref<any>(null)
 const finishing = ref(false)
 const chatEl = ref<HTMLElement | null>(null)
 const recBtn = ref<any>(null)
+const turnsLeftAI = ref<number | null>(null)
+const targetWords = ref<any[]>([])
+const engineMode = ref('llm')
+const wordsUsed = ref<string[]>([])
+const myNotes = ref('')
+// Práctica posterior: repetir en voz alta cada frase corregida (evaluación local, sin IA).
+const post = ref<Record<number, any>>({})
+async function sayCorrected(k: number, text: string, blob: Blob) {
+  post.value[k] = { busy: true }
+  try {
+    const r = await api.form('/practice/assess', { audio: blob, text, lang: app.lang, mode: 'mission_post', transcribe: '0' })
+    post.value[k] = { score: Math.round(r.score), tips: (r.tips || []).slice(0, 2) }
+  } catch (e: any) { post.value[k] = { error: e.message } }
+}
+async function refreshBudget() { try { turnsLeftAI.value = (await api.get('/budget')).turns_left } catch {} }
 const handsFree = ref(false)
 
 function maybeListen() {
@@ -71,9 +86,14 @@ onMounted(async () => {
   mode.value = data.mode
   messages.value = data.transcript || []
   done.value = data.state?.done || []
+  targetWords.value = data.state?.target_words || []
+  engineMode.value = data.state?.engine || 'llm'
+  wordsUsed.value = data.state?.words_used || []
+  myNotes.value = sessionStorage.getItem(`notes-${data.mission.id}`) || ''
   if (data.result && !data.result.abandoned) result.value = data.result
   const userTurns = messages.value.filter((m: any) => m.role === 'user').length
   turnsLeft.value = Math.max(0, data.mission.max_turns - userTurns)
+  refreshBudget()
   if (userTurns === 0 && messages.value.length) say(messages.value[0].content)
   else if (userTurns > 0) app.notify('Misión retomada donde la dejaste', 'good')
   scroll()
@@ -95,15 +115,17 @@ async function send(content?: string): Promise<any> {
     const r = await api.post(`/runs/${runId}/turn`, { text: msg })
     if (r.correction) userMsg.correction = r.correction
     else if (r.had_correction) userMsg.flag = true
-    const m = { role: 'assistant', content: r.reply, emotion: r.emotion, newObjectives: r.new_objectives }
+    const m = { role: 'assistant', content: r.reply, emotion: r.emotion, newObjectives: r.new_objectives, free: r.engine === 'scene' && engineMode.value === 'scene' }
     messages.value.push(m)
     emotion.value = r.emotion
     done.value = r.objectives_done
+    if (r.words_used) wordsUsed.value = r.words_used
     turnsLeft.value = r.turns_left
     complete.value = r.mission_complete
     failed.value = r.mission_failed
     outOfTurns.value = r.out_of_turns
     sending.value = false
+    refreshBudget()
     // Si la escena lleva varios turnos sin avanzar, ofrecemos una pista automáticamente.
     if (r.stuck && training.value && !hint.value) getHint()
     scroll()
@@ -180,7 +202,16 @@ async function addVocab(v: any) {
         </div>
         <div class="progress" style="margin-top:10px"><div :style="{ width: (100 * done.length) / mission.objectives.length + '%' }"></div></div>
         <small class="muted">Turnos restantes: {{ turnsLeft }}</small>
+        <small v-if="turnsLeftAI !== null" class="muted" style="display:block">⚡ Cuota de IA hoy: ≈ {{ turnsLeftAI }} turnos</small>
       </div>
+      <div v-if="targetWords.length" class="card">
+        <div class="tag">TUS PALABRAS (BONUS)</div>
+        <small class="muted">Úsalas al hablar: cada uso cuenta como repaso.</small>
+        <div v-for="w in targetWords" :key="w.id" class="obj" :class="{ ok: wordsUsed.includes(w.front) }">
+          {{ wordsUsed.includes(w.front) ? '✅' : '▫️' }} <b>{{ w.front }}</b> <small class="muted">{{ w.back }}</small>
+        </div>
+      </div>
+      <div v-if="myNotes" class="card"><div class="tag">TUS NOTAS</div><small style="white-space:pre-wrap">{{ myNotes }}</small></div>
       <div v-if="training && mission.useful_phrases?.length" class="card">
         <button class="btn sm ghost" @click="showPhrases = !showPhrases">💡 Frases útiles {{ showPhrases ? '▴' : '▾' }}</button>
         <div v-if="showPhrases" class="stack" style="margin-top:8px">
@@ -198,7 +229,8 @@ async function addVocab(v: any) {
     </div>
 
     <div class="card chat-card">
-      <div class="head"><b>{{ mission.title }}</b> <small class="muted">· {{ mission.location }}</small> <span class="chip" :class="training ? 'on' : 'mission'">{{ training ? '🛡️ Entrenamiento' : '🔥 Inmersión' }}</span></div>
+      <div class="head"><b>{{ mission.title }}</b> <small class="muted">· {{ mission.location }}</small> <span class="chip" :class="training ? 'on' : 'mission'">{{ training ? '🛡️ Entrenamiento' : '🔥 Inmersión' }}</span>
+        <span v-if="engineMode === 'scene'" class="chip good" title="La mayoría de respuestas salen de la escena preparada y no gastan cuota">⚡ Modo ahorro</span></div>
       <div ref="chatEl" class="chat">
         <div v-for="(m, i) in messages" :key="i" class="msg" :class="m.role">
           <div class="bubble">
@@ -237,6 +269,7 @@ async function addVocab(v: any) {
           </div>
           <div v-else-if="m.flag" class="correction subtle"><small>📝 Hay algo que mejorar aquí (lo verás en el informe)</small></div>
           <div v-if="m.newObjectives?.length" class="obj-done">🎯 ¡Objetivo cumplido!</div>
+          <small v-if="m.free" class="muted" style="font-size:.72rem">⚡ sin gastar IA</small>
         </div>
         <div v-if="sending" class="msg assistant"><div class="bubble"><span class="spin"></span></div></div>
       </div>
@@ -275,7 +308,14 @@ async function addVocab(v: any) {
             <span class="chip">🎯 Precisión {{ result.accuracy ?? '–' }}</span>
             <span class="chip">🗣️ Fluidez {{ result.fluency ?? '–' }}</span>
             <span class="chip good" v-if="result.xp">+{{ result.xp }} XP</span>
+            <span v-if="result.scene_turns" class="chip good">⚡ {{ result.scene_turns }}/{{ result.scene_turns + result.ai_turns }} turnos sin gastar IA</span>
+            <span v-if="result.target_words?.length" class="chip">📚 Usaste {{ result.words_used.length }}/{{ result.target_words.length }} de tus palabras</span>
           </div>
+          <p v-if="result.previous_score != null" style="margin-top:8px">
+            🔁 Intento anterior: {{ Math.round(result.previous_score) }} →
+            <b :class="result.score >= result.previous_score ? 'score-good' : 'score-mid'">ahora {{ Math.round(result.score) }}
+              ({{ result.score >= result.previous_score ? '+' : '' }}{{ Math.round(result.score - result.previous_score) }})</b>
+          </p>
         </div>
       </div>
     </div>
@@ -285,9 +325,17 @@ async function addVocab(v: any) {
     </div>
     <div class="card" v-if="result.corrections?.length">
       <h3>📝 Errores (ya añadidos a tu repaso)</h3>
+      <small class="muted">Práctica posterior: escucha la versión correcta y dila tú. Fijarla en voz alta ayuda a no repetir el error.</small>
       <div v-for="(c, k) in result.corrections" :key="k" class="corr-row">
         <div><s class="muted">{{ c.original }}</s> → <b>{{ c.corrected }}</b> <PlayButton :text="c.corrected" /></div>
         <small>{{ c.explanation }} <span class="chip">{{ c.category }}</span></small>
+        <div class="row" style="margin-top:6px">
+          <RecordButton label="🎙️ Dilo bien" :busy="post[k]?.busy" :max-seconds="12" @recorded="(b: Blob) => sayCorrected(k, c.corrected, b)" />
+          <span v-if="post[k]?.score != null" :class="post[k].score >= 80 ? 'score-good' : post[k].score >= 60 ? 'score-mid' : 'score-bad'">
+            <b>{{ post[k].score }}</b> <small v-if="post[k].tips?.length">· revisa {{ post[k].tips.map((t: any) => '/' + t.phone + '/').join(' ') }}</small>
+          </span>
+          <small v-if="post[k]?.error" class="score-bad">{{ post[k].error }}</small>
+        </div>
       </div>
     </div>
     <div class="card" v-if="result.better_versions?.length">
@@ -306,7 +354,7 @@ async function addVocab(v: any) {
     </div>
     <div class="row" style="margin-top:16px">
       <button class="btn" @click="router.push('/misiones')">← Misiones</button>
-      <button v-if="!mission?.free" class="btn mission" @click="router.push(`/misiones?start=${mission?.id}`)">🔁 Repetir misión</button>
+      <button v-if="!mission?.free" class="btn mission" @click="router.push(`/misiones?start=${mission?.id}`)">🔁 Repetir (con variación)</button>
       <button class="btn primary" @click="router.push('/')">Volver a Hoy</button>
     </div>
   </div>

@@ -77,3 +77,12 @@ Resumen de la investigación revisada para diseñar la app, y en qué módulo se
 - Cada frase hablada recibe una nota de pronunciación por fonema.
 - Modos de conversación según la destreza: debate (argumentar), entrevista de trabajo, "explícamelo" (técnica Feynman), contar historias (tiempos del pasado), actualidad (matizar opiniones) y small talk.
 - El tutor recuerda lo que le contaste de ti para personalizar las charlas.
+
+## 13. Misiones baratas en cuota: escenas preparadas y repetición
+
+- Un metaanálisis de 16 estudios sobre sistemas de diálogo encontró un efecto moderado en la expresión oral (g = 0,61), y la corrección turno a turno **no** fue un moderador significativo ([Hou y Min, 2025](https://doi.org/10.1017/S0958344025100268)). Por eso el modo ahorro deja las correcciones para el informe final.
+- **Modo ahorro (escenas preparadas):** la primera vez que juegas una misión, la IA prepara un paquete con las intenciones esperadas (con varias formas de decirlas) y la respuesta del personaje a cada una. En cada turno, un modelo pequeño de similitud de frases (multilingüe, en tu CPU) compara lo que dijiste con esas intenciones. Si encaja, el personaje responde sin gastar cuota; si no, entra la IA. En las pruebas, entre el 75 % y el 100 % de los turnos se resolvieron sin IA, y una misión pasó de unos 25.000 tokens a unos 2.000.
+- **Repetición con variación:** repetir la misma tarea mejora sobre todo la precisión y la complejidad, y el efecto es mayor con intervalos cortos (metaanálisis de repetición de tareas). Las misiones completadas se marcan para repetir con otros nombres, cifras e imprevisto, y el informe compara tu puntuación con el intento anterior.
+- **Preparación de 1 minuto** antes de hablar (mejora fluidez y complejidad) y **práctica posterior**: repetir en voz alta cada frase corregida, evaluada sin IA.
+- **Tu vocabulario en las misiones:** se eligen palabras de tu repaso para que las uses. Cada uso cuenta como repaso acertado, porque para usar una palabra al hablar hacen falta muchos encuentros con ella.
+- **Reparto de la cuota:** se registra el consumo de cada modelo; los turnos A1-B1 usan el modelo pequeño y el informe usa el grande. El generador de contenido se pausa mientras usas la app y tiene un tope diario.

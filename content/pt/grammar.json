@@ -2942,5 +2942,297 @@
   "level": "B2",
   "title": "Conectores y argumentación",
   "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás vocabulario y estructuras para reuniones, e‑mails y entrevistas de TI en portugués brasileño",
+  "explanation": "## Vocabulario esencial\n- **reunião** – reunión\n- **e‑mail** – correo electrónico\n- **entrevista de emprego** – entrevista de trabajo\n- **desenvolvedor(a)** – desarrollador/a\n- **implementar** – implantar, poner en marcha\n- **demanda** – requerimiento, solicitud\n- **prazo** – plazo, fecha límite\n\n## Estructuras típicas\n1. **Iniciar una reunión**: \n   - *Vamos começar a reunião às 10h.* (Comenzaremos la reunión a las 10h.)\n2. **Solicitar información por e‑mail**:\n   - *Poderia me enviar o relatório até sexta?* (¿Podrías enviarme el informe antes del viernes?)\n3. **Describir una tarea**:\n   - *A tarefa consiste em implementar a nova funcionalidade.* (La tarea consiste en implantar la nueva funcionalidad.)\n4. **Negociar prazos**:\n   - *Precisamos definir um prazo realista para a entrega.* (Necesitamos definir un plazo realista para la entrega.)\n\n## Comparación con el español\n- En portugués el verbo **implementar** se usa más que *implantar* en contextos de software.\n- El sustantivo **demanda** tiene el mismo sentido que en español, pero se usa con frecuencia en frases como *demanda do cliente*.\n- El orden de los pronombres átonos es idéntico al español, pero la preposición **para** se emplea más que *por* en algunos casos (e.g., *para a entrega* vs *por la entrega*).",
+  "examples": [
+   {
+    "t": "A reunião será às 14h para discutir a nova demanda.",
+    "es": "La reunión será a las 14h para discutir la nueva demanda."
+   },
+   {
+    "t": "Enviei o e‑mail com o cronograma do projeto.",
+    "es": "Envié el correo con el cronograma del proyecto."
+   },
+   {
+    "t": "O desenvolvedor precisa implementar a API até sexta.",
+    "es": "El desarrollador necesita implantar la API antes del viernes."
+   },
+   {
+    "t": "Qual é o prazo para concluir a fase de testes?",
+    "es": "¿Cuál es el plazo para concluir la fase de pruebas?"
+   },
+   {
+    "t": "Na entrevista, eles perguntaram sobre minha experiência com cloud.",
+    "es": "En la entrevista, preguntaron sobre mi experiencia con la nube."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Vou mandar o e‑mail para você.",
+    "right": "Vou mandar o e‑mail a você.",
+    "why": "En portugués se usa 'a' para indicar destinatario, no 'para' como en español."
+   },
+   {
+    "wrong": "Implementar a nova funcionalidade já está pronto.",
+    "right": "Implementar a nova funcionalidade já está pronto.",
+    "why": "El participio debe concordar con el sujeto masculino 'implementação' implícito; se usa 'pronto'."
+   },
+   {
+    "wrong": "Precisamos de um prazo curto.",
+    "right": "Precisamos de um prazo curto.",
+    "why": "En portugués el adjetivo sigue al sustantivo, igual que en español, pero a veces se omite el artículo."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "A reunião ___ às 9h para alinhar a demanda.",
+    "options": [
+     "começa",
+     "começar",
+     "começou"
+    ],
+    "answer": 0,
+    "explanation": "Se usa el presente para indicar hora futura programada."
+   },
+   {
+    "type": "choice",
+    "prompt": "Ele ___ o relatório ontem.",
+    "options": [
+     "enviou",
+     "enviar",
+     "envia"
+    ],
+    "answer": 0,
+    "explanation": "Acción concluida en pasado simple."
+   },
+   {
+    "type": "choice",
+    "prompt": "Precisamos ___ o prazo para a entrega.",
+    "options": [
+     "revisar",
+     "revisar o",
+     "revisar a"
+    ],
+    "answer": 0,
+    "explanation": "El verbo 'revisar' no lleva artículo antes del objeto directo."
+   },
+   {
+    "type": "fill",
+    "prompt": "(implementar) ___ a nova funcionalidade até segunda-feira.",
+    "answer": "implementar",
+    "accept": [
+     "implementar"
+    ],
+    "explanation": "Infinitivo usado después de 'precisar' implícito."
+   },
+   {
+    "type": "fill",
+    "prompt": "Ele pediu que eu ___ o e‑mail imediatamente (enviar).",
+    "answer": "enviasse",
+    "accept": [
+     "enviasse",
+     "envie"
+    ],
+    "explanation": "Uso del subjuntivo pasado después de 'pediu que'."
+   },
+   {
+    "type": "fill",
+    "prompt": "A equipe ___ (estar) ocupada com a demanda do cliente.",
+    "answer": "está",
+    "accept": [
+     "está"
+    ],
+    "explanation": "Presente do indicativo para estado actual."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Precisamos",
+     "definir",
+     "um",
+     "prazo",
+     "realista"
+    ],
+    "answer": "Precisamos definir um prazo realista",
+    "explanation": "Orden correcta de sujeto‑verbo‑objeto con adjetivo."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Vamos",
+     "iniciar",
+     "a",
+     "reunião",
+     "às",
+     "10h"
+    ],
+    "answer": "Vamos iniciar a reunião às 10h",
+    "explanation": "Colocación natural del verbo antes del complemento de tiempo."
+   },
+   {
+    "type": "fix",
+    "prompt": "Ele vai mandar o e‑mail para mim amanhã.",
+    "answer": "Ele vai mandar o e‑mail a mim amanhã.",
+    "explanation": "Se corrige la preposición 'para' por 'a' cuando el destinatario es pronombre."
+   },
+   {
+    "type": "translate",
+    "prompt": "Necesito que el desarrollador implemente la función antes del viernes.",
+    "answer": "Preciso que o desenvolvedor implemente a função antes de sexta-feira.",
+    "explanation": "Traducción fiel manteniendo subjuntivo y preposición adecuada."
+   }
+  ],
+  "id": "pt-tecnico",
+  "level": "B2",
+  "title": "Portugués en el trabajo (TI)",
+  "model": "openai/gpt-oss-120b"
+ },
+ {
+  "summary": "Aprenderás a usar la voz pasiva y las construcciones con SE en portugués brasileño",
+  "explanation": "## Voz passiva em português brasileiro\n- **Passiva analítica**: *foi feita*, *serão vendidos*. Usa o verbo **ser** + particípio. O agente da passiva pode aparecer com *por*.\n- **Passiva sintética (se)**: *vende‑se*, *constrói‑se*. O pronome **se** indica que o sujeito é indeterminado ou genérico. É muito usado em textos informativos, anúncios e instruções.\n- **Diferença con el español**: En español la pasiva con *se* (*se vende*) es menos frecuente; se prefiere la pasiva perifrástica (*se vende* vs *es vendido*). En portugués, la pasiva sintética es la forma estándar en muchos contextos escritos.\n- **Concordancia**: En la pasiva sintética, el verbo concuerda en número con el sujeto que le sigue (*vendem‑se casas*). En la pasiva analítica, el particípio concorda con el sujeto (*as casas foram vendidas*).\n- **Registro**: La pasiva sintética es formal y típica de textos académicos, legales y publicitarios. La pasiva analítica es más neutra y se usa en la narrativa.\n\n## Sujeito indeterminado\n- Cuando no se menciona el agente, se usa *se* + verbo en 3ª pessoa singular o plural según el sujeto (*vende‑se carro*; *vendem‑se carros*).\n- En la pasiva analítica, se puede omitir el agente y usar *foi*/*foram* sin especificar quién realizó la acción.\n\n## Tabla comparativa\n| Español | Portugués (pasiva analítica) | Portugués (pasiva sintética) |\n|---|---|---|\n| Se vendió la casa. | A casa foi vendida. | Vende‑se a casa. |\n| Se construyeron puentes. | Foram construídos pontes. | Constroem‑se pontes. |\n| Se hizo el trabajo. | O trabalho foi feito. | Faz‑se o trabalho. |\n",
+  "examples": [
+   {
+    "t": "A casa foi vendida por João.",
+    "es": "La casa fue vendida por Juan."
+   },
+   {
+    "t": "Vende‑se carro usado.",
+    "es": "Se vende coche usado."
+   },
+   {
+    "t": "Construem‑se pontes novas a cada ano.",
+    "es": "Se construyen puentes nuevos cada año."
+   },
+   {
+    "t": "O relatório foi elaborado em três dias.",
+    "es": "El informe fue elaborado en tres días."
+   },
+   {
+    "t": "Vendem‑se livros usados na feira.",
+    "es": "Se venden libros usados en la feria."
+   }
+  ],
+  "common_mistakes": [
+   {
+    "wrong": "Foi vendido a casa.",
+    "right": "A casa foi vendida.",
+    "why": "El participio debe concordar con el sujeto."
+   },
+   {
+    "wrong": "Vende‑se os carros.",
+    "right": "Vendem‑se os carros.",
+    "why": "El verbo concuerda en número con el sujeto plural."
+   },
+   {
+    "wrong": "Foi feita o trabalho.",
+    "right": "O trabalho foi feito.",
+    "why": "El sujeto debe ir antes del verbo en la pasiva analítica."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "prompt": "___ (passiva sintética) ingresso para o concerto.",
+    "options": [
+     "Vende‑se",
+     "Vendemos",
+     "Vendia"
+    ],
+    "answer": 0,
+    "explanation": "Se usa la forma pasiva con se."
+   },
+   {
+    "type": "choice",
+    "prompt": "O contrato ___ (passiva analítica) ontem.",
+    "options": [
+     "foi assinado",
+     "assinou",
+     "assinaram"
+    ],
+    "answer": 0,
+    "explanation": "Se necesita el verbo ser + participio."
+   },
+   {
+    "type": "choice",
+    "prompt": "___ (passiva sintética) frutas frescas na feira.",
+    "options": [
+     "Vende‑se",
+     "Vendem‑se",
+     "Vendia‑se"
+    ],
+    "answer": 1,
+    "explanation": "El sujeto es plural, por lo tanto el verbo va en plural."
+   },
+   {
+    "type": "fill",
+    "prompt": "A ponte ___ (construir) em 1998.",
+    "answer": "foi construída",
+    "accept": [
+     "foi construída"
+    ],
+    "explanation": "Pasiva analítica con ser + participio."
+   },
+   {
+    "type": "fill",
+    "prompt": "___ (vender) livros usados aqui.",
+    "answer": "Vendem‑se",
+    "accept": [
+     "Vendem‑se"
+    ],
+    "explanation": "Pasiva sintética, verbo en plural."
+   },
+   {
+    "type": "fill",
+    "prompt": "O relatório ___ (elaborar) por três especialistas.",
+    "answer": "foi elaborado",
+    "accept": [
+     "foi elaborado"
+    ],
+    "explanation": "Pasiva analítica con agente introducido por por."
+   },
+   {
+    "type": "order",
+    "words": [
+     "O",
+     "plano",
+     "é",
+     "necessário",
+     "aprovado",
+     "."
+    ],
+    "answer": "O plano é necessário aprovado.",
+    "explanation": "Ordena la frase correcta en portugués."
+   },
+   {
+    "type": "order",
+    "words": [
+     "Vendem‑se",
+     "casas",
+     "novas",
+     "."
+    ],
+    "answer": "Vendem‑se casas novas.",
+    "explanation": "Coloca el verbo antes del sujeto en la pasiva sintética."
+   },
+   {
+    "type": "fix",
+    "prompt": "Foi feita o documento.",
+    "answer": "O documento foi feito.",
+    "explanation": "El sujeto debe ir antes del verbo y el participio concuerda."
+   },
+   {
+    "type": "translate",
+    "prompt": "Se construyeron varios edificios en la ciudad.",
+    "answer": "Construíram‑se vários edifícios na cidade.",
+    "explanation": "Traducción al portugués usando la pasiva sintética."
+   }
+  ],
+  "id": "pt-voz-passiva",
+  "level": "C1",
+  "title": "Voz pasiva y construcciones con SE",
+  "model": "openai/gpt-oss-120b"
  }
 ]

@@ -7,7 +7,7 @@ from fastapi import FastAPI
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import backup, config, db, pronunciation
+from . import backup, config, db, pronunciation, scenes
 from .api import router
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
@@ -15,12 +15,29 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name
 app = FastAPI(title="Speech V2", version="2.0.0")
 app.include_router(router)
 
+_last_mark = 0.0
+
+
+@app.middleware("http")
+async def mark_activity(request, call_next):
+    """Anota que estás usando la app: el generador de contenido se pausa para no quitarte cuota."""
+    global _last_mark
+    import time
+    if request.url.path.startswith("/api/") and time.time() - _last_mark > 30:
+        _last_mark = time.time()
+        try:
+            db.set_setting("app_active_ts", _last_mark)
+        except Exception:
+            pass
+    return await call_next(request)
+
 
 @app.on_event("startup")
 def startup():
     db.conn()
     # El modelo de fonemas tarda ~15 s en cargar: lo hacemos en segundo plano.
     pronunciation.preload_async()
+    scenes.preload_async()  # modelo de similitud para las escenas (misiones casi sin IA)
     # Copia de seguridad al arrancar y cada 2 horas (en Documentos).
     backup.start_scheduler()
 

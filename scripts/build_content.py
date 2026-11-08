@@ -19,6 +19,20 @@ sys.path.insert(0, str(ROOT / "backend"))
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from app import llm  # noqa: E402
+
+llm.SOURCE = "generator"  # su consumo se registra aparte del de la app
+from app import db as appdb  # noqa: E402
+
+
+def app_in_use() -> bool:
+    """¿Usaste la app en los últimos 10 minutos? Entonces el generador espera (comparten el límite por minuto)."""
+    import time as _t
+    try:
+        return _t.time() - float(appdb.get_setting("app_active_ts", 0) or 0) < 600
+    except Exception:
+        return False
+# Tope diario del generador en el modelo pequeño: la otra mitad queda para tus misiones.
+GEN_CAP = {"openai/gpt-oss-20b": 100_000, "openai/gpt-oss-120b": 60_000}
 from syllabus import PACKS, SYLLABUS  # noqa: E402
 
 CONTENT = ROOT / "content"
@@ -315,6 +329,16 @@ async def run(langs: list[str], parts: list[str], wait_daily: bool = True):
     async def worker(model: str, kinds: set[str]):
         nonlocal done, since_assemble
         while True:
+            if not FAST and app_in_use():
+                await asyncio.sleep(60)  # estás usando la app: el generador cede el paso
+                continue
+            if not FAST and llm.used_24h(model, "generator") >= GEN_CAP.get(model, 100_000):
+                print(f"   ⏸️  {model}: el generador ya usó su parte de hoy ({GEN_CAP.get(model)} tokens); "
+                      "espero para no quitarte cuota de las misiones.", flush=True)
+                if not wait_daily:
+                    return
+                await asyncio.sleep(1800)
+                continue
             grammar_ok = FAST or _grammar_used_today() < GRAMMAR_PER_DAY
             if "grammar" in kinds and grammar and grammar_ok:
                 queue = grammar

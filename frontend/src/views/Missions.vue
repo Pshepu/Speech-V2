@@ -16,6 +16,8 @@ const generating = ref(false)
 const freeTopic = ref('')
 const runs = ref<any[]>([])
 const unfinished = ref<any[]>([])
+const budget = ref<any>(null)
+const engine = ref('scene')
 const pendingFor = (id: string) => unfinished.value.find((u) => u.mission_id === id)
 function resume(u: any) { router.push(`/mision/${u.run_id}`) }
 async function discard(u: any) {
@@ -39,6 +41,7 @@ async function load() {
   campaigns.value = await api.get(`/missions?lang=${app.lang}`)
   runs.value = await api.get(`/runs?lang=${app.lang}`)
   unfinished.value = await api.get(`/runs/unfinished?lang=${app.lang}`)
+  budget.value = await api.get('/budget')
 }
 
 onMounted(async () => {
@@ -48,15 +51,29 @@ onMounted(async () => {
 })
 
 async function open(id: string) {
+  notes.value = ''; planning.value = 0
   briefing.value = await api.get(`/missions/${id}?lang=${app.lang}`)
 }
 
-async function start() {
+const info = (id: string) => campaigns.value.flatMap((c) => c.missions).find((m: any) => m.id === id)
+// Pre-tarea: 1 minuto de planificación antes de hablar mejora fluidez y complejidad.
+const planning = ref(0)
+const notes = ref('')
+let planTimer: any = null
+function startPlanning() {
+  planning.value = 60
+  clearInterval(planTimer)
+  planTimer = setInterval(() => { planning.value--; if (planning.value <= 0) clearInterval(planTimer) }, 1000)
+}
+
+async function start(repeat = false) {
   starting.value = true
+  clearInterval(planTimer); planning.value = 0
   const old = pendingFor(briefing.value.id)
   if (old) await api.del(`/runs/${old.run_id}`)  // empezar de nuevo descarta la partida anterior
   try {
-    const r = await api.post(`/missions/${briefing.value.id}/start`, { lang: app.lang, mode: mode.value })
+    if (notes.value.trim()) sessionStorage.setItem(`notes-${briefing.value.id}`, notes.value)
+    const r = await api.post(`/missions/${briefing.value.id}/start`, { lang: app.lang, mode: mode.value, repeat, engine: engine.value })
     sessionStorage.setItem(`run-${r.run_id}`, JSON.stringify(r))
     router.push(`/mision/${r.run_id}`)
   } catch (e: any) { app.notify(e.message, 'error') }
@@ -99,6 +116,9 @@ const titleOf = (id: string) => campaigns.value.flatMap((c) => c.missions).find(
       <div>
         <h1>🎯 Misiones</h1>
         <p>Aprende como en el entrenamiento militar de idiomas: recibes un informe, cumples la operación hablando solo en el idioma y al final analizas tus errores.</p>
+      </div>
+      <div v-if="budget" class="budget" title="Cuota gratuita diaria de Groq (se recupera durante el día)">
+        ⚡ IA hoy: ≈ <b>{{ budget.missions_left_saver }}</b> misiones en modo ahorro · {{ budget.missions_left }} con IA en cada turno
       </div>
     </div>
 
@@ -146,6 +166,7 @@ const titleOf = (id: string) => campaigns.value.flatMap((c) => c.missions).find(
             <div class="row between"><b>{{ m.title }}</b><span class="chip">{{ m.level }}</span></div>
             <small class="muted">{{ m.location }}</small>
             <small>👤 {{ m.character }} <span v-if="m.best_score != null" class="muted">· mejor: {{ Math.round(m.best_score) }}</span></small>
+            <span v-if="m.repeat_due" class="chip mission" style="align-self:flex-start;margin-top:4px">🔁 Repetir y mejorar tu marca</span>
           </div>
         </button>
       </div>
@@ -168,6 +189,27 @@ const titleOf = (id: string) => campaigns.value.flatMap((c) => c.missions).find(
         <p>👤 Contacto: <b>{{ briefing.character.name }}</b> <small class="muted">({{ briefing.character.role }})</small></p>
         <h3>Objetivos</h3>
         <ul class="objs"><li v-for="o in briefing.objectives" :key="o.id">☐ {{ o.text }}</li></ul>
+        <div class="prep">
+          <div class="row between">
+            <b>🧠 Prepárate (opcional, 1 minuto)</b>
+            <button v-if="!planning" class="btn sm" @click="startPlanning">⏱️ Empezar</button>
+            <span v-else class="chip on">⏱️ {{ planning }} s</span>
+          </div>
+          <small class="muted">Planificar un minuto antes de hablar mejora tu fluidez. Piensa qué vas a decir para cada objetivo.</small>
+          <template v-if="planning || notes">
+            <div v-if="briefing.useful_phrases?.length" class="phr">
+              <div v-for="p in briefing.useful_phrases" :key="p.t"><b>{{ p.t }}</b> <small class="muted">— {{ p.es }}</small></div>
+            </div>
+            <textarea v-model="notes" rows="3" placeholder="Tus notas: palabras clave, frases que quieres usar…"></textarea>
+          </template>
+        </div>
+        <h3>Motor</h3>
+        <div class="modes" style="margin-bottom:10px">
+          <button class="mode" :class="{ on: engine === 'scene' }" @click="engine = 'scene'">
+            <b>⚡ Modo ahorro (recomendado)</b><small>Escena preparada: la mayoría de respuestas no gastan cuota de IA. Correcciones en el informe final. La primera vez tarda unos segundos en prepararse.</small></button>
+          <button class="mode" :class="{ on: engine === 'llm' }" @click="engine = 'llm'">
+            <b>🤖 IA en cada turno</b><small>Más flexible y con corrección al momento, pero gasta mucha más cuota diaria.</small></button>
+        </div>
         <h3>Modo</h3>
         <div class="modes">
           <button class="mode" :class="{ on: mode === 'entrenamiento' }" @click="mode = 'entrenamiento'">
@@ -178,7 +220,8 @@ const titleOf = (id: string) => campaigns.value.flatMap((c) => c.missions).find(
         <div class="row" style="margin-top:18px">
           <button class="btn" @click="briefing = null">Cancelar</button>
           <button v-if="pendingFor(briefing.id)" class="btn primary lg" @click="resume(pendingFor(briefing.id))">▶️ Continuar ({{ pendingFor(briefing.id).done }}/{{ pendingFor(briefing.id).objectives }})</button>
-          <button class="btn mission lg" :disabled="starting" @click="start"><span v-if="starting" class="spin"></span> {{ pendingFor(briefing.id) ? 'Empezar de nuevo' : 'Iniciar misión' }}</button>
+          <button class="btn mission lg" :disabled="starting" @click="start(false)"><span v-if="starting" class="spin"></span> {{ pendingFor(briefing.id) ? 'Empezar de nuevo' : 'Iniciar misión' }}</button>
+          <button v-if="info(briefing.id)?.completed" class="btn lg" :disabled="starting" title="Misma misión con otros nombres, cifras e imprevisto" @click="start(true)">🔁 Repetir con variación</button>
         </div>
       </div>
     </div>
@@ -187,6 +230,9 @@ const titleOf = (id: string) => campaigns.value.flatMap((c) => c.missions).find(
 
 <style scoped>
 .campaign { margin-bottom: 16px; }
+.budget { background: var(--surface-2); padding: 6px 12px; border-radius: 10px; font-size: .9rem; }
+.prep { background: var(--surface-2); border-radius: 12px; padding: 12px; margin: 10px 0; display: flex; flex-direction: column; gap: 6px; }
+.phr { font-size: .92rem; }
 .daily { margin-bottom: 16px; border-left: 4px solid var(--mission); }
 .missions { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
 .mission-card { display: flex; gap: 12px; text-align: left; font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px; cursor: pointer; }

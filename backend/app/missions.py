@@ -15,7 +15,7 @@ import json
 import re
 import uuid
 
-from . import content, db, llm
+from . import content, db, llm, scenes
 from .config import LANGUAGES, TARGET_NAMES
 
 LEVEL_STYLE = {
@@ -29,54 +29,58 @@ LEVEL_STYLE = {
 EMOTIONS = ["neutral", "happy", "friendly", "confused", "suspicious", "annoyed", "impatient", "impressed"]
 
 
-def _character_system(m: dict, lang: str, mode: str, objectives_state: dict) -> str:
-    lname = LANGUAGES[lang]["name"]
+def _character_system(m: dict, lang: str, mode: str, objectives_state: dict | None = None) -> str:
+    """Instrucciones FIJAS del personaje (compactas: se envían en cada turno y cuentan tokens).
+    Lo que cambia turno a turno va aparte, en _state_note()."""
     target = TARGET_NAMES[lang]
     ch = m["character"]
-    objs = "\n".join(
-        f'- {o["id"]}: {o["text"]} -> {"DONE" if objectives_state.get(o["id"]) else "pending"}'
-        for o in m["objectives"]
-    )
+    objs = "; ".join(f'{o["id"]}={o["text"]}' for o in m["objectives"])
     profile = ""
     if m.get("free"):
         facts = db.get_setting("learner_profile", [])
         if facts:
-            profile = "\n## What you remember about the learner from earlier chats (use it naturally, don't list it)\n- " + "\n- ".join(facts[-20:]) + "\n"
-    extra = f"\n## Conversation format\n{m['format']}\n" if m.get("format") else ""
-    return f"""You are role-playing in a language-immersion training game for a Spanish speaker learning {target}.
-{profile}{extra}
-## Your character
-Name: {ch["name"]}. Role: {ch["role"]}. Personality: {ch["personality"]}.
-Location: {m["location"]}.
-What only you know / how you behave: {m.get("secret", "")}
-Possible complication to introduce naturally after a few turns: {m.get("complication", "none")}
+            profile = "Learner facts (use naturally): " + "; ".join(facts[-12:]) + "\n"
+    fmt = f"Format: {m['format']}\n" if m.get("format") else ""
+    return f"""Role-play game: a Spanish speaker practises {target}. You are {ch["name"]}, {ch["role"]} ({ch["personality"]}) at {m["location"]}.
+{profile}{fmt}Secret/behaviour: {m.get("secret", "")}
+Complication (after a few turns): {m.get("complication", "none")}
+Rules: stay in character; ONLY {target}, never Spanish, never say you are AI. If the learner uses Spanish, react confused. Don't volunteer what they must ask for. 1-3 short spoken sentences. {LEVEL_STYLE.get(m.get("level", "A2"), "")} Never stall or ask to wait twice: if blocked, say exactly what you need (e.g. "Could you spell your surname?") and resolve complications within 2 turns. If the learner seems confused, rephrase simply.
+Learner objectives (track silently): {objs}. Mark one done only when clearly achieved (small errors OK).
+Reply ONLY JSON: {{"reply":"{target} line","emotion":"neutral|happy|friendly|confused|suspicious|annoyed|impatient|impressed","objectives_done":["ids done so far"],"correction":null or {{"original":"learner's exact wrong phrase","corrected":"natural version","hint":"Spanish clue without the answer","explanation":"short Spanish reason","category":"tiempo verbal|preposición|artículo|orden de palabras|vocabulario|concordancia|pronombre|expresión natural|otro"}},"mission_complete":bool,"mission_failed":bool}}
+Correction: check the learner's LAST message like a strict teacher (tense, articles, prepositions, word order, unnatural phrasing); if there's an error you MUST fill it, else null. Ignore punctuation/capitals."""
 
-## Rules
-- Stay 100% in character. Speak ONLY {target}. NEVER speak Spanish, never mention you are an AI or a teacher.
-- If the learner writes in Spanish, react as a real {target} speaker would (confused, ask them to speak {target}).
-- Do NOT volunteer the information the learner must obtain: they must ask for it.
-- Replies: 1-3 short sentences, natural spoken language. {LEVEL_STYLE.get(m.get("level", "A2"), "")}
-- Be realistic: if the learner is rude or unclear, react like a real person would.
-- NEVER stall. Every reply must move the scene forward. Never say "please wait", "still checking" or "hold on" twice.
-- If a complication blocks progress, tell the learner CLEARLY what you need from them (e.g. "Could you spell your surname for me?").
-  A complication must be resolved within 2 learner turns, even if the learner's answer is imperfect.
-- If the learner asks for something before it's possible, say exactly what must happen first.
-- If the learner seems confused ("?", "what?", "sorry?"), rephrase what you said more simply and slowly.
 
-## Learner's mission objectives (secret from the learner's perspective, you just track them)
-{objs}
-Mark an objective done only when the learner has clearly achieved it in {target} (minor grammar errors are OK if the meaning is clear).
+BIG, SMALL = "openai/gpt-oss-120b", "openai/gpt-oss-20b"
 
-## Output: ONLY JSON
-{{
- "reply": "your in-character line in {target}",
- "emotion": one of {EMOTIONS},
- "objectives_done": ["ids of objectives completed so far, including earlier ones"],
- "correction": null OR {{"original": "the learner's exact wrong phrase", "corrected": "natural correct version", "hint": "a clue IN SPANISH that helps the learner find the error WITHOUT giving the answer (e.g. 'Revisa el tiempo verbal: es algo que ya pasó')", "explanation": "very short reason IN SPANISH", "category": "one of: tiempo verbal, preposición, artículo, orden de palabras, vocabulario, concordancia, pronombre, ortografía, expresión natural, otro"}},
- "mission_complete": true if ALL objectives are done and the scene reached a natural end,
- "mission_failed": true only if the learner clearly made it impossible (e.g. insulted you, left)
-}}
-Check the learner's LAST message carefully, like a strict teacher: wrong verb form or tense, missing/wrong article, wrong preposition (e.g. "for go" → "to go"), word order, false friends, or anything a native would never say. If there is any such error, you MUST fill "correction" (pick the most important one). Only use null if the message is truly correct and natural. Ignore missing punctuation/capitals (it comes from speech transcription)."""
+
+def _turn_models(level: str) -> list[str]:
+    """Modelo para los turnos del personaje. A1-B1: el pequeño basta (y ahorra el grande).
+    B2-C1: el grande, mientras le quede cuota de sobra; si no, el que tenga más."""
+    if level in ("B2", "C1", "C2") and llm.remaining(BIG) > 40_000:
+        return [BIG, SMALL]
+    if llm.remaining(SMALL) > 20_000:
+        return [SMALL, BIG]
+    return llm.route([BIG, SMALL])
+
+
+def _state_note(m: dict, state: dict) -> str:
+    """Nota breve con el estado actual (va al FINAL de los mensajes, no en las instrucciones)."""
+    done = state.get("done", [])
+    pending = [o["id"] for o in m["objectives"] if o["id"] not in done]
+    note = f"[State: done={done or 'none'}; pending={pending or 'none'}."
+    words = state.get("target_words") or []
+    if words:
+        used = set(state.get("words_used", []))
+        left = [w["front"] for w in words if w["front"] not in used]
+        if left:
+            note += f" Naturally give the learner chances to use: {', '.join(left)}."
+    stall = int(state.get("stall", 0))
+    if stall >= 2 and not m.get("free"):
+        note += (f" Scene stuck for {stall} turns: resolve the pending complication now or ask simply "
+                 "for the one thing you need. Don't ask them to wait.")
+    if state.get("variation"):
+        note += f" This is a REPEAT with variation: {state['variation']}"
+    return note + "]"
 
 
 def _refers_to(fragment: str, message: str) -> bool:
@@ -95,6 +99,15 @@ def _refers_to(fragment: str, message: str) -> bool:
 
 def list_missions(lang: str) -> list[dict]:
     progress = {r["mission_id"]: r for r in db.query("SELECT * FROM mission_progress WHERE lang=?", (lang,))}
+    last_run = {r["mission_id"]: r["f"] for r in db.query(
+        "SELECT mission_id, MAX(finished) AS f FROM mission_runs WHERE lang=? AND finished IS NOT NULL GROUP BY mission_id", (lang,))}
+    today = db.today()
+
+    def repeat_due(mid: str, p) -> bool:
+        # Repetir con variación 1-7 días después, mientras la marca sea mejorable.
+        if not p or not p["completed"] or (p["best_score"] or 0) >= 90 or mid not in last_run:
+            return False
+        return last_run[mid][:10] < today and (p["runs"] or 0) < 4
     out = []
     for c in content.campaigns(lang):
         prev_done = True
@@ -108,6 +121,7 @@ def list_missions(lang: str) -> list[dict]:
                 "best_score": p["best_score"] if p else None,
                 "completed": bool(p and p["completed"]),
                 "unlocked": prev_done,
+                "repeat_due": repeat_due(m["id"], p),
             })
             prev_done = bool(p and p["completed"])
         out.append({"id": c["id"], "title": c["title"], "description": c["description"], "missions": ms})
@@ -220,22 +234,84 @@ def free_talk_mission(lang: str, topic: str, level: str, kind: str = "libre") ->
     }
 
 
-async def start_run(lang: str, mission: dict, mode: str) -> dict:
+async def ensure_scene(lang: str, mission: dict) -> dict | None:
+    """Devuelve la escena preparada de la misión; si no existe, la genera UNA vez y la guarda."""
+    if mission.get("free"):
+        return None
+    sc = scenes.get_scene(lang, mission)
+    if sc:
+        return sc
+    sc = await scenes.generate_scene(lang, mission)
+    row = db.one("SELECT data FROM custom_missions WHERE id=?", (mission["id"],))
+    if row:  # misión generada por IA: la escena se guarda junto a ella
+        data = json.loads(row["data"])
+        data["scene"] = sc
+        db.execute("UPDATE custom_missions SET data=? WHERE id=?", (json.dumps(data, ensure_ascii=False), mission["id"]))
+    else:
+        scenes.save_scene(lang, mission["id"], sc)
+    return sc
+
+
+async def start_run(lang: str, mission: dict, mode: str, variation: str | None = None,
+                    engine: str = "llm") -> dict:
     opening = mission.get("opening") or ""
     if not opening:
         res = await llm.json_call(
             _character_system(mission, lang, mode, {}),
             "[The learner just arrived. Start the scene with a natural opening line. Return the JSON.]",
-            temperature=0.8,
+            temperature=0.8, max_tokens=500, models=[SMALL, BIG],
         )
         opening = res.get("reply", "Hi!")
     transcript = [{"role": "assistant", "content": opening, "emotion": "friendly"}]
+    state = {"done": [], "corrections": [], "target_words": pick_target_words(lang), "words_used": []}
+    if variation:
+        state["variation"] = variation
+    # En una repetición con variación la escena preparada no encaja (cambian los datos): se usa IA.
+    if engine == "scene" and not variation:
+        try:
+            if await ensure_scene(lang, mission):
+                state["engine"] = "scene"
+        except (llm.LLMError, ValueError) as e:
+            import logging
+            logging.getLogger("missions").warning("No se pudo preparar la escena: %s", e)
     run_id = db.execute(
         "INSERT INTO mission_runs(lang, mission_id, mode, mission, transcript, state, started) VALUES (?,?,?,?,?,?,?)",
         (lang, mission["id"], mode, json.dumps(mission, ensure_ascii=False),
-         json.dumps(transcript, ensure_ascii=False), json.dumps({"done": [], "corrections": []}), db.now_iso()),
+         json.dumps(transcript, ensure_ascii=False), json.dumps(state, ensure_ascii=False), db.now_iso()),
     )
-    return {"run_id": run_id, "mission": public_mission(mission), "opening": opening, "mode": mode}
+    return {"run_id": run_id, "mission": public_mission(mission), "opening": opening, "mode": mode,
+            "target_words": state["target_words"], "engine": state.get("engine", "llm")}
+
+
+FUNCTION_WORDS = {"have", "with", "that", "this", "from", "they", "there", "their", "would", "could", "should", "about",
+                  "what", "when", "your", "were", "been", "will", "into", "than", "then", "them", "some", "just",
+                  "also", "only", "very", "much", "more", "most", "such", "even", "over", "like", "does", "doing"}
+
+
+def pick_target_words(lang: str, n: int = 4) -> list[dict]:
+    """Palabras/expresiones de TU repaso para usar en la misión (las más urgentes primero).
+    Usarlas al hablar suma los encuentros que hacen falta para dominarlas de forma productiva."""
+    rows = db.query(
+        "SELECT id, front, back, kind, extra FROM cards WHERE lang=? AND suspended=0 AND kind IN ('word','phrase') "
+        "AND state IN (1,2,3) AND length(front) > 3 ORDER BY due LIMIT ?", (lang, n * 10))
+    function_pos = {"det", "pron", "prep", "conj", "aux", "num", "interj", "other"}
+
+    def useful(r) -> bool:
+        if r["front"].strip().lower() == r["back"].strip().lower():
+            return False  # tarjeta mal guardada (misma palabra en ambas caras)
+        if r["kind"] == "phrase":
+            return True
+        pos = (json.loads(r["extra"] or "{}").get("pos") or "").lower()
+        return pos not in function_pos and r["front"].lower() not in FUNCTION_WORDS
+    import random as _r
+    rows = [r for r in rows if useful(r)][: n * 2]
+    if len(rows) < n:  # pocas en repaso: completamos con tarjetas nuevas útiles de tu mazo
+        extra = db.query(
+            "SELECT id, front, back, kind, extra FROM cards WHERE lang=? AND suspended=0 AND kind IN ('word','phrase') "
+            "AND state=0 AND length(front) > 3 ORDER BY created LIMIT ?", (lang, n * 10))
+        rows += [r for r in extra if useful(r)][: n - len(rows)]
+    _r.shuffle(rows)
+    return [{"id": r["id"], "front": r["front"], "back": r["back"]} for r in rows[:n]]
 
 
 def public_mission(m: dict) -> dict:
@@ -261,43 +337,80 @@ async def turn(run_id: int, text: str) -> dict:
     m, lang, state = run["mission"], run["lang"], run["state"]
     transcript = run["transcript"]
     transcript.append({"role": "user", "content": text})
-
-    done_map = {d: True for d in state["done"]}
-    messages = [{"role": "system", "content": _character_system(m, lang, run["mode"], done_map)}]
-    for t in transcript[-16:]:
-        messages.append({"role": t["role"], "content": t["content"]})
-    stall = int(state.get("stall", 0))
-    if stall >= 2 and not m.get("free"):
-        # "Director de escena": la conversación lleva varios turnos sin avanzar.
-        messages.append({"role": "system", "content":
-            f"[Scene director: the scene has been stuck for {stall} turns. In THIS reply, resolve any pending "
-            "complication and move the scene forward, or ask the learner directly and simply for the one thing "
-            "you need. Do not ask them to wait again.]"})
-    res = await llm.chat(messages, json_mode=True, temperature=0.7, max_tokens=1200)
-
-    reply = (res.get("reply") or "...").strip()
     valid_ids = {o["id"] for o in m["objectives"]}
-    newly = [o for o in (res.get("objectives_done") or []) if o in valid_ids and o not in state["done"]]
+    stall = int(state.get("stall", 0))
+    user_turns = sum(1 for t in transcript if t["role"] == "user")
+
+    # Palabras de tu repaso que usaste en este mensaje (sin IA: búsqueda de texto).
+    low = " " + re.sub(r"[^\w' ]", " ", text.lower()) + " "
+    for w in state.get("target_words") or []:
+        key = re.sub(r"^(der|die|das|to|the|a|an|le|la|les|o|os|as) ", "", w["front"].lower()).strip()
+        if key and f" {key} " in low and w["front"] not in state.setdefault("words_used", []):
+            state["words_used"].append(w["front"])
+
+    reply, emotion, newly, corr, complete, failed, engine_used = None, "neutral", [], None, False, False, "llm"
+
+    # 1) Modo escena: el enrutador local intenta responder SIN IA.
+    if state.get("engine") == "scene":
+        from fastapi.concurrency import run_in_threadpool
+        scene = scenes.get_scene(lang, m)
+        if scene:
+            move, _sim = await run_in_threadpool(scenes.route, scene, state, text)
+            if move:
+                engine_used = "scene"
+                state.setdefault("moves_done", []).append(move["id"])
+                if move["objective"] and move["objective"] not in state["done"]:
+                    newly = [move["objective"]]
+                reply, emotion = move["reply"], "friendly"
+                state["scene_misses"] = 0
+            else:
+                state["scene_misses"] = int(state.get("scene_misses", 0)) + 1
+                ai_ok = state.get("allow_ai", True) and (llm.remaining(SMALL) + llm.remaining(BIG)) > 8000
+                if not ai_ok:
+                    engine_used = "scene"
+                    reply, emotion = scenes.nudge_line(scene, m, state), "confused"
+
+    # 2) Turno de IA (instrucciones compactas + saludo inicial + últimos 6 mensajes + nota de estado).
+    if reply is None:
+        messages = [{"role": "system", "content": _character_system(m, lang, run["mode"])}]
+        hist = transcript if len(transcript) <= 7 else transcript[:1] + transcript[-6:]
+        for t in hist:
+            messages.append({"role": t["role"], "content": t["content"]})
+        messages.append({"role": "system", "content": _state_note(m, state)})
+        res = await llm.chat(messages, json_mode=True, temperature=0.7, max_tokens=700,
+                             models=_turn_models(m.get("level", "A2")))
+        reply = (res.get("reply") or "...").strip()
+        emotion = res.get("emotion", "neutral")
+        newly = [o for o in (res.get("objectives_done") or []) if o in valid_ids and o not in state["done"]]
+        failed = bool(res.get("mission_failed"))
+        corr = res.get("correction")
+        if isinstance(corr, dict) and corr.get("original") and corr.get("corrected") \
+                and corr["original"].strip().lower() != corr["corrected"].strip().lower() \
+                and _refers_to(corr["original"], text):
+            state["corrections"].append(corr)
+        else:
+            corr = None
+        complete = bool(res.get("mission_complete"))
+
     state["done"] = sorted(set(state["done"]) | set(newly))
     state["stall"] = 0 if newly else stall + 1
-    corr = res.get("correction")
-    if isinstance(corr, dict) and corr.get("original") and corr.get("corrected") \
-            and corr["original"].strip().lower() != corr["corrected"].strip().lower() \
-            and _refers_to(corr["original"], text):
-        state["corrections"].append(corr)
-    else:
-        corr = None
-    user_turns = sum(1 for t in transcript if t["role"] == "user")
-    complete = bool(res.get("mission_complete")) and len(state["done"]) == len(valid_ids)
-    failed = bool(res.get("mission_failed"))
+    all_done = len(state["done"]) == len(valid_ids)
+    if engine_used == "scene" and all_done:
+        complete = True
+        closing = (scenes.get_scene(lang, m) or {}).get("closing")
+        if closing and closing not in reply and not state.get("closed"):
+            reply = f"{reply} {closing}"
+        state["closed"] = True
+    complete = complete and all_done
     out_of_turns = user_turns >= m.get("max_turns", 16)
+    state.setdefault("engine_log", []).append(engine_used)
 
-    transcript.append({"role": "assistant", "content": reply, "emotion": res.get("emotion", "neutral")})
+    transcript.append({"role": "assistant", "content": reply, "emotion": emotion})
     db.execute("UPDATE mission_runs SET transcript=?, state=? WHERE id=?",
                (json.dumps(transcript, ensure_ascii=False), json.dumps(state, ensure_ascii=False), run_id))
     return {
         "reply": reply,
-        "emotion": res.get("emotion", "neutral"),
+        "emotion": emotion,
         "objectives_done": state["done"],
         "new_objectives": newly,
         "correction": corr if run["mode"] == "entrenamiento" else None,
@@ -307,6 +420,8 @@ async def turn(run_id: int, text: str) -> dict:
         "out_of_turns": out_of_turns and not complete,
         "turns_left": max(0, m.get("max_turns", 16) - user_turns),
         "stuck": state["stall"] >= 3 and not m.get("free"),  # el frontend ofrece una pista
+        "words_used": state.get("words_used", []),
+        "engine": engine_used,  # "scene" = respondido sin gastar IA
     }
 
 
@@ -321,7 +436,7 @@ async def hint(run_id: int) -> dict:
         "You help a Spanish speaker in a role-play language game. Suggest what they could say NEXT. "
         f"Return JSON {{\"suggestions\": [{{\"t\": \"{target} phrase\", \"es\": \"Spanish translation\"}}], \"tip\": \"short tip in Spanish\"}} with 2-3 suggestions at CEFR {m.get('level','A2')}.",
         f"Pending objectives: {pending}\nConversation:\n{convo}",
-        temperature=0.6, model=None,
+        temperature=0.6, max_tokens=700, models=[SMALL, BIG],
     )
     return res
 
@@ -334,8 +449,9 @@ async def finish(run_id: int) -> dict:
     m, lang, state = run["mission"], run["lang"], run["state"]
     target = TARGET_NAMES[lang]
     learner_lines = [t["content"] for t in run["transcript"] if t["role"] == "user"]
-    convo = "\n".join(f'{"Learner" if t["role"] == "user" else m["character"]["name"]}: {t["content"]}'
-                      for t in run["transcript"])
+    # Ahorro: el informe recibe la situación y SOLO las frases del alumno (no todo el diálogo).
+    convo = (f"Situation: {m.get('title')} — {m.get('location')}. The learner talked with {m['character']['name']} "
+             f"({m['character']['role']}).\nLearner lines:\n" + "\n".join(f"{i + 1}. {l}" for i, l in enumerate(learner_lines)))
     objectives_total = len(m["objectives"])
     done = len(state["done"])
 
@@ -348,9 +464,10 @@ async def finish(run_id: int) -> dict:
                 "\"improvements\": [\"concrete advice in Spanish\"], "
                 f"\"better_versions\": [{{\"original\": \"exact line said by the Learner (never the character)\", \"better\": \"more natural {target}\", \"why\": \"Spanish\"}}] (max 4, only Learner lines worth improving), "
                 f"\"new_vocab\": [{{\"t\": \"useful {target} word or phrase from this situation\", \"es\": \"Spanish\"}}] (5 items), "
+                f"\"errors\": [{{\"original\": \"wrong phrase copied from a Learner line\", \"corrected\": \"natural {target}\", \"explanation\": \"short Spanish\", \"category\": \"tiempo verbal|preposición|artículo|orden de palabras|vocabulario|concordancia|pronombre|expresión natural|otro\"}}] (max 6, real errors only), "
                 "\"fluency\": 0-100, \"accuracy\": 0-100, "
                 "\"profile_facts\": [\"short facts the Learner revealed about their REAL life (job, hobbies, family, goals, city), in English; empty list if none or if it was a role-play cover story\"]}",
-                convo, temperature=0.4, max_tokens=2500,
+                convo, temperature=0.4, max_tokens=1800, models=[BIG, SMALL], fallbacks=False,
             )
         except llm.LLMError:
             pass
@@ -373,8 +490,24 @@ async def finish(run_id: int) -> dict:
     obj_score = 100 * done / objectives_total if objectives_total else 0
     acc = float(review.get("accuracy") or 0)
     flu = float(review.get("fluency") or 0)
-    score = round(0.5 * obj_score + 0.3 * acc + 0.2 * flu, 1)
+    if review.get("accuracy") is None and review.get("fluency") is None or (not acc and not flu and not review.get("summary")):
+        # El análisis no se pudo generar (sin cuota): no se penaliza, cuentan solo los objetivos.
+        score = round(obj_score, 1)
+        review["summary"] = review.get("summary") or ("No se pudo generar el análisis detallado (cuota de IA agotada "
+                                                      "por ahora); tu puntuación se basa en los objetivos cumplidos.")
+    else:
+        score = round(0.5 * obj_score + 0.3 * acc + 0.2 * flu, 1)
     success = done == objectives_total
+
+    # Errores detectados en el informe (clave en modo escena, donde no hay corrección turno a turno).
+    seen_orig = {c.get("original", "").strip().lower() for c in state["corrections"]}
+    for e in review.get("errors") or []:
+        if isinstance(e, dict) and e.get("original") and e.get("corrected") \
+                and e["original"].strip().lower() not in seen_orig \
+                and e["original"].strip().lower() != e["corrected"].strip().lower() \
+                and any(_refers_to(e["original"], l) for l in learner_lines):
+            state["corrections"].append(e)
+            seen_orig.add(e["original"].strip().lower())
 
     # Cada error se guarda en el cuaderno de errores y se convierte en tarjeta de repaso.
     source = "free_talk" if m.get("free") else "mission"
@@ -382,11 +515,40 @@ async def finish(run_id: int) -> dict:
         db.log_mistake(lang, source, c.get("original", ""), c.get("corrected", ""),
                        c.get("explanation", ""), c.get("category", "otro"))
 
+    # Palabras de tu repaso que USASTE hablando: cuentan como repaso acertado si tocaba repasarlas.
+    from . import srs
+    used = state.get("words_used", [])
+    credited = []
+    for w in state.get("target_words") or []:
+        if w["front"] in used:
+            row = db.one("SELECT due FROM cards WHERE id=?", (w["id"],))
+            if row and row["due"] <= db.now_iso():
+                try:
+                    srs.review(w["id"], "good")
+                    credited.append(w["front"])
+                except KeyError:
+                    pass
+
+    # Repetición de tarea: comparación con tu intento anterior de la misma misión.
+    prev_run = db.one("SELECT result FROM mission_runs WHERE lang=? AND mission_id=? AND finished IS NOT NULL "
+                      "AND id<? ORDER BY id DESC LIMIT 1", (lang, m["id"], run_id)) if not m.get("free") else None
+    prev_score = None
+    if prev_run and prev_run["result"]:
+        pr = json.loads(prev_run["result"])
+        if not pr.get("abandoned"):
+            prev_score = pr.get("score")
+
     result = {
         "score": score, "success": success, "objectives_done": state["done"],
         "objectives_total": objectives_total, "corrections": state["corrections"],
         "turns": len(learner_lines), **{k: review.get(k) for k in
                                          ("summary", "strengths", "improvements", "better_versions", "new_vocab", "fluency", "accuracy")},
+        "target_words": [w["front"] for w in state.get("target_words") or []],
+        "words_used": used, "words_credited": credited,
+        "previous_score": prev_score,
+        "scene_turns": (state.get("engine_log") or []).count("scene"),
+        "ai_turns": (state.get("engine_log") or []).count("llm"),
+        "repeat": bool(state.get("variation")),
     }
     db.execute("UPDATE mission_runs SET result=?, finished=? WHERE id=?",
                (json.dumps(result, ensure_ascii=False), db.now_iso(), run_id))

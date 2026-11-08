@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 ROOT = Path(__file__).resolve().parents[2]  # carpeta Speech-V2
 BACKEND = ROOT / "backend"
 CONTENT_DIR = ROOT / "content"
-DATA_DIR = ROOT / "data"          # progreso personal (no se versiona)
+DATA_DIR = Path(os.getenv("SPEECH_DATA_DIR") or (ROOT / "data"))  # progreso personal (no se versiona)
 TTS_CACHE_DIR = DATA_DIR / "tts_cache"
 FRONTEND_DIST = ROOT / "frontend" / "dist"
 MODELS_DIR = ROOT / "models"

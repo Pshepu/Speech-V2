@@ -18942,13 +18942,453 @@
   "zipf": 4.72
  },
  {
+  "word": "vencer",
+  "translation": "ganar, vencer",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "Eu vou vencer a prova amanhã.",
+  "example_es": "Voy a ganar la prueba mañana.",
+  "rank": 1723,
+  "level": "B1",
+  "zipf": 4.72
+ },
+ {
+  "word": "agente",
+  "translation": "agente, representante",
+  "pos": "noun",
+  "category": "trabajo y estudios",
+  "example": "O agente negociou o contrato.",
+  "example_es": "El agente negoció el contrato.",
+  "rank": 1724,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "almoço",
+  "translation": "almuerzo, comida del mediodía",
+  "pos": "noun",
+  "category": "comida y bebida",
+  "example": "Vamos ao almoço no parque.",
+  "example_es": "Vamos al almuerzo en el parque.",
+  "rank": 1725,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "ambiental",
+  "translation": "ambiental, ecológico",
+  "pos": "adj",
+  "category": "naturaleza y clima",
+  "example": "Política ambiental é importante.",
+  "example_es": "Política ambiental es importante.",
+  "rank": 1726,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "bela",
+  "translation": "hermosa, bonita",
+  "pos": "adj",
+  "category": "emociones y carácter",
+  "example": "Ela tem uma bela voz.",
+  "example_es": "Ella tiene una voz hermosa.",
+  "rank": 1727,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "cadeia",
+  "translation": "cadena, cadena de prisión",
+  "pos": "noun",
+  "category": "cuerpo y salud",
+  "example": "A cadeia está fechada.",
+  "example_es": "La cadena está cerrada.",
+  "rank": 1728,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "calor",
+  "translation": "calor, temperatura alta",
+  "pos": "noun",
+  "category": "cuerpo y salud",
+  "example": "O calor é intenso hoje.",
+  "example_es": "El calor es intenso hoy.",
+  "rank": 1729,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "capa",
+  "translation": "capa, cubierta",
+  "pos": "noun",
+  "category": "casa",
+  "example": "A capa protege o livro.",
+  "example_es": "La capa protege el libro.",
+  "rank": 1730,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "cenas",
+  "translation": "cenas, comidas nocturnas",
+  "pos": "noun",
+  "category": "comida y bebida",
+  "example": "As cenas foram deliciosas.",
+  "example_es": "Las cenas fueron deliciosas.",
+  "rank": 1731,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "chegada",
+  "translation": "llegada, llegada",
+  "pos": "noun",
+  "category": "viajes y transporte",
+  "example": "A chegada foi atrasada.",
+  "example_es": "La llegada fue retrasada.",
+  "rank": 1732,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "crimes",
+  "translation": "crímenes, delitos",
+  "pos": "noun",
+  "category": "trabajo y estudios",
+  "example": "Os crimes aumentaram.",
+  "example_es": "Los crímenes aumentaron.",
+  "rank": 1733,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "curta",
+  "translation": "corta, breve",
+  "pos": "adj",
+  "category": "emociones y carácter",
+  "example": "Ele fez uma curta pausa.",
+  "example_es": "Él hizo una breve pausa.",
+  "rank": 1734,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "discurso",
+  "translation": "discurso, discurso hablado",
+  "pos": "noun",
+  "category": "comunicación",
+  "example": "O discurso foi inspirador.",
+  "example_es": "El discurso fue inspirador.",
+  "rank": 1735,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "estudar",
+  "translation": "estudiar, aprender",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "Eu estudo todos os dias.",
+  "example_es": "Yo estudio todos los días.",
+  "rank": 1736,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "homenagem",
+  "translation": "homenaje, tributo",
+  "pos": "noun",
+  "category": "ocio y deportes",
+  "example": "A homenagem foi emocionante.",
+  "example_es": "El homenaje fue emocionante.",
+  "rank": 1737,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "live",
+  "translation": "en vivo, directo",
+  "pos": "adj",
+  "category": "tecnología",
+  "example": "Show ao vivo é popular.",
+  "example_es": "Show en vivo es popular.",
+  "rank": 1738,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "love",
+  "translation": "amor, amor romántico",
+  "pos": "noun",
+  "category": "emociones y carácter",
+  "example": "Ele tem love por ela.",
+  "example_es": "Él tiene amor por ella.",
+  "rank": 1739,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "mail",
+  "translation": "correo, email",
+  "pos": "noun",
+  "category": "tecnología",
+  "example": "Enviei um mail.",
+  "example_es": "Envié un correo.",
+  "rank": 1740,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "mandou",
+  "translation": "enviou, mandou",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "Ela mandou a mensagem.",
+  "example_es": "Ella envió el mensaje.",
+  "rank": 1741,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "mantém",
+  "translation": "mantiene, mantém",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "Ele mantém a calma.",
+  "example_es": "Él mantiene la calma.",
+  "rank": 1742,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "mapa",
+  "translation": "mapa, plano",
+  "pos": "noun",
+  "category": "casa",
+  "example": "O mapa mostra o caminho.",
+  "example_es": "El mapa muestra el camino.",
+  "rank": 1743,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "medicina",
+  "translation": "medicina, cura",
+  "pos": "noun",
+  "category": "cuerpo y salud",
+  "example": "A medicina ajuda.",
+  "example_es": "La medicina ayuda.",
+  "rank": 1744,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "merece",
+  "translation": "merece, merece",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "Ela merece sucesso.",
+  "example_es": "Ella merece éxito.",
+  "rank": 1745,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "né",
+  "translation": "não, não é?",
+  "pos": "interj",
+  "category": "palabras funcionales",
+  "example": "Você não vai, né?",
+  "example_es": "¿No vas, verdad?",
+  "rank": 1746,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "ocorre",
+  "translation": "ocorre, acontece",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "O evento ocorre amanhã.",
+  "example_es": "El evento ocurre mañana.",
+  "rank": 1747,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "pessoais",
+  "translation": "personales, privados",
+  "pos": "adj",
+  "category": "otros",
+  "example": "Documentos pessoais são importantes.",
+  "example_es": "Documentos personales son importantes.",
+  "rank": 1748,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "ponte",
+  "translation": "puente, ponte",
+  "pos": "noun",
+  "category": "ciudad y lugares",
+  "example": "A ponte liga as cidades.",
+  "example_es": "El puente liga las ciudades.",
+  "rank": 1749,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "portas",
+  "translation": "puertas, portões",
+  "pos": "noun",
+  "category": "casa",
+  "example": "As portas estão abertas.",
+  "example_es": "Las puertas están abiertas.",
+  "rank": 1750,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "produto",
+  "translation": "producto, resultado",
+  "pos": "noun",
+  "category": "compras y dinero",
+  "example": "O produto é novo.",
+  "example_es": "El producto es nuevo.",
+  "rank": 1751,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "promover",
+  "translation": "promover, impulsar",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "Ele promove a causa.",
+  "example_es": "Él promueve la causa.",
+  "rank": 1752,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "quantos",
+  "translation": "cuántos, quantos",
+  "pos": "det",
+  "category": "números y cantidades",
+  "example": "Quantos livros você tem?",
+  "example_es": "¿Cuántos libros tienes?",
+  "rank": 1753,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "reação",
+  "translation": "reacción, resposta",
+  "pos": "noun",
+  "category": "emociones y carácter",
+  "example": "A reação foi rápida.",
+  "example_es": "La reacción fue rápida.",
+  "rank": 1754,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "salvar",
+  "translation": "salvar, salvar",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "Ele salvou o arquivo.",
+  "example_es": "Él salvó el archivo.",
+  "rank": 1755,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "sentimento",
+  "translation": "sentimiento, emoción",
+  "pos": "noun",
+  "category": "emociones y carácter",
+  "example": "O sentimento é forte.",
+  "example_es": "El sentimiento es fuerte.",
+  "rank": 1756,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "sr",
+  "translation": "señor, senhor",
+  "pos": "title",
+  "category": "otros",
+  "example": "Sr. Silva é meu professor.",
+  "example_es": "Sr. Silva es mi profesor.",
+  "rank": 1757,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "tentou",
+  "translation": "intentó, tentou",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "Ela tentou novamente.",
+  "example_es": "Ella intentó de nuevo.",
+  "rank": 1758,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "textos",
+  "translation": "textos, escritos",
+  "pos": "noun",
+  "category": "comunicación",
+  "example": "Os textos são claros.",
+  "example_es": "Los textos son claros.",
+  "rank": 1759,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "toma",
+  "translation": "toma, toma",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "Ele toma café.",
+  "example_es": "Él toma café.",
+  "rank": 1760,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "tornando",
+  "translation": "convirtiendo, tornando",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "Ela está tornando-se artista.",
+  "example_es": "Ella se está convirtiendo en artista.",
+  "rank": 1761,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
+  "word": "trouxe",
+  "translation": "trajo, trouxe",
+  "pos": "verb",
+  "category": "verbos comunes",
+  "example": "Ele trouxe o presente.",
+  "example_es": "Él trajo el regalo.",
+  "rank": 1762,
+  "level": "B1",
+  "zipf": 4.71
+ },
+ {
   "word": "autoridades",
   "translation": "autoridades",
   "pos": "noun",
   "category": "personas y familia",
   "example": "As autoridades decidiram a ação.",
   "example_es": "Las autoridades decidieron la acción.",
-  "rank": 1723,
+  "rank": 1763,
   "level": "B1",
   "zipf": 4.7
  },
@@ -18959,7 +19399,7 @@
   "category": "ciudad y lugares",
   "example": "Avenida Paulista é famosa.",
   "example_es": "Avenida Paulista es famosa.",
-  "rank": 1724,
+  "rank": 1764,
   "level": "B1",
   "zipf": 4.7
  },
@@ -18970,7 +19410,7 @@
   "category": "comunicación",
   "example": "Ele fez um comentário.",
   "example_es": "Él hizo un comentario.",
-  "rank": 1725,
+  "rank": 1765,
   "level": "B1",
   "zipf": 4.7
  },
@@ -18981,7 +19421,7 @@
   "category": "trabajo y estudios",
   "example": "Participei de um concurso.",
   "example_es": "Participé de un concurso.",
-  "rank": 1726,
+  "rank": 1766,
   "level": "B1",
   "zipf": 4.7
  },
@@ -18992,7 +19432,7 @@
   "category": "verbos comunes",
   "example": "O livro contém informações.",
   "example_es": "El libro contiene información.",
-  "rank": 1727,
+  "rank": 1767,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19003,7 +19443,7 @@
   "category": "comida y bebida",
   "example": "Ele fez um desenho bonito.",
   "example_es": "Él hizo un dibujo bonito.",
-  "rank": 1728,
+  "rank": 1768,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19014,7 +19454,7 @@
   "category": "comunicación",
   "example": "A divulgação foi ampla.",
   "example_es": "La divulgación fue amplia.",
-  "rank": 1729,
+  "rank": 1769,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19025,7 +19465,7 @@
   "category": "verbos comunes",
   "example": "Eu dou um presente.",
   "example_es": "Yo doy un regalo.",
-  "rank": 1730,
+  "rank": 1770,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19036,7 +19476,7 @@
   "category": "palabras funcionales",
   "example": "Enfim, vamos embora.",
   "example_es": "En fin, vamos embora.",
-  "rank": 1731,
+  "rank": 1771,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19047,7 +19487,7 @@
   "category": "verbos comunes",
   "example": "Eu estaria feliz.",
   "example_es": "Yo estaría feliz.",
-  "rank": 1732,
+  "rank": 1772,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19058,7 +19498,7 @@
   "category": "ocio y deportes",
   "example": "A exposição foi incrível.",
   "example_es": "La exposición fue increíble.",
-  "rank": 1733,
+  "rank": 1773,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19069,7 +19509,7 @@
   "category": "casa",
   "example": "Ele trouxe ferramentas.",
   "example_es": "Él trajo herramientas.",
-  "rank": 1734,
+  "rank": 1774,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19080,7 +19520,7 @@
   "category": "tecnología",
   "example": "O formato é PDF.",
   "example_es": "El formato es PDF.",
-  "rank": 1735,
+  "rank": 1775,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19091,7 +19531,7 @@
   "category": "casa",
   "example": "Ela tirou fotografia.",
   "example_es": "Ella tomó fotografía.",
-  "rank": 1736,
+  "rank": 1776,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19102,7 +19542,7 @@
   "category": "verbos comunes",
   "example": "Eu gosto de música.",
   "example_es": "Me gusta la música.",
-  "rank": 1737,
+  "rank": 1777,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19113,7 +19553,7 @@
   "category": "adjetivos comunes",
   "example": "A fase inicial é crítica.",
   "example_es": "La fase inicial es crítica.",
-  "rank": 1738,
+  "rank": 1778,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19124,7 +19564,7 @@
   "category": "trabajo y estudios",
   "example": "A instituição educa.",
   "example_es": "La institución educa.",
-  "rank": 1739,
+  "rank": 1779,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19135,7 +19575,7 @@
   "category": "emociones y carácter",
   "example": "Sua intenção é clara.",
   "example_es": "Su intención es clara.",
-  "rank": 1740,
+  "rank": 1780,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19146,7 +19586,7 @@
   "category": "ciudad y lugares",
   "example": "Viajamos à Itália.",
   "example_es": "Viajamos a Italia.",
-  "rank": 1741,
+  "rank": 1781,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19157,7 +19597,7 @@
   "category": "números y cantidades",
   "example": "Temos um milhão de euros.",
   "example_es": "Tenemos un millón de euros.",
-  "rank": 1742,
+  "rank": 1782,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19168,7 +19608,7 @@
   "category": "ciudad y lugares",
   "example": "Os municípios são diversos.",
   "example_es": "Los municipios son diversos.",
-  "rank": 1743,
+  "rank": 1783,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19179,7 +19619,7 @@
   "category": "casa",
   "example": "Ele deixou notas.",
   "example_es": "Él dejó notas.",
-  "rank": 1744,
+  "rank": 1784,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19190,7 +19630,7 @@
   "category": "trabajo y estudios",
   "example": "As organizações ajudam.",
   "example_es": "Las organizaciones ayudan.",
-  "rank": 1745,
+  "rank": 1785,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19201,7 +19641,7 @@
   "category": "verbos comunes",
   "example": "Eu passei na escola.",
   "example_es": "Yo pasé en la escuela.",
-  "rank": 1746,
+  "rank": 1786,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19212,7 +19652,7 @@
   "category": "verbos comunes",
   "example": "Eu vou perguntar.",
   "example_es": "Voy a preguntar.",
-  "rank": 1747,
+  "rank": 1787,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19223,7 +19663,7 @@
   "category": "emociones y carácter",
   "example": "Há perigo no rio.",
   "example_es": "Hay peligro en el río.",
-  "rank": 1748,
+  "rank": 1788,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19234,7 +19674,7 @@
   "category": "casa",
   "example": "Ela deixou uma pista.",
   "example_es": "Ella dejó una pista.",
-  "rank": 1749,
+  "rank": 1789,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19245,7 +19685,7 @@
   "category": "adjetivos comunes",
   "example": "O potencial é alto.",
   "example_es": "El potencial es alto.",
-  "rank": 1750,
+  "rank": 1790,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19256,7 +19696,7 @@
   "category": "tiempo y calendario",
   "example": "O princípio é simples.",
   "example_es": "El principio es simple.",
-  "rank": 1751,
+  "rank": 1791,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19267,7 +19707,7 @@
   "category": "emociones y carácter",
   "example": "Ele sentiu raiva.",
   "example_es": "Él sintió ira.",
-  "rank": 1752,
+  "rank": 1792,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19278,7 +19718,7 @@
   "category": "ciudad y lugares",
   "example": "Os sites são úteis.",
   "example_es": "Los sitios son útiles.",
-  "rank": 1753,
+  "rank": 1793,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19289,7 +19729,7 @@
   "category": "casa",
   "example": "O sítio está longe.",
   "example_es": "El sitio está lejos.",
-  "rank": 1754,
+  "rank": 1794,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19300,7 +19740,7 @@
   "category": "adjetivos comunes",
   "example": "Tantos são bons.",
   "example_es": "Tantos son buenos.",
-  "rank": 1755,
+  "rank": 1795,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19311,7 +19751,7 @@
   "category": "casa",
   "example": "Ele está no top.",
   "example_es": "Él está en el top.",
-  "rank": 1756,
+  "rank": 1796,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19322,7 +19762,7 @@
   "category": "compras y dinero",
   "example": "Eu vou vender carro.",
   "example_es": "Voy a vender coche.",
-  "rank": 1757,
+  "rank": 1797,
   "level": "B1",
   "zipf": 4.7
  },
@@ -19333,7 +19773,7 @@
   "category": "casa",
   "example": "Ele mora em apartamento.",
   "example_es": "Él vive en apartamento.",
-  "rank": 1758,
+  "rank": 1798,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19344,7 +19784,7 @@
   "category": "cuerpo y salud",
   "example": "A arma é perigosa.",
   "example_es": "El arma es peligrosa.",
-  "rank": 1759,
+  "rank": 1799,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19355,7 +19795,7 @@
   "category": "casa",
   "example": "O cenário mudou.",
   "example_es": "El escenario cambió.",
-  "rank": 1760,
+  "rank": 1800,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19366,7 +19806,7 @@
   "category": "trabajo y estudios",
   "example": "Os clientes esperam atendimento",
   "example_es": "Los clientes esperan atención",
-  "rank": 1761,
+  "rank": 1801,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19377,7 +19817,7 @@
   "category": "otros",
   "example": "O complexo de edifícios é enorme",
   "example_es": "El complejo de edificios es enorme",
-  "rank": 1762,
+  "rank": 1802,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19388,7 +19828,7 @@
   "category": "trabajo y estudios",
   "example": "A conferência começou às 9h",
   "example_es": "La conferencia comenzó a las 9h",
-  "rank": 1763,
+  "rank": 1803,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19399,7 +19839,7 @@
   "category": "verbos comunes",
   "example": "Confira o seu e‑mail",
   "example_es": "Verifica tu correo",
-  "rank": 1764,
+  "rank": 1804,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19410,7 +19850,7 @@
   "category": "verbos comunes",
   "example": "Eles deram o presente",
   "example_es": "Ellos dieron el regalo",
-  "rank": 1765,
+  "rank": 1805,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19421,7 +19861,7 @@
   "category": "verbos comunes",
   "example": "Vamos discutir o plano",
   "example_es": "Vamos discutir el plan",
-  "rank": 1766,
+  "rank": 1806,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19432,7 +19872,7 @@
   "category": "tiempo y calendario",
   "example": "O dom de amanhã é livre",
   "example_es": "El domingo de mañana es libre",
-  "rank": 1767,
+  "rank": 1807,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19443,7 +19883,7 @@
   "category": "palabras funcionales",
   "example": "Estou em casa",
   "example_es": "Estoy en casa",
-  "rank": 1768,
+  "rank": 1808,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19454,7 +19894,7 @@
   "category": "otros",
   "example": "Comete erros frequentes",
   "example_es": "Comete errores frecuentes",
-  "rank": 1769,
+  "rank": 1809,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19465,7 +19905,7 @@
   "category": "emociones y carácter",
   "example": "O esforço vale a pena",
   "example_es": "El esfuerzo vale la pena",
-  "rank": 1770,
+  "rank": 1810,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19476,7 +19916,7 @@
   "category": "otros",
   "example": "A cultura europeia é diversa",
   "example_es": "La cultura europea es diversa",
-  "rank": 1771,
+  "rank": 1811,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19487,7 +19927,7 @@
   "category": "otros",
   "example": "O café está excelente",
   "example_es": "El café está excelente",
-  "rank": 1772,
+  "rank": 1812,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19498,7 +19938,7 @@
   "category": "verbos comunes",
   "example": "Falam a verdade",
   "example_es": "Hablen la verdad",
-  "rank": 1773,
+  "rank": 1813,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19509,7 +19949,7 @@
   "category": "verbos comunes",
   "example": "Eu faria isso",
   "example_es": "Yo haría eso",
-  "rank": 1774,
+  "rank": 1814,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19520,7 +19960,7 @@
   "category": "otros",
   "example": "A figura é geométrica",
   "example_es": "La figura es geométrica",
-  "rank": 1775,
+  "rank": 1815,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19531,7 +19971,7 @@
   "category": "comida y bebida",
   "example": "A folha de papel é branca",
   "example_es": "La hoja de papel es blanca",
-  "rank": 1776,
+  "rank": 1816,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19542,7 +19982,7 @@
   "category": "ciudad y lugares",
   "example": "Os habitantes são amigáveis",
   "example_es": "Los habitantes son amigables",
-  "rank": 1777,
+  "rank": 1817,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19553,7 +19993,7 @@
   "category": "emociones y carácter",
   "example": "A infância é feliz",
   "example_es": "La infancia es feliz",
-  "rank": 1778,
+  "rank": 1818,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19564,7 +20004,7 @@
   "category": "palabras funcionales",
   "example": "It está pronto",
   "example_es": "Eso está listo",
-  "rank": 1779,
+  "rank": 1819,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19575,7 +20015,7 @@
   "category": "otros",
   "example": "Os marcos são de madeira",
   "example_es": "Los marcos son de madera",
-  "rank": 1780,
+  "rank": 1820,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19586,7 +20026,7 @@
   "category": "otros",
   "example": "O mau tempo atrapalha",
   "example_es": "El mal tiempo atrapa",
-  "rank": 1781,
+  "rank": 1821,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19597,7 +20037,7 @@
   "category": "palabras funcionales",
   "example": "Vim naquela noite",
   "example_es": "Vine aquella noche",
-  "rank": 1782,
+  "rank": 1822,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19608,7 +20048,7 @@
   "category": "palabras funcionales",
   "example": "Fico nela",
   "example_es": "Quedo en ella",
-  "rank": 1783,
+  "rank": 1823,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19619,7 +20059,7 @@
   "category": "verbos comunes",
   "example": "Ele oferece ajuda",
   "example_es": "Él ofrece ayuda",
-  "rank": 1784,
+  "rank": 1824,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19630,7 +20070,7 @@
   "category": "otros",
   "example": "Peter é amigo",
   "example_es": "Peter es amigo",
-  "rank": 1785,
+  "rank": 1825,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19641,7 +20081,7 @@
   "category": "verbos comunes",
   "example": "Preciso ajuda",
   "example_es": "Necesito ayuda",
-  "rank": 1786,
+  "rank": 1826,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19652,7 +20092,7 @@
   "category": "comida y bebida",
   "example": "O pão está quente",
   "example_es": "El pan está caliente",
-  "rank": 1787,
+  "rank": 1827,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19663,7 +20103,7 @@
   "category": "otros",
   "example": "Meu querido amigo",
   "example_es": "Mi querido amigo",
-  "rank": 1788,
+  "rank": 1828,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19674,7 +20114,7 @@
   "category": "compras y dinero",
   "example": "Faça a reserva",
   "example_es": "Haz la reserva",
-  "rank": 1789,
+  "rank": 1829,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19685,7 +20125,7 @@
   "category": "comunicación",
   "example": "As respostas são claras",
   "example_es": "Las respuestas son claras",
-  "rank": 1790,
+  "rank": 1830,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19696,7 +20136,7 @@
   "category": "otros",
   "example": "Ele é russo",
   "example_es": "Él es ruso",
-  "rank": 1791,
+  "rank": 1831,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19707,7 +20147,7 @@
   "category": "otros",
   "example": "San es un santo",
   "example_es": "San es un santo",
-  "rank": 1792,
+  "rank": 1832,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19718,7 +20158,7 @@
   "category": "otros",
   "example": "A estrada é segura",
   "example_es": "La carretera es segura",
-  "rank": 1793,
+  "rank": 1833,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19729,7 +20169,7 @@
   "category": "otros",
   "example": "Os sinais são claros",
   "example_es": "Las señales son claras",
-  "rank": 1794,
+  "rank": 1834,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19740,7 +20180,7 @@
   "category": "otros",
   "example": "Socorro!",
   "example_es": "¡Socorro!",
-  "rank": 1795,
+  "rank": 1835,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19751,7 +20191,7 @@
   "category": "tecnología",
   "example": "A tela está brilhante",
   "example_es": "La pantalla está brillante",
-  "rank": 1796,
+  "rank": 1836,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19762,7 +20202,7 @@
   "category": "otros",
   "example": "A tira de papel",
   "example_es": "La tira de papel",
-  "rank": 1797,
+  "rank": 1837,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19773,7 +20213,7 @@
   "category": "naturaleza y clima",
   "example": "O vento sopra forte",
   "example_es": "El viento sopla fuerte",
-  "rank": 1798,
+  "rank": 1838,
   "level": "B1",
   "zipf": 4.69
  },
@@ -19784,7 +20224,7 @@
   "category": "otros",
   "example": "Ele é antiético.",
   "example_es": "Es antiético.",
-  "rank": 1799,
+  "rank": 1839,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19795,7 +20235,7 @@
   "category": "otros",
   "example": "Guarde os arquivos em nuvem.",
   "example_es": "Guarde los archivos en la nube.",
-  "rank": 1800,
+  "rank": 1840,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19806,7 +20246,7 @@
   "category": "emociones y carácter",
   "example": "Ela tem uma atitude positiva.",
   "example_es": "Ella tiene una actitud positiva.",
-  "rank": 1801,
+  "rank": 1841,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19817,7 +20257,7 @@
   "category": "otros",
   "example": "O filme é baseado em fatos reais.",
   "example_es": "La película está basada en hechos reales.",
-  "rank": 1802,
+  "rank": 1842,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19828,7 +20268,7 @@
   "category": "cuerpo y salud",
   "example": "Ele perdeu a bateria do celular.",
   "example_es": "Perdió la batería del celular.",
-  "rank": 1803,
+  "rank": 1843,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19839,7 +20279,7 @@
   "category": "personas y familia",
   "example": "Eles vão casar no próximo mês.",
   "example_es": "Ellos se casarán el próximo mes.",
-  "rank": 1804,
+  "rank": 1844,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19850,7 +20290,7 @@
   "category": "otros",
   "example": "Os convidados chegaram cedo.",
   "example_es": "Los invitados llegaron temprano.",
-  "rank": 1805,
+  "rank": 1845,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19861,7 +20301,7 @@
   "category": "otros",
   "example": "A cobertura do jornal é ampla.",
   "example_es": "La cobertura del periódico es amplia.",
-  "rank": 1806,
+  "rank": 1846,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19872,7 +20312,7 @@
   "category": "otros",
   "example": "O relatório está completo.",
   "example_es": "El informe está completo.",
-  "rank": 1807,
+  "rank": 1847,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19883,7 +20323,7 @@
   "category": "cuerpo y salud",
   "example": "Os corpos foram encontrados no rio.",
   "example_es": "Los cuerpos fueron encontrados en el río.",
-  "rank": 1808,
+  "rank": 1848,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19894,7 +20334,7 @@
   "category": "otros",
   "example": "A planta cresce rápido.",
   "example_es": "La planta crece rápido.",
-  "rank": 1809,
+  "rank": 1849,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19905,7 +20345,7 @@
   "category": "emociones y carácter",
   "example": "Ele recebeu críticas negativas.",
   "example_es": "Recibió críticas negativas.",
-  "rank": 1810,
+  "rank": 1850,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19916,7 +20356,7 @@
   "category": "otros",
   "example": "A declaração foi publicada.",
   "example_es": "La declaración fue publicada.",
-  "rank": 1811,
+  "rank": 1851,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19927,7 +20367,7 @@
   "category": "otros",
   "example": "Ele escolheu destas opções.",
   "example_es": "Eligió esas opciones.",
-  "rank": 1812,
+  "rank": 1852,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19938,7 +20378,7 @@
   "category": "otros",
   "example": "Diga a verdade.",
   "example_es": "Di la verdad.",
-  "rank": 1813,
+  "rank": 1853,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19949,7 +20389,7 @@
   "category": "emociones y carácter",
   "example": "A discussão foi acalorada.",
   "example_es": "La discusión fue acalorada.",
-  "rank": 1814,
+  "rank": 1854,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19960,7 +20400,7 @@
   "category": "otros",
   "example": "Ele assinou o documento.",
   "example_es": "Firmó el documento.",
-  "rank": 1815,
+  "rank": 1855,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19971,7 +20411,7 @@
   "category": "personas y familia",
   "example": "O dono do restaurante é amigo.",
   "example_es": "El dueño del restaurante es amigo.",
-  "rank": 1816,
+  "rank": 1856,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19982,7 +20422,7 @@
   "category": "otros",
   "example": "A emergência exigiu evacuação.",
   "example_es": "La emergencia exigió evacuación.",
-  "rank": 1817,
+  "rank": 1857,
   "level": "B1",
   "zipf": 4.68
  },
@@ -19993,7 +20433,7 @@
   "category": "otros",
   "example": "Eles encontram soluções.",
   "example_es": "Encuentran soluciones.",
-  "rank": 1818,
+  "rank": 1858,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20004,7 +20444,7 @@
   "category": "otros",
   "example": "A estrela brilhante.",
   "example_es": "La estrella brillante.",
-  "rank": 1819,
+  "rank": 1859,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20015,7 +20455,7 @@
   "category": "emociones y carácter",
   "example": "Ele compartilhou experiências.",
   "example_es": "Compartió experiencias.",
-  "rank": 1820,
+  "rank": 1860,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20026,7 +20466,7 @@
   "category": "otros",
   "example": "Ele é extremamente talentoso.",
   "example_es": "Es extremadamente talentoso.",
-  "rank": 1821,
+  "rank": 1861,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20037,7 +20477,7 @@
   "category": "otros",
   "example": "Feche a porta.",
   "example_es": "Cierre la puerta.",
-  "rank": 1822,
+  "rank": 1862,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20048,7 +20488,7 @@
   "category": "otros",
   "example": "É fundamental estudar.",
   "example_es": "Es fundamental estudiar.",
-  "rank": 1823,
+  "rank": 1863,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20059,7 +20499,7 @@
   "category": "otros",
   "example": "A independência foi celebrada.",
   "example_es": "La independencia fue celebrada.",
-  "rank": 1824,
+  "rank": 1864,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20070,7 +20510,7 @@
   "category": "naturaleza y clima",
   "example": "O leão rugiu.",
   "example_es": "El león rugió.",
-  "rank": 1825,
+  "rank": 1865,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20081,7 +20521,7 @@
   "category": "otros",
   "example": "A localização é exata.",
   "example_es": "La localización es exacta.",
-  "rank": 1826,
+  "rank": 1866,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20092,7 +20532,7 @@
   "category": "otros",
   "example": "O mínimo é 10.",
   "example_es": "El mínimo es 10.",
-  "rank": 1827,
+  "rank": 1867,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20103,7 +20543,7 @@
   "category": "otros",
   "example": "Ela tem cabelos negros.",
   "example_es": "Ella tiene cabello negro.",
-  "rank": 1828,
+  "rank": 1868,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20114,7 +20554,7 @@
   "category": "otros",
   "example": "Eu perdi o livro.",
   "example_es": "Perdí el libro.",
-  "rank": 1829,
+  "rank": 1869,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20125,7 +20565,7 @@
   "category": "trabajo y estudios",
   "example": "As pesquisas avançam.",
   "example_es": "Las investigaciones avanzan.",
-  "rank": 1830,
+  "rank": 1870,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20136,7 +20576,7 @@
   "category": "otros",
   "example": "Eles poderiam ajudar.",
   "example_es": "Podrían ayudar.",
-  "rank": 1831,
+  "rank": 1871,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20147,7 +20587,7 @@
   "category": "trabajo y estudios",
   "example": "A presidência mudou.",
   "example_es": "La presidencia cambió.",
-  "rank": 1832,
+  "rank": 1872,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20158,7 +20598,7 @@
   "category": "compras y dinero",
   "example": "Os preços subiram.",
   "example_es": "Los precios subieron.",
-  "rank": 1833,
+  "rank": 1873,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20169,7 +20609,7 @@
   "category": "casa",
   "example": "Ele pintou um quadro.",
   "example_es": "Pintó un cuadro.",
-  "rank": 1834,
+  "rank": 1874,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20180,7 +20620,7 @@
   "category": "otros",
   "example": "Quantas são necessárias?",
   "example_es": "¿Cuántas son necesarias?",
-  "rank": 1835,
+  "rank": 1875,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20191,7 +20631,7 @@
   "category": "naturaleza y clima",
   "example": "O raio caiu.",
   "example_es": "El rayo cayó.",
-  "rank": 1836,
+  "rank": 1876,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20202,7 +20642,7 @@
   "category": "otros",
   "example": "Ele refere a problema.",
   "example_es": "Se refiere al problema.",
-  "rank": 1837,
+  "rank": 1877,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20213,7 +20653,7 @@
   "category": "otros",
   "example": "Ela tem uma vida rica.",
   "example_es": "Ella tiene una vida rica.",
-  "rank": 1838,
+  "rank": 1878,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20224,7 +20664,7 @@
   "category": "trabajo y estudios",
   "example": "O Senado aprovou a lei.",
   "example_es": "El Senado aprobó la ley.",
-  "rank": 1839,
+  "rank": 1879,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20235,7 +20675,7 @@
   "category": "trabajo y estudios",
   "example": "O senador falou no plenário.",
   "example_es": "El senador habló en el pleno.",
-  "rank": 1840,
+  "rank": 1880,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20246,7 +20686,7 @@
   "category": "tecnología",
   "example": "A transmissão começou às 20h.",
   "example_es": "La transmisión comenzó a las 20h.",
-  "rank": 1841,
+  "rank": 1881,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20257,7 +20697,7 @@
   "category": "viajes y transporte",
   "example": "Ele gosta de viajar para o exterior.",
   "example_es": "Le gusta viajar al exterior.",
-  "rank": 1842,
+  "rank": 1882,
   "level": "B1",
   "zipf": 4.68
  },
@@ -20268,7 +20708,7 @@
   "category": "otros",
   "example": "All são necessários.",
   "example_es": "Todos son necesarios.",
-  "rank": 1843,
+  "rank": 1883,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20279,7 +20719,7 @@
   "category": "otros",
   "example": "Ele apresentou o relatório.",
   "example_es": "Presentó el informe.",
-  "rank": 1844,
+  "rank": 1884,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20290,7 +20730,7 @@
   "category": "otros",
   "example": "A audiência foi grande.",
   "example_es": "La audiencia fue grande.",
-  "rank": 1845,
+  "rank": 1885,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20301,7 +20741,7 @@
   "category": "otros",
   "example": "BR é o país.",
   "example_es": "BR es el país.",
-  "rank": 1846,
+  "rank": 1886,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20312,7 +20752,7 @@
   "category": "otros",
   "example": "CO é a empresa.",
   "example_es": "CO es la empresa.",
-  "rank": 1847,
+  "rank": 1887,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20323,7 +20763,7 @@
   "category": "otros",
   "example": "Eles conseguem vencer.",
   "example_es": "Logran vencer.",
-  "rank": 1848,
+  "rank": 1888,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20334,7 +20774,7 @@
   "category": "otros",
   "example": "Ela defende os direitos.",
   "example_es": "Defiende los derechos.",
-  "rank": 1849,
+  "rank": 1889,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20345,7 +20785,7 @@
   "category": "otros",
   "example": "O desempenho melhorou.",
   "example_es": "El rendimiento mejoró.",
-  "rank": 1850,
+  "rank": 1890,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20356,7 +20796,7 @@
   "category": "otros",
   "example": "Ele dizia que era falso.",
   "example_es": "Dijera que era falso.",
-  "rank": 1851,
+  "rank": 1891,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20367,7 +20807,7 @@
   "category": "otros",
   "example": "Ele encontrou a chave.",
   "example_es": "Encontró la llave.",
-  "rank": 1852,
+  "rank": 1892,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20378,7 +20818,7 @@
   "category": "trabajo y estudios",
   "example": "Ele estudia engenharia.",
   "example_es": "Estudia ingeniería.",
-  "rank": 1853,
+  "rank": 1893,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20389,7 +20829,7 @@
   "category": "otros",
   "example": "Fomos ao cinema.",
   "example_es": "Fuimos al cine.",
-  "rank": 1854,
+  "rank": 1894,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20400,7 +20840,7 @@
   "category": "otros",
   "example": "Vim from São Paulo.",
   "example_es": "Vine de São Paulo.",
-  "rank": 1855,
+  "rank": 1895,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20411,7 +20851,7 @@
   "category": "otros",
   "example": "O grau de dificuldade é alto.",
   "example_es": "El grado de dificultad es alto.",
-  "rank": 1856,
+  "rank": 1896,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20422,7 +20862,7 @@
   "category": "otros",
   "example": "Ele vive no inferno.",
   "example_es": "Vive en el infierno.",
-  "rank": 1857,
+  "rank": 1897,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20433,7 +20873,7 @@
   "category": "otros",
   "example": "Le leu o livro.",
   "example_es": "Le leyó el libro.",
-  "rank": 1858,
+  "rank": 1898,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20444,7 +20884,7 @@
   "category": "otros",
   "example": "A cidade está morta.",
   "example_es": "La ciudad está muerta.",
-  "rank": 1859,
+  "rank": 1899,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20455,7 +20895,7 @@
   "category": "ocio y deportes",
   "example": "Ela tem um estilo musical.",
   "example_es": "Tiene un estilo musical.",
-  "rank": 1860,
+  "rank": 1900,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20466,7 +20906,7 @@
   "category": "emociones y carácter",
   "example": "Eu odeio esperar.",
   "example_es": "Odio esperar.",
-  "rank": 1861,
+  "rank": 1901,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20477,7 +20917,7 @@
   "category": "casa",
   "example": "A parede é alta.",
   "example_es": "La pared es alta.",
-  "rank": 1862,
+  "rank": 1902,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20488,7 +20928,7 @@
   "category": "otros",
   "example": "A solução é perfeita.",
   "example_es": "La solución es perfecta.",
-  "rank": 1863,
+  "rank": 1903,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20499,7 +20939,7 @@
   "category": "otros",
   "example": "Ele tem a posse do terreno.",
   "example_es": "Tiene la posesión del terreno.",
-  "rank": 1864,
+  "rank": 1904,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20510,7 +20950,7 @@
   "category": "otros",
   "example": "Poucas pessoas chegaram.",
   "example_es": "Pocas personas llegaron.",
-  "rank": 1865,
+  "rank": 1905,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20521,7 +20961,7 @@
   "category": "otros",
   "example": "O propósito é claro.",
   "example_es": "El propósito es claro.",
-  "rank": 1866,
+  "rank": 1906,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20532,7 +20972,7 @@
   "category": "otros",
   "example": "O registro foi feito.",
   "example_es": "El registro se hizo.",
-  "rank": 1867,
+  "rank": 1907,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20543,7 +20983,7 @@
   "category": "otros",
   "example": "Ele serve café.",
   "example_es": "Sirve café.",
-  "rank": 1868,
+  "rank": 1908,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20554,7 +20994,7 @@
   "category": "otros",
   "example": "O toque foi leve.",
   "example_es": "El toque fue leve.",
-  "rank": 1869,
+  "rank": 1909,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20565,7 +21005,7 @@
   "category": "otros",
   "example": "Eles viram a cena.",
   "example_es": "Vieron la escena.",
-  "rank": 1870,
+  "rank": 1910,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20576,7 +21016,7 @@
   "category": "otros",
   "example": "Vos sois bem-vindos.",
   "example_es": "Ustedes son bienvenidos.",
-  "rank": 1871,
+  "rank": 1911,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20587,7 +21027,7 @@
   "category": "otros",
   "example": "Ele saiu with friends.",
   "example_es": "Salió con amigos.",
-  "rank": 1872,
+  "rank": 1912,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20598,7 +21038,7 @@
   "category": "números y cantidades",
   "example": "O zero é neutro.",
   "example_es": "El cero es neutro.",
-  "rank": 1873,
+  "rank": 1913,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20609,7 +21049,7 @@
   "category": "emociones y carácter",
   "example": "O ódio é perigoso.",
   "example_es": "El odio es peligroso.",
-  "rank": 1874,
+  "rank": 1914,
   "level": "B1",
   "zipf": 4.67
  },
@@ -20620,7 +21060,7 @@
   "category": "otros",
   "example": "Ela anda rápido.",
   "example_es": "Camina rápido.",
-  "rank": 1875,
+  "rank": 1915,
   "level": "B1",
   "zipf": 4.66
  },
@@ -20631,7 +21071,7 @@
   "category": "ocio y deportes",
   "example": "As artes são belas.",
   "example_es": "Las artes son bellas.",
-  "rank": 1876,
+  "rank": 1916,
   "level": "B1",
   "zipf": 4.66
  },
@@ -20642,7 +21082,7 @@
   "category": "otros",
   "example": "Os ataques foram fortes.",
   "example_es": "Los ataques fueron fuertes.",
-  "rank": 1877,
+  "rank": 1917,
   "level": "B1",
   "zipf": 4.66
  }

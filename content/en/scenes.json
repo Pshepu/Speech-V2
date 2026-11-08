@@ -1,0 +1,599 @@
+{
+ "en-03-hotel": {
+  "moves": [
+   {
+    "id": "m1",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "Hello",
+     "Hi there",
+     "Good evening",
+     "Hey",
+     "Hi",
+     "Hello there"
+    ],
+    "reply": "Good evening, welcome to the Riverside Hotel. How can I help you?"
+   },
+   {
+    "id": "m2",
+    "objective": "o1",
+    "requires": [],
+    "examples": [
+     "I have a reservation. My name is Juan Perez.",
+     "I booked a room. I'm Maria Lopez.",
+     "I have a booking. I'm Carlos.",
+     "I have a reservation, name is Ana.",
+     "I have a reservation, my name is Luis.",
+     "I have a reservation, I'm Sofia."
+    ],
+    "reply": "Let me check, please. Can you spell your surname for me, letter by letter?"
+   },
+   {
+    "id": "m3",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "Sorry, I don’t understand.",
+     "Can you repeat that?",
+     "I didn’t catch that.",
+     "Could you say that again?",
+     "Pardon?",
+     "What did you say?"
+    ],
+    "reply": "I’m sorry, could you say that again, please?"
+   },
+   {
+    "id": "m4",
+    "objective": "o2",
+    "requires": [
+     "m2"
+    ],
+    "examples": [
+     "P-E-R-E-Z",
+     "L-O-P-E-Z",
+     "G-A-R-C-Í-A\\",
+     "G-A-R-C-I-A",
+     "R-O-D-R-I-G-U-E-Z",
+     "R-O-D-R-I-G-U-E-Z"
+    ],
+    "reply": "Thank you. I found your booking now. You have a room 304 on the third floor."
+   },
+   {
+    "id": "m5",
+    "objective": null,
+    "requires": [
+     "m4"
+    ],
+    "examples": [
+     "Thank you",
+     "Thanks",
+     "Great",
+     "Okay",
+     "Alright",
+     "Got it"
+    ],
+    "reply": "You’re welcome. Let me know if you need anything else."
+   },
+   {
+    "id": "m6",
+    "objective": "o3",
+    "requires": [
+     "m4"
+    ],
+    "examples": [
+     "What is the Wi‑Fi password?",
+     "Can I have the Wi‑Fi code?",
+     "Wi‑Fi password please",
+     "How do I connect to the internet?",
+     "What’s the Wi‑Fi?",
+     "Give me the Wi‑Fi password"
+    ],
+    "reply": "The Wi‑Fi password is THAMES2024. Enjoy your stay!"
+   },
+   {
+    "id": "m7",
+    "objective": "o4",
+    "requires": [
+     "m4"
+    ],
+    "examples": [
+     "When is breakfast?",
+     "What time is breakfast?",
+     "Breakfast hours?",
+     "When do you serve breakfast?",
+     "What time does breakfast start?",
+     "Breakfast schedule?"
+    ],
+    "reply": "Breakfast is served from 7 to 10 a.m. in the garden room."
+   },
+   {
+    "id": "m8",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "Can you speak slowly?",
+     "Please speak slower.",
+     "Slow down, please.",
+     "Could you say it slower?",
+     "Speak a bit slower, please.",
+     "I need you to speak slowly."
+    ],
+    "reply": "Of course, I will speak more slowly."
+   },
+   {
+    "id": "m9",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "How are you?",
+     "Nice weather today, isn’t it?",
+     "Is it busy tonight?",
+     "Do you work here often?",
+     "How’s your day?",
+     "Nice to meet you."
+    ],
+    "reply": "It’s a pleasant evening, thank you. How can I assist you further?"
+   },
+   {
+    "id": "m10",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "Thank you for your help",
+     "Thanks a lot",
+     "I appreciate it",
+     "Thank you",
+     "Much appreciated",
+     "Thanks"
+    ],
+    "reply": "You’re very welcome. Have a wonderful stay!"
+   },
+   {
+    "id": "m11",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "Goodbye",
+     "Bye",
+     "See you later",
+     "I’m leaving",
+     "That’s all, thanks",
+     "I have to go"
+    ],
+    "reply": "Goodbye and enjoy your stay at the Riverside Hotel!"
+   }
+  ],
+  "nudges": {
+   "o1": "May I have your name, please?"
+  },
+  "fallback": [
+   "I’m sorry, could you repeat that?",
+   "I didn’t understand, could you say it again?"
+  ],
+  "closing": "Enjoy your stay, and let us know if you need anything else."
+ },
+ "en-04-coffee": {
+  "moves": [
+   {
+    "id": "m1",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "Hi!",
+     "Hey there!",
+     "Hello!",
+     "Good morning!",
+     "Hi mate!",
+     "Hey!"
+    ],
+    "reply": "Hey mate, what can I get you?"
+   },
+   {
+    "id": "m2",
+    "objective": "o1",
+    "requires": [
+     "m1"
+    ],
+    "examples": [
+     "I’d like a medium latte with soy milk, please.",
+     "Can I have a large latte with almond milk?",
+     "I want a small latte, skimmed milk please.",
+     "May I get a medium latte, soy milk?",
+     "Give me a latte, medium size, almond milk.",
+     "A medium latte with skimmed milk, thanks."
+    ],
+    "reply": "Sure, a medium latte with that milk. Anything else?"
+   },
+   {
+    "id": "m3",
+    "objective": "o1",
+    "requires": [
+     "m1"
+    ],
+    "examples": [
+     "Do you have oat milk?",
+     "Can I get oat milk in my latte?",
+     "Is oat milk available?",
+     "I’d like oat milk, please.",
+     "Do you sell oat milk?",
+     "Can I have oat milk?"
+    ],
+    "reply": "Sorry mate, we’re out of oat milk today. We have soy, almond, whole or skimmed."
+   },
+   {
+    "id": "m4",
+    "objective": "o2",
+    "requires": [
+     "m2",
+     "m3"
+    ],
+    "examples": [
+     "I’ll also have a croissant, please.",
+     "Can I get a cheese toastie?",
+     "I’d like a banana bread.",
+     "One banana bread, please.",
+     "Give me a cheese toastie and a croissant.",
+     "I want a banana bread and a toastie."
+    ],
+    "reply": "Got it. Croissant is £2.50, toastie £5, banana bread £3.00. Anything else?"
+   },
+   {
+    "id": "m5",
+    "objective": "o3",
+    "requires": [
+     "m4"
+    ],
+    "examples": [
+     "Does the banana bread have nuts?",
+     "Are there nuts in the toastie?",
+     "Any nuts in the croissant?",
+     "Is there any nut in the banana bread?",
+     "Do you have nuts in any of these?",
+     "Are any of these containing nuts?"
+    ],
+    "reply": "The banana bread has walnuts. The cheese toastie and croissant have no nuts."
+   },
+   {
+    "id": "m6",
+    "objective": "o3",
+    "requires": [
+     "m5"
+    ],
+    "examples": [
+     "What about the cheese toastie?",
+     "Is the toastie nut‑free?",
+     "No nuts in the toastie?",
+     "Croissant has nuts?",
+     "Does the croissant contain nuts?",
+     "Any nuts in the croissant?"
+    ],
+    "reply": "The cheese toastie is nut‑free, as is the croissant."
+   },
+   {
+    "id": "m7",
+    "objective": null,
+    "requires": [
+     "m5"
+    ],
+    "examples": [
+     "Can you repeat that?",
+     "Sorry, could you say that again?",
+     "I didn’t catch that, please repeat.",
+     "Could you say it once more?",
+     "Pardon, repeat please?",
+     "Sorry, repeat?",
+     "Can you say it slower?",
+     "Please speak slowly."
+    ],
+    "reply": "Sure, the banana bread has walnuts. The toastie and croissant have no nuts."
+   },
+   {
+    "id": "m8",
+    "objective": null,
+    "requires": [
+     "m2",
+     "m4"
+    ],
+    "examples": [
+     "To have here or take away?",
+     "Is this for here or to go?",
+     "Do you want it to eat here or take away?",
+     "Here or take away?",
+     "Eat in or take out?",
+     "For here or to go?"
+    ],
+    "reply": "For here or take away, mate?"
+   },
+   {
+    "id": "m9",
+    "objective": null,
+    "requires": [
+     "m8"
+    ],
+    "examples": [
+     "I’ll take it to go, please.",
+     "Here, please.",
+     "Take away, thanks.",
+     "I’ll eat here, thanks.",
+     "For here, thanks.",
+     "Take out, please."
+    ],
+    "reply": "All right, take away it is."
+   },
+   {
+    "id": "m10",
+    "objective": "o4",
+    "requires": [
+     "m9"
+    ],
+    "examples": [
+     "That’ll be £?",
+     "How much do I owe?",
+     "What’s the total?",
+     "Can I pay now?",
+     "How much is it?",
+     "What’s the price?",
+     "Pay please."
+    ],
+    "reply": "That’s £11.30 total. Cash or card?"
+   },
+   {
+    "id": "m11",
+    "objective": "o4",
+    "requires": [
+     "m10"
+    ],
+    "examples": [
+     "Card, please.",
+     "I’ll pay with card.",
+     "Cash, thanks.",
+     "Here’s cash.",
+     "Paying with card.",
+     "Cash is fine."
+    ],
+    "reply": "Payment done, thank you!"
+   },
+   {
+    "id": "m12",
+    "objective": null,
+    "requires": [
+     "m11"
+    ],
+    "examples": [
+     "Thanks!",
+     "Thank you!",
+     "Cheers!",
+     "Thanks a lot!",
+     "Much appreciated!",
+     "Ta!"
+    ],
+    "reply": "You’re welcome, mate!"
+   },
+   {
+    "id": "m13",
+    "objective": null,
+    "requires": [
+     "m12"
+    ],
+    "examples": [
+     "Bye!",
+     "Goodbye!",
+     "See you!",
+     "Catch you later!",
+     "Later!",
+     "See ya!"
+    ],
+    "reply": "See you next time, mate!"
+   },
+   {
+    "id": "m14",
+    "objective": null,
+    "requires": [
+     "m2"
+    ],
+    "examples": [
+     "It’s busy today, huh?",
+     "How’s the shop today?",
+     "Lots of customers?",
+     "Busy day?",
+     "Nice weather today?",
+     "How’s it going?"
+    ],
+    "reply": "Yeah, it’s a hectic morning but we’re hanging in there!"
+   }
+  ],
+  "nudges": {
+   "o1": "What size and milk would you like for your latte?"
+  },
+  "fallback": [
+   "Sorry, could you say that again?",
+   "I didn’t catch that, can you repeat?"
+  ],
+  "closing": "Thanks for coming, have a great day!"
+ },
+ "en-05-directions": {
+  "moves": [
+   {
+    "id": "m1",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "Hello!",
+     "Hi there!",
+     "Good morning!",
+     "Hey!",
+     "Hi!",
+     "Hello dear!"
+    ],
+    "reply": "Oh hello dear, you look a bit lost. Can I help you?"
+   },
+   {
+    "id": "m2",
+    "objective": "o1",
+    "requires": [],
+    "examples": [
+     "Can you tell me about the school nearby?",
+     "Do you know any good schools here?",
+     "Where can I find a school?",
+     "Is there a school around here?",
+     "I need information about education.",
+     "Can you help me with education?"
+    ],
+    "reply": "Why, yes dear, there is a lovely primary school just a few streets away, they have a nice garden for the children."
+   },
+   {
+    "id": "m3",
+    "objective": "o2",
+    "requires": [],
+    "examples": [
+     "Excuse me, where is the pharmacy?",
+     "Can you tell me where the pharmacy is?",
+     "I need to find a pharmacy, please.",
+     "Where can I get some medicine?",
+     "Is there a pharmacy nearby?",
+     "Do you know the pharmacy location?"
+    ],
+    "reply": "The nearest pharmacy is Boots. You need to go straight on for two blocks, then turn left at the red post box. It's opposite the Italian restaurant, next to a bank."
+   },
+   {
+    "id": "m4",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "Sorry, could you say that again?",
+     "Can you repeat the directions?",
+     "I didn't catch that, please repeat.",
+     "Could you speak a little slower?",
+     "Can you say it again slowly?",
+     "Pardon, repeat please?"
+    ],
+    "reply": "Of course dear, I’ll say it again slowly: straight for two blocks, left at the red post box, opposite the Italian restaurant, next to a bank."
+   },
+   {
+    "id": "m5",
+    "objective": "o3",
+    "requires": [
+     "m3"
+    ],
+    "examples": [
+     "So I go straight two blocks, left at the red post box, opposite the restaurant, next to the bank?",
+     "Let me repeat: straight two blocks, left at the red post box, opposite the Italian place, next to a bank. Is that right?",
+     "I think it's straight two blocks, left at the red post box, opposite the Italian restaurant, next to the bank. Correct?",
+     "Is it: straight two blocks, left at the red post box, opposite the Italian restaurant, next to a bank?",
+     "I will say it: straight two blocks, left at the red post box, opposite the Italian restaurant, next to a bank. Right?",
+     "Straight two blocks, then left at the red post box, opposite the Italian restaurant, next to the bank. Yes?"
+    ],
+    "reply": "Exactly right, dear! That’s the way to Boots."
+   },
+   {
+    "id": "m6",
+    "objective": "o4",
+    "requires": [
+     "m3"
+    ],
+    "examples": [
+     "How long does it take to walk there?",
+     "How many minutes is the walk?",
+     "Is it a long walk?",
+     "How far is it?",
+     "How much time do I need?",
+     "Can you tell me the walking time?"
+    ],
+    "reply": "It’s about five minutes on foot, nice and easy."
+   },
+   {
+    "id": "m7",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "Oh no, the pharmacy closed early today.",
+     "What? The pharmacy is closed?",
+     "I heard the closer pharmacy is closed early.",
+     "Is the pharmacy open?",
+     "Did the pharmacy close?",
+     "The pharmacy closed early today?"
+    ],
+    "reply": "Ah, the closer one did close early, but Boots is still open for you."
+   },
+   {
+    "id": "m8",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "What a nice day!",
+     "Lovely weather, isn’t it?",
+     "Beautiful day today, isn’t it?",
+     "Nice weather today!",
+     "It’s a sunny day, isn’t it?",
+     "What a pleasant day!"
+    ],
+    "reply": "Yes, it’s a wonderful day for a walk with my dog, isn’t it?"
+   },
+   {
+    "id": "m9",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "Thank you for your help!",
+     "Thanks a lot!",
+     "I appreciate it, thank you!",
+     "Thank you, dear!",
+     "Thanks, that was helpful!",
+     "Much thanks!"
+    ],
+    "reply": "You’re very welcome, dear. Have a nice walk!"
+   },
+   {
+    "id": "m10",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "Goodbye!",
+     "Bye!",
+     "See you later!",
+     "I’ll go now, goodbye!",
+     "Take care!",
+     "See you!"
+    ],
+    "reply": "Goodbye, dear, and take care on your way!"
+   },
+   {
+    "id": "m11",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "I’m not sure I understood the left turn part.",
+     "Can you point out the red post box?",
+     "Where is the red post box?",
+     "Which way is the left turn?",
+     "How do I know where to turn left?",
+     "What does the red post box look like?"
+    ],
+    "reply": "Look for a bright red post box on the corner after two blocks; that’s where you turn left."
+   },
+   {
+    "id": "m12",
+    "objective": null,
+    "requires": [],
+    "examples": [
+     "Is the Italian restaurant big?",
+     "What’s the name of the Italian restaurant?",
+     "Can you describe the restaurant?",
+     "How does the Italian place look?",
+     "Is the restaurant next to the bank?",
+     "What’s near the pharmacy?"
+    ],
+    "reply": "It’s a small cosy Italian place with a little flag outside, right opposite the pharmacy."
+   }
+  ],
+  "nudges": {
+   "o1": "Do you need any information about schools or education around here?"
+  },
+  "fallback": [
+   "I’m sorry, could you say that again?",
+   "I didn’t quite catch that, could you repeat?"
+  ],
+  "closing": "All set then, dear! Enjoy your walk to Boots and have a lovely day!"
+ }
+}

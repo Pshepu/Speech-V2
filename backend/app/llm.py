@@ -8,6 +8,7 @@ from __future__ import annotations
 import asyncio
 import json
 import re
+import time
 from typing import Any
 
 import httpx
@@ -16,9 +17,61 @@ from . import config
 
 _client: httpx.AsyncClient | None = None
 
+# Quién consume: "app" (tus sesiones) o "generator" (script de contenido). El generador lo cambia.
+SOURCE = "app"
+# Límite diario gratuito de Groq por modelo (ventana móvil de 24 h).
+DAILY_LIMIT = {"openai/gpt-oss-120b": 200_000, "openai/gpt-oss-20b": 200_000, "qwen/qwen3.8-27b": 200_000}
+WINDOW = 24 * 3600
+
 
 class LLMError(Exception):
     pass
+
+
+# ----------------------------------------------------------------- cuota
+
+def _log_usage(model: str, tokens: int):
+    try:
+        from . import db
+        db.execute("INSERT INTO llm_usage(ts, model, source, tokens) VALUES (?,?,?,?)",
+                   (time.time(), model, SOURCE, int(tokens)))
+    except Exception:
+        pass  # el registro nunca debe romper una respuesta
+
+
+def used_24h(model: str, source: str | None = None) -> int:
+    from . import db
+    sql = "SELECT COALESCE(SUM(tokens),0) AS t FROM llm_usage WHERE model=? AND ts>?"
+    params: list = [model, time.time() - WINDOW]
+    if source:
+        sql += " AND source=?"
+        params.append(source)
+    return int(db.one(sql, params)["t"])
+
+
+def _exhausted_until(model: str) -> float:
+    from . import db
+    return float(db.get_setting(f"llm_exhausted_{model}", 0) or 0)
+
+
+def remaining(model: str) -> int:
+    """Tokens que quedan hoy (estimado). 0 si Groq ya avisó de que se agotó."""
+    if _exhausted_until(model) > time.time():
+        return 0
+    return max(0, DAILY_LIMIT.get(model, 200_000) - used_24h(model))
+
+
+def route(models: list[str]) -> list[str]:
+    """Ordena los modelos: primero el que tiene más cuota libre (los agotados al final)."""
+    return sorted(models, key=lambda m: -remaining(m) / DAILY_LIMIT.get(m, 200_000))
+
+
+def budget() -> dict:
+    out = {}
+    for m, lim in DAILY_LIMIT.items():
+        out[m] = {"used": used_24h(m), "used_app": used_24h(m, "app"), "used_generator": used_24h(m, "generator"),
+                  "limit": lim, "remaining": remaining(m)}
+    return out
 
 
 def client() -> httpx.AsyncClient:
@@ -59,14 +112,26 @@ async def chat(
     temperature: float = 0.7,
     max_tokens: int = 2048,
     fallbacks: bool = True,
+    models: list[str] | None = None,
 ) -> Any:
-    """Envía mensajes al modelo. Devuelve str, o dict si json_mode=True."""
+    """Envía mensajes al modelo. Devuelve str, o dict si json_mode=True.
+
+    models: lista de modelos aceptables; se usan en orden de cuota libre (reparte el gasto).
+    """
     if not available():
         raise LLMError("Falta la clave de IA (GROQ_API_KEY) en el archivo .env")
 
-    models = [model or config.LLM_MODEL]
-    if fallbacks:
-        models += [m for m in config.LLM_FALLBACKS if m not in models]
+    if models:
+        # Se respeta el orden pedido, pero los modelos ya agotados hoy pasan al final.
+        models = sorted(models, key=lambda m: remaining(m) == 0)
+        if fallbacks:
+            models += [m for m in [config.LLM_MODEL] + config.LLM_FALLBACKS if m not in models]
+    else:
+        models = [model or config.LLM_MODEL]
+        if fallbacks:
+            models += [m for m in config.LLM_FALLBACKS if m not in models]
+            # Los modelos ya agotados hoy van al final (no perdemos tiempo en ellos).
+            models = sorted(models, key=lambda m: remaining(m) == 0)
 
     last_err = "sin respuesta"
     # Si TODOS los modelos están en su límite por minuto, esperamos lo que indique Groq
@@ -128,6 +193,11 @@ async def _try_models(models, messages, json_mode, temperature, max_tokens):
                     mins = max(1, round(ra / 60))
                     last_err = (f"se agotó el límite DIARIO gratuito de Groq para {m} "
                                 f"(se libera poco a poco; prueba en ~{mins} min)")
+                    try:
+                        from . import db
+                        db.set_setting(f"llm_exhausted_{m}", time.time() + ra)
+                    except Exception:
+                        pass
                 break  # pasa al siguiente modelo
             all_limited = False
             if r.status_code == 400 and "reasoning_effort" in r.text:
@@ -144,7 +214,9 @@ async def _try_models(models, messages, json_mode, temperature, max_tokens):
                 if r.status_code >= 500 or "json_validate_failed" in r.text:
                     continue  # reintento
                 break
-            content = r.json()["choices"][0]["message"].get("content") or ""
+            j = r.json()
+            _log_usage(m, (j.get("usage") or {}).get("total_tokens") or 0)
+            content = j["choices"][0]["message"].get("content") or ""
             if not json_mode:
                 return ("ok", content.strip())
             try:

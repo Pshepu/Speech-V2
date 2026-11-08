@@ -4804,6 +4804,167 @@
     "example": "Thanks for the update",
     "example_es": "Gracias por la actualización",
     "note": "Update es coloquial."
+   },
+   {
+    "t": "wanna → want to",
+    "es": "Querer",
+    "example": "I wanna go to the store.",
+    "example_es": "Quiero ir a la tienda.",
+    "note": "Informal"
+   },
+   {
+    "t": "gonna → going to",
+    "es": "Ir a",
+    "example": "I'm gonna finish this.",
+    "example_es": "Voy a terminar esto.",
+    "note": "Informal"
+   },
+   {
+    "t": "gotta → have to",
+    "es": "Tener que",
+    "example": "I gotta leave now.",
+    "example_es": "Tengo que irme ahora.",
+    "note": "Informal"
+   },
+   {
+    "t": "kinda → kind of",
+    "es": "Un poco",
+    "example": "It's kinda boring.",
+    "example_es": "Es un poco aburrido.",
+    "note": "Informal"
+   },
+   {
+    "t": "sorta → somewhat",
+    "es": "Algo",
+    "example": "He’s sorta tired.",
+    "example_es": "Está algo cansado.",
+    "note": "Informal"
+   },
+   {
+    "t": "y'all → you all",
+    "es": "Ustedes",
+    "example": "Y'all need to listen.",
+    "example_es": "Ustedes necesitan escuchar.",
+    "note": "Informal"
+   },
+   {
+    "t": "ain't → is not",
+    "es": "No es",
+    "example": "She ain't coming.",
+    "example_es": "Ella no viene.",
+    "note": "Informal"
+   },
+   {
+    "t": "dunno → don't know",
+    "es": "No sé",
+    "example": "I dunno what to do.",
+    "example_es": "No sé qué hacer.",
+    "note": "Informal"
+   },
+   {
+    "t": "cuz → because",
+    "es": "Porque",
+    "example": "I’m late cuz traffic.",
+    "example_es": "Estoy tarde porque el tráfico.",
+    "note": "Informal"
+   },
+   {
+    "t": "gimme → give me",
+    "es": "Dame",
+    "example": "Gimme a break.",
+    "example_es": "Dame un descanso.",
+    "note": "Informal"
+   },
+   {
+    "t": "bet → I bet",
+    "es": "Apuesto",
+    "example": "Bet you’re right.",
+    "example_es": "Apuesto que tienes razón.",
+    "note": "Informal"
+   },
+   {
+    "t": "like → as",
+    "es": "Como",
+    "example": "Do it like this.",
+    "example_es": "Hazlo así.",
+    "note": "Informal"
+   },
+   {
+    "t": "sooo → so",
+    "es": "Tan",
+    "example": "Sooo excited!",
+    "example_es": "¡Tan emocionado!",
+    "note": "Informal"
+   },
+   {
+    "t": "w/ → with",
+    "es": "Con",
+    "example": "Let’s do it w/ you.",
+    "example_es": "Hagámoslo contigo.",
+    "note": "Informal"
+   },
+   {
+    "t": "brb → be right back",
+    "es": "Vuelvo pronto",
+    "example": "BRB, need coffee.",
+    "example_es": "Vuelvo pronto, necesito café.",
+    "note": "Informal"
+   },
+   {
+    "t": "idk → I don’t know",
+    "es": "No lo sé",
+    "example": "IDK what happened.",
+    "example_es": "No sé qué pasó.",
+    "note": "Informal"
+   },
+   {
+    "t": "omg → oh my god",
+    "es": "Oh Dios mío",
+    "example": "OMG, that’s crazy!",
+    "example_es": "¡Oh Dios mío, eso es una locura!",
+    "note": "Informal"
+   },
+   {
+    "t": "lol → laughing out loud",
+    "es": "Riendo en voz alta",
+    "example": "That joke was lol.",
+    "example_es": "Esa broma fue reírse en voz alta.",
+    "note": "Informal"
+   },
+   {
+    "t": "tbh → to be honest",
+    "es": "Para ser honesto",
+    "example": "TBH, I don’t like it.",
+    "example_es": "Para ser honesto, no me gusta.",
+    "note": "Informal"
+   },
+   {
+    "t": "c’mon → come on",
+    "es": "Vamos",
+    "example": "C’mon, finish your homework.",
+    "example_es": "Vamos, termina tu tarea.",
+    "note": "Informal"
+   },
+   {
+    "t": "gotcha → I understand",
+    "es": "Entiendo",
+    "example": "Gotcha, I’ll help.",
+    "example_es": "Entiendo, ayudaré.",
+    "note": "Informal"
+   },
+   {
+    "t": "nah → no",
+    "es": "No",
+    "example": "Nah, I’m fine.",
+    "example_es": "No, estoy bien.",
+    "note": "Informal"
+   },
+   {
+    "t": "yikes → oh no",
+    "es": "Ay no",
+    "example": "Yikes, I spilled coffee.",
+    "example_es": "Ay no, derramé café.",
+    "note": "Informal"
    }
   ]
  },

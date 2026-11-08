@@ -108,6 +108,19 @@ def backup_restore(r: RestoreIn):
     return {"ok": True}
 
 
+TOKENS_PER_TURN = 1300  # media aproximada de un turno de misión con instrucciones compactas
+
+
+@router.get("/budget")
+def budget():
+    """Cuota diaria de Groq por modelo y cuántos turnos de misión quedan (aprox.)."""
+    b = llm.budget()
+    usable = sum(v["remaining"] for k, v in b.items() if "gpt-oss" in k)
+    return {"models": b, "turns_left": usable // TOKENS_PER_TURN,
+            "missions_left": usable // (TOKENS_PER_TURN * 10 + 2500),   # con IA en cada turno
+            "missions_left_saver": usable // 3000}                       # en modo ahorro (escena preparada)
+
+
 @router.get("/journey")
 def journey(lang: str | None = None):
     return planner.journey(L(lang))
@@ -951,6 +964,8 @@ def mission_get(mission_id: str, lang: str | None = None):
 class StartIn(BaseModel):
     lang: str = "en"
     mode: str = "entrenamiento"
+    repeat: bool = False
+    engine: str = "scene"  # "scene" = escena preparada (casi sin IA) | "llm" = IA en cada turno
 
 
 @router.post("/missions/{mission_id}/start")
@@ -959,8 +974,12 @@ async def mission_start(mission_id: str, s: StartIn):
     m = missions.get_mission(lang, mission_id)
     if not m:
         raise HTTPException(404, "misión no encontrada")
+    # Repetir la misma tarea con cambios mejora precisión y complejidad (metaanálisis de repetición de tareas).
+    variation = ("change the names, numbers, prices and times, and use a DIFFERENT complication than the usual one; "
+                 "keep the same objectives") if s.repeat else None
     try:
-        return await missions.start_run(lang, m, s.mode if s.mode in ("entrenamiento", "inmersion") else "entrenamiento")
+        return await missions.start_run(lang, m, s.mode if s.mode in ("entrenamiento", "inmersion") else "entrenamiento",
+                                        variation, engine=s.engine if s.engine in ("scene", "llm") else "scene")
     except llm.LLMError as e:
         _llm_error(e)
 

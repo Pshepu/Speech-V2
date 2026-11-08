@@ -167,6 +167,16 @@ CREATE TABLE IF NOT EXISTS assessments (
     ts TEXT NOT NULL
 );
 
+-- Consumo de tokens por modelo (para repartir la cuota diaria de Groq entre modelos)
+CREATE TABLE IF NOT EXISTS llm_usage (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ts REAL NOT NULL,
+    model TEXT NOT NULL,
+    source TEXT NOT NULL DEFAULT 'app',
+    tokens INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_llm_usage ON llm_usage(model, ts);
+
 -- Caché de traducciones rápidas (tocar una palabra/frase para traducir).
 CREATE TABLE IF NOT EXISTS translations (
     lang TEXT NOT NULL,
