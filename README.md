@@ -4,6 +4,12 @@ Aplicación local para aprender **inglés**, **portugués de Brasil**, **alemán
 
 > Evolución de [huytd/speech](https://github.com/huytd/speech) y de mi versión anterior en Rust (`../speech`). Esta versión está reescrita desde cero en Python + Vue.
 
+## Sobre este proyecto
+
+Proyecto personal, diseñado y desarrollado con asistencia de IA. App **local**: el backend corre
+en tu propio equipo (no hay una versión desplegada en la nube), porque usa un modelo de
+pronunciación de ~1,2 GB en CPU. La demo se muestra en video/GIF en vez de un enlace en vivo.
+
 ## Qué incluye
 
 | Módulo | Qué hace |
